@@ -5,8 +5,8 @@ window.__rows=[
 {id:'sf-t200',sku:'SF-T200',name:'Unknown Price Test Treadmill',category:'Treadmills',price:null,priceChecked:false,url:'https://example.com/unknown'}];
 window.__writes=[];window.__downloads=[];let listener;
 const emit=()=>listener?.(structuredClone(window.__rows));
-window.claude={catalogRuntime:{
+window.catalogRuntime={
 user:{can:async()=>!window.__viewer},
 items:{onSnapshot:(next)=>{listener=next;setTimeout(emit,0);return()=>listener=null},set:async(id,value,opt)=>{if(opt?.createOnly&&window.__rows.some(i=>i.id===id))throw Error('Duplicate SKU');window.__writes.push(['set',id]);window.__rows=window.__rows.filter(i=>i.id!==id);window.__rows.push({...value,id});emit()},delete:async(id)=>{window.__writes.push(['delete',id]);window.__rows=window.__rows.filter(i=>i.id!==id);emit()},move:async(old,id,value)=>{if(window.__rows.some(i=>i.id===id))throw Error('Duplicate SKU');window.__rows=window.__rows.filter(i=>i.id!==old);window.__rows.push({...value,id});window.__writes.push(['move',old,id]);emit()}},
 assets:{upload:async f=>({id:'test-picture'}),url:async()=> 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="120" height="90"/%3E'},
-downloads:{save:async(blob,name)=>window.__downloads.push({name,text:await blob.text()})}}};
+downloads:{save:async(blob,name)=>window.__downloads.push({name,text:await blob.text()})}};
