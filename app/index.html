@@ -229,6 +229,7 @@ body.editing .c-act { min-width: 70px; }
 .spec-legend details{flex-basis:100%;font-size:14px;max-width:100%}.spec-legend summary{cursor:pointer;color:var(--fg)}.spec-legend details p{margin:8px 0;max-width:90ch;line-height:1.55}.spec-legend ul{margin:6px 0;padding-left:20px}
 .c-spec{min-width:140px;max-width:205px;font-size:14px;line-height:1.55}.c-spec .spec-value{display:inline-block;padding:6px 9px;border:1px solid transparent;border-radius:4px;max-width:190px;font-weight:500}
 .spec-value.high{background:var(--tier-high-bg);color:var(--tier-high-fg);border-color:var(--tier-high-border)}.spec-value.low{background:var(--tier-low-bg);color:var(--tier-low-fg);border-color:var(--tier-low-border)}.spec-value.unknown{color:var(--muted);font-weight:400}
+.spec-review{display:flex;align-items:center;flex-wrap:wrap;gap:12px;padding:16px;margin:16px 0;background:var(--surface);border:1px solid var(--line);border-left:4px solid #175b32;border-radius:6px}.spec-review p{margin:5px 0 0;color:var(--muted);font-size:14px}.spec-review>div:first-child{flex:1;min-width:220px}@media(max-width:720px){#specScroll{display:none!important}}
 body.spec-view table{min-width:2220px}body.spec-view th.spec-head{white-space:normal;min-width:140px;max-width:190px;line-height:1.5;font-size:14px;letter-spacing:.04em}
 body.spec-view td.c-sku,body.spec-view th[data-key="sku"]{position:sticky;left:0;z-index:2;background:var(--surface);box-shadow:3px 0 6px #0000000b;min-width:240px}body.spec-view th[data-key="sku"]{z-index:3}
 @media(max-width:720px){body.spec-view table{min-width:0}body.spec-view td.c-sku,body.spec-view th[data-key="sku"]{position:static;box-shadow:none;min-width:0;background:transparent}.c-spec{grid-area:auto!important;grid-column:1/-1!important;max-width:none;min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:12px;border-top:1px solid var(--line);padding-top:8px;margin-top:6px;align-items:center}.c-spec:before{content:attr(data-label);font-size:14px;font-weight:500;color:var(--muted)}.c-spec .spec-value{max-width:none;min-width:0;overflow-wrap:anywhere}.spec-legend{gap:8px 14px}.spec-legend details{font-size:14px}}
@@ -261,6 +262,7 @@ body.spec-view td.c-sku,body.spec-view th[data-key="sku"]{position:sticky;left:0
     </div>
   </div></section>
   <div class="banner" id="banner" hidden></div>
+  <section class="spec-review" aria-label="Treadmill specifications"><div><strong>New: 7 treadmill specification columns</strong><p>Drive, speed, incline, user weight, dimensions, workout width and length.</p></div><button class="btn primary" id="viewSpecs" type="button">View treadmill specifications →</button><div id="specScroll" hidden><button class="btn" id="specPrev" type="button" aria-label="Scroll table left">←</button> <button class="btn" id="specNext" type="button" aria-label="Scroll table right">More columns →</button></div></section>
   <nav class="tabs" id="tabs" role="tablist" aria-label="Categories"></nav>
   <div class="spec-legend" id="specLegend" hidden aria-label="Treadmill specification highlights"><span><i class="spec-key high" aria-hidden="true"></i>Highest tier</span><span><i class="spec-key" aria-hidden="true"></i>Mid tier / unranked</span><span><i class="spec-key low" aria-hidden="true"></i>Lowest tier</span><details><summary>How tiers are compared</summary><p>Each specification is compared independently across the full 23-treadmill portfolio. Numeric tiers use distinct advertised values: the upper third is green, the lower third is grey, and the middle is unchanged. Search and sorting do not change the colors.</p><p>Incline tiers compare adjustability: incline + decline is highest, automatic incline is mid, and fixed or manually adjusted incline is lowest. Other motion systems and user-powered speed/drive are unranked. Quoted motor HP is not a standardized continuous-duty rating.</p><p>Dimensions are copied from your master portfolio; workout length and width split its dimensions in length × width order. “Not provided” means the workbook has no value. Green indicates a higher specification band, not an overall product recommendation.</p></details></div><div class="tablebox">
     <table>
@@ -427,7 +429,7 @@ body.spec-view td.c-sku,body.spec-view th[data-key="sku"]{position:sticky;left:0
   }
   function render() {
     renderTabs();
-    const showSpecs=state.cat==='Treadmills';document.body.classList.toggle('spec-view',showSpecs);$('#specLegend').hidden=!showSpecs;document.querySelectorAll('[data-spec-head]').forEach(th=>th.hidden=!showSpecs);
+    const showSpecs=state.cat==='Treadmills';document.body.classList.toggle('spec-view',showSpecs);$('#specLegend').hidden=!showSpecs;$('#specScroll').hidden=!showSpecs;$('#viewSpecs').textContent=showSpecs?'Show specification columns →':'View treadmill specifications →';document.querySelectorAll('[data-spec-head]').forEach(th=>th.hidden=!showSpecs);
     $('#title').textContent = state.cat === "All" ? "Product Catalog" : state.cat;
     document.querySelectorAll("th[data-key]").forEach((th) => th.setAttribute("aria-sort", th.dataset.key === state.sort.key ? (state.sort.dir > 0 ? "ascending" : "descending") : "none"));
     const list = visible();
@@ -618,6 +620,9 @@ body.spec-view td.c-sku,body.spec-view th[data-key="sku"]{position:sticky;left:0
   $("#qclear").addEventListener("click", () => { q.value = ""; state.q = ""; renderSuggest(); render(); q.focus(); });
 
   // ---------- table interactions ----------
+  $('#viewSpecs').addEventListener('click',()=>{state.cat='Treadmills';state.q='';$('#q').value='';$('#qclear').hidden=true;try{localStorage.setItem('spf.cat',state.cat)}catch(e){}render();const box=$('.tablebox'),head=$('[data-spec-head]');if(innerWidth>720)box.scrollTo({left:Math.max(0,head.offsetLeft-260),behavior:'smooth'});else $('#rows').scrollIntoView({behavior:'smooth',block:'start'});});
+  $('#specPrev').addEventListener('click',()=>$('.tablebox').scrollBy({left:-500,behavior:'smooth'}));
+  $('#specNext').addEventListener('click',()=>$('.tablebox').scrollBy({left:500,behavior:'smooth'}));
   $("#tabs").addEventListener("click", (e) => { const b = e.target.closest("[data-cat]"); if (!b) return; state.cat = b.dataset.cat; try { localStorage.setItem("spf.cat", state.cat); } catch (err) {} render(); });
   document.querySelector("thead").addEventListener("click", (e) => {
     const th = e.target.closest("th[data-key]"); if (!th) return; const k = th.dataset.key;
