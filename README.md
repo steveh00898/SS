@@ -23,7 +23,7 @@ node tests/catalog.spec.cjs
 node tests/server.spec.cjs
 ```
 
-Generated migration SQL and metadata must be preserved after deployment. The generated Worker exports a default object with a fetch handler. Database and picture storage use logical bindings DB and BUCKET.
+Deployment archives include the generated drizzle directory at the archive root alongside the Worker output. Generated migration SQL and metadata must be preserved after deployment. The generated Worker exports a default object with a fetch handler. Database and picture storage use logical bindings DB and BUCKET.
 
 ## Catalog behavior
 
