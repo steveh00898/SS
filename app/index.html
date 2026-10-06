@@ -178,7 +178,47 @@ textarea { resize: vertical; min-height: 74px; }
 .lightbox img { display: block; width: 100%; max-height: 78vh; object-fit: contain; }
 .lightbox .cap { padding: 12px 18px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; border-top: 1px solid #e2dfda; font-weight: 600; }
 .lightbox .close { color: #6c6862; }
-.toast { position: fixed; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: #1c2541; color: #fff; padding: 10px 18px; border-radius: 999px; font-weight: 600; z-index: 60; box-shadow: var(--shadow); }
+/* Bulk edit */
+.ed { width: 100%; min-width: 0; border: 1.5px solid var(--line); border-radius: var(--radius); background: var(--surface); color: var(--fg); padding: 6px 8px; font-size: 14px; }
+.ed:focus { outline: none; border-color: var(--accent); }
+.ed.changed { border-color: #e0a100; background: var(--flash); }
+.ed-sku { font-family: var(--font-num); font-weight: 700; font-size: 16px; margin-bottom: 6px; }
+.ed-price { font-family: var(--font-num); font-weight: 700; font-size: 18px; width: 120px; }
+.ed-cat { width: 130px; }
+.ed-url { min-width: 170px; font-size: 12.5px; }
+.chk { display: flex; gap: 6px; align-items: center; margin-top: 6px; font-family: var(--font-body); font-size: 12px; font-weight: 500; text-transform: none; letter-spacing: 0; color: var(--muted); white-space: nowrap; cursor: pointer; }
+.chk input { width: 16px; height: 16px; accent-color: var(--accent); margin: 0; }
+.edimg { width: 120px; height: 90px; border: 2px dashed var(--line); border-radius: 4px; background: #f4f4f6; display: grid; place-items: center; overflow: hidden;
+  cursor: pointer; color: #6c6c72; font-size: 11.5px; text-align: center; padding: 4px; position: relative; }
+.edimg img { width: 100%; height: 100%; object-fit: contain; }
+.edimg.over { border-color: var(--accent); background: var(--accent-soft); }
+.edimg.changed { border-color: #e0a100; border-style: solid; }
+.edimg .hint { position: absolute; inset: auto 0 0 0; background: rgba(17,17,17,.62); color: #fff; font-size: 10.5px; padding: 2px; }
+tbody tr.dirty { background: color-mix(in srgb, var(--flash) 45%, transparent); }
+tbody tr.bad { box-shadow: inset 4px 0 0 var(--danger); }
+.rowerr { color: var(--danger); font-size: 12px; margin-top: 4px; }
+.revert { font-size: 12px; border: 0; background: none; color: var(--accent); cursor: pointer; padding: 4px; white-space: nowrap; font-weight: 600; }
+.bulkbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; background: var(--navy); color: var(--navy-ink); padding: 12px 16px calc(12px + env(safe-area-inset-bottom, 0px)); box-shadow: 0 -8px 24px rgba(0,0,0,.18); }
+.bulkbar .wrap { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; padding-inline: 0; }
+.bulkbar .info { margin-right: auto; font-size: 14px; }
+.bulkbar .info b { font-family: var(--font-num); font-size: 17px; }
+.bulkbar .err { color: #ffb4a8; display: block; font-size: 13px; }
+.bulkbar .btn { border-color: currentColor; background: transparent; color: inherit; }
+.bulkbar .btn.save { background: var(--accent); border-color: var(--accent); color: #fff; }
+body.editing main { padding-bottom: 120px; }
+@media (max-width: 560px) {
+  .bulkbar .info { flex-basis: 100%; }
+  .bulkbar .btn { height: 36px; padding: 0 12px; font-size: 12px; }
+  body.editing .toast { bottom: calc(128px + env(safe-area-inset-bottom, 0px)); }
+  body.editing main { padding-bottom: 150px; }
+}
+body.editing .c-act { min-width: 70px; }
+@media (max-width: 720px) {
+  body.editing tbody tr { grid-template-columns: 110px 1fr; grid-template-areas: "img sku" "img cat" "price price" "link link" "act act"; gap: 8px 14px; }
+  .ed-price { width: 100%; } .ed-cat { width: 100%; }
+  .edimg { width: 110px; height: 110px; }
+}
+.toast { position: fixed; left: 50%; bottom: calc(84px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: #1c2541; color: #fff; padding: 10px 18px; border-radius: 999px; font-weight: 600; z-index: 60; box-shadow: var(--shadow); }
 .banner { background: var(--accent-soft); border-radius: var(--radius); padding: 10px 14px; margin-bottom: 14px; font-size: 14px; }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
@@ -205,6 +245,7 @@ textarea { resize: vertical; min-height: 74px; }
     </div>
     <div class="actions">
       <button class="btn" id="exportBtn" type="button">Export CSV</button>
+      <button class="btn" id="bulkBtn" type="button" hidden>Bulk Edit</button>
       <button class="btn primary" id="addBtn" type="button" hidden>+ Add New Item</button>
     </div>
   </div></section>
@@ -274,6 +315,15 @@ textarea { resize: vertical; min-height: 74px; }
   </div>
 </div>
 
+<div class="bulkbar" id="bulkbar" hidden>
+  <div class="wrap">
+    <div class="info" id="bulkInfo" aria-live="polite"></div>
+    <button class="btn" type="button" id="bulkDiscard">Discard changes</button>
+    <button class="btn save" type="button" id="bulkSave">Save all</button>
+    <button class="btn" type="button" id="bulkDone">Done</button>
+  </div>
+</div>
+<input id="bulkFile" type="file" accept="image/*" hidden>
 <div class="toast" id="toast" role="status" hidden></div>
 
 <script>
@@ -286,7 +336,7 @@ textarea { resize: vertical; min-height: 74px; }
   const ICON_EDIT = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20h4L19 9l-4-4L4 16z"/></svg>';
   const ICON_DEL = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></svg>';
 
-  const state = { items: [], loaded: false, cat: "All", sort: { key: "price", dir: 1 }, q: "", canWrite: false, db: null, assets: null, downloads: null };
+  const state = { items: [], loaded: false, cat: "All", sort: { key: "price", dir: 1 }, q: "", canWrite: false, db: null, assets: null, downloads: null, editMode: false, drafts: {}, rowErr: {}, saving: false };
   try { const t = localStorage.getItem("spf.cat"); if (t) state.cat = t; } catch (e) {}
 
   // ---------- parsing helpers ----------
@@ -353,7 +403,10 @@ textarea { resize: vertical; min-height: 74px; }
     const list = visible();
     const total = state.items.filter((it) => state.cat === "All" || it.category === state.cat).length;
     $("#sub").textContent = !state.loaded ? "Loading the catalog…" : state.q ? `${list.length} of ${total} items match “${state.q}”` : `${total} item${total === 1 ? "" : "s"}${state.cat === "All" ? " across " + categories().length + " categor" + (categories().length === 1 ? "y" : "ies") : ""}`;
+    const keep = captureFocus();
+    document.body.classList.toggle("editing", state.editMode);
     $("#rows").innerHTML = list.map((it) => {
+      if (state.editMode) return editRow(it);
       const src = imgSrc(it);
       return `<tr data-id="${esc(it.id)}">
         <td class="c-cat"><span class="cat">${esc(it.category)}</span></td>
@@ -369,7 +422,132 @@ textarea { resize: vertical; min-height: 74px; }
     else if (!state.items.length) { st.hidden = false; st.innerHTML = `<h2>No products yet</h2><p>The catalog fills in with each item's category, SKU, picture, price and product link. Add the first one to get started.</p>${state.canWrite ? '<button class="btn primary" type="button" data-add>+ Add New Item</button>' : ""}`; }
     else if (!list.length) { st.hidden = false; st.innerHTML = `<h2>No matches</h2><p>Nothing matches “${esc(state.q)}”${state.cat !== "All" ? " in " + esc(state.cat) : ""}. Try part of the SKU, like 724081, or a word from the name.</p>`; }
     else st.hidden = true;
+    restoreFocus(keep); renderBulkBar();
   }
+
+  // ---------- bulk edit ----------
+  const FIELDS = ["name", "sku", "price", "category", "url"];
+  const orig = (it, f) => f === "price" ? (typeof it.price === "number" ? it.price.toFixed(2) : "") : String(it[f] ?? "");
+  const val = (it, f) => { const d = state.drafts[it.id]; return d && f in d ? d[f] : (f === "priceChecked" ? it.priceChecked : orig(it, f)); };
+  const isChanged = (it, f) => { const d = state.drafts[it.id]; return !!d && f in d; };
+  function editRow(it) {
+    const d = state.drafts[it.id] || {}, id = esc(it.id), err = state.rowErr[it.id];
+    const inp = (f, cls, extra = "") => `<input class="ed ${cls}${isChanged(it, f) ? " changed" : ""}" data-id="${id}" data-f="${f}" value="${esc(val(it, f))}" aria-label="${f} for ${esc(it.sku)}" ${extra}>`;
+    const src = d.preview || imgSrc(it);
+    return `<tr data-id="${id}" class="${Object.keys(d).length ? "dirty" : ""}${err ? " bad" : ""}">
+      <td class="c-cat">${inp("category", "ed-cat", 'list="catlist"')}</td>
+      <td class="c-sku">${inp("sku", "ed-sku")}${inp("name", "")}${err ? `<div class="rowerr">${esc(err)}</div>` : ""}</td>
+      <td class="c-img"><div class="edimg${d.file ? " changed" : ""}" data-drop="${id}" tabindex="0" role="button" aria-label="Change picture for ${esc(it.sku)}">${src ? `<img src="${esc(src)}" alt=""><span class="hint">Drop or click to change</span>` : "Drop picture here<br>or click"}</div></td>
+      <td class="c-price">${inp("price", "ed-price", 'inputmode="decimal" placeholder="0.00"')}<label class="chk"><input type="checkbox" data-id="${id}" data-f="priceChecked" ${val(it, "priceChecked") ? "checked" : ""}> Price checked</label></td>
+      <td class="c-link">${inp("url", "ed-url", 'type="url" placeholder="https://"')}</td>
+      <td class="c-act">${Object.keys(d).length ? `<button class="revert" type="button" data-revert="${id}">Undo</button>` : ""}</td>
+    </tr>`;
+  }
+  function captureFocus() {
+    const a = document.activeElement; if (!a || !a.dataset || !a.dataset.f || !a.closest("#rows")) return null;
+    return { id: a.dataset.id, f: a.dataset.f, s: a.selectionStart, e: a.selectionEnd };
+  }
+  function restoreFocus(k) {
+    if (!k) return; const el = document.querySelector(`#rows [data-id="${CSS.escape(k.id)}"][data-f="${k.f}"]`);
+    if (el) { el.focus(); try { if (k.s != null) el.setSelectionRange(k.s, k.e); } catch (e) {} }
+  }
+  const dirtyIds = () => Object.keys(state.drafts).filter((id) => Object.keys(state.drafts[id]).length);
+  function renderBulkBar() {
+    const bar = $("#bulkbar"); bar.hidden = !state.editMode; if (!state.editMode) return;
+    const n = dirtyIds().length, bad = Object.keys(state.rowErr).length, shown = visible().length;
+    if (!state.saving) $("#bulkInfo").innerHTML = `Editing <b>${shown}</b> shown item${shown === 1 ? "" : "s"} · <b>${n}</b> changed` + (bad ? `<span class="err">${bad} item${bad === 1 ? "" : "s"} need fixing before saving (marked in red).</span>` : "");
+    $("#bulkSave").textContent = n ? `Save all (${n})` : "Save all"; $("#bulkSave").disabled = !n || state.saving; $("#bulkDiscard").disabled = !n || state.saving;
+    $("#bulkDone").disabled = state.saving;
+  }
+  function setDraft(it, f, v) {
+    const d = state.drafts[it.id] || (state.drafts[it.id] = {});
+    const base = f === "priceChecked" ? it.priceChecked : orig(it, f);
+    if (v === base) delete d[f]; else d[f] = v;
+    if (!Object.keys(d).length) delete state.drafts[it.id];
+    delete state.rowErr[it.id];
+  }
+  function refreshRow(id) {
+    const it = byId(id), tr = document.querySelector(`#rows tr[data-id="${CSS.escape(id)}"]`); if (!it || !tr) return;
+    const k = captureFocus(); tr.outerHTML = editRow(it); restoreFocus(k); renderBulkBar();
+  }
+  $("#rows").addEventListener("input", (e) => {
+    const el = e.target; if (!state.editMode || !el.dataset.f) return; const it = byId(el.dataset.id); if (!it) return;
+    let v = el.type === "checkbox" ? el.checked : el.value;
+    setDraft(it, el.dataset.f, v);
+    if (el.dataset.f === "price" && v.trim() !== orig(it, "price")) setDraft(it, "priceChecked", true);
+    el.classList.toggle("changed", isChanged(it, el.dataset.f));
+    const tr = el.closest("tr"); tr.classList.toggle("dirty", !!state.drafts[it.id]); tr.classList.remove("bad");
+    const rv = tr.querySelector(".c-act"); rv.innerHTML = state.drafts[it.id] ? `<button class="revert" type="button" data-revert="${esc(it.id)}">Undo</button>` : "";
+    if (el.dataset.f === "price") { const cb = tr.querySelector('[data-f="priceChecked"]'); if (cb) cb.checked = val(it, "priceChecked"); }
+    renderBulkBar();
+  });
+  $("#rows").addEventListener("change", (e) => { if (e.target.type === "checkbox") e.target.dispatchEvent(new Event("input", { bubbles: true })); });
+  $("#rows").addEventListener("keydown", (e) => {
+    // Enter moves to the same field on the next row, like a spreadsheet
+    const el = e.target; if (e.key !== "Enter" || !el.dataset.f || el.type === "checkbox") return; e.preventDefault();
+    const rows = [...document.querySelectorAll("#rows tr")], i = rows.indexOf(el.closest("tr")), next = rows[i + (e.shiftKey ? -1 : 1)];
+    const t = next && next.querySelector(`[data-f="${el.dataset.f}"]`); if (t) { t.focus(); t.select?.(); }
+  });
+  let dropTarget = null;
+  $("#rows").addEventListener("click", (e) => {
+    const z = e.target.closest("[data-drop]"); if (z) { dropTarget = z.dataset.drop; $("#bulkFile").click(); return; }
+    const rv = e.target.closest("[data-revert]"); if (rv) { const id = rv.dataset.revert; const d = state.drafts[id]; if (d?.preview) URL.revokeObjectURL(d.preview); delete state.drafts[id]; delete state.rowErr[id]; refreshRow(id); }
+  });
+  $("#rows").addEventListener("keydown", (e) => { const z = e.target.closest?.("[data-drop]"); if (z && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); dropTarget = z.dataset.drop; $("#bulkFile").click(); } });
+  function rowFile(id, f) {
+    const it = byId(id); if (!it || !f) return;
+    if (!/^image\//.test(f.type)) { toast("That file isn't an image"); return; }
+    if (f.size > 20 * 1024 * 1024) { toast("That picture is over 20 MB"); return; }
+    const d = state.drafts[id] || (state.drafts[id] = {}); if (d.preview) URL.revokeObjectURL(d.preview);
+    d.file = f; d.preview = URL.createObjectURL(f); delete state.rowErr[id]; refreshRow(id);
+  }
+  $("#bulkFile").addEventListener("change", (e) => { rowFile(dropTarget, e.target.files[0]); e.target.value = ""; });
+  $("#rows").addEventListener("dragover", (e) => { const z = e.target.closest("[data-drop]"); if (!z) return; e.preventDefault(); z.classList.add("over"); });
+  $("#rows").addEventListener("dragleave", (e) => { const z = e.target.closest("[data-drop]"); if (z) z.classList.remove("over"); });
+  $("#rows").addEventListener("drop", (e) => { const z = e.target.closest("[data-drop]"); if (!z) return; e.preventDefault(); rowFile(z.dataset.drop, e.dataTransfer.files[0]); });
+  window.addEventListener("dragover", (e) => { if (state.editMode) e.preventDefault(); });
+  window.addEventListener("drop", (e) => { if (state.editMode && !e.target.closest("[data-drop]")) e.preventDefault(); });
+
+  function enterBulk() { closeModals(); sug.hidden = true; state.editMode = true; $("#bulkBtn").hidden = true; render(); toast("Bulk edit on. Change any shown item, then Save all"); }
+  function exitBulk() {
+    if (dirtyIds().length) { toast(`Save or discard your ${dirtyIds().length} changes first`); return; }
+    state.editMode = false; state.rowErr = {}; $("#bulkBtn").hidden = !state.canWrite; render();
+  }
+  $("#bulkBtn").addEventListener("click", enterBulk);
+  $("#bulkDone").addEventListener("click", exitBulk);
+  $("#bulkDiscard").addEventListener("click", () => { Object.values(state.drafts).forEach((d) => d.preview && URL.revokeObjectURL(d.preview)); state.drafts = {}; state.rowErr = {}; render(); toast("Changes discarded"); });
+  window.addEventListener("beforeunload", (e) => { if (dirtyIds().length) { e.preventDefault(); e.returnValue = ""; } });
+
+  $("#bulkSave").addEventListener("click", async () => {
+    const ids = dirtyIds(); if (!ids.length || !state.db) return;
+    // validate everything first so nothing is half-saved because of a typo
+    const errs = {}, plan = [], taken = new Set(state.items.map((it) => it.id).filter((id) => !ids.includes(id)));
+    for (const id of ids) {
+      const it = byId(id); if (!it) { delete state.drafts[id]; continue; }
+      const name = val(it, "name").trim(), skuIn = val(it, "sku"), sku = parseSku(skuIn) || skuIn.trim().toUpperCase(), category = val(it, "category").trim(), url = val(it, "url").trim();
+      const pr = val(it, "price").replace(/[$,\s]/g, ""), price = pr === "" ? null : Number(pr);
+      if (!name || !sku || !category) errs[id] = "Name, SKU and category can't be empty.";
+      else if (pr !== "" && !isFinite(price)) errs[id] = "Enter the price as a number, like 999.99.";
+      else if (url && !/^https?:\/\//i.test(url)) errs[id] = "The link must start with https://";
+      else { const nid = docId(sku); if (taken.has(nid)) errs[id] = `${sku} is already used by another item.`; else { taken.add(nid); plan.push({ it, nid, rec: { name, sku, category, price, url } }); } }
+    }
+    state.rowErr = errs;
+    if (Object.keys(errs).length) { render(); const first = document.querySelector("#rows tr.bad"); if (first) first.scrollIntoView({ block: "center", behavior: "smooth" }); else toast("Some changed items are hidden by your search. Clear it to see them"); return; }
+    state.saving = true; renderBulkBar(); let done = 0; const failed = {};
+    for (const { it, nid, rec } of plan) {
+      $("#bulkInfo").textContent = `Saving ${done + 1} of ${plan.length}…`;
+      const d = state.drafts[it.id];
+      try {
+        const out = { ...rec, priceChecked: !!val(it, "priceChecked"), imageUrl: it.imageUrl, imageAssetId: it.imageAssetId, createdAt: it.createdAt || new Date().toISOString(), updatedAt: new Date().toISOString() };
+        if (d.file) { if (!state.assets) throw { message: "Picture uploads aren't available in this view." }; const up = await state.assets.upload(d.file); out.imageAssetId = up.id; out.imageUrl = up.url; }
+        await state.db.collection("items").doc(nid).set(out);
+        if (nid !== it.id) await state.db.collection("items").doc(it.id).delete();
+        if (d.preview) URL.revokeObjectURL(d.preview); delete state.drafts[it.id]; done++;
+      } catch (err) { failed[it.id] = err?.code === "too_large" ? "That picture is too large." : (err?.message || "Couldn't save this item. Try again."); }
+    }
+    state.saving = false; state.rowErr = failed; render();
+    toast(Object.keys(failed).length ? `Saved ${done}. ${Object.keys(failed).length} couldn't be saved` : `Saved ${done} item${done === 1 ? "" : "s"}`);
+  });
 
   // ---------- search + suggestions ----------
   const q = $("#q"), sug = $("#suggest"); let sugIdx = -1, sugList = [];
@@ -530,7 +708,7 @@ textarea { resize: vertical; min-height: 74px; }
     $("#exportBtn").hidden = !downloads;
     if (!db) { state.loaded = true; $("#banner").hidden = false; $("#banner").textContent = "Open this page on claude.ai to load the shared product catalog."; render(); return; }
     const w = user ? await user.can("data.write").catch(() => null) : null;
-    state.canWrite = w !== false; $("#addBtn").hidden = !state.canWrite;
+    state.canWrite = w !== false; $("#addBtn").hidden = !state.canWrite; $("#bulkBtn").hidden = !state.canWrite;
     db.collection("items").onSnapshot((snap) => {
       state.items = snap.docs.filter((d) => d.exists).map((d) => {
         const x = d.data() || {};
