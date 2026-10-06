@@ -35,3 +35,7 @@ Catalog changes refresh after each write and are checked every ten seconds while
 ## Live import
 
 Once source access is available, run `python work-fetch.py`, inspect the contact sheet, upload processed JPEGs through `/api/assets`, and save the rows through the catalog API. Confirm the live feed count rather than truncating or fabricating records to reach an expected count. API writes require a signed-in user. The catalog includes all categories present in the GitHub snapshot.
+
+## Treadmill comparison
+
+The seven treadmill-only columns are sourced from the uploaded master portfolio. See `data/treadmill-specifications-notes.md` for the dimension interpretation, missing values, and independent tier rules. Open `/?category=Treadmills` for the comparison view.
