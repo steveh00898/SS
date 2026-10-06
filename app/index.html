@@ -533,7 +533,7 @@ body.editing .c-act { min-width: 70px; }
       if (!name || !sku || !category) errs[id] = "Name, SKU and category can't be empty.";
       else if (pr !== "" && !isFinite(price)) errs[id] = "Enter the price as a number, like 999.99.";
       else if (url && !/^https?:\/\//i.test(url)) errs[id] = "The link must start with https://";
-      else { const nid = docId(sku); if (nid !== id && taken.has(nid)) errs[id] = `${sku} is already used by another item.`; else { taken.add(nid); plan.push({ it, nid, rec: { name, sku, category, price, url } }); } }
+      else { const nid = sku === it.sku ? id : docId(sku); if (nid !== id && taken.has(nid)) errs[id] = `${sku} is already used by another item.`; else { taken.add(nid); plan.push({ it, nid, rec: { name, sku, category, price, url } }); } }
     }
     state.rowErr = errs;
     if (Object.keys(errs).length) { render(); const first = document.querySelector("#rows tr.bad"); if (first) first.scrollIntoView({ block: "center", behavior: "smooth" }); else toast("Some changed items are hidden by your search. Clear it to see them"); return; }
@@ -663,7 +663,7 @@ body.editing .c-act { min-width: 70px; }
     if (!name || !sku || !category) { msg.textContent = "Fill in the product name, SKU and category."; return; }
     if (priceRaw !== "" && !isFinite(price)) { msg.textContent = "Enter the price as a number, like 999.99."; return; }
     if (url && !/^https?:\/\//i.test(url)) { msg.textContent = "The product link must start with https://"; return; }
-    const id = docId(sku);
+    const id = editing && sku === editing.sku ? editing.id : docId(sku); // an unchanged SKU keeps its row, even when the same product is listed under two categories
     if ((!editing || editing.id !== id) && byId(id)) { msg.textContent = `${sku} is already in the catalog. Edit that item instead.`; return; }
     if (!state.db) { msg.textContent = "Saving needs the shared catalog, which isn't available in this view."; return; }
     $("#saveBtn").disabled = true; msg.textContent = "";

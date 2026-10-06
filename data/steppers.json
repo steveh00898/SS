@@ -13,6 +13,32 @@
   "updatedAt": "2026-10-06T00:00:00Z"
  },
  {
+  "id": "no-068smart",
+  "name": "Smart Twist Stepper with Resistance Bands",
+  "sku": "NO. 068SMART",
+  "category": "Steppers",
+  "price": 84.99,
+  "priceChecked": true,
+  "url": "https://sunnyhealthfitness.com/collections/steppers/products/smart-twist-stepper-with-resistance-bands-no-068smart",
+  "imageAssetId": "019455f735c1edd80818640c126d7ca1",
+  "imageUrl": "/_blob/019455f735c1edd80818640c126d7ca1",
+  "createdAt": "2026-10-06T00:00:00Z",
+  "updatedAt": "2026-10-06T00:00:00Z"
+ },
+ {
+  "id": "sf-s0978smart",
+  "name": "Smart Advanced Stair Exercise Stepper with Exercise Bands",
+  "sku": "SF-S0978SMART",
+  "category": "Steppers",
+  "price": 89.99,
+  "priceChecked": true,
+  "url": "https://sunnyhealthfitness.com/collections/steppers/products/total-body-smart-exercise-stepper-machine-sf-s0978smart",
+  "imageAssetId": "51357af5f0230ff32d141500a7b8bcc0",
+  "imageUrl": "/_blob/51357af5f0230ff32d141500a7b8bcc0",
+  "createdAt": "2026-10-06T00:00:00Z",
+  "updatedAt": "2026-10-06T00:00:00Z"
+ },
+ {
   "id": "sf-s0979smart",
   "name": "Smart Twist Exercise Stepper Machine",
   "sku": "SF-S0979SMART",
@@ -52,45 +78,6 @@
   "updatedAt": "2026-10-06T00:00:00Z"
  },
  {
-  "id": "sf-s021054",
-  "name": "Smart Heavy Duty Power Stepper with Exercise Bands",
-  "sku": "SF-S021054",
-  "category": "Steppers",
-  "price": 149.99,
-  "priceChecked": true,
-  "url": "https://sunnyhealthfitness.com/collections/steppers/products/power-stepper-with-resistance-bands-sf-s021054",
-  "imageAssetId": "430ed2aae2681ebd329d88303aae85b1",
-  "imageUrl": "/_blob/430ed2aae2681ebd329d88303aae85b1",
-  "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
- },
- {
-  "id": "no-068smart",
-  "name": "Smart Twist Stepper with Resistance Bands",
-  "sku": "NO. 068SMART",
-  "category": "Steppers",
-  "price": 84.99,
-  "priceChecked": true,
-  "url": "https://sunnyhealthfitness.com/collections/steppers/products/smart-twist-stepper-with-resistance-bands-no-068smart",
-  "imageAssetId": "019455f735c1edd80818640c126d7ca1",
-  "imageUrl": "/_blob/019455f735c1edd80818640c126d7ca1",
-  "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
- },
- {
-  "id": "sf-s0978smart",
-  "name": "Smart Advanced Stair Exercise Stepper with Exercise Bands",
-  "sku": "SF-S0978SMART",
-  "category": "Steppers",
-  "price": 89.99,
-  "priceChecked": true,
-  "url": "https://sunnyhealthfitness.com/collections/steppers/products/total-body-smart-exercise-stepper-machine-sf-s0978smart",
-  "imageAssetId": "51357af5f0230ff32d141500a7b8bcc0",
-  "imageUrl": "/_blob/51357af5f0230ff32d141500a7b8bcc0",
-  "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
- },
- {
   "id": "sf-s020027smart",
   "name": "Smart Twist Stepper with Handlebar",
   "sku": "SF-S020027SMART",
@@ -117,6 +104,32 @@
   "updatedAt": "2026-10-06T00:00:00Z"
  },
  {
+  "id": "sf-s026007",
+  "name": "Swivel Stepper With Handlebars",
+  "sku": "SF-S026007",
+  "category": "Steppers",
+  "price": 199.99,
+  "priceChecked": true,
+  "url": "https://sunnyhealthfitness.com/collections/steppers/products/swivel-stepper-with-adjustable-handlebars-sf-s026007",
+  "imageAssetId": "01f342381cc3ea3e7680282ec88a1661",
+  "imageUrl": "/_blob/01f342381cc3ea3e7680282ec88a1661",
+  "createdAt": "2026-10-06T00:00:00Z",
+  "updatedAt": "2026-10-06T00:00:00Z"
+ },
+ {
+  "id": "sf-s021054",
+  "name": "Smart Heavy Duty Power Stepper with Exercise Bands",
+  "sku": "SF-S021054",
+  "category": "Steppers",
+  "price": 149.99,
+  "priceChecked": true,
+  "url": "https://sunnyhealthfitness.com/collections/steppers/products/power-stepper-with-resistance-bands-sf-s021054",
+  "imageAssetId": "430ed2aae2681ebd329d88303aae85b1",
+  "imageUrl": "/_blob/430ed2aae2681ebd329d88303aae85b1",
+  "createdAt": "2026-10-06T00:00:00Z",
+  "updatedAt": "2026-10-06T00:00:00Z"
+ },
+ {
   "id": "sf-s021055",
   "name": "Smart Heavy Duty Power Stepper with Handlebar and Resistance Bands",
   "sku": "SF-S021055",
@@ -130,15 +143,28 @@
   "updatedAt": "2026-10-06T00:00:00Z"
  },
  {
-  "id": "sf-s026007",
-  "name": "Swivel Stepper With Handlebars",
-  "sku": "SF-S026007",
+  "id": "sf-s026002",
+  "name": "Smart Lateral Balance Stepper With Resistance Bands",
+  "sku": "SF-S026002",
   "category": "Steppers",
-  "price": 199.99,
+  "price": 129.99,
   "priceChecked": true,
-  "url": "https://sunnyhealthfitness.com/collections/steppers/products/swivel-stepper-with-adjustable-handlebars-sf-s026007",
-  "imageAssetId": "01f342381cc3ea3e7680282ec88a1661",
-  "imageUrl": "/_blob/01f342381cc3ea3e7680282ec88a1661",
+  "url": "https://sunnyhealthfitness.com/collections/steppers/products/smart-lateral-balance-stepper-with-resistance-bands-sf-s026002",
+  "imageAssetId": "66afc8a98097245f6fe91394d207185e",
+  "imageUrl": "/_blob/66afc8a98097245f6fe91394d207185e",
+  "createdAt": "2026-10-06T00:00:00Z",
+  "updatedAt": "2026-10-06T00:00:00Z"
+ },
+ {
+  "id": "sf-s024072",
+  "name": "Smart Lateral Stepper With Resistance Bands",
+  "sku": "SF-S024072",
+  "category": "Steppers",
+  "price": 129.99,
+  "priceChecked": true,
+  "url": "https://sunnyhealthfitness.com/collections/steppers/products/smart-lateral-stepper-with-resistance-bands-sf-s024072",
+  "imageAssetId": "4ceac5be32eab9178c70f6d5364ebae7",
+  "imageUrl": "/_blob/4ceac5be32eab9178c70f6d5364ebae7",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z"
  }
