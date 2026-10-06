@@ -1,0 +1,28 @@
+[
+ {
+  "id": "sf-pm20",
+  "name": "Premium Pilates Reformer Machine with Jump Board and Reformer Box for Home Workouts",
+  "sku": "SF-PM20",
+  "category": "Pilates Reformers",
+  "price": 699.99,
+  "priceChecked": true,
+  "url": "https://sunnyhealthfitness.com/collections/pilates-reformers/products/premium-pilates-reformer-machine-with-jump-board-and-reformer-box-for-home-workouts-sf-pm20",
+  "imageAssetId": "d94bc35b683769d44582a9e8971e9d01",
+  "imageUrl": "/_blob/d94bc35b683769d44582a9e8971e9d01",
+  "createdAt": "2026-10-06T00:00:00Z",
+  "updatedAt": "2026-10-06T00:00:00Z"
+ },
+ {
+  "id": "sf-pm10",
+  "name": "Pilates Reformer Machine with Jump Board for Home Workouts",
+  "sku": "SF-PM10",
+  "category": "Pilates Reformers",
+  "price": 599.99,
+  "priceChecked": true,
+  "url": "https://sunnyhealthfitness.com/collections/pilates-reformers/products/pilates-reformer-machine-with-jump-board-for-home-workouts-sf-pm10",
+  "imageAssetId": "c0bbad219df399e4e1ba6b55983e321b",
+  "imageUrl": "/_blob/c0bbad219df399e4e1ba6b55983e321b",
+  "createdAt": "2026-10-06T00:00:00Z",
+  "updatedAt": "2026-10-06T00:00:00Z"
+ }
+]

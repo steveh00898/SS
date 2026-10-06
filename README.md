@@ -2,8 +2,9 @@
 
 Private treadmill catalog with a single-file UI and a Cloudflare Worker API. Items persist in D1; uploaded pictures persist in R2. The private Sites access policy protects the app, and API writes additionally require the platform-provided signed-in user identity. CSV downloads use the browser.
 
-The current catalog starts with three clearly labeled sample items and example prices. Sunny's live endpoint is blocked by the authoring environment's network policy, so the real products have not been imported. Samples are initialized once, and deleting them does not recreate them. No real 23-row count is claimed.
+The app uses the catalog and interface from GitHub repository steveh00898/SS at commit 18d984479d00ac6ae0ed88356d1bb4b4cd216544. There are 156 entries across 11 categories, including 23 treadmills. Product pictures are fetched from that pinned GitHub snapshot and cached in R2. The browser receives same-origin image URLs.
 
+Catalog records are imported once, preserving existing records and subsequent edits. Existing sample rows are removed only when their names still identify them as samples. Three cross-category products retain distinct IDs even though their SKUs overlap.
 ## Structure
 
 - `app/index.html`: branded, responsive catalog UI with embedded Poppins and Roboto Condensed fonts.
@@ -11,7 +12,7 @@ The current catalog starts with three clearly labeled sample items and example p
 - `db/schema.ts` and `drizzle/`: database schema and generated migrations.
 - `scripts/build.mjs`: creates the deployable Worker with embedded HTML.
 - `work-fetch.py`: live Sunny retrieval, requested PIL cropping pipeline, and contact-sheet generation. Requires Pillow and access to Sunny and its image hosts.
-- `tests/`: mocked UI checks and server integration checks. Mock fixtures are test-only.
+- `tests/`: mocked UI checks and server integration checks. UI test data is read from the checked-in catalog.
 
 ## Commands
 
@@ -19,7 +20,7 @@ The current catalog starts with three clearly labeled sample items and example p
 npm install
 npm run db:generate
 npm run build
-node tests/catalog.spec.cjs
+node tests/github-ui.spec.cjs
 node tests/server.spec.cjs
 ```
 
@@ -29,8 +30,8 @@ Deployment archives include the generated drizzle directory at the archive root 
 
 Search matches name or SKU while ignoring dashes. Suggestions support keyboard selection. Sorting keeps unknown prices last. Add and edit share a modal; delete requires an in-page confirmation. Bulk edits retain drafts through filtering, highlight changes, validate all rows before saving and show progress. A partial network failure preserves remaining drafts for retry. SKU changes use an atomic, uniqueness-checked database update. Picture uploads are restricted to JPEG, PNG and WebP up to 10 MB. CSV export includes the currently shown saved items.
 
-Catalog changes refresh after each write and are checked every ten seconds while the page is visible. This polling replaces a platform-specific subscription. AI browser actions for search and opening the add form are feature-detected.
+Catalog changes refresh after each write and are checked every ten seconds while the page is visible. This polling replaces a platform-specific subscription. AI browser actions for search are feature-detected.
 
 ## Live import
 
-Once source access is available, run `python work-fetch.py`, inspect the contact sheet, upload processed JPEGs through `/api/assets`, and save the rows through the catalog API. Confirm the live feed count rather than truncating or fabricating records to reach an expected count. API writes require a signed-in user. Only treadmills are in scope.
+Once source access is available, run `python work-fetch.py`, inspect the contact sheet, upload processed JPEGs through `/api/assets`, and save the rows through the catalog API. Confirm the live feed count rather than truncating or fabricating records to reach an expected count. API writes require a signed-in user. The catalog includes all categories present in the GitHub snapshot.
