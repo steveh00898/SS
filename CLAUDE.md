@@ -1,10 +1,13 @@
 # Sunny Product Finder
 
-Product-learning catalog for sunnyhealthfitness.com, published as a Claude Artifact:
-https://claude.ai/artifact/Eux9EgPAA2p4td6ZLTAyXS
+Product-learning catalog for sunnyhealthfitness.com, published as a private web app:
+https://sunny-product-finder.steven-peace.chatgpt.site
 
-- `app/index.html`: the whole app (single HTML file). Republish it to the artifact URL above after changing it.
-- `data/<category>.json` and `data/images/<category>/`: the catalog and cropped product images. The live catalog is the artifact's `items` database; these files are its seed and backup.
+- `app/index.html`: single-file catalog interface, using the private app API.
+- `server/worker.js`, `db/`, `drizzle/`: persistent catalog and picture storage.
+- `data/<category>.json` and `data/images/<category>/`: checked-in catalog and cropped product pictures.
+- `data/treadmill-specifications-notes.md`: source, missing-data treatment and independent tier rules for the treadmill comparison.
+- Publish app changes to the existing private Site using `.openai/hosting.json`; keep the current access policy.
 
 ## Git workflow (owner's standing instruction)
 
