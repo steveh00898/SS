@@ -89,7 +89,7 @@ h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(30px, 
 .btn.danger { background: var(--danger); border-color: var(--danger); color: #fff; }
 .btn:disabled { opacity: .5; cursor: not-allowed; }
 
-.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); margin-bottom: 16px; overflow-x: auto; }
+.tabs { display: flex; flex-wrap: wrap; gap: 0 4px; border-bottom: 1px solid var(--line); margin-bottom: 16px; }
 .tab { border: 0; background: none; padding: 12px 0; margin-right: 26px; cursor: pointer; font-family: var(--font-body); font-weight: 400; font-size: 14px;
   color: var(--fg); border-bottom: 2px solid transparent; margin-bottom: -1px; white-space: nowrap; }
 .tab[aria-selected="true"] { font-weight: 600; border-bottom-color: var(--accent); }
@@ -342,7 +342,8 @@ body.editing .c-act { min-width: 70px; }
   // ---------- parsing helpers ----------
   const SKU_RE = /\bSF-?[A-Z]{1,4}\d{2,7}[A-Z0-9]*(?:-[A-Z]{1,6})?\b/i;
   const CAT_LABELS = { treadmills: "Treadmills", ellipticals: "Ellipticals", "elliptical-machines": "Ellipticals", rowers: "Rowers", "rowing-machines": "Rowers",
-    "exercise-bikes": "Exercise Bikes", "indoor-cycling-bikes": "Exercise Bikes", "recumbent-bikes": "Recumbent Bikes", steppers: "Steppers", "home-gyms": "Home Gyms" };
+    bikes: "Indoor Bikes", "exercise-bikes": "Indoor Bikes", "indoor-cycling-bikes": "Indoor Bikes", steppers: "Steppers", "step-machines": "Steppers",
+    "row-n-ride": "Row-N-Ride", "pilates-reformers": "Pilates Reformers", "strength-racks-cages": "Racks", "benches-chairs-tables": "Weight Benches", "free-weights": "Weights", essentials: "Essentials" };
   const catFromHandle = (h) => CAT_LABELS[h] || h.split("-").map((w) => w[0].toUpperCase() + w.slice(1)).join(" ");
   function parseSku(s) { const m = String(s).match(SKU_RE); return m ? m[0].toUpperCase().replace(/^SF(?!-)/, "SF-") : ""; }
   function parsePrice(s) { const m = String(s).match(/\$\s?([\d,]+(?:\.\d{1,2})?)/); return m ? m[1].replace(/,/g, "") : ""; }
@@ -363,13 +364,16 @@ body.editing .c-act { min-width: 70px; }
     else if (url) { const n = nameFromUrl(url); if (n) out.name = n; }
     return out;
   }
+  const SITE_ORDER = ["Treadmills", "Ellipticals", "Rowers", "Indoor Bikes", "Steppers", "Row-N-Ride", "Pilates Reformers", "Racks", "Weight Benches", "Weights", "Essentials"];
   const docId = (sku) => sku.toLowerCase().replace(/[^a-z0-9-]+/g, "-").replace(/^-+|-+$/g, "") || "item-" + Date.now();
   const imgSrc = (it) => it.imageUrl || (it.imageAssetId ? "/_blob/" + it.imageAssetId : "");
 
   // ---------- rendering ----------
   function categories() {
     const counts = {}; state.items.forEach((it) => { counts[it.category] = (counts[it.category] || 0) + 1; });
-    return Object.keys(counts).sort().map((c) => [c, counts[c]]);
+    // same order as the category row on sunnyhealthfitness.com; anything new goes after, alphabetically
+    const rank = (c) => { const i = SITE_ORDER.indexOf(c); return i < 0 ? SITE_ORDER.length : i; };
+    return Object.keys(counts).sort((x, y) => rank(x) - rank(y) || x.localeCompare(y)).map((c) => [c, counts[c]]);
   }
   function matches(it, q) {
     if (!q) return true; const hay = (it.name + " " + it.sku + " " + it.category).toLowerCase(); const hn = norm(hay);
@@ -394,7 +398,7 @@ body.editing .c-act { min-width: 70px; }
     const cats = categories(); if (state.cat !== "All" && !cats.some(([c]) => c === state.cat)) state.cat = "All";
     const tabs = [["All", state.items.length], ...cats];
     $("#tabs").innerHTML = tabs.map(([c, n]) => `<button class="tab" role="tab" type="button" data-cat="${esc(c)}" aria-selected="${c === state.cat}">${esc(c)}<span>${n}</span></button>`).join("");
-    $("#catlist").innerHTML = [...new Set(["Treadmills", "Ellipticals", "Rowers", "Exercise Bikes", ...cats.map(([c]) => c)])].map((c) => `<option value="${esc(c)}">`).join("");
+    $("#catlist").innerHTML = [...new Set([...SITE_ORDER, ...cats.map(([c]) => c)])].map((c) => `<option value="${esc(c)}">`).join("");
   }
   function render() {
     renderTabs();
