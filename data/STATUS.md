@@ -1,0 +1,1 @@
+Live seed blocked: Sunny endpoint is not on the environment's permitted host list (proxy 403). No catalog JSON, image crops, or contact sheet has been fabricated. Run ../work-fetch.py once network access is configured.
