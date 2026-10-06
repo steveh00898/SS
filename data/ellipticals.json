@@ -117,32 +117,6 @@
   "updatedAt": "2026-10-06T00:00:00Z"
  },
  {
-  "id": "sf-e3911",
-  "name": "Cardio Climber Machine",
-  "sku": "SF-E3911",
-  "category": "Ellipticals",
-  "price": 299.99,
-  "priceChecked": true,
-  "url": "https://sunnyhealthfitness.com/collections/ellipticals/products/performance-cardio-climber-sf-e3911",
-  "imageAssetId": "889d60212d457fa92a067afe12fa726b",
-  "imageUrl": "/_blob/889d60212d457fa92a067afe12fa726b",
-  "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
- },
- {
-  "id": "sf-e3919",
-  "name": "Elite Cardio Climber Machine",
-  "sku": "SF-E3919",
-  "category": "Ellipticals",
-  "price": 449.99,
-  "priceChecked": true,
-  "url": "https://sunnyhealthfitness.com/collections/ellipticals/products/premium-cardio-climber-sf-e3919",
-  "imageAssetId": "6c35e4dd2790bd00266509a3e6186361",
-  "imageUrl": "/_blob/6c35e4dd2790bd00266509a3e6186361",
-  "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
- },
- {
   "id": "sf-e324028",
   "name": "Motorized Mini Elliptical with 18-Levels Speed",
   "sku": "SF-E324028",
@@ -178,32 +152,6 @@
   "url": "https://sunnyhealthfitness.com/collections/ellipticals/products/performance-interactive-series-recumbent-cross-trainer-elliptical-sf-rbe420035",
   "imageAssetId": "bb3dfe1a7ff7dcfc35e81f47e8e2a5b2",
   "imageUrl": "/_blob/bb3dfe1a7ff7dcfc35e81f47e8e2a5b2",
-  "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
- },
- {
-  "id": "sf-e321006",
-  "name": "Power Stride Smart Electro-Magnetic Elliptical Machine with 18\" stride length",
-  "sku": "SF-E321006",
-  "category": "Ellipticals",
-  "price": 699.99,
-  "priceChecked": true,
-  "url": "https://sunnyhealthfitness.com/collections/ellipticals/products/power-stride-advanced-elliptical-machine-sf-e321006",
-  "imageAssetId": "c1241d145b1c5f4e44491f017078fc42",
-  "imageUrl": "/_blob/c1241d145b1c5f4e44491f017078fc42",
-  "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
- },
- {
-  "id": "sf-e321005",
-  "name": "Power Stride Smart Magnetic Elliptical Machine with 18\" Stride Length",
-  "sku": "SF-E321005",
-  "category": "Ellipticals",
-  "price": 599.99,
-  "priceChecked": true,
-  "url": "https://sunnyhealthfitness.com/collections/ellipticals/products/power-stride-smart-elliptical-cross-trainer-machine-sf-e321005",
-  "imageAssetId": "682f111c68eed2c544e60f7ea1a6c4ec",
-  "imageUrl": "/_blob/682f111c68eed2c544e60f7ea1a6c4ec",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z"
  },
