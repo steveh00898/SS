@@ -94,6 +94,7 @@ h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(30px, 
 .tab span { font-family: var(--font-body); font-size: 12px; font-weight: 600; background: var(--surface-2); border-radius: 999px; padding: 1px 7px; margin-left: 6px; vertical-align: 2px; }
 
 /* Table */
+@media(min-width:721px){.tablebox{max-height:70vh;overflow:auto}thead th{position:sticky;top:0;z-index:4;box-shadow:0 1px 0 var(--line)}body.spec-view th[data-key="sku"]{z-index:5}}
 .tablebox { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; }
 th { text-align: left; font-family: var(--font-num); font-size: 13px; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); font-weight: 700;
@@ -264,7 +265,7 @@ body.spec-view td.c-sku,body.spec-view th[data-key="sku"]{position:sticky;left:0
   <div class="banner" id="banner" hidden></div>
   <section class="spec-review" aria-label="Treadmill specifications"><div><strong>New: 7 treadmill specification columns</strong><p>Drive, speed, incline, user weight, dimensions, workout width and length.</p></div><button class="btn primary" id="viewSpecs" type="button">View treadmill specifications →</button><div id="specScroll" hidden><button class="btn" id="specPrev" type="button" aria-label="Scroll table left">←</button> <button class="btn" id="specNext" type="button" aria-label="Scroll table right">More columns →</button></div></section>
   <nav class="tabs" id="tabs" role="tablist" aria-label="Categories"></nav>
-  <div class="spec-legend" id="specLegend" hidden aria-label="Treadmill specification highlights"><span><i class="spec-key high" aria-hidden="true"></i>Highest tier</span><span><i class="spec-key" aria-hidden="true"></i>Mid tier / unranked</span><span><i class="spec-key low" aria-hidden="true"></i>Lowest tier</span><details><summary>How tiers are compared</summary><p>Each specification is compared independently across the full 23-treadmill portfolio. Numeric tiers use distinct advertised values: the upper third is green, the lower third is grey, and the middle is unchanged. Search and sorting do not change the colors.</p><p>Incline tiers compare adjustability: incline + decline is highest, automatic incline is mid, and fixed or manually adjusted incline is lowest. Other motion systems and user-powered speed/drive are unranked. Quoted motor HP is not a standardized continuous-duty rating.</p><p>Dimensions are copied from your master portfolio; workout length and width split its dimensions in length × width order. “Not provided” means the workbook has no value. Green indicates a higher specification band, not an overall product recommendation.</p></details></div><div class="tablebox">
+  <div class="spec-legend" id="specLegend" hidden aria-label="Treadmill specification highlights"><span><i class="spec-key high" aria-hidden="true"></i>Highest tier</span><span><i class="spec-key" aria-hidden="true"></i>Mid tier / unranked</span><span><i class="spec-key low" aria-hidden="true"></i>Lowest tier</span><label>Sort by tier <select id="tierSort" aria-label="Sort treadmill specification tiers"><option value="">Choose specification</option><option value="tier:driveResistanceSystem">Drive / Resistance System</option><option value="tier:speedResistanceLevels">Speed / Resistance Levels</option><option value="tier:inclineStrideMotion">Incline / Stride / Motion</option><option value="tier:maxUserWeightLb">Max User Weight</option><option value="tier:workoutAreaWidthIn">Workout Area Width</option><option value="tier:workoutAreaLengthIn">Workout Area Length</option></select></label><button class="btn" id="tierDirection" type="button">Green → blank → grey</button><details><summary>How tiers are compared</summary><p>Each specification is compared independently across the full 23-treadmill portfolio. Numeric tiers use distinct advertised values: the upper third is green, the lower third is grey, and the middle is unchanged. Search and sorting do not change the colors.</p><p>Incline tiers compare adjustability: incline + decline is highest, automatic incline is mid, and fixed or manually adjusted incline is lowest. Other motion systems and user-powered speed/drive are unranked. Quoted motor HP is not a standardized continuous-duty rating.</p><p>Dimensions are copied from your master portfolio; workout length and width split its dimensions in length × width order. “Not provided” means the workbook has no value. Green indicates a higher specification band, not an overall product recommendation.</p></details></div><div class="tablebox">
     <table>
       <thead>
         <tr>
@@ -272,13 +273,13 @@ body.spec-view td.c-sku,body.spec-view th[data-key="sku"]{position:sticky;left:0
           <th data-key="sku"><button type="button">SKU / Item</button></th>
           <th>Picture</th>
           <th data-key="price"><button type="button">Price</button></th>
-<th class="spec-head" data-spec-head="driveResistanceSystem" hidden>Drive / Resistance System</th>
-<th class="spec-head" data-spec-head="speedResistanceLevels" hidden>Speed / Resistance Levels</th>
-<th class="spec-head" data-spec-head="inclineStrideMotion" hidden>Incline / Stride / Motion</th>
-<th class="spec-head" data-spec-head="maxUserWeightLb" hidden>Max User Weight (lb)</th>
+<th class="spec-head" data-spec-head="driveResistanceSystem" data-key="tier:driveResistanceSystem" hidden><button type="button" title="Sort green → blank → grey; click again to reverse">Drive / Resistance System</button></th>
+<th class="spec-head" data-spec-head="speedResistanceLevels" data-key="tier:speedResistanceLevels" hidden><button type="button" title="Sort green → blank → grey; click again to reverse">Speed / Resistance Levels</button></th>
+<th class="spec-head" data-spec-head="inclineStrideMotion" data-key="tier:inclineStrideMotion" hidden><button type="button" title="Sort green → blank → grey; click again to reverse">Incline / Stride / Motion</button></th>
+<th class="spec-head" data-spec-head="maxUserWeightLb" data-key="tier:maxUserWeightLb" hidden><button type="button" title="Sort green → blank → grey; click again to reverse">Max User Weight (lb)</button></th>
 <th class="spec-head" data-spec-head="keyDimensions" hidden>Key Dimensions</th>
-<th class="spec-head" data-spec-head="workoutAreaWidthIn" hidden>Workout Area Width (in)</th>
-<th class="spec-head" data-spec-head="workoutAreaLengthIn" hidden>Workout Area Length (in)</th>
+<th class="spec-head" data-spec-head="workoutAreaWidthIn" data-key="tier:workoutAreaWidthIn" hidden><button type="button" title="Sort green → blank → grey; click again to reverse">Workout Area Width (in)</button></th>
+<th class="spec-head" data-spec-head="workoutAreaLengthIn" data-key="tier:workoutAreaLengthIn" hidden><button type="button" title="Sort green → blank → grey; click again to reverse">Workout Area Length (in)</button></th>
           <th>Link</th>
           <th class="c-acthead"><span class="sr" hidden>Actions</span></th>
         </tr>
@@ -412,6 +413,7 @@ body.spec-view td.c-sku,body.spec-view th[data-key="sku"]{position:sticky;left:0
       .filter((it) => state.cat === "All" || it.category === state.cat)
       .filter((it) => matches(it, state.q))
       .sort((a, b) => {
+        if(key.startsWith('tier:')){const field=key.slice(5),rank=item=>({high:0,low:2}[specTier(field,item.treadmillSpecs||{})]??1);return (rank(a)-rank(b))*dir||a.sku.localeCompare(b.sku,undefined,{numeric:true});}
         let x = a[key], y = b[key];
         if (key === "price") {
           const hx = typeof x === "number", hy = typeof y === "number";
@@ -432,6 +434,9 @@ body.spec-view td.c-sku,body.spec-view th[data-key="sku"]{position:sticky;left:0
     const showSpecs=state.cat==='Treadmills';document.body.classList.toggle('spec-view',showSpecs);$('#specLegend').hidden=!showSpecs;$('#specScroll').hidden=!showSpecs;$('#viewSpecs').textContent=showSpecs?'Show specification columns →':'View treadmill specifications →';document.querySelectorAll('[data-spec-head]').forEach(th=>th.hidden=!showSpecs);
     $('#title').textContent = state.cat === "All" ? "Product Catalog" : state.cat;
     document.querySelectorAll("th[data-key]").forEach((th) => th.setAttribute("aria-sort", th.dataset.key === state.sort.key ? (state.sort.dir > 0 ? "ascending" : "descending") : "none"));
+    $('#tierSort').value=state.sort.key.startsWith('tier:')?state.sort.key:'';
+    $('#tierDirection').textContent=state.sort.key.startsWith('tier:')&&state.sort.dir===-1?'Grey → blank → green':'Green → blank → grey';
+    $('#tierDirection').disabled=!state.sort.key.startsWith('tier:');
     const list = visible();
     const total = state.items.filter((it) => state.cat === "All" || it.category === state.cat).length;
     $("#sub").textContent = !state.loaded ? "Loading the catalog…" : state.q ? `${list.length} of ${total} items match “${state.q}”` : `${total} item${total === 1 ? "" : "s"}${state.cat === "All" ? " across " + categories().length + " categor" + (categories().length === 1 ? "y" : "ies") : ""}`;
@@ -620,6 +625,8 @@ body.spec-view td.c-sku,body.spec-view th[data-key="sku"]{position:sticky;left:0
   $("#qclear").addEventListener("click", () => { q.value = ""; state.q = ""; renderSuggest(); render(); q.focus(); });
 
   // ---------- table interactions ----------
+  $('#tierSort').addEventListener('change',e=>{state.sort={key:e.target.value||'price',dir:1};render();});
+  $('#tierDirection').addEventListener('click',()=>{state.sort.dir*=-1;render();});
   $('#viewSpecs').addEventListener('click',()=>{state.cat='Treadmills';state.q='';$('#q').value='';$('#qclear').hidden=true;try{localStorage.setItem('spf.cat',state.cat)}catch(e){}render();const box=$('.tablebox'),head=$('[data-spec-head]');if(innerWidth>720)box.scrollTo({left:Math.max(0,head.offsetLeft-260),behavior:'smooth'});else $('#rows').scrollIntoView({behavior:'smooth',block:'start'});});
   $('#specPrev').addEventListener('click',()=>$('.tablebox').scrollBy({left:-500,behavior:'smooth'}));
   $('#specNext').addEventListener('click',()=>$('.tablebox').scrollBy({left:500,behavior:'smooth'}));
