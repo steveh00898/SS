@@ -521,7 +521,7 @@ body.editing .c-act { min-width: 70px; }
   $("#bulkSave").addEventListener("click", async () => {
     const ids = dirtyIds(); if (!ids.length || !state.db) return;
     // validate everything first so nothing is half-saved because of a typo
-    const errs = {}, plan = [], taken = new Set(state.items.map((it) => it.id).filter((id) => !ids.includes(id)));
+    const errs = {}, plan = [], taken = new Set(state.items.map((it) => it.id)); // every current id stays reserved, so SKU swaps between rows are refused instead of overwriting each other
     for (const id of ids) {
       const it = byId(id); if (!it) { delete state.drafts[id]; continue; }
       const name = val(it, "name").trim(), skuIn = val(it, "sku"), sku = parseSku(skuIn) || skuIn.trim().toUpperCase(), category = val(it, "category").trim(), url = val(it, "url").trim();
@@ -529,7 +529,7 @@ body.editing .c-act { min-width: 70px; }
       if (!name || !sku || !category) errs[id] = "Name, SKU and category can't be empty.";
       else if (pr !== "" && !isFinite(price)) errs[id] = "Enter the price as a number, like 999.99.";
       else if (url && !/^https?:\/\//i.test(url)) errs[id] = "The link must start with https://";
-      else { const nid = docId(sku); if (taken.has(nid)) errs[id] = `${sku} is already used by another item.`; else { taken.add(nid); plan.push({ it, nid, rec: { name, sku, category, price, url } }); } }
+      else { const nid = docId(sku); if (nid !== id && taken.has(nid)) errs[id] = `${sku} is already used by another item.`; else { taken.add(nid); plan.push({ it, nid, rec: { name, sku, category, price, url } }); } }
     }
     state.rowErr = errs;
     if (Object.keys(errs).length) { render(); const first = document.querySelector("#rows tr.bad"); if (first) first.scrollIntoView({ block: "center", behavior: "smooth" }); else toast("Some changed items are hidden by your search. Clear it to see them"); return; }
