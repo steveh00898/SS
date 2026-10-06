@@ -1,0 +1,728 @@
+<title>Sunny Product Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto+Condensed:wght@400;500;700&display=swap">
+<style>
+/* Layout: matches sunnyhealthfitness.com: light grey nav bar with red wordmark, beige category hero, plain text sub-tabs, then the catalog table (cards on phones). */
+:root {
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --surface-2: #f4f4f6;
+  --fg: #111111;
+  --muted: #5d5d63;
+  --line: #e4e4e7;
+  --header: #f7f7f7;
+  --hero: #faf5f1;
+  --brand: #d7262e;
+  --accent: #e0322f;
+  --accent-soft: #fdecec;
+  --navy: #1c2541;
+  --navy-ink: #ffffff;
+  --danger: #c4241f;
+  --flash: #fff4c2;
+  --shadow: 0 10px 30px rgba(17, 17, 17, .14);
+  --font-display: "Poppins", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Poppins", "Helvetica Neue", Arial, sans-serif;
+  --font-num: "Roboto Condensed", "Arial Narrow", Arial, sans-serif;
+  --radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121214; --surface: #1a1a1d; --surface-2: #232327; --fg: #f2f2f3; --muted: #a3a3aa; --line: #303035;
+    --header: #1a1a1d; --hero: #221d1a; --brand: #ff4b4f; --accent: #ff5a55; --accent-soft: #3a1c1d; --navy: #e8ebf5; --navy-ink: #111522;
+    --danger: #ff6b5f; --flash: #4a3f12; --shadow: 0 10px 30px rgba(0,0,0,.5);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121214; --surface: #1a1a1d; --surface-2: #232327; --fg: #f2f2f3; --muted: #a3a3aa; --line: #303035;
+  --header: #1a1a1d; --hero: #221d1a; --brand: #ff4b4f; --accent: #ff5a55; --accent-soft: #3a1c1d; --navy: #e8ebf5; --navy-ink: #111522;
+  --danger: #ff6b5f; --flash: #4a3f12; --shadow: 0 10px 30px rgba(0,0,0,.5);
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 15px; line-height: 1.45; }
+button, input, select, textarea { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 16px; }
+
+/* Header */
+.top { background: var(--header); color: var(--fg); border-bottom: 1px solid var(--line); position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; }
+.top .wrap { display: flex; align-items: center; gap: 20px; padding-block: 10px; flex-wrap: wrap; }
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; flex: none; }
+.brand b { display: block; font-family: var(--font-display); font-weight: 700; font-size: 30px; letter-spacing: -.01em; line-height: 1; color: var(--brand); }
+.brand small { display: block; font-size: 7.5px; letter-spacing: .32em; text-transform: uppercase; color: var(--brand); line-height: 1.3; padding-left: 2px; }
+.brand em { font-style: normal; font-size: 13px; font-weight: 500; color: var(--muted); padding-left: 12px; border-left: 1px solid var(--line); }
+.search { position: relative; flex: 1 1 360px; min-width: 0; }
+.search input { width: 100%; height: 44px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--surface); color: var(--fg);
+  padding: 0 46px 0 44px; font-size: 16px; }
+.search input:focus { outline: none; border-color: var(--accent); }
+.search .icon { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; color: var(--muted); pointer-events: none; }
+.search .clear { position: absolute; right: 8px; top: 50%; transform: translateY(-50%); border: 0; background: none; width: 32px; height: 32px;
+  border-radius: 50%; cursor: pointer; color: var(--muted); font-size: 20px; line-height: 1; }
+.search .clear:hover { background: var(--surface-2); }
+.suggest { position: absolute; left: 0; right: 0; top: calc(100% + 6px); background: var(--surface); color: var(--fg); border-radius: 10px;
+  box-shadow: var(--shadow); border: 1px solid var(--line); list-style: none; margin: 0; padding: 6px; max-height: 420px; overflow-y: auto; }
+.suggest li { display: grid; grid-template-columns: 44px 1fr auto; gap: 12px; align-items: center; padding: 8px; border-radius: 8px; cursor: pointer; }
+.suggest li[aria-selected="true"], .suggest li:hover { background: var(--accent-soft); }
+.suggest img, .suggest .noimg { width: 44px; height: 44px; object-fit: contain; background: #f4f4f6; border-radius: 6px; }
+.suggest .nm { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.suggest .sk { font-family: var(--font-num); font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; letter-spacing: .02em; }
+.suggest .pr { font-family: var(--font-num); font-size: 17px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.suggest .empty { display: block; color: var(--muted); padding: 12px; cursor: default; }
+.suggest mark { background: none; color: var(--accent); font-weight: 700; }
+
+/* Page */
+main { padding-block: 0 64px; }
+.hero { background: var(--hero); box-shadow: 0 0 0 100vmax var(--hero); clip-path: inset(0 -100vmax); padding-block: 40px 32px; margin-bottom: 22px; }
+.hero .inner { max-width: 1148px; margin: 0 auto; }
+.head { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(30px, 5vw, 42px); line-height: 1.1; margin: 0; letter-spacing: -.01em; text-wrap: balance; }
+.sub { color: var(--fg); margin: 10px 0 0; font-size: 16px; max-width: 60ch; }
+.actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.btn { height: 42px; padding: 0 20px; border-radius: var(--radius); border: 1.5px solid var(--navy); background: var(--surface); color: var(--navy); cursor: pointer;
+  font-family: var(--font-num); font-weight: 700; letter-spacing: .08em; text-transform: uppercase; font-size: 14px; display: inline-flex; align-items: center; gap: 8px; }
+.btn:hover { background: var(--surface-2); }
+.btn.primary { background: var(--navy); border-color: var(--navy); color: var(--navy-ink); }
+.btn.primary:hover { filter: brightness(1.25); }
+.btn.danger { background: var(--danger); border-color: var(--danger); color: #fff; }
+.btn:disabled { opacity: .5; cursor: not-allowed; }
+
+.tabs { display: flex; flex-wrap: wrap; gap: 0 4px; border-bottom: 1px solid var(--line); margin-bottom: 16px; }
+.tab { border: 0; background: none; padding: 12px 0; margin-right: 26px; cursor: pointer; font-family: var(--font-body); font-weight: 400; font-size: 14px;
+  color: var(--fg); border-bottom: 2px solid transparent; margin-bottom: -1px; white-space: nowrap; }
+.tab[aria-selected="true"] { font-weight: 600; border-bottom-color: var(--accent); }
+.tab:hover { color: var(--accent); }
+.tab span { font-family: var(--font-body); font-size: 12px; font-weight: 600; background: var(--surface-2); border-radius: 999px; padding: 1px 7px; margin-left: 6px; vertical-align: 2px; }
+
+/* Table */
+.tablebox { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; }
+th { text-align: left; font-family: var(--font-num); font-size: 13px; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); font-weight: 700;
+  padding: 12px 14px; border-bottom: 1px solid var(--line); background: var(--surface); white-space: nowrap; }
+th button { border: 0; background: none; padding: 0; cursor: pointer; font: inherit; letter-spacing: inherit; text-transform: inherit; color: inherit; display: inline-flex; gap: 6px; align-items: center; }
+th button:hover { color: var(--fg); }
+th[aria-sort="ascending"] button::after { content: "▲"; font-size: 9px; color: var(--accent); }
+th[aria-sort="descending"] button::after { content: "▼"; font-size: 9px; color: var(--accent); }
+td { padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: middle; }
+tr:last-child td { border-bottom: 0; }
+tbody tr { transition: background-color .6s; }
+tbody tr:hover { background: var(--surface-2); }
+tbody tr.flash { background: var(--flash); transition: none; }
+.cat { display: inline-block; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; padding: 3px 9px; border-radius: 999px; background: var(--accent); color: #fff; white-space: nowrap; }
+.sku { font-family: var(--font-num); font-weight: 700; font-size: 18px; letter-spacing: .02em; font-variant-numeric: tabular-nums; white-space: nowrap; display: inline-flex; gap: 6px; align-items: center; }
+.copy { border: 0; background: none; cursor: pointer; color: var(--muted); padding: 2px; border-radius: 4px; line-height: 0; }
+.copy:hover { color: var(--accent); background: var(--surface-2); }
+.copy svg { width: 14px; height: 14px; }
+.name { color: var(--fg); font-size: 13.5px; margin-top: 2px; max-width: 340px; }
+.thumb { width: 120px; height: 90px; border: 0; border-radius: 4px; background: #f4f4f6; padding: 0; cursor: zoom-in; display: block; overflow: hidden; }
+.thumb img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.noimg { width: 120px; height: 90px; border: 1px dashed var(--line); border-radius: 4px; display: grid; place-items: center; color: var(--muted); font-size: 12px; }
+.price { font-family: var(--font-num); font-weight: 700; font-size: 22px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.pcheck { font-size: 11px; color: var(--muted); margin-top: 2px; white-space: nowrap; }
+.pcheck::before { content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: #e0a100; margin-right: 5px; vertical-align: 1px; }
+.link { color: var(--accent); font-weight: 500; font-size: 14px; text-decoration: none; display: inline-flex; gap: 4px; align-items: center; white-space: nowrap; }
+.link:hover { text-decoration: underline; }
+.rowact { display: flex; gap: 4px; justify-content: flex-end; }
+.iconbtn { border: 1px solid transparent; background: none; width: 32px; height: 32px; border-radius: 6px; cursor: pointer; color: var(--muted); display: grid; place-items: center; }
+.iconbtn:hover { border-color: var(--line); color: var(--fg); background: var(--surface); }
+.iconbtn.del:hover { color: var(--danger); }
+.iconbtn svg { width: 16px; height: 16px; }
+.state { padding: 48px 20px; text-align: center; color: var(--muted); }
+.state h2 { font-family: var(--font-display); font-weight: 600; color: var(--fg); margin: 0 0 6px; font-size: 22px; }
+.state p { margin: 0 auto; max-width: 46ch; }
+.state .btn { margin-top: 16px; }
+
+@media (max-width: 720px) {
+  table, tbody { display: block; }
+  thead { display: none; }
+  tbody tr { display: grid; grid-template-columns: 110px 1fr; grid-template-areas: "img cat" "img sku" "img price" "link act"; gap: 2px 14px; padding: 14px; border-bottom: 1px solid var(--line); }
+  tbody tr:last-child { border-bottom: 0; }
+  td { padding: 0; border: 0; min-width: 0; }
+  td.c-cat { grid-area: cat; } td.c-sku { grid-area: sku; } td.c-img { grid-area: img; } td.c-price { grid-area: price; }
+  td.c-link { grid-area: link; padding-top: 10px; } td.c-act { grid-area: act; padding-top: 6px; }
+  .thumb, .noimg { width: 110px; height: 90px; }
+  .name { max-width: none; }
+}
+
+/* Modals */
+.overlay { position: fixed; inset: 0; background: rgba(10, 9, 8, .6); z-index: 50; display: grid; place-items: center; padding: 16px; overflow-y: auto; }
+.dialog { background: var(--surface); color: var(--fg); border-radius: 10px; width: min(720px, 100%); box-shadow: var(--shadow); max-height: calc(100% - 8px); overflow-y: auto; }
+.dialog header { display: flex; justify-content: space-between; align-items: center; padding: 18px 22px; border-bottom: 1px solid var(--line); }
+.dialog h2 { font-family: var(--font-display); font-weight: 600; margin: 0; font-size: 22px; }
+.dialog .body { padding: 18px 22px; display: grid; gap: 16px; }
+.dialog footer { padding: 14px 22px; border-top: 1px solid var(--line); display: flex; justify-content: flex-end; gap: 10px; align-items: center; flex-wrap: wrap; }
+.dialog footer .msg { margin-right: auto; color: var(--danger); font-size: 14px; }
+.close { border: 0; background: none; font-size: 26px; line-height: 1; cursor: pointer; color: var(--muted); width: 36px; height: 36px; border-radius: 50%; }
+.close:hover { background: var(--surface-2); }
+label { display: grid; gap: 5px; font-family: var(--font-num); font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+input[type="text"], input[type="url"], textarea, select { border: 1.5px solid var(--line); border-radius: var(--radius); background: var(--surface); padding: 9px 11px;
+  font-size: 15px; text-transform: none; letter-spacing: 0; font-weight: 500; color: var(--fg); width: 100%; }
+input:focus, textarea:focus, select:focus { outline: none; border-color: var(--accent); }
+textarea { resize: vertical; min-height: 74px; }
+.paste { background: var(--accent-soft); border-radius: 8px; padding: 12px 14px; display: grid; gap: 6px; }
+.paste p { margin: 0; font-size: 13px; color: var(--muted); }
+.paste textarea { min-height: 64px; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.grid2 .full { grid-column: 1 / -1; }
+@media (max-width: 560px) { .grid2 { grid-template-columns: 1fr; } }
+.drop { border: 2px dashed var(--line); border-radius: 8px; padding: 18px; display: grid; grid-template-columns: 140px 1fr; gap: 16px; align-items: center; cursor: pointer; background: var(--surface); }
+.drop.over { border-color: var(--accent); background: var(--accent-soft); }
+.drop .pv { width: 140px; height: 105px; border-radius: 6px; background: #f4f4f6; border: 1px solid var(--line); display: grid; place-items: center; overflow: hidden; color: #9a958e; font-size: 12px; }
+.drop .pv img { width: 100%; height: 100%; object-fit: contain; }
+.drop strong { display: block; font-size: 15px; }
+.drop span { font-size: 13px; color: var(--muted); }
+@media (max-width: 460px) { .drop { grid-template-columns: 1fr; justify-items: center; text-align: center; } }
+.lightbox .dialog { width: min(1000px, 100%); background: #f4f4f6; color: #1d1c1a; }
+.lightbox img { display: block; width: 100%; max-height: 78vh; object-fit: contain; }
+.lightbox .cap { padding: 12px 18px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; border-top: 1px solid #e2dfda; font-weight: 600; }
+.lightbox .close { color: #6c6862; }
+/* Bulk edit */
+.ed { width: 100%; min-width: 0; border: 1.5px solid var(--line); border-radius: var(--radius); background: var(--surface); color: var(--fg); padding: 6px 8px; font-size: 14px; }
+.ed:focus { outline: none; border-color: var(--accent); }
+.ed.changed { border-color: #e0a100; background: var(--flash); }
+.ed-sku { font-family: var(--font-num); font-weight: 700; font-size: 16px; margin-bottom: 6px; }
+.ed-price { font-family: var(--font-num); font-weight: 700; font-size: 18px; width: 120px; }
+.ed-cat { width: 130px; }
+.ed-url { min-width: 170px; font-size: 12.5px; }
+.chk { display: flex; gap: 6px; align-items: center; margin-top: 6px; font-family: var(--font-body); font-size: 12px; font-weight: 500; text-transform: none; letter-spacing: 0; color: var(--muted); white-space: nowrap; cursor: pointer; }
+.chk input { width: 16px; height: 16px; accent-color: var(--accent); margin: 0; }
+.edimg { width: 120px; height: 90px; border: 2px dashed var(--line); border-radius: 4px; background: #f4f4f6; display: grid; place-items: center; overflow: hidden;
+  cursor: pointer; color: #6c6c72; font-size: 11.5px; text-align: center; padding: 4px; position: relative; }
+.edimg img { width: 100%; height: 100%; object-fit: contain; }
+.edimg.over { border-color: var(--accent); background: var(--accent-soft); }
+.edimg.changed { border-color: #e0a100; border-style: solid; }
+.edimg .hint { position: absolute; inset: auto 0 0 0; background: rgba(17,17,17,.62); color: #fff; font-size: 10.5px; padding: 2px; }
+tbody tr.dirty { background: color-mix(in srgb, var(--flash) 45%, transparent); }
+tbody tr.bad { box-shadow: inset 4px 0 0 var(--danger); }
+.rowerr { color: var(--danger); font-size: 12px; margin-top: 4px; }
+.revert { font-size: 12px; border: 0; background: none; color: var(--accent); cursor: pointer; padding: 4px; white-space: nowrap; font-weight: 600; }
+.bulkbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; background: var(--navy); color: var(--navy-ink); padding: 12px 16px calc(12px + env(safe-area-inset-bottom, 0px)); box-shadow: 0 -8px 24px rgba(0,0,0,.18); }
+.bulkbar .wrap { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; padding-inline: 0; }
+.bulkbar .info { margin-right: auto; font-size: 14px; }
+.bulkbar .info b { font-family: var(--font-num); font-size: 17px; }
+.bulkbar .err { color: #ffb4a8; display: block; font-size: 13px; }
+.bulkbar .btn { border-color: currentColor; background: transparent; color: inherit; }
+.bulkbar .btn.save { background: var(--accent); border-color: var(--accent); color: #fff; }
+body.editing main { padding-bottom: 120px; }
+@media (max-width: 560px) {
+  .bulkbar .info { flex-basis: 100%; }
+  .bulkbar .btn { height: 36px; padding: 0 12px; font-size: 12px; }
+  body.editing .toast { bottom: calc(128px + env(safe-area-inset-bottom, 0px)); }
+  body.editing main { padding-bottom: 150px; }
+}
+body.editing .c-act { min-width: 70px; }
+@media (max-width: 720px) {
+  body.editing tbody tr { grid-template-columns: 110px 1fr; grid-template-areas: "img sku" "img cat" "price price" "link link" "act act"; gap: 8px 14px; }
+  .ed-price { width: 100%; } .ed-cat { width: 100%; }
+  .edimg { width: 110px; height: 110px; }
+}
+.toast { position: fixed; left: 50%; bottom: calc(84px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: #1c2541; color: #fff; padding: 10px 18px; border-radius: 999px; font-weight: 600; z-index: 60; box-shadow: var(--shadow); }
+.banner { background: var(--accent-soft); border-radius: var(--radius); padding: 10px 14px; margin-bottom: 14px; font-size: 14px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="https://sunnyhealthfitness.com/" target="_blank" rel="noopener" aria-label="Sunny Health and Fitness website">
+      <span><b>SUNNY</b><small>Health &amp; Fitness</small></span><em>Product Finder</em>
+    </a>
+    <div class="search" role="combobox" aria-haspopup="listbox" aria-owns="suggest">
+      <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" autocomplete="off" placeholder="Search by product name or SKU (e.g. SF-T724081)" aria-label="Search products" aria-autocomplete="list" aria-controls="suggest">
+      <button class="clear" id="qclear" type="button" aria-label="Clear search" hidden>×</button>
+      <ul class="suggest" id="suggest" role="listbox" hidden></ul>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero"><div class="inner head">
+    <div>
+      <h1 id="title">Product Catalog</h1>
+      <p class="sub" id="sub">Loading the catalog…</p>
+    </div>
+    <div class="actions">
+      <button class="btn" id="exportBtn" type="button">Export CSV</button>
+      <button class="btn" id="bulkBtn" type="button" hidden>Bulk Edit</button>
+      <button class="btn primary" id="addBtn" type="button" hidden>+ Add New Item</button>
+    </div>
+  </div></section>
+  <div class="banner" id="banner" hidden></div>
+  <nav class="tabs" id="tabs" role="tablist" aria-label="Categories"></nav>
+  <div class="tablebox">
+    <table>
+      <thead>
+        <tr>
+          <th data-key="category"><button type="button">Category</button></th>
+          <th data-key="sku"><button type="button">SKU / Item</button></th>
+          <th>Picture</th>
+          <th data-key="price"><button type="button">Price</button></th>
+          <th>Link</th>
+          <th class="c-acthead"><span class="sr" hidden>Actions</span></th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <div class="state" id="state" hidden></div>
+  </div>
+</main>
+
+<div class="overlay" id="editModal" hidden>
+  <form class="dialog" id="editForm" novalidate aria-labelledby="editTitle">
+    <header><h2 id="editTitle">Add New Item</h2><button class="close" type="button" data-close aria-label="Close">×</button></header>
+    <div class="body">
+      <div class="paste">
+        <label for="f-paste">Quick paste</label>
+        <textarea id="f-paste" placeholder="Paste the product link, name, SKU and price here in any order. The fields below fill in automatically."></textarea>
+        <p>Tip: the product link alone fills in the category and SKU.</p>
+      </div>
+      <div class="grid2">
+        <label class="full">Product name<input id="f-name" type="text" required placeholder="Pace 500 Smart Auto Incline Treadmill"></label>
+        <label>SKU<input id="f-sku" type="text" required placeholder="SF-T724081"></label>
+        <label>Price (USD)<input id="f-price" type="text" inputmode="decimal" placeholder="999.99"></label>
+        <label>Category<input id="f-cat" type="text" list="catlist" required placeholder="Treadmills"></label>
+        <label>Product link<input id="f-url" type="url" placeholder="https://sunnyhealthfitness.com/collections/…"></label>
+      </div>
+      <datalist id="catlist"></datalist>
+      <div>
+        <label for="f-file" style="margin-bottom:5px">Picture</label>
+        <div class="drop" id="drop" tabindex="0" role="button" aria-label="Add a picture: drop an image, paste one, or click to choose a file">
+          <div class="pv" id="pv">No picture</div>
+          <div><strong>Drag the product image here</strong><span>Or paste an image, or click to choose a file. JPG, PNG or WebP.</span></div>
+        </div>
+        <input id="f-file" type="file" accept="image/*" hidden>
+      </div>
+    </div>
+    <footer><span class="msg" id="editMsg"></span><button class="btn" type="button" data-close>Cancel</button><button class="btn primary" type="submit" id="saveBtn">Save</button></footer>
+  </form>
+</div>
+
+<div class="overlay" id="delModal" hidden>
+  <div class="dialog" style="width:min(440px,100%)" role="dialog" aria-labelledby="delTitle">
+    <header><h2 id="delTitle">Delete item?</h2><button class="close" type="button" data-close aria-label="Close">×</button></header>
+    <div class="body"><p id="delText" style="margin:0"></p></div>
+    <footer><span class="msg" id="delMsg"></span><button class="btn" type="button" data-close>Cancel</button><button class="btn danger" type="button" id="delConfirm">Delete</button></footer>
+  </div>
+</div>
+
+<div class="overlay lightbox" id="lightbox" hidden>
+  <div class="dialog" role="dialog" aria-label="Product picture">
+    <header style="border-bottom-color:#e2dfda"><h2 id="lbTitle" style="font-size:20px"></h2><button class="close" type="button" data-close aria-label="Close">×</button></header>
+    <img id="lbImg" alt="">
+    <div class="cap"><span id="lbSku"></span><span id="lbPrice"></span></div>
+  </div>
+</div>
+
+<div class="bulkbar" id="bulkbar" hidden>
+  <div class="wrap">
+    <div class="info" id="bulkInfo" aria-live="polite"></div>
+    <button class="btn" type="button" id="bulkDiscard">Discard changes</button>
+    <button class="btn save" type="button" id="bulkSave">Save all</button>
+    <button class="btn" type="button" id="bulkDone">Done</button>
+  </div>
+</div>
+<input id="bulkFile" type="file" accept="image/*" hidden>
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script>
+(() => {
+  const $ = (s) => document.querySelector(s);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const money = (n) => (typeof n === "number" && isFinite(n)) ? "$" + n.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : "—";
+  const norm = (s) => String(s || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+  const ICON_COPY = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>';
+  const ICON_EDIT = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20h4L19 9l-4-4L4 16z"/></svg>';
+  const ICON_DEL = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></svg>';
+
+  const state = { items: [], loaded: false, cat: "All", sort: { key: "price", dir: 1 }, q: "", canWrite: false, db: null, assets: null, downloads: null, editMode: false, drafts: {}, rowErr: {}, saving: false };
+  try { const t = localStorage.getItem("spf.cat"); if (t) state.cat = t; } catch (e) {}
+
+  // ---------- parsing helpers ----------
+  const SKU_RE = /\bSF-?[A-Z]{1,4}\d{2,7}[A-Z0-9]*(?:-[A-Z]{1,6})?\b/i;
+  const CAT_LABELS = { treadmills: "Treadmills", ellipticals: "Ellipticals", "elliptical-machines": "Ellipticals", rowers: "Rowers", "rowing-machines": "Rowers",
+    bikes: "Indoor Bikes", "exercise-bikes": "Indoor Bikes", "indoor-cycling-bikes": "Indoor Bikes", steppers: "Steppers", "step-machines": "Steppers",
+    "row-n-ride": "Row-N-Ride", "pilates-reformers": "Pilates Reformers", "strength-racks-cages": "Racks", "benches-chairs-tables": "Weight Benches", "free-weights": "Weights", essentials: "Essentials" };
+  const catFromHandle = (h) => CAT_LABELS[h] || h.split("-").map((w) => w[0].toUpperCase() + w.slice(1)).join(" ");
+  function parseSku(s) { const m = String(s).match(SKU_RE); return m ? m[0].toUpperCase().replace(/^SF(?!-)/, "SF-") : ""; }
+  function parsePrice(s) { const m = String(s).match(/\$\s?([\d,]+(?:\.\d{1,2})?)/); return m ? m[1].replace(/,/g, "") : ""; }
+  function parseUrl(s) { const m = String(s).match(/https?:\/\/[^\s"'<>]+/i); return m ? m[0].replace(/[).,]+$/, "") : ""; }
+  function catFromUrl(u) { const m = String(u).match(/\/collections\/([a-z0-9-]+)/i); return m ? catFromHandle(m[1].toLowerCase()) : ""; }
+  function nameFromUrl(u) {
+    const m = String(u).match(/\/products\/([a-z0-9-]+)/i); if (!m) return "";
+    return m[1].replace(/-?sf-?[a-z]{1,4}\d{2,7}[a-z0-9]*$/i, "").split("-").filter(Boolean).map((w) => w[0].toUpperCase() + w.slice(1)).join(" ");
+  }
+  function smartParse(text) {
+    const out = {}; const url = parseUrl(text);
+    if (url) { out.url = url; const c = catFromUrl(url); if (c) out.category = c; }
+    const sku = parseSku(text.replace(url, " ")) || parseSku(url); if (sku) out.sku = sku;
+    const price = parsePrice(text); if (price) out.price = price;
+    const lines = text.split(/\n/).map((l) => l.trim()).filter(Boolean)
+      .filter((l) => !/^https?:/i.test(l) && !/^\$/.test(l) && !/^(sku|item|model)\b/i.test(l) && l.replace(SKU_RE, "").trim().length > 3 && !/^(sale|regular)\s*price/i.test(l));
+    if (lines.length) out.name = lines[0].replace(SKU_RE, "").replace(/\s{2,}/g, " ").replace(/[-–|·]\s*$/, "").trim();
+    else if (url) { const n = nameFromUrl(url); if (n) out.name = n; }
+    return out;
+  }
+  const SITE_ORDER = ["Treadmills", "Ellipticals", "Rowers", "Indoor Bikes", "Steppers", "Row-N-Ride", "Pilates Reformers", "Racks", "Weight Benches", "Weights", "Essentials"];
+  const docId = (sku) => sku.toLowerCase().replace(/[^a-z0-9-]+/g, "-").replace(/^-+|-+$/g, "") || "item-" + Date.now();
+  const imgSrc = (it) => it.imageUrl || (it.imageAssetId ? "/_blob/" + it.imageAssetId : "");
+
+  // ---------- rendering ----------
+  function categories() {
+    const counts = {}; state.items.forEach((it) => { counts[it.category] = (counts[it.category] || 0) + 1; });
+    // same order as the category row on sunnyhealthfitness.com; anything new goes after, alphabetically
+    const rank = (c) => { const i = SITE_ORDER.indexOf(c); return i < 0 ? SITE_ORDER.length : i; };
+    return Object.keys(counts).sort((x, y) => rank(x) - rank(y) || x.localeCompare(y)).map((c) => [c, counts[c]]);
+  }
+  function matches(it, q) {
+    if (!q) return true; const hay = (it.name + " " + it.sku + " " + it.category).toLowerCase(); const hn = norm(hay);
+    return q.toLowerCase().split(/\s+/).filter(Boolean).every((t) => hay.includes(t) || hn.includes(norm(t)));
+  }
+  function visible() {
+    const { key, dir } = state.sort;
+    return state.items
+      .filter((it) => state.cat === "All" || it.category === state.cat)
+      .filter((it) => matches(it, state.q))
+      .sort((a, b) => {
+        let x = a[key], y = b[key];
+        if (key === "price") {
+          const hx = typeof x === "number", hy = typeof y === "number";
+          if (hx !== hy) return hx ? -1 : 1; // items without a price always go last
+          return hx ? (x - y) * dir : a.sku.localeCompare(b.sku);
+        }
+        return String(x || "").localeCompare(String(y || ""), undefined, { numeric: true }) * dir || a.sku.localeCompare(b.sku);
+      });
+  }
+  function renderTabs() {
+    const cats = categories(); if (state.cat !== "All" && !cats.some(([c]) => c === state.cat)) state.cat = "All";
+    const tabs = [["All", state.items.length], ...cats];
+    $("#tabs").innerHTML = tabs.map(([c, n]) => `<button class="tab" role="tab" type="button" data-cat="${esc(c)}" aria-selected="${c === state.cat}">${esc(c)}<span>${n}</span></button>`).join("");
+    $("#catlist").innerHTML = [...new Set([...SITE_ORDER, ...cats.map(([c]) => c)])].map((c) => `<option value="${esc(c)}">`).join("");
+  }
+  function render() {
+    renderTabs();
+    $("#title").textContent = state.cat === "All" ? "Product Catalog" : state.cat;
+    document.querySelectorAll("th[data-key]").forEach((th) => th.setAttribute("aria-sort", th.dataset.key === state.sort.key ? (state.sort.dir > 0 ? "ascending" : "descending") : "none"));
+    const list = visible();
+    const total = state.items.filter((it) => state.cat === "All" || it.category === state.cat).length;
+    $("#sub").textContent = !state.loaded ? "Loading the catalog…" : state.q ? `${list.length} of ${total} items match “${state.q}”` : `${total} item${total === 1 ? "" : "s"}${state.cat === "All" ? " across " + categories().length + " categor" + (categories().length === 1 ? "y" : "ies") : ""}`;
+    const keep = captureFocus();
+    document.body.classList.toggle("editing", state.editMode);
+    $("#rows").innerHTML = list.map((it) => {
+      if (state.editMode) return editRow(it);
+      const src = imgSrc(it);
+      return `<tr data-id="${esc(it.id)}">
+        <td class="c-cat"><span class="cat">${esc(it.category)}</span></td>
+        <td class="c-sku"><div class="sku">${esc(it.sku)}<button class="copy" type="button" data-copy="${esc(it.sku)}" aria-label="Copy SKU ${esc(it.sku)}" title="Copy SKU">${ICON_COPY}</button></div><div class="name">${esc(it.name)}</div></td>
+        <td class="c-img">${src ? `<button class="thumb" type="button" data-zoom="${esc(it.id)}" aria-label="View full picture of ${esc(it.name)}"><img src="${esc(src)}" alt="${esc(it.name)}" loading="lazy"></button>` : `<div class="noimg">No picture</div>`}</td>
+        <td class="c-price"><span class="price">${money(it.price)}</span>${it.priceChecked ? "" : '<div class="pcheck" title="Taken from search results. Open Edit and Save after checking the site.">Price not yet checked</div>'}</td>
+        <td class="c-link">${it.url ? `<a class="link" href="${esc(it.url)}" target="_blank" rel="noopener">View on site ↗</a>` : `<span class="name">No link</span>`}</td>
+        <td class="c-act">${state.canWrite ? `<div class="rowact"><button class="iconbtn" type="button" data-edit="${esc(it.id)}" aria-label="Edit ${esc(it.sku)}" title="Edit">${ICON_EDIT}</button><button class="iconbtn del" type="button" data-del="${esc(it.id)}" aria-label="Delete ${esc(it.sku)}" title="Delete">${ICON_DEL}</button></div>` : ""}</td>
+      </tr>`;
+    }).join("");
+    const st = $("#state");
+    if (!state.loaded) { st.hidden = false; st.innerHTML = `<h2>Loading products</h2><p>Fetching the shared catalog.</p>`; }
+    else if (!state.items.length) { st.hidden = false; st.innerHTML = `<h2>No products yet</h2><p>The catalog fills in with each item's category, SKU, picture, price and product link. Add the first one to get started.</p>${state.canWrite ? '<button class="btn primary" type="button" data-add>+ Add New Item</button>' : ""}`; }
+    else if (!list.length) { st.hidden = false; st.innerHTML = `<h2>No matches</h2><p>Nothing matches “${esc(state.q)}”${state.cat !== "All" ? " in " + esc(state.cat) : ""}. Try part of the SKU, like 724081, or a word from the name.</p>`; }
+    else st.hidden = true;
+    restoreFocus(keep); renderBulkBar();
+  }
+
+  // ---------- bulk edit ----------
+  const FIELDS = ["name", "sku", "price", "category", "url"];
+  const orig = (it, f) => f === "price" ? (typeof it.price === "number" ? it.price.toFixed(2) : "") : String(it[f] ?? "");
+  const val = (it, f) => { const d = state.drafts[it.id]; return d && f in d ? d[f] : (f === "priceChecked" ? it.priceChecked : orig(it, f)); };
+  const isChanged = (it, f) => { const d = state.drafts[it.id]; return !!d && f in d; };
+  function editRow(it) {
+    const d = state.drafts[it.id] || {}, id = esc(it.id), err = state.rowErr[it.id];
+    const inp = (f, cls, extra = "") => `<input class="ed ${cls}${isChanged(it, f) ? " changed" : ""}" data-id="${id}" data-f="${f}" value="${esc(val(it, f))}" aria-label="${f} for ${esc(it.sku)}" ${extra}>`;
+    const src = d.preview || imgSrc(it);
+    return `<tr data-id="${id}" class="${Object.keys(d).length ? "dirty" : ""}${err ? " bad" : ""}">
+      <td class="c-cat">${inp("category", "ed-cat", 'list="catlist"')}</td>
+      <td class="c-sku">${inp("sku", "ed-sku")}${inp("name", "")}${err ? `<div class="rowerr">${esc(err)}</div>` : ""}</td>
+      <td class="c-img"><div class="edimg${d.file ? " changed" : ""}" data-drop="${id}" tabindex="0" role="button" aria-label="Change picture for ${esc(it.sku)}">${src ? `<img src="${esc(src)}" alt=""><span class="hint">Drop or click to change</span>` : "Drop picture here<br>or click"}</div></td>
+      <td class="c-price">${inp("price", "ed-price", 'inputmode="decimal" placeholder="0.00"')}<label class="chk"><input type="checkbox" data-id="${id}" data-f="priceChecked" ${val(it, "priceChecked") ? "checked" : ""}> Price checked</label></td>
+      <td class="c-link">${inp("url", "ed-url", 'type="url" placeholder="https://"')}</td>
+      <td class="c-act">${Object.keys(d).length ? `<button class="revert" type="button" data-revert="${id}">Undo</button>` : ""}</td>
+    </tr>`;
+  }
+  function captureFocus() {
+    const a = document.activeElement; if (!a || !a.dataset || !a.dataset.f || !a.closest("#rows")) return null;
+    return { id: a.dataset.id, f: a.dataset.f, s: a.selectionStart, e: a.selectionEnd };
+  }
+  function restoreFocus(k) {
+    if (!k) return; const el = document.querySelector(`#rows [data-id="${CSS.escape(k.id)}"][data-f="${k.f}"]`);
+    if (el) { el.focus(); try { if (k.s != null) el.setSelectionRange(k.s, k.e); } catch (e) {} }
+  }
+  const dirtyIds = () => Object.keys(state.drafts).filter((id) => Object.keys(state.drafts[id]).length);
+  function renderBulkBar() {
+    const bar = $("#bulkbar"); bar.hidden = !state.editMode; if (!state.editMode) return;
+    const n = dirtyIds().length, bad = Object.keys(state.rowErr).length, shown = visible().length;
+    if (!state.saving) $("#bulkInfo").innerHTML = `Editing <b>${shown}</b> shown item${shown === 1 ? "" : "s"} · <b>${n}</b> changed` + (bad ? `<span class="err">${bad} item${bad === 1 ? "" : "s"} need fixing before saving (marked in red).</span>` : "");
+    $("#bulkSave").textContent = n ? `Save all (${n})` : "Save all"; $("#bulkSave").disabled = !n || state.saving; $("#bulkDiscard").disabled = !n || state.saving;
+    $("#bulkDone").disabled = state.saving;
+  }
+  function setDraft(it, f, v) {
+    const d = state.drafts[it.id] || (state.drafts[it.id] = {});
+    const base = f === "priceChecked" ? it.priceChecked : orig(it, f);
+    if (v === base) delete d[f]; else d[f] = v;
+    if (!Object.keys(d).length) delete state.drafts[it.id];
+    delete state.rowErr[it.id];
+  }
+  function refreshRow(id) {
+    const it = byId(id), tr = document.querySelector(`#rows tr[data-id="${CSS.escape(id)}"]`); if (!it || !tr) return;
+    const k = captureFocus(); tr.outerHTML = editRow(it); restoreFocus(k); renderBulkBar();
+  }
+  $("#rows").addEventListener("input", (e) => {
+    const el = e.target; if (!state.editMode || !el.dataset.f) return; const it = byId(el.dataset.id); if (!it) return;
+    let v = el.type === "checkbox" ? el.checked : el.value;
+    setDraft(it, el.dataset.f, v);
+    if (el.dataset.f === "price" && v.trim() !== orig(it, "price")) setDraft(it, "priceChecked", true);
+    el.classList.toggle("changed", isChanged(it, el.dataset.f));
+    const tr = el.closest("tr"); tr.classList.toggle("dirty", !!state.drafts[it.id]); tr.classList.remove("bad");
+    const rv = tr.querySelector(".c-act"); rv.innerHTML = state.drafts[it.id] ? `<button class="revert" type="button" data-revert="${esc(it.id)}">Undo</button>` : "";
+    if (el.dataset.f === "price") { const cb = tr.querySelector('[data-f="priceChecked"]'); if (cb) cb.checked = val(it, "priceChecked"); }
+    renderBulkBar();
+  });
+  $("#rows").addEventListener("change", (e) => { if (e.target.type === "checkbox") e.target.dispatchEvent(new Event("input", { bubbles: true })); });
+  $("#rows").addEventListener("keydown", (e) => {
+    // Enter moves to the same field on the next row, like a spreadsheet
+    const el = e.target; if (e.key !== "Enter" || !el.dataset.f || el.type === "checkbox") return; e.preventDefault();
+    const rows = [...document.querySelectorAll("#rows tr")], i = rows.indexOf(el.closest("tr")), next = rows[i + (e.shiftKey ? -1 : 1)];
+    const t = next && next.querySelector(`[data-f="${el.dataset.f}"]`); if (t) { t.focus(); t.select?.(); }
+  });
+  let dropTarget = null;
+  $("#rows").addEventListener("click", (e) => {
+    const z = e.target.closest("[data-drop]"); if (z) { dropTarget = z.dataset.drop; $("#bulkFile").click(); return; }
+    const rv = e.target.closest("[data-revert]"); if (rv) { const id = rv.dataset.revert; const d = state.drafts[id]; if (d?.preview) URL.revokeObjectURL(d.preview); delete state.drafts[id]; delete state.rowErr[id]; refreshRow(id); }
+  });
+  $("#rows").addEventListener("keydown", (e) => { const z = e.target.closest?.("[data-drop]"); if (z && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); dropTarget = z.dataset.drop; $("#bulkFile").click(); } });
+  function rowFile(id, f) {
+    const it = byId(id); if (!it || !f) return;
+    if (!/^image\//.test(f.type)) { toast("That file isn't an image"); return; }
+    if (f.size > 20 * 1024 * 1024) { toast("That picture is over 20 MB"); return; }
+    const d = state.drafts[id] || (state.drafts[id] = {}); if (d.preview) URL.revokeObjectURL(d.preview);
+    d.file = f; d.preview = URL.createObjectURL(f); delete state.rowErr[id]; refreshRow(id);
+  }
+  $("#bulkFile").addEventListener("change", (e) => { rowFile(dropTarget, e.target.files[0]); e.target.value = ""; });
+  $("#rows").addEventListener("dragover", (e) => { const z = e.target.closest("[data-drop]"); if (!z) return; e.preventDefault(); z.classList.add("over"); });
+  $("#rows").addEventListener("dragleave", (e) => { const z = e.target.closest("[data-drop]"); if (z) z.classList.remove("over"); });
+  $("#rows").addEventListener("drop", (e) => { const z = e.target.closest("[data-drop]"); if (!z) return; e.preventDefault(); rowFile(z.dataset.drop, e.dataTransfer.files[0]); });
+  window.addEventListener("dragover", (e) => { if (state.editMode) e.preventDefault(); });
+  window.addEventListener("drop", (e) => { if (state.editMode && !e.target.closest("[data-drop]")) e.preventDefault(); });
+
+  function enterBulk() { closeModals(); sug.hidden = true; state.editMode = true; $("#bulkBtn").hidden = true; render(); toast("Bulk edit on. Change any shown item, then Save all"); }
+  function exitBulk() {
+    if (dirtyIds().length) { toast(`Save or discard your ${dirtyIds().length} changes first`); return; }
+    state.editMode = false; state.rowErr = {}; $("#bulkBtn").hidden = !state.canWrite; render();
+  }
+  $("#bulkBtn").addEventListener("click", enterBulk);
+  $("#bulkDone").addEventListener("click", exitBulk);
+  $("#bulkDiscard").addEventListener("click", () => { Object.values(state.drafts).forEach((d) => d.preview && URL.revokeObjectURL(d.preview)); state.drafts = {}; state.rowErr = {}; render(); toast("Changes discarded"); });
+  window.addEventListener("beforeunload", (e) => { if (dirtyIds().length) { e.preventDefault(); e.returnValue = ""; } });
+
+  $("#bulkSave").addEventListener("click", async () => {
+    const ids = dirtyIds(); if (!ids.length || !state.db) return;
+    // validate everything first so nothing is half-saved because of a typo
+    const errs = {}, plan = [], taken = new Set(state.items.map((it) => it.id)); // every current id stays reserved, so SKU swaps between rows are refused instead of overwriting each other
+    for (const id of ids) {
+      const it = byId(id); if (!it) { delete state.drafts[id]; continue; }
+      const name = val(it, "name").trim(), skuIn = val(it, "sku"), sku = parseSku(skuIn) || skuIn.trim().toUpperCase(), category = val(it, "category").trim(), url = val(it, "url").trim();
+      const pr = val(it, "price").replace(/[$,\s]/g, ""), price = pr === "" ? null : Number(pr);
+      if (!name || !sku || !category) errs[id] = "Name, SKU and category can't be empty.";
+      else if (pr !== "" && !isFinite(price)) errs[id] = "Enter the price as a number, like 999.99.";
+      else if (url && !/^https?:\/\//i.test(url)) errs[id] = "The link must start with https://";
+      else { const nid = sku === it.sku ? id : docId(sku); if (nid !== id && taken.has(nid)) errs[id] = `${sku} is already used by another item.`; else { taken.add(nid); plan.push({ it, nid, rec: { name, sku, category, price, url } }); } }
+    }
+    state.rowErr = errs;
+    if (Object.keys(errs).length) { render(); const first = document.querySelector("#rows tr.bad"); if (first) first.scrollIntoView({ block: "center", behavior: "smooth" }); else toast("Some changed items are hidden by your search. Clear it to see them"); return; }
+    state.saving = true; renderBulkBar(); let done = 0; const failed = {};
+    for (const { it, nid, rec } of plan) {
+      $("#bulkInfo").textContent = `Saving ${done + 1} of ${plan.length}…`;
+      const d = state.drafts[it.id];
+      try {
+        const out = { ...rec, priceChecked: !!val(it, "priceChecked"), imageUrl: it.imageUrl, imageAssetId: it.imageAssetId, createdAt: it.createdAt || new Date().toISOString(), updatedAt: new Date().toISOString() };
+        if (d.file) { if (!state.assets) throw { message: "Picture uploads aren't available in this view." }; const up = await state.assets.upload(d.file); out.imageAssetId = up.id; out.imageUrl = up.url; }
+        await state.db.collection("items").doc(nid).set(out);
+        if (nid !== it.id) await state.db.collection("items").doc(it.id).delete();
+        if (d.preview) URL.revokeObjectURL(d.preview); delete state.drafts[it.id]; done++;
+      } catch (err) { failed[it.id] = err?.code === "too_large" ? "That picture is too large." : (err?.message || "Couldn't save this item. Try again."); }
+    }
+    state.saving = false; state.rowErr = failed; render();
+    toast(Object.keys(failed).length ? `Saved ${done}. ${Object.keys(failed).length} couldn't be saved` : `Saved ${done} item${done === 1 ? "" : "s"}`);
+  });
+
+  // ---------- search + suggestions ----------
+  const q = $("#q"), sug = $("#suggest"); let sugIdx = -1, sugList = [];
+  function hl(text, query) {
+    let out = esc(text); query.split(/\s+/).filter((t) => t.length > 1).forEach((t) => {
+      const re = new RegExp("(" + t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "ig"); out = out.replace(re, "<mark>$1</mark>");
+    }); return out;
+  }
+  function renderSuggest() {
+    const v = q.value.trim(); $("#qclear").hidden = !q.value;
+    if (!v) { sug.hidden = true; q.setAttribute("aria-expanded", "false"); return; }
+    sugList = state.items.filter((it) => matches(it, v)).slice(0, 8);
+    sug.innerHTML = sugList.length ? sugList.map((it, i) => {
+      const src = imgSrc(it);
+      return `<li role="option" id="opt-${i}" data-i="${i}" aria-selected="${i === sugIdx}">${src ? `<img src="${esc(src)}" alt="">` : '<span class="noimg"></span>'}<div style="min-width:0"><div class="nm">${hl(it.name, v)}</div><div class="sk">${hl(it.sku, v)} · ${esc(it.category)}</div></div><span class="pr">${money(it.price)}</span></li>`;
+    }).join("") : `<li class="empty">No product name or SKU matches “${esc(v)}”.</li>`;
+    sug.hidden = false; q.setAttribute("aria-expanded", "true");
+    if (sugIdx >= 0) q.setAttribute("aria-activedescendant", "opt-" + sugIdx); else q.removeAttribute("aria-activedescendant");
+  }
+  function choose(it) {
+    q.value = it.sku; state.q = it.sku; sugIdx = -1; sug.hidden = true;
+    if (state.cat !== "All" && state.cat !== it.category) state.cat = "All";
+    render(); $("#qclear").hidden = false;
+    const row = document.querySelector(`tr[data-id="${CSS.escape(it.id)}"]`);
+    if (row) { row.scrollIntoView({ block: "center", behavior: "smooth" }); row.classList.add("flash"); setTimeout(() => row.classList.remove("flash"), 1400); }
+  }
+  q.addEventListener("input", () => { state.q = q.value.trim(); sugIdx = -1; renderSuggest(); render(); });
+  q.addEventListener("focus", renderSuggest);
+  q.addEventListener("keydown", (e) => {
+    if (sug.hidden && e.key !== "Escape") return;
+    if (e.key === "ArrowDown") { e.preventDefault(); sugIdx = Math.min(sugIdx + 1, sugList.length - 1); renderSuggest(); }
+    else if (e.key === "ArrowUp") { e.preventDefault(); sugIdx = Math.max(sugIdx - 1, -1); renderSuggest(); }
+    else if (e.key === "Enter") { e.preventDefault(); const it = sugList[sugIdx >= 0 ? sugIdx : 0]; if (it) choose(it); }
+    else if (e.key === "Escape") { sug.hidden = true; }
+  });
+  sug.addEventListener("mousedown", (e) => { const li = e.target.closest("li[data-i]"); if (li) { e.preventDefault(); choose(sugList[+li.dataset.i]); } });
+  document.addEventListener("click", (e) => { if (!e.target.closest(".search")) sug.hidden = true; });
+  $("#qclear").addEventListener("click", () => { q.value = ""; state.q = ""; renderSuggest(); render(); q.focus(); });
+
+  // ---------- table interactions ----------
+  $("#tabs").addEventListener("click", (e) => { const b = e.target.closest("[data-cat]"); if (!b) return; state.cat = b.dataset.cat; try { localStorage.setItem("spf.cat", state.cat); } catch (err) {} render(); });
+  document.querySelector("thead").addEventListener("click", (e) => {
+    const th = e.target.closest("th[data-key]"); if (!th) return; const k = th.dataset.key;
+    state.sort = { key: k, dir: state.sort.key === k ? -state.sort.dir : 1 }; render();
+  });
+  document.addEventListener("click", async (e) => {
+    const t = e.target.closest("[data-copy],[data-zoom],[data-edit],[data-del],[data-add],[data-close]"); if (!t) return;
+    if (t.dataset.copy) {
+      try { await navigator.clipboard.writeText(t.dataset.copy); toast("Copied " + t.dataset.copy); }
+      catch (err) { const r = document.createRange(); r.selectNodeContents(t.parentElement); const s = getSelection(); s.removeAllRanges(); s.addRange(r); toast("SKU selected. Press Ctrl+C to copy"); }
+    } else if (t.dataset.zoom) openLightbox(byId(t.dataset.zoom));
+    else if (t.dataset.edit) openEdit(byId(t.dataset.edit));
+    else if (t.dataset.del) openDelete(byId(t.dataset.del));
+    else if (t.hasAttribute("data-add")) openEdit(null);
+    else if (t.hasAttribute("data-close")) closeModals();
+  });
+  document.querySelectorAll(".overlay").forEach((o) => o.addEventListener("mousedown", (e) => { if (e.target === o) closeModals(); }));
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && document.querySelector(".overlay:not([hidden])")) closeModals(); });
+  $("#addBtn").addEventListener("click", () => openEdit(null));
+  const byId = (id) => state.items.find((it) => it.id === id);
+  function closeModals() { document.querySelectorAll(".overlay").forEach((o) => (o.hidden = true)); document.body.style.overflow = ""; }
+  function openOverlay(el) { el.hidden = false; document.body.style.overflow = "hidden"; }
+  let toastT; function toast(msg) { const t = $("#toast"); t.textContent = msg; t.hidden = false; clearTimeout(toastT); toastT = setTimeout(() => (t.hidden = true), 2200); }
+
+  function openLightbox(it) {
+    if (!it) return; $("#lbImg").src = imgSrc(it); $("#lbImg").alt = it.name; $("#lbTitle").textContent = it.name;
+    $("#lbSku").textContent = it.sku; $("#lbPrice").textContent = money(it.price); openOverlay($("#lightbox"));
+  }
+
+  // ---------- add / edit ----------
+  let editing = null, pendingFile = null, pendingUrl = null;
+  const F = { name: $("#f-name"), sku: $("#f-sku"), price: $("#f-price"), category: $("#f-cat"), url: $("#f-url") };
+  function setPreview(src) { $("#pv").innerHTML = src ? `<img src="${esc(src)}" alt="Picture preview">` : "No picture"; }
+  function openEdit(it) {
+    editing = it; pendingFile = null; if (pendingUrl) URL.revokeObjectURL(pendingUrl); pendingUrl = null;
+    $("#editTitle").textContent = it ? "Edit Item" : "Add New Item"; $("#editMsg").textContent = ""; $("#f-paste").value = "";
+    F.name.value = it?.name || ""; F.sku.value = it?.sku || ""; F.price.value = typeof it?.price === "number" ? it.price.toFixed(2) : "";
+    F.category.value = it?.category || (state.cat !== "All" ? state.cat : "Treadmills"); F.url.value = it?.url || "";
+    setPreview(it ? imgSrc(it) : ""); $("#saveBtn").disabled = false; openOverlay($("#editModal"));
+    setTimeout(() => (it ? F.name : $("#f-paste")).focus(), 30);
+  }
+  function applyParsed(p, onlyEmpty) {
+    for (const k of ["name", "sku", "price", "category", "url"]) if (p[k] && (!onlyEmpty || !F[k].value.trim() || k === "category" && !editing)) F[k].value = p[k];
+  }
+  $("#f-paste").addEventListener("input", (e) => applyParsed(smartParse(e.target.value), false));
+  F.url.addEventListener("input", () => { const u = F.url.value; if (!F.sku.value.trim()) { const s = parseSku(u); if (s) F.sku.value = s; } const c = catFromUrl(u); if (c && !editing) F.category.value = c; if (!F.name.value.trim()) F.name.value = nameFromUrl(u); });
+  F.sku.addEventListener("blur", () => { const s = parseSku(F.sku.value); if (s) F.sku.value = s; else F.sku.value = F.sku.value.trim().toUpperCase(); });
+
+  const drop = $("#drop"), fileIn = $("#f-file");
+  function takeFile(f) {
+    if (!f || !/^image\//.test(f.type)) { $("#editMsg").textContent = "That file isn't an image. Use a JPG, PNG or WebP picture."; return; }
+    if (f.size > 20 * 1024 * 1024) { $("#editMsg").textContent = "That picture is over 20 MB. Use a smaller image."; return; }
+    pendingFile = f; if (pendingUrl) URL.revokeObjectURL(pendingUrl); pendingUrl = URL.createObjectURL(f); setPreview(pendingUrl); $("#editMsg").textContent = "";
+  }
+  drop.addEventListener("click", () => fileIn.click());
+  drop.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); fileIn.click(); } });
+  fileIn.addEventListener("change", () => { takeFile(fileIn.files[0]); fileIn.value = ""; });
+  ["dragenter", "dragover"].forEach((ev) => drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.add("over"); }));
+  ["dragleave", "drop"].forEach((ev) => drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.remove("over"); }));
+  drop.addEventListener("drop", (e) => takeFile(e.dataTransfer.files[0]));
+  $("#editModal").addEventListener("dragover", (e) => e.preventDefault());
+  $("#editModal").addEventListener("drop", (e) => { e.preventDefault(); if (e.dataTransfer.files[0]) takeFile(e.dataTransfer.files[0]); });
+  $("#editModal").addEventListener("paste", (e) => { const f = [...(e.clipboardData?.files || [])].find((x) => /^image\//.test(x.type)); if (f) { e.preventDefault(); takeFile(f); } });
+
+  $("#editForm").addEventListener("submit", async (e) => {
+    e.preventDefault(); const msg = $("#editMsg");
+    const name = F.name.value.trim(), sku = (parseSku(F.sku.value) || F.sku.value.trim().toUpperCase()), category = F.category.value.trim(), url = F.url.value.trim();
+    const priceRaw = F.price.value.replace(/[$,\s]/g, ""); const price = priceRaw === "" ? null : Number(priceRaw);
+    if (!name || !sku || !category) { msg.textContent = "Fill in the product name, SKU and category."; return; }
+    if (priceRaw !== "" && !isFinite(price)) { msg.textContent = "Enter the price as a number, like 999.99."; return; }
+    if (url && !/^https?:\/\//i.test(url)) { msg.textContent = "The product link must start with https://"; return; }
+    const id = editing && sku === editing.sku ? editing.id : docId(sku); // an unchanged SKU keeps its row, even when the same product is listed under two categories
+    if ((!editing || editing.id !== id) && byId(id)) { msg.textContent = `${sku} is already in the catalog. Edit that item instead.`; return; }
+    if (!state.db) { msg.textContent = "Saving needs the shared catalog, which isn't available in this view."; return; }
+    $("#saveBtn").disabled = true; msg.textContent = "";
+    try {
+      const rec = { name, sku, category, price, url, imageUrl: editing?.imageUrl || "", imageAssetId: editing?.imageAssetId || "", priceChecked: true, createdAt: editing?.createdAt || new Date().toISOString(), updatedAt: new Date().toISOString() };
+      if (pendingFile) {
+        if (!state.assets) throw { message: "Picture uploads aren't available in this view." };
+        $("#saveBtn").textContent = "Uploading…"; const up = await state.assets.upload(pendingFile); rec.imageAssetId = up.id; rec.imageUrl = up.url;
+      }
+      $("#saveBtn").textContent = "Saving…";
+      await state.db.collection("items").doc(id).set(rec);
+      if (editing && editing.id !== id) await state.db.collection("items").doc(editing.id).delete();
+      closeModals(); toast(editing ? `Saved ${sku}` : `Added ${sku}`);
+    } catch (err) {
+      msg.textContent = err?.code === "quota_exceeded" ? "The catalog is full. Delete some items first." : err?.code === "too_large" ? "That picture is too large." : (err?.message || "Couldn't save. Try again.");
+    } finally { $("#saveBtn").disabled = false; $("#saveBtn").textContent = "Save"; }
+  });
+
+  // ---------- delete ----------
+  let deleting = null;
+  function openDelete(it) { if (!it) return; deleting = it; $("#delText").textContent = `Remove ${it.sku} — ${it.name} from the catalog? This can't be undone.`; $("#delMsg").textContent = ""; openOverlay($("#delModal")); }
+  $("#delConfirm").addEventListener("click", async () => {
+    if (!deleting || !state.db) return; const b = $("#delConfirm"); b.disabled = true;
+    try { await state.db.collection("items").doc(deleting.id).delete(); closeModals(); toast(`Deleted ${deleting.sku}`); }
+    catch (err) { $("#delMsg").textContent = err?.message || "Couldn't delete. Try again."; }
+    finally { b.disabled = false; }
+  });
+
+  // ---------- export ----------
+  $("#exportBtn").addEventListener("click", async () => {
+    const list = visible(); const cell = (v) => '"' + String(v ?? "").replace(/"/g, '""') + '"';
+    const csv = [["Category", "SKU", "Name", "Price", "Link", "Picture"].map(cell).join(","),
+      ...list.map((it) => [it.category, it.sku, it.name, typeof it.price === "number" ? it.price.toFixed(2) : "", it.url, imgSrc(it) && new URL(imgSrc(it), location.href).href].map(cell).join(","))].join("\r\n");
+    const fname = `sunny-${state.cat === "All" ? "all-products" : docId(state.cat)}.csv`;
+    if (!state.downloads) { toast("Downloads aren't available in this view."); return; }
+    try { await state.downloads.save({ filename: fname, data: new Blob([csv], { type: "text/csv" }) }); toast(`Exported ${list.length} items`); }
+    catch (err) { if (err?.code !== "declined") toast("Couldn't export the file."); }
+  });
+
+  // ---------- data ----------
+  render();
+  async function boot() {
+    const use = (n) => (window.claude && typeof window.claude.use === "function") ? window.claude.use(n).catch(() => null) : Promise.resolve(null);
+    const [db, user, assets, downloads] = await Promise.all([use("db"), use("user"), use("assets"), use("downloads")]);
+    state.db = db; state.assets = assets; state.downloads = downloads;
+    $("#exportBtn").hidden = !downloads;
+    if (!db) { state.loaded = true; $("#banner").hidden = false; $("#banner").textContent = "Open this page on claude.ai to load the shared product catalog."; render(); return; }
+    const w = user ? await user.can("data.write").catch(() => null) : null;
+    state.canWrite = w !== false; $("#addBtn").hidden = !state.canWrite; $("#bulkBtn").hidden = !state.canWrite;
+    db.collection("items").onSnapshot((snap) => {
+      state.items = snap.docs.filter((d) => d.exists).map((d) => {
+        const x = d.data() || {};
+        return { id: d.id, name: String(x.name || ""), sku: String(x.sku || d.id).toUpperCase(), category: String(x.category || "Uncategorized"),
+          price: typeof x.price === "number" ? x.price : (x.price != null && x.price !== "" && isFinite(+x.price) ? +x.price : null),
+          priceChecked: x.priceChecked !== false, url: String(x.url || ""), imageUrl: String(x.imageUrl || ""), imageAssetId: String(x.imageAssetId || ""), createdAt: x.createdAt || "" };
+      });
+      state.loaded = true; render(); if (document.activeElement === q) renderSuggest();
+    }, (err) => { state.loaded = true; $("#banner").hidden = false; $("#banner").textContent = "The catalog couldn't load. Reload the page to try again."; render(); });
+  }
+  if (window.claude) boot(); else { let n = 0; const iv = setInterval(() => { if (window.claude || ++n > 40) { clearInterval(iv); boot(); } }, 50); }
+})();
+</script>
