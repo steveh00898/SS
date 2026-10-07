@@ -38,4 +38,8 @@ Once source access is available, run `python work-fetch.py`, inspect the contact
 
 ## Treadmill comparison
 
-The seven treadmill-only columns are sourced from the uploaded master portfolio. See `data/treadmill-specifications-notes.md` for the dimension interpretation, missing values, and independent tier rules. Open `/?category=Treadmills` for the comparison view.
+The seven shared specification columns are sourced from the uploaded master portfolio. See `data/treadmill-specifications-notes.md` for the dimension interpretation, missing values, and independent tier rules. Open `/?category=Treadmills` for the comparison view.
+
+## Shared specifications
+
+All categories use the same seven specification columns; missing values display `-`. Treadmills, all 18 ellipticals and all 13 rowers include the available master-portfolio information. See `data/catalog-specifications-notes.md` for category-based tier rules and dimension handling.

@@ -272,7 +272,7 @@ th[data-key="sku"],th.c-imghead,th[data-key="price"]{z-index:5}
   </div></section>
   <div class="banner" id="banner" hidden></div>
   <nav class="tabs" id="tabs" role="tablist" aria-label="Categories"></nav>
-  <div class="spec-legend" id="specLegend" hidden aria-label="Treadmill specification highlights"><span><i class="spec-key high" aria-hidden="true"></i>Highest tier</span><span><i class="spec-key" aria-hidden="true"></i>Mid tier / unranked</span><span><i class="spec-key low" aria-hidden="true"></i>Lowest tier</span><label class="compare-toggle"><input type="checkbox" id="compareToggle"> Compare</label><span id="compareStatus" hidden aria-live="polite"></span><button class="btn primary" id="compareConfirm" type="button" hidden>Confirm comparison</button><details><summary>How tiers are compared</summary><p>Each specification is compared independently across the full 23-treadmill portfolio. Numeric tiers use distinct advertised values: the upper third is green, the lower third is grey, and the middle is unchanged. Search and sorting do not change the colors.</p><p>Incline tiers compare adjustability: incline + decline is highest, automatic incline is mid, and fixed or manually adjusted incline is lowest. Other motion systems and user-powered speed/drive are unranked. Quoted motor HP is not a standardized continuous-duty rating.</p><p>Dimensions are copied from your master portfolio; workout length and width split its dimensions in length × width order. “Not provided” means the workbook has no value. Green indicates a higher specification band, not an overall product recommendation.</p></details></div><div class="tablebox">
+  <div class="spec-legend" id="specLegend" hidden aria-label="Specification highlights"><span><i class="spec-key high" aria-hidden="true"></i>Highest tier</span><span><i class="spec-key" aria-hidden="true"></i>Mid tier / unranked</span><span><i class="spec-key low" aria-hidden="true"></i>Lowest tier</span><label class="compare-toggle"><input type="checkbox" id="compareToggle"> Compare</label><span id="compareStatus" hidden aria-live="polite"></span><button class="btn primary" id="compareConfirm" type="button" hidden>Confirm comparison</button><details><summary>How tiers are compared</summary><p>Each numeric specification is compared independently within its product category, using the full saved catalog. Resistance levels and motorized speed levels are compared separately. Numeric tiers use distinct advertised values: the upper third is green, the lower third is grey, and the middle is unchanged. Fewer than three distinct values remain unranked. Search, sorting and comparison do not change the colors.</p><p>Treadmill incline tiers compare adjustability: incline + decline is highest, automatic incline is mid, and fixed or manually adjusted incline is lowest. Other motion systems and user-powered speed/drive are unranked. Quoted motor HP is not a standardized continuous-duty rating.</p><p>Elliptical numeric stride lengths are ranked within Ellipticals. Resistance technologies and descriptive rower motion labels stay unranked because they are not directly comparable performance measures.</p><p>Dimensions are copied from your master portfolio. Only treadmill workout dimensions split into length × width; overall or folded elliptical and rower dimensions are not workout-pad dimensions. “-” means information has not been provided. Green indicates a higher specification band, not an overall product recommendation.</p></details></div><div class="tablebox">
     <table>
       <thead>
         <tr>
@@ -399,10 +399,13 @@ th[data-key="sku"],th.c-imghead,th[data-key="price"]{z-index:5}
 
 
   const SPEC_COLUMNS=[['driveResistanceSystem','Drive / Resistance System'],['speedResistanceLevels','Speed / Resistance Levels'],['inclineStrideMotion','Incline / Stride / Motion'],['maxUserWeightLb','Max User Weight (lb)'],['keyDimensions','Key Dimensions'],['workoutAreaWidthIn','Workout Area Width (in)'],['workoutAreaLengthIn','Workout Area Length (in)']];
-  const SPEC_METRIC={driveResistanceSystem:'advertisedMotorHp',speedResistanceLevels:'maxSpeedMph',maxUserWeightLb:'maxUserWeightLb',workoutAreaWidthIn:'workoutAreaWidthIn',workoutAreaLengthIn:'workoutAreaLengthIn'};
-  function numericTier(field,value){if(typeof value!=='number'||!isFinite(value))return '';const metric=SPEC_METRIC[field];const levels=[...new Set(state.items.filter(i=>i.category==='Treadmills').map(i=>i.treadmillSpecs?.[metric]).filter(v=>typeof v==='number'&&isFinite(v)))].sort((a,b)=>a-b);if(levels.length<3)return '';const lowCount=Math.floor(levels.length/3),highCount=Math.ceil(levels.length/3);if(value<=levels[lowCount-1])return 'low';if(value>=levels[levels.length-highCount])return 'high';return '';}
-  function specTier(field,spec){if(field==='keyDimensions')return '';if(field==='inclineStrideMotion'){const motion=String(spec?.inclineStrideMotion||'').toLowerCase();if(!motion)return '';if(/decline|-[35]\s*%/.test(motion))return 'high';if(/auto|electric/.test(motion))return '';if(/fixed|manual.*incline|manual,/.test(motion))return 'low';return '';}return numericTier(field,spec?.[SPEC_METRIC[field]])}
-  function specCells(item){if(state.cat!=='Treadmills')return '';const spec=item.treadmillSpecs||{};return SPEC_COLUMNS.map(([field,label])=>{const value=spec[field],unknown=value==null||value==='';const text=unknown?'Not provided':typeof value==='number'?String(value)+(field==='maxUserWeightLb'?' lb':/workoutArea/.test(field)?' in':''):String(value);const tier=unknown?'':specTier(field,spec);const title=(tier==='high'?'Highest tier':tier==='low'?'Lowest tier':unknown?'Not provided in the master portfolio':field==='keyDimensions'?'Dimensions from the master portfolio':'Mid tier or unranked')+' · '+label;return `<td class="c-spec" data-spec="${field}" data-label="${esc(label)}"><span class="spec-value ${tier} ${unknown?'unknown':''}" title="${esc(title)}">${esc(text)}</span></td>`}).join('')}
+  const specsOf=item=>item.productSpecs||item.treadmillSpecs||{};
+  function metricFor(field,item){if(field==='driveResistanceSystem')return item.category==='Treadmills'?'advertisedMotorHp':null;if(field==='speedResistanceLevels')return item.category==='Treadmills'?'maxSpeedMph':specsOf(item).resistanceLevels!=null?'resistanceLevels':specsOf(item).speedLevels!=null?'speedLevels':null;if(field==='inclineStrideMotion')return item.category==='Ellipticals'?'strideLengthIn':null;return ['maxUserWeightLb','workoutAreaWidthIn','workoutAreaLengthIn'].includes(field)?field:null;}
+  function numericTier(field,item){const metric=metricFor(field,item),value=specsOf(item)[metric];if(typeof value!=='number'||!isFinite(value))return '';const levels=[...new Set(state.items.filter(i=>i.category===item.category&&metricFor(field,i)===metric).map(i=>specsOf(i)[metric]).filter(v=>typeof v==='number'&&isFinite(v)))].sort((a,b)=>a-b);if(levels.length<3)return '';const lowCount=Math.floor(levels.length/3),highCount=Math.ceil(levels.length/3);if(value<=levels[lowCount-1])return 'low';if(value>=levels[levels.length-highCount])return 'high';return '';}
+  function specTier(field,item){const spec=specsOf(item);if(spec[field]==null||spec[field]===''||field==='keyDimensions')return '';if(field==='inclineStrideMotion'&&item.category==='Treadmills'){const motion=String(spec.inclineStrideMotion).toLowerCase();if(/decline|-[35]\s*%/.test(motion))return 'high';if(/auto|electric/.test(motion))return '';if(/fixed|manual.*incline|manual,/.test(motion))return 'low';return '';}
+    // Resistance types and nonnumeric motion labels are not standardized performance measures.
+    return numericTier(field,item);}
+  function specCells(item){const spec=specsOf(item);return SPEC_COLUMNS.map(([field,label])=>{const value=spec[field],unknown=value==null||value==='';const text=unknown?'-':typeof value==='number'?String(value)+(field==='maxUserWeightLb'?' lb':/workoutArea/.test(field)?' in':''):String(value);const tier=unknown?'':specTier(field,item);const title=(tier==='high'?'Highest tier':tier==='low'?'Lowest tier':unknown?'No information provided yet':field==='keyDimensions'?'Dimensions from the master portfolio':'Mid tier or unranked')+' · '+label;return `<td class="c-spec" data-spec="${field}" data-label="${esc(label)}"><span class="spec-value ${tier} ${unknown?'unknown':''}" title="${esc(title)}">${esc(text)}</span></td>`}).join('')}
 
   // ---------- rendering ----------
   function categories() {
@@ -421,7 +424,7 @@ th[data-key="sku"],th.c-imghead,th[data-key="price"]{z-index:5}
       .filter((it) => state.cat === "All" || it.category === state.cat)
       .filter((it) => state.compareMode && state.compareConfirmed ? state.compareActive.has(it.id) : matches(it, state.q))
       .sort((a, b) => {
-        if(key.startsWith('tier:')){const field=key.slice(5),rank=item=>({high:0,low:2}[specTier(field,item.treadmillSpecs||{})]??1);return (rank(a)-rank(b))*dir||a.sku.localeCompare(b.sku,undefined,{numeric:true});}
+        if(key.startsWith('tier:')){const field=key.slice(5),rank=item=>({high:0,low:2}[specTier(field,item)]??1);return (rank(a)-rank(b))*dir||a.sku.localeCompare(b.sku,undefined,{numeric:true});}
         let x = a[key], y = b[key];
         if (key === "price") {
           const hx = typeof x === "number", hy = typeof y === "number";
@@ -439,7 +442,7 @@ th[data-key="sku"],th.c-imghead,th[data-key="price"]{z-index:5}
   }
   function render() {
     renderTabs();
-    const showSpecs=state.cat==='Treadmills';document.body.classList.toggle('spec-view',showSpecs);$('#specLegend').hidden=!showSpecs;document.querySelectorAll('[data-spec-head]').forEach(th=>th.hidden=!showSpecs);
+    const showSpecs=true;document.body.classList.toggle('spec-view',showSpecs);$('#specLegend').hidden=!showSpecs;document.querySelectorAll('[data-spec-head]').forEach(th=>th.hidden=!showSpecs);
     $('#title').textContent = state.cat === "All" ? "Product Catalog" : state.cat;
     document.querySelectorAll("th[data-key]").forEach((th) => th.setAttribute("aria-sort", th.dataset.key === state.sort.key ? (state.sort.dir > 0 ? "ascending" : "descending") : "none"));
     if(!showSpecs){state.compareMode=false;state.compareConfirmed=false;state.compareSelected.clear();}
@@ -592,7 +595,7 @@ th[data-key="sku"],th.c-imghead,th[data-key="price"]{z-index:5}
       $("#bulkInfo").textContent = `Saving ${done + 1} of ${plan.length}…`;
       const d = state.drafts[it.id];
       try {
-        const out = { ...rec, treadmillSpecs:it.treadmillSpecs||null, priceChecked: !!val(it, "priceChecked"), imageUrl: it.imageUrl, imageAssetId: it.imageAssetId, createdAt: it.createdAt || new Date().toISOString(), updatedAt: new Date().toISOString() };
+        const out = { ...rec, productSpecs:it.productSpecs||null, treadmillSpecs:it.treadmillSpecs||null, priceChecked: !!val(it, "priceChecked"), imageUrl: it.imageUrl, imageAssetId: it.imageAssetId, createdAt: it.createdAt || new Date().toISOString(), updatedAt: new Date().toISOString() };
         if (d.file) { if (!state.assets) throw { message: "Picture uploads aren't available in this view." }; const up = await state.assets.upload(d.file); out.imageAssetId = up.id; out.imageUrl = up.url; }
         await state.db.collection("items").doc(nid).set(out);
         if (nid !== it.id) await state.db.collection("items").doc(it.id).delete();
@@ -645,7 +648,7 @@ th[data-key="sku"],th.c-imghead,th[data-key="price"]{z-index:5}
   $('#compareToggle').addEventListener('change',e=>{state.compareMode=e.target.checked;state.compareConfirmed=false;state.compareSelected.clear();render();$('.tablebox').scrollLeft=0;});
   $('#rows').addEventListener('change',e=>{const id=e.target.dataset.compare;if(!id)return;if(e.target.checked)state.compareSelected.add(id);else state.compareSelected.delete(id);$('#compareConfirm').disabled=state.compareSelected.size===0;$('#compareStatus').textContent=state.compareSelected.size+' selected';});
   $('#compareConfirm').addEventListener('click',()=>{if(!state.compareSelected.size)return;state.compareConfirmed=true;state.compareActive=new Set(state.compareSelected);render();$('.tablebox').scrollTop=0;});
-  $("#tabs").addEventListener("click", (e) => { const b = e.target.closest("[data-cat]"); if (!b) return; state.cat = b.dataset.cat; try { localStorage.setItem("spf.cat", state.cat); } catch (err) {} render(); });
+  $("#tabs").addEventListener("click", (e) => { const b = e.target.closest("[data-cat]"); if (!b) return; if(state.cat!==b.dataset.cat){state.compareMode=false;state.compareConfirmed=false;state.compareSelected.clear();state.compareActive.clear();}state.cat = b.dataset.cat; try { localStorage.setItem("spf.cat", state.cat); } catch (err) {} render(); });
   document.querySelector("thead").addEventListener("click", (e) => {
     const th = e.target.closest("th[data-key]"); if (!th) return; const k = th.dataset.key;
     state.sort = { key: k, dir: state.sort.key === k ? -state.sort.dir : 1 }; render();
@@ -721,7 +724,7 @@ th[data-key="sku"],th.c-imghead,th[data-key="price"]{z-index:5}
     if (!state.db) { msg.textContent = "Saving needs the shared catalog, which isn't available in this view."; return; }
     $("#saveBtn").disabled = true; msg.textContent = "";
     try {
-      const rec = { treadmillSpecs:editing?.treadmillSpecs||null, name, sku, category, price, url, imageUrl: editing?.imageUrl || "", imageAssetId: editing?.imageAssetId || "", priceChecked: true, createdAt: editing?.createdAt || new Date().toISOString(), updatedAt: new Date().toISOString() };
+      const rec = { productSpecs:editing?.productSpecs||null, treadmillSpecs:editing?.treadmillSpecs||null, name, sku, category, price, url, imageUrl: editing?.imageUrl || "", imageAssetId: editing?.imageAssetId || "", priceChecked: true, createdAt: editing?.createdAt || new Date().toISOString(), updatedAt: new Date().toISOString() };
       if (pendingFile) {
         if (!state.assets) throw { message: "Picture uploads aren't available in this view." };
         $("#saveBtn").textContent = "Uploading…"; const up = await state.assets.upload(pendingFile); rec.imageAssetId = up.id; rec.imageUrl = up.url;
@@ -748,9 +751,9 @@ th[data-key="sku"],th.c-imghead,th[data-key="price"]{z-index:5}
   // ---------- export ----------
   $("#exportBtn").addEventListener("click", async () => {
     const list = visible(); const cell = (v) => '"' + String(v ?? "").replace(/"/g, '""') + '"';
-    const extra=state.cat==='Treadmills'?SPEC_COLUMNS:[];
+    const extra=SPEC_COLUMNS;
     const csv = [["Category", "SKU", "Name", "Price", "Link", "Picture",...extra.map(([key,label])=>label)].map(cell).join(","),
-      ...list.map((it) => [it.category, it.sku, it.name, typeof it.price === "number" ? it.price.toFixed(2) : "", it.url, imgSrc(it) && new URL(imgSrc(it), location.href).href,...extra.map(([key])=>it.treadmillSpecs?.[key]??'')].map(cell).join(","))].join("\r\n");
+      ...list.map((it) => [it.category, it.sku, it.name, typeof it.price === "number" ? it.price.toFixed(2) : "", it.url, imgSrc(it) && new URL(imgSrc(it), location.href).href,...extra.map(([key])=>specsOf(it)[key]??'-')].map(cell).join(","))].join("\r\n");
     const fname = `sunny-${state.cat === "All" ? "all-products" : docId(state.cat)}.csv`;
     if (!state.downloads) { toast("Downloads aren't available in this view."); return; }
     try { await state.downloads.save({ filename: fname, data: new Blob([csv], { type: "text/csv" }) }); toast(`Exported ${list.length} items`); }
@@ -788,7 +791,7 @@ th[data-key="sku"],th.c-imghead,th[data-key="price"]{z-index:5}
     db.collection("items").onSnapshot((snap) => {
       state.items = snap.docs.filter((d) => d.exists).map((d) => {
         const x = d.data() || {};
-        return { treadmillSpecs:x.treadmillSpecs||null, id: d.id, name: String(x.name || ""), sku: String(x.sku || d.id).toUpperCase(), category: String(x.category || "Uncategorized"),
+        return { productSpecs:x.productSpecs||null, treadmillSpecs:x.treadmillSpecs||null, id: d.id, name: String(x.name || ""), sku: String(x.sku || d.id).toUpperCase(), category: String(x.category || "Uncategorized"),
           price: typeof x.price === "number" ? x.price : (x.price != null && x.price !== "" && isFinite(+x.price) ? +x.price : null),
           priceChecked: x.priceChecked !== false, url: String(x.url || ""), imageUrl: String(x.imageUrl || ""), imageAssetId: String(x.imageAssetId || ""), createdAt: x.createdAt || "" };
       });
