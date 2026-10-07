@@ -230,10 +230,18 @@ body.editing .c-act { min-width: 70px; }
 .spec-legend details{flex-basis:100%;font-size:14px;max-width:100%}.spec-legend summary{cursor:pointer;color:var(--fg)}.spec-legend details p{margin:8px 0;max-width:90ch;line-height:1.55}.spec-legend ul{margin:6px 0;padding-left:20px}
 .c-spec{min-width:140px;max-width:205px;font-size:14px;line-height:1.55}.c-spec .spec-value{display:inline-block;padding:6px 9px;border:1px solid transparent;border-radius:4px;max-width:190px;font-weight:500}
 .spec-value.high{background:var(--tier-high-bg);color:var(--tier-high-fg);border-color:var(--tier-high-border)}.spec-value.low{background:var(--tier-low-bg);color:var(--tier-low-fg);border-color:var(--tier-low-border)}.spec-value.unknown{color:var(--muted);font-weight:400}
-.spec-review{display:flex;align-items:center;flex-wrap:wrap;gap:12px;padding:16px;margin:16px 0;background:var(--surface);border:1px solid var(--line);border-left:4px solid #175b32;border-radius:6px}.spec-review p{margin:5px 0 0;color:var(--muted);font-size:14px}.spec-review>div:first-child{flex:1;min-width:220px}@media(max-width:720px){#specScroll{display:none!important}}
 body.spec-view table{min-width:2220px}body.spec-view th.spec-head{white-space:normal;min-width:140px;max-width:190px;line-height:1.5;font-size:14px;letter-spacing:.04em}
-body.spec-view td.c-sku,body.spec-view th[data-key="sku"]{position:sticky;left:0;z-index:2;background:var(--surface);box-shadow:3px 0 6px #0000000b;min-width:240px}body.spec-view th[data-key="sku"]{z-index:3}
 @media(max-width:720px){body.spec-view table{min-width:0}body.spec-view td.c-sku,body.spec-view th[data-key="sku"]{position:static;box-shadow:none;min-width:0;background:transparent}.c-spec{grid-area:auto!important;grid-column:1/-1!important;max-width:none;min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:12px;border-top:1px solid var(--line);padding-top:8px;margin-top:6px;align-items:center}.c-spec:before{content:attr(data-label);font-size:14px;font-weight:500;color:var(--muted)}.c-spec .spec-value{max-width:none;min-width:0;overflow-wrap:anywhere}.spec-legend{gap:8px 14px}.spec-legend details{font-size:14px}}
+@media(min-width:721px){
+.tablebox{--sku-width:260px;--picture-width:120px}
+td.c-sku,th[data-key="sku"]{min-width:260px;position:sticky;left:0;background:var(--surface);z-index:2}
+td.c-img,th.c-imghead{min-width:120px;position:sticky;left:var(--sku-width);background:var(--surface);z-index:2}
+td.c-price,th[data-key="price"]{min-width:140px;position:sticky;left:calc(var(--sku-width) + var(--picture-width));background:var(--surface);z-index:2;box-shadow:3px 0 6px #00000015}
+th[data-key="sku"],th.c-imghead,th[data-key="price"]{z-index:5}
+}
+.compare-toggle{display:inline-flex;align-items:center;gap:8px;color:var(--fg);cursor:pointer}.compare-toggle input,.compare-cell input{width:18px;height:18px;accent-color:var(--accent)}
+#compareConfirm{margin-left:auto}.compare-cell{min-width:80px;text-align:center}
+@media(max-width:720px){td.compare-cell{grid-area:auto;grid-column:1/-1;display:flex;gap:8px;align-items:center}td.compare-cell:before{content:'Compare'}#compareConfirm{margin-left:0}}
 </style>
 
 </head><body><header class="top">
@@ -263,15 +271,15 @@ body.spec-view td.c-sku,body.spec-view th[data-key="sku"]{position:sticky;left:0
     </div>
   </div></section>
   <div class="banner" id="banner" hidden></div>
-  <section class="spec-review" aria-label="Treadmill specifications"><div><strong>New: 7 treadmill specification columns</strong><p>Drive, speed, incline, user weight, dimensions, workout width and length.</p></div><button class="btn primary" id="viewSpecs" type="button">View treadmill specifications →</button><div id="specScroll" hidden><button class="btn" id="specPrev" type="button" aria-label="Scroll table left">←</button> <button class="btn" id="specNext" type="button" aria-label="Scroll table right">More columns →</button></div></section>
   <nav class="tabs" id="tabs" role="tablist" aria-label="Categories"></nav>
-  <div class="spec-legend" id="specLegend" hidden aria-label="Treadmill specification highlights"><span><i class="spec-key high" aria-hidden="true"></i>Highest tier</span><span><i class="spec-key" aria-hidden="true"></i>Mid tier / unranked</span><span><i class="spec-key low" aria-hidden="true"></i>Lowest tier</span><label>Sort by tier <select id="tierSort" aria-label="Sort treadmill specification tiers"><option value="">Choose specification</option><option value="tier:driveResistanceSystem">Drive / Resistance System</option><option value="tier:speedResistanceLevels">Speed / Resistance Levels</option><option value="tier:inclineStrideMotion">Incline / Stride / Motion</option><option value="tier:maxUserWeightLb">Max User Weight</option><option value="tier:workoutAreaWidthIn">Workout Area Width</option><option value="tier:workoutAreaLengthIn">Workout Area Length</option></select></label><button class="btn" id="tierDirection" type="button">Green → blank → grey</button><details><summary>How tiers are compared</summary><p>Each specification is compared independently across the full 23-treadmill portfolio. Numeric tiers use distinct advertised values: the upper third is green, the lower third is grey, and the middle is unchanged. Search and sorting do not change the colors.</p><p>Incline tiers compare adjustability: incline + decline is highest, automatic incline is mid, and fixed or manually adjusted incline is lowest. Other motion systems and user-powered speed/drive are unranked. Quoted motor HP is not a standardized continuous-duty rating.</p><p>Dimensions are copied from your master portfolio; workout length and width split its dimensions in length × width order. “Not provided” means the workbook has no value. Green indicates a higher specification band, not an overall product recommendation.</p></details></div><div class="tablebox">
+  <div class="spec-legend" id="specLegend" hidden aria-label="Treadmill specification highlights"><span><i class="spec-key high" aria-hidden="true"></i>Highest tier</span><span><i class="spec-key" aria-hidden="true"></i>Mid tier / unranked</span><span><i class="spec-key low" aria-hidden="true"></i>Lowest tier</span><label class="compare-toggle"><input type="checkbox" id="compareToggle"> Compare</label><span id="compareStatus" hidden aria-live="polite"></span><button class="btn primary" id="compareConfirm" type="button" hidden>Confirm comparison</button><details><summary>How tiers are compared</summary><p>Each specification is compared independently across the full 23-treadmill portfolio. Numeric tiers use distinct advertised values: the upper third is green, the lower third is grey, and the middle is unchanged. Search and sorting do not change the colors.</p><p>Incline tiers compare adjustability: incline + decline is highest, automatic incline is mid, and fixed or manually adjusted incline is lowest. Other motion systems and user-powered speed/drive are unranked. Quoted motor HP is not a standardized continuous-duty rating.</p><p>Dimensions are copied from your master portfolio; workout length and width split its dimensions in length × width order. “Not provided” means the workbook has no value. Green indicates a higher specification band, not an overall product recommendation.</p></details></div><div class="tablebox">
     <table>
       <thead>
         <tr>
           <th data-key="category"><button type="button">Category</button></th>
+          <th id="compareHead" class="compare-cell" hidden>Select</th>
           <th data-key="sku"><button type="button">SKU / Item</button></th>
-          <th>Picture</th>
+          <th class="c-imghead">Picture</th>
           <th data-key="price"><button type="button">Price</button></th>
 <th class="spec-head" data-spec-head="driveResistanceSystem" data-key="tier:driveResistanceSystem" hidden><button type="button" title="Sort green → blank → grey; click again to reverse">Drive / Resistance System</button></th>
 <th class="spec-head" data-spec-head="speedResistanceLevels" data-key="tier:speedResistanceLevels" hidden><button type="button" title="Sort green → blank → grey; click again to reverse">Speed / Resistance Levels</button></th>
@@ -357,7 +365,7 @@ body.spec-view td.c-sku,body.spec-view th[data-key="sku"]{position:sticky;left:0
   const ICON_EDIT = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20h4L19 9l-4-4L4 16z"/></svg>';
   const ICON_DEL = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></svg>';
 
-  const state = { items: [], loaded: false, cat: "All", sort: { key: "price", dir: 1 }, q: "", canWrite: false, db: null, assets: null, downloads: null, editMode: false, drafts: {}, rowErr: {}, saving: false };
+  const state = { items: [], loaded: false, cat: "All", sort: { key: "price", dir: 1 }, q: "", canWrite: false, db: null, assets: null, downloads: null, editMode: false, drafts: {}, rowErr: {}, saving: false, compareMode: false, compareConfirmed: false, compareSelected: new Set(), compareActive: new Set() };
   try { const t = new URLSearchParams(location.search).get('category')||localStorage.getItem("spf.cat"); if (t) state.cat = t; } catch (e) {}
 
   // ---------- parsing helpers ----------
@@ -411,7 +419,7 @@ body.spec-view td.c-sku,body.spec-view th[data-key="sku"]{position:sticky;left:0
     const { key, dir } = state.sort;
     return state.items
       .filter((it) => state.cat === "All" || it.category === state.cat)
-      .filter((it) => matches(it, state.q))
+      .filter((it) => state.compareMode && state.compareConfirmed ? state.compareActive.has(it.id) : matches(it, state.q))
       .sort((a, b) => {
         if(key.startsWith('tier:')){const field=key.slice(5),rank=item=>({high:0,low:2}[specTier(field,item.treadmillSpecs||{})]??1);return (rank(a)-rank(b))*dir||a.sku.localeCompare(b.sku,undefined,{numeric:true});}
         let x = a[key], y = b[key];
@@ -431,15 +439,21 @@ body.spec-view td.c-sku,body.spec-view th[data-key="sku"]{position:sticky;left:0
   }
   function render() {
     renderTabs();
-    const showSpecs=state.cat==='Treadmills';document.body.classList.toggle('spec-view',showSpecs);$('#specLegend').hidden=!showSpecs;$('#specScroll').hidden=!showSpecs;$('#viewSpecs').textContent=showSpecs?'Show specification columns →':'View treadmill specifications →';document.querySelectorAll('[data-spec-head]').forEach(th=>th.hidden=!showSpecs);
+    const showSpecs=state.cat==='Treadmills';document.body.classList.toggle('spec-view',showSpecs);$('#specLegend').hidden=!showSpecs;document.querySelectorAll('[data-spec-head]').forEach(th=>th.hidden=!showSpecs);
     $('#title').textContent = state.cat === "All" ? "Product Catalog" : state.cat;
     document.querySelectorAll("th[data-key]").forEach((th) => th.setAttribute("aria-sort", th.dataset.key === state.sort.key ? (state.sort.dir > 0 ? "ascending" : "descending") : "none"));
-    $('#tierSort').value=state.sort.key.startsWith('tier:')?state.sort.key:'';
-    $('#tierDirection').textContent=state.sort.key.startsWith('tier:')&&state.sort.dir===-1?'Grey → blank → green':'Green → blank → grey';
-    $('#tierDirection').disabled=!state.sort.key.startsWith('tier:');
+    if(!showSpecs){state.compareMode=false;state.compareConfirmed=false;state.compareSelected.clear();}
+    $('#compareToggle').checked=state.compareMode;
+    $('#compareHead').hidden=!state.compareMode;
+    $('#compareConfirm').hidden=!state.compareMode;
+    $('#compareConfirm').disabled=state.compareSelected.size===0;
+    $('#compareConfirm').textContent=state.compareConfirmed?'Update comparison':'Confirm comparison';
+    $('#compareStatus').hidden=!state.compareMode;
+    $('#compareStatus').textContent=state.compareSelected.size+' selected'+(state.compareConfirmed?' · Comparing selected items':'');
     const list = visible();
     const total = state.items.filter((it) => state.cat === "All" || it.category === state.cat).length;
     $("#sub").textContent = !state.loaded ? "Loading the catalog…" : state.q ? `${list.length} of ${total} items match “${state.q}”` : `${total} item${total === 1 ? "" : "s"}${state.cat === "All" ? " across " + categories().length + " categor" + (categories().length === 1 ? "y" : "ies") : ""}`;
+    if(state.compareMode&&state.compareConfirmed)$('#sub').textContent=list.length+' items in comparison';
     const keep = captureFocus();
     document.body.classList.toggle("editing", state.editMode);
     $("#rows").innerHTML = list.map((it) => {
@@ -447,7 +461,7 @@ body.spec-view td.c-sku,body.spec-view th[data-key="sku"]{position:sticky;left:0
       const src = imgSrc(it);
       return `<tr data-id="${esc(it.id)}">
         <td class="c-cat"><span class="cat">${esc(it.category)}</span></td>
-        <td class="c-sku"><div class="sku">${esc(it.sku)}<button class="copy" type="button" data-copy="${esc(it.sku)}" aria-label="Copy SKU ${esc(it.sku)}" title="Copy SKU">${ICON_COPY}</button></div><div class="name">${esc(it.name)}</div></td>
+        ${compareCell(it)}<td class="c-sku"><div class="sku">${esc(it.sku)}<button class="copy" type="button" data-copy="${esc(it.sku)}" aria-label="Copy SKU ${esc(it.sku)}" title="Copy SKU">${ICON_COPY}</button></div><div class="name">${esc(it.name)}</div></td>
         <td class="c-img">${src ? `<button class="thumb" type="button" data-zoom="${esc(it.id)}" aria-label="View full picture of ${esc(it.name)}"><img src="${esc(src)}" alt="${esc(it.name)}" loading="lazy"></button>` : `<div class="noimg">No picture</div>`}</td>
         <td class="c-price"><span class="price">${money(it.price)}</span>${it.priceChecked ? "" : '<div class="pcheck" title="Taken from search results. Open Edit and Save after checking the site.">Price not yet checked</div>'}</td>
         ${specCells(it)}<td class="c-link">${it.url ? `<a class="link" href="${esc(it.url)}" target="_blank" rel="noopener">View on site ↗</a>` : `<span class="name">No link</span>`}</td>
@@ -459,9 +473,12 @@ body.spec-view td.c-sku,body.spec-view th[data-key="sku"]{position:sticky;left:0
     else if (!state.items.length) { st.hidden = false; st.innerHTML = `<h2>No products yet</h2><p>The catalog fills in with each item's category, SKU, picture, price and product link. Add the first one to get started.</p>${state.canWrite ? '<button class="btn primary" type="button" data-add>+ Add New Item</button>' : ""}`; }
     else if (!list.length) { st.hidden = false; st.innerHTML = `<h2>No matches</h2><p>Nothing matches “${esc(state.q)}”${state.cat !== "All" ? " in " + esc(state.cat) : ""}. Try part of the SKU, like 724081, or a word from the name.</p>`; }
     else st.hidden = true;
-    restoreFocus(keep); renderBulkBar();
+    restoreFocus(keep); renderBulkBar(); updateFrozenWidths();
   }
 
+  function compareCell(it){return state.compareMode?`<td class="compare-cell"><input type="checkbox" data-compare="${esc(it.id)}" aria-label="Compare ${esc(it.sku)}" ${state.compareSelected.has(it.id)?'checked':''}></td>`:'';}
+  function updateFrozenWidths(){const box=$('.tablebox');box.style.setProperty('--sku-width',$('th[data-key="sku"]').getBoundingClientRect().width+'px');box.style.setProperty('--picture-width',$('th.c-imghead').getBoundingClientRect().width+'px');}
+  new ResizeObserver(updateFrozenWidths).observe($('.tablebox'));
   // ---------- bulk edit ----------
   const FIELDS = ["name", "sku", "price", "category", "url"];
   const orig = (it, f) => f === "price" ? (typeof it.price === "number" ? it.price.toFixed(2) : "") : String(it[f] ?? "");
@@ -473,7 +490,7 @@ body.spec-view td.c-sku,body.spec-view th[data-key="sku"]{position:sticky;left:0
     const src = d.preview || imgSrc(it);
     return `<tr data-id="${id}" class="${Object.keys(d).length ? "dirty" : ""}${err ? " bad" : ""}">
       <td class="c-cat">${inp("category", "ed-cat", 'list="catlist"')}</td>
-      <td class="c-sku">${inp("sku", "ed-sku")}${inp("name", "")}${err ? `<div class="rowerr">${esc(err)}</div>` : ""}</td>
+      ${compareCell(it)}<td class="c-sku">${inp("sku", "ed-sku")}${inp("name", "")}${err ? `<div class="rowerr">${esc(err)}</div>` : ""}</td>
       <td class="c-img"><div class="edimg${d.file ? " changed" : ""}" data-drop="${id}" tabindex="0" role="button" aria-label="Change picture for ${esc(it.sku)}">${src ? `<img src="${esc(src)}" alt=""><span class="hint">Drop or click to change</span>` : "Drop picture here<br>or click"}</div></td>
       <td class="c-price">${inp("price", "ed-price", 'inputmode="decimal" placeholder="0.00"')}<label class="chk"><input type="checkbox" data-id="${id}" data-f="priceChecked" ${val(it, "priceChecked") ? "checked" : ""}> Price checked</label></td>
       ${specCells(it)}<td class="c-link">${inp("url", "ed-url", 'type="url" placeholder="https://"')}</td>
@@ -625,11 +642,9 @@ body.spec-view td.c-sku,body.spec-view th[data-key="sku"]{position:sticky;left:0
   $("#qclear").addEventListener("click", () => { q.value = ""; state.q = ""; renderSuggest(); render(); q.focus(); });
 
   // ---------- table interactions ----------
-  $('#tierSort').addEventListener('change',e=>{state.sort={key:e.target.value||'price',dir:1};render();});
-  $('#tierDirection').addEventListener('click',()=>{state.sort.dir*=-1;render();});
-  $('#viewSpecs').addEventListener('click',()=>{state.cat='Treadmills';state.q='';$('#q').value='';$('#qclear').hidden=true;try{localStorage.setItem('spf.cat',state.cat)}catch(e){}render();const box=$('.tablebox'),head=$('[data-spec-head]');if(innerWidth>720)box.scrollTo({left:Math.max(0,head.offsetLeft-260),behavior:'smooth'});else $('#rows').scrollIntoView({behavior:'smooth',block:'start'});});
-  $('#specPrev').addEventListener('click',()=>$('.tablebox').scrollBy({left:-500,behavior:'smooth'}));
-  $('#specNext').addEventListener('click',()=>$('.tablebox').scrollBy({left:500,behavior:'smooth'}));
+  $('#compareToggle').addEventListener('change',e=>{state.compareMode=e.target.checked;state.compareConfirmed=false;state.compareSelected.clear();render();$('.tablebox').scrollLeft=0;});
+  $('#rows').addEventListener('change',e=>{const id=e.target.dataset.compare;if(!id)return;if(e.target.checked)state.compareSelected.add(id);else state.compareSelected.delete(id);$('#compareConfirm').disabled=state.compareSelected.size===0;$('#compareStatus').textContent=state.compareSelected.size+' selected';});
+  $('#compareConfirm').addEventListener('click',()=>{if(!state.compareSelected.size)return;state.compareConfirmed=true;state.compareActive=new Set(state.compareSelected);render();$('.tablebox').scrollTop=0;});
   $("#tabs").addEventListener("click", (e) => { const b = e.target.closest("[data-cat]"); if (!b) return; state.cat = b.dataset.cat; try { localStorage.setItem("spf.cat", state.cat); } catch (err) {} render(); });
   document.querySelector("thead").addEventListener("click", (e) => {
     const th = e.target.closest("th[data-key]"); if (!th) return; const k = th.dataset.key;
