@@ -43,3 +43,7 @@ The seven shared specification columns are sourced from the uploaded master port
 ## Shared specifications
 
 All categories use the same seven specification columns; missing values display `-`. Treadmills, all 18 ellipticals and all 13 rowers include the available master-portfolio information. See `data/catalog-specifications-notes.md` for category-based tier rules and dimension handling.
+
+## Column layout and specification editing
+
+Drag the header grip to rearrange columns. Main product columns stay visible; specification eye icons collapse the body and label to a closed-eye header for restoration. Layout preferences are saved in this browser. The Columns menu offers move arrows and eye controls for mobile; focused header grips also support Alt + arrow keys. SKU, picture and price remain frozen in their chosen relative order. Edit includes all seven specification fields, even hidden ones, supports blank values, and refreshes numeric tier metrics from edited descriptions.

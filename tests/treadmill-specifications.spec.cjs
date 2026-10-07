@@ -13,8 +13,8 @@ await page.locator('#compareToggle').check();await page.locator('[data-compare="
 // Tier ordering uses the same independent ranks as the displayed colors.
 for(const key of ['driveResistanceSystem','speedResistanceLevels','inclineStrideMotion','maxUserWeightLb','workoutAreaWidthIn','workoutAreaLengthIn']){
  const ranks=()=>page.locator('[data-spec="'+key+'"] .spec-value').evaluateAll(els=>els.map(el=>el.classList.contains('high')?0:el.classList.contains('low')?2:1));
- await page.locator('th[data-key="tier:'+key+'"] button').click();let order=await ranks();assert.deepEqual(order,[...order].sort((a,b)=>a-b));
- await page.locator('th[data-key="tier:'+key+'"] button').click();order=await ranks();assert.deepEqual(order,[...order].sort((a,b)=>b-a));
+ await page.locator('th[data-key="tier:'+key+'"] .header-label button').click();let order=await ranks();assert.deepEqual(order,[...order].sort((a,b)=>a-b));
+ await page.locator('th[data-key="tier:'+key+'"] .header-label button').click();order=await ranks();assert.deepEqual(order,[...order].sort((a,b)=>b-a));
 }
 
 await page.locator('.tablebox').evaluate(el=>{el.scrollTop=500;el.scrollLeft=600});

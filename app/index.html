@@ -101,8 +101,8 @@ th { text-align: left; font-family: var(--font-num); font-size: 13px; text-trans
   padding: 12px 14px; border-bottom: 1px solid var(--line); background: var(--surface); white-space: nowrap; }
 th button { border: 0; background: none; padding: 0; cursor: pointer; font: inherit; letter-spacing: inherit; text-transform: inherit; color: inherit; display: inline-flex; gap: 6px; align-items: center; }
 th button:hover { color: var(--fg); }
-th[aria-sort="ascending"] button::after { content: "▲"; font-size: 9px; color: var(--accent); }
-th[aria-sort="descending"] button::after { content: "▼"; font-size: 9px; color: var(--accent); }
+th[aria-sort="ascending"] .header-label button::after { content: "▲"; font-size: 9px; color: var(--accent); }
+th[aria-sort="descending"] .header-label button::after { content: "▼"; font-size: 9px; color: var(--accent); }
 td { padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: middle; }
 tr:last-child td { border-bottom: 0; }
 tbody tr { transition: background-color .6s; }
@@ -234,14 +234,20 @@ body.spec-view table{min-width:2220px}body.spec-view th.spec-head{white-space:no
 @media(max-width:720px){body.spec-view table{min-width:0}body.spec-view td.c-sku,body.spec-view th[data-key="sku"]{position:static;box-shadow:none;min-width:0;background:transparent}.c-spec{grid-area:auto!important;grid-column:1/-1!important;max-width:none;min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:12px;border-top:1px solid var(--line);padding-top:8px;margin-top:6px;align-items:center}.c-spec:before{content:attr(data-label);font-size:14px;font-weight:500;color:var(--muted)}.c-spec .spec-value{max-width:none;min-width:0;overflow-wrap:anywhere}.spec-legend{gap:8px 14px}.spec-legend details{font-size:14px}}
 @media(min-width:721px){
 .tablebox{--sku-width:260px;--picture-width:120px}
-td.c-sku,th[data-key="sku"]{min-width:260px;position:sticky;left:0;background:var(--surface);z-index:2}
-td.c-img,th.c-imghead{min-width:120px;position:sticky;left:var(--sku-width);background:var(--surface);z-index:2}
-td.c-price,th[data-key="price"]{min-width:140px;position:sticky;left:calc(var(--sku-width) + var(--picture-width));background:var(--surface);z-index:2;box-shadow:3px 0 6px #00000015}
+td.c-sku,th[data-key="sku"]{min-width:260px;position:sticky;left:var(--pin-left,0px);background:var(--surface);z-index:2}
+td.c-img,th.c-imghead{min-width:120px;position:sticky;left:var(--pin-left,260px);background:var(--surface);z-index:2}
+td.c-price,th[data-key="price"]{min-width:140px;position:sticky;left:var(--pin-left,380px);background:var(--surface);z-index:2;box-shadow:3px 0 6px #00000015}
 th[data-key="sku"],th.c-imghead,th[data-key="price"]{z-index:5}
 }
 .compare-toggle{display:inline-flex;align-items:center;gap:8px;color:var(--fg);cursor:pointer}.compare-toggle input,.compare-cell input{width:18px;height:18px;accent-color:var(--accent)}
 #compareConfirm{margin-left:auto}.compare-cell{min-width:80px;text-align:center}
 @media(max-width:720px){td.compare-cell{grid-area:auto;grid-column:1/-1;display:flex;gap:8px;align-items:center}td.compare-cell:before{content:'Compare'}#compareConfirm{margin-left:0}}
+.header-label{display:inline}.header-controls{display:inline-flex;align-items:center;gap:4px;margin-left:6px}.column-eye{border:0;background:none;color:var(--muted);padding:3px;cursor:pointer;line-height:0}.column-eye svg{width:17px;height:17px}.column-grip{font-size:16px;cursor:grab;color:var(--muted);letter-spacing:-3px;padding:3px 6px 3px 0}.column-grip:focus-visible,.column-eye:focus-visible{outline:2px solid var(--accent);outline-offset:2px}.drop-column{box-shadow:inset 3px 0 var(--accent)}
+body.spec-view table{min-width:var(--table-min,2220px)}
+body.spec-view th.column-hidden,td.column-hidden{min-width:32px!important;width:32px!important;max-width:32px!important;padding:8px 3px!important;overflow:hidden}
+.column-hidden .header-label,.column-hidden .column-grip,td.column-hidden>*{display:none!important}.column-hidden .header-controls{margin:0}
+.column-menu{margin:12px 0;font-size:14px}.column-menu summary{cursor:pointer;width:fit-content}.column-menu>div{display:flex;flex-wrap:wrap;gap:8px;padding:12px 0}.column-tool{display:flex;align-items:center;gap:5px;border:1px solid var(--line);border-radius:5px;padding:6px 8px;background:var(--surface)}.column-tool>button:not(.column-eye){background:none;border:0;color:var(--fg);cursor:pointer}.spec-editor{border:1px solid var(--line);border-radius:6px;padding:14px}.spec-editor legend{font-weight:600}.spec-editor p{font-size:13px;color:var(--muted);margin:0 0 12px}
+@media(max-width:720px){td.column-hidden{display:none!important}}
 </style>
 
 </head><body><header class="top">
@@ -271,6 +277,7 @@ th[data-key="sku"],th.c-imghead,th[data-key="price"]{z-index:5}
     </div>
   </div></section>
   <div class="banner" id="banner" hidden></div>
+  <details class="column-menu"><summary>Columns</summary><div id="columnTools"></div></details>
   <nav class="tabs" id="tabs" role="tablist" aria-label="Categories"></nav>
   <div class="spec-legend" id="specLegend" hidden aria-label="Specification highlights"><span><i class="spec-key high" aria-hidden="true"></i>Highest tier</span><span><i class="spec-key" aria-hidden="true"></i>Mid tier / unranked</span><span><i class="spec-key low" aria-hidden="true"></i>Lowest tier</span><label class="compare-toggle"><input type="checkbox" id="compareToggle"> Compare</label><span id="compareStatus" hidden aria-live="polite"></span><button class="btn primary" id="compareConfirm" type="button" hidden>Confirm comparison</button><details><summary>How tiers are compared</summary><p>Each numeric specification is compared independently within its product category, using the full saved catalog. Resistance levels and motorized speed levels are compared separately. Numeric tiers use distinct advertised values: the upper third is green, the lower third is grey, and the middle is unchanged. Fewer than three distinct values remain unranked. Search, sorting and comparison do not change the colors.</p><p>Treadmill incline tiers compare adjustability: incline + decline is highest, automatic incline is mid, and fixed or manually adjusted incline is lowest. Other motion systems and user-powered speed/drive are unranked. Quoted motor HP is not a standardized continuous-duty rating.</p><p>Elliptical numeric stride lengths are ranked within Ellipticals. Resistance technologies and descriptive rower motion labels stay unranked because they are not directly comparable performance measures.</p><p>Dimensions are copied from your master portfolio. Only treadmill workout dimensions split into length × width; overall or folded elliptical and rower dimensions are not workout-pad dimensions. “-” means information has not been provided. Green indicates a higher specification band, not an overall product recommendation.</p></details></div><div class="tablebox">
     <table>
@@ -314,6 +321,7 @@ th[data-key="sku"],th.c-imghead,th[data-key="price"]{z-index:5}
         <label>Category<input id="f-cat" type="text" list="catlist" required placeholder="Treadmills"></label>
         <label>Product link<input id="f-url" type="url" placeholder="https://sunnyhealthfitness.com/collections/…"></label>
       </div>
+      <fieldset class="spec-editor"><legend>Specifications</legend><p>Leave a field blank when information is unavailable. Dimensions are text; workout width and length are separate measurements in inches.</p><div class="grid2" id="specFields"></div></fieldset>
       <datalist id="catlist"></datalist>
       <div>
         <label for="f-file" style="margin-bottom:5px">Picture</label>
@@ -407,6 +415,27 @@ th[data-key="sku"],th.c-imghead,th[data-key="price"]{z-index:5}
     return numericTier(field,item);}
   function specCells(item){const spec=specsOf(item);return SPEC_COLUMNS.map(([field,label])=>{const value=spec[field],unknown=value==null||value==='';const text=unknown?'-':typeof value==='number'?String(value)+(field==='maxUserWeightLb'?' lb':/workoutArea/.test(field)?' in':''):String(value);const tier=unknown?'':specTier(field,item);const title=(tier==='high'?'Highest tier':tier==='low'?'Lowest tier':unknown?'No information provided yet':field==='keyDimensions'?'Dimensions from the master portfolio':'Mid tier or unranked')+' · '+label;return `<td class="c-spec" data-spec="${field}" data-label="${esc(label)}"><span class="spec-value ${tier} ${unknown?'unknown':''}" title="${esc(title)}">${esc(text)}</span></td>`}).join('')}
 
+  const COLUMN_IDS=['category','compare','sku','picture','price',...SPEC_COLUMNS.map(([key])=>key),'link','actions'];
+  const COLUMN_NAMES={category:'Category',compare:'Select',sku:'SKU / Item',picture:'Picture',price:'Price',link:'Link',actions:'Actions',...Object.fromEntries(SPEC_COLUMNS)};
+  const COLUMN_DEFAULT=[...COLUMN_IDS];let columnOrder=[...COLUMN_DEFAULT],hiddenColumns=new Set();
+  try{const prefs=JSON.parse(localStorage.getItem('spf.columns.v1')||'null');if(Array.isArray(prefs?.order)){columnOrder=[...new Set(prefs.order.filter(id=>COLUMN_IDS.includes(id)))];columnOrder.push(...COLUMN_IDS.filter(id=>!columnOrder.includes(id)));}if(Array.isArray(prefs?.hidden))hiddenColumns=new Set(prefs.hidden.filter(id=>SPEC_COLUMNS.some(([key])=>key===id)));}catch(e){}
+  const eyeIcon=closed=>'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/>'+(closed?'<path d="m3 3 18 18"/>':'')+'</svg>';
+  function saveColumnLayout(){try{localStorage.setItem('spf.columns.v1',JSON.stringify({order:columnOrder,hidden:[...hiddenColumns]}));}catch(e){}}
+  function eyeButton(id){const closed=hiddenColumns.has(id);return `<button class="column-eye" type="button" data-eye="${id}" aria-label="${closed?'Show':'Hide'} ${esc(COLUMN_NAMES[id])}" aria-pressed="${!closed}" title="${closed?'Show':'Hide'} ${esc(COLUMN_NAMES[id])}">${eyeIcon(closed)}</button>`;}
+  [...document.querySelectorAll('thead th')].forEach((head,i)=>{const id=COLUMN_IDS[i];head.dataset.col=id;head.innerHTML='<span class="header-label">'+head.innerHTML+'</span><span class="header-controls">'+(!['compare','actions'].includes(id)?`<span class="column-grip" draggable="true" tabindex="0" role="button" aria-label="Move ${esc(COLUMN_NAMES[id])}; use Alt and arrow keys" title="Drag to reorder · Alt + ← / →">⠿</span>`:'')+(SPEC_COLUMNS.some(([key])=>key===id)?eyeButton(id):'')+'</span>';});
+  function cellColumn(cell){return cell.dataset.spec||(cell.classList.contains('c-cat')?'category':cell.classList.contains('compare-cell')?'compare':cell.classList.contains('c-sku')?'sku':cell.classList.contains('c-img')?'picture':cell.classList.contains('c-price')?'price':cell.classList.contains('c-link')?'link':'actions');}
+  function applyColumnLayout(){const headRow=$('thead tr');for(const id of columnOrder){const head=headRow.querySelector('[data-col="'+id+'"]');head.classList.toggle('column-hidden',hiddenColumns.has(id));const eye=head.querySelector('[data-eye]');if(eye){eye.outerHTML=eyeButton(id);}headRow.appendChild(head);}for(const row of document.querySelectorAll('#rows tr')){const cells=new Map([...row.children].map(cell=>{const id=cellColumn(cell);cell.dataset.col=id;cell.classList.toggle('column-hidden',hiddenColumns.has(id));cell.setAttribute('aria-hidden',hiddenColumns.has(id)?'true':'false');return[id,cell];}));for(const id of columnOrder)if(cells.has(id))row.appendChild(cells.get(id));}
+    $('.tablebox').style.setProperty('--table-min',(2220-hiddenColumns.size*135)+'px');
+    $('#columnTools').innerHTML=columnOrder.filter(id=>!['compare','actions'].includes(id)).map(id=>`<div class="column-tool"><span>${esc(COLUMN_NAMES[id])}</span>${SPEC_COLUMNS.some(([key])=>key===id)?eyeButton(id):''}<button type="button" data-column-move="${id}" data-direction="-1" aria-label="Move ${esc(COLUMN_NAMES[id])} left">←</button><button type="button" data-column-move="${id}" data-direction="1" aria-label="Move ${esc(COLUMN_NAMES[id])} right">→</button></div>`).join('');updateFrozenWidths();}
+  function moveColumn(id,target){if(id===target)return;const next=columnOrder.filter(key=>key!==id);next.splice(next.indexOf(target),0,id);columnOrder=next;saveColumnLayout();applyColumnLayout();}
+  let draggedColumn=null;const headRow=$('thead tr');headRow.addEventListener('dragstart',e=>{const grip=e.target.closest('.column-grip');if(!grip)return;draggedColumn=grip.closest('th').dataset.col;e.dataTransfer.setData('text/plain',draggedColumn);e.dataTransfer.effectAllowed='move';});headRow.addEventListener('dragover',e=>{if(!draggedColumn)return;e.preventDefault();headRow.querySelectorAll('.drop-column').forEach(h=>h.classList.remove('drop-column'));e.target.closest('th')?.classList.add('drop-column');});headRow.addEventListener('drop',e=>{if(!draggedColumn)return;e.preventDefault();const target=e.target.closest('th')?.dataset.col;if(target)moveColumn(draggedColumn,target);draggedColumn=null;headRow.querySelectorAll('.drop-column').forEach(h=>h.classList.remove('drop-column'));});headRow.addEventListener('dragend',()=>{draggedColumn=null;headRow.querySelectorAll('.drop-column').forEach(h=>h.classList.remove('drop-column'));});
+  function shiftColumn(id,dir){const i=columnOrder.indexOf(id),j=i+dir;if(j<0||j>=columnOrder.length)return;[columnOrder[i],columnOrder[j]]=[columnOrder[j],columnOrder[i]];saveColumnLayout();applyColumnLayout();}
+  document.addEventListener('click',e=>{const eye=e.target.closest('[data-eye]');if(eye){e.stopPropagation();const id=eye.dataset.eye;hiddenColumns.has(id)?hiddenColumns.delete(id):hiddenColumns.add(id);saveColumnLayout();applyColumnLayout();return;}const move=e.target.closest('[data-column-move]');if(move)shiftColumn(move.dataset.columnMove,+move.dataset.direction);});headRow.addEventListener('keydown',e=>{if(e.altKey&&['ArrowLeft','ArrowRight'].includes(e.key)&&e.target.closest('.column-grip')){e.preventDefault();const id=e.target.closest('th').dataset.col;shiftColumn(id,e.key==='ArrowLeft'?-1:1);headRow.querySelector('[data-col="'+id+'"] .column-grip')?.focus();}});
+  $('#specFields').innerHTML=SPEC_COLUMNS.map(([field,label])=>`<label>${esc(label)}<input id="f-spec-${field}" ${['maxUserWeightLb','workoutAreaWidthIn','workoutAreaLengthIn'].includes(field)?'type="number" min="0" step="any"':'type="text"'} placeholder="Not provided"></label>`).join('');
+  function readEditedSpecs(category){const spec={...specsOf(editing||{})};for(const [field,label] of SPEC_COLUMNS){const input=$('#f-spec-'+field),raw=input.value.trim();if(input.type==='number'){if(raw!==''&&(!Number.isFinite(Number(raw))||Number(raw)<0))throw Error(label+' must be a non-negative number.');spec[field]=raw===''?null:Number(raw);}else spec[field]=raw||null;}
+    const drive=spec.driveResistanceSystem||'',speed=spec.speedResistanceLevels||'',motion=spec.inclineStrideMotion||'';const hp=drive.match(/(\d+(?:\.\d+)?)\s*(?:Peak\s*)?HP/i),mph=/mph/i.test(speed)?speed.match(/\d+(?:\.\d+)?/g):null,levels=speed.match(/(\d+)\s*(resistance|speed) levels/i),stride=motion.match(/(\d+(?:\.\d+)?)\s*in(?:ch(?:es)?)?\s*stride/i);spec.advertisedMotorHp=category==='Treadmills'&&hp?Number(hp[1]):null;spec.maxSpeedMph=category==='Treadmills'&&mph?Math.max(...mph.map(Number)):null;spec.resistanceLevels=levels&&levels[2].toLowerCase()==='resistance'?Number(levels[1]):null;spec.speedLevels=levels&&levels[2].toLowerCase()==='speed'?Number(levels[1]):null;spec.strideLengthIn=stride?Number(stride[1]):null;return spec;
+  }
+
   // ---------- rendering ----------
   function categories() {
     const counts = {}; state.items.forEach((it) => { counts[it.category] = (counts[it.category] || 0) + 1; });
@@ -476,11 +505,11 @@ th[data-key="sku"],th.c-imghead,th[data-key="price"]{z-index:5}
     else if (!state.items.length) { st.hidden = false; st.innerHTML = `<h2>No products yet</h2><p>The catalog fills in with each item's category, SKU, picture, price and product link. Add the first one to get started.</p>${state.canWrite ? '<button class="btn primary" type="button" data-add>+ Add New Item</button>' : ""}`; }
     else if (!list.length) { st.hidden = false; st.innerHTML = `<h2>No matches</h2><p>Nothing matches “${esc(state.q)}”${state.cat !== "All" ? " in " + esc(state.cat) : ""}. Try part of the SKU, like 724081, or a word from the name.</p>`; }
     else st.hidden = true;
-    restoreFocus(keep); renderBulkBar(); updateFrozenWidths();
+    restoreFocus(keep); renderBulkBar(); applyColumnLayout();
   }
 
   function compareCell(it){return state.compareMode?`<td class="compare-cell"><input type="checkbox" data-compare="${esc(it.id)}" aria-label="Compare ${esc(it.sku)}" ${state.compareSelected.has(it.id)?'checked':''}></td>`:'';}
-  function updateFrozenWidths(){const box=$('.tablebox');box.style.setProperty('--sku-width',$('th[data-key="sku"]').getBoundingClientRect().width+'px');box.style.setProperty('--picture-width',$('th.c-imghead').getBoundingClientRect().width+'px');}
+  function updateFrozenWidths(){let left=0;for(const head of document.querySelectorAll('thead th[data-col]')){if(!['sku','picture','price'].includes(head.dataset.col))continue;const value=left+'px';head.style.setProperty('--pin-left',value);document.querySelectorAll('#rows [data-col="'+head.dataset.col+'"]').forEach(cell=>cell.style.setProperty('--pin-left',value));left+=head.getBoundingClientRect().width;}}
   new ResizeObserver(updateFrozenWidths).observe($('.tablebox'));
   // ---------- bulk edit ----------
   const FIELDS = ["name", "sku", "price", "category", "url"];
@@ -650,7 +679,7 @@ th[data-key="sku"],th.c-imghead,th[data-key="price"]{z-index:5}
   $('#compareConfirm').addEventListener('click',()=>{if(!state.compareSelected.size)return;state.compareConfirmed=true;state.compareActive=new Set(state.compareSelected);render();$('.tablebox').scrollTop=0;});
   $("#tabs").addEventListener("click", (e) => { const b = e.target.closest("[data-cat]"); if (!b) return; if(state.cat!==b.dataset.cat){state.compareMode=false;state.compareConfirmed=false;state.compareSelected.clear();state.compareActive.clear();}state.cat = b.dataset.cat; try { localStorage.setItem("spf.cat", state.cat); } catch (err) {} render(); });
   document.querySelector("thead").addEventListener("click", (e) => {
-    const th = e.target.closest("th[data-key]"); if (!th) return; const k = th.dataset.key;
+    if(e.target.closest(".header-controls"))return;const th = e.target.closest("th[data-key]"); if (!th) return; const k = th.dataset.key;
     state.sort = { key: k, dir: state.sort.key === k ? -state.sort.dir : 1 }; render();
   });
   document.addEventListener("click", async (e) => {
@@ -682,6 +711,7 @@ th[data-key="sku"],th.c-imghead,th[data-key="price"]{z-index:5}
   const F = { name: $("#f-name"), sku: $("#f-sku"), price: $("#f-price"), category: $("#f-cat"), url: $("#f-url") };
   function setPreview(src) { $("#pv").innerHTML = src ? `<img src="${esc(src)}" alt="Picture preview">` : "No picture"; }
   function openEdit(it) {
+    for(const [field] of SPEC_COLUMNS)$("#f-spec-"+field).value=specsOf(it||{})[field]??"";
     editing = it; pendingFile = null; if (pendingUrl) URL.revokeObjectURL(pendingUrl); pendingUrl = null;
     $("#editTitle").textContent = it ? "Edit Item" : "Add New Item"; $("#editMsg").textContent = ""; $("#f-paste").value = "";
     F.name.value = it?.name || ""; F.sku.value = it?.sku || ""; F.price.value = typeof it?.price === "number" ? it.price.toFixed(2) : "";
@@ -724,7 +754,7 @@ th[data-key="sku"],th.c-imghead,th[data-key="price"]{z-index:5}
     if (!state.db) { msg.textContent = "Saving needs the shared catalog, which isn't available in this view."; return; }
     $("#saveBtn").disabled = true; msg.textContent = "";
     try {
-      const rec = { productSpecs:editing?.productSpecs||null, treadmillSpecs:editing?.treadmillSpecs||null, name, sku, category, price, url, imageUrl: editing?.imageUrl || "", imageAssetId: editing?.imageAssetId || "", priceChecked: true, createdAt: editing?.createdAt || new Date().toISOString(), updatedAt: new Date().toISOString() };
+      const rec = { productSpecs:readEditedSpecs(category), treadmillSpecs:editing?.treadmillSpecs||null, name, sku, category, price, url, imageUrl: editing?.imageUrl || "", imageAssetId: editing?.imageAssetId || "", priceChecked: true, createdAt: editing?.createdAt || new Date().toISOString(), updatedAt: new Date().toISOString() };
       if (pendingFile) {
         if (!state.assets) throw { message: "Picture uploads aren't available in this view." };
         $("#saveBtn").textContent = "Uploading…"; const up = await state.assets.upload(pendingFile); rec.imageAssetId = up.id; rec.imageUrl = up.url;
