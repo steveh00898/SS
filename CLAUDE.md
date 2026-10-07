@@ -8,6 +8,7 @@ https://sunny-product-finder.steven-peace.chatgpt.site
 - `data/<category>.json` and `data/images/<category>/`: checked-in catalog and cropped product pictures.
 - `data/treadmill-specifications-notes.md`: source, missing-data treatment and independent tier rules for the treadmill comparison.
 - Publish app changes to the existing private Site using `.openai/hosting.json`; keep the current access policy.
+- The same `app/index.html` is also published as a Claude Artifact (https://claude.ai/artifact/Eux9EgPAA2p4td6ZLTAyXS). It detects which one it runs in: the private Site's same-origin `/api`, or the artifact's `window.claude` runtime (its catalog lives in the artifact's `items` database). After changing the app or the catalog, update both.
 
 ## Git workflow (owner's standing instruction)
 

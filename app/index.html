@@ -757,7 +757,13 @@ body.spec-view td.c-sku,body.spec-view th[data-key="sku"]{position:sticky;left:0
 
   render();
   async function boot() {
-    const use = async n => catalog[n] || null;
+    // Same page runs on the private Site (same-origin /api) and as the Claude Artifact (window.claude runtime).
+    const artifactRuntime = await (async () => {
+      try { await api('/api/session'); return null; } catch (e) {}
+      for (let i = 0; i < 60 && !(window.claude && typeof window.claude.use === "function"); i++) await new Promise((r) => setTimeout(r, 50));
+      return window.claude && typeof window.claude.use === "function" ? window.claude : null;
+    })();
+    const use = artifactRuntime ? (n => artifactRuntime.use(n).catch(() => null)) : (async n => catalog[n] || null);
     const [db, user, assets, downloads] = await Promise.all([use("db"), use("user"), use("assets"), use("downloads")]);
     state.db = db; state.assets = assets; state.downloads = downloads;
     $("#exportBtn").hidden = !downloads;
