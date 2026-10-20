@@ -176,6 +176,16 @@ textarea { resize: vertical; min-height: 74px; }
 .lightbox img { display: block; width: 100%; max-height: 78vh; object-fit: contain; }
 .lightbox .cap { padding: 12px 18px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; border-top: 1px solid #e2dfda; font-weight: 600; }
 .lightbox .close { color: #6c6862; }
+.lbstage { position: relative; }
+.lbnav { position: absolute; top: 50%; transform: translateY(-50%); width: 48px; height: 48px; border-radius: 50%; border: 1px solid #e2dfda; background: rgba(255,255,255,.92);
+  color: #1c2541; font-size: 26px; line-height: 1; cursor: pointer; display: grid; place-items: center; box-shadow: 0 4px 14px rgba(0,0,0,.18); z-index: 1; }
+.lbnav:hover { background: #fff; color: #e0322f; }
+.lbnav:focus-visible { outline: 2px solid #e0322f; outline-offset: 2px; }
+.lbnav[disabled] { opacity: .3; cursor: default; }
+.lbnav.prev { left: 12px; } .lbnav.next { right: 12px; }
+.lbpos { font-variant-numeric: tabular-nums; color: #6c6862; font-weight: 500; }
+.lbhint { font-size: 12px; color: #6c6862; font-weight: 400; }
+@media (max-width: 560px) { .lbnav { width: 40px; height: 40px; font-size: 22px; } .lightbox .lbhint { display: none; } }
 /* Bulk edit */
 .ed { width: 100%; min-width: 0; border: 1.5px solid var(--line); border-radius: var(--radius); background: var(--surface); color: var(--fg); padding: 6px 8px; font-size: 14px; }
 .ed:focus { outline: none; border-color: var(--accent); }
@@ -347,8 +357,13 @@ body.spec-view th.column-hidden,td.column-hidden{min-width:32px!important;width:
 <div class="overlay lightbox" id="lightbox" hidden>
   <div class="dialog" role="dialog" aria-label="Product picture">
     <header style="border-bottom-color:#e2dfda"><h2 id="lbTitle" style="font-size:20px"></h2><button class="close" type="button" data-close aria-label="Close">×</button></header>
-    <img id="lbImg" alt="">
-    <div class="cap"><span id="lbSku"></span><span id="lbPrice"></span></div>
+    <div class="lbstage" id="lbStage">
+      <button class="lbnav prev" id="lbPrev" type="button" aria-label="Previous product">&#8249;</button>
+      <img id="lbImg" alt="">
+      <button class="lbnav next" id="lbNext" type="button" aria-label="Next product">&#8250;</button>
+    </div>
+    <div class="cap"><span id="lbSku"></span><span class="lbpos" id="lbPos" aria-live="polite"></span><span id="lbPrice"></span></div>
+    <div class="cap lbhint" style="border-top:0;padding-top:0">Use ← → arrow keys, the side arrows or the mouse wheel to move between products in the table's current order.</div>
   </div>
 </div>
 
@@ -702,10 +717,42 @@ body.spec-view th.column-hidden,td.column-hidden{min-width:32px!important;width:
   function openOverlay(el) { el.hidden = false; document.body.style.overflow = "hidden"; }
   let toastT; function toast(msg) { const t = $("#toast"); t.textContent = msg; t.hidden = false; clearTimeout(toastT); toastT = setTimeout(() => (t.hidden = true), 2200); }
 
-  function openLightbox(it) {
-    if (!it) return; $("#lbImg").src = imgSrc(it); $("#lbImg").alt = it.name; $("#lbTitle").textContent = it.name;
-    $("#lbSku").textContent = it.sku; $("#lbPrice").textContent = money(it.price); openOverlay($("#lightbox"));
+  // The enlarged picture steps through the products in the order the table shows them right now
+  // (after sorting, search, category tab and Compare), skipping rows without a picture.
+  let lbId = null;
+  const lbOrder = () => [...document.querySelectorAll("#rows [data-zoom]")].map((b) => b.dataset.zoom);
+  function showLightbox(it) {
+    lbId = it.id; const order = lbOrder(), i = order.indexOf(it.id);
+    $("#lbImg").src = imgSrc(it); $("#lbImg").alt = it.name; $("#lbTitle").textContent = it.name;
+    $("#lbSku").textContent = it.sku; $("#lbPrice").textContent = money(it.price);
+    $("#lbPos").textContent = i >= 0 ? `${i + 1} of ${order.length}` : "";
+    $("#lbPrev").disabled = i <= 0; $("#lbNext").disabled = i < 0 || i >= order.length - 1;
+    [order[i - 1], order[i + 1]].forEach((id) => { const n = id && byId(id); if (n) new Image().src = imgSrc(n); });
+    const row = document.querySelector(`#rows tr[data-id="${CSS.escape(it.id)}"]`); if (row) row.scrollIntoView({ block: "nearest" });
   }
+  function openLightbox(it) { if (!it) return; showLightbox(it); openOverlay($("#lightbox")); }
+  function stepLightbox(d) {
+    if ($("#lightbox").hidden || !lbId) return; const order = lbOrder(), i = order.indexOf(lbId), next = order[i + d];
+    if (i < 0 || !next) return; const it = byId(next); if (it) showLightbox(it);
+  }
+  $("#lbPrev").addEventListener("click", () => stepLightbox(-1));
+  $("#lbNext").addEventListener("click", () => stepLightbox(1));
+  document.addEventListener("keydown", (e) => {
+    if ($("#lightbox").hidden || e.altKey || e.ctrlKey || e.metaKey) return;
+    const d = { ArrowLeft: -1, ArrowUp: -1, ArrowRight: 1, ArrowDown: 1 }[e.key]; if (!d) return;
+    e.preventDefault(); stepLightbox(d);
+  });
+  // wheel: up = previous, down = next; one product per gesture so trackpads don't race through the list
+  let wheelSum = 0, wheelLock = 0;
+  $("#lightbox").addEventListener("wheel", (e) => {
+    e.preventDefault(); const now = Date.now(); if (now < wheelLock) return;
+    wheelSum += e.deltaY; if (Math.abs(wheelSum) < 40) return;
+    stepLightbox(wheelSum > 0 ? 1 : -1); wheelSum = 0; wheelLock = now + 280;
+  }, { passive: false });
+  // swipe on touch screens
+  let touchX = null;
+  $("#lbStage").addEventListener("touchstart", (e) => { touchX = e.touches[0].clientX; }, { passive: true });
+  $("#lbStage").addEventListener("touchend", (e) => { if (touchX == null) return; const dx = e.changedTouches[0].clientX - touchX; touchX = null; if (Math.abs(dx) > 50) stepLightbox(dx < 0 ? 1 : -1); });
 
   // ---------- add / edit ----------
   let editing = null, pendingFile = null, pendingUrl = null;
