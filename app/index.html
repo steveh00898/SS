@@ -184,8 +184,7 @@ textarea { resize: vertical; min-height: 74px; }
 .lbnav[disabled] { opacity: .3; cursor: default; }
 .lbnav.prev { left: 12px; } .lbnav.next { right: 12px; }
 .lbpos { font-variant-numeric: tabular-nums; color: #6c6862; font-weight: 500; }
-.lbhint { font-size: 12px; color: #6c6862; font-weight: 400; }
-@media (max-width: 560px) { .lbnav { width: 40px; height: 40px; font-size: 22px; } .lightbox .lbhint { display: none; } }
+@media (max-width: 560px) { .lbnav { width: 40px; height: 40px; font-size: 22px; } }
 /* Bulk edit */
 .ed { width: 100%; min-width: 0; border: 1.5px solid var(--line); border-radius: var(--radius); background: var(--surface); color: var(--fg); padding: 6px 8px; font-size: 14px; }
 .ed:focus { outline: none; border-color: var(--accent); }
@@ -363,7 +362,6 @@ body.spec-view th.column-hidden,td.column-hidden{min-width:32px!important;width:
       <button class="lbnav next" id="lbNext" type="button" aria-label="Next product">&#8250;</button>
     </div>
     <div class="cap"><span id="lbSku"></span><span class="lbpos" id="lbPos" aria-live="polite"></span><span id="lbPrice"></span></div>
-    <div class="cap lbhint" style="border-top:0;padding-top:0">Use ← → arrow keys, the side arrows or the mouse wheel to move between products in the table's current order.</div>
   </div>
 </div>
 
