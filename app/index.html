@@ -177,6 +177,9 @@ textarea { resize: vertical; min-height: 74px; }
 .lightbox .cap { padding: 12px 18px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; border-top: 1px solid #e2dfda; font-weight: 600; }
 .lightbox .close { color: #6c6862; }
 .lbstage { position: relative; }
+.lbhead { gap: 16px; }
+.lbhead h2 { flex: 1; min-width: 0; }
+.lbsku { font-family: var(--font-num); font-weight: 700; font-size: 18px; letter-spacing: .02em; white-space: nowrap; color: #1d1c1a; }
 .lbnav { position: absolute; top: 50%; transform: translateY(-50%); width: 48px; height: 48px; border-radius: 50%; border: 1px solid #e2dfda; background: rgba(255,255,255,.92);
   color: #1c2541; font-size: 26px; line-height: 1; cursor: pointer; display: grid; place-items: center; box-shadow: 0 4px 14px rgba(0,0,0,.18); z-index: 1; }
 .lbnav:hover { background: #fff; color: #e0322f; }
@@ -184,7 +187,7 @@ textarea { resize: vertical; min-height: 74px; }
 .lbnav[disabled] { opacity: .3; cursor: default; }
 .lbnav.prev { left: 12px; } .lbnav.next { right: 12px; }
 .lbpos { font-variant-numeric: tabular-nums; color: #6c6862; font-weight: 500; }
-@media (max-width: 560px) { .lbnav { width: 40px; height: 40px; font-size: 22px; } }
+@media (max-width: 560px) { .lbnav { width: 40px; height: 40px; font-size: 22px; } .lbhead { flex-wrap: wrap; row-gap: 4px; } .lbhead h2 { flex-basis: calc(100% - 52px); } .lbhead .lbsku { order: 3; flex-basis: 100%; font-size: 16px; } }
 /* Bulk edit */
 .ed { width: 100%; min-width: 0; border: 1.5px solid var(--line); border-radius: var(--radius); background: var(--surface); color: var(--fg); padding: 6px 8px; font-size: 14px; }
 .ed:focus { outline: none; border-color: var(--accent); }
@@ -355,7 +358,7 @@ body.spec-view th.column-hidden,td.column-hidden{min-width:32px!important;width:
 
 <div class="overlay lightbox" id="lightbox" hidden>
   <div class="dialog" role="dialog" aria-label="Product picture">
-    <header style="border-bottom-color:#e2dfda"><h2 id="lbTitle" style="font-size:20px"></h2><button class="close" type="button" data-close aria-label="Close">×</button></header>
+    <header class="lbhead" style="border-bottom-color:#e2dfda"><h2 id="lbTitle" style="font-size:20px"></h2><span class="lbsku" id="lbSkuTop"></span><button class="close" type="button" data-close aria-label="Close">×</button></header>
     <div class="lbstage" id="lbStage">
       <button class="lbnav prev" id="lbPrev" type="button" aria-label="Previous product">&#8249;</button>
       <img id="lbImg" alt="">
@@ -722,7 +725,7 @@ body.spec-view th.column-hidden,td.column-hidden{min-width:32px!important;width:
   function showLightbox(it) {
     lbId = it.id; const order = lbOrder(), i = order.indexOf(it.id);
     $("#lbImg").src = imgSrc(it); $("#lbImg").alt = it.name; $("#lbTitle").textContent = it.name;
-    $("#lbSku").textContent = it.sku; $("#lbPrice").textContent = money(it.price);
+    $("#lbSku").textContent = it.sku; $("#lbSkuTop").textContent = it.sku; $("#lbPrice").textContent = money(it.price);
     $("#lbPos").textContent = i >= 0 ? `${i + 1} of ${order.length}` : "";
     $("#lbPrev").disabled = i <= 0; $("#lbNext").disabled = i < 0 || i >= order.length - 1;
     [order[i - 1], order[i + 1]].forEach((id) => { const n = id && byId(id); if (n) new Image().src = imgSrc(n); });
