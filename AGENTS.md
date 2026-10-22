@@ -25,14 +25,25 @@ Local previews and screenshots are not publishing. Never claim a change is live 
 
 GitHub `steveh00898/SS`, branch `main`, is the source of truth. Only one agent works at a time. Before handing over, the current agent commits and pushes everything to `main` and adds a HANDOFF.md entry.
 
-## Before each task
+## Start of every task: sync, then review the other agent's work
 
-1. Read AGENTS.md, your agent file (CLAUDE.md for Claude Code) and the latest HANDOFF.md entry.
-2. Check the branch, remote and `git status`. If there are uncommitted changes, report them and preserve them; never discard them.
-3. `git fetch origin main`, then `git pull --ff-only origin main`.
-4. If the branches have diverged, merge `origin/main` keeping both sides' changes. Ask the owner about any conflict whose intended behavior is unclear.
+Both agents run this routine every time, before any new work, including when the owner says "continue from Codex" or "continue from Claude".
 
-When the owner says "continue from Codex" or "continue from Claude", do the steps above and start from the latest HANDOFF.md entry.
+1. Check the branch, remote and `git status`. If there are uncommitted changes, report them and preserve them; never discard them.
+2. Sync: `git fetch origin main`, then `git pull --ff-only origin main`. If the branches have diverged, merge `origin/main` keeping both sides' changes, and ask the owner about any conflict whose intended behavior is unclear.
+3. List what arrived since your own last commit: `scripts/incoming.sh "Codex"` or `scripts/incoming.sh "Claude Code"`. It shows the commits with their `Agent:` trailer, the files changed, the new HANDOFF.md entries, and flags commits without a trailer and changes to AGENTS.md, CLAUDE.md, the app, data and tests.
+4. Review those changes:
+   - If AGENTS.md or your agent file changed, re-read it and follow the new version.
+   - Read each incoming commit's diff (`git show <sha>`) and check it matches its message and HANDOFF.md entry.
+   - Check `app/index.html` still keeps both runtime paths: the private Site `/api` calls and the `window.claude` fallback.
+   - Flag anything unexplained: changes missing from HANDOFF.md, removed or weakened test assertions, catalog changes in `data/*.json` without a note, commits without an `Agent:` trailer.
+5. Verify:
+   - Run all tests in `tests/`. They must pass every time; report failures with their output instead of re-running.
+   - If `app/index.html` changed, check it with `npm run screenshots` (or `npm run preview`).
+   - If `data/*.json` changed, compare it read-only with the app database you are responsible for, and list differences. Don't write to either side unless the owner asks.
+6. Report to the owner before starting new work: commits received and from which agent, what changed in plain language, test and screenshot results, issues found, and publication status (Claude Artifact and private Site, each behind `main` or not).
+
+If there are no new commits, say so and skip steps 4 and 5.
 
 ## While working
 

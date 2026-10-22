@@ -7,8 +7,13 @@ if [ -n "$(git status --porcelain --untracked-files=no)" ]; then
   exit 0
 fi
 branch=$(git rev-parse --abbrev-ref HEAD)
+before=$(git rev-parse HEAD)
 if git merge -q --ff-only origin/main 2>/dev/null; then
   echo "sync-main: $branch is up to date with origin/main ($(git rev-parse --short HEAD))."
+  if [ "$before" != "$(git rev-parse HEAD)" ]; then
+    echo "sync-main: pulled these commits (review them per AGENTS.md: scripts/incoming.sh \"Claude Code\"):"
+    git log --reverse --format='  %h %(trailers:key=Agent,valueonly,separator=%x2C) | %s' "$before"..HEAD
+  fi
 else
   echo "sync-main: $branch has diverged from origin/main; merge origin/main into it before editing."
 fi
