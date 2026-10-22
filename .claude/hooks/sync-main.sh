@@ -11,7 +11,7 @@ before=$(git rev-parse HEAD)
 if git merge -q --ff-only origin/main 2>/dev/null; then
   echo "sync-main: $branch is up to date with origin/main ($(git rev-parse --short HEAD))."
   if [ "$before" != "$(git rev-parse HEAD)" ]; then
-    echo "sync-main: pulled these commits (review them per AGENTS.md: scripts/incoming.sh \"Claude Code\"):"
+    echo "sync-main: pulled these commits (review them per AGENTS.md: npm run incoming -- \"Claude Code\"):"
     git log --reverse --format='  %h %(trailers:key=Agent,valueonly,separator=%x2C) | %s' "$before"..HEAD
   fi
 else

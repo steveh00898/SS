@@ -16,10 +16,25 @@ Where it is published:
 
 | Target | URL | Who updates it |
 |---|---|---|
-| Claude Artifact | https://claude.ai/artifact/Eux9EgPAA2p4td6ZLTAyXS | Claude Code, automatically after completed and tested changes (owner-authorized) |
-| Private Site | https://sunny-product-finder.steven-peace.chatgpt.site | Only when the owner explicitly asks |
+| Claude Artifact | https://claude.ai/artifact/Eux9EgPAA2p4td6ZLTAyXS | Claude Code only (Codex cannot reach it) |
+| Private Site | https://sunny-product-finder.steven-peace.chatgpt.site | Codex only (Claude Code cannot reach it) |
 
-Publish the private Site only from a commit that is already pushed to `main`, and record that SHA in HANDOFF.md, so anyone can tell what the Site is running. Local previews and screenshots are not publishing. Never claim a change is live on a target you did not publish to.
+Each agent keeps its own preview link current as part of "git push" and "git pull" below; the owner has given standing permission for that. Publish only:
+- from a commit that is already pushed to `main` (record that exact SHA in HANDOFF.md),
+- when every test passes, and
+- when the published app would actually change: compare the last published SHA in HANDOFF.md with `main` for `app/index.html` (and, for the private Site, `server/`, `db/`, `drizzle/`, `data/`). If nothing relevant changed, skip publishing and say so.
+
+The owner may still have to approve a credential prompt when Codex publishes; that is Codex's own security setting. Local previews and screenshots are not publishing. Never claim a change is live on a target you did not publish to.
+
+## The owner's commands
+
+| Owner says | Meaning (same for every agent) |
+|---|---|
+| **"git pull"** | Run "Start of every task" below (sync, review the other agent's work, tests, screenshots), then update **your own** preview link if the app changed (rules above), and report. |
+| **"git push"** | Run "Before finishing" below (tests, HANDOFF.md entry, commit with your `Agent:` trailer, push to `main`), then update **your own** preview link if the app changed, and report the commit SHA and both links' status. |
+| **"publish site"** | Codex: publish the private Site from `main` HEAD now (pushed commits only), even if nothing changed. Claude Code: republish the Claude Artifact. |
+
+The owner works in one tool at a time: "git push" in the tool they finished in, then "git pull" in the other. After that pair, both links show the latest version.
 
 ## One agent at a time
 
@@ -31,7 +46,7 @@ Both agents run this routine every time, before any new work, including when the
 
 1. Check the branch, remote and `git status`. If there are uncommitted changes, report them and preserve them; never discard them.
 2. Sync: `git fetch origin main`, then `git pull --ff-only origin main`. If the branches have diverged, merge `origin/main` keeping both sides' changes, and ask the owner about any conflict whose intended behavior is unclear.
-3. List what arrived since your own last commit: `scripts/incoming.sh "Codex"` or `scripts/incoming.sh "Claude Code"`. It shows the commits with their `Agent:` trailer, the files changed, the new HANDOFF.md entries, and flags commits without a trailer and changes to AGENTS.md, CLAUDE.md, the app, data and tests.
+3. List what arrived since your own last commit: `npm run incoming -- "Codex"` or `npm run incoming -- "Claude Code"` (Node only, works on Windows too). It shows the commits with their `Agent:` trailer, the files changed, the new HANDOFF.md entries, and flags commits without a trailer and changes to AGENTS.md, CLAUDE.md, the app, data and tests.
 4. Review those changes:
    - If AGENTS.md or your agent file changed, re-read it and follow the new version.
    - Read each incoming commit's diff (`git show <sha>`) and check it matches its message and HANDOFF.md entry.
@@ -41,7 +56,8 @@ Both agents run this routine every time, before any new work, including when the
    - Run all tests in `tests/`. They must pass every time; report failures with their output instead of re-running.
    - If `app/index.html` changed, check it with `npm run screenshots` (or `npm run preview`).
    - If `data/*.json` changed, compare it read-only with the app database you are responsible for, and list differences. Don't write to either side unless the owner asks.
-6. Report to the owner before starting new work: commits received and from which agent, what changed in plain language, test and screenshot results, issues found, and publication status (Claude Artifact and private Site, each behind `main` or not).
+6. On "git pull": if your own preview link is behind `main` (its last published SHA in HANDOFF.md vs `main`, rules above) and tests pass, update it. Do this even when no new commits arrived.
+7. Report to the owner before starting new work: commits received and from which agent, what changed in plain language, test and screenshot results, issues found, and publication status of both links (version and SHA each is on, and whether it is behind `main`).
 
 If there are no new commits, say so and skip steps 4 and 5.
 
@@ -63,7 +79,8 @@ If there are no new commits, say so and skip steps 4 and 5.
 1. Add an entry at the top of HANDOFF.md (format below).
 2. Commit all intended source changes together with HANDOFF.md. End every commit message with a trailer naming the agent: `Agent: Claude Code` or `Agent: Codex`.
 3. `git push origin HEAD:main`. If `main` moved, fetch, merge `origin/main`, re-test, push again.
-4. Report the final commit SHA, whether the push succeeded, and the publication status of the Artifact and the private Site.
+4. Update your own preview link from the pushed commit if the app changed (rules above), then record the published version and SHA in a short follow-up HANDOFF.md entry and push it.
+5. Report the final commit SHA, whether the push succeeded, and the status of both links.
 
 ## HANDOFF.md entry format
 

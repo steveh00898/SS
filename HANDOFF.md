@@ -2,6 +2,19 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-22: Claude Code — "git pull" / "git push" keep each agent's preview link current
+- Changes:
+  - AGENTS.md: defined the owner's commands. "git pull" = sync, review the other agent's work, tests, screenshots, then update your own preview link if it is behind main. "git push" = tests, HANDOFF entry, commit with Agent trailer, push, then update your own preview link. "publish site" = publish now. Owner gave standing permission: Codex keeps the private Site current, Claude Code keeps the Claude Artifact current, both only from pushed main commits with all tests passing, recording the published SHA.
+  - scripts/incoming.mjs replaces scripts/incoming.sh so the review works on Windows (Codex has no bash). Run with `npm run incoming -- "Codex"` or `npm run incoming -- "Claude Code"`. Merged-in history is summarized by its merge commit.
+  - CLAUDE.md and .claude/hooks/sync-main.sh point to the new command.
+- Files: AGENTS.md, CLAUDE.md, HANDOFF.md, package.json, scripts/incoming.mjs (new), scripts/incoming.sh (removed), .claude/hooks/sync-main.sh
+- Tests: all five tests/*.spec.cjs passed after reviewing Codex's 6d1a426 and 0c149b8 (only HANDOFF.md, desktop.png and mobile.png changed; app code identical to 467604e; both runtime paths intact). incoming.mjs run for both agents.
+- Local preview: not needed (no app change).
+- Claude Artifact: not republished; already on the current app code (467604e).
+- Private Site: not touched by Claude Code; Codex recorded version 12 from 6d1a426 (same app code as main).
+- Remaining issues: none.
+- Next steps: Codex runs "git pull" under the new AGENTS.md rules.
+
 ## 2026-10-22: Codex — publish reconciled main to private Site version 12
 - Changes: published the existing owner-private Site from tested GitHub main commit 6d1a426caa417ea4631205be8aa8d17531353ddb. That merge includes 467604e and recovered Site commit 7dac947c6289c50e6bac3180d572a32483e5bfd0. The old Site tree had no unique application code beyond bc55acb; its two historical screenshots were preserved by the merge.
 - Files: HANDOFF.md (publication record only).
