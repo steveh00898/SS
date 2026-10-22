@@ -19,7 +19,7 @@ Where it is published:
 | Claude Artifact | https://claude.ai/artifact/Eux9EgPAA2p4td6ZLTAyXS | Claude Code, automatically after completed and tested changes (owner-authorized) |
 | Private Site | https://sunny-product-finder.steven-peace.chatgpt.site | Only when the owner explicitly asks |
 
-Local previews and screenshots are not publishing. Never claim a change is live on a target you did not publish to.
+Publish the private Site only from a commit that is already pushed to `main`, and record that SHA in HANDOFF.md, so anyone can tell what the Site is running. Local previews and screenshots are not publishing. Never claim a change is live on a target you did not publish to.
 
 ## One agent at a time
 
@@ -67,7 +67,7 @@ If there are no new commits, say so and skip steps 4 and 5.
 
 ## HANDOFF.md entry format
 
-Newest entry first; never rewrite older entries.
+Newest entry first; never rewrite older entries (fixing a factual mistake, such as a wrong date, is fine). Dates use the owner's time zone, America/Los_Angeles.
 
 ```
 ## YYYY-MM-DD: <agent> — <one-line summary>
@@ -76,7 +76,7 @@ Newest entry first; never rewrite older entries.
 - Tests: what ran and the result
 - Local preview: checked / not checked
 - Claude Artifact: published (version) / not published
-- Private Site: published / not published (reason)
+- Private Site: published (deployed version and the exact main commit SHA it was built from) / not published (reason)
 - Remaining issues: ...
 - Next steps: ...
 ```
