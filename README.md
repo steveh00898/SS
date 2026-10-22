@@ -17,6 +17,7 @@ Catalog records are imported once, preserving existing records and subsequent ed
 ## Commands
 
 ```sh
+npm run preview          # latest app/index.html + checked-in catalog at http://localhost:4173 (no install needed)
 npm install
 npm run db:generate
 npm run build

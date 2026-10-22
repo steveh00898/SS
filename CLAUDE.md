@@ -10,6 +10,10 @@ https://sunny-product-finder.steven-peace.chatgpt.site
 - Publish app changes to the existing private Site using `.openai/hosting.json`; keep the current access policy.
 - The same `app/index.html` is also published as a Claude Artifact (https://claude.ai/artifact/Eux9EgPAA2p4td6ZLTAyXS). It detects which one it runs in: the private Site's same-origin `/api`, or the artifact's `window.claude` runtime (its catalog lives in the artifact's `items` database). After changing the app or the catalog, update both.
 
+## Previewing the latest app
+
+`npm run preview` (no install needed) serves the current `app/index.html` with the checked-in catalog and pictures at http://localhost:4173, using an in-memory copy of the app API. Use it to show or check the latest version; edits made there are not saved.
+
 ## Git workflow (owner's standing instruction)
 
 - Before making any change, sync with the latest code: `git fetch origin main` and fast-forward (`git pull origin main`). A SessionStart hook (`.claude/hooks/sync-main.sh`) does this automatically; if it reports a problem, resolve it first.
