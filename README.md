@@ -18,6 +18,7 @@ Catalog records are imported once, preserving existing records and subsequent ed
 
 ```sh
 npm run preview          # latest app/index.html + checked-in catalog at http://localhost:4173 (no install needed)
+npm run screenshots      # headless screenshots of that preview into preview-screenshots/ (needs Playwright + Chromium, as tests/ do)
 npm install
 npm run db:generate
 npm run build
