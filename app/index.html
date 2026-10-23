@@ -418,6 +418,22 @@ body.spec-view table.ptable{min-width:0}
 .mobile-popup-body>.spec-legend{display:flex!important;margin:0}
 .mobile-popup-body #tabs,.mobile-popup-body #specLegend{display:flex!important}
 @media(max-width:720px){.mobile-popup-body .views button,.mobile-popup-body .actions button{width:100%;text-align:left}}
+/* Explicit padding prevents margin collapse between selector and heading. */
+#sectionPicker{margin-bottom:0;padding-bottom:24px}
+:root{--option-panel:#faf9f6}
+@media(prefers-color-scheme:dark){:root{--option-panel:#29292e}}
+.compact-picker>.views,.mobile-popup-card,.mobile-popup-body>.views,.mobile-popup-body>.tabs,.mobile-popup-body>.spec-legend{background:var(--option-panel)}
+.compact-picker>.views{box-shadow:0 8px 28px #0004;border-color:color-mix(in srgb,var(--fg) 20%,var(--line))}
+#catalogActions{display:flex;flex-direction:row;flex-wrap:nowrap;align-items:center;gap:4px;width:100%;margin-top:16px}
+.side #catalogActions .btn{font-size:10px;letter-spacing:0;text-transform:none;min-width:0;padding:0 5px;height:30px;white-space:nowrap;flex:0 1 auto}
+#catalogActions #addBtn{margin-left:auto}
+.mobile-popup-body #tabs{display:flex!important;flex-direction:column;flex-wrap:nowrap;align-items:stretch;gap:4px}
+.mobile-popup-body #tabs .tab{width:100%;text-align:left;display:flex;justify-content:space-between;margin:0;float:none}
+@media(max-width:720px){
+ #catalogActions #exportBtn,#catalogActions #bulkBtn{display:none!important}
+ .side #catalogActions #addBtn{font-size:13px;min-height:44px;padding:0 14px}
+ #rows td.c-spec,#rows td.c-act,.c-acthead,thead .spec-head{display:none!important}
+}
 </style>
 
 </head><body><header class="top">
@@ -437,13 +453,13 @@ body.spec-view table.ptable{min-width:0}
 <main class="wrap layout">
   <aside class="side" aria-label="Sections and categories">
   <section class="hero"><div class="inner">
-    <div class="compact-picker" id="sectionPicker"><button type="button" class="picker-trigger" aria-expanded="false" aria-controls="views" id="sectionTrigger">Catalog <span aria-hidden="true">›</span></button><nav class="views" id="views" aria-label="Sections"><button type="button" data-view="catalog" aria-pressed="true">Catalog</button><button type="button" data-view="practice" aria-pressed="false">SKU Practice</button><button type="button" data-view="progress" aria-pressed="false">Progress</button><button type="button" data-view="accounts" aria-pressed="false" hidden>Accounts</button></nav>
+    <div class="compact-picker" id="sectionPicker"><button type="button" class="picker-trigger" aria-expanded="false" aria-controls="views" id="sectionTrigger">Catalog <span aria-hidden="true">›</span></button><nav class="views" id="views" aria-label="Sections"><button type="button" data-view="catalog" aria-pressed="true">Catalog</button><button type="button" data-view="practice" aria-pressed="false">SKU Practice</button><button type="button" data-view="progress" aria-pressed="false">Progress</button><button type="button" data-view="accounts" aria-pressed="false" hidden>Accounts</button></nav></div>
     <div class="head">
     <div>
       <h1 id="title">Product Catalog</h1>
       <p class="sub" id="sub">Loading the catalog…</p>
     </div>
-    <div class="compact-picker catalog-only" id="actionPicker"><button type="button" class="picker-trigger" aria-expanded="false" aria-controls="catalogActions" id="actionTrigger">+ Add New Item <span aria-hidden="true">›</span></button><div class="actions" id="catalogActions">
+    <div class="actions catalog-only" id="catalogActions">
       <button class="btn" id="exportBtn" type="button">Export CSV</button>
       <button class="btn" id="bulkBtn" type="button" hidden>Bulk Edit</button>
       <button class="btn primary" id="addBtn" type="button" hidden>+ Add New Item</button>
@@ -458,7 +474,7 @@ body.spec-view table.ptable{min-width:0}
   <section class="progress" id="progressView" hidden></section>
   <section class="accounts" id="accountsView" hidden></section>
   <input id="practiceImport" type="file" accept=".json,application/json" hidden>
-  <button class="mobile-expand catalog-only" id="toolsExpand" type="button" aria-expanded="false" aria-controls="specLegend">Tiers &amp; Compare <span aria-hidden="true">⌄</span></button><div class="spec-legend catalog-only" id="specLegend" hidden aria-label="Specification highlights"><span><i class="spec-key high" aria-hidden="true"></i>Highest tier</span><span><i class="spec-key" aria-hidden="true"></i>Mid tier / unranked</span><span><i class="spec-key low" aria-hidden="true"></i>Lowest tier</span><label class="compare-toggle"><input type="checkbox" id="compareToggle"> Compare</label><span id="compareStatus" hidden aria-live="polite"></span><button class="btn primary" id="compareConfirm" type="button" hidden>Confirm comparison</button><button class="column-reset" id="defaultColumnOrder" type="button" title="Restore the original column order">Default columns order</button><details><summary>How tiers are compared</summary><p>Each numeric specification is compared independently within its product category, using the full saved catalog. Resistance levels and motorized speed levels are compared separately. Numeric tiers use distinct advertised values: the upper third is green, the lower third is grey, and the middle is unchanged. Fewer than three distinct values remain unranked. Search, sorting and comparison do not change the colors.</p><p>Treadmill incline tiers compare adjustability: incline + decline is highest, automatic incline is mid, and fixed or manually adjusted incline is lowest. Other motion systems and user-powered speed/drive are unranked. Quoted motor HP is not a standardized continuous-duty rating.</p><p>Elliptical numeric stride lengths are ranked within Ellipticals. Resistance technologies and descriptive rower motion labels stay unranked because they are not directly comparable performance measures.</p><p>Dimensions are copied from your master portfolio. Only treadmill workout dimensions split into length × width; overall or folded elliptical and rower dimensions are not workout-pad dimensions. “-” means information has not been provided. Green indicates a higher specification band, not an overall product recommendation.</p></details></div><div class="tablebox catalog-only">
+  <button class="mobile-expand catalog-only" id="toolsExpand" type="button" aria-expanded="false" aria-controls="specLegend">Tiers &amp; Compare <span aria-hidden="true">⌄</span></button><div class="spec-legend catalog-only" id="specLegend" hidden aria-label="Specification highlights"><span><i class="spec-key high" aria-hidden="true"></i>Highest tier</span><span><i class="spec-key" aria-hidden="true"></i>Mid tier / unranked</span><span><i class="spec-key low" aria-hidden="true"></i>Lowest tier</span><label class="compare-toggle"><input type="checkbox" id="compareToggle"> Compare</label><span id="compareStatus" hidden aria-live="polite"></span><button class="btn primary" id="compareConfirm" type="button" hidden>Confirm comparison</button><button class="column-reset" id="defaultColumnOrder" type="button" title="Restore the original column order">Default columns order</button></div><div class="tablebox catalog-only">
     <table>
       <thead>
         <tr>
@@ -1193,7 +1209,7 @@ body.spec-view table.ptable{min-width:0}
   function renderPractice() {
     document.body.dataset.view = pr.view;
     $('#sectionTrigger').firstChild.textContent = ({catalog:'Catalog',practice:'SKU Practice',progress:'Progress',accounts:'Accounts'}[pr.view] || 'Catalog')+' ';
-    $('#actionTrigger').firstChild.textContent = (state.canWrite ? '+ Add New Item' : 'Export CSV')+' ';
+
     document.querySelectorAll("#views [data-view]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === pr.view)));
     $("#practiceView").hidden = pr.view !== "practice"; $("#progressView").hidden = pr.view !== "progress"; $("#accountsView").hidden = pr.view !== "accounts";
     if (pr.view === "practice") {

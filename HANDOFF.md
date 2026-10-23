@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Codex — spaced selector, distinct option panels, direct actions and simpler mobile cards
+- Changes: fixed missing section-selector closing wrapper, which had kept the title inside it and defeated previous spacing; now 24px padding separates selector from heading. Flyouts/popups use lighter option-panel backgrounds with border/shadow contrast. Removed How tiers are compared content. Catalog actions are individual compact desktop buttons on one row, Add New Item rightmost; phones show only Add New Item. Mobile product cards hide specification and row-action cells, retaining category, SKU/name, picture, price and link; underlying stored data and desktop specifications unchanged. Category popup list is one aligned column.
+- Files: app/index.html, affected UI tests, HANDOFF.md.
+- Tests: all eight suites passed after wrapper correction. New assertions verify title gap >=20px, no action flyout or tier explanation, mobile Export/Bulk hidden, Add visible and no visible spec cells. Updated intentional mobile spec-width expectation to hidden cells; desktop spec assertions retained. 14 desktop/phone screenshots passed.
+- Local preview: 1440px and 390px images visually inspected; final title spacing verified by assertion and screenshot.
+- Claude Artifact: Claude records version 20 from e46cb27; behind these UI changes, Claude must sync and publish.
+- Private Site: publish follows pushed tested main; exact version/source in follow-up. Owner-only access and admin settings unchanged.
+- Practice data: not exported to public repository (permission pending).
+- Remaining issues: live learner account check awaits access approval.
+- Next steps: publish private Site and record provenance; Claude syncs.
 ## 2026-10-23: Claude Code — git pull: reviewed Codex's mobile option popups; Claude Artifact version 20
 - Changes: reviewed Codex commits 9cdf041 and e46cb27. They match their HANDOFF entries: on phones, the section, actions, category and Tiers & Compare controls open a centred popup (close button, backdrop, Escape, focus trap, focus return), and on desktop `#sectionPicker` has a 20px bottom margin. Private Site `/api` and the `window.claude` fallback are untouched. Tests: the new helper `tests/mobile-options.cjs` (`revealOptions`) opens or closes popups before each step; every existing assertion is still there. No code change by Claude Code.
 - Files: HANDOFF.md
