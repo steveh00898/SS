@@ -396,7 +396,7 @@ body.spec-view table.ptable{min-width:0}
 .compact-picker>.views,.compact-picker>.actions{display:none!important;position:absolute;left:100%;top:0;min-width:190px;margin:0!important;padding:6px;background:var(--surface);border:1px solid var(--line);border-radius:8px;box-shadow:0 8px 24px #0002;flex-direction:column;gap:4px;z-index:30}
 .compact-picker.open>.views,.compact-picker.open>.actions{display:flex!important}
 .compact-picker .views button,.compact-picker .actions button{width:100%;text-align:left;min-height:40px;white-space:nowrap}
-.side{overflow:visible;z-index:25;position:relative}.side .hero{clip-path:none}.pane{position:relative;z-index:0}
+.side{overflow:visible;z-index:25;position:relative}.side .hero{clip-path:none;box-shadow:none}.pane{position:relative;z-index:0}
 .mobile-expand{display:none}
 @media(min-width:1100px){.side{position:sticky}}
 @media(max-width:720px){
@@ -404,7 +404,7 @@ body.spec-view table.ptable{min-width:0}
  .compact-picker>.views,.compact-picker>.actions{min-width:160px;width:160px}
  .mobile-expand{display:flex;align-items:center;justify-content:space-between;width:100%;background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:7px;padding:10px 12px;margin:8px 0;font:inherit;font-size:14px;cursor:pointer}
  #tabs:not(.expanded),#specLegend:not(.expanded){display:none!important}
- .hero .sub{font-size:13px}
+ .hero{padding-block:16px;margin-bottom:8px}.hero .head{display:flex;flex-direction:column;align-items:stretch;gap:12px}.hero h1{font-size:24px}.hero .sub{font-size:13px}.hero .actions{margin-top:0}
 }
 </style>
 
