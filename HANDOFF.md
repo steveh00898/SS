@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Codex — mobile header fix published as private Site version 18
+- Changes: mobile Tiers & Compare removed and scrolling panel layered below Sunny/search header.
+- Files: HANDOFF.md only.
+- Tests: all eight suites and 14 screenshot captures passed; Worker build passed.
+- Local preview: desktop and phone checks complete.
+- Claude Artifact: behind mobile fix; Claude must sync.
+- Private Site: version 18 from exact main SHA 6a74231e128df8635605a504fd8d4b4ba8f7b567; deployment appgdep_6adbdae418d48191bdf1b9d75007334a succeeded. Access and admin settings unchanged.
+- Practice data: not exported (public-repo permission pending).
+- Remaining issues: none for this request.
+- Next steps: refresh private Site; Claude syncs. Documentation-only follow-up does not affect deployed app.
 ## 2026-10-23: Codex — remove mobile tiers and fix sticky header layering
 - Changes: phones hide Tiers & Compare and its legend entirely. Header z-index 40 is above scrolling sidebar 10, so logo/search stays above layout content. Modal dialogs remain above the header for intentional focused interactions. Desktop unchanged.
 - Files: app/index.html, affected catalog UI tests, HANDOFF.md.
