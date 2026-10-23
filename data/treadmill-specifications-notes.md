@@ -4,7 +4,7 @@ Source: Sunny_Master_Products_Portfolio_Value_Weighted_Summary.xlsx, Master Prod
 
 Seven displayed columns: Drive/Resistance System; Speed/Resistance Levels; Incline/Stride/Motion; Max User Weight (lb); Key Dimensions; Workout Area Width (in); Workout Area Length (in).
 
-Dimensions are interpreted as workout length × width, retaining the original text. Four missing dimension entries remain null. Two missing incline/motion entries remain null. No specifications are guessed.
+Dimensions are interpreted as workout length × width, retaining the original text. Three missing dimension entries remain null. Workout width and length for SF-T724011, SF-T725067, SF-T722021 and SF-T722076 (and the key dimensions of SF-T722021) were entered by the owner in the app on 2026-10-20 and brought into the catalog on 2026-10-23. Two missing incline/motion entries remain null. No specifications are guessed.
 
 Each metric is ranked independently. Numeric bands use sorted distinct advertised values over the full treadmill dataset: floor(N/3) lowest values are grey, ceil(N/3) highest values are green, and remaining values are unmarked. This keeps tiers stable when filtering. Drive uses quoted HP, speed uses maximum quoted MPH, capacity uses pounds, and workout size uses inches. Manual drive/user-powered speed are unranked; HP descriptions retain peak/non-peak wording and are not treated as standardized continuous-duty ratings.
 

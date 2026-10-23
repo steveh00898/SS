@@ -262,6 +262,27 @@ body.spec-view th.column-hidden,td.column-hidden{min-width:32px!important;width:
 .spec-editor{border:1px solid var(--line);border-radius:6px;padding:14px}.spec-editor legend{font-weight:600}.spec-editor p{font-size:13px;color:var(--muted);margin:0 0 12px}
 @media(max-width:720px){td.column-hidden{display:none!important}}
 
+
+/* Wide screens: sections, title, actions and categories in a left side panel, so the table gets the full height */
+.pane{min-width:0}
+@media(min-width:1100px){
+  .wrap.layout{max-width:1680px;display:grid;grid-template-columns:260px minmax(0,1fr);gap:24px;align-items:start;padding-top:20px}
+  .side{position:sticky;top:84px;max-height:calc(100vh - 100px);overflow-y:auto;background:var(--hero);border:1px solid var(--line);border-radius:10px;padding:16px;scrollbar-width:thin}
+  .side .hero{background:none;box-shadow:none;clip-path:none;padding:0;margin:0 0 14px}
+  .side .views{display:flex;flex-direction:column;align-items:stretch;border-radius:10px;margin-bottom:16px}
+  .side .views button{text-align:left;border-radius:7px}
+  .side .head{display:block}
+  .side h1{font-size:28px}
+  .side .sub{font-size:14px;margin-top:6px}
+  .side .actions{flex-direction:column;align-items:stretch;margin-top:14px;gap:8px}
+  .side .actions .btn{justify-content:center;height:38px;font-size:13px}
+  .side .tabs{flex-direction:column;flex-wrap:nowrap;border-bottom:0;border-top:1px solid var(--line);margin:0;padding-top:8px;gap:0}
+  .side .tab{display:flex;justify-content:space-between;align-items:center;margin:0;padding:8px 10px;border-bottom:0;border-left:3px solid transparent;border-radius:0 6px 6px 0;text-align:left}
+  .side .tab[aria-selected="true"]{border-left-color:var(--accent);background:var(--surface)}
+  .side .tab span{background:var(--surface-2)}
+  .tablebox{max-height:calc(100vh - 150px)}
+  .top .wrap{max-width:1680px}
+}
 /* SKU practice: view switcher, setup, study cards, quiz table and progress dashboard */
 :root{--ok-bg:#dcf3e2;--ok-fg:#14532d;--ok-line:#8fd0a3;--bad-bg:#fbe1df;--bad-fg:#7f1d1d;--bad-line:#efa49d;--s-sku:#2a78d6;--s-name:#eb6834;--s-price:#1baf7a}
 :root[data-theme="dark"]{--ok-bg:#173c29;--ok-fg:#c2f3d0;--ok-line:#397e53;--bad-bg:#4a1f1f;--bad-fg:#ffd2cc;--bad-line:#8a3b35;--s-sku:#3987e5;--s-name:#d95926;--s-price:#199e70}
@@ -377,7 +398,8 @@ body.spec-view table.ptable{min-width:0}
   </div>
 </header>
 
-<main class="wrap">
+<main class="wrap layout">
+  <aside class="side" aria-label="Sections and categories">
   <section class="hero"><div class="inner">
     <nav class="views" id="views" aria-label="Sections"><button type="button" data-view="catalog" aria-pressed="true">Catalog</button><button type="button" data-view="practice" aria-pressed="false">SKU Practice</button><button type="button" data-view="progress" aria-pressed="false">Progress</button></nav>
     <div class="head">
@@ -392,11 +414,13 @@ body.spec-view table.ptable{min-width:0}
     </div>
     </div>
   </div></section>
+  <nav class="tabs catalog-only" id="tabs" role="tablist" aria-label="Categories"></nav>
+  </aside>
+  <div class="pane">
   <div class="banner" id="banner" hidden></div>
   <section class="practice" id="practiceView" hidden aria-live="polite"></section>
   <section class="progress" id="progressView" hidden></section>
   <input id="practiceImport" type="file" accept=".json,application/json" hidden>
-  <nav class="tabs catalog-only" id="tabs" role="tablist" aria-label="Categories"></nav>
   <div class="spec-legend catalog-only" id="specLegend" hidden aria-label="Specification highlights"><span><i class="spec-key high" aria-hidden="true"></i>Highest tier</span><span><i class="spec-key" aria-hidden="true"></i>Mid tier / unranked</span><span><i class="spec-key low" aria-hidden="true"></i>Lowest tier</span><label class="compare-toggle"><input type="checkbox" id="compareToggle"> Compare</label><span id="compareStatus" hidden aria-live="polite"></span><button class="btn primary" id="compareConfirm" type="button" hidden>Confirm comparison</button><button class="column-reset" id="defaultColumnOrder" type="button" title="Restore the original column order">Default columns order</button><details><summary>How tiers are compared</summary><p>Each numeric specification is compared independently within its product category, using the full saved catalog. Resistance levels and motorized speed levels are compared separately. Numeric tiers use distinct advertised values: the upper third is green, the lower third is grey, and the middle is unchanged. Fewer than three distinct values remain unranked. Search, sorting and comparison do not change the colors.</p><p>Treadmill incline tiers compare adjustability: incline + decline is highest, automatic incline is mid, and fixed or manually adjusted incline is lowest. Other motion systems and user-powered speed/drive are unranked. Quoted motor HP is not a standardized continuous-duty rating.</p><p>Elliptical numeric stride lengths are ranked within Ellipticals. Resistance technologies and descriptive rower motion labels stay unranked because they are not directly comparable performance measures.</p><p>Dimensions are copied from your master portfolio. Only treadmill workout dimensions split into length × width; overall or folded elliptical and rower dimensions are not workout-pad dimensions. “-” means information has not been provided. Green indicates a higher specification band, not an overall product recommendation.</p></details></div><div class="tablebox catalog-only">
     <table>
       <thead>
@@ -420,6 +444,7 @@ body.spec-view table.ptable{min-width:0}
       <tbody id="rows"></tbody>
     </table>
     <div class="state" id="state" hidden></div>
+  </div>
   </div>
 </main>
 

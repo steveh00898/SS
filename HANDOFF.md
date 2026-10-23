@@ -2,6 +2,20 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Claude Code — left side panel; owner's treadmill workout-area edits in the catalog
+- Changes:
+  - Wide screens (1100px+): the section switcher, title, item count, Export CSV / Bulk Edit / Add New Item and the category list now sit in a sticky left panel; the table uses the full height of the window (`max-height: calc(100vh - 150px)`). Narrower screens keep the stacked layout.
+  - Owner approved bringing the Artifact-only edits into the repository: workout width/length for SF-T724011 (16 × 50), SF-T725067 (20 × 55), SF-T722021 (17.3 × 47, key dimensions 47.2" × 17.3"), SF-T722076 (16 × 45.7) in `data/treadmills.json`; notes updated. Worker: one-time `treadmill-workout-area-v2` fill puts these into existing private Site rows only where the field is still empty (Site edits win).
+  - tests/treadmill-specifications.spec.cjs: the check that SF-T725067's width shows "-" and the count of 4 unknown widths now assert the new values (20 in, 0 unknown, and SF-T722021's key dimensions), because the data changed. tests/server.spec.cjs: covers the one-time fill and that a Site value is kept.
+- Files: app/index.html, data/treadmills.json, data/treadmill-specifications-notes.md, server/worker.js, tests/treadmill-specifications.spec.cjs, tests/server.spec.cjs, HANDOFF.md
+- Tests: all 8 tests/*.spec.cjs passed twice.
+- Local preview: checked at 1440 (dark), 1280 (light), 1024 and the practice view; no sideways scroll.
+- Claude Artifact: to be republished from this commit. Its items database already holds these four values, so no database write.
+- Private Site: not published (Codex's job); behind main.
+- Practice data: not re-exported (no change).
+- Remaining issues: owner asked for email sign-up accounts with an admin view of everyone's progress; platform limits being clarified with the owner (see next entry).
+- Next steps: Codex runs "git pull".
+
 ## 2026-10-23: Claude Code — quiz answer table: fixed cell sizes, colour-only feedback
 - Changes: owner reported choice text spilling out of cells and cells resizing after a click. The answer columns now share one grid (cells placed by row/column), so every row has one height across columns before and after answering; smaller choice text (14px names, 17px prices/SKUs, no mid-word breaks); removed the "✓ Correct", "✓ Answer" and "✗ Your pick" labels, so feedback is colour only (the result stays in each cell's accessible label); the help line no longer changes after answering, so nothing moves.
 - Files: app/index.html, tests/practice.spec.cjs, HANDOFF.md
