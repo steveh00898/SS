@@ -5,7 +5,7 @@ SKU practice results exported from each app, so every agent can report on all of
 | File | Comes from | Who updates it |
 |---|---|---|
 | `claude-artifact.json` | Claude Artifact, the viewer's `data/users/<id>/practice-*` documents | Claude Code |
-| `private-site.json` | Private Site, D1 table `practice_attempts` (`GET /api/practice` as the owner) | Codex |
+| `private-site.json` | Private Site, the owner's own results in D1 table `practice_attempts` (`GET /api/practice` as the owner). Other learners' results stay in the Site (Accounts view) | Codex |
 
 Format (the same as the app's **Export results file** on the Progress page):
 

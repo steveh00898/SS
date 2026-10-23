@@ -15,6 +15,13 @@
       "when": 1792779589335,
       "tag": "0001_practice_attempts",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1792782439706,
+      "tag": "0002_practice_users",
+      "breakpoints": true
     }
   ]
 }

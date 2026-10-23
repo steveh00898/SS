@@ -20,6 +20,7 @@ for (const file of fs.readdirSync(path.join(root, 'data')).filter((f) => f.endsW
 }
 const uploads = new Map();
 const practice = new Map(); // SKU practice results, in memory like everything else here
+const profile = { name: '' };
 
 const json = (res, status, body) => { res.writeHead(status, { 'Content-Type': 'application/json' }); res.end(JSON.stringify(body)); };
 const readBody = (req) => new Promise((resolve) => { const chunks = []; req.on('data', (c) => chunks.push(c)); req.on('end', () => resolve(Buffer.concat(chunks))); });
@@ -27,9 +28,12 @@ const readBody = (req) => new Promise((resolve) => { const chunks = []; req.on('
 http.createServer(async (req, res) => {
   const url = new URL(req.url, 'http://localhost');
   const p = decodeURIComponent(url.pathname);
-  if (p === '/api/session') return json(res, 200, { canWrite: true, practice: true });
+  // the preview runs as one admin learner, so the Accounts view shows that learner
+  if (p === '/api/session') return json(res, 200, { canWrite: true, practice: true, admin: true, email: 'preview@example.com' });
+  if (p === '/api/practice/accounts') return json(res, 200, [{ id: 'preview', email: 'preview@example.com', name: profile.name, firstSeen: null, lastSeen: null, records: [...practice.values()] }]);
+  if (p === '/api/practice/profile' && req.method === 'PUT') { profile.name = String(JSON.parse((await readBody(req)).toString() || '{}').name || '').slice(0, 60); return json(res, 200, profile); }
   if (p === '/api/practice') {
-    if (req.method === 'GET') return json(res, 200, [...practice.values()]);
+    if (req.method === 'GET') return json(res, 200, url.searchParams.get('with') === 'profile' ? { ...profile, email: 'preview@example.com', records: [...practice.values()] } : [...practice.values()]);
     if (req.method === 'DELETE') { practice.clear(); return json(res, 200, { deleted: true }); }
     if (req.method === 'POST') {
       const { records } = JSON.parse((await readBody(req)).toString() || '{}');

@@ -401,7 +401,7 @@ body.spec-view table.ptable{min-width:0}
 <main class="wrap layout">
   <aside class="side" aria-label="Sections and categories">
   <section class="hero"><div class="inner">
-    <nav class="views" id="views" aria-label="Sections"><button type="button" data-view="catalog" aria-pressed="true">Catalog</button><button type="button" data-view="practice" aria-pressed="false">SKU Practice</button><button type="button" data-view="progress" aria-pressed="false">Progress</button></nav>
+    <nav class="views" id="views" aria-label="Sections"><button type="button" data-view="catalog" aria-pressed="true">Catalog</button><button type="button" data-view="practice" aria-pressed="false">SKU Practice</button><button type="button" data-view="progress" aria-pressed="false">Progress</button><button type="button" data-view="accounts" aria-pressed="false" hidden>Accounts</button></nav>
     <div class="head">
     <div>
       <h1 id="title">Product Catalog</h1>
@@ -420,6 +420,7 @@ body.spec-view table.ptable{min-width:0}
   <div class="banner" id="banner" hidden></div>
   <section class="practice" id="practiceView" hidden aria-live="polite"></section>
   <section class="progress" id="progressView" hidden></section>
+  <section class="accounts" id="accountsView" hidden></section>
   <input id="practiceImport" type="file" accept=".json,application/json" hidden>
   <div class="spec-legend catalog-only" id="specLegend" hidden aria-label="Specification highlights"><span><i class="spec-key high" aria-hidden="true"></i>Highest tier</span><span><i class="spec-key" aria-hidden="true"></i>Mid tier / unranked</span><span><i class="spec-key low" aria-hidden="true"></i>Lowest tier</span><label class="compare-toggle"><input type="checkbox" id="compareToggle"> Compare</label><span id="compareStatus" hidden aria-live="polite"></span><button class="btn primary" id="compareConfirm" type="button" hidden>Confirm comparison</button><button class="column-reset" id="defaultColumnOrder" type="button" title="Restore the original column order">Default columns order</button><details><summary>How tiers are compared</summary><p>Each numeric specification is compared independently within its product category, using the full saved catalog. Resistance levels and motorized speed levels are compared separately. Numeric tiers use distinct advertised values: the upper third is green, the lower third is grey, and the middle is unchanged. Fewer than three distinct values remain unranked. Search, sorting and comparison do not change the colors.</p><p>Treadmill incline tiers compare adjustability: incline + decline is highest, automatic incline is mid, and fixed or manually adjusted incline is lowest. Other motion systems and user-powered speed/drive are unranked. Quoted motor HP is not a standardized continuous-duty rating.</p><p>Elliptical numeric stride lengths are ranked within Ellipticals. Resistance technologies and descriptive rower motion labels stay unranked because they are not directly comparable performance measures.</p><p>Dimensions are copied from your master portfolio. Only treadmill workout dimensions split into length × width; overall or folded elliptical and rower dimensions are not workout-pad dimensions. “-” means information has not been provided. Green indicates a higher specification band, not an overall product recommendation.</p></details></div><div class="tablebox catalog-only">
     <table>
@@ -977,9 +978,9 @@ body.spec-view table.ptable{min-width:0}
   // photoMasks cover a printed SKU, name or price, and a picture nobody has checked stays blurred.
   const PFIELDS = [["sku", "SKU"], ["name", "Item name"], ["price", "Price"]];
   const PLABEL = Object.fromEntries(PFIELDS);
-  const pr = { view: "catalog", cats: null, fields: new Set(["sku"]), missedOnly: false, mode: "setup", records: [], loaded: false, store: null, source: "", saveNote: "", session: null, q: null, study: null, range: "30", draw: null, confirmReset: false };
+  const pr = { view: "catalog", cats: null, fields: new Set(["sku"]), missedOnly: false, mode: "setup", records: [], loaded: false, store: null, source: "", saveNote: "", session: null, q: null, study: null, range: "30", draw: null, confirmReset: false, me: { name: "", email: "" }, admin: false, accounts: null, account: null };
   try {
-    const v = new URLSearchParams(location.search).get("view"); if (v === "practice" || v === "progress") pr.view = v;
+    const v = new URLSearchParams(location.search).get("view"); if (v === "practice" || v === "progress" || v === "accounts") pr.view = v;
     const p = JSON.parse(localStorage.getItem("spf.practice.v1") || "null");
     if (p) { if (Array.isArray(p.cats)) pr.cats = new Set(p.cats); const f = Array.isArray(p.fields) ? p.fields.filter((x) => PLABEL[x]) : []; if (f.length) pr.fields = new Set(f); pr.missedOnly = !!p.missedOnly; }
   } catch (e) {}
@@ -996,7 +997,7 @@ body.spec-view table.ptable{min-width:0}
 
   // ----- where results are kept -----
   const sitePractice = {
-    load: async () => { const rows = await api("/api/practice"); return Array.isArray(rows) ? rows.filter(validRecord) : []; },
+    load: async () => { const x = await api("/api/practice?with=profile"), rows = Array.isArray(x) ? x : x && x.records; if (x && !Array.isArray(x)) pr.me = { name: String(x.name || ""), email: String(x.email || "") }; return Array.isArray(rows) ? rows.filter(validRecord) : []; },
     add: async (recs) => { for (let i = 0; i < recs.length; i += 50) await api("/api/practice", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ records: recs.slice(i, i + 50) }) }); },
     clear: () => api("/api/practice", { method: "DELETE" })
   };
@@ -1019,10 +1020,10 @@ body.spec-view table.ptable{min-width:0}
   async function initPractice(runtime, db, user) {
     try {
       if (runtime) { const uid = user && typeof user.id === "function" ? await user.id() : null; pr.store = uid && db ? artifactPractice(db, uid) : null; pr.source = "claude-artifact"; }
-      else { const s = await api("/api/session").catch(() => null); pr.store = s && s.practice ? sitePractice : null; pr.source = "private-site"; }
+      else { const s = await api("/api/session").catch(() => null); pr.store = s && s.practice ? sitePractice : null; pr.source = "private-site"; pr.admin = !!(s && s.admin); if (s && s.email) pr.me.email = String(s.email); }
       if (pr.store) pr.records = (await pr.store.load()).map(cleanRecord);
     } catch (e) { pr.store = null; pr.saveNote = "Your saved results couldn't load, so this visit isn't saved."; }
-    pr.loaded = true; if (pr.view !== "catalog") renderPractice();
+    pr.loaded = true; document.querySelector('#views [data-view="accounts"]').hidden = !pr.admin; if (pr.view !== "catalog") renderPractice();
   }
   let saveChain = Promise.resolve();
   function savePractice(recs) {
@@ -1136,7 +1137,7 @@ body.spec-view table.ptable{min-width:0}
   function renderPractice() {
     document.body.dataset.view = pr.view;
     document.querySelectorAll("#views [data-view]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === pr.view)));
-    $("#practiceView").hidden = pr.view !== "practice"; $("#progressView").hidden = pr.view !== "progress";
+    $("#practiceView").hidden = pr.view !== "practice"; $("#progressView").hidden = pr.view !== "progress"; $("#accountsView").hidden = pr.view !== "accounts";
     if (pr.view === "practice") {
       $("#title").textContent = "SKU Practice";
       $("#sub").textContent = "Learn the line-up with study cards and a quiz. Items you miss come back more often until you get them right 75% of the time.";
@@ -1145,6 +1146,11 @@ body.spec-view table.ptable{min-width:0}
       $("#title").textContent = "Progress";
       $("#sub").textContent = "How you're doing by SKU, item name and price, by category and by product, over time.";
       $("#progressView").innerHTML = progressHtml(); wireChart();
+    } else if (pr.view === "accounts") {
+      const one = pr.account && (pr.accounts || []).find((a) => a.id === pr.account);
+      $("#title").textContent = one ? accountName(one) : "Accounts";
+      $("#sub").textContent = one ? "This learner's progress, as they see it." : "Everyone's SKU practice progress. Only admins see this page.";
+      $("#accountsView").innerHTML = accountsHtml(one); wireChart();
     }
   }
   function setupHtml() {
@@ -1219,20 +1225,24 @@ body.spec-view table.ptable{min-width:0}
     return n;
   }
   function itemCell(sku, s) { const it = state.items.find((x) => x.sku === sku); return `<td>${it && imgSrc(it) ? `<img src="${esc(imgSrc(it))}" alt="">` : ""}</td><td><div class="skuc">${esc(sku)}</div><div class="nm">${esc(it ? it.name : "Not in the catalog any more")}</div></td><td>${esc(it ? it.category : s.category)}</td>`; }
-  function progressHtml() {
-    const since = pr.range === "all" ? 0 : Date.now() - Number(pr.range) * 864e5, recs = pr.records.filter((r) => Date.parse(r.at) >= since);
-    const tools = `<div class="pv-tools"><label class="chip" style="padding:0;border:0;background:none">Show <select id="pRange" aria-label="Time range">${[["7", "Last 7 days"], ["30", "Last 30 days"], ["90", "Last 90 days"], ["all", "All time"]].map(([v, l]) => `<option value="${v}" ${pr.range === v ? "selected" : ""}>${l}</option>`).join("")}</select></label>
+  const rangeSelect = () => `<label class="chip" style="padding:0;border:0;background:none">Show <select id="pRange" aria-label="Time range">${[["7", "Last 7 days"], ["30", "Last 30 days"], ["90", "Last 90 days"], ["all", "All time"]].map(([v, l]) => `<option value="${v}" ${pr.range === v ? "selected" : ""}>${l}</option>`).join("")}</select></label>`;
+  // private Site only: the name the admin sees for this account
+  const nameField = () => pr.store === sitePractice ? `<label class="chip" style="padding:0;border:0;background:none">Your name <input id="pName" type="text" maxlength="60" value="${esc(pr.me.name)}" placeholder="${esc(pr.me.email || "Shown to the admin")}" style="width:170px"></label><button class="btn" type="button" data-pact="save-name">Save name</button>` : "";
+  // all = the results shown; acct = another learner's account (admin view): read-only, no export/import/reset tools
+  function progressHtml(all = pr.records, acct = null) {
+    const since = pr.range === "all" ? 0 : Date.now() - Number(pr.range) * 864e5, recs = all.filter((r) => Date.parse(r.at) >= since);
+    const tools = acct ? `<div class="pv-tools">${rangeSelect()}<span class="pv-note">Viewing ${esc(acct)}'s results (read only).</span></div>` : `<div class="pv-tools">${rangeSelect()}${nameField()}
       <button class="btn" type="button" data-pact="export-csv" ${pr.records.length && state.downloads ? "" : "disabled"}>Export CSV</button><button class="btn" type="button" data-pact="export-json" ${pr.records.length && state.downloads ? "" : "disabled"}>Export results file</button>
       <button class="btn" type="button" data-pact="import" ${pr.store ? "" : "disabled"}>Import results</button><button class="btn" type="button" data-pact="reset" ${pr.records.length && pr.store ? "" : "disabled"}>Reset progress</button>
       <span class="pv-note"><span class="${pr.saveNote ? "warn" : ""}">${esc(saveLine())}</span></span></div>
       ${pr.confirmReset ? `<div class="confirm" role="alert">Delete all ${pr.records.length} saved practice results? This can't be undone. <button class="btn danger" type="button" data-pact="reset-yes">Delete results</button><button class="btn" type="button" data-pact="reset-no">Cancel</button></div>` : ""}`;
     if (!pr.loaded) return tools + `<div class="state"><h2>Loading your results</h2></div>`;
-    if (!recs.length) return tools + `<div class="state"><h2>No practice results ${pr.records.length ? "in this time range" : "yet"}</h2><p>Answer a few quiz questions and your progress shows up here: by SKU, item name and price, by category and by product.</p><button class="btn primary" type="button" data-pact="go-practice">Start practicing</button></div>`;
-    const ok = recs.filter((r) => r.correct).length, allStats = itemStats(), stats = itemStats(recs), practised = [...allStats.values()].filter((s) => stats.has(s.sku));
+    if (!recs.length) return tools + (acct ? `<div class="state"><h2>No practice results ${all.length ? "in this time range" : "yet"}</h2></div>` : `<div class="state"><h2>No practice results ${pr.records.length ? "in this time range" : "yet"}</h2><p>Answer a few quiz questions and your progress shows up here: by SKU, item name and price, by category and by product.</p><button class="btn primary" type="button" data-pact="go-practice">Start practicing</button></div>`);
+    const ok = recs.filter((r) => r.correct).length, allStats = itemStats(all), stats = itemStats(recs), practised = [...allStats.values()].filter((s) => stats.has(s.sku));
     const byField = PFIELDS.map(([f, l]) => { const rr = recs.filter((r) => r.field === f); return { f, l, n: rr.length, c: rr.filter((r) => r.correct).length }; }).filter((x) => x.n);
     const best = [...byField].sort((a, b) => b.c / b.n - a.c / a.n)[0], worst = [...byField].sort((a, b) => (b.n - b.c) - (a.n - a.c) || a.c / a.n - b.c / b.n)[0];
     const tiles = `<div class="tiles"><div class="tile"><div class="v">${recs.length}</div><div class="l">answers</div></div><div class="tile"><div class="v">${pct(ok, recs.length)}</div><div class="l">correct overall</div></div>
-      <div class="tile"><div class="v">${new Set(recs.map((r) => localDay(r.at))).size}</div><div class="l">days practiced</div></div><div class="tile"><div class="v">${streak(pr.records)}</div><div class="l">day streak</div></div>
+      <div class="tile"><div class="v">${new Set(recs.map((r) => localDay(r.at))).size}</div><div class="l">days practiced</div></div><div class="tile"><div class="v">${streak(all)}</div><div class="l">day streak</div></div>
       <div class="tile"><div class="v">${practised.filter((s) => s.mastered).length}<small style="font-size:16px;color:var(--muted)"> / ${practised.length}</small></div><div class="l">products mastered (75%+)</div></div></div>`;
     const fields = `<div class="pv-panel"><h2>By field</h2><p class="pv-help">${byField.length > 1 ? `Most correct: <b>${best.l}</b> (${pct(best.c, best.n)}). Most missed: <b>${worst.l}</b> (${worst.n - worst.c} missed).` : `${byField[0].l} only so far.`}</p>
       ${byField.map((x) => `<div class="fbar"><span>${x.l}</span><span class="track" role="img" aria-label="${x.l} ${pct(x.c, x.n)} correct"><span class="fill" style="display:block;width:${100 * x.c / x.n}%;background:var(--s-${x.f})"></span></span><span class="num">${pct(x.c, x.n)} · ${x.c} of ${x.n}</span></div>`).join("")}</div>`;
@@ -1255,7 +1265,7 @@ body.spec-view table.ptable{min-width:0}
     const keys = []; const d = new Date(); d.setDate(d.getDate() - days + 1); for (let i = 0; i < days; i++) { keys.push(dayKey(d)); d.setDate(d.getDate() + 1); }
     const agg = {}; for (const r of recs) { const k = localDay(r.at); const a = ((agg[r.field] = agg[r.field] || {})[k] = agg[r.field][k] || { n: 0, c: 0 }); a.n++; if (r.correct) a.c++; }
     const series = PFIELDS.filter(([f]) => agg[f]);
-    const W = Math.round(Math.max(300, Math.min(1100, ($("#progressView").clientWidth || 760) - 42))), H = W < 500 ? 200 : 240, L = 40, R = 96, T = 12, B = 28, x = (i) => L + (days === 1 ? 0 : i * (W - L - R) / (days - 1)), y = (v) => T + (1 - v) * (H - T - B);
+    const W = Math.round(Math.max(300, Math.min(1100, ((document.querySelector("#progressView:not([hidden]),#accountsView:not([hidden])") || {}).clientWidth || 760) - 42))), H = W < 500 ? 200 : 240, L = 40, R = 96, T = 12, B = 28, x = (i) => L + (days === 1 ? 0 : i * (W - L - R) / (days - 1)), y = (v) => T + (1 - v) * (H - T - B);
     const label = (k) => { const [, m, dd] = k.split("-"); return Number(m) + "/" + Number(dd); };
     let svg = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Daily accuracy by field over the last ${days} days">`;
     for (const v of [0, 0.5, 1]) svg += `<line class="grid" x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}"/><text class="axis" x="${L - 6}" y="${y(v) + 4}" text-anchor="end">${v * 100}%</text>`;
@@ -1290,6 +1300,34 @@ body.spec-view table.ptable{min-width:0}
     hit.addEventListener("pointermove", (e) => show(e.clientX)); hit.addEventListener("pointerdown", (e) => show(e.clientX)); hit.addEventListener("pointerleave", hide);
   }
 
+  // ----- admin: every learner's progress (private Site) -----
+  const accountName = (a) => a.name || a.email || "Learner " + a.id.slice(-6);
+  async function loadAccounts() {
+    try { const list = await api("/api/practice/accounts"); pr.accounts = (Array.isArray(list) ? list : []).map((a) => ({ ...a, records: (a.records || []).filter(validRecord).map(cleanRecord) })); }
+    catch (err) { pr.accounts = []; toast(err?.message || "Couldn't load the accounts"); }
+    if (pr.view === "accounts") renderPractice();
+  }
+  function accountsHtml(one) {
+    if (!pr.admin) return `<div class="state"><h2>Admins only</h2><p>Sign in with an admin account to see everyone's progress.</p></div>`;
+    if (!pr.accounts) { loadAccounts(); return `<div class="state"><h2>Loading accounts</h2></div>`; }
+    if (one) return `<div class="pv-tools"><button class="btn" type="button" data-pact="accounts-back">‹ All accounts</button></div>` + progressHtml(one.records, accountName(one));
+    const since = pr.range === "all" ? 0 : Date.now() - Number(pr.range) * 864e5;
+    const rows = pr.accounts.map((a) => {
+      const recs = a.records.filter((r) => Date.parse(r.at) >= since), ok = recs.filter((r) => r.correct).length, st = [...itemStats(a.records).values()], last = a.records.length ? a.records[a.records.length - 1].at : a.lastSeen;
+      const f = (k) => { const rr = recs.filter((r) => r.field === k), c = rr.filter((r) => r.correct).length; return rr.length ? `${pct(c, rr.length)} <span class="pv-note">(${rr.length})</span>` : '<span class="pv-note">—</span>'; };
+      return { a, last, html: `<tr><td><button class="link" type="button" data-acct="${esc(a.id)}" style="border:0;background:none;padding:0;cursor:pointer;font:inherit;font-weight:600">${esc(accountName(a))}</button>${a.name && a.email ? `<div class="pv-note">${esc(a.email)}</div>` : ""}</td><td>${recs.length}</td><td><b>${pct(ok, recs.length)}</b></td>${PFIELDS.map(([k]) => `<td>${f(k)}</td>`).join("")}<td>${st.filter((s) => s.mastered).length} / ${st.length}</td><td>${streak(a.records)}</td><td>${last ? esc(localDay(last)) : "—"}</td></tr>` };
+    }).sort((x, y) => String(y.last || "").localeCompare(String(x.last || "")));
+    const total = pr.accounts.reduce((n, a) => n + a.records.length, 0);
+    return `<div class="pv-tools">${rangeSelect()}<button class="btn" type="button" data-pact="accounts-refresh">Refresh</button><button class="btn" type="button" data-pact="accounts-csv" ${total && state.downloads ? "" : "disabled"}>Export CSV (all accounts)</button><span class="pv-note">${pr.accounts.length} account${pr.accounts.length === 1 ? "" : "s"}, ${total} answers in all.</span></div>
+      ${rows.length ? `<div class="pv-panel"><h2>Accounts</h2><p class="pv-help">Accuracy for the selected time range, with the number of answers in brackets. Pick a name to see that person's full progress.</p><div class="pscroll"><table class="ptable"><thead><tr><th>Account</th><th>Answers</th><th>Correct</th>${PFIELDS.map(([, l]) => `<th>${l}</th>`).join("")}<th>Mastered</th><th>Streak</th><th>Last practiced</th></tr></thead><tbody>${rows.map((r) => r.html).join("")}</tbody></table></div></div>` : `<div class="state"><h2>No accounts yet</h2><p>People show up here once they sign in and open SKU Practice.</p></div>`}`;
+  }
+  async function exportAccounts() {
+    const cell = (v) => '"' + String(v ?? "").replace(/"/g, '""') + '"', nameOf = (sku) => (state.items.find((x) => x.sku === sku) || {}).name || "";
+    const lines = [["Account", "Email", "Date", "Time", "Category", "SKU", "Item", "Field", "Your answer", "Correct answer", "Result"].map(cell).join(",")];
+    for (const a of pr.accounts || []) for (const r of a.records) lines.push([accountName(a), a.email, localDay(r.at), new Date(r.at).toLocaleTimeString("en-US", { hour: "2-digit", minute: "2-digit" }), r.category, r.sku, nameOf(r.sku), PLABEL[r.field], r.chosen, r.answer, r.correct ? "Correct" : "Missed"].map(cell).join(","));
+    try { await state.downloads.save({ filename: "sku-practice-all-accounts.csv", data: new Blob([lines.join("\r\n")], { type: "text/csv" }) }); toast(`Exported ${lines.length - 1} results`); } catch (err) { if (err?.code !== "declined") toast("Couldn't export the file."); }
+  }
+
   // ----- export / import / reset -----
   async function exportPractice(kind) {
     if (!state.downloads || !pr.records.length) return;
@@ -1318,7 +1356,7 @@ body.spec-view table.ptable{min-width:0}
   }
 
   // ----- events -----
-  const pv = $("#practiceView"), pg = $("#progressView");
+  const pv = $("#practiceView"), pg = $("#progressView"), pa = $("#accountsView");
   pv.addEventListener("change", (e) => {
     const t = e.target;
     if (t.matches("[data-pcatall]")) pr.cats = t.checked ? null : new Set();
@@ -1345,8 +1383,19 @@ body.spec-view table.ptable{min-width:0}
     else if (act === "import") $("#practiceImport").click();
     else if (act === "reset") { pr.confirmReset = true; renderPractice(); } else if (act === "reset-no") { pr.confirmReset = false; renderPractice(); }
     else if (act === "reset-yes") resetPractice();
+    else if (act === "save-name") saveName();
+    else if (act === "accounts-back") { pr.account = null; renderPractice(); }
+    else if (act === "accounts-refresh") { pr.accounts = null; renderPractice(); }
+    else if (act === "accounts-csv") exportAccounts();
   };
   pv.addEventListener("click", onAct); pg.addEventListener("click", onAct);
+  pa.addEventListener("click", (e) => { const a = e.target.closest("[data-acct]"); if (a) { pr.account = a.dataset.acct; renderPractice(); window.scrollTo({ top: 0 }); return; } onAct(e); });
+  pa.addEventListener("change", (e) => { if (e.target.id === "pRange") { pr.range = e.target.value; renderPractice(); } });
+  async function saveName() {
+    const name = ($("#pName")?.value || "").trim().slice(0, 60);
+    try { await api("/api/practice/profile", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ name }) }); pr.me.name = name; toast(name ? "Name saved" : "Name cleared"); } catch (err) { toast(err?.message || "Couldn't save the name"); }
+    renderPractice();
+  }
   let pResize = 0; window.addEventListener("resize", () => { clearTimeout(pResize); pResize = setTimeout(() => { if (pr.view === "progress") renderPractice(); }, 200); }); // the chart is drawn at its real width so its text stays readable
   pg.addEventListener("change", (e) => { if (e.target.id === "pRange") { pr.range = e.target.value; renderPractice(); } });
   // drawing a box over printed text

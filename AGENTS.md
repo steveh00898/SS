@@ -80,7 +80,7 @@ If there are no new commits, say so and skip steps 4 and 5.
 Each app saves practice results per signed-in user in its own database (README.md, "SKU practice"). Neither agent can open the other's app, so the results meet in the repository:
 
 - Claude Code writes the Claude Artifact's results to `practice-data/claude-artifact.json` (read with its artifact database tool from the owner's `data/users/<id>/practice-*` documents).
-- Codex writes the private Site's results to `practice-data/private-site.json` (`GET /api/practice` as the owner, or the D1 table `practice_attempts`).
+- Codex writes the private Site's results to `practice-data/private-site.json`: the owner's own results only (`GET /api/practice` as the owner, or D1 `practice_attempts` for the owner's user id). Other learners' results and emails never go into this public repository; the owner sees them in the Site's Accounts view.
 - Use the format in `practice-data/README.md`: the whole file is replaced on each export, with no user ids, names or emails. If you can't read your app's results, say so and ask the owner to use **Progress → Export results file** in that app instead; never invent or edit records.
 - Then run `npm run practice-report` (add `-- --md` to also write `practice-data/report.md`) and include the headline numbers in your report: answers, accuracy, most missed field, most missed products.
 - The repository is public. Ask the owner before the first export if it hasn't been made private.

@@ -2,6 +2,21 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Claude Code — accounts on the private Site: learner names, admin Accounts view, admin-only catalog edits
+- Changes:
+  - Owner chose the private Site for accounts (people sign in with email through the Site's sign-in) with the owner's own account as admin (the owner gives Codex the email directly; it isn't written here because this repository is public). The Claude Artifact can't host other learners (outside visitors can view but never save), so it stays the owner's personal copy.
+  - Worker: admin roles from `ADMIN_USER_IDS` / `ADMIN_EMAILS` (comma-separated settings) or a `catalog_meta` row `admins` = `{"userIds":[...],"emails":[...]}`; email matching uses the `oai-authenticated-user-email` header only if the platform sends it (not verified; Codex please check which identity headers Sites provides). `/api/session` now returns `admin` and `email`. Once any admin is configured, catalog writes (`/api/items*`, `/api/assets` POST) are admin-only; with none configured, behaviour is unchanged. New `practice_users` table (migration `drizzle/0002_practice_users.sql`), `PUT /api/practice/profile` (learner's display name), `GET /api/practice?with=profile`, admin-only `GET /api/practice/accounts`.
+  - App: Progress → "Your name" (Site only); **Accounts** section (shown only to admins) with every learner's answers, accuracy by field, mastered, streak, last practiced, a drill-down into one learner's full (read-only) progress, and a CSV of all accounts. Preview runs as an admin.
+  - Docs: README (accounts), AGENTS.md and practice-data/README.md: Codex exports only the owner's own Site results to the public repo; other learners' data and emails stay in the Site.
+- Files: server/worker.js, db/schema.ts, drizzle/0002_practice_users.sql, drizzle/meta/*, app/index.html, scripts/preview.mjs, tests/server.spec.cjs, tests/practice.spec.cjs, README.md, AGENTS.md, practice-data/README.md, HANDOFF.md
+- Tests: all 8 tests/*.spec.cjs passed twice (server: roles by id/email/database row, catalog writes blocked for non-admins once configured, accounts view admin-only, names; UI: name save, Accounts list and drill-down hidden from non-admins). In tests/server.spec.cjs the final count for the second user's results went from 1 to 2 because the new checks add one result for that user.
+- Local preview: checked (Accounts list, drill-down, Progress name field).
+- Claude Artifact: to be republished from this commit (no accounts there; Accounts button stays hidden).
+- Private Site: not published (Codex's job). Needs migrations 0001 and 0002.
+- Practice data: not re-exported (no Artifact data change).
+- Remaining issues: the repository is still public.
+- Next steps for Codex, in this order: (1) "git pull" and review; (2) find the owner's identity on the Site (user id from `oai-authenticated-user-id`, and whether an email header is sent) and configure the admin (`ADMIN_USER_IDS`, or `ADMIN_EMAILS` set to the owner's email if the email header exists, or the `admins` catalog_meta row); confirm `/api/session` shows `admin: true` for the owner; (3) publish with migrations; (4) only then, with the owner's go-ahead, change the Site's access from owner-only to letting other people sign in, and confirm a non-admin account can practice but cannot edit the catalog.
+
 ## 2026-10-23: Claude Code — left side panel; owner's treadmill workout-area edits in the catalog
 - Changes:
   - Wide screens (1100px+): the section switcher, title, item count, Export CSV / Bulk Edit / Add New Item and the category list now sit in a sticky left panel; the table uses the full height of the window (`max-height: calc(100vh - 150px)`). Narrower screens keep the stacked layout.
@@ -10,7 +25,7 @@ Newest entry first. Each agent adds one entry per completed task (format in AGEN
 - Files: app/index.html, data/treadmills.json, data/treadmill-specifications-notes.md, server/worker.js, tests/treadmill-specifications.spec.cjs, tests/server.spec.cjs, HANDOFF.md
 - Tests: all 8 tests/*.spec.cjs passed twice.
 - Local preview: checked at 1440 (dark), 1280 (light), 1024 and the practice view; no sideways scroll.
-- Claude Artifact: to be republished from this commit. Its items database already holds these four values, so no database write.
+- Claude Artifact: published version 14 from 1fde18d. Its items database already holds these four values, so no database write.
 - Private Site: not published (Codex's job); behind main.
 - Practice data: not re-exported (no change).
 - Remaining issues: owner asked for email sign-up accounts with an admin view of everyone's progress; platform limits being clarified with the owner (see next entry).
