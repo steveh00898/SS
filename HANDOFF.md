@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Codex — supplied manuals published as private Site version 22
+- Changes: published owner-supplied bench, dumbbell and yoga ball PDF links; 144/156 product rows linked and remaining 12 unavailable as requested.
+- Files: HANDOFF.md only.
+- Tests: all eight suites, three PDF HTTP 200 checks, 14 screenshots and Worker build passed.
+- Local preview: desktop/mobile capture flows passed.
+- Claude Artifact: behind 8b00219; Claude must sync and publish.
+- Private Site: version 22 from exact main SHA 8b00219a4b4f1661471b28e224e57a98d8593be9; deployment appgdep_6adbe6e14b048191a64f572e25e048ac succeeded. Owner-only access/admin environment revision 1 unchanged.
+- Practice data: not exported (public-repository permission pending); existing report has zero results.
+- Remaining issues: 12 manuals intentionally unavailable.
+- Next steps: refresh Site; Claude syncs. Documentation-only follow-up leaves deployed app unchanged.
 ## 2026-10-23: Codex — add three owner-supplied missing manuals
 - Changes: linked supplied PDFs to SF-BH625080, SF-DB01-055 and SF-EB02-XS. Coverage now 144/156 product rows. The other 12 remain Manual unavailable as requested. Owner-provided mappings retain the catalog SKU even when the PDF uses a shorter model-family filename.
 - Files: app/index.html, data/manuals/weight-benches.json, weights.json and essentials.json, tests/catalog-specifications.spec.cjs, HANDOFF.md. No catalog records/database or runtime/auth changes.
