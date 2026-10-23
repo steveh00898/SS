@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Claude Code — smaller header logo (owner's size)
+- Changes: owner found the 250px lockup too big and asked for it just slightly taller than the search bar (44px). The lockup (with "HEALTH & FITNESS") is now 52px tall and 112px wide, with clear space of one dot diameter (9px). This is the owner's decision and is below the guideline's 250px minimum for the lockup with tagline. The header is 87px tall again on desktop and sticks to the top again; the side panel sticks at 96px; table box `100vh - 160px`. On phones "Product Finder" sits beside the logo again.
+- Files: app/index.html, README.md, HANDOFF.md
+- Tests: all 8 tests/*.spec.cjs passed twice.
+- Local preview: checked at 1440 light/dark, 1280, 1024, 390 (no sideways scroll).
+- Claude Artifact: to be republished from this commit.
+- Private Site: version 13 from 328bafe; behind main (logo commits).
+- Practice data: not re-exported (no change).
+- Remaining issues: none new.
+- Next steps: Codex runs "git pull" and publishes.
+
 ## 2026-10-23: Claude Code — full Sunny logo lockup (with "Health & Fitness") on an Almond header
 - Changes: owner asked for the actual red logo with "Health & Fitness" under it, and allowed changing the header background to suit. The header now shows the full lockup from the guideline PDF (page 8 vector: six Sunny Red #E81D1D paths plus the fourteen "HEALTH & FITNESS" paths in the guideline's #241F21), at 250px wide, the guideline's minimum for the lockup, with clear space of about one dot diameter (19px). The header background is Almond #F8EEE1 in both light and dark mode (the full-color logo is allowed only on white, almond or black), with light search-box colours there; the white dark-mode logo is gone. The header is 171px tall on desktop, so it no longer sticks to the top; the side panel now sticks at 16px and the table box is `100vh - 110px`. On phones "Product Finder" goes under the logo.
 - Files: app/index.html, README.md, HANDOFF.md

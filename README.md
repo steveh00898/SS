@@ -7,7 +7,7 @@ The app uses the catalog and interface from GitHub repository steveh00898/SS at 
 Catalog records are imported once, preserving existing records and subsequent edits. Existing sample rows are removed only when their names still identify them as samples. Three cross-category products retain distinct IDs even though their SKUs overlap.
 ## Structure
 
-- `app/index.html`: branded, responsive catalog UI with embedded Poppins and Roboto Condensed fonts. The header logo is the full Sunny lockup from Sunny Brand Guidelines 2026 (vector from the guideline PDF): Sunny Red #E81D1D "SUNNY" with "HEALTH & FITNESS" in the guideline's near-black, at the lockup's 250px minimum width, on an Almond (#F8EEE1) header in light and dark mode, because the full-color logo is only allowed on white, almond or black. The page icon is the red 'S' badge.
+- `app/index.html`: branded, responsive catalog UI with embedded Poppins and Roboto Condensed fonts. The header logo is the full Sunny lockup from Sunny Brand Guidelines 2026 (vector from the guideline PDF): Sunny Red #E81D1D "SUNNY" with "HEALTH & FITNESS" in the guideline's near-black, 52px tall (just over the 44px search bar, 112px wide: the owner's choice, below the guideline's 250px minimum for the lockup), on an Almond (#F8EEE1) header in light and dark mode, because the full-color logo is only allowed on white, almond or black. The page icon is the red 'S' badge.
 - `server/worker.js`: same-origin catalog and image API; input validation, collision-safe SKU moves, identity checks and CSRF origin checks.
 - `db/schema.ts` and `drizzle/`: database schema and generated migrations.
 - `scripts/build.mjs`: creates the deployable Worker with embedded HTML.
