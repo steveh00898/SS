@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Claude Code — Sunny logo per Brand Guidelines 2026
+- Changes: owner shared Sunny_BrandGuidelines_2026_1_1.pdf (not committed). The header logo was re-typed text ("SUNNY" in Poppins, #d7262e, tiny red tagline), which the guideline forbids. Replaced it with the real vector "SUNNY" wordmark extracted from the PDF's master lockup (page 8, `pdftocairo -svg`, the six Sunny Red paths only, no tracing), inline SVG with `fill: currentColor`. Following the guideline: no "Health & Fitness" (the full lockup needs 250px+), 120px wide on desktop and 104px on phones (minimum 100px), fixed aspect ratio, clear space of about one dot diameter (9px), Sunny Red #E81D1D on the light header (new `--logo` token), solid white on the dark header. The favicon is now the red 'S' badge from page 10 (red circle, white 'S'). The header is about 10px taller, so the sticky side panel and table heights moved down to match. Reviewed Codex's b0bced1 (HANDOFF only: admin configured as a secret, Site version 13 from 328bafe, access still owner-only).
+- Files: app/index.html, README.md, HANDOFF.md
+- Tests: all 8 tests/*.spec.cjs passed twice.
+- Local preview: header checked at 1440 light/dark and 390 light/dark (logo 120×56 / 104×48, rgb(232,29,29) / white), side panel at 1440/1280/1024, no sideways scroll.
+- Claude Artifact: to be republished from this commit.
+- Private Site: version 13 from 328bafe; behind main by this app change.
+- Practice data: not re-exported (no change).
+- Remaining issues: the rest of the palette and fonts still differ from the guideline (accent #e0322f, navy buttons, Poppins/Roboto Condensed vs Montserrat, Almond #F8EEE1); left for the owner to decide.
+- Next steps: Codex runs "git pull" and publishes.
+
 ## 2026-10-23: Codex — owner admin configured; private Site version 13, access remains owner-only
 - Changes: synced eight Claude Code commits 8643727..328bafe and ran scripts/incoming.mjs Codex. Reviewed the practice/accounts changes and handoff; private Site /api and window.claude paths retained. Configured ADMIN_EMAILS as a secret runtime setting (environment revision 1), without storing its value or the owner identity in this public repository. No application-source edits were needed.
 - Files: HANDOFF.md only. Local catalog comparison and screenshot artifacts remain outside tracked source or ignored.
