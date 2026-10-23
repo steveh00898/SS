@@ -7,7 +7,7 @@ Newest entry first. Each agent adds one entry per completed task (format in AGEN
 - Files: app/index.html, README.md, HANDOFF.md
 - Tests: all 8 tests/*.spec.cjs passed twice.
 - Local preview: header checked at 1440 light/dark and 390 light/dark (logo 120×56 / 104×48, rgb(232,29,29) / white), side panel at 1440/1280/1024, no sideways scroll.
-- Claude Artifact: to be republished from this commit.
+- Claude Artifact: published version 16 from 289d08a.
 - Private Site: version 13 from 328bafe; behind main by this app change.
 - Practice data: not re-exported (no change).
 - Remaining issues: the rest of the palette and fonts still differ from the guideline (accent #e0322f, navy buttons, Poppins/Roboto Condensed vs Montserrat, Almond #F8EEE1); left for the owner to decide.
