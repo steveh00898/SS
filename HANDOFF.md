@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Claude Code — full Sunny logo lockup (with "Health & Fitness") on an Almond header
+- Changes: owner asked for the actual red logo with "Health & Fitness" under it, and allowed changing the header background to suit. The header now shows the full lockup from the guideline PDF (page 8 vector: six Sunny Red #E81D1D paths plus the fourteen "HEALTH & FITNESS" paths in the guideline's #241F21), at 250px wide, the guideline's minimum for the lockup, with clear space of about one dot diameter (19px). The header background is Almond #F8EEE1 in both light and dark mode (the full-color logo is allowed only on white, almond or black), with light search-box colours there; the white dark-mode logo is gone. The header is 171px tall on desktop, so it no longer sticks to the top; the side panel now sticks at 16px and the table box is `100vh - 110px`. On phones "Product Finder" goes under the logo.
+- Files: app/index.html, README.md, HANDOFF.md
+- Tests: all 8 tests/*.spec.cjs passed twice.
+- Local preview: checked at 1440 light/dark, 1280, 1024 and 390 (no sideways scroll).
+- Claude Artifact: to be republished from this commit.
+- Private Site: version 13 from 328bafe; behind main (two logo commits).
+- Practice data: not re-exported (no change).
+- Remaining issues: rest of the palette and fonts still differ from the guideline (owner to decide).
+- Next steps: Codex runs "git pull" and publishes.
+
 ## 2026-10-23: Claude Code — Sunny logo per Brand Guidelines 2026
 - Changes: owner shared Sunny_BrandGuidelines_2026_1_1.pdf (not committed). The header logo was re-typed text ("SUNNY" in Poppins, #d7262e, tiny red tagline), which the guideline forbids. Replaced it with the real vector "SUNNY" wordmark extracted from the PDF's master lockup (page 8, `pdftocairo -svg`, the six Sunny Red paths only, no tracing), inline SVG with `fill: currentColor`. Following the guideline: no "Health & Fitness" (the full lockup needs 250px+), 120px wide on desktop and 104px on phones (minimum 100px), fixed aspect ratio, clear space of about one dot diameter (9px), Sunny Red #E81D1D on the light header (new `--logo` token), solid white on the dark header. The favicon is now the red 'S' badge from page 10 (red circle, white 'S'). The header is about 10px taller, so the sticky side panel and table heights moved down to match. Reviewed Codex's b0bced1 (HANDOFF only: admin configured as a secret, Site version 13 from 328bafe, access still owner-only).
 - Files: app/index.html, README.md, HANDOFF.md

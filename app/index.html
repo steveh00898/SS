@@ -8,10 +8,9 @@
   --fg: #111111;
   --muted: #5d5d63;
   --line: #e4e4e7;
-  --header: #f7f7f7;
+  --header: #F8EEE1; /* Almond: the full-color lockup is only allowed on white, almond or black */
   --hero: #faf5f1;
   --brand: #d7262e;
-  --logo: #E81D1D;
   --accent: #e0322f;
   --accent-soft: #fdecec;
   --navy: #1c2541;
@@ -27,14 +26,14 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #121214; --surface: #1a1a1d; --surface-2: #232327; --fg: #f2f2f3; --muted: #a3a3aa; --line: #303035;
-    --header: #1a1a1d; --logo: #ffffff; --hero: #221d1a; --brand: #ff4b4f; --accent: #ff5a55; --accent-soft: #3a1c1d; --navy: #e8ebf5; --navy-ink: #111522;
+    --hero: #221d1a; --brand: #ff4b4f; --accent: #ff5a55; --accent-soft: #3a1c1d; --navy: #e8ebf5; --navy-ink: #111522;
     --danger: #ff6b5f; --flash: #4a3f12; --shadow: 0 10px 30px rgba(0,0,0,.5);
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #121214; --surface: #1a1a1d; --surface-2: #232327; --fg: #f2f2f3; --muted: #a3a3aa; --line: #303035;
-  --header: #1a1a1d; --logo: #ffffff; --hero: #221d1a; --brand: #ff4b4f; --accent: #ff5a55; --accent-soft: #3a1c1d; --navy: #e8ebf5; --navy-ink: #111522;
+  --hero: #221d1a; --brand: #ff4b4f; --accent: #ff5a55; --accent-soft: #3a1c1d; --navy: #e8ebf5; --navy-ink: #111522;
   --danger: #ff6b5f; --flash: #4a3f12; --shadow: 0 10px 30px rgba(0,0,0,.5);
   color-scheme: dark;
 }
@@ -46,15 +45,19 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .wrap { max-width: 1180px; margin: 0 auto; padding-inline: 16px; }
 
 /* Header */
-.top { background: var(--header); color: var(--fg); border-bottom: 1px solid var(--line); position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; }
-.top .wrap { display: flex; align-items: center; gap: 20px; padding-block: 10px; flex-wrap: wrap; }
+.top { background: var(--header); color: #000; border-bottom: 1px solid #e8dccb; position: relative; z-index: 20; color-scheme: light; }
+.top .wrap { display: flex; align-items: center; gap: 24px; padding-block: 8px; flex-wrap: wrap; }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; flex: none; }
-/* Sunny logo from Brand Guidelines 2026 (vector from the guideline PDF): "SUNNY" without the tagline, because the full
-   lockup needs 250px+; never under 100px wide, never stretched; clear space of one dot diameter (~9px); Sunny Red #E81D1D,
-   solid white on the dark header. */
-.brand .logo { display: block; width: 120px; height: auto; aspect-ratio: 690.55 / 320.82; color: var(--logo); margin: 9px 9px 9px 0; flex: none; }
-@media (max-width: 560px) { .brand .logo { width: 104px; } }
-.brand em { font-style: normal; font-size: 13px; font-weight: 500; color: var(--muted); padding-left: 12px; margin-left: 0; border-left: 1px solid var(--line); }
+/* Sunny logo lockup from Brand Guidelines 2026 (vector from the guideline PDF): Sunny Red #E81D1D with "HEALTH & FITNESS",
+   at the 250px minimum width for the lockup, never stretched, clear space of one dot diameter (~19px), on the Almond header. */
+.brand .logo { display: block; width: 250px; height: auto; aspect-ratio: 690.55 / 320.82; margin: 19px 19px 19px 0; flex: none; }
+.brand em { font-style: normal; font-size: 14px; font-weight: 500; color: #3a3a3a; padding-left: 14px; border-left: 1px solid #d8c9b4; }
+@media (max-width: 560px) { .brand { flex-wrap: wrap; flex: 1 1 100%; min-width: 0; } .brand .logo { margin-bottom: 4px; } .brand em { border-left: 0; padding-left: 0; flex-basis: 100%; } }
+/* the header stays light in dark mode too, so its search box keeps light colors */
+.top .search input { background: #fff; color: #111; border-color: #e3d6c3; }
+.top .search input:focus { border-color: #E81D1D; }
+.top .search .icon, .top .search .clear { color: #5d5d63; }
+.top .search .clear:hover { background: #f4ece0; }
 .search { position: relative; flex: 1 1 360px; min-width: 0; }
 .search input { width: 100%; height: 44px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--surface); color: var(--fg);
   padding: 0 46px 0 44px; font-size: 16px; }
@@ -271,7 +274,7 @@ body.spec-view th.column-hidden,td.column-hidden{min-width:32px!important;width:
 .pane{min-width:0}
 @media(min-width:1100px){
   .wrap.layout{max-width:1680px;display:grid;grid-template-columns:260px minmax(0,1fr);gap:24px;align-items:start;padding-top:20px}
-  .side{position:sticky;top:110px;max-height:calc(100vh - 126px);overflow-y:auto;background:var(--hero);border:1px solid var(--line);border-radius:10px;padding:16px;scrollbar-width:thin}
+  .side{position:sticky;top:16px;max-height:calc(100vh - 32px);overflow-y:auto;background:var(--hero);border:1px solid var(--line);border-radius:10px;padding:16px;scrollbar-width:thin}
   .side .hero{background:none;box-shadow:none;clip-path:none;padding:0;margin:0 0 14px}
   .side .views{display:flex;flex-direction:column;align-items:stretch;border-radius:10px;margin-bottom:16px}
   .side .views button{text-align:left;border-radius:7px}
@@ -284,7 +287,7 @@ body.spec-view th.column-hidden,td.column-hidden{min-width:32px!important;width:
   .side .tab{display:flex;justify-content:space-between;align-items:center;margin:0;padding:8px 10px;border-bottom:0;border-left:3px solid transparent;border-radius:0 6px 6px 0;text-align:left}
   .side .tab[aria-selected="true"]{border-left-color:var(--accent);background:var(--surface)}
   .side .tab span{background:var(--surface-2)}
-  .tablebox{max-height:calc(100vh - 170px)}
+  .tablebox{max-height:calc(100vh - 110px)}
   .top .wrap{max-width:1680px}
 }
 /* SKU practice: view switcher, setup, study cards, quiz table and progress dashboard */
@@ -391,7 +394,7 @@ body.spec-view table.ptable{min-width:0}
 </head><body><header class="top">
   <div class="wrap">
     <a class="brand" href="https://sunnyhealthfitness.com/" target="_blank" rel="noopener" aria-label="Sunny Health and Fitness website">
-      <svg class="logo" viewBox="0 0 690.55 320.82" role="img" aria-label="Sunny"><path fill="currentColor" d="M 4.32 320.82 C 1.05 317.02 0 313.77 0.88 309.59 C 18.49 302.75 34.49 292.89 48.62 280.06 C 57.01 272.44 64.7 264.22 71.26 254.95 C 85.66 234.58 84.88 222.5 68.23 203.8 C 56.37 190.46 42.51 178.92 32.58 163.84 C 12.89 133.95 22.23 97.91 53.57 80.26 C 78.63 66.14 105.5 56.83 132.77 48.38 C 144.22 44.82 152.75 49.18 156.15 59.5 C 160.44 72.51 156.36 82.92 144.97 86.72 C 126.05 93.02 106.55 97.5 87.94 104.75 C 81.39 107.29 74.94 110.15 69.25 114.28 C 50.42 127.95 49.78 145.51 66.81 162.86 C 80.12 176.43 96.18 186.64 110.42 199.06 C 132.53 218.34 133.53 238.29 112.98 259.65 C 92.02 281.43 66 295.48 38.57 307.26 C 27.29 312.11 15.74 316.32 4.32 320.82M 312.31 260.76 L 285.86 260.76 L 285.86 119.26 L 313.02 119.26 L 377.95 211.36 C 377.95 211.36 377.16 211.83 377.95 211.36 L 377.95 119.25 L 405.04 119.25 L 405.04 260.68 L 377.83 260.68 L 312.34 169.91Z M 312.31 260.76M 638.46 261.03 C 629.98 261.03 622.23 261.04 614.48 261.02 C 613.64 261.02 612.81 260.84 611.18 260.66 C 611.18 245.04 610.94 229.5 611.3 213.96 C 611.44 207.82 609.72 202.77 606.55 197.62 C 591 172.32 575.71 146.84 560.34 121.43 C 559.98 120.84 559.71 120.21 559.2 119.2 L 590.8 119.2 C 601.85 138.49 613 157.97 624.77 178.53 C 636.46 158.11 647.55 138.74 658.74 119.18 L 690.55 119.18 C 681.64 133.94 672.97 148.31 664.29 162.66 C 656.09 176.22 647.91 189.79 639.62 203.29 C 638.46 205.16 638.47 207.05 638.47 209.03 C 638.46 226.16 638.46 243.28 638.46 261.03M 96.96 22.7 C 97.01 35.58 87.04 45.58 74.15 45.58 C 61.34 45.58 51.3 35.61 51.14 22.74 C 50.99 10.56 61.54 0 73.85 0.02 C 86.8 0.03 96.91 9.95 96.96 22.7M 265.38 120.13 C 265.38 119.9 265.11 119.68 264.81 119.23 L 238.17 119.23 C 238.17 121.14 238.17 122.7 238.17 124.27 C 238.15 153.43 238.32 182.6 238.02 211.77 C 237.86 227.61 231.53 234.77 215.91 237.25 C 210.01 238.18 203.88 237.77 197.86 237.97 C 196.67 237.87 195.48 237.77 194.3 237.66 C 189.63 236.86 185.11 235.69 180.96 233.34 C 180.53 233.04 180.1 232.73 179.67 232.43 C 174.07 227.42 171.69 220.86 171.62 213.69 C 171.34 184.52 171.32 155.36 171.21 126.2 C 171.21 123.95 171.21 121.71 171.21 119.25 L 144.24 119.25 C 144.24 152.22 143.61 184.82 144.47 217.37 C 145.01 237.61 155.55 252.27 175.38 258.89 C 191.25 264.19 207.7 264.37 223.98 261.4 C 250.43 256.57 264.19 242.04 265.13 215.32 C 266.25 183.63 265.4 151.86 265.38 120.13M 453.04 260.76 L 426.59 260.76 L 426.59 119.26 L 453.75 119.26 L 518.68 211.36 C 518.68 211.36 517.89 211.83 518.68 211.36 L 518.68 119.25 L 545.78 119.25 L 545.78 260.68 L 518.57 260.68 L 453.07 169.91Z M 453.04 260.76"/></svg><em>Product Finder</em>
+      <svg class="logo" viewBox="0 0 690.55 320.82" role="img" aria-label="Sunny Health &amp; Fitness"><path fill="#E81D1D" d="M 4.32 320.82 C 1.05 317.02 0 313.77 0.88 309.59 C 18.49 302.75 34.49 292.89 48.62 280.06 C 57.01 272.44 64.7 264.22 71.26 254.95 C 85.66 234.58 84.88 222.5 68.23 203.8 C 56.37 190.46 42.51 178.92 32.58 163.84 C 12.89 133.95 22.23 97.91 53.57 80.26 C 78.63 66.14 105.5 56.83 132.77 48.38 C 144.22 44.82 152.75 49.18 156.15 59.5 C 160.44 72.51 156.36 82.92 144.97 86.72 C 126.05 93.02 106.55 97.5 87.94 104.75 C 81.39 107.29 74.94 110.15 69.25 114.28 C 50.42 127.95 49.78 145.51 66.81 162.86 C 80.12 176.43 96.18 186.64 110.42 199.06 C 132.53 218.34 133.53 238.29 112.98 259.65 C 92.02 281.43 66 295.48 38.57 307.26 C 27.29 312.11 15.74 316.32 4.32 320.82M 312.31 260.76 L 285.86 260.76 L 285.86 119.26 L 313.02 119.26 L 377.95 211.36 C 377.95 211.36 377.16 211.83 377.95 211.36 L 377.95 119.25 L 405.04 119.25 L 405.04 260.68 L 377.83 260.68 L 312.34 169.91 Z M 312.31 260.76M 638.46 261.03 C 629.98 261.03 622.23 261.04 614.48 261.02 C 613.64 261.02 612.81 260.84 611.18 260.66 C 611.18 245.04 610.94 229.5 611.3 213.96 C 611.44 207.82 609.72 202.77 606.55 197.62 C 591 172.32 575.71 146.84 560.34 121.43 C 559.98 120.84 559.71 120.21 559.2 119.2 L 590.8 119.2 C 601.85 138.49 613 157.97 624.77 178.53 C 636.46 158.11 647.55 138.74 658.74 119.18 L 690.55 119.18 C 681.64 133.94 672.97 148.31 664.29 162.66 C 656.09 176.22 647.91 189.79 639.62 203.29 C 638.46 205.16 638.47 207.05 638.47 209.03 C 638.46 226.16 638.46 243.28 638.46 261.03M 96.96 22.7 C 97.01 35.58 87.04 45.58 74.15 45.58 C 61.34 45.58 51.3 35.61 51.14 22.74 C 50.99 10.56 61.54 0 73.85 0.02 C 86.8 0.03 96.91 9.95 96.96 22.7M 265.38 120.13 C 265.38 119.9 265.11 119.68 264.81 119.23 L 238.17 119.23 C 238.17 121.14 238.17 122.7 238.17 124.27 C 238.15 153.43 238.32 182.6 238.02 211.77 C 237.86 227.61 231.53 234.77 215.91 237.25 C 210.01 238.18 203.88 237.77 197.86 237.97 C 196.67 237.87 195.48 237.77 194.3 237.66 C 189.63 236.86 185.11 235.69 180.96 233.34 C 180.53 233.04 180.1 232.73 179.67 232.43 C 174.07 227.42 171.69 220.86 171.62 213.69 C 171.34 184.52 171.32 155.36 171.21 126.2 C 171.21 123.95 171.21 121.71 171.21 119.25 L 144.24 119.25 C 144.24 152.22 143.61 184.82 144.47 217.37 C 145.01 237.61 155.55 252.27 175.38 258.89 C 191.25 264.19 207.7 264.37 223.98 261.4 C 250.43 256.57 264.19 242.04 265.13 215.32 C 266.25 183.63 265.4 151.86 265.38 120.13M 453.04 260.76 L 426.59 260.76 L 426.59 119.26 L 453.75 119.26 L 518.68 211.36 C 518.68 211.36 517.89 211.83 518.68 211.36 L 518.68 119.25 L 545.78 119.25 L 545.78 260.68 L 518.57 260.68 L 453.07 169.91 Z M 453.04 260.76"/><path fill="#241F21" d="M 181.5 276.54 L 181.5 299.79 L 177.16 299.79 L 177.16 289.82 L 165.08 289.82 L 165.08 299.79 L 160.75 299.79 L 160.75 276.54 L 165.08 276.54 L 165.08 286.13 L 177.16 286.13 L 177.16 276.54 Z M 181.5 276.54M 215.93 296.16 L 215.93 299.79 L 198.41 299.79 L 198.41 276.54 L 215.46 276.54 L 215.46 280.16 L 202.75 280.16 L 202.75 286.2 L 214.02 286.2 L 214.02 289.75 L 202.75 289.75 L 202.75 296.16 Z M 215.93 296.16M 246.55 294.4 L 234.87 294.4 L 232.57 299.79 L 228.1 299.79 L 238.61 276.54 L 242.88 276.54 L 253.42 299.79 L 248.89 299.79 Z M 245.11 291.02 L 240.71 280.85 L 236.34 291.02 Z M 245.11 291.02M 267.03 276.54 L 271.37 276.54 L 271.37 296.13 L 283.58 296.13 L 283.58 299.79 L 267.03 299.79 Z M 267.03 276.54M 300.22 280.19 L 292.48 280.19 L 292.48 276.54 L 312.3 276.54 L 312.3 280.19 L 304.56 280.19 L 304.56 299.79 L 300.22 299.79 Z M 300.22 280.19M 346.96 276.54 L 346.96 299.79 L 342.62 299.79 L 342.62 289.82 L 330.55 289.82 L 330.55 299.79 L 326.21 299.79 L 326.21 276.54 L 330.55 276.54 L 330.55 286.13 L 342.62 286.13 L 342.62 276.54 Z M 346.96 276.54M 401.24 300.15 L 398.3 297.33 C 396.2 299.12 393.53 300.12 390.46 300.12 C 385.52 300.12 381.95 297.56 381.95 293.91 C 381.95 291.02 383.55 288.99 387.36 286.86 C 385.46 284.97 384.76 283.44 384.76 281.75 C 384.76 278.49 387.43 276.27 391.53 276.27 C 395.3 276.27 397.77 278.23 397.77 281.38 C 397.77 283.77 396.37 285.5 393 287.39 L 398.04 292.18 C 398.61 291.08 399.04 289.75 399.34 288.26 L 402.71 289.36 C 402.27 291.38 401.57 293.18 400.61 294.67 L 403.54 297.46 Z M 395.83 294.97 L 389.66 289.09 C 386.96 290.59 386.02 291.81 386.02 293.47 C 386.02 295.4 387.89 296.73 390.76 296.73 C 392.7 296.73 394.4 296.13 395.83 294.97 M 388.56 281.68 C 388.56 282.71 389 283.48 390.66 285.14 C 393.36 283.68 394.23 282.71 394.23 281.45 C 394.23 280.12 393.27 279.22 391.53 279.22 C 389.66 279.22 388.56 280.25 388.56 281.68M 442.1 280.16 L 442.1 287.23 L 453.38 287.23 L 453.38 290.88 L 442.1 290.88 L 442.1 299.79 L 437.77 299.79 L 437.77 276.54 L 454.82 276.54 L 454.82 280.16 Z M 442.1 280.16M 469.66 276.54 L 473.99 276.54 L 473.99 299.79 L 469.66 299.79 Z M 469.66 276.54M 495.68 280.19 L 487.94 280.19 L 487.94 276.54 L 507.76 276.54 L 507.76 280.19 L 500.02 280.19 L 500.02 299.79 L 495.68 299.79 Z M 495.68 280.19M 542.42 276.54 L 542.42 299.79 L 538.85 299.79 L 525.97 284.04 L 525.97 299.79 L 521.66 299.79 L 521.66 276.54 L 525.23 276.54 L 538.11 292.28 L 538.11 276.54 Z M 542.42 276.54M 576.84 296.16 L 576.84 299.79 L 559.33 299.79 L 559.33 276.54 L 576.38 276.54 L 576.38 280.16 L 563.66 280.16 L 563.66 286.2 L 574.94 286.2 L 574.94 289.75 L 563.66 289.75 L 563.66 296.16 Z M 576.84 296.16M 590.35 297.33 L 591.85 293.97 C 593.72 295.46 596.69 296.53 599.56 296.53 C 603.2 296.53 604.73 295.23 604.73 293.51 C 604.73 288.49 590.85 291.78 590.85 283.14 C 590.85 279.39 593.86 276.2 600.26 276.2 C 603.07 276.2 606 276.93 608.04 278.26 L 606.67 281.62 C 604.57 280.39 602.26 279.79 600.23 279.79 C 596.62 279.79 595.16 281.18 595.16 282.95 C 595.16 287.89 609 284.67 609 293.21 C 609 296.93 605.97 300.12 599.56 300.12 C 595.92 300.12 592.29 298.99 590.35 297.33M 621.98 297.33 L 623.48 293.97 C 625.35 295.46 628.32 296.53 631.19 296.53 C 634.82 296.53 636.36 295.23 636.36 293.51 C 636.36 288.49 622.48 291.78 622.48 283.14 C 622.48 279.39 625.48 276.2 631.89 276.2 C 634.69 276.2 637.62 276.93 639.66 278.26 L 638.29 281.62 C 636.19 280.39 633.89 279.79 631.85 279.79 C 628.25 279.79 626.78 281.18 626.78 282.95 C 626.78 287.89 640.63 284.67 640.63 293.21 C 640.63 296.93 637.59 300.12 631.19 300.12 C 627.55 300.12 623.91 298.99 621.98 297.33"/></svg><em>Product Finder</em>
     </a>
     <div class="search" role="combobox" aria-haspopup="listbox" aria-owns="suggest">
       <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
