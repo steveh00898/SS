@@ -7,7 +7,7 @@ Newest entry first. Each agent adds one entry per completed task (format in AGEN
 - Files: app/index.html, README.md, HANDOFF.md
 - Tests: all 8 tests/*.spec.cjs passed twice.
 - Local preview: checked at 1440 light/dark, 1280, 1024, 390 (no sideways scroll).
-- Claude Artifact: to be republished from this commit.
+- Claude Artifact: published version 18 from 9a26cec.
 - Private Site: version 13 from 328bafe; behind main (logo commits).
 - Practice data: not re-exported (no change).
 - Remaining issues: none new.
