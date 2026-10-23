@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Codex — treadmill manuals published as private Site version 19
+- Changes: published SKU product links and 22 exact treadmill Preview Now PDF links, with manual column after Price and muted mobile manual links.
+- Files: HANDOFF.md only.
+- Tests: all eight suites, added manual assertions, 22 PDF HTTP checks, screenshots and Worker build passed.
+- Local preview: desktop/phone treadmill captures inspected.
+- Claude Artifact: behind b979721; Claude must sync and publish app/index.html.
+- Private Site: version 19 from exact main SHA b979721245057108925b4fe065c6a76d53c305e8; deployment appgdep_6adbdfc280308191af934964db9d2578 succeeded. Owner-only access/admin settings unchanged.
+- Practice data: not exported (public-repo permission pending).
+- Remaining issues: SF-T722576 not listed in official manual directory; other categories not researched per scope.
+- Next steps: owner reviews treadmills, then decides whether to add other categories. Documentation follow-up leaves app identical to deployed SHA.
 ## 2026-10-23: Codex — treadmill user manuals and linked SKU text
 - Changes: removed product Link column; SKU text now opens its original product page in a new tab, copy button separate. New User Manual column defaults immediately after Price, including migration of saved column layouts; manuals are not frozen. Mobile replaces View on site with muted-grey User manual. Matched exact SKU entries from Sunny official user-manual directory to assembly-guides pages and extracted Preview Now English PDF destinations: 22/23 treadmill SKUs verified. SF-T722576 is not listed and shows Manual unavailable; no guessed substitute. Other categories display a dash until their manuals are added. Bulk product URL input moved into SKU/item cell; CSV product URLs unchanged.
 - Files: app/index.html, data/manuals/treadmills.json (source-page/PDF provenance), affected column and treadmill tests, HANDOFF.md. App embeds the map so both private Site and Claude Artifact work without a network lookup or database backfill. No catalog records/database edited.
