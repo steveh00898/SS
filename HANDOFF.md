@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Codex — compact controls published as private Site version 15
+- Changes: published compact sidebar and mobile disclosures, including follow-up 6833273 removing the full-bleed hero shadow so flyouts do not cover adjacent content. No runtime/auth/catalog changes.
+- Files: HANDOFF.md publication record.
+- Tests: all eight suites passed after final CSS correction; 14 desktop/phone captures passed and final mobile image visually inspected. Early failures exposed hover/click race, stacking interception and outdated screenshot navigation; corrected before publication, no forced clicks or assertion removals.
+- Local preview: desktop 1440px and phone 390px checked; category and tier/Compare disclosures closed initially.
+- Claude Artifact: behind by compact-control UI changes; Claude must sync and republish.
+- Private Site: version 15, exact source SHA 6833273cb7dbb7b4d4ce074f447134433129ac62; deployment appgdep_6adbbe82bc708191b81adde649cdd406 succeeded, environment revision 1 preserved, owner-only access unchanged.
+- Practice data: not exported (public repo first-export approval pending).
+- Remaining issues: none for this UI task; live learner-account check remains pending access approval.
+- Next steps: Claude syncs and updates Artifact. Documentation commit is newer than deployed source; app is identical.
 ## 2026-10-23: Codex — compact section/actions flyouts and collapsed mobile controls
 - Changes: section selector shows current view only; hover opens alternatives to the right, with click/tap and keyboard support. Catalog actions show Add New Item by default (Export CSV for read-only users), with permission-gated original actions in a right flyout. Mobile categories and tiers/Compare are collapsed by default behind separate expand buttons. Fixed flyout stacking over the table and hover/click closing race observed in initial checks.
 - Files: app/index.html, five existing UI tests, scripts/screenshots.cjs, HANDOFF.md.
