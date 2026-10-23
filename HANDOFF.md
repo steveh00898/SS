@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Codex — remaining manuals published as private Site version 21
+- Changes: published three supplied Stepper PDFs and remaining-category manual mapping; 141/156 product rows now have links.
+- Files: HANDOFF.md only.
+- Tests: all eight suites, 138 unique PDF HTTP checks, 14 desktop/phone screenshot captures and Worker build passed.
+- Local preview: screenshot flows passed; mobile manual presentation inspected.
+- Claude Artifact: behind b1836ea; Claude must sync and publish.
+- Private Site: version 21 from exact main SHA b1836eaae5811356ec23f2cdd1b4d708833d5397; deployment appgdep_6adbe41fc1d4819195635e02e5ce5c20 succeeded. Owner-only access and admin environment revision 1 retained.
+- Practice data: not exported (public-repository permission pending); existing report has zero results.
+- Remaining issues: 15 unavailable manuals listed in preceding entry; owner may supply exact PDFs.
+- Next steps: refresh private Site; Claude syncs Artifact. This documentation-only commit leaves deployed application unchanged.
 ## 2026-10-23: Codex — complete remaining category manual research
 - Changes: added owner-provided Stepper PDFs for SF-S026007, SF-S026002 and SF-S024072. Added verified exact-SKU Preview Now PDFs for Row-N-Ride (4/4), Pilates Reformers (2/2), Racks (8/8), Weight Benches (12/13), Weights (4/10), and Essentials (18/26). All categories researched: 141/156 product rows now link to 138 unique SKU PDF destinations. Missing manuals remain explicitly unavailable; no similar-model substitutions.
 - Files: app/index.html embedded map, data/manuals/steppers.json and six new provenance maps, tests/catalog-specifications.spec.cjs, HANDOFF.md. No catalog records or databases changed; both private /api and window.claude runtime paths retained.
