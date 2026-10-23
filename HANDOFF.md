@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Codex — assembly guides published as private Site version 23
+- Changes: published combined User Manual/Assembly Guide column and 18 treadmill video links, with five unavailable notices.
+- Files: HANDOFF.md only.
+- Tests: all eight suites, 18 YouTube oEmbed HTTP 200 checks, 14 screenshot captures and Worker build passed. Desktop/mobile guide presentation inspected.
+- Local preview: checked.
+- Claude Artifact: behind 6946d68; Claude must sync and publish.
+- Private Site: version 23 from exact main SHA 6946d68e62bce0b277c727c8b0a7415aed5aa8b4; deployment appgdep_6adbe8a5d8648191b20b5352b122cf19 succeeded. Owner-only access and admin environment revision 1 retained.
+- Practice data: not exported (public-repository permission pending); existing report has zero results.
+- Remaining issues: five treadmill pages lack assembly videos, listed in preceding entry. Other categories' videos not researched.
+- Next steps: refresh private Site; Claude syncs Artifact. Documentation follow-up leaves deployed application unchanged.
 ## 2026-10-23: Codex — treadmill assembly guide links below manuals
 - Changes: renamed manual column to User Manual/Assembly Guide and stacked muted Assembly guide links below User manual on desktop/mobile. Extracted 18 exact treadmill video links from official Sunny assembly sections; some official embedded videos are titled unboxing videos. Five pages have no video: SF-T723030, SF-T724064, SF-T723007, SF-X7210, SF-T722576; these show Assembly guide unavailable. Other categories retain manuals only until requested.
 - Files: app/index.html, data/manuals/treadmills.json (video/page provenance), tests/treadmill-specifications.spec.cjs, HANDOFF.md. Existing manual PDFs, product links, frozen columns, /api and window.claude runtime paths retained; no catalog/database changes.
