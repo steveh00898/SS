@@ -390,6 +390,22 @@ body.spec-view table.ptable{min-width:0}
 .pv-tools select{width:auto}
 .pv-tools .btn{height:38px;padding:0 14px;font-size:13px}
 .confirm{background:var(--accent-soft);border-radius:8px;padding:12px 14px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:16px}
+/* Compact controls preserve the original permission-gated buttons. */
+.compact-picker{position:relative;margin-bottom:12px;max-width:100%;z-index:20}
+.picker-trigger{display:flex;justify-content:space-between;align-items:center;gap:12px;width:100%;min-height:44px;padding:10px 14px;background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:8px;font:inherit;font-weight:600;cursor:pointer}
+.compact-picker>.views,.compact-picker>.actions{display:none!important;position:absolute;left:100%;top:0;min-width:190px;margin:0!important;padding:6px;background:var(--surface);border:1px solid var(--line);border-radius:8px;box-shadow:0 8px 24px #0002;flex-direction:column;gap:4px;z-index:30}
+.compact-picker.open>.views,.compact-picker.open>.actions{display:flex!important}
+.compact-picker .views button,.compact-picker .actions button{width:100%;text-align:left;min-height:40px;white-space:nowrap}
+.side{overflow:visible;z-index:25;position:relative}.side .hero{clip-path:none}.pane{position:relative;z-index:0}
+.mobile-expand{display:none}
+@media(min-width:1100px){.side{position:sticky}}
+@media(max-width:720px){
+ .compact-picker{width:180px}
+ .compact-picker>.views,.compact-picker>.actions{min-width:160px;width:160px}
+ .mobile-expand{display:flex;align-items:center;justify-content:space-between;width:100%;background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:7px;padding:10px 12px;margin:8px 0;font:inherit;font-size:14px;cursor:pointer}
+ #tabs:not(.expanded),#specLegend:not(.expanded){display:none!important}
+ .hero .sub{font-size:13px}
+}
 </style>
 
 </head><body><header class="top">
@@ -409,20 +425,20 @@ body.spec-view table.ptable{min-width:0}
 <main class="wrap layout">
   <aside class="side" aria-label="Sections and categories">
   <section class="hero"><div class="inner">
-    <nav class="views" id="views" aria-label="Sections"><button type="button" data-view="catalog" aria-pressed="true">Catalog</button><button type="button" data-view="practice" aria-pressed="false">SKU Practice</button><button type="button" data-view="progress" aria-pressed="false">Progress</button><button type="button" data-view="accounts" aria-pressed="false" hidden>Accounts</button></nav>
+    <div class="compact-picker" id="sectionPicker"><button type="button" class="picker-trigger" aria-expanded="false" aria-controls="views" id="sectionTrigger">Catalog <span aria-hidden="true">›</span></button><nav class="views" id="views" aria-label="Sections"><button type="button" data-view="catalog" aria-pressed="true">Catalog</button><button type="button" data-view="practice" aria-pressed="false">SKU Practice</button><button type="button" data-view="progress" aria-pressed="false">Progress</button><button type="button" data-view="accounts" aria-pressed="false" hidden>Accounts</button></nav>
     <div class="head">
     <div>
       <h1 id="title">Product Catalog</h1>
       <p class="sub" id="sub">Loading the catalog…</p>
     </div>
-    <div class="actions catalog-only">
+    <div class="compact-picker catalog-only" id="actionPicker"><button type="button" class="picker-trigger" aria-expanded="false" aria-controls="catalogActions" id="actionTrigger">+ Add New Item <span aria-hidden="true">›</span></button><div class="actions" id="catalogActions">
       <button class="btn" id="exportBtn" type="button">Export CSV</button>
       <button class="btn" id="bulkBtn" type="button" hidden>Bulk Edit</button>
       <button class="btn primary" id="addBtn" type="button" hidden>+ Add New Item</button>
     </div>
     </div>
   </div></section>
-  <nav class="tabs catalog-only" id="tabs" role="tablist" aria-label="Categories"></nav>
+  <button class="mobile-expand catalog-only" id="categoryExpand" type="button" aria-expanded="false" aria-controls="tabs">Categories <span aria-hidden="true">⌄</span></button><nav class="tabs catalog-only" id="tabs" role="tablist" aria-label="Categories"></nav>
   </aside>
   <div class="pane">
   <div class="banner" id="banner" hidden></div>
@@ -430,7 +446,7 @@ body.spec-view table.ptable{min-width:0}
   <section class="progress" id="progressView" hidden></section>
   <section class="accounts" id="accountsView" hidden></section>
   <input id="practiceImport" type="file" accept=".json,application/json" hidden>
-  <div class="spec-legend catalog-only" id="specLegend" hidden aria-label="Specification highlights"><span><i class="spec-key high" aria-hidden="true"></i>Highest tier</span><span><i class="spec-key" aria-hidden="true"></i>Mid tier / unranked</span><span><i class="spec-key low" aria-hidden="true"></i>Lowest tier</span><label class="compare-toggle"><input type="checkbox" id="compareToggle"> Compare</label><span id="compareStatus" hidden aria-live="polite"></span><button class="btn primary" id="compareConfirm" type="button" hidden>Confirm comparison</button><button class="column-reset" id="defaultColumnOrder" type="button" title="Restore the original column order">Default columns order</button><details><summary>How tiers are compared</summary><p>Each numeric specification is compared independently within its product category, using the full saved catalog. Resistance levels and motorized speed levels are compared separately. Numeric tiers use distinct advertised values: the upper third is green, the lower third is grey, and the middle is unchanged. Fewer than three distinct values remain unranked. Search, sorting and comparison do not change the colors.</p><p>Treadmill incline tiers compare adjustability: incline + decline is highest, automatic incline is mid, and fixed or manually adjusted incline is lowest. Other motion systems and user-powered speed/drive are unranked. Quoted motor HP is not a standardized continuous-duty rating.</p><p>Elliptical numeric stride lengths are ranked within Ellipticals. Resistance technologies and descriptive rower motion labels stay unranked because they are not directly comparable performance measures.</p><p>Dimensions are copied from your master portfolio. Only treadmill workout dimensions split into length × width; overall or folded elliptical and rower dimensions are not workout-pad dimensions. “-” means information has not been provided. Green indicates a higher specification band, not an overall product recommendation.</p></details></div><div class="tablebox catalog-only">
+  <button class="mobile-expand catalog-only" id="toolsExpand" type="button" aria-expanded="false" aria-controls="specLegend">Tiers &amp; Compare <span aria-hidden="true">⌄</span></button><div class="spec-legend catalog-only" id="specLegend" hidden aria-label="Specification highlights"><span><i class="spec-key high" aria-hidden="true"></i>Highest tier</span><span><i class="spec-key" aria-hidden="true"></i>Mid tier / unranked</span><span><i class="spec-key low" aria-hidden="true"></i>Lowest tier</span><label class="compare-toggle"><input type="checkbox" id="compareToggle"> Compare</label><span id="compareStatus" hidden aria-live="polite"></span><button class="btn primary" id="compareConfirm" type="button" hidden>Confirm comparison</button><button class="column-reset" id="defaultColumnOrder" type="button" title="Restore the original column order">Default columns order</button><details><summary>How tiers are compared</summary><p>Each numeric specification is compared independently within its product category, using the full saved catalog. Resistance levels and motorized speed levels are compared separately. Numeric tiers use distinct advertised values: the upper third is green, the lower third is grey, and the middle is unchanged. Fewer than three distinct values remain unranked. Search, sorting and comparison do not change the colors.</p><p>Treadmill incline tiers compare adjustability: incline + decline is highest, automatic incline is mid, and fixed or manually adjusted incline is lowest. Other motion systems and user-powered speed/drive are unranked. Quoted motor HP is not a standardized continuous-duty rating.</p><p>Elliptical numeric stride lengths are ranked within Ellipticals. Resistance technologies and descriptive rower motion labels stay unranked because they are not directly comparable performance measures.</p><p>Dimensions are copied from your master portfolio. Only treadmill workout dimensions split into length × width; overall or folded elliptical and rower dimensions are not workout-pad dimensions. “-” means information has not been provided. Green indicates a higher specification band, not an overall product recommendation.</p></details></div><div class="tablebox catalog-only">
     <table>
       <thead>
         <tr>
@@ -1132,6 +1148,18 @@ body.spec-view table.ptable{min-width:0}
   }
   const itemRecord = (it, extra = {}) => ({ productSpecs: it.productSpecs || null, treadmillSpecs: it.treadmillSpecs || null, name: it.name, sku: it.sku, category: it.category, price: it.price, priceChecked: !!it.priceChecked, url: it.url, imageUrl: it.imageUrl, imageAssetId: it.imageAssetId, photoChecked: it.photoChecked === true, photoMasks: it.photoMasks || null, createdAt: it.createdAt || new Date().toISOString(), updatedAt: new Date().toISOString(), ...extra });
 
+  function closePickers(){document.querySelectorAll('.compact-picker').forEach(p=>{p.classList.remove('open');p.querySelector('.picker-trigger').setAttribute('aria-expanded','false')})}
+  document.querySelectorAll('.compact-picker').forEach(p=>{
+    const trigger=p.querySelector('.picker-trigger');const show=()=>{closePickers();p.classList.add('open');trigger.setAttribute('aria-expanded','true')};
+    p.addEventListener('mouseenter',()=>{if(matchMedia('(hover:hover)').matches)show()});p.addEventListener('mouseleave',()=>{if(!p.contains(document.activeElement))closePickers()});
+    trigger.addEventListener('click',()=>{if(p.classList.contains('open')&&!matchMedia('(hover:hover)').matches)closePickers();else show()});
+    trigger.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='ArrowDown'){e.preventDefault();show();p.querySelector('nav button:not([hidden]),.actions button:not([hidden])')?.focus()}});
+    p.addEventListener('click',e=>{if(e.target.closest('nav button,.actions button'))closePickers()});
+  });
+  document.addEventListener('click',e=>{if(!e.target.closest('.compact-picker'))closePickers()});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')closePickers()});
+  document.addEventListener('focusin',e=>{if(!e.target.closest('.compact-picker'))closePickers()});
+  for(const [button,target] of [['categoryExpand','tabs'],['toolsExpand','specLegend']]) $('#'+button).addEventListener('click',()=>{const open=$('#'+target).classList.toggle('expanded');$('#'+button).setAttribute('aria-expanded',String(open))});
   // ----- rendering -----
   function setView(v) {
     if (v === pr.view) return;
@@ -1144,6 +1172,8 @@ body.spec-view table.ptable{min-width:0}
   const saveLine = () => !pr.loaded ? "Loading your saved results…" : pr.saveNote ? pr.saveNote : pr.store ? "Your results are saved to your account." : "Results aren't saved in this view. Sign in to keep your progress.";
   function renderPractice() {
     document.body.dataset.view = pr.view;
+    $('#sectionTrigger').firstChild.textContent = ({catalog:'Catalog',practice:'SKU Practice',progress:'Progress',accounts:'Accounts'}[pr.view] || 'Catalog')+' ';
+    $('#actionTrigger').firstChild.textContent = (state.canWrite ? '+ Add New Item' : 'Export CSV')+' ';
     document.querySelectorAll("#views [data-view]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === pr.view)));
     $("#practiceView").hidden = pr.view !== "practice"; $("#progressView").hidden = pr.view !== "progress"; $("#accountsView").hidden = pr.view !== "accounts";
     if (pr.view === "practice") {

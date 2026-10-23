@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Codex — compact section/actions flyouts and collapsed mobile controls
+- Changes: section selector shows current view only; hover opens alternatives to the right, with click/tap and keyboard support. Catalog actions show Add New Item by default (Export CSV for read-only users), with permission-gated original actions in a right flyout. Mobile categories and tiers/Compare are collapsed by default behind separate expand buttons. Fixed flyout stacking over the table and hover/click closing race observed in initial checks.
+- Files: app/index.html, five existing UI tests, scripts/screenshots.cjs, HANDOFF.md.
+- Tests: all eight suites pass after fixes; updated tests open the real selectors and mobile disclosures before exercising existing assertions. Added mobile collapsed/expanded visibility assertions. Screenshots script uses section trigger and passes desktop/phone captures. No assertions removed; admin Accounts visibility is checked with its menu open.
+- Local preview: 1440px and 390px screenshots; phone categories and tier controls hidden initially. Private API and window.claude fallback unchanged.
+- Claude Artifact: not published by Codex; Claude must sync and publish this UI change.
+- Private Site: publication follows the pushed tested commit; exact version/SHA recorded afterward. Owner-only access and admin runtime settings unchanged.
+- Practice data: not exported to public repository; first-export permission pending.
+- Remaining issues: live non-admin check still awaits learner-access approval.
+- Next steps: publish private Site, record provenance; Claude syncs to update Artifact.
 ## 2026-10-23: Codex — sync Sunny logo update and publish private Site version 14
 - Changes: pulled six Claude Code commits 289d08a, 3a1b120, e341248, 84c1807, 9a26cec, bf46395; reviewed their logo/header changes against the handoff. Final header has the full Sunny Health & Fitness lockup at the owner's chosen 52px height on Almond, sticky header and side panel adjusted accordingly. Both private Site /api and window.claude fallback intact. No application-source edits by Codex.
 - Files: HANDOFF.md only (sync/publication record).
