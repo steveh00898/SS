@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Codex — mobile overlay option windows and desktop selector spacing
+- Changes: phone section/actions/category/tier controls now open a centered overlay window with close button, backdrop dismissal, Escape, focus containment and focus return. Actual permission-gated controls move into the popup and return on close; category/action/section selections and comparison confirmation dismiss it. Page scrolling is locked while open; underlying layout stays in place. Desktop flyouts retained; section selector has 20px space before title.
+- Files: app/index.html, UI tests, tests/mobile-options.cjs, HANDOFF.md.
+- Tests: all eight suites pass after adapting interactions to modal popups. Helper opens visible UI controls and dismisses popups before interacting with underlying content; assertions retained. Initial failures were obsolete inline-control expectations; updated interactions without force clicks. Repository screenshots pass desktop/phone navigation and practice flows.
+- Local preview: 1440px and 390px screenshots, popup selection/dismissal exercised by UI tests.
+- Claude Artifact: version 19 from adc19d8 per incoming Claude c4047a2 handoff; behind this UI change, Claude must sync.
+- Private Site: publication follows tested pushed commit; version/SHA recorded in follow-up. No admin or audience changes.
+- Practice data: not exported; public-repo first-export permission pending.
+- Remaining issues: live learner test still pending learner-access approval.
+- Next steps: publish private Site and record source; Claude syncs for Artifact.
 ## 2026-10-23: Claude Code — git pull: reviewed Codex's compact sidebar; Claude Artifact version 19
 - Changes: reviewed Codex commits 2fc8bbc, 48d4e4d, 6833273, adc19d8. They match their HANDOFF entries: the section switcher shows the current view with the others in a flyout (`#sectionTrigger`), catalog actions behind `#actionTrigger` ("+ Add New Item" or "Export CSV" for read-only), and on phones the categories and Tiers & Compare are collapsed behind `#categoryExpand` / `#toolsExpand`. Private Site `/api` and the `window.claude` fallback are untouched. Test edits only open the new flyouts or disclosures before the existing steps; no assertion was removed or weakened, and mobile collapsed/expanded checks were added. No code change by Claude Code.
 - Files: HANDOFF.md

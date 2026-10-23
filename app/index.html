@@ -406,6 +406,18 @@ body.spec-view table.ptable{min-width:0}
  #tabs:not(.expanded),#specLegend:not(.expanded){display:none!important}
  .hero{padding-block:16px;margin-bottom:8px}.hero .head{display:flex;flex-direction:column;align-items:stretch;gap:12px}.hero h1{font-size:24px}.hero .sub{font-size:13px}.hero .actions{margin-top:0}
 }
+#sectionPicker{margin-bottom:20px}
+.mobile-popup{position:fixed;inset:0;z-index:100;display:grid;place-items:center;background:#0007;padding:20px}
+.mobile-popup[hidden]{display:none}
+.mobile-popup-card{width:min(350px,100%);max-height:80dvh;overflow:auto;background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:14px;padding:16px;box-shadow:0 16px 48px #0004}
+.mobile-popup-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px;font-weight:600}
+.mobile-popup-head button{background:var(--surface);border:1px solid var(--line);border-radius:6px;color:var(--fg);min-width:40px;min-height:40px;font-size:22px;cursor:pointer}
+.mobile-popup-body>.views,.mobile-popup-body>.actions{display:flex!important;flex-direction:column;gap:8px;margin:0;width:100%;border-radius:8px}
+.mobile-popup-body button{min-height:44px}
+.mobile-popup-body>.tabs{display:flex!important;flex-direction:column;max-height:60dvh;overflow:auto;margin:0}
+.mobile-popup-body>.spec-legend{display:flex!important;margin:0}
+.mobile-popup-body #tabs,.mobile-popup-body #specLegend{display:flex!important}
+@media(max-width:720px){.mobile-popup-body .views button,.mobile-popup-body .actions button{width:100%;text-align:left}}
 </style>
 
 </head><body><header class="top">
@@ -1148,18 +1160,26 @@ body.spec-view table.ptable{min-width:0}
   }
   const itemRecord = (it, extra = {}) => ({ productSpecs: it.productSpecs || null, treadmillSpecs: it.treadmillSpecs || null, name: it.name, sku: it.sku, category: it.category, price: it.price, priceChecked: !!it.priceChecked, url: it.url, imageUrl: it.imageUrl, imageAssetId: it.imageAssetId, photoChecked: it.photoChecked === true, photoMasks: it.photoMasks || null, createdAt: it.createdAt || new Date().toISOString(), updatedAt: new Date().toISOString(), ...extra });
 
+  const mobilePopup=document.createElement('div');mobilePopup.className='mobile-popup';mobilePopup.hidden=true;
+  mobilePopup.innerHTML='<section class="mobile-popup-card" role="dialog" aria-modal="true" aria-labelledby="mobilePopupTitle"><div class="mobile-popup-head"><span id="mobilePopupTitle"></span><button type="button" aria-label="Close options">×</button></div><div class="mobile-popup-body"></div></section>';document.body.append(mobilePopup);
+  let popupContent=null,popupMarker=null,popupTrigger=null;
+  function closeMobilePopup(){if(!popupContent)return;popupMarker.replaceWith(popupContent);popupContent=null;mobilePopup.hidden=true;document.body.style.overflow='';popupTrigger?.setAttribute('aria-expanded','false');popupTrigger?.focus();}
+  function openMobilePopup(trigger,content,title){closeMobilePopup();closePickers();popupTrigger=trigger;popupContent=content;popupMarker=document.createComment('popup-home');content.replaceWith(popupMarker);mobilePopup.querySelector('.mobile-popup-body').append(content);mobilePopup.querySelector('#mobilePopupTitle').textContent=title;mobilePopup.hidden=false;document.body.style.overflow='hidden';trigger.setAttribute('aria-expanded','true');mobilePopup.querySelector('button').focus();}
+  mobilePopup.addEventListener('click',e=>{if(e.target===mobilePopup||e.target.closest('[aria-label="Close options"]'))closeMobilePopup();else if(e.target.closest('[data-view],[data-cat],#exportBtn,#bulkBtn,#addBtn,#compareConfirm,#defaultColumnOrder'))closeMobilePopup()});
+  mobilePopup.addEventListener('keydown',e=>{if(e.key==='Escape'){e.stopPropagation();closeMobilePopup()}if(e.key==='Tab'){const nodes=[...mobilePopup.querySelectorAll('button,input,summary,[tabindex]')].filter(n=>!n.hidden&&n.getClientRects().length);const first=nodes[0],last=nodes.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}});
+  matchMedia('(max-width:720px)').addEventListener('change',closeMobilePopup);
   function closePickers(){document.querySelectorAll('.compact-picker').forEach(p=>{p.classList.remove('open');p.querySelector('.picker-trigger').setAttribute('aria-expanded','false')})}
   document.querySelectorAll('.compact-picker').forEach(p=>{
     const trigger=p.querySelector('.picker-trigger');const show=()=>{closePickers();p.classList.add('open');trigger.setAttribute('aria-expanded','true')};
     p.addEventListener('mouseenter',()=>{if(matchMedia('(hover:hover)').matches)show()});p.addEventListener('mouseleave',()=>{if(!p.contains(document.activeElement))closePickers()});
-    trigger.addEventListener('click',()=>{if(p.classList.contains('open')&&!matchMedia('(hover:hover)').matches)closePickers();else show()});
+    trigger.addEventListener('click',()=>{if(matchMedia('(max-width:720px)').matches){openMobilePopup(trigger,p.querySelector('nav,.actions'),p.id==='sectionPicker'?'Choose section':'Catalog actions');return;}if(p.classList.contains('open')&&!matchMedia('(hover:hover)').matches)closePickers();else show()});
     trigger.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='ArrowDown'){e.preventDefault();show();p.querySelector('nav button:not([hidden]),.actions button:not([hidden])')?.focus()}});
     p.addEventListener('click',e=>{if(e.target.closest('nav button,.actions button'))closePickers()});
   });
   document.addEventListener('click',e=>{if(!e.target.closest('.compact-picker'))closePickers()});
   document.addEventListener('keydown',e=>{if(e.key==='Escape')closePickers()});
   document.addEventListener('focusin',e=>{if(!e.target.closest('.compact-picker'))closePickers()});
-  for(const [button,target] of [['categoryExpand','tabs'],['toolsExpand','specLegend']]) $('#'+button).addEventListener('click',()=>{const open=$('#'+target).classList.toggle('expanded');$('#'+button).setAttribute('aria-expanded',String(open))});
+  for(const [button,target] of [['categoryExpand','tabs'],['toolsExpand','specLegend']]) $('#'+button).addEventListener('click',()=>{openMobilePopup($('#'+button),$('#'+target),button==='categoryExpand'?'Choose category':'Tiers & Compare')});
   // ----- rendering -----
   function setView(v) {
     if (v === pr.view) return;
