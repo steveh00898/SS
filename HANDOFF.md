@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Codex — simplified catalog UI published as private Site version 17
+- Changes: published selector spacing, lighter option panels, direct compact desktop actions, mobile Add-only actions and five-field mobile product cards. Removed tier explanation. No catalog or authorization changes.
+- Files: HANDOFF.md publication record.
+- Tests: all eight suites pass; 14 screenshots and Worker build pass. Final desktop and phone catalog screenshots inspected.
+- Local preview: 1440px/390px verified; selector/title gap >=20px asserted.
+- Claude Artifact: behind 52ceff0; Claude must sync and publish (last recorded version 20).
+- Private Site: version 17 from exact pushed main SHA 52ceff06c94f1d45823d026c4740902c155cb0da; deployment appgdep_6adbd7fb6d988191aae073f6254b66b8 succeeded. Owner-only access/admin environment revision 1 unchanged.
+- Practice data: not exported (public-repo permission pending).
+- Remaining issues: none for approved UI scope.
+- Next steps: refresh Site; Claude syncs for Artifact. This follow-up documentation does not change deployed app code.
 ## 2026-10-23: Codex — spaced selector, distinct option panels, direct actions and simpler mobile cards
 - Changes: fixed missing section-selector closing wrapper, which had kept the title inside it and defeated previous spacing; now 24px padding separates selector from heading. Flyouts/popups use lighter option-panel backgrounds with border/shadow contrast. Removed How tiers are compared content. Catalog actions are individual compact desktop buttons on one row, Add New Item rightmost; phones show only Add New Item. Mobile product cards hide specification and row-action cells, retaining category, SKU/name, picture, price and link; underlying stored data and desktop specifications unchanged. Category popup list is one aligned column.
 - Files: app/index.html, affected UI tests, HANDOFF.md.
