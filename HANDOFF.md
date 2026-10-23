@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Codex — remove mobile tiers and fix sticky header layering
+- Changes: phones hide Tiers & Compare and its legend entirely. Header z-index 40 is above scrolling sidebar 10, so logo/search stays above layout content. Modal dialogs remain above the header for intentional focused interactions. Desktop unchanged.
+- Files: app/index.html, affected catalog UI tests, HANDOFF.md.
+- Tests: all eight suites pass; mobile tier absence asserted. Comparison/reset assertions retained at desktop width because those controls are intentionally no longer offered on mobile. No runtime, data, or access changes.
+- Local preview: CSS stacking and mobile visibility checked in tests; desktop/phone screenshot check follows.
+- Claude Artifact: behind this change; Claude must sync.
+- Private Site: publication follows pushed commit; version/SHA recorded afterward.
+- Practice data: not exported (public-repo permission pending).
+- Remaining issues: none for this request.
+- Next steps: publish private Site and record source.
 ## 2026-10-23: Codex — simplified catalog UI published as private Site version 17
 - Changes: published selector spacing, lighter option panels, direct compact desktop actions, mobile Add-only actions and five-field mobile product cards. Removed tier explanation. No catalog or authorization changes.
 - Files: HANDOFF.md publication record.
