@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Claude Code — quiz answer table: fixed cell sizes, colour-only feedback
+- Changes: owner reported choice text spilling out of cells and cells resizing after a click. The answer columns now share one grid (cells placed by row/column), so every row has one height across columns before and after answering; smaller choice text (14px names, 17px prices/SKUs, no mid-word breaks); removed the "✓ Correct", "✓ Answer" and "✗ Your pick" labels, so feedback is colour only (the result stays in each cell's accessible label); the help line no longer changes after answering, so nothing moves.
+- Files: app/index.html, tests/practice.spec.cjs, HANDOFF.md
+- Tests: all 8 tests/*.spec.cjs passed twice. practice.spec.cjs now also checks choice text stays inside its cell, rows have equal height across columns, cells keep size and position after answering, and no text marks.
+- Local preview: checked at 1230px (dark) and 390px.
+- Claude Artifact: to be republished from this commit.
+- Private Site: not published (Codex's job); still behind main.
+- Practice data: not re-exported (no app data change).
+- Remaining issues: same as the 2502a7e entry (owner treadmill edits only in the Artifact; public repository).
+- Next steps: Codex runs "git pull".
+
 ## 2026-10-23: Claude Code — Claude Artifact republished with SKU practice (2502a7e)
 - Changes: republished `app/index.html` from main 2502a7e to the Claude Artifact (version 12; capabilities assets, db, downloads, user carried forward). Added `photoChecked`/`photoMasks` from `data/*.json` to all 156 `items` documents with field-level updates pinned to the versions read; every picture matched `data/*.json` (same imageAssetId) and no other field was written, so the owner's app-only treadmill edits (2502a7e entry) are untouched. Exported the Artifact's practice results: none yet (`data/users/<owner>/` holds no practice documents).
 - Files: HANDOFF.md, practice-data/claude-artifact.json (new, 0 results)

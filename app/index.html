@@ -301,20 +301,20 @@ body:not([data-view="catalog"]) .catalog-only{display:none!important}
 .qinfo dd.sku,.qinfo dd.price{font-family:var(--font-num);font-size:19px;font-variant-numeric:tabular-nums}
 .hidden-val{display:inline-block;filter:blur(4px);user-select:none;color:var(--muted);letter-spacing:.1em}
 .qgrid{display:grid;grid-template-columns:repeat(var(--cols),minmax(0,1fr));border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}
-.qcol{display:flex;flex-direction:column;border-left:1px solid var(--line);min-width:0}
-.qcol:first-child{border-left:0}
+.qcol{display:contents}
+.qcol>*{grid-column:var(--c);grid-row:var(--r);min-width:0}
+.qcol:not(:first-child)>*{border-left:1px solid var(--line)}
 .qcol h3{margin:0;padding:10px 12px;font-family:var(--font-num);font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);background:var(--surface-2)}
-.qcell{flex:1;border:0;border-top:1px solid var(--line);background:var(--surface);text-align:left;padding:12px;cursor:pointer;font-size:15px;min-height:60px;display:flex;gap:10px;align-items:center;color:var(--fg);transition:background-color .15s}
+.qcell{border:0;border-top:1px solid var(--line);background:var(--surface);text-align:left;padding:10px 12px;cursor:pointer;font-size:14px;line-height:1.3;min-height:64px;display:flex;gap:10px;align-items:center;color:var(--fg);transition:background-color .15s}
 .qcell .k{flex:none;width:24px;height:24px;border-radius:50%;border:1.5px solid var(--line);display:grid;place-items:center;font-family:var(--font-num);font-size:13px;font-weight:700;color:var(--muted)}
-.qcell .v{flex:1;min-width:0;overflow-wrap:anywhere}
-.qcell .v.num{font-family:var(--font-num);font-size:18px;font-weight:700;font-variant-numeric:tabular-nums}
-.qcell .m{flex:none;font-weight:700;font-size:13px}
+.qcell .v{flex:1;min-width:0;overflow-wrap:break-word}
+.qcell .v.num{font-family:var(--font-num);font-size:17px;white-space:nowrap;font-weight:700;font-variant-numeric:tabular-nums}
 .qcell:hover:not(:disabled){background:var(--surface-2)}
 .qcell:disabled{cursor:default}
 .qcell.right{background:var(--ok-bg);color:var(--ok-fg);box-shadow:inset 4px 0 0 var(--ok-line)}
 .qcell.wrong{background:var(--bad-bg);color:var(--bad-fg);box-shadow:inset 4px 0 0 var(--bad-line)}
 .qcell.right .k,.qcell.wrong .k{border-color:currentColor;color:inherit}
-@media(max-width:720px){.qgrid{grid-template-columns:minmax(0,1fr)}.qcol{border-left:0;border-top:1px solid var(--line)}.qcol:first-child{border-top:0}}
+@media(max-width:720px){.qgrid{grid-template-columns:minmax(0,1fr)}.qcol{display:flex;flex-direction:column;border-top:1px solid var(--line)}.qcol:first-child{border-top:0}.qcol:not(:first-child)>*{border-left:0}}
 .qfeed{margin:12px 0 0;font-weight:600}
 .drawbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px;font-size:14px}
 .drawbar .btn{height:36px;padding:0 14px;font-size:13px}
@@ -1156,12 +1156,13 @@ body.spec-view table.ptable{min-width:0}
   }
   function quizHtml() {
     const q = pr.q, it = q.it, res = pr.session.results, ok = res.filter((r) => r.correct).length, hide = q.done ? [] : q.fields;
-    const cols = q.fields.map((f) => {
+    // one grid for all columns (cells placed by --c/--r) so a row keeps the same height in every column, before and after answering
+    const cols = q.fields.map((f, ci) => {
       const chosen = q.answers[f], answered = chosen != null;
-      return `<div class="qcol" role="group" aria-label="${PLABEL[f]}"><h3>${PLABEL[f]}</h3>${q.choices[f].map((c, i) => {
+      return `<div class="qcol" role="group" aria-label="${PLABEL[f]}" style="--c:${ci + 1}"><h3 style="--r:1">${PLABEL[f]}</h3>${q.choices[f].map((c, i) => {
         const cls = answered ? (c.correct ? " right" : i === chosen ? " wrong" : "") : "";
-        const mark = answered ? (c.correct ? (i === chosen ? "✓ Correct" : "✓ Answer") : i === chosen ? "✗ Your pick" : "") : "";
-        return `<button class="qcell${cls}" type="button" data-pans="${f}" data-i="${i}" ${answered ? "disabled" : ""} aria-label="${PLABEL[f]} option ${i + 1}: ${esc(c.value)}${mark ? ", " + mark.slice(2) : ""}"><span class="k">${i + 1}</span><span class="v${f === "name" ? "" : " num"}">${esc(c.value)}</span>${mark ? `<span class="m">${mark}</span>` : ""}</button>`;
+        const state = answered ? (c.correct ? (i === chosen ? ", correct" : ", the right answer") : i === chosen ? ", your pick, wrong" : "") : "";
+        return `<button class="qcell${cls}" type="button" style="--r:${i + 2}" data-pans="${f}" data-i="${i}" ${answered ? "disabled" : ""} aria-label="${PLABEL[f]} option ${i + 1}: ${esc(c.value)}${state}"><span class="k">${i + 1}</span><span class="v${f === "name" ? "" : " num"}">${esc(c.value)}</span></button>`;
       }).join("")}</div>`;
     }).join("");
     const got = q.done ? q.fields.filter((f) => q.choices[f][q.answers[f]].correct).length : 0;
@@ -1170,7 +1171,7 @@ body.spec-view table.ptable{min-width:0}
         ${state.canWrite && state.db && !pr.draw ? '<button class="btn" type="button" data-pact="draw" title="Cover printed text that gives the answer away">Hide part of photo</button>' : ""}
         <button class="btn primary" type="button" id="pNext" data-pact="next-q" ${q.done ? "" : "disabled"}>Next question</button><button class="btn" type="button" data-pact="stop">Stop</button></div>
       <div class="qwrap"><div>${photoHtml(it, hide, { id: "qPhoto" })}${drawBar}${infoHtml(it, hide)}</div>
-        <div><p class="pv-help">${q.fields.length > 1 ? "Pick one answer in each column." : "Pick the right answer."} Keys 1–3 work too${q.done ? "; Enter goes to the next question" : ""}.</p>
+        <div><p class="pv-help">${q.fields.length > 1 ? "Pick one answer in each column." : "Pick the right answer."} Keys 1–3 answer; Enter goes to the next question.</p>
           <div class="qgrid" style="--cols:${q.fields.length}">${cols}</div>
           ${q.done ? `<p class="qfeed" role="status">${got === q.fields.length ? "All correct." : `${got} of ${q.fields.length} correct. The right answer${q.fields.length - got === 1 ? " is" : "s are"} in green.`}</p>` : ""}
           ${pr.saveNote ? `<p class="pv-note warn">${esc(pr.saveNote)}</p>` : ""}</div></div>`;
