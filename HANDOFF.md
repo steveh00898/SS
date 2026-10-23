@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Claude Code — Claude Artifact republished with SKU practice (2502a7e)
+- Changes: republished `app/index.html` from main 2502a7e to the Claude Artifact (version 12; capabilities assets, db, downloads, user carried forward). Added `photoChecked`/`photoMasks` from `data/*.json` to all 156 `items` documents with field-level updates pinned to the versions read; every picture matched `data/*.json` (same imageAssetId) and no other field was written, so the owner's app-only treadmill edits (2502a7e entry) are untouched. Exported the Artifact's practice results: none yet (`data/users/<owner>/` holds no practice documents).
+- Files: HANDOFF.md, practice-data/claude-artifact.json (new, 0 results)
+- Tests: unchanged since 2502a7e (all 8 passed twice). Read back sf-t724011: masks present, owner's productSpecs kept.
+- Local preview: not needed.
+- Claude Artifact: published version 12 from 2502a7e.
+- Private Site: not published (Codex's job); still on version 12 from 6d1a426, behind main (app, server, drizzle, data changed).
+- Practice data: exported practice-data/claude-artifact.json (0 results).
+- Remaining issues: same as the 2502a7e entry.
+- Next steps: Codex runs "git pull".
+
 ## 2026-10-23: Claude Code — SKU practice: study cards, quiz, progress dashboard, photo masks
 - Changes:
   - New **SKU Practice** and **Progress** views (buttons above the title, `?view=practice|progress`). Setup: categories, fields (SKU / item name / price, any combination), "Review missed items only". Study cards with ‹ › / arrows / wheel / swipe. Endless quiz with 3 choices per field (a table with one column per field), light green / light red feedback with the right answer in green, keys 1–3 and Enter, Stop shows a session summary. Weighted toward missed items (last 8 answers; 75%+ over at least 4 = mastered and shown far less; never the same item twice in a row).
