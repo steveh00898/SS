@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Codex — treadmill assembly guide links below manuals
+- Changes: renamed manual column to User Manual/Assembly Guide and stacked muted Assembly guide links below User manual on desktop/mobile. Extracted 18 exact treadmill video links from official Sunny assembly sections; some official embedded videos are titled unboxing videos. Five pages have no video: SF-T723030, SF-T724064, SF-T723007, SF-X7210, SF-T722576; these show Assembly guide unavailable. Other categories retain manuals only until requested.
+- Files: app/index.html, data/manuals/treadmills.json (video/page provenance), tests/treadmill-specifications.spec.cjs, HANDOFF.md. Existing manual PDFs, product links, frozen columns, /api and window.claude runtime paths retained; no catalog/database changes.
+- Tests: all eight suites passed; new assertions cover column name, 18 videos/5 unavailable entries, exact SF-T724012 destination/new-tab target and vertical link order at desktop/mobile widths. All 18 YouTube oEmbed checks returned HTTP 200 and model titles. Screenshot script saved 14 PNGs; desktop/mobile treadmill captures inspected.
+- Local preview: checked at desktop and phone sizes.
+- Claude Artifact: not published by Codex; Claude must sync and publish.
+- Private Site: publication follows pushed tested main; exact version/SHA in follow-up. Owner-only access unchanged.
+- Practice data: not exported (public-repository first-export permission pending); existing report has zero results.
+- Remaining issues: five treadmill videos unavailable on official pages, 12 manuals remain unavailable per owner request; other categories' videos not researched yet.
+- Next steps: publish private Site; owner reviews treadmills before extending video coverage.
 ## 2026-10-23: Codex — supplied manuals published as private Site version 22
 - Changes: published owner-supplied bench, dumbbell and yoga ball PDF links; 144/156 product rows linked and remaining 12 unavailable as requested.
 - Files: HANDOFF.md only.
