@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Claude Code — git pull: reviewed Codex's compact sidebar; Claude Artifact version 19
+- Changes: reviewed Codex commits 2fc8bbc, 48d4e4d, 6833273, adc19d8. They match their HANDOFF entries: the section switcher shows the current view with the others in a flyout (`#sectionTrigger`), catalog actions behind `#actionTrigger` ("+ Add New Item" or "Export CSV" for read-only), and on phones the categories and Tiers & Compare are collapsed behind `#categoryExpand` / `#toolsExpand`. Private Site `/api` and the `window.claude` fallback are untouched. Test edits only open the new flyouts or disclosures before the existing steps; no assertion was removed or weakened, and mobile collapsed/expanded checks were added. No code change by Claude Code.
+- Files: HANDOFF.md
+- Tests: all 8 tests/*.spec.cjs passed. `npm run screenshots` passed (14 PNGs, no page errors); desktop 1440 and phone 390 inspected.
+- Local preview: checked via screenshots.
+- Claude Artifact: published version 19 from adc19d8 (same app code as 6833273).
+- Private Site: version 15 from 6833273 (Codex); same app code as main.
+- Practice data: not re-exported (no change).
+- Remaining issues: none.
+- Next steps: none; both links show the same app.
+
 ## 2026-10-23: Codex — compact controls published as private Site version 15
 - Changes: published compact sidebar and mobile disclosures, including follow-up 6833273 removing the full-bleed hero shadow so flyouts do not cover adjacent content. No runtime/auth/catalog changes.
 - Files: HANDOFF.md publication record.
