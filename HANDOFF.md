@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Codex — CSV export published as private Site version 25
+- Changes: published guide-link CSV columns and Excel-compatible UTF-8 encoding.
+- Files: HANDOFF.md only.
+- Tests: all eight suites and 14 screenshots passed; Worker build passed.
+- Local preview: checked.
+- Claude Artifact: behind 27dd722; requires Claude sync/publication.
+- Private Site: version 25 from exact main SHA 27dd722fba7d40f6ee362a9333600e0a89e75bc1; deployment appgdep_6adbf22854ac819198cf0f6dcceca157 succeeded. Owner-only access/admin unchanged.
+- Practice data: not exported (public-repository permission pending).
+- Remaining issues: previously downloaded CSVs need re-export.
+- Next steps: refresh Site and export a fresh CSV; documentation-only commit leaves app unchanged.
 ## 2026-10-23: Codex — CSV guide links and Excel encoding
 - Changes: catalog CSV adds User manual link and Assembly video link using the same SKU mappings as the app; unavailable links remain blank. UTF-8 BOM and explicit charset prevent Excel misreading Unicode punctuation/symbols. Existing catalog values and quoting retained.
 - Files: app/index.html, catalog/treadmill CSV test captures, HANDOFF.md.
