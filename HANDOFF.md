@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Codex — catalog-wide assembly guide research and links
+- Changes: researched all 153 distinct catalog SKUs through full-SKU and assembly-term searches on @SunnyHealthFitness, all 18 continuation pages of supplied channel search (416 returned videos), and official assembly pages. 96 distinct SKUs / 99 product rows now have guide links: 86 direct YouTube destinations and 10 official pages confirmed to contain corresponding embedded videos. Remaining 57 show Assembly guide unavailable; full SKU/product list and source limitations are in data/manuals/assembly-guide-coverage.md. Existing manual PDFs remain unchanged.
+- Files: app/index.html embedded map, all data/manuals category provenance maps, coverage report, catalog assertions and tests/mobile-options.cjs, HANDOFF.md. No saved catalog/database, runtime, auth, layout or access change.
+- Tests: initial run: seven suites passed, column-controls failed with locator.click Timeout 30000ms waiting for Close options after viewport resize. Fixed shared helper to await expected matchMedia popup closure on desktop instead of racing a hidden button; assertions retained. All eight suites passed after the fix. Catalog checks all rendered guide hrefs/new-tab targets and 99 linked/57 unavailable rows. All 86 direct destinations returned YouTube oEmbed HTTP 200 with Sunny channel ownership. Screenshot script saved 14 desktop/phone PNGs.
+- Local preview: desktop/phone screenshot flows passed.
+- Claude Artifact: not published by Codex; Claude must sync and publish.
+- Private Site: publication follows tested pushed main; exact version/SHA in follow-up. Owner-only access/admin unchanged.
+- Practice data: not exported (public-repository permission pending); existing report has zero results.
+- Remaining issues: Sunny returned HTTP 429 connection-verification pages during research. Cached official pages confirmed 10 videos but direct video IDs could not be extracted; those links open the official embedded-video pages. No challenge bypassed. Cached SF-BH622045 page describes SF-BH621002, so rejected that mismatched guide. Missing means no matching video verified, not a claim none exists; similar non-SMART models and generic demos/workouts were not substituted.
+- Next steps: publish private Site; owner may supply direct links for remaining SKUs. Claude syncs Artifact.
 ## 2026-10-23: Codex — assembly guides published as private Site version 23
 - Changes: published combined User Manual/Assembly Guide column and 18 treadmill video links, with five unavailable notices.
 - Files: HANDOFF.md only.

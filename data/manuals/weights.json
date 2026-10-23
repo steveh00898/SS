@@ -1,41 +1,61 @@
 {
   "SF-DB01-055": {
     "url": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-DB01-55_manual.pdf?v=1698340756",
-    "status": "owner-provided"
+    "status": "owner-provided",
+    "assemblyStatus": "not-found",
+    "assemblyCheckedAt": "2026-10-23"
   },
   "SF-DB02-5": {
-    "status": "not-listed"
+    "status": "not-listed",
+    "assemblyStatus": "not-found",
+    "assemblyCheckedAt": "2026-10-23"
   },
   "SF-OP01-10": {
-    "status": "not-listed"
+    "status": "not-listed",
+    "assemblyStatus": "not-found",
+    "assemblyCheckedAt": "2026-10-23"
   },
   "SF-DB03-5": {
-    "status": "not-listed"
+    "status": "not-listed",
+    "assemblyStatus": "not-found",
+    "assemblyCheckedAt": "2026-10-23"
   },
   "NO. 021-2-PAIR": {
-    "status": "not-listed"
+    "status": "not-listed",
+    "assemblyStatus": "not-found",
+    "assemblyCheckedAt": "2026-10-23"
   },
   "NO. 103-2": {
     "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-103-2",
     "url": "https://share.sunnyfit.com/web_static/op/user_manual/NO.%20103-2_EN_20260604_V1.1.pdf",
-    "status": "verified-preview"
+    "status": "verified-preview",
+    "assemblyStatus": "not-found",
+    "assemblyCheckedAt": "2026-10-23"
   },
   "NO. 066-10": {
-    "status": "not-listed"
+    "status": "not-listed",
+    "assemblyStatus": "not-found",
+    "assemblyCheckedAt": "2026-10-23"
   },
   "SF-WA01-1": {
     "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-wa01-1",
     "url": "https://share.sunnyfit.com/web_static/op/user_manual/SF-WA01-5_Manual_EN_ES_FR_DE_IT_20260414_V1.1.pdf",
-    "status": "verified-preview"
+    "status": "verified-preview",
+    "assemblyStatus": "not-found",
+    "assemblyCheckedAt": "2026-10-23"
   },
   "NO. 103-1": {
     "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-103-1",
     "url": "https://share.sunnyfit.com/web_static/op/user_manual/NO.%20103-1_EN_20260603_V1.1.pdf",
-    "status": "verified-preview"
+    "status": "verified-preview",
+    "assemblyStatus": "not-found",
+    "assemblyCheckedAt": "2026-10-23"
   },
   "SF-WA02-BK": {
     "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-wa02-bk",
     "url": "https://share.sunnyfit.com/web_static/op/user_manual/SF-WA02-BK_Manual_EN_ES_FR_DE_IT_20250327_V1.0.pdf",
-    "status": "verified-preview"
+    "status": "verified-preview",
+    "assemblyStatus": "not-found",
+    "assemblyCheckedAt": "2026-10-23"
   }
 }

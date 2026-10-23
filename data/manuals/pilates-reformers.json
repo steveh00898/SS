@@ -2,11 +2,21 @@
   "SF-PM20": {
     "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-pm20",
     "url": "https://share.sunnyfit.com/web_static/op/user_manual/SF-PM20_Manual_EN_V1.0_20260609.pdf",
-    "status": "verified-preview"
+    "status": "verified-preview",
+    "assemblyUrl": "https://www.youtube.com/watch?v=-xdRRbS23NI",
+    "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-pm20",
+    "assemblyTitle": "How To Assemble: SF-PM20 Foldable Pilates Reformer",
+    "assemblyStatus": "verified-embed",
+    "assemblyCheckedAt": "2026-10-23"
   },
   "SF-PM10": {
     "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-pm10",
     "url": "https://share.sunnyfit.com/web_static/op/user_manual/SF-PM10_Manual_EN_V1.0_20260609.pdf",
-    "status": "verified-preview"
+    "status": "verified-preview",
+    "assemblyUrl": "https://www.youtube.com/watch?v=B0N2OfuHR5Y",
+    "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-pm10",
+    "assemblyTitle": "How To Assemble: SF-PM10 Foldable Pilates Reformer",
+    "assemblyStatus": "verified-embed",
+    "assemblyCheckedAt": "2026-10-23"
   }
 }
