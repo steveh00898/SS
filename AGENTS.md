@@ -30,8 +30,8 @@ The owner may still have to approve a credential prompt when Codex publishes; th
 
 | Owner says | Meaning (same for every agent) |
 |---|---|
-| **"git pull"** | Run "Start of every task" below (sync, review the other agent's work, tests, screenshots), then update **your own** preview link if the app changed (rules above), and report. |
-| **"git push"** | Run "Before finishing" below (tests, HANDOFF.md entry, commit with your `Agent:` trailer, push to `main`), then update **your own** preview link if the app changed, and report the commit SHA and both links' status. |
+| **"git pull"** | Run "Start of every task" below (sync, review the other agent's work, tests, screenshots), then update **your own** preview link if the app changed (rules above), refresh your app's practice export and run `npm run practice-report` ("SKU practice data" below), and report. |
+| **"git push"** | Run "Before finishing" below (tests, HANDOFF.md entry, commit with your `Agent:` trailer, push to `main`), including your app's refreshed practice export, then update **your own** preview link if the app changed, and report the commit SHA and both links' status. |
 | **"publish site"** | Codex: publish the private Site from `main` HEAD now (pushed commits only), even if nothing changed. Claude Code: republish the Claude Artifact. |
 
 The owner works in one tool at a time: "git push" in the tool they finished in, then "git pull" in the other. After that pair, both links show the latest version.
@@ -73,6 +73,17 @@ If there are no new commits, say so and skip steps 4 and 5.
 - The two app databases can also hold edits made inside the apps. Before writing to either database, read it, compare it with `data/*.json`, and bring any app-only edits into the repository first (or ask the owner which version wins). Never overwrite database edits blindly, and pin writes to the version you read.
 - Each category matches the product cards shown on page 1 of the collection the sunnyhealthfitness.com homepage category row links to, not the `products.json` feed.
 - Product pictures: the product's first image, trimmed to the product with 4% padding on a white 4:3 canvas, 1200x900 JPEG.
+- Every picture has `photoChecked: true` once someone has looked for printed text, and `photoMasks` boxes over any printed SKU/model number (`sku`), product name or product-type word or weight (`name`) and price (`price`), as `[x, y, w, h]` fractions of the picture. A new or replaced picture needs the same check before `photoChecked` is set; until then SKU practice blurs it. Masks added in an app (**Hide part of photo**) are app-only edits: bring them into `data/*.json`.
+
+## SKU practice data
+
+Each app saves practice results per signed-in user in its own database (README.md, "SKU practice"). Neither agent can open the other's app, so the results meet in the repository:
+
+- Claude Code writes the Claude Artifact's results to `practice-data/claude-artifact.json` (read with its artifact database tool from the owner's `data/users/<id>/practice-*` documents).
+- Codex writes the private Site's results to `practice-data/private-site.json` (`GET /api/practice` as the owner, or the D1 table `practice_attempts`).
+- Use the format in `practice-data/README.md`: the whole file is replaced on each export, with no user ids, names or emails. If you can't read your app's results, say so and ask the owner to use **Progress → Export results file** in that app instead; never invent or edit records.
+- Then run `npm run practice-report` (add `-- --md` to also write `practice-data/report.md`) and include the headline numbers in your report: answers, accuracy, most missed field, most missed products.
+- The repository is public. Ask the owner before the first export if it hasn't been made private.
 
 ## Before finishing
 
@@ -94,6 +105,7 @@ Newest entry first; never rewrite older entries (fixing a factual mistake, such 
 - Local preview: checked / not checked
 - Claude Artifact: published (version) / not published
 - Private Site: published (deployed version and the exact main commit SHA it was built from) / not published (reason)
+- Practice data: exported (file, number of results) / not exported (reason)
 - Remaining issues: ...
 - Next steps: ...
 ```

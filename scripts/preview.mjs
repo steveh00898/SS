@@ -19,6 +19,7 @@ for (const file of fs.readdirSync(path.join(root, 'data')).filter((f) => f.endsW
   }
 }
 const uploads = new Map();
+const practice = new Map(); // SKU practice results, in memory like everything else here
 
 const json = (res, status, body) => { res.writeHead(status, { 'Content-Type': 'application/json' }); res.end(JSON.stringify(body)); };
 const readBody = (req) => new Promise((resolve) => { const chunks = []; req.on('data', (c) => chunks.push(c)); req.on('end', () => resolve(Buffer.concat(chunks))); });
@@ -26,7 +27,16 @@ const readBody = (req) => new Promise((resolve) => { const chunks = []; req.on('
 http.createServer(async (req, res) => {
   const url = new URL(req.url, 'http://localhost');
   const p = decodeURIComponent(url.pathname);
-  if (p === '/api/session') return json(res, 200, { canWrite: true });
+  if (p === '/api/session') return json(res, 200, { canWrite: true, practice: true });
+  if (p === '/api/practice') {
+    if (req.method === 'GET') return json(res, 200, [...practice.values()]);
+    if (req.method === 'DELETE') { practice.clear(); return json(res, 200, { deleted: true }); }
+    if (req.method === 'POST') {
+      const { records } = JSON.parse((await readBody(req)).toString() || '{}');
+      for (const r of records || []) if (!practice.has(r.id)) practice.set(r.id, r);
+      return json(res, 200, { saved: (records || []).length });
+    }
+  }
   if (p === '/api/items' && req.method === 'GET') return json(res, 200, [...items.values()]);
   if (p.startsWith('/api/items/')) {
     const id = p.slice('/api/items/'.length);

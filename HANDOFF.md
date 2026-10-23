@@ -2,6 +2,23 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Claude Code — SKU practice: study cards, quiz, progress dashboard, photo masks
+- Changes:
+  - New **SKU Practice** and **Progress** views (buttons above the title, `?view=practice|progress`). Setup: categories, fields (SKU / item name / price, any combination), "Review missed items only". Study cards with ‹ › / arrows / wheel / swipe. Endless quiz with 3 choices per field (a table with one column per field), light green / light red feedback with the right answer in green, keys 1–3 and Enter, Stop shows a session summary. Weighted toward missed items (last 8 answers; 75%+ over at least 4 = mastered and shown far less; never the same item twice in a row).
+  - Only the asked fields are hidden, and the photo never gives the answer away: every catalog picture now has `photoChecked: true` and, for 61 of them, `photoMasks` boxes over printed SKUs/model numbers, product-type words (TREADMILL, BIKE, ROWER, ELLIPTICAL, ROW-N-RIDE, PILATES) and weight labels. I checked all 156 pictures by eye (no OCR in the container). An unchecked picture (e.g. newly uploaded) stays blurred until answered; editors can add a box with "Hide part of photo". Replacing a picture clears its masks.
+  - Progress dashboard: answers, accuracy, days practiced, streak, mastered products; by field (most correct / most missed), daily accuracy chart with table view, by category, most missed and best known products; 7/30/90 days or all time; export CSV, export/import a results file, reset.
+  - Storage, private to the signed-in user: private Site `practice_attempts` table (migration `drizzle/0001_practice_attempts.sql`) via `GET/POST/DELETE /api/practice`; Claude Artifact `data/users/<id>/practice-*` documents. Worker keeps and sanitizes `photoChecked`/`photoMasks`, keeps them on edits that omit them, and imports them once into existing D1 rows whose picture is unchanged (`photo-masks-v1`).
+  - Tracking data for both agents: `practice-data/` (README with format) + `npm run practice-report` (merges `claude-artifact.json` and `private-site.json`, prints the Progress numbers). AGENTS.md: "git pull"/"git push" now include the practice export and report, new "SKU practice data" section, photo-mask catalog rule, HANDOFF "Practice data" line. CLAUDE.md: where Claude Code finds the Artifact results.
+  - Fixed: the catalog column code used the first `thead` on the page; it now targets the catalog table only.
+- Files: app/index.html, server/worker.js, db/schema.ts, drizzle/0001_practice_attempts.sql, drizzle/meta/*, data/*.json (photoChecked, photoMasks), scripts/preview.mjs, scripts/screenshots.cjs, scripts/practice-report.mjs (new), package.json, practice-data/README.md (new), tests/practice.spec.cjs, tests/practice-artifact.spec.cjs, tests/practice-report.spec.cjs (new), tests/server.spec.cjs, README.md, AGENTS.md, CLAUDE.md, HANDOFF.md
+- Tests: all 8 tests/*.spec.cjs passed twice in a row (5 existing + 3 new; server test extended for practice API and masks; no existing assertion changed). `npm run build` OK. `npm run screenshots` OK (now also practice setup, question, answered, progress).
+- Local preview: checked (desktop and 390px phone, no sideways scroll).
+- Claude Artifact: to be republished from this commit (follow-up entry).
+- Private Site: not published (Codex's job). Needs the new migration applied when Codex publishes this commit.
+- Practice data: none yet (feature is new).
+- Remaining issues: the Artifact's catalog database has owner edits not in `data/*.json`: workout-area width/length (and one key dimension) on SF-T724011, SF-T725067, SF-T722021, SF-T722076, made 2026-10-20 in the app. Left untouched; owner to decide whether they go into the repository. The repository is public, so practice exports in `practice-data/` are public.
+- Next steps: Codex runs "git pull": reviews this, publishes the private Site with migrations, exports `practice-data/private-site.json` once there are results, runs `npm run practice-report`.
+
 ## 2026-10-22: Claude Code — "git pull" / "git push" keep each agent's preview link current
 - Changes:
   - AGENTS.md: defined the owner's commands. "git pull" = sync, review the other agent's work, tests, screenshots, then update your own preview link if it is behind main. "git push" = tests, HANDOFF entry, commit with Agent trailer, push, then update your own preview link. "publish site" = publish now. Owner gave standing permission: Codex keeps the private Site current, Claude Code keeps the Claude Artifact current, both only from pushed main commits with all tests passing, recording the published SHA.

@@ -25,6 +25,10 @@
       "source": "Sunny_Master_Products_Portfolio_Value_Weighted_Summary.xlsx",
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Magnetic Rowers"
+    },
+    "photoChecked": true,
+    "photoMasks": {
+      "name": [[0.07, 0.52, 0.1, 0.07]]
     }
   },
   {
@@ -53,6 +57,10 @@
       "source": "Sunny_Master_Products_Portfolio_Value_Weighted_Summary.xlsx",
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Magnetic Rowers"
+    },
+    "photoChecked": true,
+    "photoMasks": {
+      "name": [[0.1, 0.56, 0.12, 0.08]]
     }
   },
   {
@@ -81,6 +89,10 @@
       "source": "Sunny_Master_Products_Portfolio_Value_Weighted_Summary.xlsx",
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Magnetic Rowers"
+    },
+    "photoChecked": true,
+    "photoMasks": {
+      "name": [[0.09, 0.53, 0.11, 0.07]]
     }
   },
   {
@@ -109,6 +121,11 @@
       "source": "Sunny_Master_Products_Portfolio_Value_Weighted_Summary.xlsx",
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Water Rowers"
+    },
+    "photoChecked": true,
+    "photoMasks": {
+      "sku": [[0.08, 0.55, 0.11, 0.07]],
+      "name": [[0.08, 0.55, 0.11, 0.07]]
     }
   },
   {
@@ -137,6 +154,10 @@
       "source": "Sunny_Master_Products_Portfolio_Value_Weighted_Summary.xlsx",
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Air Rowers"
+    },
+    "photoChecked": true,
+    "photoMasks": {
+      "sku": [[0.68, 0.6, 0.09, 0.26]]
     }
   },
   {
@@ -165,7 +186,8 @@
       "source": "Sunny_Master_Products_Portfolio_Value_Weighted_Summary.xlsx",
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Air Rowers"
-    }
+    },
+    "photoChecked": true
   },
   {
     "id": "sf-rw5639smart",
@@ -193,6 +215,11 @@
       "source": "Sunny_Master_Products_Portfolio_Value_Weighted_Summary.xlsx",
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Hydraulic Rowers"
+    },
+    "photoChecked": true,
+    "photoMasks": {
+      "sku": [[0.13, 0.56, 0.08, 0.08]],
+      "name": [[0.39, 0.57, 0.14, 0.09]]
     }
   },
   {
@@ -221,6 +248,11 @@
       "source": "Sunny_Master_Products_Portfolio_Value_Weighted_Summary.xlsx",
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Hydraulic Rowers"
+    },
+    "photoChecked": true,
+    "photoMasks": {
+      "sku": [[0.17, 0.45, 0.1, 0.11]],
+      "name": [[0.39, 0.59, 0.12, 0.12]]
     }
   },
   {
@@ -249,6 +281,10 @@
       "source": "Sunny_Master_Products_Portfolio_Value_Weighted_Summary.xlsx",
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Water Rowers"
+    },
+    "photoChecked": true,
+    "photoMasks": {
+      "name": [[0.11, 0.58, 0.13, 0.07]]
     }
   },
   {
@@ -277,7 +313,8 @@
       "source": "Sunny_Master_Products_Portfolio_Value_Weighted_Summary.xlsx",
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Air Rowers"
-    }
+    },
+    "photoChecked": true
   },
   {
     "id": "sf-rw524022",
@@ -305,6 +342,10 @@
       "source": "Sunny_Master_Products_Portfolio_Value_Weighted_Summary.xlsx",
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Water Rowers"
+    },
+    "photoChecked": true,
+    "photoMasks": {
+      "name": [[0.12, 0.48, 0.11, 0.07]]
     }
   },
   {
@@ -333,6 +374,10 @@
       "source": "Sunny_Master_Products_Portfolio_Value_Weighted_Summary.xlsx",
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Magnetic Rowers"
+    },
+    "photoChecked": true,
+    "photoMasks": {
+      "name": [[0.12, 0.39, 0.11, 0.07]]
     }
   },
   {
@@ -361,6 +406,10 @@
       "source": "Sunny_Master_Products_Portfolio_Value_Weighted_Summary.xlsx",
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Hydraulic Rowers"
+    },
+    "photoChecked": true,
+    "photoMasks": {
+      "sku": [[0.12, 0.57, 0.12, 0.08]]
     }
   }
 ]

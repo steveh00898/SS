@@ -10,7 +10,8 @@
   "imageAssetId": "7b87f3765b1b8b0fb6fbe9d3df9e10f4",
   "imageUrl": "/_blob/7b87f3765b1b8b0fb6fbe9d3df9e10f4",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "no-068smart",
@@ -23,7 +24,8 @@
   "imageAssetId": "019455f735c1edd80818640c126d7ca1",
   "imageUrl": "/_blob/019455f735c1edd80818640c126d7ca1",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-s0978smart",
@@ -36,7 +38,8 @@
   "imageAssetId": "51357af5f0230ff32d141500a7b8bcc0",
   "imageUrl": "/_blob/51357af5f0230ff32d141500a7b8bcc0",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-s0979smart",
@@ -49,7 +52,8 @@
   "imageAssetId": "780e834a3943c3bd7c8096623e710a96",
   "imageUrl": "/_blob/780e834a3943c3bd7c8096623e710a96",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "p2000smart",
@@ -62,7 +66,8 @@
   "imageAssetId": "1e333816d141014b562af6cd4ec375c5",
   "imageUrl": "/_blob/1e333816d141014b562af6cd4ec375c5",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-s023056",
@@ -75,7 +80,8 @@
   "imageAssetId": "37152d92259c1179b148aea15cfa6bb9",
   "imageUrl": "/_blob/37152d92259c1179b148aea15cfa6bb9",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-s020027smart",
@@ -88,7 +94,8 @@
   "imageAssetId": "3cbf1c625f3aa92bb5d55490f537fcb8",
   "imageUrl": "/_blob/3cbf1c625f3aa92bb5d55490f537fcb8",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "p2410",
@@ -101,7 +108,8 @@
   "imageAssetId": "9bec2215ba8e4e8f20cd78ad8afec55e",
   "imageUrl": "/_blob/9bec2215ba8e4e8f20cd78ad8afec55e",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-s026007",
@@ -114,7 +122,8 @@
   "imageAssetId": "01f342381cc3ea3e7680282ec88a1661",
   "imageUrl": "/_blob/01f342381cc3ea3e7680282ec88a1661",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-s021054",
@@ -127,7 +136,8 @@
   "imageAssetId": "430ed2aae2681ebd329d88303aae85b1",
   "imageUrl": "/_blob/430ed2aae2681ebd329d88303aae85b1",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-s021055",
@@ -140,7 +150,8 @@
   "imageAssetId": "64fdab0c86cbf4708c19a18e3bc7f2e3",
   "imageUrl": "/_blob/64fdab0c86cbf4708c19a18e3bc7f2e3",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-s026002",
@@ -153,7 +164,8 @@
   "imageAssetId": "66afc8a98097245f6fe91394d207185e",
   "imageUrl": "/_blob/66afc8a98097245f6fe91394d207185e",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-s024072",
@@ -166,6 +178,7 @@
   "imageAssetId": "4ceac5be32eab9178c70f6d5364ebae7",
   "imageUrl": "/_blob/4ceac5be32eab9178c70f6d5364ebae7",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  }
 ]

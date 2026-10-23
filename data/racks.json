@@ -10,7 +10,8 @@
   "imageAssetId": "dd2d34b913b15fa68c73c5738d8a6c41",
   "imageUrl": "/_blob/dd2d34b913b15fa68c73c5738d8a6c41",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-xf9925",
@@ -23,7 +24,8 @@
   "imageAssetId": "7132bd86e5ab190e923443ea818bfccc",
   "imageUrl": "/_blob/7132bd86e5ab190e923443ea818bfccc",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-xf9933",
@@ -36,7 +38,8 @@
   "imageAssetId": "7c57acffe7ddff772cc336e3ea3cfd5e",
   "imageUrl": "/_blob/7c57acffe7ddff772cc336e3ea3cfd5e",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-xf922011",
@@ -49,7 +52,8 @@
   "imageAssetId": "93fb9d2990cb3e504e572ef9fbd3492e",
   "imageUrl": "/_blob/93fb9d2990cb3e504e572ef9fbd3492e",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-xf922059",
@@ -62,7 +66,8 @@
   "imageAssetId": "dccf0b4446a4a2805698b3c4362b9f3b",
   "imageUrl": "/_blob/dccf0b4446a4a2805698b3c4362b9f3b",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-xf920020",
@@ -75,7 +80,8 @@
   "imageAssetId": "e4704be77b7818a911d8755782200a6b",
   "imageUrl": "/_blob/e4704be77b7818a911d8755782200a6b",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-xf920021",
@@ -88,7 +94,8 @@
   "imageAssetId": "392d0046ff203686fee6d4513d99698c",
   "imageUrl": "/_blob/392d0046ff203686fee6d4513d99698c",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-hg92401",
@@ -101,6 +108,7 @@
   "imageAssetId": "184fc3f99bd27b660620925b5fbb1554",
   "imageUrl": "/_blob/184fc3f99bd27b660620925b5fbb1554",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  }
 ]

@@ -261,6 +261,106 @@ body.spec-view th.column-hidden,td.column-hidden{min-width:32px!important;width:
 .column-reset{margin-left:auto;align-self:center;border:1px solid var(--line);border-radius:4px;padding:4px 8px;background:transparent;color:var(--muted);font:inherit;font-size:13px;cursor:pointer}.column-reset:hover{color:var(--fg)}
 .spec-editor{border:1px solid var(--line);border-radius:6px;padding:14px}.spec-editor legend{font-weight:600}.spec-editor p{font-size:13px;color:var(--muted);margin:0 0 12px}
 @media(max-width:720px){td.column-hidden{display:none!important}}
+
+/* SKU practice: view switcher, setup, study cards, quiz table and progress dashboard */
+:root{--ok-bg:#dcf3e2;--ok-fg:#14532d;--ok-line:#8fd0a3;--bad-bg:#fbe1df;--bad-fg:#7f1d1d;--bad-line:#efa49d;--s-sku:#2a78d6;--s-name:#eb6834;--s-price:#1baf7a}
+:root[data-theme="dark"]{--ok-bg:#173c29;--ok-fg:#c2f3d0;--ok-line:#397e53;--bad-bg:#4a1f1f;--bad-fg:#ffd2cc;--bad-line:#8a3b35;--s-sku:#3987e5;--s-name:#d95926;--s-price:#199e70}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--ok-bg:#173c29;--ok-fg:#c2f3d0;--ok-line:#397e53;--bad-bg:#4a1f1f;--bad-fg:#ffd2cc;--bad-line:#8a3b35;--s-sku:#3987e5;--s-name:#d95926;--s-price:#199e70}}
+body:not([data-view="catalog"]) .catalog-only{display:none!important}
+.views{display:inline-flex;flex-wrap:wrap;gap:4px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:4px;margin-bottom:22px}
+.views button{border:0;background:none;border-radius:999px;padding:8px 16px;font-weight:600;font-size:14px;cursor:pointer;color:var(--fg)}
+.views button:hover{color:var(--accent)}
+.views button[aria-pressed="true"]{background:var(--navy);color:var(--navy-ink)}
+.pv-panel{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:18px 20px;margin-bottom:16px;min-width:0}
+.pv-panel h2{font-family:var(--font-display);font-size:19px;margin:0 0 4px;font-weight:600}
+.pv-help{color:var(--muted);font-size:14px;margin:0 0 12px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{display:inline-flex;align-items:center;gap:8px;border:1.5px solid var(--line);border-radius:999px;padding:7px 14px;cursor:pointer;font-family:var(--font-body);font-size:14px;font-weight:500;text-transform:none;letter-spacing:0;color:var(--fg);background:var(--surface)}
+.chip input{width:16px;height:16px;accent-color:var(--accent);margin:0}
+.chip:has(input:checked){border-color:var(--accent);background:var(--accent-soft)}
+.chip small{color:var(--muted);font-weight:600;font-size:12px}
+.chip.wide{margin-top:12px}
+.pv-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.pv-note{color:var(--muted);font-size:13.5px}
+.pv-note.warn{color:var(--danger)}
+.qbar{display:flex;flex-wrap:wrap;gap:10px 12px;align-items:center;margin-bottom:14px}
+.qbar .score{margin-right:auto;font-size:15px}
+.qbar .score b{font-family:var(--font-num);font-size:19px;font-variant-numeric:tabular-nums}
+.qwrap{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:20px;align-items:start}
+@media(max-width:860px){.qwrap{grid-template-columns:minmax(0,1fr)}}
+.qphoto{position:relative;aspect-ratio:4/3;background:#f4f4f6;border-radius:8px;overflow:hidden;border:1px solid var(--line);touch-action:pan-y}
+.qphoto img{width:100%;height:100%;object-fit:contain;display:block;user-select:none;-webkit-user-drag:none}
+.qphoto.unchecked img{filter:blur(22px)}
+.qphoto.drawing{cursor:crosshair;touch-action:none;outline:2px dashed var(--accent);outline-offset:2px}
+.pmask{position:absolute;background:rgba(186,186,192,.94);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-radius:4px;pointer-events:none}
+.pdraw{position:absolute;border:2px solid var(--accent);background:rgba(224,50,47,.15);pointer-events:none}
+.pnote{position:absolute;left:10px;right:10px;bottom:10px;background:rgba(17,17,17,.72);color:#fff;font-size:13px;padding:6px 10px;border-radius:6px;text-align:center}
+.qinfo{display:grid;grid-template-columns:auto minmax(0,1fr);gap:8px 14px;margin:14px 0 0;font-size:15px}
+.qinfo dt{font-family:var(--font-num);font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:12.5px;color:var(--muted);align-self:center}
+.qinfo dd{margin:0;font-weight:600;overflow-wrap:anywhere}
+.qinfo dd.sku,.qinfo dd.price{font-family:var(--font-num);font-size:19px;font-variant-numeric:tabular-nums}
+.hidden-val{display:inline-block;filter:blur(4px);user-select:none;color:var(--muted);letter-spacing:.1em}
+.qgrid{display:grid;grid-template-columns:repeat(var(--cols),minmax(0,1fr));border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}
+.qcol{display:flex;flex-direction:column;border-left:1px solid var(--line);min-width:0}
+.qcol:first-child{border-left:0}
+.qcol h3{margin:0;padding:10px 12px;font-family:var(--font-num);font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);background:var(--surface-2)}
+.qcell{flex:1;border:0;border-top:1px solid var(--line);background:var(--surface);text-align:left;padding:12px;cursor:pointer;font-size:15px;min-height:60px;display:flex;gap:10px;align-items:center;color:var(--fg);transition:background-color .15s}
+.qcell .k{flex:none;width:24px;height:24px;border-radius:50%;border:1.5px solid var(--line);display:grid;place-items:center;font-family:var(--font-num);font-size:13px;font-weight:700;color:var(--muted)}
+.qcell .v{flex:1;min-width:0;overflow-wrap:anywhere}
+.qcell .v.num{font-family:var(--font-num);font-size:18px;font-weight:700;font-variant-numeric:tabular-nums}
+.qcell .m{flex:none;font-weight:700;font-size:13px}
+.qcell:hover:not(:disabled){background:var(--surface-2)}
+.qcell:disabled{cursor:default}
+.qcell.right{background:var(--ok-bg);color:var(--ok-fg);box-shadow:inset 4px 0 0 var(--ok-line)}
+.qcell.wrong{background:var(--bad-bg);color:var(--bad-fg);box-shadow:inset 4px 0 0 var(--bad-line)}
+.qcell.right .k,.qcell.wrong .k{border-color:currentColor;color:inherit}
+@media(max-width:720px){.qgrid{grid-template-columns:minmax(0,1fr)}.qcol{border-left:0;border-top:1px solid var(--line)}.qcol:first-child{border-top:0}}
+.qfeed{margin:12px 0 0;font-weight:600}
+.drawbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px;font-size:14px}
+.drawbar .btn{height:36px;padding:0 14px;font-size:13px}
+.study-meta{margin:12px 0 0;color:var(--muted);font-size:14px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:16px}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px;min-width:0}
+.tile .v{font-family:var(--font-num);font-size:30px;font-weight:700;line-height:1.1;font-variant-numeric:tabular-nums}
+.tile .l{color:var(--muted);font-size:13px;margin-top:2px}
+.fbar{display:grid;grid-template-columns:110px minmax(0,1fr) 130px;gap:12px;align-items:center;margin:10px 0}
+.fbar .track{height:12px;background:var(--surface-2);border-radius:6px;overflow:hidden}
+.fbar .fill{height:100%;border-radius:0 4px 4px 0}
+.fbar .num{font-family:var(--font-num);font-variant-numeric:tabular-nums;font-size:15px;text-align:right}
+@media(max-width:560px){.fbar{grid-template-columns:80px minmax(0,1fr);}.fbar .num{grid-column:1/-1;text-align:left;margin-top:-6px}}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13.5px;color:var(--fg);margin:0 0 8px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:14px;height:3px;border-radius:2px;display:inline-block}
+.chartbox{position:relative}
+.chartbox svg{display:block;width:100%;height:auto;overflow:visible}
+.chartbox .grid{stroke:var(--line);stroke-width:1}
+.chartbox .axis{fill:var(--muted);font-size:10px;font-family:var(--font-body)}
+.chartbox .dlabel{fill:var(--fg);font-size:11px;font-weight:600;font-family:var(--font-body)}
+.chartbox .cross{stroke:var(--muted);stroke-width:1;stroke-dasharray:3 3}
+.ctip{position:absolute;pointer-events:none;background:var(--surface);color:var(--fg);border:1px solid var(--line);box-shadow:var(--shadow);padding:8px 10px;font-size:13px;border-radius:6px;white-space:nowrap;z-index:2}
+.ctip b{display:block;margin-bottom:2px}
+.ctip i{display:inline-block;width:10px;height:3px;border-radius:2px;margin-right:6px;vertical-align:3px}
+.pscroll{overflow-x:auto;max-width:100%}
+.ptable{width:100%;border-collapse:collapse;font-size:14px}
+body.spec-view table.ptable{min-width:0}
+.ptable th{position:static;font-size:12px;padding:8px 10px;white-space:nowrap}
+.ptable td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:middle;font-variant-numeric:tabular-nums}
+.ptable tr:last-child td{border-bottom:0}
+.ptable tbody tr:hover{background:none}
+.ptable img{width:64px;height:48px;object-fit:contain;background:#f4f4f6;border-radius:4px;display:block}
+.ptable .skuc{font-family:var(--font-num);font-weight:700;font-size:15px;white-space:nowrap}
+.ptable .nm{font-size:13px;color:var(--fg);max-width:300px}
+.tag{display:inline-block;font-size:11.5px;font-weight:600;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.tag.ok{background:var(--ok-bg);color:var(--ok-fg)}
+.tag.learn{background:var(--surface-2);color:var(--fg)}
+.tag.miss{background:var(--bad-bg);color:var(--bad-fg)}
+@media(max-width:720px){.ptable{display:table}.ptable thead{display:table-header-group}.ptable tbody{display:table-row-group}.ptable tbody tr{display:table-row;padding:0;border:0}.ptable td{display:table-cell;padding:8px 8px;border-bottom:1px solid var(--line)}}
+.prow{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+@media(max-width:900px){.prow{grid-template-columns:minmax(0,1fr)}}
+.pv-tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:16px}
+.pv-tools select{width:auto}
+.pv-tools .btn{height:38px;padding:0 14px;font-size:13px}
+.confirm{background:var(--accent-soft);border-radius:8px;padding:12px 14px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:16px}
 </style>
 
 </head><body><header class="top">
@@ -278,20 +378,26 @@ body.spec-view th.column-hidden,td.column-hidden{min-width:32px!important;width:
 </header>
 
 <main class="wrap">
-  <section class="hero"><div class="inner head">
+  <section class="hero"><div class="inner">
+    <nav class="views" id="views" aria-label="Sections"><button type="button" data-view="catalog" aria-pressed="true">Catalog</button><button type="button" data-view="practice" aria-pressed="false">SKU Practice</button><button type="button" data-view="progress" aria-pressed="false">Progress</button></nav>
+    <div class="head">
     <div>
       <h1 id="title">Product Catalog</h1>
       <p class="sub" id="sub">Loading the catalog…</p>
     </div>
-    <div class="actions">
+    <div class="actions catalog-only">
       <button class="btn" id="exportBtn" type="button">Export CSV</button>
       <button class="btn" id="bulkBtn" type="button" hidden>Bulk Edit</button>
       <button class="btn primary" id="addBtn" type="button" hidden>+ Add New Item</button>
     </div>
+    </div>
   </div></section>
   <div class="banner" id="banner" hidden></div>
-  <nav class="tabs" id="tabs" role="tablist" aria-label="Categories"></nav>
-  <div class="spec-legend" id="specLegend" hidden aria-label="Specification highlights"><span><i class="spec-key high" aria-hidden="true"></i>Highest tier</span><span><i class="spec-key" aria-hidden="true"></i>Mid tier / unranked</span><span><i class="spec-key low" aria-hidden="true"></i>Lowest tier</span><label class="compare-toggle"><input type="checkbox" id="compareToggle"> Compare</label><span id="compareStatus" hidden aria-live="polite"></span><button class="btn primary" id="compareConfirm" type="button" hidden>Confirm comparison</button><button class="column-reset" id="defaultColumnOrder" type="button" title="Restore the original column order">Default columns order</button><details><summary>How tiers are compared</summary><p>Each numeric specification is compared independently within its product category, using the full saved catalog. Resistance levels and motorized speed levels are compared separately. Numeric tiers use distinct advertised values: the upper third is green, the lower third is grey, and the middle is unchanged. Fewer than three distinct values remain unranked. Search, sorting and comparison do not change the colors.</p><p>Treadmill incline tiers compare adjustability: incline + decline is highest, automatic incline is mid, and fixed or manually adjusted incline is lowest. Other motion systems and user-powered speed/drive are unranked. Quoted motor HP is not a standardized continuous-duty rating.</p><p>Elliptical numeric stride lengths are ranked within Ellipticals. Resistance technologies and descriptive rower motion labels stay unranked because they are not directly comparable performance measures.</p><p>Dimensions are copied from your master portfolio. Only treadmill workout dimensions split into length × width; overall or folded elliptical and rower dimensions are not workout-pad dimensions. “-” means information has not been provided. Green indicates a higher specification band, not an overall product recommendation.</p></details></div><div class="tablebox">
+  <section class="practice" id="practiceView" hidden aria-live="polite"></section>
+  <section class="progress" id="progressView" hidden></section>
+  <input id="practiceImport" type="file" accept=".json,application/json" hidden>
+  <nav class="tabs catalog-only" id="tabs" role="tablist" aria-label="Categories"></nav>
+  <div class="spec-legend catalog-only" id="specLegend" hidden aria-label="Specification highlights"><span><i class="spec-key high" aria-hidden="true"></i>Highest tier</span><span><i class="spec-key" aria-hidden="true"></i>Mid tier / unranked</span><span><i class="spec-key low" aria-hidden="true"></i>Lowest tier</span><label class="compare-toggle"><input type="checkbox" id="compareToggle"> Compare</label><span id="compareStatus" hidden aria-live="polite"></span><button class="btn primary" id="compareConfirm" type="button" hidden>Confirm comparison</button><button class="column-reset" id="defaultColumnOrder" type="button" title="Restore the original column order">Default columns order</button><details><summary>How tiers are compared</summary><p>Each numeric specification is compared independently within its product category, using the full saved catalog. Resistance levels and motorized speed levels are compared separately. Numeric tiers use distinct advertised values: the upper third is green, the lower third is grey, and the middle is unchanged. Fewer than three distinct values remain unranked. Search, sorting and comparison do not change the colors.</p><p>Treadmill incline tiers compare adjustability: incline + decline is highest, automatic incline is mid, and fixed or manually adjusted incline is lowest. Other motion systems and user-powered speed/drive are unranked. Quoted motor HP is not a standardized continuous-duty rating.</p><p>Elliptical numeric stride lengths are ranked within Ellipticals. Resistance technologies and descriptive rower motion labels stay unranked because they are not directly comparable performance measures.</p><p>Dimensions are copied from your master portfolio. Only treadmill workout dimensions split into length × width; overall or folded elliptical and rower dimensions are not workout-pad dimensions. “-” means information has not been provided. Green indicates a higher specification band, not an overall product recommendation.</p></details></div><div class="tablebox catalog-only">
     <table>
       <thead>
         <tr>
@@ -440,11 +546,11 @@ body.spec-view th.column-hidden,td.column-hidden{min-width:32px!important;width:
   function eyeButton(id){const closed=hiddenColumns.has(id);return `<button class="column-eye" type="button" data-eye="${id}" aria-label="${closed?'Show':'Hide'} ${esc(COLUMN_NAMES[id])}" aria-pressed="${!closed}" title="${closed?'Show':'Hide'} ${esc(COLUMN_NAMES[id])}">${eyeIcon(closed)}</button>`;}
   [...document.querySelectorAll('thead th')].forEach((head,i)=>{const id=COLUMN_IDS[i];head.dataset.col=id;head.innerHTML='<span class="header-label">'+head.innerHTML+'</span><span class="header-controls">'+(!['compare','actions'].includes(id)?`<span class="column-grip" draggable="true" tabindex="0" role="button" aria-label="Move ${esc(COLUMN_NAMES[id])}; use Alt and arrow keys" title="Drag to reorder · Alt + ← / →">⠿</span>`:'')+(SPEC_COLUMNS.some(([key])=>key===id)?eyeButton(id):'')+'</span>';});
   function cellColumn(cell){return cell.dataset.spec||(cell.classList.contains('c-cat')?'category':cell.classList.contains('compare-cell')?'compare':cell.classList.contains('c-sku')?'sku':cell.classList.contains('c-img')?'picture':cell.classList.contains('c-price')?'price':cell.classList.contains('c-link')?'link':'actions');}
-  function applyColumnLayout(){const headRow=$('thead tr');for(const id of columnOrder){const head=headRow.querySelector('[data-col="'+id+'"]');head.classList.toggle('column-hidden',hiddenColumns.has(id));const eye=head.querySelector('[data-eye]');if(eye){eye.outerHTML=eyeButton(id);}headRow.appendChild(head);}for(const row of document.querySelectorAll('#rows tr')){const cells=new Map([...row.children].map(cell=>{const id=cellColumn(cell);cell.dataset.col=id;cell.classList.toggle('column-hidden',hiddenColumns.has(id));cell.setAttribute('aria-hidden',hiddenColumns.has(id)?'true':'false');return[id,cell];}));for(const id of columnOrder)if(cells.has(id))row.appendChild(cells.get(id));}
+  function applyColumnLayout(){const headRow=$('.tablebox thead tr');for(const id of columnOrder){const head=headRow.querySelector('[data-col="'+id+'"]');head.classList.toggle('column-hidden',hiddenColumns.has(id));const eye=head.querySelector('[data-eye]');if(eye){eye.outerHTML=eyeButton(id);}headRow.appendChild(head);}for(const row of document.querySelectorAll('#rows tr')){const cells=new Map([...row.children].map(cell=>{const id=cellColumn(cell);cell.dataset.col=id;cell.classList.toggle('column-hidden',hiddenColumns.has(id));cell.setAttribute('aria-hidden',hiddenColumns.has(id)?'true':'false');return[id,cell];}));for(const id of columnOrder)if(cells.has(id))row.appendChild(cells.get(id));}
     $('.tablebox').style.setProperty('--table-min',(2220-hiddenColumns.size*135)+'px');
     updateFrozenWidths();}
   function moveColumn(id,target){if(id===target)return;const next=columnOrder.filter(key=>key!==id);next.splice(next.indexOf(target),0,id);columnOrder=next;saveColumnLayout();applyColumnLayout();}
-  let draggedColumn=null;const headRow=$('thead tr');headRow.addEventListener('dragstart',e=>{const grip=e.target.closest('.column-grip');if(!grip)return;draggedColumn=grip.closest('th').dataset.col;e.dataTransfer.setData('text/plain',draggedColumn);e.dataTransfer.effectAllowed='move';});headRow.addEventListener('dragover',e=>{if(!draggedColumn)return;e.preventDefault();headRow.querySelectorAll('.drop-column').forEach(h=>h.classList.remove('drop-column'));e.target.closest('th')?.classList.add('drop-column');});headRow.addEventListener('drop',e=>{if(!draggedColumn)return;e.preventDefault();const target=e.target.closest('th')?.dataset.col;if(target)moveColumn(draggedColumn,target);draggedColumn=null;headRow.querySelectorAll('.drop-column').forEach(h=>h.classList.remove('drop-column'));});headRow.addEventListener('dragend',()=>{draggedColumn=null;headRow.querySelectorAll('.drop-column').forEach(h=>h.classList.remove('drop-column'));});
+  let draggedColumn=null;const headRow=$('.tablebox thead tr');headRow.addEventListener('dragstart',e=>{const grip=e.target.closest('.column-grip');if(!grip)return;draggedColumn=grip.closest('th').dataset.col;e.dataTransfer.setData('text/plain',draggedColumn);e.dataTransfer.effectAllowed='move';});headRow.addEventListener('dragover',e=>{if(!draggedColumn)return;e.preventDefault();headRow.querySelectorAll('.drop-column').forEach(h=>h.classList.remove('drop-column'));e.target.closest('th')?.classList.add('drop-column');});headRow.addEventListener('drop',e=>{if(!draggedColumn)return;e.preventDefault();const target=e.target.closest('th')?.dataset.col;if(target)moveColumn(draggedColumn,target);draggedColumn=null;headRow.querySelectorAll('.drop-column').forEach(h=>h.classList.remove('drop-column'));});headRow.addEventListener('dragend',()=>{draggedColumn=null;headRow.querySelectorAll('.drop-column').forEach(h=>h.classList.remove('drop-column'));});
   $('#defaultColumnOrder').addEventListener('click',()=>{columnOrder=[...COLUMN_DEFAULT];saveColumnLayout();applyColumnLayout();});
   function shiftColumn(id,dir){const i=columnOrder.indexOf(id),j=i+dir;if(j<0||j>=columnOrder.length)return;[columnOrder[i],columnOrder[j]]=[columnOrder[j],columnOrder[i]];saveColumnLayout();applyColumnLayout();}
   document.addEventListener('click',e=>{const eye=e.target.closest('[data-eye]');if(eye){e.stopPropagation();const id=eye.dataset.eye;hiddenColumns.has(id)?hiddenColumns.delete(id):hiddenColumns.add(id);saveColumnLayout();applyColumnLayout();return;}});headRow.addEventListener('keydown',e=>{if(e.altKey&&['ArrowLeft','ArrowRight'].includes(e.key)&&e.target.closest('.column-grip')){e.preventDefault();const id=e.target.closest('th').dataset.col;shiftColumn(id,e.key==='ArrowLeft'?-1:1);headRow.querySelector('[data-col="'+id+'"] .column-grip')?.focus();}});
@@ -522,7 +628,7 @@ body.spec-view th.column-hidden,td.column-hidden{min-width:32px!important;width:
     else if (!state.items.length) { st.hidden = false; st.innerHTML = `<h2>No products yet</h2><p>The catalog fills in with each item's category, SKU, picture, price and product link. Add the first one to get started.</p>${state.canWrite ? '<button class="btn primary" type="button" data-add>+ Add New Item</button>' : ""}`; }
     else if (!list.length) { st.hidden = false; st.innerHTML = `<h2>No matches</h2><p>Nothing matches “${esc(state.q)}”${state.cat !== "All" ? " in " + esc(state.cat) : ""}. Try part of the SKU, like 724081, or a word from the name.</p>`; }
     else st.hidden = true;
-    restoreFocus(keep); renderBulkBar(); applyColumnLayout();
+    restoreFocus(keep); renderBulkBar(); applyColumnLayout(); renderPractice();
   }
 
   function compareCell(it){return state.compareMode?`<td class="compare-cell"><input type="checkbox" data-compare="${esc(it.id)}" aria-label="Compare ${esc(it.sku)}" ${state.compareSelected.has(it.id)?'checked':''}></td>`:'';}
@@ -641,7 +747,7 @@ body.spec-view th.column-hidden,td.column-hidden{min-width:32px!important;width:
       $("#bulkInfo").textContent = `Saving ${done + 1} of ${plan.length}…`;
       const d = state.drafts[it.id];
       try {
-        const out = { ...rec, productSpecs:it.productSpecs||null, treadmillSpecs:it.treadmillSpecs||null, priceChecked: !!val(it, "priceChecked"), imageUrl: it.imageUrl, imageAssetId: it.imageAssetId, createdAt: it.createdAt || new Date().toISOString(), updatedAt: new Date().toISOString() };
+        const out = { ...rec, productSpecs:it.productSpecs||null, treadmillSpecs:it.treadmillSpecs||null, priceChecked: !!val(it, "priceChecked"), imageUrl: it.imageUrl, imageAssetId: it.imageAssetId, photoChecked: !d.file && it.photoChecked === true, photoMasks: d.file ? null : it.photoMasks || null, createdAt: it.createdAt || new Date().toISOString(), updatedAt: new Date().toISOString() };
         if (d.file) { if (!state.assets) throw { message: "Picture uploads aren't available in this view." }; const up = await state.assets.upload(d.file); out.imageAssetId = up.id; out.imageUrl = up.url; }
         await state.db.collection("items").doc(nid).set(out);
         if (nid !== it.id) await state.db.collection("items").doc(it.id).delete();
@@ -803,7 +909,7 @@ body.spec-view th.column-hidden,td.column-hidden{min-width:32px!important;width:
     if (!state.db) { msg.textContent = "Saving needs the shared catalog, which isn't available in this view."; return; }
     $("#saveBtn").disabled = true; msg.textContent = "";
     try {
-      const rec = { productSpecs:readEditedSpecs(category), treadmillSpecs:editing?.treadmillSpecs||null, name, sku, category, price, url, imageUrl: editing?.imageUrl || "", imageAssetId: editing?.imageAssetId || "", priceChecked: true, createdAt: editing?.createdAt || new Date().toISOString(), updatedAt: new Date().toISOString() };
+      const rec = { productSpecs:readEditedSpecs(category), treadmillSpecs:editing?.treadmillSpecs||null, name, sku, category, price, url, imageUrl: editing?.imageUrl || "", imageAssetId: editing?.imageAssetId || "", photoChecked: !pendingFile && editing?.photoChecked === true, photoMasks: pendingFile ? null : editing?.photoMasks || null, priceChecked: true, createdAt: editing?.createdAt || new Date().toISOString(), updatedAt: new Date().toISOString() };
       if (pendingFile) {
         if (!state.assets) throw { message: "Picture uploads aren't available in this view." };
         $("#saveBtn").textContent = "Uploading…"; const up = await state.assets.upload(pendingFile); rec.imageAssetId = up.id; rec.imageUrl = up.url;
@@ -839,6 +945,416 @@ body.spec-view th.column-hidden,td.column-hidden{min-width:32px!important;width:
     catch (err) { if (err?.code !== "declined") toast("Couldn't export the file."); }
   });
 
+  // ---------- SKU practice ----------
+  // Study cards and an endless multiple-choice quiz on SKU, item name and price, plus a progress dashboard.
+  // Results belong to the signed-in user: the private Site keeps them in D1 through /api/practice, the
+  // Claude Artifact under data/users/<id>/ in its database. A photo never shows what is being asked:
+  // photoMasks cover a printed SKU, name or price, and a picture nobody has checked stays blurred.
+  const PFIELDS = [["sku", "SKU"], ["name", "Item name"], ["price", "Price"]];
+  const PLABEL = Object.fromEntries(PFIELDS);
+  const pr = { view: "catalog", cats: null, fields: new Set(["sku"]), missedOnly: false, mode: "setup", records: [], loaded: false, store: null, source: "", saveNote: "", session: null, q: null, study: null, range: "30", draw: null, confirmReset: false };
+  try {
+    const v = new URLSearchParams(location.search).get("view"); if (v === "practice" || v === "progress") pr.view = v;
+    const p = JSON.parse(localStorage.getItem("spf.practice.v1") || "null");
+    if (p) { if (Array.isArray(p.cats)) pr.cats = new Set(p.cats); const f = Array.isArray(p.fields) ? p.fields.filter((x) => PLABEL[x]) : []; if (f.length) pr.fields = new Set(f); pr.missedOnly = !!p.missedOnly; }
+  } catch (e) {}
+  function savePrefs() { try { localStorage.setItem("spf.practice.v1", JSON.stringify({ cats: pr.cats ? [...pr.cats] : null, fields: [...pr.fields], missedOnly: pr.missedOnly })); } catch (e) {} }
+
+  const shuffle = (list) => { const a = [...list]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+  const rid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 10);
+  const dayKey = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+  const localDay = (iso) => dayKey(new Date(iso)); // dates and streaks use the viewer's own time zone
+  const fieldValue = (it, f) => f === "price" ? money(it.price) : f === "sku" ? it.sku : it.name;
+  const pct = (c, n) => n ? Math.round(100 * c / n) + "%" : "—";
+  const validRecord = (r) => !!r && typeof r === "object" && typeof r.id === "string" && /^[A-Za-z0-9_-]{1,64}$/.test(r.id) && typeof r.sku === "string" && !!r.sku && !!PLABEL[r.field] && typeof r.correct === "boolean" && typeof r.at === "string" && !isNaN(Date.parse(r.at));
+  const cleanRecord = (r) => ({ id: r.id, at: new Date(r.at).toISOString(), sessionId: String(r.sessionId || "").slice(0, 64), sku: r.sku.slice(0, 100), itemId: String(r.itemId || "").slice(0, 200), category: String(r.category || "").slice(0, 150), field: r.field, correct: r.correct, chosen: String(r.chosen ?? "").slice(0, 1000), answer: String(r.answer ?? "").slice(0, 1000) });
+
+  // ----- where results are kept -----
+  const sitePractice = {
+    load: async () => { const rows = await api("/api/practice"); return Array.isArray(rows) ? rows.filter(validRecord) : []; },
+    add: async (recs) => { for (let i = 0; i < recs.length; i += 50) await api("/api/practice", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ records: recs.slice(i, i + 50) }) }); },
+    clear: () => api("/api/practice", { method: "DELETE" })
+  };
+  // Artifact: documents data/users/<id>/practice-<chunk> in the viewer's private subtree, up to 400 results each.
+  function artifactPractice(db, uid) {
+    const coll = db.collection("data/users/" + uid); let chunk = null;
+    return {
+      load: async () => { const snap = await coll.get(); const out = []; for (const d of snap.docs) { if (!d.exists || !d.id.startsWith("practice-")) continue; const x = d.data() || {}; if (Array.isArray(x.records)) out.push(...x.records.filter(validRecord)); } return out; },
+      add: async (recs) => {
+        for (let i = 0; i < recs.length; i += 400) {
+          const part = recs.slice(i, i + 400);
+          if (!chunk || chunk.records.length + part.length > 400) chunk = { id: "practice-" + rid(), records: [] };
+          chunk.records.push(...part);
+          await coll.doc(chunk.id).set({ kind: "sku-practice", version: 1, records: chunk.records, updatedAt: new Date().toISOString() });
+        }
+      },
+      clear: async () => { const snap = await coll.get(); for (const d of snap.docs) if (d.id.startsWith("practice-")) await coll.doc(d.id).delete(); chunk = null; }
+    };
+  }
+  async function initPractice(runtime, db, user) {
+    try {
+      if (runtime) { const uid = user && typeof user.id === "function" ? await user.id() : null; pr.store = uid && db ? artifactPractice(db, uid) : null; pr.source = "claude-artifact"; }
+      else { const s = await api("/api/session").catch(() => null); pr.store = s && s.practice ? sitePractice : null; pr.source = "private-site"; }
+      if (pr.store) pr.records = (await pr.store.load()).map(cleanRecord);
+    } catch (e) { pr.store = null; pr.saveNote = "Your saved results couldn't load, so this visit isn't saved."; }
+    pr.loaded = true; if (pr.view !== "catalog") renderPractice();
+  }
+  let saveChain = Promise.resolve();
+  function savePractice(recs) {
+    if (!pr.store) return;
+    saveChain = saveChain.then(() => pr.store.add(recs)).then(() => { if (pr.saveNote) { pr.saveNote = ""; renderPractice(); } })
+      .catch(() => { pr.saveNote = "The last answer couldn't be saved. It still counts in this session."; toast("Couldn't save that answer"); renderPractice(); });
+  }
+
+  // ----- picking questions -----
+  function practiceCats() { const all = categories().map(([c]) => c); return pr.cats ? all.filter((c) => pr.cats.has(c)) : all; }
+  function itemStats(records = pr.records) {
+    const m = new Map();
+    for (const r of records) {
+      let s = m.get(r.sku); if (!s) m.set(r.sku, s = { sku: r.sku, itemId: r.itemId, category: r.category, n: 0, c: 0, list: [], fields: {} });
+      s.n++; if (r.correct) s.c++; s.list.push(r); const f = s.fields[r.field] || (s.fields[r.field] = { n: 0, c: 0 }); f.n++; if (r.correct) f.c++;
+    }
+    for (const s of m.values()) {
+      s.list.sort((a, b) => a.at < b.at ? -1 : a.at > b.at ? 1 : 0);
+      const recent = s.list.slice(-8); s.recentN = recent.length; s.recentAcc = recent.filter((r) => r.correct).length / recent.length;
+      s.last = s.list[s.list.length - 1]; s.mastered = s.recentN >= 4 && s.recentAcc >= 0.75;
+    }
+    return m;
+  }
+  // Missed items come up most; once an item is 75% correct over its last 8 answers (at least 4) it shows up far less.
+  const weightFor = (s) => !s ? 3 : s.mastered ? 0.5 : 1 + 4 * (1 - s.recentAcc) + (s.last && !s.last.correct ? 2 : 0);
+  function pool() {
+    const cats = new Set(practiceCats()), seen = new Set(), out = [];
+    for (const it of state.items) {
+      if (!cats.has(it.category) || !imgSrc(it) || seen.has(it.sku)) continue; // a product listed in two categories counts once
+      if (pr.fields.has("price") && typeof it.price !== "number") continue;
+      seen.add(it.sku); out.push(it);
+    }
+    if (!pr.missedOnly) return out;
+    const st = itemStats(); return out.filter((it) => { const s = st.get(it.sku); return s && !s.mastered && s.recentAcc < 0.75; });
+  }
+  function weightedOrder(list) { const st = itemStats(); return list.map((it) => ({ it, k: Math.pow(Math.random(), 1 / weightFor(st.get(it.sku))) })).sort((a, b) => b.k - a.k).map((x) => x.it); }
+  function pickItem(list) {
+    const cand = list.length > 1 ? list.filter((it) => it.sku !== pr.session.lastSku) : list; // never the same item twice in a row
+    const w = cand.map((it) => weightFor(pr.session.stats.get(it.sku))); let t = Math.random() * w.reduce((a, b) => a + b, 0);
+    for (let i = 0; i < cand.length; i++) { t -= w[i]; if (t <= 0) return cand[i]; }
+    return cand[cand.length - 1];
+  }
+  // Two wrong answers per field: same category first, then the rest of the catalog; all three values distinct.
+  function choicesFor(it, f) {
+    const key = (v) => f === "price" ? String(Math.round(v * 100)) : String(v).trim().toLowerCase();
+    const correct = f === "price" ? it.price : fieldValue(it, f), picked = [correct], keys = new Set([key(correct)]);
+    const others = [...shuffle(state.items.filter((o) => o.category === it.category)), ...shuffle(state.items.filter((o) => o.category !== it.category))];
+    for (const o of others) {
+      if (picked.length === 3) break;
+      const v = f === "price" ? o.price : fieldValue(o, f);
+      if (f === "price" ? typeof v !== "number" || picked.some((p) => Math.abs(p - v) < 1) : !v || keys.has(key(v))) continue;
+      picked.push(v); keys.add(key(v));
+    }
+    for (let k = 1; f === "price" && picked.length < 3 && k < 20; k++) { const v = Math.max(1, Math.round(correct * (1 + (k % 2 ? 0.1 : -0.1) * Math.ceil(k / 2)))) - 0.01; if (!picked.some((p) => Math.abs(p - v) < 1)) picked.push(v); }
+    return shuffle(picked).map((v) => ({ value: f === "price" ? money(v) : String(v), correct: key(v) === key(correct) }));
+  }
+  function startPractice(mode) {
+    if (!pr.loaded) { toast("Loading your results…"); return; }
+    if (mode === "quiz" && !pr.fields.size) { toast("Choose what to practice: SKU, item name or price"); return; }
+    const list = pool();
+    if (!list.length) { toast(pr.missedOnly ? "Nothing missed in these categories. Turn off “Review missed items only”." : "Choose at least one category"); return; }
+    pr.draw = null; pr.confirmReset = false;
+    if (mode === "study") { pr.study = { order: weightedOrder(list).map((it) => it.id), i: 0 }; pr.mode = "study"; renderPractice(); return; }
+    pr.session = { id: rid(), n: 0, results: [], lastSku: null, stats: itemStats() }; pr.mode = "quiz"; nextQuestion();
+  }
+  function nextQuestion() {
+    const list = pool(); if (!list.length) { stopQuiz(); return; }
+    const it = pickItem(list), fields = PFIELDS.map(([f]) => f).filter((f) => pr.fields.has(f));
+    pr.session.lastSku = it.sku; pr.session.n++; pr.draw = null;
+    pr.q = { it, fields, choices: Object.fromEntries(fields.map((f) => [f, choicesFor(it, f)])), answers: {}, done: false };
+    renderPractice(); new Image().src = imgSrc(it);
+    const first = document.querySelector("#practiceView .qcell"); if (first && !matchMedia("(hover: none)").matches) first.focus({ preventScroll: true });
+  }
+  function answer(f, i) {
+    const q = pr.q; if (!q || q.done || q.answers[f] != null || !q.choices[f] || !q.choices[f][i]) return;
+    q.answers[f] = i;
+    if (q.fields.every((x) => q.answers[x] != null)) {
+      q.done = true; const at = new Date().toISOString();
+      const recs = q.fields.map((x) => ({ id: rid(), at, sessionId: pr.session.id, sku: q.it.sku, itemId: q.it.id, category: q.it.category, field: x, correct: q.choices[x][q.answers[x]].correct, chosen: q.choices[x][q.answers[x]].value, answer: fieldValue(q.it, x) }));
+      pr.session.results.push(...recs); pr.records.push(...recs); pr.session.stats = itemStats(); savePractice(recs);
+    }
+    renderPractice();
+    if (q.done) $("#pNext")?.focus({ preventScroll: true }); else document.querySelector("#practiceView .qcell:not(:disabled)")?.focus({ preventScroll: true });
+  }
+  function stopQuiz() { pr.q = null; pr.draw = null; pr.mode = pr.session && pr.session.results.length ? "summary" : "setup"; renderPractice(); window.scrollTo({ top: 0 }); }
+  function stepStudy(d) { const s = pr.study; if (!s) return; const i = Math.min(s.order.length - 1, Math.max(0, s.i + d)); if (i === s.i) return; s.i = i; renderPractice(); const n = byId(s.order[i + d]); if (n) new Image().src = imgSrc(n); }
+
+  // ----- hiding text the checker missed -----
+  async function saveMask(field) {
+    const q = pr.q, box = pr.draw && pr.draw.box; if (!q || !box || !state.db) return;
+    const masks = JSON.parse(JSON.stringify(q.it.photoMasks || {})); (masks[field] = masks[field] || []).push(box.map((n) => Math.round(n * 1000) / 1000));
+    const same = state.items.filter((o) => o.sku === q.it.sku && imgSrc(o) === imgSrc(q.it)); // the same picture listed in two categories
+    try {
+      for (const o of same.length ? same : [q.it]) await state.db.collection("items").doc(o.id).set(itemRecord(o, { photoMasks: masks }));
+      q.it.photoMasks = masks; pr.draw = null; toast("Saved. That part of the photo stays covered");
+    } catch (err) { toast(err?.message || "Couldn't save. Try again"); }
+    renderPractice();
+  }
+  const itemRecord = (it, extra = {}) => ({ productSpecs: it.productSpecs || null, treadmillSpecs: it.treadmillSpecs || null, name: it.name, sku: it.sku, category: it.category, price: it.price, priceChecked: !!it.priceChecked, url: it.url, imageUrl: it.imageUrl, imageAssetId: it.imageAssetId, photoChecked: it.photoChecked === true, photoMasks: it.photoMasks || null, createdAt: it.createdAt || new Date().toISOString(), updatedAt: new Date().toISOString(), ...extra });
+
+  // ----- rendering -----
+  function setView(v) {
+    if (v === pr.view) return;
+    if (state.editMode) { toast("Finish bulk edit first"); return; }
+    pr.view = v; pr.confirmReset = false; closeModals(); sug.hidden = true;
+    try { const u = new URL(location.href); if (v === "catalog") u.searchParams.delete("view"); else u.searchParams.set("view", v); history.replaceState(null, "", u); } catch (e) {}
+    render(); window.scrollTo({ top: 0 });
+  }
+  $("#views").addEventListener("click", (e) => { const b = e.target.closest("[data-view]"); if (b) setView(b.dataset.view); });
+  const saveLine = () => !pr.loaded ? "Loading your saved results…" : pr.saveNote ? pr.saveNote : pr.store ? "Your results are saved to your account." : "Results aren't saved in this view. Sign in to keep your progress.";
+  function renderPractice() {
+    document.body.dataset.view = pr.view;
+    document.querySelectorAll("#views [data-view]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === pr.view)));
+    $("#practiceView").hidden = pr.view !== "practice"; $("#progressView").hidden = pr.view !== "progress";
+    if (pr.view === "practice") {
+      $("#title").textContent = "SKU Practice";
+      $("#sub").textContent = "Learn the line-up with study cards and a quiz. Items you miss come back more often until you get them right 75% of the time.";
+      $("#practiceView").innerHTML = !state.loaded ? `<div class="state"><h2>Loading products</h2></div>` : pr.mode === "study" ? studyHtml() : pr.mode === "quiz" && pr.q ? quizHtml() : pr.mode === "summary" ? summaryHtml() : setupHtml();
+    } else if (pr.view === "progress") {
+      $("#title").textContent = "Progress";
+      $("#sub").textContent = "How you're doing by SKU, item name and price, by category and by product, over time.";
+      $("#progressView").innerHTML = progressHtml(); wireChart();
+    }
+  }
+  function setupHtml() {
+    const counts = {}; const seen = new Set();
+    for (const it of state.items) { const k = it.category + "|" + it.sku; if (!imgSrc(it) || seen.has(k)) continue; seen.add(k); counts[it.category] = (counts[it.category] || 0) + 1; }
+    const cats = categories().map(([c]) => c), chosen = new Set(practiceCats()), n = pr.loaded ? pool().length : 0;
+    return `<div class="pv-panel"><h2>1. Categories</h2><p class="pv-help">Questions only use the categories you tick.</p><div class="chips">
+        <label class="chip"><input type="checkbox" data-pcatall ${chosen.size === cats.length ? "checked" : ""}> All categories</label>
+        ${cats.map((c) => `<label class="chip"><input type="checkbox" data-pcat="${esc(c)}" ${chosen.has(c) ? "checked" : ""}> ${esc(c)} <small>${counts[c] || 0}</small></label>`).join("")}</div></div>
+      <div class="pv-panel"><h2>2. What to practice</h2><p class="pv-help">Pick one, two or all three. With more than one you answer in a table, one column each. The photo and the info shown never give away what's being asked.</p><div class="chips">
+        ${PFIELDS.map(([f, l]) => `<label class="chip"><input type="checkbox" data-pfield="${f}" ${pr.fields.has(f) ? "checked" : ""}> ${l}</label>`).join("")}</div>
+        <label class="chip wide"><input type="checkbox" data-pmissed ${pr.missedOnly ? "checked" : ""}> Review missed items only <small>under 75% correct</small></label></div>
+      <div class="pv-actions"><button class="btn" type="button" data-pstart="study">Study cards</button><button class="btn primary" type="button" data-pstart="quiz">Start quiz</button>
+        <span class="pv-note">${pr.loaded ? `${n} product${n === 1 ? "" : "s"} in this practice. ` : ""}<span class="${pr.saveNote ? "warn" : ""}">${esc(saveLine())}</span></span></div>`;
+  }
+  function photoHtml(it, hideFields, { id = "", nav = "" } = {}) {
+    const unchecked = hideFields.length && it.photoChecked !== true;
+    const masks = hideFields.flatMap((f) => (it.photoMasks && it.photoMasks[f]) || []);
+    return `<div class="qphoto${unchecked ? " unchecked" : ""}${pr.draw && id === "qPhoto" ? " drawing" : ""}"${id ? ` id="${id}"` : ""}>${nav ? nav.split("|")[0] : ""}<img src="${esc(imgSrc(it))}" alt="Product picture" draggable="false">
+      ${masks.map(([x, y, w, h]) => `<span class="pmask" style="left:${x * 100}%;top:${y * 100}%;width:${w * 100}%;height:${h * 100}%"></span>`).join("")}
+      ${pr.draw && pr.draw.box && id === "qPhoto" ? `<span class="pdraw" style="left:${pr.draw.box[0] * 100}%;top:${pr.draw.box[1] * 100}%;width:${pr.draw.box[2] * 100}%;height:${pr.draw.box[3] * 100}%"></span>` : ""}
+      ${unchecked ? '<span class="pnote">This photo hasn\'t been checked for printed text yet, so it stays blurred until you answer.</span>' : ""}${nav ? nav.split("|")[1] : ""}</div>`;
+  }
+  function infoHtml(it, hide = []) {
+    return `<dl class="qinfo">${PFIELDS.map(([f, l]) => `<dt>${l}</dt><dd class="${f}">${hide.includes(f) ? '<span class="hidden-val" aria-label="Hidden until you answer">••••••••</span>' : esc(fieldValue(it, f))}</dd>`).join("")}<dt>Category</dt><dd><span class="cat">${esc(it.category)}</span></dd></dl>`;
+  }
+  function studyHtml() {
+    const s = pr.study, ids = s.order.filter((id) => byId(id)); if (!ids.length) { pr.mode = "setup"; return setupHtml(); }
+    s.order = ids; s.i = Math.min(s.i, ids.length - 1); const it = byId(ids[s.i]), st = itemStats().get(it.sku);
+    const nav = `<button class="lbnav prev" type="button" data-pact="prev" aria-label="Previous card" ${s.i === 0 ? "disabled" : ""}>&#8249;</button>|<button class="lbnav next" type="button" data-pact="next" aria-label="Next card" ${s.i >= ids.length - 1 ? "disabled" : ""}>&#8250;</button>`;
+    return `<div class="qbar"><span class="score">Study cards · <b>${s.i + 1}</b> of <b>${ids.length}</b></span><button class="btn" type="button" data-pact="shuffle">Shuffle</button><button class="btn primary" type="button" data-pstart="quiz">Start quiz</button><button class="btn" type="button" data-pact="setup">Done</button></div>
+      <div class="qwrap"><div id="pStage">${photoHtml(it, [], { nav })}</div><div class="pv-panel">${infoHtml(it)}
+        <p class="study-meta">${st ? `You've answered this item ${st.n} time${st.n === 1 ? "" : "s"}, ${pct(st.c, st.n)} correct${st.mastered ? " · mastered" : ""}.` : "You haven't been quizzed on this item yet."} Use ‹ › , the arrow keys, the mouse wheel or swipe to move between cards.</p></div></div>`;
+  }
+  function quizHtml() {
+    const q = pr.q, it = q.it, res = pr.session.results, ok = res.filter((r) => r.correct).length, hide = q.done ? [] : q.fields;
+    const cols = q.fields.map((f) => {
+      const chosen = q.answers[f], answered = chosen != null;
+      return `<div class="qcol" role="group" aria-label="${PLABEL[f]}"><h3>${PLABEL[f]}</h3>${q.choices[f].map((c, i) => {
+        const cls = answered ? (c.correct ? " right" : i === chosen ? " wrong" : "") : "";
+        const mark = answered ? (c.correct ? (i === chosen ? "✓ Correct" : "✓ Answer") : i === chosen ? "✗ Your pick" : "") : "";
+        return `<button class="qcell${cls}" type="button" data-pans="${f}" data-i="${i}" ${answered ? "disabled" : ""} aria-label="${PLABEL[f]} option ${i + 1}: ${esc(c.value)}${mark ? ", " + mark.slice(2) : ""}"><span class="k">${i + 1}</span><span class="v${f === "name" ? "" : " num"}">${esc(c.value)}</span>${mark ? `<span class="m">${mark}</span>` : ""}</button>`;
+      }).join("")}</div>`;
+    }).join("");
+    const got = q.done ? q.fields.filter((f) => q.choices[f][q.answers[f]].correct).length : 0;
+    const drawBar = !pr.draw ? "" : `<div class="drawbar">${pr.draw.box ? `Cover this part when asking the: ${PFIELDS.map(([f, l]) => `<button class="btn" type="button" data-pmask="${f}">${l}</button>`).join("")}` : "Drag a box over the printed text on the photo."}<button class="btn" type="button" data-pact="draw-cancel">Cancel</button></div>`;
+    return `<div class="qbar"><span class="score">Question <b>${pr.session.n}</b> · <b>${ok}</b> of <b>${res.length}</b> correct${res.length ? ` (${pct(ok, res.length)})` : ""}</span>
+        ${state.canWrite && state.db && !pr.draw ? '<button class="btn" type="button" data-pact="draw" title="Cover printed text that gives the answer away">Hide part of photo</button>' : ""}
+        <button class="btn primary" type="button" id="pNext" data-pact="next-q" ${q.done ? "" : "disabled"}>Next question</button><button class="btn" type="button" data-pact="stop">Stop</button></div>
+      <div class="qwrap"><div>${photoHtml(it, hide, { id: "qPhoto" })}${drawBar}${infoHtml(it, hide)}</div>
+        <div><p class="pv-help">${q.fields.length > 1 ? "Pick one answer in each column." : "Pick the right answer."} Keys 1–3 work too${q.done ? "; Enter goes to the next question" : ""}.</p>
+          <div class="qgrid" style="--cols:${q.fields.length}">${cols}</div>
+          ${q.done ? `<p class="qfeed" role="status">${got === q.fields.length ? "All correct." : `${got} of ${q.fields.length} correct. The right answer${q.fields.length - got === 1 ? " is" : "s are"} in green.`}</p>` : ""}
+          ${pr.saveNote ? `<p class="pv-note warn">${esc(pr.saveNote)}</p>` : ""}</div></div>`;
+  }
+  function summaryHtml() {
+    const res = pr.session.results, ok = res.filter((r) => r.correct).length, questions = new Set(res.map((r) => r.at + r.sku)).size;
+    const missed = new Map(); for (const r of res) if (!r.correct) { const m = missed.get(r.sku) || { sku: r.sku, id: r.itemId, fields: [] }; m.fields.push(PLABEL[r.field]); missed.set(r.sku, m); }
+    const rows = [...missed.values()].map((m) => { const it = byId(m.id) || state.items.find((x) => x.sku === m.sku); return `<tr><td>${it && imgSrc(it) ? `<img src="${esc(imgSrc(it))}" alt="">` : ""}</td><td><div class="skuc">${esc(m.sku)}</div><div class="nm">${esc(it ? it.name : "")}</div></td><td>${it ? money(it.price) : ""}</td><td>${esc([...new Set(m.fields)].join(", "))}</td></tr>`; }).join("");
+    return `<div class="qbar"><span class="score">Session finished · <b>${questions}</b> question${questions === 1 ? "" : "s"}</span><button class="btn primary" type="button" data-pstart="quiz">Practice again</button><button class="btn" type="button" data-pact="setup">Change setup</button><button class="btn" type="button" data-pact="progress">See progress</button></div>
+      <div class="tiles"><div class="tile"><div class="v">${pct(ok, res.length)}</div><div class="l">${ok} of ${res.length} answers correct</div></div>
+        ${PFIELDS.filter(([f]) => res.some((r) => r.field === f)).map(([f, l]) => { const rr = res.filter((r) => r.field === f), c = rr.filter((r) => r.correct).length; return `<div class="tile"><div class="v">${pct(c, rr.length)}</div><div class="l">${l}: ${c} of ${rr.length}</div></div>`; }).join("")}</div>
+      <div class="pv-panel"><h2>${missed.size ? "Missed this session" : "Nothing missed this session"}</h2>${missed.size ? `<p class="pv-help">These come back sooner next time.</p><div class="pscroll"><table class="ptable"><thead><tr><th></th><th>SKU / Item</th><th>Price</th><th>Missed</th></tr></thead><tbody>${rows}</tbody></table></div>` : '<p class="pv-help">Every answer was right.</p>'}</div>`;
+  }
+
+  // ----- progress dashboard -----
+  function streak(records) {
+    const days = new Set(records.map((r) => localDay(r.at))); let n = 0; const d = new Date();
+    if (!days.has(dayKey(d))) d.setDate(d.getDate() - 1); // today not practised yet still keeps yesterday's streak
+    while (days.has(dayKey(d))) { n++; d.setDate(d.getDate() - 1); }
+    return n;
+  }
+  function itemCell(sku, s) { const it = state.items.find((x) => x.sku === sku); return `<td>${it && imgSrc(it) ? `<img src="${esc(imgSrc(it))}" alt="">` : ""}</td><td><div class="skuc">${esc(sku)}</div><div class="nm">${esc(it ? it.name : "Not in the catalog any more")}</div></td><td>${esc(it ? it.category : s.category)}</td>`; }
+  function progressHtml() {
+    const since = pr.range === "all" ? 0 : Date.now() - Number(pr.range) * 864e5, recs = pr.records.filter((r) => Date.parse(r.at) >= since);
+    const tools = `<div class="pv-tools"><label class="chip" style="padding:0;border:0;background:none">Show <select id="pRange" aria-label="Time range">${[["7", "Last 7 days"], ["30", "Last 30 days"], ["90", "Last 90 days"], ["all", "All time"]].map(([v, l]) => `<option value="${v}" ${pr.range === v ? "selected" : ""}>${l}</option>`).join("")}</select></label>
+      <button class="btn" type="button" data-pact="export-csv" ${pr.records.length && state.downloads ? "" : "disabled"}>Export CSV</button><button class="btn" type="button" data-pact="export-json" ${pr.records.length && state.downloads ? "" : "disabled"}>Export results file</button>
+      <button class="btn" type="button" data-pact="import" ${pr.store ? "" : "disabled"}>Import results</button><button class="btn" type="button" data-pact="reset" ${pr.records.length && pr.store ? "" : "disabled"}>Reset progress</button>
+      <span class="pv-note"><span class="${pr.saveNote ? "warn" : ""}">${esc(saveLine())}</span></span></div>
+      ${pr.confirmReset ? `<div class="confirm" role="alert">Delete all ${pr.records.length} saved practice results? This can't be undone. <button class="btn danger" type="button" data-pact="reset-yes">Delete results</button><button class="btn" type="button" data-pact="reset-no">Cancel</button></div>` : ""}`;
+    if (!pr.loaded) return tools + `<div class="state"><h2>Loading your results</h2></div>`;
+    if (!recs.length) return tools + `<div class="state"><h2>No practice results ${pr.records.length ? "in this time range" : "yet"}</h2><p>Answer a few quiz questions and your progress shows up here: by SKU, item name and price, by category and by product.</p><button class="btn primary" type="button" data-pact="go-practice">Start practicing</button></div>`;
+    const ok = recs.filter((r) => r.correct).length, allStats = itemStats(), stats = itemStats(recs), practised = [...allStats.values()].filter((s) => stats.has(s.sku));
+    const byField = PFIELDS.map(([f, l]) => { const rr = recs.filter((r) => r.field === f); return { f, l, n: rr.length, c: rr.filter((r) => r.correct).length }; }).filter((x) => x.n);
+    const best = [...byField].sort((a, b) => b.c / b.n - a.c / a.n)[0], worst = [...byField].sort((a, b) => (b.n - b.c) - (a.n - a.c) || a.c / a.n - b.c / b.n)[0];
+    const tiles = `<div class="tiles"><div class="tile"><div class="v">${recs.length}</div><div class="l">answers</div></div><div class="tile"><div class="v">${pct(ok, recs.length)}</div><div class="l">correct overall</div></div>
+      <div class="tile"><div class="v">${new Set(recs.map((r) => localDay(r.at))).size}</div><div class="l">days practiced</div></div><div class="tile"><div class="v">${streak(pr.records)}</div><div class="l">day streak</div></div>
+      <div class="tile"><div class="v">${practised.filter((s) => s.mastered).length}<small style="font-size:16px;color:var(--muted)"> / ${practised.length}</small></div><div class="l">products mastered (75%+)</div></div></div>`;
+    const fields = `<div class="pv-panel"><h2>By field</h2><p class="pv-help">${byField.length > 1 ? `Most correct: <b>${best.l}</b> (${pct(best.c, best.n)}). Most missed: <b>${worst.l}</b> (${worst.n - worst.c} missed).` : `${byField[0].l} only so far.`}</p>
+      ${byField.map((x) => `<div class="fbar"><span>${x.l}</span><span class="track" role="img" aria-label="${x.l} ${pct(x.c, x.n)} correct"><span class="fill" style="display:block;width:${100 * x.c / x.n}%;background:var(--s-${x.f})"></span></span><span class="num">${pct(x.c, x.n)} · ${x.c} of ${x.n}</span></div>`).join("")}</div>`;
+    const days = pr.range === "all" ? Math.min(90, Math.max(7, Math.ceil((Date.now() - Math.min(...recs.map((r) => Date.parse(r.at)))) / 864e5) + 1)) : Number(pr.range);
+    const chart = `<div class="pv-panel"><h2>Daily accuracy</h2><p class="pv-help">Share of answers right each day, last ${days} days. Hover or tap a day for the numbers.</p>${trendHtml(recs, days)}</div>`;
+    const cats = [...new Set(recs.map((r) => r.category))].sort((a, b) => { const ra = SITE_ORDER.indexOf(a), rb = SITE_ORDER.indexOf(b); return (ra < 0 ? 99 : ra) - (rb < 0 ? 99 : rb) || a.localeCompare(b); });
+    const cell = (rr) => { const c = rr.filter((r) => r.correct).length; return rr.length ? `${pct(c, rr.length)} <span class="pv-note">(${rr.length})</span>` : `<span class="pv-note">—</span>`; };
+    const catTable = `<div class="pv-panel"><h2>By category</h2><p class="pv-help">Accuracy, with the number of answers in brackets.</p><div class="pscroll"><table class="ptable"><thead><tr><th>Category</th>${PFIELDS.map(([, l]) => `<th>${l}</th>`).join("")}<th>Overall</th></tr></thead><tbody>
+      ${cats.map((c) => { const rr = recs.filter((r) => r.category === c); return `<tr><td><span class="cat">${esc(c || "Other")}</span></td>${PFIELDS.map(([f]) => `<td>${cell(rr.filter((r) => r.field === f))}</td>`).join("")}<td><b>${cell(rr)}</b></td></tr>`; }).join("")}</tbody></table></div></div>`;
+    const status = (sku) => { const s = allStats.get(sku); return s.mastered ? '<span class="tag ok">Mastered</span>' : s.recentAcc < 0.5 ? '<span class="tag miss">Needs work</span>' : '<span class="tag learn">Learning</span>'; };
+    const fieldsMissed = (s) => PFIELDS.filter(([f]) => s.fields[f] && s.fields[f].c < s.fields[f].n).map(([f, l]) => `${l} ${s.fields[f].n - s.fields[f].c}`).join(", ");
+    const missedList = [...stats.values()].filter((s) => s.c < s.n).sort((a, b) => (b.n - b.c) - (a.n - a.c) || a.c / a.n - b.c / b.n).slice(0, 10);
+    const bestList = [...stats.values()].filter((s) => s.c > 0).sort((a, b) => b.c / b.n - a.c / a.n || b.n - a.n).slice(0, 10);
+    const itemTable = (title, help, list, extra) => `<div class="pv-panel"><h2>${title}</h2><p class="pv-help">${help}</p>${list.length ? `<div class="pscroll"><table class="ptable"><thead><tr><th></th><th>SKU / Item</th><th>Category</th><th>Answers</th><th>Correct</th><th>${extra[0]}</th></tr></thead><tbody>
+      ${list.map((s) => `<tr>${itemCell(s.sku, s)}<td>${s.n}</td><td>${pct(s.c, s.n)}</td><td>${extra[1](s)}</td></tr>`).join("")}</tbody></table></div>` : '<p class="pv-note">None yet.</p>'}</div>`;
+    return tools + tiles + fields + chart + catTable + `<div class="prow">${itemTable("Most missed products", "Most wrong answers first. These come up more in the quiz.", missedList, ["Missed", (s) => esc(fieldsMissed(s)) + " " + status(s.sku)])}${itemTable("Best known products", "Highest share of right answers.", bestList, ["Status", (s) => status(s.sku)])}</div>`;
+  }
+  // Daily accuracy per field: one line per field (2px, 4px markers), direct labels at the line ends, crosshair tooltip and a table view.
+  function trendHtml(recs, days) {
+    const keys = []; const d = new Date(); d.setDate(d.getDate() - days + 1); for (let i = 0; i < days; i++) { keys.push(dayKey(d)); d.setDate(d.getDate() + 1); }
+    const agg = {}; for (const r of recs) { const k = localDay(r.at); const a = ((agg[r.field] = agg[r.field] || {})[k] = agg[r.field][k] || { n: 0, c: 0 }); a.n++; if (r.correct) a.c++; }
+    const series = PFIELDS.filter(([f]) => agg[f]);
+    const W = Math.round(Math.max(300, Math.min(1100, ($("#progressView").clientWidth || 760) - 42))), H = W < 500 ? 200 : 240, L = 40, R = 96, T = 12, B = 28, x = (i) => L + (days === 1 ? 0 : i * (W - L - R) / (days - 1)), y = (v) => T + (1 - v) * (H - T - B);
+    const label = (k) => { const [, m, dd] = k.split("-"); return Number(m) + "/" + Number(dd); };
+    let svg = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Daily accuracy by field over the last ${days} days">`;
+    for (const v of [0, 0.5, 1]) svg += `<line class="grid" x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}"/><text class="axis" x="${L - 6}" y="${y(v) + 4}" text-anchor="end">${v * 100}%</text>`;
+    for (const i of [0, Math.floor((days - 1) / 2), days - 1]) svg += `<text class="axis" x="${x(i)}" y="${H - 8}" text-anchor="middle">${label(keys[i])}</text>`;
+    const ends = [];
+    for (const [f, l] of series) {
+      let path = "", prev = false, dots = "", last = null;
+      keys.forEach((k, i) => { const a = agg[f][k]; if (!a) { prev = false; return; } const px = x(i), py = y(a.c / a.n); path += (prev ? "L" : "M") + px.toFixed(1) + " " + py.toFixed(1); prev = true; dots += `<circle cx="${px.toFixed(1)}" cy="${py.toFixed(1)}" r="4" fill="var(--s-${f})" stroke="var(--surface)" stroke-width="2"/>`; last = { f, l, px, py, v: a.c / a.n }; });
+      svg += `<path d="${path}" fill="none" stroke="var(--s-${f})" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>${dots}`;
+      if (last) ends.push(last);
+    }
+    ends.sort((a, b) => a.py - b.py); for (let i = 1; i < ends.length; i++) if (ends[i].py - ends[i - 1].py < 15) ends[i].py = ends[i - 1].py + 15; // keep end labels apart
+    for (const e of ends) svg += `<text class="dlabel" x="${W - R + 10}" y="${e.py + 4}">${e.l} ${Math.round(e.v * 100)}%</text>`;
+    svg += `<line class="cross" id="pCross" x1="0" x2="0" y1="${T}" y2="${H - B}" visibility="hidden"/><rect id="pHit" x="${L - 10}" y="0" width="${W - L - R + 20}" height="${H}" fill="transparent"/></svg>`;
+    pr.chart = { keys, agg, series, W, L, R, days, x };
+    const legend = series.length > 1 ? `<div class="legend">${series.map(([f, l]) => `<span><i style="background:var(--s-${f})"></i>${l}</span>`).join("")}</div>` : "";
+    const table = `<details style="margin-top:10px"><summary class="pv-note" style="cursor:pointer">Show as a table</summary><div class="pscroll"><table class="ptable"><thead><tr><th>Day</th>${series.map(([, l]) => `<th>${l}</th>`).join("")}</tr></thead><tbody>
+      ${keys.filter((k) => series.some(([f]) => agg[f][k])).reverse().map((k) => `<tr><td>${label(k)}</td>${series.map(([f]) => { const a = agg[f][k]; return `<td>${a ? `${pct(a.c, a.n)} (${a.c}/${a.n})` : "—"}</td>`; }).join("")}</tr>`).join("")}</tbody></table></div></details>`;
+    return legend + `<div class="chartbox" id="pChart">${svg}<div class="ctip" id="pTip" hidden></div></div>` + table;
+  }
+  function wireChart() {
+    const box = $("#pChart"); if (!box || !pr.chart) return; const hit = $("#pHit"), tip = $("#pTip"), cross = $("#pCross"), c = pr.chart;
+    const show = (clientX) => {
+      const r = box.querySelector("svg").getBoundingClientRect(), sx = (clientX - r.left) * c.W / r.width;
+      const i = Math.max(0, Math.min(c.days - 1, Math.round(c.days === 1 ? 0 : (sx - c.L) * (c.days - 1) / (c.W - c.L - c.R)))), k = c.keys[i];
+      cross.setAttribute("x1", c.x(i)); cross.setAttribute("x2", c.x(i)); cross.setAttribute("visibility", "visible");
+      const [, m, dd] = k.split("-"); const rows = c.series.map(([f, l]) => { const a = c.agg[f][k]; return `<div><i style="background:var(--s-${f})"></i>${l}: ${a ? `${pct(a.c, a.n)} (${a.c}/${a.n})` : "no answers"}</div>`; }).join("");
+      tip.innerHTML = `<b>${Number(m)}/${Number(dd)}</b>${rows}`; tip.hidden = false;
+      const px = c.x(i) * r.width / c.W; tip.style.left = Math.min(Math.max(0, px + 12), r.width - tip.offsetWidth) + "px"; tip.style.top = "8px";
+    };
+    const hide = () => { tip.hidden = true; cross.setAttribute("visibility", "hidden"); };
+    hit.addEventListener("pointermove", (e) => show(e.clientX)); hit.addEventListener("pointerdown", (e) => show(e.clientX)); hit.addEventListener("pointerleave", hide);
+  }
+
+  // ----- export / import / reset -----
+  async function exportPractice(kind) {
+    if (!state.downloads || !pr.records.length) return;
+    const rows = [...pr.records].sort((a, b) => a.at < b.at ? -1 : 1);
+    let data, filename;
+    if (kind === "csv") {
+      const cell = (v) => '"' + String(v ?? "").replace(/"/g, '""') + '"', nameOf = (sku) => (state.items.find((x) => x.sku === sku) || {}).name || "";
+      data = new Blob([[["Date", "Time", "Category", "SKU", "Item", "Field", "Your answer", "Correct answer", "Result"].map(cell).join(","), ...rows.map((r) => { const t = new Date(r.at); return [localDay(r.at), t.toLocaleTimeString("en-US", { hour: "2-digit", minute: "2-digit" }), r.category, r.sku, nameOf(r.sku), PLABEL[r.field], r.chosen, r.answer, r.correct ? "Correct" : "Missed"].map(cell).join(","); })].join("\r\n")], { type: "text/csv" });
+      filename = "sku-practice-results.csv";
+    } else { data = new Blob([JSON.stringify({ kind: "sku-practice-results", version: 1, source: pr.source, exportedAt: new Date().toISOString(), records: rows }, null, 1)], { type: "application/json" }); filename = `practice-${pr.source || "results"}.json`; }
+    try { await state.downloads.save({ filename, data }); toast(`Exported ${rows.length} results`); } catch (err) { if (err?.code !== "declined") toast("Couldn't export the file."); }
+  }
+  $("#practiceImport").addEventListener("change", async (e) => {
+    const file = e.target.files[0]; e.target.value = ""; if (!file || !pr.store) return;
+    try {
+      const x = JSON.parse(await file.text()), list = (Array.isArray(x) ? x : x && x.records) || [], have = new Set(pr.records.map((r) => r.id));
+      const fresh = list.filter(validRecord).map(cleanRecord).filter((r) => !have.has(r.id) && have.add(r.id));
+      if (fresh.length) { await pr.store.add(fresh); pr.records.push(...fresh); }
+      toast(fresh.length ? `Imported ${fresh.length} results` : "Nothing new in that file"); renderPractice();
+    } catch (err) { toast("That isn't a practice results file"); }
+  });
+  async function resetPractice() {
+    if (!pr.store) return;
+    try { await saveChain; await pr.store.clear(); pr.records = []; pr.confirmReset = false; toast("Progress reset"); } catch (err) { toast("Couldn't reset. Try again"); }
+    renderPractice();
+  }
+
+  // ----- events -----
+  const pv = $("#practiceView"), pg = $("#progressView");
+  pv.addEventListener("change", (e) => {
+    const t = e.target;
+    if (t.matches("[data-pcatall]")) pr.cats = t.checked ? null : new Set();
+    else if (t.dataset.pcat) { const set = new Set(practiceCats()); if (t.checked) set.add(t.dataset.pcat); else set.delete(t.dataset.pcat); pr.cats = set.size === categories().length ? null : set; }
+    else if (t.dataset.pfield) { if (t.checked) pr.fields.add(t.dataset.pfield); else pr.fields.delete(t.dataset.pfield); }
+    else if (t.matches("[data-pmissed]")) pr.missedOnly = t.checked;
+    else return;
+    savePrefs(); renderPractice();
+  });
+  const onAct = (e) => {
+    const s = e.target.closest("[data-pstart]"); if (s) { startPractice(s.dataset.pstart); return; }
+    const a = e.target.closest("[data-pans]"); if (a) { answer(a.dataset.pans, Number(a.dataset.i)); return; }
+    const m = e.target.closest("[data-pmask]"); if (m) { saveMask(m.dataset.pmask); return; }
+    const b = e.target.closest("[data-pact]"); if (!b) return;
+    const act = b.dataset.pact;
+    if (act === "next-q") nextQuestion(); else if (act === "stop") stopQuiz();
+    else if (act === "setup") { pr.mode = "setup"; pr.q = null; renderPractice(); }
+    else if (act === "progress") setView("progress"); else if (act === "go-practice") { pr.mode = "setup"; setView("practice"); }
+    else if (act === "prev") stepStudy(-1); else if (act === "next") stepStudy(1);
+    else if (act === "shuffle") { pr.study.order = shuffle(pr.study.order); pr.study.i = 0; renderPractice(); }
+    else if (act === "draw") { pr.draw = { box: null }; renderPractice(); }
+    else if (act === "draw-cancel") { pr.draw = null; renderPractice(); }
+    else if (act === "export-csv") exportPractice("csv"); else if (act === "export-json") exportPractice("json");
+    else if (act === "import") $("#practiceImport").click();
+    else if (act === "reset") { pr.confirmReset = true; renderPractice(); } else if (act === "reset-no") { pr.confirmReset = false; renderPractice(); }
+    else if (act === "reset-yes") resetPractice();
+  };
+  pv.addEventListener("click", onAct); pg.addEventListener("click", onAct);
+  let pResize = 0; window.addEventListener("resize", () => { clearTimeout(pResize); pResize = setTimeout(() => { if (pr.view === "progress") renderPractice(); }, 200); }); // the chart is drawn at its real width so its text stays readable
+  pg.addEventListener("change", (e) => { if (e.target.id === "pRange") { pr.range = e.target.value; renderPractice(); } });
+  // drawing a box over printed text
+  let drawFrom = null;
+  pv.addEventListener("pointerdown", (e) => {
+    const ph = e.target.closest("#qPhoto.drawing"); if (!ph) return; e.preventDefault(); ph.setPointerCapture?.(e.pointerId);
+    const r = ph.getBoundingClientRect(); drawFrom = { r, x: (e.clientX - r.left) / r.width, y: (e.clientY - r.top) / r.height };
+  });
+  pv.addEventListener("pointermove", (e) => {
+    if (!drawFrom) return; const { r } = drawFrom, cx = Math.min(1, Math.max(0, (e.clientX - r.left) / r.width)), cy = Math.min(1, Math.max(0, (e.clientY - r.top) / r.height));
+    pr.draw.box = [Math.min(cx, drawFrom.x), Math.min(cy, drawFrom.y), Math.abs(cx - drawFrom.x), Math.abs(cy - drawFrom.y)];
+    let el = document.querySelector("#qPhoto .pdraw"); if (!el) { el = document.createElement("span"); el.className = "pdraw"; $("#qPhoto").appendChild(el); }
+    const [x, y, w, h] = pr.draw.box; Object.assign(el.style, { left: x * 100 + "%", top: y * 100 + "%", width: w * 100 + "%", height: h * 100 + "%" });
+  });
+  pv.addEventListener("pointerup", () => { if (!drawFrom) return; drawFrom = null; if (pr.draw && pr.draw.box && (pr.draw.box[2] < 0.01 || pr.draw.box[3] < 0.01)) pr.draw.box = null; renderPractice(); });
+  document.addEventListener("keydown", (e) => {
+    if (pr.view !== "practice" || e.altKey || e.ctrlKey || e.metaKey || document.querySelector(".overlay:not([hidden])") || e.target.closest("input,textarea,select")) return;
+    if (pr.mode === "quiz" && pr.q) {
+      if (e.key === "Escape" && pr.draw) { pr.draw = null; renderPractice(); return; }
+      const q = pr.q;
+      if (/^[1-3]$/.test(e.key) && !q.done) { const f = q.fields.find((x) => q.answers[x] == null); if (f) { e.preventDefault(); answer(f, Number(e.key) - 1); } }
+      else if (q.done && (e.key === "ArrowRight" || e.key === "Enter" && !e.target.closest("button"))) { e.preventDefault(); nextQuestion(); }
+    } else if (pr.mode === "study") {
+      const d = { ArrowLeft: -1, ArrowUp: -1, ArrowRight: 1, ArrowDown: 1 }[e.key]; if (d) { e.preventDefault(); stepStudy(d); }
+    }
+  });
+  let pWheelSum = 0, pWheelLock = 0, pTouchX = null;
+  pv.addEventListener("wheel", (e) => {
+    if (pr.mode !== "study" || !e.target.closest("#pStage")) return; e.preventDefault(); const now = Date.now(); if (now < pWheelLock) return;
+    pWheelSum += e.deltaY; if (Math.abs(pWheelSum) < 40) return; stepStudy(pWheelSum > 0 ? 1 : -1); pWheelSum = 0; pWheelLock = now + 280;
+  }, { passive: false });
+  pv.addEventListener("touchstart", (e) => { if (pr.mode === "study" && e.target.closest("#pStage")) pTouchX = e.touches[0].clientX; }, { passive: true });
+  pv.addEventListener("touchend", (e) => { if (pTouchX == null) return; const dx = e.changedTouches[0].clientX - pTouchX; pTouchX = null; if (Math.abs(dx) > 50) stepStudy(dx < 0 ? 1 : -1); });
+
   // ---------- data ----------
 
   const api=async(path,options={})=>{const response=await fetch(path,{...options,credentials:'same-origin'});const body=await response.json();if(!response.ok)throw Error(body.error||'Please try again.');return body};
@@ -864,15 +1380,17 @@ body.spec-view th.column-hidden,td.column-hidden{min-width:32px!important;width:
     const [db, user, assets, downloads] = await Promise.all([use("db"), use("user"), use("assets"), use("downloads")]);
     state.db = db; state.assets = assets; state.downloads = downloads;
     $("#exportBtn").hidden = !downloads;
-    if (!db) { state.loaded = true; $("#banner").hidden = false; $("#banner").textContent = "The catalog is unavailable. Please reload to try again."; render(); return; }
+    if (!db) { state.loaded = true; pr.loaded = true; $("#banner").hidden = false; $("#banner").textContent = "The catalog is unavailable. Please reload to try again."; render(); return; }
     const w = user ? await user.can("data.write").catch(() => null) : null;
     state.canWrite = w !== false; $("#addBtn").hidden = !state.canWrite; $("#bulkBtn").hidden = !state.canWrite;
+    initPractice(artifactRuntime, db, user);
     db.collection("items").onSnapshot((snap) => {
       state.items = snap.docs.filter((d) => d.exists).map((d) => {
         const x = d.data() || {};
         return { productSpecs:x.productSpecs||null, treadmillSpecs:x.treadmillSpecs||null, id: d.id, name: String(x.name || ""), sku: String(x.sku || d.id).toUpperCase(), category: String(x.category || "Uncategorized"),
           price: typeof x.price === "number" ? x.price : (x.price != null && x.price !== "" && isFinite(+x.price) ? +x.price : null),
-          priceChecked: x.priceChecked !== false, url: String(x.url || ""), imageUrl: String(x.imageUrl || ""), imageAssetId: String(x.imageAssetId || ""), createdAt: x.createdAt || "" };
+          priceChecked: x.priceChecked !== false, url: String(x.url || ""), imageUrl: String(x.imageUrl || ""), imageAssetId: String(x.imageAssetId || ""), createdAt: x.createdAt || "",
+          photoChecked: x.photoChecked === true, photoMasks: x.photoMasks && typeof x.photoMasks === "object" ? x.photoMasks : null };
       });
       state.loaded = true; render(); if (document.activeElement === q) renderSuggest();
     }, (err) => { state.loaded = true; $("#banner").hidden = false; $("#banner").textContent = "The catalog couldn't load. Reload the page to try again."; render(); });

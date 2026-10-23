@@ -38,6 +38,12 @@ const freePort = () => new Promise((resolve) => { const s = net.createServer().l
       await page.keyboard.press('ArrowRight'); await page.waitForTimeout(500);
       await shot(page, `${label}-3-picture-viewer`);
       console.log(`${label}: ${await page.textContent('#lbTitle')} | ${await page.textContent('#lbSkuTop')} | ${await page.textContent('#lbPos')}`);
+      await page.goto(base + '/?view=practice');
+      await page.waitForSelector('[data-pstart="quiz"]', { timeout: 20000 }); await shot(page, `${label}-4-practice-setup`);
+      await page.locator('[data-pfield="name"]').check(); await page.locator('[data-pstart="quiz"]').click();
+      await page.waitForSelector('.qcell'); await page.waitForTimeout(500); await shot(page, `${label}-5-practice-question`);
+      await page.keyboard.press('1'); await page.keyboard.press('2'); await page.waitForTimeout(300); await shot(page, `${label}-6-practice-answered`);
+      await page.locator('[data-view="progress"]').click(); await page.waitForSelector('.tiles'); await page.waitForTimeout(300); await shot(page, `${label}-7-progress`);
       await page.close();
     }
   } finally { await browser.close(); server.kill(); }

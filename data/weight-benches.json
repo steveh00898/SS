@@ -10,7 +10,8 @@
   "imageAssetId": "01f6e57a21e2d20ba3253df9fa7371d1",
   "imageUrl": "/_blob/01f6e57a21e2d20ba3253df9fa7371d1",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-bh6920",
@@ -23,7 +24,11 @@
   "imageAssetId": "5483bd31f295d9a51359fc5490f0dbbf",
   "imageUrl": "/_blob/5483bd31f295d9a51359fc5490f0dbbf",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true,
+  "photoMasks": {
+   "sku": [[0.14, 0.71, 0.04, 0.06], [0.57, 0.68, 0.04, 0.08]]
+  }
  },
  {
   "id": "sf-bh620062",
@@ -36,7 +41,8 @@
   "imageAssetId": "83a7a5bce136479e6aee4095f82cd2dc",
   "imageUrl": "/_blob/83a7a5bce136479e6aee4095f82cd2dc",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-bh6629",
@@ -49,7 +55,8 @@
   "imageAssetId": "a75512f3c22b6a3c0c1b1715284d570c",
   "imageUrl": "/_blob/a75512f3c22b6a3c0c1b1715284d570c",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-bh6921",
@@ -62,7 +69,11 @@
   "imageAssetId": "d987475f65b1c6d3693df4689fdb5b33",
   "imageUrl": "/_blob/d987475f65b1c6d3693df4689fdb5b33",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true,
+  "photoMasks": {
+   "sku": [[0.37, 0.5, 0.04, 0.09]]
+  }
  },
  {
   "id": "sf-bh6996",
@@ -75,7 +86,11 @@
   "imageAssetId": "116a69068615e309e1922ebfce51f48f",
   "imageUrl": "/_blob/116a69068615e309e1922ebfce51f48f",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true,
+  "photoMasks": {
+   "sku": [[0.07, 0.67, 0.09, 0.1]]
+  }
  },
  {
   "id": "sf-bh622045",
@@ -88,7 +103,8 @@
   "imageAssetId": "fd19ec01f9d23082b254cba2fec4f185",
   "imageUrl": "/_blob/fd19ec01f9d23082b254cba2fec4f185",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-bh623009",
@@ -101,7 +117,8 @@
   "imageAssetId": "334e29647115a93c38b818168f9952f9",
   "imageUrl": "/_blob/334e29647115a93c38b818168f9952f9",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-bh623052",
@@ -114,7 +131,8 @@
   "imageAssetId": "a5ada9a2a0cd7e497d6707a6d04e3fbe",
   "imageUrl": "/_blob/a5ada9a2a0cd7e497d6707a6d04e3fbe",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-bh623008",
@@ -127,7 +145,8 @@
   "imageAssetId": "012a35915985496b1cce22bc0868321e",
   "imageUrl": "/_blob/012a35915985496b1cce22bc0868321e",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-bh624089",
@@ -140,7 +159,8 @@
   "imageAssetId": "f5064fb6c5e6ef070249b6755c1bb73a",
   "imageUrl": "/_blob/f5064fb6c5e6ef070249b6755c1bb73a",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-bh625020",
@@ -153,7 +173,8 @@
   "imageAssetId": "856cc45de410c6b56760d2872df02e27",
   "imageUrl": "/_blob/856cc45de410c6b56760d2872df02e27",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  },
  {
   "id": "sf-bh625080",
@@ -166,6 +187,7 @@
   "imageAssetId": "4a3c44061e9efeaf9df36ad433ba2d7c",
   "imageUrl": "/_blob/4a3c44061e9efeaf9df36ad433ba2d7c",
   "createdAt": "2026-10-06T00:00:00Z",
-  "updatedAt": "2026-10-06T00:00:00Z"
+  "updatedAt": "2026-10-06T00:00:00Z",
+  "photoChecked": true
  }
 ]
