@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Codex — expanded manuals published as private Site version 20
+- Changes: published SF-T722576 supplied manual and Ellipticals/Rowers/Indoor Bikes/Steppers mapping.
+- Files: HANDOFF.md only.
+- Tests: all eight suites, 87 unique PDF HTTP checks, screenshot script and Worker build passed.
+- Local preview: desktop/phone capture flows passed.
+- Claude Artifact: behind 01ecbcb; Claude must sync and publish.
+- Private Site: version 20 from exact main SHA 01ecbcb7df613bc6d7460ff69b6b0d5015493c90; deployment appgdep_6adbe1e6b91c81919eb1cbd5886b1000 succeeded. Owner-only access/admin settings unchanged.
+- Practice data: not exported (public-repo permission pending).
+- Remaining issues: Stepper SF-S026007, SF-S026002, SF-S024072 manuals not verified/found; shown unavailable.
+- Next steps: owner may provide missing PDFs; Claude syncs. This documentation-only commit leaves deployed application unchanged.
 ## 2026-10-23: Codex — extend verified manuals to four categories and complete treadmills
 - Changes: added owner-provided SF-T722576 PDF; added exact SKU Preview Now PDFs from official Sunny pages for 18 Ellipticals, 13 Rowers, 26 Indoor Bikes and 10/13 Steppers. Two rower pages were found via official-site search after directory omission. Steppers SF-S026007, SF-S026002 and SF-S024072 have no verified official manual page and show Manual unavailable; no guesses. Shared SKU rows account for 90 linked product rows using 87 unique PDFs. Existing SKU product links, grey manual styling, column position and frozen columns unchanged.
 - Files: app/index.html embedded PRODUCT_MANUALS map, data/manuals/*.json source provenance, catalog/treadmill tests, HANDOFF.md. No saved catalog records or database changed.
