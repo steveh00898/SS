@@ -1021,11 +1021,11 @@ body.spec-view table.ptable{min-width:0}
   $("#exportBtn").addEventListener("click", async () => {
     const list = visible(); const cell = (v) => '"' + String(v ?? "").replace(/"/g, '""') + '"';
     const extra=SPEC_COLUMNS;
-    const csv = [["Category", "SKU", "Name", "Price", "Link", "Picture",...extra.map(([key,label])=>label)].map(cell).join(","),
-      ...list.map((it) => [it.category, it.sku, it.name, typeof it.price === "number" ? it.price.toFixed(2) : "", it.url, imgSrc(it) && new URL(imgSrc(it), location.href).href,...extra.map(([key])=>specsOf(it)[key]??'-')].map(cell).join(","))].join("\r\n");
+    const csv = [["Category", "SKU", "Name", "Price", "Link", "Picture", "User manual link", "Assembly video link",...extra.map(([key,label])=>label)].map(cell).join(","),
+      ...list.map((it) => [it.category, it.sku, it.name, typeof it.price === "number" ? it.price.toFixed(2) : "", it.url, imgSrc(it) && new URL(imgSrc(it), location.href).href,PRODUCT_MANUALS[it.sku]?.url||"",PRODUCT_MANUALS[it.sku]?.assemblyUrl||"",...extra.map(([key])=>specsOf(it)[key]??'-')].map(cell).join(","))].join("\r\n");
     const fname = `sunny-${state.cat === "All" ? "all-products" : docId(state.cat)}.csv`;
     if (!state.downloads) { toast("Downloads aren't available in this view."); return; }
-    try { await state.downloads.save({ filename: fname, data: new Blob([csv], { type: "text/csv" }) }); toast(`Exported ${list.length} items`); }
+    try { await state.downloads.save({ filename: fname, data: new Blob(["\uFEFF",csv], { type: "text/csv;charset=utf-8" }) }); toast(`Exported ${list.length} items`); }
     catch (err) { if (err?.code !== "declined") toast("Couldn't export the file."); }
   });
 

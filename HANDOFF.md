@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Codex — CSV guide links and Excel encoding
+- Changes: catalog CSV adds User manual link and Assembly video link using the same SKU mappings as the app; unavailable links remain blank. UTF-8 BOM and explicit charset prevent Excel misreading Unicode punctuation/symbols. Existing catalog values and quoting retained.
+- Files: app/index.html, catalog/treadmill CSV test captures, HANDOFF.md.
+- Tests: all eight suites passed; screenshots passed. Initial treadmill capture timed out because it expected exact old MIME type; changed capture to accept CSV charset, then affected suite passed. Catalog asserts both new headers and video URLs.
+- Local preview: 14 desktop/mobile captures passed.
+- Claude Artifact: requires Claude sync/publication.
+- Private Site: publication follows pushed tested commit; access unchanged.
+- Practice data: not exported (public-repo permission pending).
+- Remaining issues: existing downloaded files must be re-exported; source data unchanged.
+- Next steps: publish and record exact SHA/version.
 ## 2026-10-23: Codex — catalog assembly guides published as private Site version 24
 - Changes: published 96 verified SKU guide mappings / 99 product rows, with 57 unavailable notices and full report in data/manuals/assembly-guide-coverage.md. Of linked SKUs, 86 open YouTube directly and 10 open official embedded-video pages.
 - Files: HANDOFF.md only.
