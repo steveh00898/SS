@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Codex — catalog assembly guides published as private Site version 24
+- Changes: published 96 verified SKU guide mappings / 99 product rows, with 57 unavailable notices and full report in data/manuals/assembly-guide-coverage.md. Of linked SKUs, 86 open YouTube directly and 10 open official embedded-video pages.
+- Files: HANDOFF.md only.
+- Tests: all eight suites passed after correcting the documented viewport/popup test-helper race. 86 YouTube oEmbed checks verified availability/ownership, 14 screenshots and Worker build passed.
+- Local preview: desktop/phone checks passed.
+- Claude Artifact: behind d88ac35; Claude must sync and publish.
+- Private Site: version 24 from exact main SHA d88ac35c5f95e7c15fc07588e667c255fb8ab6d8; deployment appgdep_6adbebb9140081919f1187922f7156e2 succeeded. Owner-only access/admin environment revision 1 unchanged.
+- Practice data: not exported (public-repository permission pending); existing report has zero results.
+- Remaining issues: source HTTP 429 challenge limited direct extraction for 10 confirmed guides; their official page links retained. 57 exact SKU videos not verified; report lists all. No challenge bypassed.
+- Next steps: refresh Site; Claude syncs. This documentation follow-up leaves deployed app unchanged.
 ## 2026-10-23: Codex — catalog-wide assembly guide research and links
 - Changes: researched all 153 distinct catalog SKUs through full-SKU and assembly-term searches on @SunnyHealthFitness, all 18 continuation pages of supplied channel search (416 returned videos), and official assembly pages. 96 distinct SKUs / 99 product rows now have guide links: 86 direct YouTube destinations and 10 official pages confirmed to contain corresponding embedded videos. Remaining 57 show Assembly guide unavailable; full SKU/product list and source limitations are in data/manuals/assembly-guide-coverage.md. Existing manual PDFs remain unchanged.
 - Files: app/index.html embedded map, all data/manuals category provenance maps, coverage report, catalog assertions and tests/mobile-options.cjs, HANDOFF.md. No saved catalog/database, runtime, auth, layout or access change.
