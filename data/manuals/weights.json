@@ -1,0 +1,40 @@
+{
+  "SF-DB01-055": {
+    "status": "not-listed"
+  },
+  "SF-DB02-5": {
+    "status": "not-listed"
+  },
+  "SF-OP01-10": {
+    "status": "not-listed"
+  },
+  "SF-DB03-5": {
+    "status": "not-listed"
+  },
+  "NO. 021-2-PAIR": {
+    "status": "not-listed"
+  },
+  "NO. 103-2": {
+    "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-103-2",
+    "url": "https://share.sunnyfit.com/web_static/op/user_manual/NO.%20103-2_EN_20260604_V1.1.pdf",
+    "status": "verified-preview"
+  },
+  "NO. 066-10": {
+    "status": "not-listed"
+  },
+  "SF-WA01-1": {
+    "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-wa01-1",
+    "url": "https://share.sunnyfit.com/web_static/op/user_manual/SF-WA01-5_Manual_EN_ES_FR_DE_IT_20260414_V1.1.pdf",
+    "status": "verified-preview"
+  },
+  "NO. 103-1": {
+    "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-103-1",
+    "url": "https://share.sunnyfit.com/web_static/op/user_manual/NO.%20103-1_EN_20260603_V1.1.pdf",
+    "status": "verified-preview"
+  },
+  "SF-WA02-BK": {
+    "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-wa02-bk",
+    "url": "https://share.sunnyfit.com/web_static/op/user_manual/SF-WA02-BK_Manual_EN_ES_FR_DE_IT_20250327_V1.0.pdf",
+    "status": "verified-preview"
+  }
+}

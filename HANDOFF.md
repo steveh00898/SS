@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Codex — complete remaining category manual research
+- Changes: added owner-provided Stepper PDFs for SF-S026007, SF-S026002 and SF-S024072. Added verified exact-SKU Preview Now PDFs for Row-N-Ride (4/4), Pilates Reformers (2/2), Racks (8/8), Weight Benches (12/13), Weights (4/10), and Essentials (18/26). All categories researched: 141/156 product rows now link to 138 unique SKU PDF destinations. Missing manuals remain explicitly unavailable; no similar-model substitutions.
+- Files: app/index.html embedded map, data/manuals/steppers.json and six new provenance maps, tests/catalog-specifications.spec.cjs, HANDOFF.md. No catalog records or databases changed; both private /api and window.claude runtime paths retained.
+- Tests: all eight test suites passed; catalog assertions updated to 141 links and 15 unavailable rows. All 138 unique PDF destinations returned successful HEAD status. Screenshot script passed, saving 14 desktop/phone PNGs.
+- Local preview: desktop/phone screenshot flows passed.
+- Claude Artifact: not published by Codex; Claude must sync and publish these changes.
+- Private Site: publication follows tested pushed main, exact version/SHA recorded in follow-up. Owner-only access/admin configuration unchanged.
+- Practice data: not exported (public-repository first-export permission pending); existing report has zero results.
+- Remaining issues: no verified manual found for SF-BH625080; SF-DB01-055, SF-DB02-5, SF-OP01-10, SF-DB03-5, NO. 021-2-PAIR, NO. 066-10; SF-EB02-XS, NO. 031-B, SF-EM02-GY, SF-EM01-BK, NO. 074-XS, SF-ER01-BK-12, NO. 120-GY, SF-WV01-A1.
+- Next steps: publish private Site; owner can supply any remaining PDFs; Claude syncs its Artifact.
 ## 2026-10-23: Codex — expanded manuals published as private Site version 20
 - Changes: published SF-T722576 supplied manual and Ellipticals/Rowers/Indoor Bikes/Steppers mapping.
 - Files: HANDOFF.md only.

@@ -30,10 +30,12 @@
     "status": "verified-preview"
   },
   "SF-S026007": {
-    "status": "not-listed"
+    "url": "https://share.sunnyfit.com/web_static/op/user_manual/SF-S026007_Simplified_Multi_FINAL_V1.1_20260914.pdf",
+    "status": "owner-provided"
   },
   "SF-S026002": {
-    "status": "not-listed"
+    "url": "https://share.sunnyfit.com/web_static/op/user_manual/SF-S026002_Manual_EN_V1.0_20260824.pdf",
+    "status": "owner-provided"
   },
   "SF-S021055": {
     "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s021055",
@@ -56,6 +58,7 @@
     "status": "verified-preview"
   },
   "SF-S024072": {
-    "status": "not-listed"
+    "url": "https://share.sunnyfit.com/web_static/op/user_manual/SF-S024072_Manual_EN_V1.0_20261012.pdf",
+    "status": "owner-provided"
   }
 }
