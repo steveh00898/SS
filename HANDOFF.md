@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Codex — treadmill user manuals and linked SKU text
+- Changes: removed product Link column; SKU text now opens its original product page in a new tab, copy button separate. New User Manual column defaults immediately after Price, including migration of saved column layouts; manuals are not frozen. Mobile replaces View on site with muted-grey User manual. Matched exact SKU entries from Sunny official user-manual directory to assembly-guides pages and extracted Preview Now English PDF destinations: 22/23 treadmill SKUs verified. SF-T722576 is not listed and shows Manual unavailable; no guessed substitute. Other categories display a dash until their manuals are added. Bulk product URL input moved into SKU/item cell; CSV product URLs unchanged.
+- Files: app/index.html, data/manuals/treadmills.json (source-page/PDF provenance), affected column and treadmill tests, HANDOFF.md. App embeds the map so both private Site and Claude Artifact work without a network lookup or database backfill. No catalog records/database edited.
+- Tests: all eight suites passed. Added checks for 22 links, exact SF-T724064 PDF, unavailable model, new-tab SKU product link, removed Link column, manual position after Price and nonsticky manual cell. All 22 PDFs returned HTTP success to HEAD requests. Repository desktop/phone screenshots passed.
+- Local preview: 1440px/390px screenshots; phone treadmill manual shown grey.
+- Claude Artifact: behind this UI change; Claude syncs app and provenance map to republish.
+- Private Site: publication follows tested pushed commit, exact version/SHA recorded afterward. Access/admin settings unchanged.
+- Practice data: not exported (public-repo permission pending).
+- Remaining issues: SF-T722576 exact manual absent from official directory; other categories intentionally not researched yet.
+- Next steps: publish private Site; owner checks treadmill workflow before extending to other categories.
 ## 2026-10-23: Codex — mobile header fix published as private Site version 18
 - Changes: mobile Tiers & Compare removed and scrolling panel layered below Sunny/search header.
 - Files: HANDOFF.md only.
