@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Codex — mobile popup release published as private Site version 16
+- Changes: private Site published with centered phone option windows and desktop selector spacing.
+- Files: HANDOFF.md publication record only.
+- Tests: all eight suites passed; 14 screenshots passed and Worker build succeeded.
+- Local preview: 1440px/390px checks completed.
+- Claude Artifact: behind by 9cdf041 UI change; Claude must sync and publish.
+- Private Site: version 16 from exact main SHA 9cdf0411ad54d92cbc5122977d0746080292a97b; deployment appgdep_6adbcf4891f08191b84e40cb2efc20d4 succeeded. Owner-only access and environment revision 1 preserved.
+- Practice data: not exported; public-repo permission pending.
+- Remaining issues: no blocker for this UI change.
+- Next steps: refresh private Site; Claude syncs to update Artifact. This documentation-only commit does not change deployed app code.
 ## 2026-10-23: Codex — mobile overlay option windows and desktop selector spacing
 - Changes: phone section/actions/category/tier controls now open a centered overlay window with close button, backdrop dismissal, Escape, focus containment and focus return. Actual permission-gated controls move into the popup and return on close; category/action/section selections and comparison confirmation dismiss it. Page scrolling is locked while open; underlying layout stays in place. Desktop flyouts retained; section selector has 20px space before title.
 - Files: app/index.html, UI tests, tests/mobile-options.cjs, HANDOFF.md.
