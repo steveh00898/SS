@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Codex — sync Sunny logo update and publish private Site version 14
+- Changes: pulled six Claude Code commits 289d08a, 3a1b120, e341248, 84c1807, 9a26cec, bf46395; reviewed their logo/header changes against the handoff. Final header has the full Sunny Health & Fitness lockup at the owner's chosen 52px height on Almond, sticky header and side panel adjusted accordingly. Both private Site /api and window.claude fallback intact. No application-source edits by Codex.
+- Files: HANDOFF.md only (sync/publication record).
+- Tests: all eight tests/*.spec.cjs passed on the first run with the Windows browser-path adapter; no assertions or catalog changes arrived. scripts/screenshots.cjs passed, 14 PNGs at desktop 1440px and phone 390px; standalone Worker build passed.
+- Local preview: desktop catalog screenshot inspected; desktop/phone picture navigation advanced to 2 of 23; practice and progress captures passed with no page errors.
+- Claude Artifact: Claude records version 18 from 9a26cec, same app code as bf46395.
+- Private Site: published version 14 from exact main SHA bf463956478ad7c23f8a0a19903280cb1c02f98c, deployment appgdep_6adbbaf975cc8191b3dea592d3183542 succeeded. Runtime environment revision 1 retained (owner admin settings unchanged); owner-only access preserved. This documentation-only follow-up is newer than the deployed SHA; app code is identical.
+- Practice data: no new export committed; first export to this public repository still requires owner approval. Ran practice-report: existing Artifact export has 0 results; no claim that this re-reads live practice records.
+- Remaining issues: live second-account check remains pending owner approval of learner access; no access change requested or made.
+- Next steps: owner refreshes private Site to see the updated logo; next agent syncs this publication record.
 ## 2026-10-23: Claude Code — smaller header logo (owner's size)
 - Changes: owner found the 250px lockup too big and asked for it just slightly taller than the search bar (44px). The lockup (with "HEALTH & FITNESS") is now 52px tall and 112px wide, with clear space of one dot diameter (9px). This is the owner's decision and is below the guideline's 250px minimum for the lockup with tagline. The header is 87px tall again on desktop and sticks to the top again; the side panel sticks at 96px; table box `100vh - 160px`. On phones "Product Finder" sits beside the logo again.
 - Files: app/index.html, README.md, HANDOFF.md
