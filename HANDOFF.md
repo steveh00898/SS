@@ -7,7 +7,7 @@ Newest entry first. Each agent adds one entry per completed task (format in AGEN
 - Files: app/index.html, tests/practice.spec.cjs, HANDOFF.md
 - Tests: all 8 tests/*.spec.cjs passed twice. practice.spec.cjs now also checks choice text stays inside its cell, rows have equal height across columns, cells keep size and position after answering, and no text marks.
 - Local preview: checked at 1230px (dark) and 390px.
-- Claude Artifact: to be republished from this commit.
+- Claude Artifact: published version 13 from a32c087 (recorded in the follow-up commit).
 - Private Site: not published (Codex's job); still behind main.
 - Practice data: not re-exported (no app data change).
 - Remaining issues: same as the 2502a7e entry (owner treadmill edits only in the Artifact; public repository).
