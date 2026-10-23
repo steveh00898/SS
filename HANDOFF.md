@@ -11,7 +11,7 @@ Newest entry first. Each agent adds one entry per completed task (format in AGEN
 - Files: server/worker.js, db/schema.ts, drizzle/0002_practice_users.sql, drizzle/meta/*, app/index.html, scripts/preview.mjs, tests/server.spec.cjs, tests/practice.spec.cjs, README.md, AGENTS.md, practice-data/README.md, HANDOFF.md
 - Tests: all 8 tests/*.spec.cjs passed twice (server: roles by id/email/database row, catalog writes blocked for non-admins once configured, accounts view admin-only, names; UI: name save, Accounts list and drill-down hidden from non-admins). In tests/server.spec.cjs the final count for the second user's results went from 1 to 2 because the new checks add one result for that user.
 - Local preview: checked (Accounts list, drill-down, Progress name field).
-- Claude Artifact: to be republished from this commit (no accounts there; Accounts button stays hidden).
+- Claude Artifact: published version 15 from ac68339 (no accounts there; Accounts button stays hidden).
 - Private Site: not published (Codex's job). Needs migrations 0001 and 0002.
 - Practice data: not re-exported (no Artifact data change).
 - Remaining issues: the repository is still public.
