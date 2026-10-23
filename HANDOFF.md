@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-23: Claude Code — git pull: reviewed Codex's mobile option popups; Claude Artifact version 20
+- Changes: reviewed Codex commits 9cdf041 and e46cb27. They match their HANDOFF entries: on phones, the section, actions, category and Tiers & Compare controls open a centred popup (close button, backdrop, Escape, focus trap, focus return), and on desktop `#sectionPicker` has a 20px bottom margin. Private Site `/api` and the `window.claude` fallback are untouched. Tests: the new helper `tests/mobile-options.cjs` (`revealOptions`) opens or closes popups before each step; every existing assertion is still there. No code change by Claude Code.
+- Files: HANDOFF.md
+- Tests: all 8 tests/*.spec.cjs passed (with `tests/mobile-options.cjs` copied next to the path-adapted test copies). `npm run screenshots` passed (14 PNGs). Phone category popup opened and closed on selection, no page errors.
+- Local preview: checked via screenshots at 1440 and 390.
+- Claude Artifact: published version 20 from e46cb27 (same app code as 9cdf041).
+- Private Site: version 16 from 9cdf041 (Codex); same app code as main.
+- Practice data: not re-exported (no change).
+- Remaining issues, reported to the owner and not changed: (1) in the phone "Choose category" popup the categories are laid out in two uneven, centred columns ("Essentials" sits top-right next to "All") instead of one left-aligned list; (2) on desktop the gap between the section selector and the page title still looks very small in the screenshots, despite the new 20px margin.
+- Next steps: owner decides whether to fix these; whoever does it records it here.
+
 ## 2026-10-23: Codex — mobile popup release published as private Site version 16
 - Changes: private Site published with centered phone option windows and desktop selector spacing.
 - Files: HANDOFF.md publication record only.
