@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-27: Codex — public catalog browsing with signed-out practice disabled
+- Changes: owner explicitly requested public no-login browsing until they ask to restore account-only access. Signed-out Site visitors cannot select SKU Practice or Progress; direct practice/progress URLs return to Catalog. Signed-in users and Claude runtime retain existing practice/progress. Catalog writes remain server-authorized admin-only with existing ADMIN_EMAILS configuration.
+- Files: app/index.html, new tests/public-catalog.spec.cjs, HANDOFF.md.
+- Tests: all nine suites passed, including anonymous catalog/search, hidden practice/progress/edit controls, direct-link fallback, no private practice requests, signed-in practice and Artifact runtime. Fourteen screenshots passed; existing practice report has zero results.
+- Local preview: desktop/phone flows passed.
+- Claude Artifact: not published by Codex; Claude sync required.
+- Private Site: publish tested commit first, then change audience to public per explicit owner authorization; exact version/SHA/access recorded in follow-up.
+- Practice data: not exported (public-repository permission pending); no results removed.
+- Remaining issues: real anonymous deployed check follows access change.
+- Next steps: publish, enable Public, verify unauthenticated catalog and API restrictions. Restore custom owner-only access only on owner request.
 ## 2026-10-23: Codex — CSV export published as private Site version 25
 - Changes: published guide-link CSV columns and Excel-compatible UTF-8 encoding.
 - Files: HANDOFF.md only.

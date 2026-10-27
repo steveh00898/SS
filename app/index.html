@@ -1036,7 +1036,7 @@ body.spec-view table.ptable{min-width:0}
   // photoMasks cover a printed SKU, name or price, and a picture nobody has checked stays blurred.
   const PFIELDS = [["sku", "SKU"], ["name", "Item name"], ["price", "Price"]];
   const PLABEL = Object.fromEntries(PFIELDS);
-  const pr = { view: "catalog", cats: null, fields: new Set(["sku"]), missedOnly: false, mode: "setup", records: [], loaded: false, store: null, source: "", saveNote: "", session: null, q: null, study: null, range: "30", draw: null, confirmReset: false, me: { name: "", email: "" }, admin: false, accounts: null, account: null };
+  const pr = { enabled: null, view: "catalog", cats: null, fields: new Set(["sku"]), missedOnly: false, mode: "setup", records: [], loaded: false, store: null, source: "", saveNote: "", session: null, q: null, study: null, range: "30", draw: null, confirmReset: false, me: { name: "", email: "" }, admin: false, accounts: null, account: null };
   try {
     const v = new URLSearchParams(location.search).get("view"); if (v === "practice" || v === "progress" || v === "accounts") pr.view = v;
     const p = JSON.parse(localStorage.getItem("spf.practice.v1") || "null");
@@ -1077,11 +1077,11 @@ body.spec-view table.ptable{min-width:0}
   }
   async function initPractice(runtime, db, user) {
     try {
-      if (runtime) { const uid = user && typeof user.id === "function" ? await user.id() : null; pr.store = uid && db ? artifactPractice(db, uid) : null; pr.source = "claude-artifact"; }
-      else { const s = await api("/api/session").catch(() => null); pr.store = s && s.practice ? sitePractice : null; pr.source = "private-site"; pr.admin = !!(s && s.admin); if (s && s.email) pr.me.email = String(s.email); }
+      if (runtime) { const uid = user && typeof user.id === "function" ? await user.id() : null; pr.store = uid && db ? artifactPractice(db, uid) : null; pr.source = "claude-artifact"; pr.enabled = !!uid; }
+      else { const s = await api("/api/session").catch(() => null); pr.store = s && s.practice ? sitePractice : null; pr.source = "private-site"; pr.enabled = !!(s && s.practice); pr.admin = !!(s && s.admin); if (s && s.email) pr.me.email = String(s.email); }
       if (pr.store) pr.records = (await pr.store.load()).map(cleanRecord);
     } catch (e) { pr.store = null; pr.saveNote = "Your saved results couldn't load, so this visit isn't saved."; }
-    pr.loaded = true; document.querySelector('#views [data-view="accounts"]').hidden = !pr.admin; if (pr.view !== "catalog") renderPractice();
+    pr.loaded = true; if (!pr.enabled && ["practice","progress","accounts"].includes(pr.view)) setView("catalog"); renderPractice(); document.querySelector('#views [data-view="accounts"]').hidden = !pr.admin; if (pr.view !== "catalog") renderPractice();
   }
   let saveChain = Promise.resolve();
   function savePractice(recs) {
@@ -1204,6 +1204,7 @@ body.spec-view table.ptable{min-width:0}
   for(const [button,target] of [['categoryExpand','tabs'],['toolsExpand','specLegend']]) $('#'+button).addEventListener('click',()=>{openMobilePopup($('#'+button),$('#'+target),button==='categoryExpand'?'Choose category':'Tiers & Compare')});
   // ----- rendering -----
   function setView(v) {
+    if (["practice","progress"].includes(v) && pr.enabled !== true) v = "catalog";
     if (v === pr.view) return;
     if (state.editMode) { toast("Finish bulk edit first"); return; }
     pr.view = v; pr.confirmReset = false; closeModals(); sug.hidden = true;
@@ -1213,6 +1214,7 @@ body.spec-view table.ptable{min-width:0}
   $("#views").addEventListener("click", (e) => { const b = e.target.closest("[data-view]"); if (b) setView(b.dataset.view); });
   const saveLine = () => !pr.loaded ? "Loading your saved results…" : pr.saveNote ? pr.saveNote : pr.store ? "Your results are saved to your account." : "Results aren't saved in this view. Sign in to keep your progress.";
   function renderPractice() {
+    document.querySelectorAll('#views [data-view="practice"],#views [data-view="progress"]').forEach(b => b.hidden = pr.enabled !== true);
     document.body.dataset.view = pr.view;
     $('#sectionTrigger').firstChild.textContent = ({catalog:'Catalog',practice:'SKU Practice',progress:'Progress',accounts:'Accounts'}[pr.view] || 'Catalog')+' ';
 
