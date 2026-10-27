@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-27: Codex — admin Public Usage Analysis for resource links
+- Changes: added fifth admin section Public Usage Analysis. Owner confirmed product-page, user-manual and assembly-guide clicks. Reports total/type counts, ranked SKUs and UTC daily activity with 7/30/90-day, category and type filters. Excludes admin, search/category/copy/picture/export clicks. Best-effort keepalive tracking never blocks opening links; same-link clicks throttled for one second. Public/learner viewers cannot select or directly open the analysis page or read its API.
+- Files: app/index.html; server/worker.js; scripts/build.mjs and preview.mjs; db/schema.ts; migration 0003_public_link_clicks and Drizzle metadata; usage server/UI fixture/tests; README.md; HANDOFF.md.
+- Tests: all 11 suites passed (existing nine plus usage-server and usage-ui). New tests exercise the actual Worker/SQLite/browser: anonymous counts, all three available link destinations, admin exclusion, origin/body/item/type validation, denied report access, aggregate filters, retention, non-link exclusion, admin dashboard/empty state and mobile layout. Existing 14 screenshot flows passed; two new dashboard screenshots inspected; Worker build passed. Only synthetic local counts used; no analytics exported from production.
+- Local preview: desktop/phone dashboard checked; preview admin dashboard starts empty.
+- Claude Artifact: Site analytics intentionally disabled there; runtime fallback retained. Claude must sync source independently.
+- Private Site: PUBLIC audience preserved. Publication follows tested pushed main; saved version and source SHA in follow-up. New migration adds a standalone table and does not modify existing catalog/practice records.
+- Practice data: not exported (public-repository permission pending); existing report has zero results.
+- Remaining issues: counts are link openings, not unique people or confirmed resource views. Anonymous daily counters store day/item/type/count only (no names/emails/IPs/cookies/user IDs). 90-day reporting window; expired counters cleaned on record/report. No historical backfill. Ordinary browser/bot blockers can affect totals.
+- Next steps: publish with migration 0003, verify live public catalog/report authorization and table availability; admin reviews usage after public clicks arrive.
 ## 2026-10-27: Codex — public catalog live as Site version 26
 - Changes: owner-authorized audience changed from custom owner-only to Public, access revision 2. Everyone can browse without login. Anonymous SKU Practice/Progress and editing are disabled; existing account data retained.
 - Files: HANDOFF.md only.

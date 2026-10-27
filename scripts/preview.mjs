@@ -29,6 +29,8 @@ http.createServer(async (req, res) => {
   const url = new URL(req.url, 'http://localhost');
   const p = decodeURIComponent(url.pathname);
   // the preview runs as one admin learner, so the Accounts view shows that learner
+  if (p === '/api/public-usage') return json(res,200,{days:Number(url.searchParams.get('days')||30),rows:[],daily:[]});
+  if (p === '/api/public-usage/click') return json(res,200,{counted:false});
   if (p === '/api/session') return json(res, 200, { canWrite: true, practice: true, admin: true, email: 'preview@example.com' });
   if (p === '/api/practice/accounts') return json(res, 200, [{ id: 'preview', email: 'preview@example.com', name: profile.name, firstSeen: null, lastSeen: null, records: [...practice.values()] }]);
   if (p === '/api/practice/profile' && req.method === 'PUT') { profile.name = String(JSON.parse((await readBody(req)).toString() || '{}').name || '').slice(0, 60); return json(res, 200, profile); }

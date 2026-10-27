@@ -23,9 +23,34 @@ async function initialize(db){const marker='github-catalog-18d9844';const flag=a
 
 export default {async fetch(request,env){const url=new URL(request.url);try{if(url.pathname==='/'&&request.method==='GET')return new Response(APP_HTML,{headers:{'Content-Type':'text/html;charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff','Content-Security-Policy':"default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'none'"}});
 if(!url.pathname.startsWith('/api/'))return new Response('Not found',{status:404});
-// The owner-private Sites access boundary protects all routes. Writes also require a signed-in user.
-const user=request.headers.get('oai-authenticated-user-id');if(request.method!=='GET'){if(!user)throw fail('Sign in to edit the catalog',403);const origin=request.headers.get('origin');if(origin&&origin!==url.origin)throw fail('Invalid request origin',403)}
+// Public catalog reads; catalog/practice writes require identity. Analytics reads remain admin-only.
+const user=request.headers.get('oai-authenticated-user-id');if(request.method!=='GET'&&!(url.pathname==='/api/public-usage/click'&&request.method==='POST')){if(!user)throw fail('Sign in to edit the catalog',403);const origin=request.headers.get('origin');if(origin&&origin!==url.origin)throw fail('Invalid request origin',403)}
 const email=(request.headers.get('oai-authenticated-user-email')||'').trim().slice(0,320);const role=await roles(env,user,email);
+// Only this bounded same-origin endpoint accepts anonymous writes. It cannot modify catalog or practice data.
+if(url.pathname==='/api/public-usage/click'&&request.method==='POST'){
+ if(request.headers.get('origin')!==url.origin)throw fail('Invalid request origin',403);
+ if(!request.headers.get('content-type')?.startsWith('application/json'))throw fail('Use JSON',415);
+ const text=await request.text();if(text.length>512)throw fail('Click payload too large',413);let body;try{body=JSON.parse(text)}catch{throw fail('Invalid click')}
+ if(!body||typeof body.itemId!=='string'||body.itemId.length>200||!['product','manual','assembly'].includes(body.kind)||Object.keys(body).some(k=>!['itemId','kind'].includes(k)))throw fail('Invalid click');
+ if(role.admin)return json({counted:false});
+ const db=dbFor(env),row=await db.prepare('SELECT data FROM items WHERE id = ?').bind(body.itemId).first();if(!row)throw fail('Product not found',404);
+ const item=JSON.parse(row.data),guide=typeof APP_GUIDES!=='undefined'?APP_GUIDES[item.sku]:null;
+ const destination=body.kind==='product'?item.url:body.kind==='manual'?guide?.url:guide?.assemblyUrl;
+ if(typeof destination!=='string'||!destination.startsWith('https://'))throw fail('Link unavailable',400);
+ const now=new Date(),day=now.toISOString().slice(0,10),cutoff=new Date(now.getTime()-89*86400000).toISOString().slice(0,10);
+ await db.batch([db.prepare('INSERT INTO public_link_clicks (day,item_id,kind,click_count) VALUES (?,?,?,1) ON CONFLICT(day,item_id,kind) DO UPDATE SET click_count = MIN(click_count + 1,100000)').bind(day,body.itemId,body.kind),db.prepare('DELETE FROM public_link_clicks WHERE day < ?').bind(cutoff)]);
+ return json({counted:true},202);
+}
+if(url.pathname==='/api/public-usage'&&request.method==='GET'){
+ if(!role.admin)throw fail('Only the admin can view public usage',403);
+ const days=Number(url.searchParams.get('days')||30),category=url.searchParams.get('category')||'';if(![7,30,90].includes(days)||category.length>150)throw fail('Invalid usage filter');
+ const db=dbFor(env),to=new Date().toISOString().slice(0,10),from=new Date(Date.now()-(days-1)*86400000).toISOString().slice(0,10);
+ await db.prepare('DELETE FROM public_link_clicks WHERE day < ?').bind(new Date(Date.now()-89*86400000).toISOString().slice(0,10)).run();
+ const where="FROM public_link_clicks c LEFT JOIN items i ON i.id=c.item_id WHERE c.day >= ? AND c.day <= ? AND (? = '' OR json_extract(i.data,'$.category') = ?)";
+ const {results:rows}=await db.prepare("SELECT c.item_id AS itemId,COALESCE(json_extract(i.data,'$.sku'),c.item_id) AS sku,COALESCE(json_extract(i.data,'$.name'),'Removed product') AS name,COALESCE(json_extract(i.data,'$.category'),'Removed products') AS category,c.kind,SUM(c.click_count) AS clicks "+where+' GROUP BY c.item_id,c.kind ORDER BY clicks DESC,c.item_id,c.kind').bind(from,to,category,category).all();
+ const {results:daily}=await db.prepare('SELECT c.day,c.kind,SUM(c.click_count) AS clicks '+where+' GROUP BY c.day,c.kind ORDER BY c.day DESC,c.kind').bind(from,to,category,category).all();
+ return json({days,from,to,rows,daily});
+}
 if(url.pathname==='/api/session')return json({canWrite:role.canWrite,practice:!!user,admin:role.admin,email:email||null});
 if(request.method!=='GET'&&(url.pathname==='/api/assets'||url.pathname.startsWith('/api/items'))&&!role.canWrite)throw fail('Only the catalog admin can change the catalog',403);
 if(url.pathname==='/api/assets'&&request.method==='POST'){if(!env.BUCKET)throw fail('Picture storage is unavailable',503);const type=request.headers.get('Content-Type');const ext={'image/png':'png','image/jpeg':'jpg','image/webp':'webp'}[type];if(!ext)throw fail('Choose a JPEG, PNG or WebP image');const bytes=await request.arrayBuffer();if(bytes.byteLength>10*1024*1024)throw fail('Picture must be smaller than 10 MB',413);if(bytes.byteLength<12)throw fail('Invalid picture');const a=new Uint8Array(bytes);if((ext==='png'&&!(a[0]===137&&a[1]===80&&a[2]===78&&a[3]===71))||(ext==='jpg'&&!(a[0]===255&&a[1]===216))||(ext==='webp'&&!(String.fromCharCode(...a.slice(0,4))==='RIFF'&&String.fromCharCode(...a.slice(8,12))==='WEBP')))throw fail('File contents do not match the picture type');const id=crypto.randomUUID()+'.'+ext;await env.BUCKET.put(id,bytes,{httpMetadata:{contentType:type}});return json({id},201)}

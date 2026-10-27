@@ -436,6 +436,7 @@ body.spec-view table.ptable{min-width:0}
 }
 @media(max-width:720px){#toolsExpand,#specLegend{display:none!important}.top{z-index:40}.side{z-index:10}}
 .product-guides{display:flex;flex-direction:column;align-items:flex-start;gap:8px}.sku-product-link{color:inherit;text-decoration:none}.sku-product-link:hover{text-decoration:underline}.sku-product-link:focus-visible,.manual-link:focus-visible,.assembly-link:focus-visible{outline:2px solid var(--accent);outline-offset:3px}.manual-link,.assembly-link{color:var(--muted);font-size:14px;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}.manual-link:hover,.assembly-link:hover{color:var(--fg)}.manual-unavailable,.assembly-unavailable{color:var(--muted);font-size:13px}@media(max-width:720px){.c-link .manual-link,.c-link .assembly-link{color:var(--muted);font-size:14px}}
+.usage-products{min-width:760px}.usage-products td:first-child{min-width:230px}.usage-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0}.usage-card{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:18px;display:grid;gap:8px}.usage-card span{font-size:13px;color:var(--muted)}.usage-card strong{font-size:28px}.usage-bar{display:block;height:8px;min-width:3px;background:var(--accent);border-radius:4px}#usageView .pv-tools label{max-width:100%;min-width:130px}#usageView .pv-tools{align-items:end}@media(max-width:720px){.usage-stats{grid-template-columns:repeat(2,minmax(0,1fr))}#usageView select{max-width:100%}}
 </style>
 
 </head><body><header class="top">
@@ -455,7 +456,7 @@ body.spec-view table.ptable{min-width:0}
 <main class="wrap layout">
   <aside class="side" aria-label="Sections and categories">
   <section class="hero"><div class="inner">
-    <div class="compact-picker" id="sectionPicker"><button type="button" class="picker-trigger" aria-expanded="false" aria-controls="views" id="sectionTrigger">Catalog <span aria-hidden="true">›</span></button><nav class="views" id="views" aria-label="Sections"><button type="button" data-view="catalog" aria-pressed="true">Catalog</button><button type="button" data-view="practice" aria-pressed="false">SKU Practice</button><button type="button" data-view="progress" aria-pressed="false">Progress</button><button type="button" data-view="accounts" aria-pressed="false" hidden>Accounts</button></nav></div>
+    <div class="compact-picker" id="sectionPicker"><button type="button" class="picker-trigger" aria-expanded="false" aria-controls="views" id="sectionTrigger">Catalog <span aria-hidden="true">›</span></button><nav class="views" id="views" aria-label="Sections"><button type="button" data-view="catalog" aria-pressed="true">Catalog</button><button type="button" data-view="practice" aria-pressed="false">SKU Practice</button><button type="button" data-view="progress" aria-pressed="false">Progress</button><button type="button" data-view="accounts" aria-pressed="false" hidden>Accounts</button><button type="button" data-view="usage" aria-pressed="false" hidden>Public Usage Analysis</button></nav></div>
     <div class="head">
     <div>
       <h1 id="title">Product Catalog</h1>
@@ -474,7 +475,7 @@ body.spec-view table.ptable{min-width:0}
   <div class="banner" id="banner" hidden></div>
   <section class="practice" id="practiceView" hidden aria-live="polite"></section>
   <section class="progress" id="progressView" hidden></section>
-  <section class="accounts" id="accountsView" hidden></section>
+  <section class="accounts" id="accountsView" hidden></section><section class="accounts" id="usageView" hidden></section>
   <input id="practiceImport" type="file" accept=".json,application/json" hidden>
   <button class="mobile-expand catalog-only" id="toolsExpand" type="button" aria-expanded="false" aria-controls="specLegend">Tiers &amp; Compare <span aria-hidden="true">⌄</span></button><div class="spec-legend catalog-only" id="specLegend" hidden aria-label="Specification highlights"><span><i class="spec-key high" aria-hidden="true"></i>Highest tier</span><span><i class="spec-key" aria-hidden="true"></i>Mid tier / unranked</span><span><i class="spec-key low" aria-hidden="true"></i>Lowest tier</span><label class="compare-toggle"><input type="checkbox" id="compareToggle"> Compare</label><span id="compareStatus" hidden aria-live="polite"></span><button class="btn primary" id="compareConfirm" type="button" hidden>Confirm comparison</button><button class="column-reset" id="defaultColumnOrder" type="button" title="Restore the original column order">Default columns order</button></div><div class="tablebox catalog-only">
     <table>
@@ -1038,7 +1039,7 @@ body.spec-view table.ptable{min-width:0}
   const PLABEL = Object.fromEntries(PFIELDS);
   const pr = { enabled: null, view: "catalog", cats: null, fields: new Set(["sku"]), missedOnly: false, mode: "setup", records: [], loaded: false, store: null, source: "", saveNote: "", session: null, q: null, study: null, range: "30", draw: null, confirmReset: false, me: { name: "", email: "" }, admin: false, accounts: null, account: null };
   try {
-    const v = new URLSearchParams(location.search).get("view"); if (v === "practice" || v === "progress" || v === "accounts") pr.view = v;
+    const v = new URLSearchParams(location.search).get("view"); if (v === "practice" || v === "progress" || v === "accounts" || v === "usage") pr.view = v;
     const p = JSON.parse(localStorage.getItem("spf.practice.v1") || "null");
     if (p) { if (Array.isArray(p.cats)) pr.cats = new Set(p.cats); const f = Array.isArray(p.fields) ? p.fields.filter((x) => PLABEL[x]) : []; if (f.length) pr.fields = new Set(f); pr.missedOnly = !!p.missedOnly; }
   } catch (e) {}
@@ -1081,7 +1082,7 @@ body.spec-view table.ptable{min-width:0}
       else { const s = await api("/api/session").catch(() => null); pr.store = s && s.practice ? sitePractice : null; pr.source = "private-site"; pr.enabled = !!(s && s.practice); pr.admin = !!(s && s.admin); if (s && s.email) pr.me.email = String(s.email); }
       if (pr.store) pr.records = (await pr.store.load()).map(cleanRecord);
     } catch (e) { pr.store = null; pr.saveNote = "Your saved results couldn't load, so this visit isn't saved."; }
-    pr.loaded = true; if (!pr.enabled && ["practice","progress","accounts"].includes(pr.view)) setView("catalog"); renderPractice(); document.querySelector('#views [data-view="accounts"]').hidden = !pr.admin; if (pr.view !== "catalog") renderPractice();
+    pr.loaded = true; if ((!pr.enabled && ["practice","progress","accounts"].includes(pr.view)) || (!pr.admin && pr.view === "usage")) setView("catalog"); renderPractice(); document.querySelector('#views [data-view="accounts"]').hidden = !pr.admin; if (pr.view !== "catalog") renderPractice();
   }
   let saveChain = Promise.resolve();
   function savePractice(recs) {
@@ -1204,6 +1205,7 @@ body.spec-view table.ptable{min-width:0}
   for(const [button,target] of [['categoryExpand','tabs'],['toolsExpand','specLegend']]) $('#'+button).addEventListener('click',()=>{openMobilePopup($('#'+button),$('#'+target),button==='categoryExpand'?'Choose category':'Tiers & Compare')});
   // ----- rendering -----
   function setView(v) {
+    if (v === "usage" && pr.loaded && !pr.admin) v = "catalog";
     if (["practice","progress"].includes(v) && pr.enabled !== true) v = "catalog";
     if (v === pr.view) return;
     if (state.editMode) { toast("Finish bulk edit first"); return; }
@@ -1214,9 +1216,11 @@ body.spec-view table.ptable{min-width:0}
   $("#views").addEventListener("click", (e) => { const b = e.target.closest("[data-view]"); if (b) setView(b.dataset.view); });
   const saveLine = () => !pr.loaded ? "Loading your saved results…" : pr.saveNote ? pr.saveNote : pr.store ? "Your results are saved to your account." : "Results aren't saved in this view. Sign in to keep your progress.";
   function renderPractice() {
+    document.querySelector('#views [data-view="usage"]').hidden = !pr.admin;
+    $('#usageView').hidden = pr.view !== 'usage' || !pr.admin;
     document.querySelectorAll('#views [data-view="practice"],#views [data-view="progress"]').forEach(b => b.hidden = pr.enabled !== true);
     document.body.dataset.view = pr.view;
-    $('#sectionTrigger').firstChild.textContent = ({catalog:'Catalog',practice:'SKU Practice',progress:'Progress',accounts:'Accounts'}[pr.view] || 'Catalog')+' ';
+    $('#sectionTrigger').firstChild.textContent = ({catalog:'Catalog',practice:'SKU Practice',progress:'Progress',accounts:'Accounts',usage:'Public Usage Analysis'}[pr.view] || 'Catalog')+' ';
 
     document.querySelectorAll("#views [data-view]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === pr.view)));
     $("#practiceView").hidden = pr.view !== "practice"; $("#progressView").hidden = pr.view !== "progress"; $("#accountsView").hidden = pr.view !== "accounts";
@@ -1228,6 +1232,10 @@ body.spec-view table.ptable{min-width:0}
       $("#title").textContent = "Progress";
       $("#sub").textContent = "How you're doing by SKU, item name and price, by category and by product, over time.";
       $("#progressView").innerHTML = progressHtml(); wireChart();
+    } else if (pr.view === "usage") {
+      $('#title').textContent = 'Public Usage Analysis';
+      $('#sub').textContent = 'Public product-page, manual and assembly-guide link openings. Admin clicks are excluded.';
+      $('#usageView').innerHTML = pr.admin ? usageHtml() : '';
     } else if (pr.view === "accounts") {
       const one = pr.account && (pr.accounts || []).find((a) => a.id === pr.account);
       $("#title").textContent = one ? accountName(one) : "Accounts";
@@ -1235,6 +1243,40 @@ body.spec-view table.ptable{min-width:0}
       $("#accountsView").innerHTML = accountsHtml(one); wireChart();
     }
   }
+  // Anonymous daily link totals. Tracking is best-effort and never delays opening a resource.
+  const usage = {days:'30',category:'',kind:'all',data:null,error:'',loading:false,sequence:0};
+  const usageLabels = {product:'Product page',manual:'User manual',assembly:'Assembly guide'};
+  async function loadUsage(){
+    if(!pr.admin||usage.loading)return;usage.loading=true;usage.error='';const sequence=++usage.sequence;
+    try{const data=await api('/api/public-usage?days='+usage.days+'&category='+encodeURIComponent(usage.category));if(sequence===usage.sequence)usage.data=data;}
+    catch(error){if(sequence===usage.sequence)usage.error=error.message||'Usage could not load.';}
+    finally{if(sequence===usage.sequence){usage.loading=false;if(pr.view==='usage')renderPractice();}}
+  }
+  function usageHtml(){
+    if(!usage.data&&!usage.loading&&!usage.error)loadUsage();
+    const options=Object.keys(usageLabels).map(k=>'<option value="'+k+'" '+(usage.kind===k?'selected':'')+'>'+usageLabels[k]+'</option>').join('');
+    const controls='<div class="pv-tools"><label>Period<select data-usage-filter="days">'+[7,30,90].map(n=>'<option value="'+n+'" '+(usage.days===String(n)?'selected':'')+'>Last '+n+' days</option>').join('')+'</select></label><label>Category<select data-usage-filter="category"><option value="">All categories</option>'+categories().map(([c])=>'<option '+(usage.category===c?'selected':'')+' value="'+esc(c)+'">'+esc(c)+'</option>').join('')+'</select></label><label>Link type<select data-usage-filter="kind"><option value="all">All links</option>'+options+'</select></label><button class="btn" type="button" data-usage-refresh>Refresh</button></div>';
+    const note='<p class="pv-help">Anonymous daily totals for the last 90 days (UTC). No names, emails, IP addresses or visitor identifiers are stored. Counts are link openings, not unique visitors or confirmed views. Blocked requests may not be counted.</p>';
+    if(usage.error)return controls+'<div role="alert" class="state"><h2>Usage could not load</h2><p>'+esc(usage.error)+'</p></div>';
+    if(!usage.data)return controls+'<div class="state" role="status"><h2>Loading link usage</h2></div>';
+    const rows=usage.data.rows.filter(r=>usage.kind==='all'||usage.kind===r.kind),totals={product:0,manual:0,assembly:0},products=new Map(),days=new Map();
+    for(const r of rows){const n=Number(r.clicks)||0;totals[r.kind]+=n;if(!products.has(r.itemId))products.set(r.itemId,{...r,product:0,manual:0,assembly:0,total:0});const item=products.get(r.itemId);item[r.kind]+=n;item.total+=n;}
+    for(const r of usage.data.daily)if(usage.kind==='all'||usage.kind===r.kind)days.set(r.day,(days.get(r.day)||0)+Number(r.clicks));
+    const total=Object.values(totals).reduce((a,b)=>a+b,0),cards=[['Total clicks',total],...Object.entries(usageLabels).map(([k,label])=>[label,totals[k]])].map(([label,n])=>'<div class="usage-card"><span>'+label+'</span><strong>'+n.toLocaleString()+'</strong></div>').join('');
+    if(!total)return controls+note+'<div class="usage-stats">'+cards+'</div><div class="state"><h2>No link clicks in this selection</h2><p>Tracking begins with this update. Try another period or category.</p></div>';
+    const ranked=[...products.values()].sort((a,b)=>b.total-a.total||a.sku.localeCompare(b.sku));const max=Math.max(...days.values(),1);
+    return controls+note+'<div class="usage-stats">'+cards+'</div><div class="pv-panel"><h2>Most-used products</h2><div class="pscroll"><table class="ptable usage-products"><thead><tr><th>SKU / Item</th><th>Category</th><th>Product page</th><th>User manual</th><th>Assembly guide</th><th>Total clicks</th></tr></thead><tbody>'+ranked.map(r=>'<tr><td><b>'+esc(r.sku)+'</b><br>'+esc(r.name)+'</td><td>'+esc(r.category)+'</td><td>'+r.product+'</td><td>'+r.manual+'</td><td>'+r.assembly+'</td><td><b>'+r.total+'</b></td></tr>').join('')+'</tbody></table></div></div><div class="pv-panel"><h2>Daily clicks (UTC)</h2><div class="pscroll"><table class="ptable"><thead><tr><th>Date</th><th>Clicks</th><th>Activity</th></tr></thead><tbody>'+[...days].sort((a,b)=>b[0].localeCompare(a[0])).map(([day,n])=>'<tr><td>'+esc(day)+'</td><td>'+n+'</td><td><span class="usage-bar" style="width:'+Math.round(n/max*100)+'%" aria-hidden="true"></span></td></tr>').join('')+'</tbody></table></div></div>';
+  }
+  $('#usageView').addEventListener('change',e=>{const key=e.target.dataset.usageFilter;if(!['days','category','kind'].includes(key))return;usage[key]=e.target.value;if(key!=='kind'){usage.sequence++;usage.loading=false;usage.data=null;usage.error='';}renderPractice();});
+  $('#usageView').addEventListener('click',e=>{if(e.target.closest('[data-usage-refresh]')){usage.sequence++;usage.loading=false;usage.data=null;usage.error='';renderPractice();}});
+  const lastLinkClicks=new Map();
+  function trackPublicLink(e){
+    if((e.type==='click'&&e.button!==0)||(e.type==='auxclick'&&e.button!==1)||e.defaultPrevented||pr.admin||pr.source!=='private-site')return;
+    const link=e.target.closest('a.sku-product-link,a.manual-link,a.assembly-link'),row=link?.closest('tr[data-id]');if(!row||!link.href.startsWith('https://'))return;
+    const kind=link.classList.contains('sku-product-link')?'product':link.classList.contains('manual-link')?'manual':'assembly',key=row.dataset.id+':'+kind,now=Date.now();if(now-(lastLinkClicks.get(key)||0)<1000)return;lastLinkClicks.set(key,now);
+    fetch('/api/public-usage/click',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({itemId:row.dataset.id,kind}),keepalive:true}).catch(()=>{});
+  }
+  document.addEventListener('click',trackPublicLink);document.addEventListener('auxclick',trackPublicLink);
   function setupHtml() {
     const counts = {}; const seen = new Set();
     for (const it of state.items) { const k = it.category + "|" + it.sku; if (!imgSrc(it) || seen.has(k)) continue; seen.add(k); counts[it.category] = (counts[it.category] || 0) + 1; }
