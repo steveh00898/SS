@@ -71,7 +71,7 @@ The fifth admin section counts product-page, user-manual and assembly-guide link
 
 Migration `0003_public_link_clicks` adds anonymous daily counters only. No visitor identifiers, account IDs, emails, IP addresses or destination URLs are stored. Older than 90-day totals are cleaned when recording or reading usage. These are best-effort click counts, not unique visitors or proof a resource was watched/read. Rapid duplicate clicks on the same link are ignored for one second. Tracking starts with publication and cannot reconstruct earlier usage.
 
-`POST /api/public-usage/click` is the only anonymous write route. It requires a same-origin JSON request with a valid catalog item and an available product/manual/assembly destination. `GET /api/public-usage` requires the configured catalog admin. The Claude Artifact runtime is unchanged and does not send Site analytics. Local preview shows an empty admin dashboard.
+The legacy `POST /api/public-usage/click` remains compatible; anonymous writes are limited to that endpoint, the validated `/api/public-usage/events` batch endpoint, and `/api/feedback`. It requires a same-origin JSON request with a valid catalog item and an available product/manual/assembly destination. `GET /api/public-usage` requires the configured catalog admin. The Claude Artifact runtime is unchanged and does not send Site analytics. Local preview shows an empty admin dashboard.
 
 ### Timing, health and feedback
 

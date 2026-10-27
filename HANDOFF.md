@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-27: Codex — timing, health and feedback published as Site version 28
+- Changes: published desktop catalog scope note, search/category-to-resource median/P90, load/error/recovered-delivery metrics, bounded duplicate-safe retry outbox and minimal public feedback widget with private admin comments. All four excluded measurements remain unimplemented.
+- Files: HANDOFF.md and README.md endpoint wording only; deployed source unchanged.
+- Tests: full 13-suite run passed, then server mixed-stale-event and browser retry/feedback integration passed after the server-only retry safeguard. Fourteen standard captures and new feedback/performance captures passed/inspected. Worker build passed. Live clean browser confirmed all 156 items, note visible desktop/hidden at 390px, no extra feedback input fields, mobile fit, analytics GET 403 and invalid feedback/events POST 400.
+- Local preview: desktop/phone form and admin metrics/comments checked against real Worker/SQLite fixture.
+- Claude Artifact: fallback preserved; Site analytics/feedback disabled there. Claude sync required for source alignment.
+- Private Site: PUBLIC version 28 from exact main SHA 70fd692f03b30496bc1fcc20a1d9d3f35f45f4d7; deployment appgdep_6ae1204252dc819196fea928134941aa succeeded. Migration 0004 confirmed applied: public_feedback and public_telemetry_events present alongside existing tables. Admin environment revision 1 and public audience preserved.
+- Practice data: not exported (public-repository permission pending); catalog/practice and old click totals retained.
+- Remaining issues: no historical timing backfill; recovered-failure metrics cannot represent permanently blocked reporting. QA submitted no production feedback or resource clicks; anonymous live verification can add a normal catalog-load timing sample. Actual admin interactions/quantiles/escaping tested locally; live public privacy restrictions verified.
+- Next steps: refresh the app; admins open Public Usage Analysis to see new metrics and recent comments. Documentation follow-up does not change deployed app.
 ## 2026-10-27: Codex — prevent an obsolete queued link blocking telemetry
 - Changes: schema-valid queued clicks for a removed product or removed resource are acknowledged as discarded without storing them, so valid events in the same batch still arrive. Malformed/cross-origin requests remain rejected.
 - Files: server/worker.js, feedback-performance-server test, HANDOFF.md.
