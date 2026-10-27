@@ -21,10 +21,13 @@ async function touchProfile(db,user,email){const now=new Date().toISOString();aw
 const dbFor=env=>{if(!env.DB)throw fail('Catalog database is unavailable',503);return env.DB};
 async function initialize(db){const marker='github-catalog-18d9844';const flag=await db.prepare('SELECT value FROM catalog_meta WHERE key = ?').bind(marker).first();if(flag)return;const inserts=APP_CATALOG.map(i=>db.prepare('INSERT OR IGNORE INTO items (id,data) VALUES (?,?)').bind(i.id,JSON.stringify(i)));const cleanup=['DEMO-T001','DEMO-T002','DEMO-T003'].map(sku=>db.prepare('DELETE FROM items WHERE id = ? AND json_extract(data, \'$.name\') LIKE \'Sample %\'').bind(sku.toLowerCase()));await db.batch([...inserts,...cleanup,db.prepare('INSERT OR IGNORE INTO catalog_meta (key,value) VALUES (?,?)').bind(marker,'imported')])}
 
+async function boundedJson(request,max){if(Number(request.headers.get('content-length')||0)>max)throw fail('Payload too large',413);if(!request.headers.get('content-type')?.startsWith('application/json'))throw fail('Use JSON',415);const reader=request.body?.getReader();if(!reader)throw fail('Invalid payload');const chunks=[];let size=0;for(;;){const {done,value}=await reader.read();if(done)break;size+=value.byteLength;if(size>max){await reader.cancel();throw fail('Payload too large',413)}chunks.push(value)}const bytes=new Uint8Array(size);let offset=0;for(const part of chunks){bytes.set(part,offset);offset+=part.length}try{return JSON.parse(new TextDecoder().decode(bytes))}catch{throw fail('Invalid JSON')}}
+const validPublicId=id=>typeof id==='string'&&/^[A-Za-z0-9_-]{16,80}$/.test(id);
+
 export default {async fetch(request,env){const url=new URL(request.url);try{if(url.pathname==='/'&&request.method==='GET')return new Response(APP_HTML,{headers:{'Content-Type':'text/html;charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff','Content-Security-Policy':"default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'none'"}});
 if(!url.pathname.startsWith('/api/'))return new Response('Not found',{status:404});
 // Public catalog reads; catalog/practice writes require identity. Analytics reads remain admin-only.
-const user=request.headers.get('oai-authenticated-user-id');if(request.method!=='GET'&&!(url.pathname==='/api/public-usage/click'&&request.method==='POST')){if(!user)throw fail('Sign in to edit the catalog',403);const origin=request.headers.get('origin');if(origin&&origin!==url.origin)throw fail('Invalid request origin',403)}
+const user=request.headers.get('oai-authenticated-user-id');if(request.method!=='GET'&&!(['/api/public-usage/click','/api/public-usage/events','/api/feedback'].includes(url.pathname)&&request.method==='POST')){if(!user)throw fail('Sign in to edit the catalog',403);const origin=request.headers.get('origin');if(origin&&origin!==url.origin)throw fail('Invalid request origin',403)}
 const email=(request.headers.get('oai-authenticated-user-email')||'').trim().slice(0,320);const role=await roles(env,user,email);
 // Only this bounded same-origin endpoint accepts anonymous writes. It cannot modify catalog or practice data.
 if(url.pathname==='/api/public-usage/click'&&request.method==='POST'){
@@ -41,6 +44,29 @@ if(url.pathname==='/api/public-usage/click'&&request.method==='POST'){
  await db.batch([db.prepare('INSERT INTO public_link_clicks (day,item_id,kind,click_count) VALUES (?,?,?,1) ON CONFLICT(day,item_id,kind) DO UPDATE SET click_count = MIN(click_count + 1,100000)').bind(day,body.itemId,body.kind),db.prepare('DELETE FROM public_link_clicks WHERE day < ?').bind(cutoff)]);
  return json({counted:true},202);
 }
+if(url.pathname==='/api/public-usage/events'&&request.method==='POST'){
+ if(request.headers.get('origin')!==url.origin)throw fail('Invalid request origin',403);
+ const body=await boundedJson(request,16000),events=body?.events;if(!Array.isArray(events)||events.length<1||events.length>20||Object.keys(body).some(k=>k!=='events'))throw fail('Invalid events');
+ const db=dbFor(env),day=new Date().toISOString().slice(0,10),cutoff=new Date(Date.now()-89*86400000).toISOString().slice(0,10),statements=[];
+ for(const e of events){
+  if(!e||!validPublicId(e.eventId)||!['link_click','catalog_load','load_error','app_error','delivery_failure'].includes(e.type)||Object.keys(e).some(k=>!['eventId','type','itemId','kind','value'].includes(k)))throw fail('Invalid event');
+  if(e.type==='link_click'){
+   if(typeof e.itemId!=='string'||e.itemId.length>200||!['product','manual','assembly'].includes(e.kind)||(e.value!=null&&(!Number.isInteger(e.value)||e.value<0||e.value>1800000)))throw fail('Invalid timed click');
+   const row=await db.prepare('SELECT data FROM items WHERE id = ?').bind(e.itemId).first();if(!row)throw fail('Product not found',404);const item=JSON.parse(row.data),guide=typeof APP_GUIDES!=='undefined'?APP_GUIDES[item.sku]:null,destination=e.kind==='product'?item.url:e.kind==='manual'?guide?.url:guide?.assemblyUrl;if(typeof destination!=='string'||!destination.startsWith('https://'))throw fail('Link unavailable');
+  }else if(e.itemId!=null||e.kind!=null||!Number.isInteger(e.value)||e.value<0||(e.type==='catalog_load'?e.value>180000:e.value!==1))throw fail('Invalid performance event');
+  statements.push(db.prepare('INSERT OR IGNORE INTO public_telemetry_events (event_id,day,type,item_id,kind,value) VALUES (?,?,?,?,?,?)').bind(e.eventId,day,e.type,e.itemId||null,e.kind||null,e.value??null));
+  if(e.type==='link_click')statements.push(db.prepare('INSERT INTO public_link_clicks (day,item_id,kind,click_count) SELECT ?,?,?,1 WHERE changes() = 1 ON CONFLICT(day,item_id,kind) DO UPDATE SET click_count = MIN(click_count + 1,100000)').bind(day,e.itemId,e.kind));
+ }
+ if(role.admin)return json({accepted:events.map(e=>e.eventId),counted:false});
+ statements.push(db.prepare('DELETE FROM public_telemetry_events WHERE day < ?').bind(cutoff),db.prepare('DELETE FROM public_link_clicks WHERE day < ?').bind(cutoff));await db.batch(statements);return json({accepted:events.map(e=>e.eventId)},202);
+}
+if(url.pathname==='/api/feedback'&&request.method==='POST'){
+ if(request.headers.get('origin')!==url.origin)throw fail('Invalid request origin',403);
+ const body=await boundedJson(request,8000);if(!body||!validPublicId(body.id)||typeof body.comment!=='string'||Object.keys(body).some(k=>!['id','comment'].includes(k)))throw fail('Invalid feedback');
+ const comment=body.comment.trim();if(!comment||comment.length>1500||/[\x00-\x08\x0b\x0c\x0e-\x1f]/.test(comment))throw fail('Enter a comment of 1 to 1500 characters');
+ const db=dbFor(env),now=new Date().toISOString(),recent=new Date(Date.now()-60000).toISOString();const duplicate=await db.prepare('SELECT id FROM public_feedback WHERE id = ? OR (comment = ? AND created_at >= ?) LIMIT 1').bind(body.id,comment,recent).first();if(duplicate)return json({received:true});
+ await db.batch([db.prepare('INSERT OR IGNORE INTO public_feedback (id,created_at,comment) VALUES (?,?,?)').bind(body.id,now,comment),db.prepare('DELETE FROM public_feedback WHERE created_at < ?').bind(new Date(Date.now()-90*86400000).toISOString())]);return json({received:true},201);
+}
 if(url.pathname==='/api/public-usage'&&request.method==='GET'){
  if(!role.admin)throw fail('Only the admin can view public usage',403);
  const days=Number(url.searchParams.get('days')||30),category=url.searchParams.get('category')||'';if(![7,30,90].includes(days)||category.length>150)throw fail('Invalid usage filter');
@@ -49,7 +75,12 @@ if(url.pathname==='/api/public-usage'&&request.method==='GET'){
  const where="FROM public_link_clicks c LEFT JOIN items i ON i.id=c.item_id WHERE c.day >= ? AND c.day <= ? AND (? = '' OR json_extract(i.data,'$.category') = ?)";
  const {results:rows}=await db.prepare("SELECT c.item_id AS itemId,COALESCE(json_extract(i.data,'$.sku'),c.item_id) AS sku,COALESCE(json_extract(i.data,'$.name'),'Removed product') AS name,COALESCE(json_extract(i.data,'$.category'),'Removed products') AS category,c.kind,SUM(c.click_count) AS clicks "+where+' GROUP BY c.item_id,c.kind ORDER BY clicks DESC,c.item_id,c.kind').bind(from,to,category,category).all();
  const {results:daily}=await db.prepare('SELECT c.day,c.kind,SUM(c.click_count) AS clicks '+where+' GROUP BY c.day,c.kind ORDER BY c.day DESC,c.kind').bind(from,to,category,category).all();
- return json({days,from,to,rows,daily});
+ const kind=url.searchParams.get('kind')||'all';if(!['all','product','manual','assembly'].includes(kind))throw fail('Invalid link type');
+ await db.batch([db.prepare('DELETE FROM public_telemetry_events WHERE day < ?').bind(new Date(Date.now()-89*86400000).toISOString().slice(0,10)),db.prepare('DELETE FROM public_feedback WHERE created_at < ?').bind(new Date(Date.now()-90*86400000).toISOString())]);
+ const timing=await db.prepare("WITH ranked AS (SELECT t.value AS ms, ROW_NUMBER() OVER (ORDER BY t.value) AS rn,COUNT(*) OVER () AS n FROM public_telemetry_events t LEFT JOIN items i ON i.id=t.item_id WHERE t.day >= ? AND t.day <= ? AND t.type='link_click' AND t.value IS NOT NULL AND (? = '' OR json_extract(i.data,'$.category') = ?) AND (? = 'all' OR t.kind = ?)) SELECT COALESCE(MAX(n),0) AS samples,AVG(CASE WHEN rn=CAST((n+1)/2 AS INTEGER) OR rn=CAST((n+2)/2 AS INTEGER) THEN ms END) AS medianMs,MAX(CASE WHEN rn=CAST((n*9+9)/10 AS INTEGER) THEN ms END) AS p90Ms FROM ranked").bind(from,to,category,category,kind,kind).first();
+ const {results:health}=await db.prepare("SELECT type,COUNT(*) AS events,SUM(value) AS value FROM public_telemetry_events WHERE day >= ? AND day <= ? AND type != 'link_click' GROUP BY type").bind(from,to).all();
+ const {results:feedback}=await db.prepare('SELECT created_at AS at,comment FROM public_feedback WHERE created_at >= ? AND created_at <= ? ORDER BY created_at DESC,id DESC LIMIT 100').bind(from+'T00:00:00.000Z',to+'T23:59:59.999Z').all();
+ return json({days,from,to,rows,daily,timing,health,feedback});
 }
 if(url.pathname==='/api/session')return json({canWrite:role.canWrite,practice:!!user,admin:role.admin,email:email||null});
 if(request.method!=='GET'&&(url.pathname==='/api/assets'||url.pathname.startsWith('/api/items'))&&!role.canWrite)throw fail('Only the catalog admin can change the catalog',403);

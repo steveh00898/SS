@@ -437,6 +437,7 @@ body.spec-view table.ptable{min-width:0}
 @media(max-width:720px){#toolsExpand,#specLegend{display:none!important}.top{z-index:40}.side{z-index:10}}
 .product-guides{display:flex;flex-direction:column;align-items:flex-start;gap:8px}.sku-product-link{color:inherit;text-decoration:none}.sku-product-link:hover{text-decoration:underline}.sku-product-link:focus-visible,.manual-link:focus-visible,.assembly-link:focus-visible{outline:2px solid var(--accent);outline-offset:3px}.manual-link,.assembly-link{color:var(--muted);font-size:14px;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}.manual-link:hover,.assembly-link:hover{color:var(--fg)}.manual-unavailable,.assembly-unavailable{color:var(--muted);font-size:13px}@media(max-width:720px){.c-link .manual-link,.c-link .assembly-link{color:var(--muted);font-size:14px}}
 .usage-products{min-width:760px}.usage-products td:first-child{min-width:230px}.usage-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0}.usage-card{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:18px;display:grid;gap:8px}.usage-card span{font-size:13px;color:var(--muted)}.usage-card strong{font-size:28px}.usage-bar{display:block;height:8px;min-width:3px;background:var(--accent);border-radius:4px}#usageView .pv-tools label{max-width:100%;min-width:130px}#usageView .pv-tools{align-items:end}@media(max-width:720px){.usage-stats{grid-template-columns:repeat(2,minmax(0,1fr))}#usageView select{max-width:100%}}
+.catalog-scope{font-size:12px;line-height:1.5;color:var(--muted);margin:0 0 12px;padding:0 8px}.catalog-scope a{color:inherit}.insight-stats{grid-template-columns:repeat(3,minmax(0,1fr))}.feedback-list article{padding:12px 0;border-bottom:1px solid var(--line)}.feedback-list time{font-size:12px;color:var(--muted)}.feedback-list p{overflow-wrap:anywhere}#feedbackWidget{position:fixed;right:18px;bottom:18px;z-index:35;max-width:calc(100vw - 24px)}.feedback-trigger{background:var(--surface);box-shadow:0 3px 15px #0002}#feedbackPanel{position:absolute;bottom:45px;right:0;width:300px;max-width:calc(100vw - 24px);padding:14px;border:1px solid var(--line);border-radius:12px;background:var(--surface);box-shadow:0 8px 28px #0002}.feedback-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}.feedback-head button{border:0;background:none;color:var(--muted);font-size:22px;cursor:pointer}#feedbackComment{width:100%;box-sizing:border-box;resize:vertical;max-height:35vh;padding:10px;border:1px solid var(--line);border-radius:7px;background:var(--bg);color:var(--fg);font:inherit;font-size:14px}#feedbackPanel small{display:block;font-size:10px;color:var(--muted);margin-top:5px}.feedback-actions{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:10px}#feedbackStatus{font-size:12px;color:var(--muted)}@media(max-width:720px){.catalog-scope{display:none!important}.insight-stats{grid-template-columns:repeat(2,minmax(0,1fr))}#feedbackWidget{right:12px;bottom:12px}}
 </style>
 
 </head><body><header class="top">
@@ -454,7 +455,7 @@ body.spec-view table.ptable{min-width:0}
 </header>
 
 <main class="wrap layout">
-  <aside class="side" aria-label="Sections and categories">
+  <aside class="side" aria-label="Sections and categories"><p class="catalog-scope catalog-only">Search products from <a href="https://sunnyhealthfitness.com/" target="_blank" rel="noopener">sunnyhealthfitness.com</a> only.</p>
   <section class="hero"><div class="inner">
     <div class="compact-picker" id="sectionPicker"><button type="button" class="picker-trigger" aria-expanded="false" aria-controls="views" id="sectionTrigger">Catalog <span aria-hidden="true">›</span></button><nav class="views" id="views" aria-label="Sections"><button type="button" data-view="catalog" aria-pressed="true">Catalog</button><button type="button" data-view="practice" aria-pressed="false">SKU Practice</button><button type="button" data-view="progress" aria-pressed="false">Progress</button><button type="button" data-view="accounts" aria-pressed="false" hidden>Accounts</button><button type="button" data-view="usage" aria-pressed="false" hidden>Public Usage Analysis</button></nav></div>
     <div class="head">
@@ -566,9 +567,11 @@ body.spec-view table.ptable{min-width:0}
 </div>
 <input id="bulkFile" type="file" accept="image/*" hidden>
 <div class="toast" id="toast" role="status" hidden></div>
+<aside id="feedbackWidget" hidden aria-label="Feedback"><button class="btn feedback-trigger" id="feedbackToggle" type="button" aria-expanded="false" aria-controls="feedbackPanel">Feedback</button><form id="feedbackPanel" hidden><div class="feedback-head"><strong>Share feedback</strong><button id="feedbackClose" type="button" aria-label="Close feedback">×</button></div><textarea id="feedbackComment" aria-label="Your feedback" maxlength="1500" rows="3" placeholder="Type your comment…" required></textarea><small>Please leave out personal or customer information.</small><div class="feedback-actions"><span id="feedbackStatus" role="status" aria-live="polite"></span><button class="btn primary" id="feedbackSubmit" type="submit">Submit</button></div></form></aside>
 
 <script>
 (() => {
+  const catalogLoadStartedAt=0;let catalogLoadReported=false;
   const $ = (s) => document.querySelector(s);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const money = (n) => (typeof n === "number" && isFinite(n)) ? "$" + n.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : "—";
@@ -868,7 +871,7 @@ body.spec-view table.ptable{min-width:0}
     const row = document.querySelector(`tr[data-id="${CSS.escape(it.id)}"]`);
     if (row) { row.scrollIntoView({ block: "center", behavior: "smooth" }); row.classList.add("flash"); setTimeout(() => row.classList.remove("flash"), 1400); }
   }
-  q.addEventListener("input", () => { state.q = q.value.trim(); sugIdx = -1; renderSuggest(); render(); });
+  q.addEventListener("input", () => { if(q.value.trim())beginSearchTiming(); state.q = q.value.trim(); sugIdx = -1; renderSuggest(); render(); });
   q.addEventListener("focus", renderSuggest);
   q.addEventListener("keydown", (e) => {
     if (sug.hidden && e.key !== "Escape") return;
@@ -885,7 +888,7 @@ body.spec-view table.ptable{min-width:0}
   $('#compareToggle').addEventListener('change',e=>{state.compareMode=e.target.checked;state.compareConfirmed=false;state.compareSelected.clear();render();$('.tablebox').scrollLeft=0;});
   $('#rows').addEventListener('change',e=>{const id=e.target.dataset.compare;if(!id)return;if(e.target.checked)state.compareSelected.add(id);else state.compareSelected.delete(id);$('#compareConfirm').disabled=state.compareSelected.size===0;$('#compareStatus').textContent=state.compareSelected.size+' selected';});
   $('#compareConfirm').addEventListener('click',()=>{if(!state.compareSelected.size)return;state.compareConfirmed=true;state.compareActive=new Set(state.compareSelected);render();$('.tablebox').scrollTop=0;});
-  $("#tabs").addEventListener("click", (e) => { const b = e.target.closest("[data-cat]"); if (!b) return; if(state.cat!==b.dataset.cat){state.compareMode=false;state.compareConfirmed=false;state.compareSelected.clear();state.compareActive.clear();}state.cat = b.dataset.cat; try { localStorage.setItem("spf.cat", state.cat); } catch (err) {} render(); });
+  $("#tabs").addEventListener("click", (e) => { const b = e.target.closest("[data-cat]"); if (!b) return; beginSearchTiming(); if(state.cat!==b.dataset.cat){state.compareMode=false;state.compareConfirmed=false;state.compareSelected.clear();state.compareActive.clear();}state.cat = b.dataset.cat; try { localStorage.setItem("spf.cat", state.cat); } catch (err) {} render(); });
   document.querySelector("thead").addEventListener("click", (e) => {
     if(e.target.closest(".header-controls"))return;const th = e.target.closest("th[data-key]"); if (!th) return; const k = th.dataset.key;
     state.sort = { key: k, dir: state.sort.key === k ? -state.sort.dir : 1 }; render();
@@ -1082,7 +1085,7 @@ body.spec-view table.ptable{min-width:0}
       else { const s = await api("/api/session").catch(() => null); pr.store = s && s.practice ? sitePractice : null; pr.source = "private-site"; pr.enabled = !!(s && s.practice); pr.admin = !!(s && s.admin); if (s && s.email) pr.me.email = String(s.email); }
       if (pr.store) pr.records = (await pr.store.load()).map(cleanRecord);
     } catch (e) { pr.store = null; pr.saveNote = "Your saved results couldn't load, so this visit isn't saved."; }
-    pr.loaded = true; if ((!pr.enabled && ["practice","progress","accounts"].includes(pr.view)) || (!pr.admin && pr.view === "usage")) setView("catalog"); renderPractice(); document.querySelector('#views [data-view="accounts"]').hidden = !pr.admin; if (pr.view !== "catalog") renderPractice();
+    pr.loaded = true; activatePublicFeatures(); if ((!pr.enabled && ["practice","progress","accounts"].includes(pr.view)) || (!pr.admin && pr.view === "usage")) setView("catalog"); renderPractice(); document.querySelector('#views [data-view="accounts"]').hidden = !pr.admin; if (pr.view !== "catalog") renderPractice();
   }
   let saveChain = Promise.resolve();
   function savePractice(recs) {
@@ -1248,7 +1251,7 @@ body.spec-view table.ptable{min-width:0}
   const usageLabels = {product:'Product page',manual:'User manual',assembly:'Assembly guide'};
   async function loadUsage(){
     if(!pr.admin||usage.loading)return;usage.loading=true;usage.error='';const sequence=++usage.sequence;
-    try{const data=await api('/api/public-usage?days='+usage.days+'&category='+encodeURIComponent(usage.category));if(sequence===usage.sequence)usage.data=data;}
+    try{const data=await api('/api/public-usage?days='+usage.days+'&category='+encodeURIComponent(usage.category)+'&kind='+usage.kind);if(sequence===usage.sequence)usage.data=data;}
     catch(error){if(sequence===usage.sequence)usage.error=error.message||'Usage could not load.';}
     finally{if(sequence===usage.sequence){usage.loading=false;if(pr.view==='usage')renderPractice();}}
   }
@@ -1256,27 +1259,67 @@ body.spec-view table.ptable{min-width:0}
     if(!usage.data&&!usage.loading&&!usage.error)loadUsage();
     const options=Object.keys(usageLabels).map(k=>'<option value="'+k+'" '+(usage.kind===k?'selected':'')+'>'+usageLabels[k]+'</option>').join('');
     const controls='<div class="pv-tools"><label>Period<select data-usage-filter="days">'+[7,30,90].map(n=>'<option value="'+n+'" '+(usage.days===String(n)?'selected':'')+'>Last '+n+' days</option>').join('')+'</select></label><label>Category<select data-usage-filter="category"><option value="">All categories</option>'+categories().map(([c])=>'<option '+(usage.category===c?'selected':'')+' value="'+esc(c)+'">'+esc(c)+'</option>').join('')+'</select></label><label>Link type<select data-usage-filter="kind"><option value="all">All links</option>'+options+'</select></label><button class="btn" type="button" data-usage-refresh>Refresh</button></div>';
-    const note='<p class="pv-help">Anonymous daily totals for the last 90 days (UTC). No names, emails, IP addresses or visitor identifiers are stored. Counts are link openings, not unique visitors or confirmed views. Blocked requests may not be counted.</p>';
+    const note='<p class="pv-help">Anonymous daily totals for the last 90 days (UTC). Telemetry stores no names, emails, IP addresses or visitor identifiers. Feedback stores only the submitted comment. Counts are link openings, not unique visitors or confirmed views. Blocked requests may not be counted.</p>';
     if(usage.error)return controls+'<div role="alert" class="state"><h2>Usage could not load</h2><p>'+esc(usage.error)+'</p></div>';
     if(!usage.data)return controls+'<div class="state" role="status"><h2>Loading link usage</h2></div>';
     const rows=usage.data.rows.filter(r=>usage.kind==='all'||usage.kind===r.kind),totals={product:0,manual:0,assembly:0},products=new Map(),days=new Map();
     for(const r of rows){const n=Number(r.clicks)||0;totals[r.kind]+=n;if(!products.has(r.itemId))products.set(r.itemId,{...r,product:0,manual:0,assembly:0,total:0});const item=products.get(r.itemId);item[r.kind]+=n;item.total+=n;}
     for(const r of usage.data.daily)if(usage.kind==='all'||usage.kind===r.kind)days.set(r.day,(days.get(r.day)||0)+Number(r.clicks));
     const total=Object.values(totals).reduce((a,b)=>a+b,0),cards=[['Total clicks',total],...Object.entries(usageLabels).map(([k,label])=>[label,totals[k]])].map(([label,n])=>'<div class="usage-card"><span>'+label+'</span><strong>'+n.toLocaleString()+'</strong></div>').join('');
-    if(!total)return controls+note+'<div class="usage-stats">'+cards+'</div><div class="state"><h2>No link clicks in this selection</h2><p>Tracking begins with this update. Try another period or category.</p></div>';
+    const insights=usageInsights();
+    if(!total)return controls+note+insights+'<div class="usage-stats usage-click-stats">'+cards+'</div><div class="state"><h2>No link clicks in this selection</h2><p>Tracking begins with this update. Try another period or category.</p></div>';
     const ranked=[...products.values()].sort((a,b)=>b.total-a.total||a.sku.localeCompare(b.sku));const max=Math.max(...days.values(),1);
-    return controls+note+'<div class="usage-stats">'+cards+'</div><div class="pv-panel"><h2>Most-used products</h2><div class="pscroll"><table class="ptable usage-products"><thead><tr><th>SKU / Item</th><th>Category</th><th>Product page</th><th>User manual</th><th>Assembly guide</th><th>Total clicks</th></tr></thead><tbody>'+ranked.map(r=>'<tr><td><b>'+esc(r.sku)+'</b><br>'+esc(r.name)+'</td><td>'+esc(r.category)+'</td><td>'+r.product+'</td><td>'+r.manual+'</td><td>'+r.assembly+'</td><td><b>'+r.total+'</b></td></tr>').join('')+'</tbody></table></div></div><div class="pv-panel"><h2>Daily clicks (UTC)</h2><div class="pscroll"><table class="ptable"><thead><tr><th>Date</th><th>Clicks</th><th>Activity</th></tr></thead><tbody>'+[...days].sort((a,b)=>b[0].localeCompare(a[0])).map(([day,n])=>'<tr><td>'+esc(day)+'</td><td>'+n+'</td><td><span class="usage-bar" style="width:'+Math.round(n/max*100)+'%" aria-hidden="true"></span></td></tr>').join('')+'</tbody></table></div></div>';
+    return controls+note+insights+'<div class="usage-stats usage-click-stats">'+cards+'</div><div class="pv-panel"><h2>Most-used products</h2><div class="pscroll"><table class="ptable usage-products"><thead><tr><th>SKU / Item</th><th>Category</th><th>Product page</th><th>User manual</th><th>Assembly guide</th><th>Total clicks</th></tr></thead><tbody>'+ranked.map(r=>'<tr><td><b>'+esc(r.sku)+'</b><br>'+esc(r.name)+'</td><td>'+esc(r.category)+'</td><td>'+r.product+'</td><td>'+r.manual+'</td><td>'+r.assembly+'</td><td><b>'+r.total+'</b></td></tr>').join('')+'</tbody></table></div></div><div class="pv-panel"><h2>Daily clicks (UTC)</h2><div class="pscroll"><table class="ptable"><thead><tr><th>Date</th><th>Clicks</th><th>Activity</th></tr></thead><tbody>'+[...days].sort((a,b)=>b[0].localeCompare(a[0])).map(([day,n])=>'<tr><td>'+esc(day)+'</td><td>'+n+'</td><td><span class="usage-bar" style="width:'+Math.round(n/max*100)+'%" aria-hidden="true"></span></td></tr>').join('')+'</tbody></table></div></div>';
   }
-  $('#usageView').addEventListener('change',e=>{const key=e.target.dataset.usageFilter;if(!['days','category','kind'].includes(key))return;usage[key]=e.target.value;if(key!=='kind'){usage.sequence++;usage.loading=false;usage.data=null;usage.error='';}renderPractice();});
+  $('#usageView').addEventListener('change',e=>{const key=e.target.dataset.usageFilter;if(!['days','category','kind'].includes(key))return;usage[key]=e.target.value;usage.sequence++;usage.loading=false;usage.data=null;usage.error='';renderPractice();});
   $('#usageView').addEventListener('click',e=>{if(e.target.closest('[data-usage-refresh]')){usage.sequence++;usage.loading=false;usage.data=null;usage.error='';renderPractice();}});
-  const lastLinkClicks=new Map();
+  function usageInsights(){
+    const data=usage.data||{},timing=data.timing||{},health=Object.fromEntries((data.health||[]).map(x=>[x.type,x])),num=n=>Number(n||0).toLocaleString(),seconds=n=>n==null?'—':(Number(n)/1000).toFixed(1)+' s';
+    const loading=health.catalog_load,avg=loading&&loading.events?loading.value/loading.events:null;
+    const cards=[['Completed searches',num(timing.samples)],['Median to resource',seconds(timing.medianMs)],['90% reached within',seconds(timing.p90Ms)],['Average catalog ready time',seconds(avg)],['Catalog load errors',num(health.load_error?.events)],['App errors',num(health.app_error?.events)],['Delivery failures reported',num(health.delivery_failure?.events)]];
+    const feedback=data.feedback||[];
+    return '<div class="pv-panel"><h2>Finding information quickly</h2><p class="pv-help">Timing uses visible-tab time from the first search input or category choice to the next resource click. Refinements keep the original start; hidden tabs pause timing. No search text is stored. Untimed clicks are excluded; after five minutes without another search/category input, a new input starts a new attempt.</p><div class="usage-stats insight-stats">'+cards.slice(0,3).map(([label,value])=>'<div class="usage-card"><span>'+label+'</span><strong>'+value+'</strong></div>').join('')+'</div></div><div class="pv-panel"><h2>Site-wide health</h2><p class="pv-help">For the selected period, across all categories and link types. Load time ends when catalog data is ready. Delivery failures appear after reconnection; permanently blocked reporting cannot be measured.</p><div class="usage-stats">'+cards.slice(3).map(([label,value])=>'<div class="usage-card"><span>'+label+'</span><strong>'+value+'</strong></div>').join('')+'</div></div><div class="pv-panel"><h2>Feedback</h2><p class="pv-help">Latest 100 comments in the selected period. Visible only to admins.</p>'+(!feedback.length?'<p>No feedback yet.</p>':'<div class="feedback-list">'+feedback.map(f=>'<article><time>'+esc(new Date(f.at).toLocaleString())+'</time><p>'+esc(f.comment).replace(/\n/g,'<br>')+'</p></article>').join('')+'</div>')+'</div>';
+  }
+  const lastLinkClicks=new Map(),telemetryKey='spf.telemetry.outbox.v1';let outbox=[],deliveryTimer=null,deliveryBusy=false,retryDelay=1000;
+  const publicEventId=()=>typeof crypto.randomUUID==='function'?crypto.randomUUID():Date.now().toString(36)+'-'+Math.random().toString(36).slice(2)+'-'+Math.random().toString(36).slice(2);
+  try{const stored=JSON.parse(localStorage.getItem(telemetryKey)||'[]');if(Array.isArray(stored))outbox=stored.filter(x=>x&&typeof x.eventId==='string'&&Date.now()-x.queuedAt<86400000).slice(-100);}catch{}
+  const journey={active:false,elapsed:0,resumed:null,lastInput:0};
+  const visibleJourneyTime=()=>journey.elapsed+(journey.resumed===null?0:performance.now()-journey.resumed);
+  function beginSearchTiming(){const now=performance.now();if(!journey.active||visibleJourneyTime()-journey.lastInput>300000){journey.active=true;journey.elapsed=0;journey.resumed=document.hidden?null:now;}journey.lastInput=visibleJourneyTime();}
+  function searchElapsed(){if(!journey.active)return null;const ms=Math.round(journey.elapsed+(journey.resumed===null?0:performance.now()-journey.resumed));journey.active=false;journey.elapsed=0;journey.resumed=null;return ms<=1800000?Math.max(0,ms):null;}
+  function persistTelemetry(){outbox=outbox.filter(x=>Date.now()-x.queuedAt<86400000).slice(-100);try{localStorage.setItem(telemetryKey,JSON.stringify(outbox))}catch{}}
+  function scheduleTelemetry(delay=250){clearTimeout(deliveryTimer);deliveryTimer=setTimeout(flushTelemetry,delay);}
+  function queueTelemetry(event){if(pr.admin||pr.source==='claude-artifact')return;outbox.push({...event,eventId:publicEventId(),queuedAt:Date.now()});persistTelemetry();if(pr.loaded&&pr.source==='private-site')scheduleTelemetry();}
+  function activatePublicFeatures(){
+    $('#feedbackWidget').hidden=pr.source!=='private-site';
+    if(pr.admin||pr.source!=='private-site'){outbox=[];try{localStorage.removeItem(telemetryKey)}catch{}return;}
+    try{const stored=JSON.parse(localStorage.getItem(telemetryKey)||'[]');if(Array.isArray(stored)){const byId=new Map([...stored,...outbox].filter(x=>x&&typeof x.eventId==='string'&&Date.now()-x.queuedAt<86400000).map(x=>[x.eventId,x]));outbox=[...byId.values()].slice(-100);}}catch{}persistTelemetry();scheduleTelemetry();
+  }
+  async function flushTelemetry(){
+    clearTimeout(deliveryTimer);if(deliveryBusy||!outbox.length||!pr.loaded||pr.admin||pr.source!=='private-site'||navigator.onLine===false)return;persistTelemetry();if(!outbox.length)return;
+    deliveryBusy=true;const batch=outbox.slice(0,20),ids=new Set(batch.map(x=>x.eventId));
+    try{const response=await fetch('/api/public-usage/events',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({events:batch.map(({queuedAt,...event})=>event)}),keepalive:true});if(!response.ok)throw Error('Delivery unavailable');const body=await response.json();if(!Array.isArray(body.accepted)||!batch.every(x=>body.accepted.includes(x.eventId)))throw Error('Unconfirmed delivery');outbox=outbox.filter(x=>!ids.has(x.eventId));persistTelemetry();retryDelay=1000;}
+    catch{outbox.push({eventId:publicEventId(),type:'delivery_failure',value:1,queuedAt:Date.now()});persistTelemetry();retryDelay=Math.min(retryDelay*2,30000);}
+    finally{deliveryBusy=false;if(outbox.length)scheduleTelemetry(retryDelay);}
+  }
   function trackPublicLink(e){
     if((e.type==='click'&&e.button!==0)||(e.type==='auxclick'&&e.button!==1)||e.defaultPrevented||pr.admin||pr.source!=='private-site')return;
     const link=e.target.closest('a.sku-product-link,a.manual-link,a.assembly-link'),row=link?.closest('tr[data-id]');if(!row||!link.href.startsWith('https://'))return;
     const kind=link.classList.contains('sku-product-link')?'product':link.classList.contains('manual-link')?'manual':'assembly',key=row.dataset.id+':'+kind,now=Date.now();if(now-(lastLinkClicks.get(key)||0)<1000)return;lastLinkClicks.set(key,now);
-    fetch('/api/public-usage/click',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({itemId:row.dataset.id,kind}),keepalive:true}).catch(()=>{});
+    const value=searchElapsed();queueTelemetry({type:'link_click',itemId:row.dataset.id,kind,...(value===null?{}:{value})});
   }
   document.addEventListener('click',trackPublicLink);document.addEventListener('auxclick',trackPublicLink);
+  document.addEventListener('visibilitychange',()=>{const now=performance.now();if(journey.active){if(document.hidden&&journey.resumed!==null){journey.elapsed+=now-journey.resumed;journey.resumed=null;}else if(!document.hidden&&journey.resumed===null)journey.resumed=now;}if(document.hidden)flushTelemetry();});
+  window.addEventListener('online',()=>scheduleTelemetry(0));window.addEventListener('pagehide',()=>{persistTelemetry();flushTelemetry()});
+  window.addEventListener('error',e=>{if(e instanceof ErrorEvent)queueTelemetry({type:'app_error',value:1})});window.addEventListener('unhandledrejection',()=>queueTelemetry({type:'app_error',value:1}));
+  let feedbackId=publicEventId(),feedbackLastComment='';
+  function closeFeedback(){ $('#feedbackPanel').hidden=true;$('#feedbackToggle').setAttribute('aria-expanded','false');$('#feedbackToggle').focus();}
+  $('#feedbackToggle').addEventListener('click',()=>{const open=$('#feedbackPanel').hidden;$('#feedbackPanel').hidden=!open;$('#feedbackToggle').setAttribute('aria-expanded',String(open));if(open)$('#feedbackComment').focus();});
+  $('#feedbackClose').addEventListener('click',closeFeedback);$('#feedbackPanel').addEventListener('keydown',e=>{if(e.key==='Escape'){e.stopPropagation();closeFeedback();}});
+  $('#feedbackPanel').addEventListener('submit',async e=>{e.preventDefault();const input=$('#feedbackComment'),button=$('#feedbackSubmit'),status=$('#feedbackStatus'),comment=input.value.trim();if(!comment){status.textContent='Please enter a comment.';return;}if(comment!==feedbackLastComment){feedbackId=publicEventId();feedbackLastComment=comment;}button.disabled=true;input.disabled=true;status.textContent='Sending…';
+    try{const response=await api('/api/feedback',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:feedbackId,comment})});if(!response.received)throw Error();input.value='';feedbackId=publicEventId();status.textContent='Thank you!';}
+    catch{status.textContent='Could not send. Please try again.';}finally{button.disabled=false;input.disabled=false;}
+  });
   function setupHtml() {
     const counts = {}; const seen = new Set();
     for (const it of state.items) { const k = it.category + "|" + it.sku; if (!imgSrc(it) || seen.has(k)) continue; seen.add(k); counts[it.category] = (counts[it.category] || 0) + 1; }
@@ -1591,10 +1634,10 @@ body.spec-view table.ptable{min-width:0}
           priceChecked: x.priceChecked !== false, url: String(x.url || ""), imageUrl: String(x.imageUrl || ""), imageAssetId: String(x.imageAssetId || ""), createdAt: x.createdAt || "",
           photoChecked: x.photoChecked === true, photoMasks: x.photoMasks && typeof x.photoMasks === "object" ? x.photoMasks : null };
       });
-      state.loaded = true; render(); if (document.activeElement === q) renderSuggest();
-    }, (err) => { state.loaded = true; $("#banner").hidden = false; $("#banner").textContent = "The catalog couldn't load. Reload the page to try again."; render(); });
+      if(!catalogLoadReported){catalogLoadReported=true;queueTelemetry({type:'catalog_load',value:Math.min(180000,Math.round(performance.now()-catalogLoadStartedAt))});}state.loaded = true; render(); if (document.activeElement === q) renderSuggest();
+    }, (err) => { queueTelemetry({type:'load_error',value:1});state.loaded = true; $("#banner").hidden = false; $("#banner").textContent = "The catalog couldn't load. Reload the page to try again."; render(); });
   }
-  boot().catch(error=>{state.loaded=true;$("#banner").hidden=false;$("#banner").textContent=error.message;render()});
+  boot().catch(error=>{queueTelemetry({type:'load_error',value:1});state.loaded=true;$("#banner").hidden=false;$("#banner").textContent=error.message;render()});
   if(document.modelContext?.registerTool){const lifecycle=new AbortController();window.addEventListener('pagehide',()=>lifecycle.abort(),{once:true});try{Promise.resolve(document.modelContext.registerTool({name:'search_products',description:'Filter the catalog by product name, SKU or category.',inputSchema:{type:'object',properties:{query:{type:'string'}},required:['query'],additionalProperties:false},annotations:{readOnlyHint:true,untrustedContentHint:true},execute:async input=>{if(typeof input?.query!=='string')throw Error('Query must be text');q.value=input.query;state.q=input.query;state.cat='All';render();return {items:visible().map(i=>({id:i.id,sku:i.sku,name:i.name,price:i.price}))}}},{signal:lifecycle.signal})).catch(()=>{})}catch{}}
 })();
 </script>

@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-27: Codex — resource timing, reliability metrics and minimal feedback
+- Changes: desktop-only catalog note says Search products from sunnyhealthfitness.com only. Added visible-tab search/category-to-next-resource timing with exact median/P90 in Public Usage Analysis; refinements retain the start and hidden time pauses. Added catalog-ready duration, catalog/app errors and recovered delivery-failure counts. Implemented persistent bounded 24-hour/100-event outbox with backoff and event-ID idempotency. Added collapsed bottom-right feedback form (comment/Submit/Close, no account/contact fields) and private latest-100 admin feedback list. Excluded no-result searches, repeated-query metrics, unavailable-resource requests and satisfaction prompts as requested; no search text stored.
+- Files: app/index.html, server/worker.js, db/schema.ts, migration 0004_usage_timing_feedback and metadata, preview.mjs, README.md, two new feedback/performance suites and existing usage-UI metric selectors, HANDOFF.md.
+- Tests: all 13 suites passed. New integration cases cover exact quantiles, filters, lost-ack retries without duplicate clicks, hidden-time pause/refinement, failed feedback draft retention/retry, escaped markup, bounded/same-origin validation, admin exclusion, duplicate feedback and retention. Initial old usage UI assertion read the newly first timing card; added stable click-total card selector and retained its numeric assertions. Fixed both populated/empty wrappers after a selector timeout. Fourteen standard screenshots plus new feedback/performance screenshots passed/inspected. Worker build passed.
+- Local preview: desktop scope note, phone-hidden note, minimal feedback panel and admin timing/health/comments checked. Preview data remain in memory.
+- Claude Artifact: runtime fallback retained; Site telemetry/feedback do not run there. Claude must sync source independently.
+- Private Site: PUBLIC audience preserved. Publication follows pushed tested commit with migration 0004; exact version/SHA in follow-up. Existing catalog/practice and daily click data unchanged.
+- Practice data: not exported (public-repository permission pending); existing report has zero results.
+- Remaining issues: timing measures visible time to click, not external reading/satisfaction. Only completed timed attempts count; new input after five visible idle minutes starts a fresh attempt, samples over 30 minutes omitted. Retried events use server-receipt UTC date. Delivery failures report only after recovery; permanently blocked/expired/cleared local queues cannot be measured. Feedback can contain user-entered personal data despite the avoid-personal-info prompt; it remains admin-only and is never exported to this public repo.
+- Next steps: publish, verify migration/public privacy checks, then admin reviews new metrics and comments after visitors use the app.
 ## 2026-10-27: Codex — Public Usage Analysis live as Site version 27
 - Changes: published admin-only Public Usage Analysis and anonymous resource-link counters. Public audience revision 2 retained; admin settings/environment revision 1 unchanged.
 - Files: HANDOFF.md only.
