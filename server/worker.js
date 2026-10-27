@@ -47,18 +47,18 @@ if(url.pathname==='/api/public-usage/click'&&request.method==='POST'){
 if(url.pathname==='/api/public-usage/events'&&request.method==='POST'){
  if(request.headers.get('origin')!==url.origin)throw fail('Invalid request origin',403);
  const body=await boundedJson(request,16000),events=body?.events;if(!Array.isArray(events)||events.length<1||events.length>20||Object.keys(body).some(k=>k!=='events'))throw fail('Invalid events');
- const db=dbFor(env),day=new Date().toISOString().slice(0,10),cutoff=new Date(Date.now()-89*86400000).toISOString().slice(0,10),statements=[];
+ const db=dbFor(env),day=new Date().toISOString().slice(0,10),cutoff=new Date(Date.now()-89*86400000).toISOString().slice(0,10),statements=[],discarded=[];
  for(const e of events){
   if(!e||!validPublicId(e.eventId)||!['link_click','catalog_load','load_error','app_error','delivery_failure'].includes(e.type)||Object.keys(e).some(k=>!['eventId','type','itemId','kind','value'].includes(k)))throw fail('Invalid event');
   if(e.type==='link_click'){
    if(typeof e.itemId!=='string'||e.itemId.length>200||!['product','manual','assembly'].includes(e.kind)||(e.value!=null&&(!Number.isInteger(e.value)||e.value<0||e.value>1800000)))throw fail('Invalid timed click');
-   const row=await db.prepare('SELECT data FROM items WHERE id = ?').bind(e.itemId).first();if(!row)throw fail('Product not found',404);const item=JSON.parse(row.data),guide=typeof APP_GUIDES!=='undefined'?APP_GUIDES[item.sku]:null,destination=e.kind==='product'?item.url:e.kind==='manual'?guide?.url:guide?.assemblyUrl;if(typeof destination!=='string'||!destination.startsWith('https://'))throw fail('Link unavailable');
+   const row=await db.prepare('SELECT data FROM items WHERE id = ?').bind(e.itemId).first();if(!row){discarded.push(e.eventId);continue;}const item=JSON.parse(row.data),guide=typeof APP_GUIDES!=='undefined'?APP_GUIDES[item.sku]:null,destination=e.kind==='product'?item.url:e.kind==='manual'?guide?.url:guide?.assemblyUrl;if(typeof destination!=='string'||!destination.startsWith('https://')){discarded.push(e.eventId);continue;}
   }else if(e.itemId!=null||e.kind!=null||!Number.isInteger(e.value)||e.value<0||(e.type==='catalog_load'?e.value>180000:e.value!==1))throw fail('Invalid performance event');
   statements.push(db.prepare('INSERT OR IGNORE INTO public_telemetry_events (event_id,day,type,item_id,kind,value) VALUES (?,?,?,?,?,?)').bind(e.eventId,day,e.type,e.itemId||null,e.kind||null,e.value??null));
   if(e.type==='link_click')statements.push(db.prepare('INSERT INTO public_link_clicks (day,item_id,kind,click_count) SELECT ?,?,?,1 WHERE changes() = 1 ON CONFLICT(day,item_id,kind) DO UPDATE SET click_count = MIN(click_count + 1,100000)').bind(day,e.itemId,e.kind));
  }
  if(role.admin)return json({accepted:events.map(e=>e.eventId),counted:false});
- statements.push(db.prepare('DELETE FROM public_telemetry_events WHERE day < ?').bind(cutoff),db.prepare('DELETE FROM public_link_clicks WHERE day < ?').bind(cutoff));await db.batch(statements);return json({accepted:events.map(e=>e.eventId)},202);
+ statements.push(db.prepare('DELETE FROM public_telemetry_events WHERE day < ?').bind(cutoff),db.prepare('DELETE FROM public_link_clicks WHERE day < ?').bind(cutoff));await db.batch(statements);return json({accepted:events.map(e=>e.eventId),discarded},202);
 }
 if(url.pathname==='/api/feedback'&&request.method==='POST'){
  if(request.headers.get('origin')!==url.origin)throw fail('Invalid request origin',403);

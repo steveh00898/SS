@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-27: Codex — prevent an obsolete queued link blocking telemetry
+- Changes: schema-valid queued clicks for a removed product or removed resource are acknowledged as discarded without storing them, so valid events in the same batch still arrive. Malformed/cross-origin requests remain rejected.
+- Files: server/worker.js, feedback-performance-server test, HANDOFF.md.
+- Tests: mixed valid/stale batch assertion passed, including no stored stale event. Timing/retry/feedback browser integration passed after this server-only safeguard; prior full 13-suite run and screenshots passed unchanged UI.
+- Local preview: existing checked desktop/phone layout unchanged.
+- Claude Artifact: no effect; Site-only endpoint.
+- Private Site: not published yet; release includes this commit rather than prior prepared archive.
+- Practice data: not exported (permission pending); no production data changed.
+- Remaining issues: documented bounded outbox/retention and recovered-failure reporting limits remain.
+- Next steps: package and publish final tested source with migration 0004.
 ## 2026-10-27: Codex — resource timing, reliability metrics and minimal feedback
 - Changes: desktop-only catalog note says Search products from sunnyhealthfitness.com only. Added visible-tab search/category-to-next-resource timing with exact median/P90 in Public Usage Analysis; refinements retain the start and hidden time pauses. Added catalog-ready duration, catalog/app errors and recovered delivery-failure counts. Implemented persistent bounded 24-hour/100-event outbox with backoff and event-ID idempotency. Added collapsed bottom-right feedback form (comment/Submit/Close, no account/contact fields) and private latest-100 admin feedback list. Excluded no-result searches, repeated-query metrics, unavailable-resource requests and satisfaction prompts as requested; no search text stored.
 - Files: app/index.html, server/worker.js, db/schema.ts, migration 0004_usage_timing_feedback and metadata, preview.mjs, README.md, two new feedback/performance suites and existing usage-UI metric selectors, HANDOFF.md.
