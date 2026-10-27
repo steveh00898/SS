@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-27: Codex — Public Usage Analysis live as Site version 27
+- Changes: published admin-only Public Usage Analysis and anonymous resource-link counters. Public audience revision 2 retained; admin settings/environment revision 1 unchanged.
+- Files: HANDOFF.md only.
+- Tests: all 11 suites passed; 14 existing preview captures plus desktop/phone analytics captures passed/inspected; Worker build passed. Live unauthenticated session returns admin/canWrite/practice false, report API returns 403, invalid click returns 404 without adding a count. Live fresh anonymous browser still loads all 156 products and search while hiding private features.
+- Local preview: desktop/phone dashboard checked against the real Worker and SQLite with isolated test counts.
+- Claude Artifact: analytics intentionally Site-only; Claude must sync source independently.
+- Private Site: PUBLIC version 27 from exact main SHA bc6e4c68ac4c18b61b0d63b5bab530eaf474f52f; deployment appgdep_6ae1007f13dc8191b535e21088a01fab succeeded. Migration 0003 confirmed applied: DB.public_link_clicks has only day/item_id/kind/click_count. Read-only check showed empty table immediately after deployment; production was not seeded with fake clicks.
+- Practice data: not exported (public-repository permission pending); no catalog/practice data changed.
+- Remaining issues: tracking begins now; best-effort openings are not unique people or proof of viewing. Anonymous reports denied live; authenticated admin interactions/filtering verified in local integration tests.
+- Next steps: admin selects Public Usage Analysis in section menu and uses Refresh after visitors open resources. Review top SKUs to prioritize missing or outdated guides. Documentation-only follow-up leaves deployed app unchanged.
 ## 2026-10-27: Codex — admin Public Usage Analysis for resource links
 - Changes: added fifth admin section Public Usage Analysis. Owner confirmed product-page, user-manual and assembly-guide clicks. Reports total/type counts, ranked SKUs and UTC daily activity with 7/30/90-day, category and type filters. Excludes admin, search/category/copy/picture/export clicks. Best-effort keepalive tracking never blocks opening links; same-link clicks throttled for one second. Public/learner viewers cannot select or directly open the analysis page or read its API.
 - Files: app/index.html; server/worker.js; scripts/build.mjs and preview.mjs; db/schema.ts; migration 0003_public_link_clicks and Drizzle metadata; usage server/UI fixture/tests; README.md; HANDOFF.md.
