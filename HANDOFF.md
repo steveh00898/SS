@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-27: Codex — public catalog live as Site version 26
+- Changes: owner-authorized audience changed from custom owner-only to Public, access revision 2. Everyone can browse without login. Anonymous SKU Practice/Progress and editing are disabled; existing account data retained.
+- Files: HANDOFF.md only.
+- Tests: all nine suites and 14 screenshots passed; Worker build passed. Initial anonymous live check saw dispatch HTTP 401 during access propagation; after HTTP 200 confirmed, fresh no-cookie Chromium passed: 156 products, working search, hidden practice/progress/add controls, /api/session canWrite=false/practice=false/admin=false, practice and accounts GET return 403. Screenshot saved in task outputs/public-catalog-desktop.png.
+- Local preview: passed; live anonymous browser verified.
+- Claude Artifact: behind 9b4c8f8; Claude must sync/publicize independently if desired.
+- Private Site: now PUBLIC per explicit owner request; version 26 from exact main SHA 9b4c8f8ceac0d608eafdbe6db30cee019f58233c, deployment appgdep_6ae0f74fe398819196f4aff8d2fda9d6 succeeded. Admin environment revision 1 unchanged.
+- Practice data: not exported (public-repository permission pending); no results deleted.
+- Remaining issues: none for anonymous browsing. Signed-in account practice remains available; anonymous free visitors cannot practice.
+- Next steps: share existing URL. Restore owner/custom account-only audience only when owner asks. Future publications must preserve PUBLIC audience and use the normal deployment operation, not private-only deploy.
 ## 2026-10-27: Codex — public catalog browsing with signed-out practice disabled
 - Changes: owner explicitly requested public no-login browsing until they ask to restore account-only access. Signed-out Site visitors cannot select SKU Practice or Progress; direct practice/progress URLs return to Catalog. Signed-in users and Claude runtime retain existing practice/progress. Catalog writes remain server-authorized admin-only with existing ADMIN_EMAILS configuration.
 - Files: app/index.html, new tests/public-catalog.spec.cjs, HANDOFF.md.
