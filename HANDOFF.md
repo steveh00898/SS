@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-28: Codex — center usage numbers
+- Changes: centered Public Usage Analysis metric-card values, product click counts and daily click counts on desktop/mobile. Labels, headings, dates, product/category descriptions and chart positions remain unchanged.
+- Files: app/index.html, HANDOFF.md.
+- Tests: all 14 suites passed; standard screenshots generated; usage chart desktop/phone captures regenerated and desktop visually checked. CSS-only scoped change; API and Claude fallback intact.
+- Local preview: checked with local Worker fixture.
+- Claude Artifact: not published; Claude Code sync needed.
+- Private Site: publication pending from this pushed commit; public access unchanged.
+- Practice data: not exported (public repository permission pending).
+- Remaining issues: none for this adjustment.
+- Next steps: publish and record exact version/source.
+
 ## 2026-10-28: Codex — usage charts published as version 29
 - Changes: published stacked daily resource clicks and median/P90 resource-time charts from tested main.
 - Files: HANDOFF.md release record only.
