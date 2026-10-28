@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-28: Codex — numeric alignment published as version 30
+- Changes: published centered usage metric values and table click counts; text remains left-aligned.
+- Files: HANDOFF.md release record.
+- Tests: 14 suites passed, screenshots checked, Worker build passed; deployment succeeded.
+- Local preview: checked desktop/phone fixture captures.
+- Claude Artifact: not published; Claude Code sync needed.
+- Private Site: PUBLIC version 30 from exact main SHA f17db8f526250302ea7088ab146bc1605c02993e; deployment appgdep_6ae21a167254819185eee5b701c9b7b8 succeeded. Public audience/environment unchanged.
+- Practice data: not exported (public repository permission pending).
+- Remaining issues: none for this change.
+- Next steps: refresh Public Usage Analysis.
+
 ## 2026-10-28: Codex — center usage numbers
 - Changes: centered Public Usage Analysis metric-card values, product click counts and daily click counts on desktop/mobile. Labels, headings, dates, product/category descriptions and chart positions remain unchanged.
 - Files: app/index.html, HANDOFF.md.
