@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-28: Codex — model terminology published as version 32
+- Changes: published model-number wording; no identifiers or data changed.
+- Files: HANDOFF.md release record.
+- Tests: 15 suites passed; screenshots checked; build and deployment succeeded.
+- Local preview: checked.
+- Claude Artifact: not published; Claude Code sync required.
+- Private Site: PUBLIC version 32 built from exact main SHA 9a5509b59a15c17c61c732c6d0b1e70473d1427c; deployment appgdep_6ae230c5eaac8191b415dfc797839f93 succeeded. Audience/environment unchanged.
+- Practice data: not exported (public repository permission pending).
+- Remaining issues: none for wording change.
+- Next steps: refresh the app.
+
 ## 2026-10-28: Codex — customer-facing model number terminology
 - Changes: replaced visible SKU wording with model number; Model / Item columns, Model Practice navigation, search/copy/edit/practice/progress labels and CSV Model number (SKU). Internal sku keys, SKU_RE parser, stored records, routes and identifiers unchanged.
 - Files: app/index.html, tests/practice.spec.cjs, HANDOFF.md.
