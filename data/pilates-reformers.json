@@ -13,7 +13,26 @@
   "updatedAt": "2026-10-06T00:00:00Z",
   "photoChecked": true,
   "photoMasks": {
-   "name": [[0.36, 0.58, 0.15, 0.1]]
+   "name": [
+    [
+     0.36,
+     0.58,
+     0.15,
+     0.1
+    ]
+   ]
+  },
+  "productSpecs": {
+   "driveResistanceSystem": null,
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": "Foot bar angles: 11°, 40°, 64°, 90°, 168°",
+   "maxUserWeightLb": 300.0,
+   "keyDimensions": "100.8L x 27.4W x 29.7H in; Folded: 27.4L x 19.3W x 46.9H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/pilates-reformers/products/premium-pilates-reformer-machine-with-jump-board-and-reformer-box-for-home-workouts-sf-pm20",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Pilates Reformers"
   }
  },
  {
@@ -30,7 +49,26 @@
   "updatedAt": "2026-10-06T00:00:00Z",
   "photoChecked": true,
   "photoMasks": {
-   "name": [[0.36, 0.53, 0.15, 0.1]]
+   "name": [
+    [
+     0.36,
+     0.53,
+     0.15,
+     0.1
+    ]
+   ]
+  },
+  "productSpecs": {
+   "driveResistanceSystem": null,
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": "Foot bar angles: 11°, 40°, 64°, 90°, 168°",
+   "maxUserWeightLb": 300.0,
+   "keyDimensions": "100.8L x 27.4W x 29.7H in; Folded: 27.4L x 19.3W x 46.9H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/pilates-reformers/products/pilates-reformer-machine-with-jump-board-for-home-workouts-sf-pm10",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Pilates Reformers"
   }
  }
 ]

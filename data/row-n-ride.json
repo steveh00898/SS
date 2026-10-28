@@ -13,7 +13,26 @@
   "updatedAt": "2026-10-06T00:00:00Z",
   "photoChecked": true,
   "photoMasks": {
-   "name": [[0.34, 0.62, 0.1, 0.13]]
+   "name": [
+    [
+     0.34,
+     0.62,
+     0.1,
+     0.13
+    ]
+   ]
+  },
+  "productSpecs": {
+   "driveResistanceSystem": "elastic cord",
+   "speedResistanceLevels": "3",
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 330.0,
+   "keyDimensions": "45.3L x 19.3W x 50H in; Folded: 11.4L x 19.3W x 55.7H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/row-n-ride/products/sunny-health-and-fitness-no-077-upright-row-n-ride-rowing-machine",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Row-N-Ride"
   }
  },
  {
@@ -30,7 +49,26 @@
   "updatedAt": "2026-10-06T00:00:00Z",
   "photoChecked": true,
   "photoMasks": {
-   "name": [[0.33, 0.66, 0.09, 0.13]]
+   "name": [
+    [
+     0.33,
+     0.66,
+     0.09,
+     0.13
+    ]
+   ]
+  },
+  "productSpecs": {
+   "driveResistanceSystem": "elastic cord",
+   "speedResistanceLevels": "4 (0-3 Bands)",
+   "inclineStrideMotion": "Squat angles: 30° / 60° / 90°",
+   "maxUserWeightLb": 330.0,
+   "keyDimensions": "49.2L x 19.3W x 48.8H in; Folded: 64.2L x 19.3W x 15.9H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/row-n-ride/products/smart-upright-row-n-ride-exerciser-no-077smart",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Row-N-Ride"
   }
  },
  {
@@ -47,7 +85,26 @@
   "updatedAt": "2026-10-06T00:00:00Z",
   "photoChecked": true,
   "photoMasks": {
-   "name": [[0.4, 0.61, 0.1, 0.16]]
+   "name": [
+    [
+     0.4,
+     0.61,
+     0.1,
+     0.16
+    ]
+   ]
+  },
+  "productSpecs": {
+   "driveResistanceSystem": "elastic cord",
+   "speedResistanceLevels": "5",
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 350.0,
+   "keyDimensions": "53.3\"L x 21.9\"W x 54.1\"H; Folded: 10.2\"L x 21.9\"W x 63.4\"H",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/row-n-ride/products/upright-row-n-ride-plus-exerciser-no-077plus",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Row-N-Ride"
   }
  },
  {
@@ -64,7 +121,26 @@
   "updatedAt": "2026-10-06T00:00:00Z",
   "photoChecked": true,
   "photoMasks": {
-   "name": [[0.52, 0.65, 0.1, 0.15]]
+   "name": [
+    [
+     0.52,
+     0.65,
+     0.1,
+     0.15
+    ]
+   ]
+  },
+  "productSpecs": {
+   "driveResistanceSystem": "elastic cord",
+   "speedResistanceLevels": "4 (0-3 Bands)",
+   "inclineStrideMotion": "Squat angle: 30° & 60°",
+   "maxUserWeightLb": 220.0,
+   "keyDimensions": "46.9L x 26.8W x 40.6H in; Folded: 12.8L x 26.8W x 57.7H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/row-n-ride/products/full-body-adjustable-multi-function-smart-row-n-ride-trainer-sf-a022070",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Row-N-Ride"
   }
  }
 ]

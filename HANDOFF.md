@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-28: Codex — official specifications for remaining categories
+- Changes: checked 102 entries across Indoor Bikes, Steppers, Row-N-Ride, Pilates Reformers, Racks, Weight Benches, Weights and Essentials using official saved product pages; added relevant specification fields to 93. Nine have no applicable published measurements or an unavailable page (SF-DB01-055 HTTP 404), retained as blank. Per-SKU sources/raw official fields/import values recorded. All existing treadmill/elliptical/rower values preserved. Overall/folded/variant-range dimensions are not workout-area dimensions; rack capacity is not user weight.
+- Files: eight category JSON files, data/specification-sources/remaining-categories.json, data/catalog-specifications-notes.md, server/worker.js, tests/server.spec.cjs, tests/official-specifications.spec.cjs, HANDOFF.md.
+- Tests: all 15 suites passed. Initial server assertion expected only 31 productSpecs rows; retained exact 31 elliptical/rower assertion and added exact 124 total after expansion. New upgrade test verifies null-group repair, missing-field fill, preserved custom name/capacity and rack/user distinction. Standard screenshots and new bike desktop/phone captures generated; desktop checked. Both UI runtimes retained.
+- Local preview: checked using local catalog/Worker fixture. All 156 live rows read before edits; compared names, SKUs, categories, prices, URLs, photo masks and specification groups to repository, no differences. Direct public API read returned HTTP 403; used supported read-only Sites DB tools instead.
+- Claude Artifact: not published; Claude Code must sync source and canonical data.
+- Private Site: publication pending from this pushed commit; SQL guarded one-time fill only missing fields, preserves current values and SKU/category; public access unchanged.
+- Practice data: not exported (public repository permission pending).
+- Remaining issues: nine products lack relevant specs; variant ranges stay labeled as ranges; no guessed values. Workout width/length null when not explicitly advertised as workout area.
+- Next steps: publish, verify deployed data and record exact SHA/version.
+
 ## 2026-10-28: Codex — numeric alignment published as version 30
 - Changes: published centered usage metric values and table click counts; text remains left-aligned.
 - Files: HANDOFF.md release record.

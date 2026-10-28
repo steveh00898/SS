@@ -13,3 +13,13 @@ Resistance technologies and descriptive rower motion labels are unranked because
 Missing workbook values: Ellipticals have 11 missing capacities, 13 missing dimensions, 11 missing speed/resistance descriptions, and 9 missing motion descriptions. Rowers have 12 missing capacities and 12 missing dimensions. These remain blank rather than guessed.
 
 The Worker imports the new specifications once into existing saved rows, matched by category and SKU, retaining custom product names, prices, images and other edits. Edits, bulk changes and CSV exports retain the specifications. Comparison is available across views; changing category exits the current comparison.
+
+## Official website expansion, 2026-10-28
+
+Indoor Bikes, Steppers, Row-N-Ride, Pilates Reformers, Racks, Weight Benches, Weights and Essentials were checked against their saved official Sunny product pages. 93 of 102 records gained at least one relevant specification. The per-SKU audit in `specification-sources/remaining-categories.json` records URL, raw official specification fields and exact imported values. Existing Treadmills/Ellipticals/Rowers are unchanged.
+
+Drive and resistance descriptions are combined without inferring motor ratings. Resistance counts are numeric only when an explicit level count is published. Motion includes explicitly labeled step/pedal action, stride, squat/incline/footbar angles or adjustable positions. Maximum user weight uses the explicit user-weight field; Pilates' advertised max weight capacity is accepted as user support. Rack frame/barbell/bench combined-load capacities are not user weight. Overall and folded dimensions belong in Key Dimensions. Published variant ranges remain ranges; these are not individual-variant measurements. Workout-area dimensions remain null because no matching workout-pad measurements were published. Unavailable or inapplicable fields display `-`, not invented specifications.
+
+No relevant measurements were found for SF-JR01-BK, SF-JR03-BK, SF-JR02-BK, SF-DB02-5, SF-OP01-10, SF-DB03-5, NO. 021-2-PAIR and NO. 066-10. SF-DB01-055's saved product URL returns HTTP 404. All nine keep blank specifications. No product prices, photos, URLs or guide links changed.
+
+Before editing, all 156 live rows were read using Sites' read-only database tools and their names/SKUs/categories/prices/URLs/masks/specifications matched the repository. The one-time Worker import fills only absent specification fields, with SQL guards on current missing value and SKU/category so concurrent edits survive; existing nonempty specifications are preserved.

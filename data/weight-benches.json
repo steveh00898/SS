@@ -11,7 +11,19 @@
   "imageUrl": "/_blob/01f6e57a21e2d20ba3253df9fa7371d1",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": null,
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 265.0,
+   "keyDimensions": "42.1L x 18.9W x 34.9H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/stretch-training-machine-sf-bh621002",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Weight Benches"
+  }
  },
  {
   "id": "sf-bh6920",
@@ -27,7 +39,32 @@
   "updatedAt": "2026-10-06T00:00:00Z",
   "photoChecked": true,
   "photoMasks": {
-   "sku": [[0.14, 0.71, 0.04, 0.06], [0.57, 0.68, 0.04, 0.08]]
+   "sku": [
+    [
+     0.14,
+     0.71,
+     0.04,
+     0.06
+    ],
+    [
+     0.57,
+     0.68,
+     0.04,
+     0.08
+    ]
+   ]
+  },
+  "productSpecs": {
+   "driveResistanceSystem": null,
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": "Adjustable positions: 7 Backrest Settings, 4 Seat Settings, 3 Foam Roller Settings; Backrest settings: -20°, 0°, 15°, 30°, 45°, 60°, 85°",
+   "maxUserWeightLb": 500.0,
+   "keyDimensions": "61L x 29.7W x 50.6H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/fully-adjustable-power-zone-utility-heavy-duty-weight-bench-with-1000-lb-max-weight-sf-bh6920",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Weight Benches"
   }
  },
  {
@@ -42,7 +79,19 @@
   "imageUrl": "/_blob/83a7a5bce136479e6aee4095f82cd2dc",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": null,
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": "Incline angles: 3 Positions; Adjustable positions: 10 Height Settings, 3 Incline Settings",
+   "maxUserWeightLb": 330.0,
+   "keyDimensions": "46.9L x 24.4W x 33.9H in; Folded: 46.1L x 24.4W x 7.9H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/foldable-roman-chair-with-dip-station-sf-bh620062",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Weight Benches"
+  }
  },
  {
   "id": "sf-bh6629",
@@ -56,7 +105,19 @@
   "imageUrl": "/_blob/a75512f3c22b6a3c0c1b1715284d570c",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": null,
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": "Adjustable positions: 5 height settings",
+   "maxUserWeightLb": 250.0,
+   "keyDimensions": "38L x 24W x 33H in; Folded: 46L x 24W x 13.2H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/sunny-health-and-fitness-sf-bh6629-45-degree-hyperextension-roman-chair",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Weight Benches"
+  }
  },
  {
   "id": "sf-bh6921",
@@ -72,7 +133,26 @@
   "updatedAt": "2026-10-06T00:00:00Z",
   "photoChecked": true,
   "photoMasks": {
-   "sku": [[0.37, 0.5, 0.04, 0.09]]
+   "sku": [
+    [
+     0.37,
+     0.5,
+     0.04,
+     0.09
+    ]
+   ]
+  },
+  "productSpecs": {
+   "driveResistanceSystem": null,
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": "Adjustable positions: 6 backrest settings, 6 seat settings",
+   "maxUserWeightLb": 430.0,
+   "keyDimensions": "52.44L x 18.82W x 45.9H in; Folded: 46.47L x 18.82W x 8.27H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/adjustable-utility-weight-bench-sf-bh6921",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Weight Benches"
   }
  },
  {
@@ -89,7 +169,26 @@
   "updatedAt": "2026-10-06T00:00:00Z",
   "photoChecked": true,
   "photoMasks": {
-   "sku": [[0.07, 0.67, 0.09, 0.1]]
+   "sku": [
+    [
+     0.07,
+     0.67,
+     0.09,
+     0.1
+    ]
+   ]
+  },
+  "productSpecs": {
+   "driveResistanceSystem": null,
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 550.0,
+   "keyDimensions": "49.6L x 16.1W x 16.9H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/power-zone-strength-flat-bench-sf-bh6996",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Weight Benches"
   }
  },
  {
@@ -104,7 +203,19 @@
   "imageUrl": "/_blob/fd19ec01f9d23082b254cba2fec4f185",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": null,
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": "Adjustable positions: 6 backrest settings, 2 seat settings",
+   "maxUserWeightLb": null,
+   "keyDimensions": "49.4L x 30.7W x 45.9H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/adjustable-multifunction-weight-bench-sf-bh622045",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Weight Benches"
+  }
  },
  {
   "id": "sf-bh623009",
@@ -118,7 +229,19 @@
   "imageUrl": "/_blob/334e29647115a93c38b818168f9952f9",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": null,
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": "Adjustable positions: 3 Backrest Settings; Backrest settings: 3 Settings",
+   "maxUserWeightLb": 300.0,
+   "keyDimensions": "66.9L x 32.3W x 44.8H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/adjustable-standard-incline-weight-bench-with-leg-developer-and-preacher-curl-attachment-sf-bh623009",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Weight Benches"
+  }
  },
  {
   "id": "sf-bh623052",
@@ -132,7 +255,19 @@
   "imageUrl": "/_blob/a5ada9a2a0cd7e497d6707a6d04e3fbe",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": null,
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 400.0,
+   "keyDimensions": "85.2L x 37W x 25.8H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/inversion-traction-stretch-decompression-table-sf-bh623052",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Weight Benches"
+  }
  },
  {
   "id": "sf-bh623008",
@@ -146,7 +281,19 @@
   "imageUrl": "/_blob/012a35915985496b1cce22bc0868321e",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": null,
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": "Adjustable positions: 3 Backrest Settings; Backrest settings: 3 Settings",
+   "maxUserWeightLb": 300.0,
+   "keyDimensions": "48.8L x 32.3W x 44.8H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/adjustable-standard-incline-weight-bench-with-rack-sf-bh623008",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Weight Benches"
+  }
  },
  {
   "id": "sf-bh624089",
@@ -160,7 +307,19 @@
   "imageUrl": "/_blob/f5064fb6c5e6ef070249b6755c1bb73a",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": null,
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 400.0,
+   "keyDimensions": "84.8L x 22.6W x 16.7H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/adjustable-stretch-and-decompression-table-sf-bh624089",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Weight Benches"
+  }
  },
  {
   "id": "sf-bh625020",
@@ -174,7 +333,19 @@
   "imageUrl": "/_blob/856cc45de410c6b56760d2872df02e27",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": null,
+   "speedResistanceLevels": "3",
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 330.0,
+   "keyDimensions": "70.5L x 25.8W x 22H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/multifunction-core-glute-trainer-sf-bh625020",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Weight Benches"
+  }
  },
  {
   "id": "sf-bh625080",
@@ -188,6 +359,18 @@
   "imageUrl": "/_blob/4a3c44061e9efeaf9df36ad433ba2d7c",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": null,
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": "Training angle: 45° Hyperextension Position ,  180°  Flat Position",
+   "maxUserWeightLb": 330.0,
+   "keyDimensions": "41.9L x 18.1W x 35.2H in; Folded: 20L x 18.11W x 33.8H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/adjustable-roman-chair-hyperextension-bench-sf-bh625080",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Weight Benches"
+  }
  }
 ]

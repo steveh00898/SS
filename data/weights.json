@@ -13,7 +13,14 @@
   "updatedAt": "2026-10-06T00:00:00Z",
   "photoChecked": true,
   "photoMasks": {
-   "name": [[0.58, 0.15, 0.14, 0.26]]
+   "name": [
+    [
+     0.58,
+     0.15,
+     0.14,
+     0.26
+    ]
+   ]
   }
  },
  {
@@ -30,7 +37,14 @@
   "updatedAt": "2026-10-06T00:00:00Z",
   "photoChecked": true,
   "photoMasks": {
-   "name": [[0.23, 0.57, 0.16, 0.18]]
+   "name": [
+    [
+     0.23,
+     0.57,
+     0.16,
+     0.18
+    ]
+   ]
   }
  },
  {
@@ -47,7 +61,26 @@
   "updatedAt": "2026-10-06T00:00:00Z",
   "photoChecked": true,
   "photoMasks": {
-   "name": [[0.14, 0.41, 0.07, 0.15], [0.43, 0.44, 0.08, 0.16], [0.75, 0.34, 0.09, 0.14]]
+   "name": [
+    [
+     0.14,
+     0.41,
+     0.07,
+     0.15
+    ],
+    [
+     0.43,
+     0.44,
+     0.08,
+     0.16
+    ],
+    [
+     0.75,
+     0.34,
+     0.09,
+     0.14
+    ]
+   ]
   }
  },
  {
@@ -64,7 +97,32 @@
   "updatedAt": "2026-10-06T00:00:00Z",
   "photoChecked": true,
   "photoMasks": {
-   "name": [[0.19, 0.4, 0.05, 0.11], [0.5, 0.52, 0.05, 0.12], [0.6, 0.2, 0.08, 0.11], [0.91, 0.3, 0.07, 0.13]]
+   "name": [
+    [
+     0.19,
+     0.4,
+     0.05,
+     0.11
+    ],
+    [
+     0.5,
+     0.52,
+     0.05,
+     0.12
+    ],
+    [
+     0.6,
+     0.2,
+     0.08,
+     0.11
+    ],
+    [
+     0.91,
+     0.3,
+     0.07,
+     0.13
+    ]
+   ]
   }
  },
  {
@@ -93,7 +151,19 @@
   "imageUrl": "/_blob/2fb5bdb5ef5c266bd3cb0a4cec0d8ec5",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": null,
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": null,
+   "keyDimensions": "13.2L x 3.6W x 0.6H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/free-weights/products/adjustable-wrist-weights-2-lb-pair-no-103-2",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Weights"
+  }
  },
  {
   "id": "no-103-1",
@@ -107,7 +177,19 @@
   "imageUrl": "/_blob/114246b991b797836758a2cce63a1e75",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": null,
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": null,
+   "keyDimensions": "11.4L x 2.8W x 0.55H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/free-weights/products/adjustable-wrist-weights-1-lb-pair-no-103-1",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Weights"
+  }
  },
  {
   "id": "sf-wa02-bk",
@@ -121,7 +203,19 @@
   "imageUrl": "/_blob/2fa63e08aa30163b9b736bba6810fb23",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": null,
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": null,
+   "keyDimensions": "17.7L x 5.9W x 1.4H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/free-weights/products/adjustable-ankle-weight-5-pound-pair-sf-wa02-bk",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Weights"
+  }
  },
  {
   "id": "no-066-10",
@@ -137,7 +231,14 @@
   "updatedAt": "2026-10-06T00:00:00Z",
   "photoChecked": true,
   "photoMasks": {
-   "name": [[0.44, 0.7, 0.16, 0.1]]
+   "name": [
+    [
+     0.44,
+     0.7,
+     0.16,
+     0.1
+    ]
+   ]
   }
  },
  {
@@ -154,7 +255,26 @@
   "updatedAt": "2026-10-06T00:00:00Z",
   "photoChecked": true,
   "photoMasks": {
-   "name": [[0.27, 0.5, 0.07, 0.09]]
+   "name": [
+    [
+     0.27,
+     0.5,
+     0.07,
+     0.09
+    ]
+   ]
+  },
+  "productSpecs": {
+   "driveResistanceSystem": null,
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": null,
+   "keyDimensions": "13.4L x 3.7W x 0.6H in - 16.9L x 5.5W x 1.2H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/free-weights/products/ankle-weight-1-5-pound-pair-sf-wa01",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Weights"
   }
  }
 ]

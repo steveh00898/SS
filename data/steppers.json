@@ -11,7 +11,19 @@
   "imageUrl": "/_blob/7b87f3765b1b8b0fb6fbe9d3df9e10f4",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "hydraulic",
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 300.0,
+   "keyDimensions": "15.9L x 12.2W x 13.6H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/steppers/products/smart-mini-stepper-with-exercise-bands-no-012smart",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Steppers"
+  }
  },
  {
   "id": "no-068smart",
@@ -25,7 +37,19 @@
   "imageUrl": "/_blob/019455f735c1edd80818640c126d7ca1",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "hydraulic",
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 300.0,
+   "keyDimensions": "16.5L x 15.2W x 14.8H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/steppers/products/smart-twist-stepper-with-resistance-bands-no-068smart",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Steppers"
+  }
  },
  {
   "id": "sf-s0978smart",
@@ -39,7 +63,19 @@
   "imageUrl": "/_blob/51357af5f0230ff32d141500a7b8bcc0",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "hydraulic",
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 330.0,
+   "keyDimensions": "16.1L x 13W x 13.8H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/steppers/products/total-body-smart-exercise-stepper-machine-sf-s0978smart",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Steppers"
+  }
  },
  {
   "id": "sf-s0979smart",
@@ -53,7 +89,19 @@
   "imageUrl": "/_blob/780e834a3943c3bd7c8096623e710a96",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "hydraulic",
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 350.0,
+   "keyDimensions": "19.5L x 18.9W x 14.8H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/steppers/products/smart-twist-stepper-machine-sf-s0979smart",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Steppers"
+  }
  },
  {
   "id": "p2000smart",
@@ -67,7 +115,19 @@
   "imageUrl": "/_blob/1e333816d141014b562af6cd4ec375c5",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "hydraulic",
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": "Step motion: Up/Down action",
+   "maxUserWeightLb": 330.0,
+   "keyDimensions": "16.1L x 13W x 13.8H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/steppers/products/smart-pink-mini-stepper-with-resistant-bands-p2000smart",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Steppers"
+  }
  },
  {
   "id": "sf-s023056",
@@ -81,7 +141,19 @@
   "imageUrl": "/_blob/37152d92259c1179b148aea15cfa6bb9",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "hydraulic",
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 330.0,
+   "keyDimensions": "22.2L x 15.4W x 45.7H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/steppers/products/premier-smart-stair-stepper-with-handlebars-and-resistance-bands-sf-s023056",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Steppers"
+  }
  },
  {
   "id": "sf-s020027smart",
@@ -95,7 +167,19 @@
   "imageUrl": "/_blob/3cbf1c625f3aa92bb5d55490f537fcb8",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "hydraulic",
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 350.0,
+   "keyDimensions": "27.8L x 19.5W x 56.1H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/steppers/products/smart-stair-stepper-machine-with-handlebar-sf-s020027smart",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Steppers"
+  }
  },
  {
   "id": "p2410",
@@ -109,7 +193,19 @@
   "imageUrl": "/_blob/9bec2215ba8e4e8f20cd78ad8afec55e",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "hydraulic",
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 220.0,
+   "keyDimensions": "22.2L x 15.4W x 45.7H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/steppers/products/pink-smart-advanced-stair-exercise-stepper-with-handlebar-and-resistance-bands",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Steppers"
+  }
  },
  {
   "id": "sf-s026007",
@@ -123,7 +219,19 @@
   "imageUrl": "/_blob/01f342381cc3ea3e7680282ec88a1661",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "hydraulic",
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 300.0,
+   "keyDimensions": "28L X 17.9W X 50.2H In",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/steppers/products/swivel-stepper-with-adjustable-handlebars-sf-s026007",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Steppers"
+  }
  },
  {
   "id": "sf-s021054",
@@ -137,7 +245,19 @@
   "imageUrl": "/_blob/430ed2aae2681ebd329d88303aae85b1",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "hydraulic",
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 400.0,
+   "keyDimensions": "18.7L x 17.1W x 13.9H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/steppers/products/power-stepper-with-resistance-bands-sf-s021054",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Steppers"
+  }
  },
  {
   "id": "sf-s021055",
@@ -151,7 +271,19 @@
   "imageUrl": "/_blob/64fdab0c86cbf4708c19a18e3bc7f2e3",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "hydraulic",
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 400.0,
+   "keyDimensions": "26.2L x 17.7W x 56.9H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/steppers/products/power-stepper-with-resistant-bands-and-handlebar-sf-s021055",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Steppers"
+  }
  },
  {
   "id": "sf-s026002",
@@ -165,7 +297,20 @@
   "imageUrl": "/_blob/66afc8a98097245f6fe91394d207185e",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": null,
+   "speedResistanceLevels": "1 level",
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 300.0,
+   "keyDimensions": "29.7L x 13.6W x 8.2H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/steppers/products/smart-lateral-balance-stepper-with-resistance-bands-sf-s026002",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Steppers",
+   "resistanceLevels": 1
+  }
  },
  {
   "id": "sf-s024072",
@@ -179,6 +324,18 @@
   "imageUrl": "/_blob/4ceac5be32eab9178c70f6d5364ebae7",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "hydraulic",
+   "speedResistanceLevels": null,
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 300.0,
+   "keyDimensions": "23L x 12.2W x 12.3H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/steppers/products/smart-lateral-stepper-with-resistance-bands-sf-s024072",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Steppers"
+  }
  }
 ]

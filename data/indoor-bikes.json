@@ -11,7 +11,19 @@
   "imageUrl": "/_blob/14074435b3d8c91e7aafbe2dd87788dd",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "belt drive / magnetic",
+   "speedResistanceLevels": "stepless",
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 300.0,
+   "keyDimensions": "51.2L x 24W x 51.2H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/active-200-indoor-cycling-stationary-exercise-bike-sf-b124067",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
+  }
  },
  {
   "id": "sf-b124066",
@@ -25,7 +37,19 @@
   "imageUrl": "/_blob/214a9e7d27cad3711d6e63aa3f8e9943",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "belt drive / magnetic",
+   "speedResistanceLevels": "stepless",
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 265.0,
+   "keyDimensions": "42.5L x 22.4W x 47.6H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/active-100-smart-magnetic-cycling-exercise-bike-sf-b124066",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
+  }
  },
  {
   "id": "sf-b124068",
@@ -39,7 +63,19 @@
   "imageUrl": "/_blob/fff54b5393f47a6af53954f474e4abe7",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "belt drive / magnetic",
+   "speedResistanceLevels": "stepless",
+   "inclineStrideMotion": "Pedal motion: bi-directional",
+   "maxUserWeightLb": 330.0,
+   "keyDimensions": "57.5L x 25.2W x 57.5H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/advanced-indoor-smart-magnetic-cycling-exercise-bike-sf-b124068",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
+  }
  },
  {
   "id": "sf-b124069",
@@ -53,7 +89,19 @@
   "imageUrl": "/_blob/02f070789228db74af9aba833f3cb3f3",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "belt drive / magnetic",
+   "speedResistanceLevels": "stepless",
+   "inclineStrideMotion": "Pedal motion: bi-directional",
+   "maxUserWeightLb": 330.0,
+   "keyDimensions": "57.5L x 25.2W x 57.5H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/premium-heavy-duty-smart-magnetic-cycling-exercise-bike-sf-b124069",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
+  }
  },
  {
   "id": "sf-b1805smart",
@@ -69,7 +117,26 @@
   "updatedAt": "2026-10-06T00:00:00Z",
   "photoChecked": true,
   "photoMasks": {
-   "name": [[0.43, 0.43, 0.1, 0.16]]
+   "name": [
+    [
+     0.43,
+     0.43,
+     0.1,
+     0.16
+    ]
+   ]
+  },
+  "productSpecs": {
+   "driveResistanceSystem": "belt drive / magnetic",
+   "speedResistanceLevels": "micro-adjustable",
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 300.0,
+   "keyDimensions": "50.8L x 23.4W x 47.6H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/smart-indoor-cycling-bike-magnetic-belt-drive-w-high-weight-capacity-and-device-holder-sf-b1805smart",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
   }
  },
  {
@@ -84,7 +151,19 @@
   "imageUrl": "/_blob/4be3be8351736a142d065017aee8f30c",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "belt drive / magnetic",
+   "speedResistanceLevels": "14",
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 300.0,
+   "keyDimensions": "33.5L x 21.7W x 52.6H in; Folded: 22.4L x 21.7W x 58.7H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/foldable-magnetic-exercise-x-bike-pro-sf-b223011",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
+  }
  },
  {
   "id": "sf-b223012",
@@ -98,7 +177,19 @@
   "imageUrl": "/_blob/dc36cfbc1e2f7a9ded8eb2b041549ffa",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "belt drive / magnetic",
+   "speedResistanceLevels": "14 magnetic w/resistance band",
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 300.0,
+   "keyDimensions": "38.2L x 21.9W x 52.6H in; Folded: 22.8L x 21.9W x 58.7H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/full-body-foldable-magnetic-x-bike-pro-sf-b223012",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
+  }
  },
  {
   "id": "p2320",
@@ -112,7 +203,19 @@
   "imageUrl": "/_blob/4e75e2a43c6fb431b4c707838e1ea9d9",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "belt drive / magnetic",
+   "speedResistanceLevels": "14",
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 300.0,
+   "keyDimensions": "33.5L x 21.7W x 52.6H in; Folded: 22.4L x 21.7W x 58.7H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/pink-foldable-magnetic-exercise-x-bike-p2320",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
+  }
  },
  {
   "id": "sf-b224090",
@@ -126,7 +229,19 @@
   "imageUrl": "/_blob/95852cf5172aeac71565631e23e5447d",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "belt drive / magnetic",
+   "speedResistanceLevels": "14",
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 300.0,
+   "keyDimensions": "38.6\"L x 29.1\"W x 48.4\"H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/smart-total-body-x-bike-sf-b224090",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
+  }
  },
  {
   "id": "sf-rbe4886smart-bikes",
@@ -142,7 +257,26 @@
   "updatedAt": "2026-10-06T00:00:00Z",
   "photoChecked": true,
   "photoMasks": {
-   "name": [[0.25, 0.64, 0.06, 0.2]]
+   "name": [
+    [
+     0.25,
+     0.64,
+     0.06,
+     0.2
+    ]
+   ]
+  },
+  "productSpecs": {
+   "driveResistanceSystem": "electro-magnetic",
+   "speedResistanceLevels": "16",
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 300.0,
+   "keyDimensions": "71.7L x 33.3W x 50.8H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/smart-recumbent-cross-trainer-exercise-bike-sf-rbe4886smart",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
   }
  },
  {
@@ -159,7 +293,26 @@
   "updatedAt": "2026-10-06T00:00:00Z",
   "photoChecked": true,
   "photoMasks": {
-   "name": [[0.49, 0.2, 0.05, 0.2]]
+   "name": [
+    [
+     0.49,
+     0.2,
+     0.05,
+     0.2
+    ]
+   ]
+  },
+  "productSpecs": {
+   "driveResistanceSystem": "magnetic",
+   "speedResistanceLevels": "12",
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 300.0,
+   "keyDimensions": "66.9L x 32.7W x 50.6H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/elite-interactive-series-exercise-recumbent-bike-sf-rbe420049",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
   }
  },
  {
@@ -174,7 +327,19 @@
   "imageUrl": "/_blob/bb3dfe1a7ff7dcfc35e81f47e8e2a5b2",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "magnetic",
+   "speedResistanceLevels": "8",
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 265.0,
+   "keyDimensions": "63L x 28.9W x 48H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/performance-interactive-series-recumbent-cross-trainer-elliptical-sf-rbe420035",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
+  }
  },
  {
   "id": "sf-rb420032",
@@ -188,7 +353,19 @@
   "imageUrl": "/_blob/15006a1fcc322594b9165ae98529fa5f",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "magnetic",
+   "speedResistanceLevels": "8",
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 265.0,
+   "keyDimensions": "63.8L x 26.4W x 49.6H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/performance-interactive-recumbent-bike-sf-rb420032",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
+  }
  },
  {
   "id": "sf-rb4850smart",
@@ -204,7 +381,26 @@
   "updatedAt": "2026-10-06T00:00:00Z",
   "photoChecked": true,
   "photoMasks": {
-   "name": [[0.29, 0.64, 0.06, 0.2]]
+   "name": [
+    [
+     0.29,
+     0.64,
+     0.06,
+     0.2
+    ]
+   ]
+  },
+  "productSpecs": {
+   "driveResistanceSystem": "electro-magnetic",
+   "speedResistanceLevels": "16",
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 300.0,
+   "keyDimensions": "61.81L x 25.98W x 47.24H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/smart-stationary-recumbent-bike-w-programmable-display-16-level-magnetic-resistance-device-holder-sunnyfit-app-sf-rb4850smart",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
   }
  },
  {
@@ -219,7 +415,19 @@
   "imageUrl": "/_blob/6fe209cf4139193a5b6bbfa33b64767a",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "belt drive / magnetic",
+   "speedResistanceLevels": "8",
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 300.0,
+   "keyDimensions": "56.3L x 26.3W x 42.9H",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/smart-magnetic-resistance-recumbent-bike-with-easy-adjustable-seat-sf-rb4616smart",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
+  }
  },
  {
   "id": "sf-rb420046",
@@ -235,7 +443,26 @@
   "updatedAt": "2026-10-06T00:00:00Z",
   "photoChecked": true,
   "photoMasks": {
-   "name": [[0.65, 0.22, 0.08, 0.18]]
+   "name": [
+    [
+     0.65,
+     0.22,
+     0.08,
+     0.18
+    ]
+   ]
+  },
+  "productSpecs": {
+   "driveResistanceSystem": "magnetic",
+   "speedResistanceLevels": "12",
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 300.0,
+   "keyDimensions": "56.7L x 26.4W x 46.1H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/elite-interactive-series-exercise-recumbent-bike-sf-rb420046",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
   }
  },
  {
@@ -250,7 +477,19 @@
   "imageUrl": "/_blob/22cfaa8ccd00e73a739cfd1b37d09ebe",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "belt drive / magnetic",
+   "speedResistanceLevels": "16",
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 300.0,
+   "keyDimensions": "51.8L x 25.6W x 46.1H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/corezy-16-level-smart-magnetic-resistance-recumbent-bike-with-workout-bands-sf-rb424006",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
+  }
  },
  {
   "id": "sf-b023005dgy",
@@ -264,7 +503,19 @@
   "imageUrl": "/_blob/035c6f933ea2e807da75d26201aa0b9a",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "Mesh-Belt",
+   "speedResistanceLevels": "Knob stepless adjustment",
+   "inclineStrideMotion": "Stride length: 8.26 in",
+   "maxUserWeightLb": null,
+   "keyDimensions": "17.9L x 16.1W x 11.7H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/under-desk-smart-mini-exercise-bike",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
+  }
  },
  {
   "id": "sf-b024041",
@@ -278,7 +529,19 @@
   "imageUrl": "/_blob/8ae0c3ae0029bf93473f0a07d2f17a07",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": null,
+   "speedResistanceLevels": "18 (Speed Levels)",
+   "inclineStrideMotion": "Stride length: 4 in",
+   "maxUserWeightLb": null,
+   "keyDimensions": "15.7L x 16.1W x 10.2H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/smart-motorized-mini-exercise-bike-with-18-speed-levels-sf-b024041",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
+  }
  },
  {
   "id": "sf-b020026smart",
@@ -292,7 +555,19 @@
   "imageUrl": "/_blob/1309cdf605edf76a03f81f33e4cfbfb4",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "belt drive / magnetic",
+   "speedResistanceLevels": "8",
+   "inclineStrideMotion": "Stride length: 7 in",
+   "maxUserWeightLb": null,
+   "keyDimensions": "21.6L x 18.7W x 14.4H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/magnetic-smart-mini-exercise-pedal-cycle-sf-b020026smart",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
+  }
  },
  {
   "id": "sf-b020029smart",
@@ -306,7 +581,19 @@
   "imageUrl": "/_blob/0f4c05e3e4b68cd29dd520a6f992f4d9",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "electric",
+   "speedResistanceLevels": "18 (Speed Levels)",
+   "inclineStrideMotion": "Stride length: 7 in",
+   "maxUserWeightLb": null,
+   "keyDimensions": "21.3L x 18.3W x 14.4H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/smart-motorized-mini-exercise-bike-sf-b020029smart",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
+  }
  },
  {
   "id": "sf-b0891smart",
@@ -320,7 +607,19 @@
   "imageUrl": "/_blob/9e0621ccb48a62b71af7922b89f8c218",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "magnetic",
+   "speedResistanceLevels": "8",
+   "inclineStrideMotion": "Stride length: 7.1 in",
+   "maxUserWeightLb": null,
+   "keyDimensions": "21.3L x 16.53W x 10.43H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/smart-dual-motion-mini-bike-with-8-level-magnetic-resistance-sf-b0891smart",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
+  }
  },
  {
   "id": "sf-b0960smart",
@@ -334,7 +633,19 @@
   "imageUrl": "/_blob/989d2550e25cfcb4efae6b5a9c0c7c6a",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "electric",
+   "speedResistanceLevels": "18 (Speed Levels)",
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": null,
+   "keyDimensions": "21.5L x 16.5W x 10.4H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/2-in-1-smart-motorized-mini-exercise-bike-sf-b0960smart",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
+  }
  },
  {
   "id": "sf-b223018",
@@ -348,7 +659,19 @@
   "imageUrl": "/_blob/297b31d32834a5613a2a7633fdeb12e0",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "belt drive / fan/air",
+   "speedResistanceLevels": "Progressive",
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 330.0,
+   "keyDimensions": "55.5L x 25.2W x 50.6H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/smart-advanced-fan-bike-unlimited-air-resistance-for-intensive-exercise-sf-b223018",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
+  }
  },
  {
   "id": "sf-b224004",
@@ -362,7 +685,19 @@
   "imageUrl": "/_blob/4039b586fb2819d3bdebe263d518c7a1",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "productSpecs": {
+   "driveResistanceSystem": "belt drive / magnetic",
+   "speedResistanceLevels": "16 magnetic w/resistance band",
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 300.0,
+   "keyDimensions": "44.5L x 21.7W x 49.2H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/corezy-upright-bike-with-16-level-magnetic-resistance-workout-bands-sf-b224004",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
+  }
  },
  {
   "id": "sf-b220045",
@@ -378,7 +713,26 @@
   "updatedAt": "2026-10-06T00:00:00Z",
   "photoChecked": true,
   "photoMasks": {
-   "name": [[0.59, 0.3, 0.06, 0.2]]
+   "name": [
+    [
+     0.59,
+     0.3,
+     0.06,
+     0.2
+    ]
+   ]
+  },
+  "productSpecs": {
+   "driveResistanceSystem": "belt drive / magnetic",
+   "speedResistanceLevels": "12",
+   "inclineStrideMotion": null,
+   "maxUserWeightLb": 275.0,
+   "keyDimensions": "41.7L x 22.6W x 53.1H in",
+   "workoutAreaWidthIn": null,
+   "workoutAreaLengthIn": null,
+   "source": "https://sunnyhealthfitness.com/collections/bikes/products/elite-interactive-series-exercise-bike-sf-b220045",
+   "dimensionOrder": "Official product measurements; variant ranges retained",
+   "portfolioCategory": "Indoor Bikes"
   }
  }
 ]
