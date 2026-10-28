@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-28: Codex — customer-facing model number terminology
+- Changes: replaced visible SKU wording with model number; Model / Item columns, Model Practice navigation, search/copy/edit/practice/progress labels and CSV Model number (SKU). Internal sku keys, SKU_RE parser, stored records, routes and identifiers unchanged.
+- Files: app/index.html, tests/practice.spec.cjs, HANDOFF.md.
+- Tests: all 15 suites passed across the verification run. Initial page-load check caught an accidental constant rename, restored before continuation; practice label assertions then updated to new exact wording (behavior assertions retained). Fourteen desktop/phone screenshots generated; catalog screenshot checked. Both runtimes retained; no data/schema changes.
+- Local preview: checked.
+- Claude Artifact: not published; Claude Code sync required.
+- Private Site: publication pending from this pushed commit; public access unchanged.
+- Practice data: not exported (public repository permission pending).
+- Remaining issues: none for this wording change.
+- Next steps: publish and record exact source/version.
+
 ## 2026-10-28: Codex — official specifications published as version 31
 - Changes: published remaining-category specifications and preservation-safe missing-field import.
 - Files: HANDOFF.md release record.
