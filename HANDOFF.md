@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-28: Codex — usage charts published as version 29
+- Changes: published stacked daily resource clicks and median/P90 resource-time charts from tested main.
+- Files: HANDOFF.md release record only.
+- Tests: 14 suites passed; chart suite passed again after responsive sizing refinement. Worker/archive build passed; deployment succeeded.
+- Local preview: desktop/390px chart screenshots checked using seeded local fixture; production admin chart interaction not separately exercised.
+- Claude Artifact: not published; Claude Code sync required; runtime fallback preserved.
+- Private Site: PUBLIC version 29 built from exact main SHA 2d171c68586faa1516d5b949bc8d2cbca8545a1c; deployment appgdep_6ae2189ef8f08191b57a80fd69634a20 succeeded. Public audience and environment revision 1 unchanged; no migrations needed.
+- Practice data: not exported (public repository permission pending).
+- Remaining issues: no historical timing backfill; UTC daily dates.
+- Next steps: refresh and open Public Usage Analysis as admin.
+
 ## 2026-10-28: Codex — public usage trend charts
 - Changes: added daily resource-click stacked areas and daily search-to-resource median with optional P90. Period/category/type filters apply; hover, focus and tap show daily counts or timing/sample totals. Zero-click days show zero, untimed days break the line. Summary cards above charts; responsive phone layout. Uses existing telemetry without new collection or migrations.
 - Files: app/index.html, server/worker.js, tests/usage-charts.spec.cjs, tests/catalog-specifications.spec.cjs, HANDOFF.md.
