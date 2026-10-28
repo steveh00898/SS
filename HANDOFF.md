@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-28: Codex — official specifications published as version 31
+- Changes: published remaining-category specifications and preservation-safe missing-field import.
+- Files: HANDOFF.md release record.
+- Tests: 15 suites passed; Worker build passed; deployment succeeded. Read all 156 live DB rows after publication and compared every non-null canonical productSpecs field: zero differences. Standard and category captures generated; desktop visually checked.
+- Local preview: checked; live specification import confirmed through read-only Sites database tools.
+- Claude Artifact: not published; Claude Code source/catalog sync required.
+- Private Site: PUBLIC version 31 from exact main SHA ca232676ebf7a9d8670b022f2013d89dd97805f8; deployment appgdep_6ae21de19c348191868bd64ba6eeb528 succeeded. Existing public audience and environment revision 1 preserved.
+- Practice data: not exported (public repository permission pending).
+- Remaining issues: nine products without relevant published specifications; all missing fields remain neutral, variant ranges retained.
+- Next steps: refresh catalog; consult specification-sources audit for individual product gaps.
+
 ## 2026-10-28: Codex — official specifications for remaining categories
 - Changes: checked 102 entries across Indoor Bikes, Steppers, Row-N-Ride, Pilates Reformers, Racks, Weight Benches, Weights and Essentials using official saved product pages; added relevant specification fields to 93. Nine have no applicable published measurements or an unavailable page (SF-DB01-055 HTTP 404), retained as blank. Per-SKU sources/raw official fields/import values recorded. All existing treadmill/elliptical/rower values preserved. Overall/folded/variant-range dimensions are not workout-area dimensions; rack capacity is not user weight.
 - Files: eight category JSON files, data/specification-sources/remaining-categories.json, data/catalog-specifications-notes.md, server/worker.js, tests/server.spec.cjs, tests/official-specifications.spec.cjs, HANDOFF.md.
