@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-28: Codex — public usage trend charts
+- Changes: added daily resource-click stacked areas and daily search-to-resource median with optional P90. Period/category/type filters apply; hover, focus and tap show daily counts or timing/sample totals. Zero-click days show zero, untimed days break the line. Summary cards above charts; responsive phone layout. Uses existing telemetry without new collection or migrations.
+- Files: app/index.html, server/worker.js, tests/usage-charts.spec.cjs, tests/catalog-specifications.spec.cjs, HANDOFF.md.
+- Tests: all 14 suites passed; chart integration checks exact daily quantiles, filters, gaps, P90, keyboard/tap, empty data and 390px layout. Initial catalog-specifications test failed with a 30s Close options timeout: fixed its resize race by waiting for automatic popup closure rather than attempting to click a disappearing button; retained all assertions. Fourteen standard screenshots plus desktop/phone chart captures generated and visually checked; final responsive adjustment passed chart suite again.
+- Local preview: checked with real Worker/SQLite and headless Chrome; fixture data only, no fabricated production analytics.
+- Claude Artifact: not published; fallback retained, Claude Code sync needed.
+- Private Site: publication pending from this pushed commit; current PUBLIC version 28. No access changes.
+- Practice data: not exported (public repository permission pending).
+- Remaining issues: historical timing cannot be reconstructed; sparse days show individual points. Daily reporting uses UTC.
+- Next steps: publish and record exact version/source SHA.
+
 ## 2026-10-27: Codex — timing, health and feedback published as Site version 28
 - Changes: published desktop catalog scope note, search/category-to-resource median/P90, load/error/recovered-delivery metrics, bounded duplicate-safe retry outbox and minimal public feedback widget with private admin comments. All four excluded measurements remain unimplemented.
 - Files: HANDOFF.md and README.md endpoint wording only; deployed source unchanged.
