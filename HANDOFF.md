@@ -2,6 +2,18 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-30: Codex — embedded spec-sheet images for V3 pilot
+- Changes: Picture column/layout label and CSV header renamed Image. Extracted/visually checked nine source product images: NO.074-L, NO.083, 8730, 8730G, NO.025, SF-B2715, CB110, SF-E3872, SF-E3875. 7150 Word file has no embedded image and displays Image unavailable; current 156 image data unchanged. XLS drawings reassembled from BIFF MSODRAWINGGROUP/CONTINUE records; unrelated template diagrams excluded. Both 8730 sheets supply the same silver treadmill image, retained without recoloring. Images fitted on white 1200x900 canvases, SHA-256/provenance in images.json. E3875 warehouse/frame labels masked only during practice.
+- Delivery: Worker embeds JPEGs at build time and serves canonical image paths without GitHub runtime fetch. Preview serves the same paths. Guarded one-time backfill fills empty image/url fields only when offsite source/file match; custom existing URLs/uploads are never replaced. Source selector also scopes practice pool/category counts/distractors, so new photos do not mix sources by default. No migrations/access changes.
+- Files: app/index.html, data/off-sunny-web/items.json/images.json/README.md, nine data/images/off-sunny-web/*.jpg, scripts/build.mjs, scripts/preview.mjs, server/worker.js, tests/off-sunny-web.spec.cjs, tests/sheet-images.spec.cjs, tests/usage-fixture.cjs, HANDOFF.md.
+- Tests: all 17 suites passed; standard 14 captures generated. Import UI asserts nine fully decoded 1200px images, exactly one Image unavailable and Image header. Initial new assertions used a missing header data-key and did not account for existing reorder grip; corrected selector/assertion without reducing behavior checks. New server suite verifies exact JPEG bytes, missing-path 404, guarded upgrades, custom-upload preservation, practice masks and idempotency. After final practice-source adjustment, practice and offsite UI suites passed again; desktop/phone image captures checked.
+- Local preview: checked with real Worker/SQLite integration and standard preview. Before editing, read all 166 live rows; ten offsite image fields were empty, no uploads to reconcile. V3 originals untouched.
+- Claude Artifact: not published; fallback retained. Claude Code must sync canonical archive images/metadata and republish.
+- Private Site: publication pending from this pushed commit; PUBLIC audience and existing secrets preserved.
+- Practice data: not exported (public repository permission pending).
+- Remaining issues: low source resolution/warehouse backgrounds retained; 8730G sheet's image matches 8730; 7150 unavailable. No generated substitute images.
+- Next steps: publish, verify live nine images and current 156 preservation, record version/SHA.
+
 ## 2026-10-30: Codex — off Sunny web pilot published as version 33
 - Changes: ten requested V3 reference records published with source selector and plain muted category annotation. Default current catalog remains 156; archive 10; combined 166.
 - Files: HANDOFF.md release record.

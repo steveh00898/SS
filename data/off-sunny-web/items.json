@@ -10,8 +10,8 @@
     "priceChecked": true,
     "url": "",
     "imageAssetId": null,
-    "imageUrl": "",
-    "photoChecked": false,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-074-l.jpg",
+    "photoChecked": true,
     "productSpecs": {
       "driveResistanceSystem": null,
       "speedResistanceLevels": null,
@@ -25,7 +25,9 @@
       "portfolioCategory": "Essentials"
     },
     "createdAt": "2026-10-30T00:00:00Z",
-    "updatedAt": "2026-10-30T00:00:00Z"
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "imageAvailability": "spec-sheet",
+    "photoMasks": null
   },
   {
     "id": "off-sunny-no-083",
@@ -38,8 +40,8 @@
     "priceChecked": true,
     "url": "",
     "imageAssetId": null,
-    "imageUrl": "",
-    "photoChecked": false,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-083.jpg",
+    "photoChecked": true,
     "productSpecs": {
       "driveResistanceSystem": null,
       "speedResistanceLevels": null,
@@ -53,7 +55,9 @@
       "portfolioCategory": "Essentials"
     },
     "createdAt": "2026-10-30T00:00:00Z",
-    "updatedAt": "2026-10-30T00:00:00Z"
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "imageAvailability": "spec-sheet",
+    "photoMasks": null
   },
   {
     "id": "off-sunny-7150",
@@ -81,7 +85,8 @@
       "portfolioCategory": "Indoor Bikes"
     },
     "createdAt": "2026-10-30T00:00:00Z",
-    "updatedAt": "2026-10-30T00:00:00Z"
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "imageAvailability": "unavailable"
   },
   {
     "id": "off-sunny-8730",
@@ -94,8 +99,8 @@
     "priceChecked": true,
     "url": "",
     "imageAssetId": null,
-    "imageUrl": "",
-    "photoChecked": false,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-8730.jpg",
+    "photoChecked": true,
     "productSpecs": {
       "driveResistanceSystem": "DC motor; 2.5 HP peak / 1.25 HP continuous",
       "speedResistanceLevels": "0.6–8 mph",
@@ -111,7 +116,9 @@
       "portfolioCategory": "Treadmills"
     },
     "createdAt": "2026-10-30T00:00:00Z",
-    "updatedAt": "2026-10-30T00:00:00Z"
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "imageAvailability": "spec-sheet",
+    "photoMasks": null
   },
   {
     "id": "off-sunny-8730g",
@@ -124,8 +131,8 @@
     "priceChecked": true,
     "url": "",
     "imageAssetId": null,
-    "imageUrl": "",
-    "photoChecked": false,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-8730g.jpg",
+    "photoChecked": true,
     "productSpecs": {
       "driveResistanceSystem": "DC motor; 2.5 HP peak / 1.25 HP continuous",
       "speedResistanceLevels": "0.6–8 mph",
@@ -141,7 +148,9 @@
       "portfolioCategory": "Treadmills"
     },
     "createdAt": "2026-10-30T00:00:00Z",
-    "updatedAt": "2026-10-30T00:00:00Z"
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "imageAvailability": "spec-sheet",
+    "photoMasks": null
   },
   {
     "id": "off-sunny-no-025",
@@ -154,8 +163,8 @@
     "priceChecked": true,
     "url": "",
     "imageAssetId": null,
-    "imageUrl": "",
-    "photoChecked": false,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-025.jpg",
+    "photoChecked": true,
     "productSpecs": {
       "driveResistanceSystem": null,
       "speedResistanceLevels": null,
@@ -169,7 +178,9 @@
       "portfolioCategory": "Essentials"
     },
     "createdAt": "2026-10-30T00:00:00Z",
-    "updatedAt": "2026-10-30T00:00:00Z"
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "imageAvailability": "spec-sheet",
+    "photoMasks": null
   },
   {
     "id": "off-sunny-sf-b2715",
@@ -182,8 +193,8 @@
     "priceChecked": true,
     "url": "",
     "imageAssetId": null,
-    "imageUrl": "",
-    "photoChecked": false,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b2715.jpg",
+    "photoChecked": true,
     "productSpecs": {
       "driveResistanceSystem": "Wind resistance",
       "speedResistanceLevels": null,
@@ -197,7 +208,9 @@
       "portfolioCategory": "Indoor Bikes"
     },
     "createdAt": "2026-10-30T00:00:00Z",
-    "updatedAt": "2026-10-30T00:00:00Z"
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "imageAvailability": "spec-sheet",
+    "photoMasks": null
   },
   {
     "id": "off-sunny-cb110",
@@ -210,8 +223,8 @@
     "priceChecked": true,
     "url": "",
     "imageAssetId": null,
-    "imageUrl": "",
-    "photoChecked": false,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-cb110.jpg",
+    "photoChecked": true,
     "productSpecs": {
       "driveResistanceSystem": null,
       "speedResistanceLevels": null,
@@ -225,7 +238,9 @@
       "portfolioCategory": "Essentials"
     },
     "createdAt": "2026-10-30T00:00:00Z",
-    "updatedAt": "2026-10-30T00:00:00Z"
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "imageAvailability": "spec-sheet",
+    "photoMasks": null
   },
   {
     "id": "off-sunny-sf-e3872",
@@ -238,8 +253,8 @@
     "priceChecked": true,
     "url": "",
     "imageAssetId": null,
-    "imageUrl": "",
-    "photoChecked": false,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e3872.jpg",
+    "photoChecked": true,
     "productSpecs": {
       "driveResistanceSystem": "Magnetic",
       "speedResistanceLevels": "8 resistance levels",
@@ -255,7 +270,9 @@
       "portfolioCategory": "Ellipticals"
     },
     "createdAt": "2026-10-30T00:00:00Z",
-    "updatedAt": "2026-10-30T00:00:00Z"
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "imageAvailability": "spec-sheet",
+    "photoMasks": null
   },
   {
     "id": "off-sunny-sf-e3875",
@@ -268,8 +285,8 @@
     "priceChecked": true,
     "url": "",
     "imageAssetId": null,
-    "imageUrl": "",
-    "photoChecked": false,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e3875.jpg",
+    "photoChecked": true,
     "productSpecs": {
       "driveResistanceSystem": "Electrical resistance",
       "speedResistanceLevels": "Programmable",
@@ -284,6 +301,37 @@
       "portfolioCategory": "Ellipticals"
     },
     "createdAt": "2026-10-30T00:00:00Z",
-    "updatedAt": "2026-10-30T00:00:00Z"
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "imageAvailability": "spec-sheet",
+    "photoMasks": {
+      "sku": [
+        [
+          0.5,
+          0.04,
+          0.28,
+          0.6
+        ],
+        [
+          0.33,
+          0.64,
+          0.2,
+          0.09
+        ]
+      ],
+      "name": [
+        [
+          0.5,
+          0.04,
+          0.28,
+          0.6
+        ],
+        [
+          0.33,
+          0.64,
+          0.2,
+          0.09
+        ]
+      ]
+    }
   }
 ]

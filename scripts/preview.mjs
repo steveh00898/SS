@@ -65,6 +65,7 @@ http.createServer(async (req, res) => {
   if (p.startsWith('/api/assets/') && uploads.has(p.slice(12))) {
     const a = uploads.get(p.slice(12)); res.writeHead(200, { 'Content-Type': a.type }); return res.end(a.body);
   }
+  if(/^\/api\/catalog-images\/off-sunny-web\/[a-z0-9-]+\.jpg$/.test(p)){const file=path.join(root,'data/images/off-sunny-web',path.basename(p));if(fs.existsSync(file)){res.writeHead(200,{'Content-Type':'image/jpeg'});return fs.createReadStream(file).pipe(res);}return json(res,404,{error:'Image unavailable'});}
   if (p.startsWith('/data/images/')) {
     const file = path.join(root, p);
     if (file.startsWith(path.join(root, 'data/images') + path.sep) && fs.existsSync(file)) {

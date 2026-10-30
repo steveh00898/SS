@@ -1,0 +1,105 @@
+[
+  {
+    "id": "off-sunny-no-074-l",
+    "file": "074L 0.4mm spec sheet 09262019.xlsx",
+    "embeddedObject": "xl/media/image1.jpeg",
+    "sourceDimensions": [
+      379,
+      301
+    ],
+    "assetSha256": "94e1790ed07fa683e6894586fdd4505ceba3ce9ce5ff28d11a346500971bba12",
+    "note": "Original sheet image fitted on white 4:3 canvas; unrelated template diagrams excluded"
+  },
+  {
+    "id": "off-sunny-no-083",
+    "file": "083 spec sheet 09262019.xlsx",
+    "embeddedObject": "xl/media/image1.jpeg",
+    "sourceDimensions": [
+      379,
+      301
+    ],
+    "assetSha256": "94e1790ed07fa683e6894586fdd4505ceba3ce9ce5ff28d11a346500971bba12",
+    "note": "Original sheet image fitted on white 4:3 canvas; unrelated template diagrams excluded"
+  },
+  {
+    "id": "off-sunny-7150",
+    "status": "image unavailable: no embedded raster found"
+  },
+  {
+    "id": "off-sunny-8730",
+    "file": "8730  specification sheet.xls",
+    "embeddedObject": "Escher:0xf007",
+    "sourceDimensions": [
+      2736,
+      1954
+    ],
+    "assetSha256": "894648c18ac3bf476c40fcdf3813e434f3bb08ab3b15f78217b755285a3f20c4",
+    "note": "8730 and 8730G sheets contain the same silver treadmill image; retained as supplied"
+  },
+  {
+    "id": "off-sunny-8730g",
+    "file": "8730G specification sheet.xls",
+    "embeddedObject": "Escher:0xf007",
+    "sourceDimensions": [
+      2736,
+      1954
+    ],
+    "assetSha256": "894648c18ac3bf476c40fcdf3813e434f3bb08ab3b15f78217b755285a3f20c4",
+    "note": "8730 and 8730G sheets contain the same silver treadmill image; retained as supplied"
+  },
+  {
+    "id": "off-sunny-no-025",
+    "file": "Accessory Product Spec No. 025.xlsx",
+    "embeddedObject": "xl/media/image1.png",
+    "sourceDimensions": [
+      649,
+      269
+    ],
+    "assetSha256": "b6609ea3410ae209615b1418c812ac82cf94a8c3aa39b55b6f4db4e6277b61bd",
+    "note": "Original sheet image fitted on white 4:3 canvas; unrelated template diagrams excluded"
+  },
+  {
+    "id": "off-sunny-sf-b2715",
+    "file": "B2715 Specification sheet.xls",
+    "embeddedObject": "Escher:0xf007",
+    "sourceDimensions": [
+      434,
+      725
+    ],
+    "assetSha256": "655b94ccebb6ea0c023b4527e0e6a5c9f264379f69ad5030c20427ec2f669e56",
+    "note": "Original sheet image fitted on white 4:3 canvas; unrelated template diagrams excluded"
+  },
+  {
+    "id": "off-sunny-cb110",
+    "file": "CB110 SPEC SHEET 2023-3-16.xlsx",
+    "embeddedObject": "xl/media/image6.png",
+    "sourceDimensions": [
+      361,
+      269
+    ],
+    "assetSha256": "11ba661e0665a0db8ea79fdea1ada02a1c6512826a28fbff4d3c683626a1f6ea",
+    "note": "Original sheet image fitted on white 4:3 canvas; unrelated template diagrams excluded"
+  },
+  {
+    "id": "off-sunny-sf-e3872",
+    "file": "E3872 specification sheet.xlsx",
+    "embeddedObject": "xl/media/image1.jpeg",
+    "sourceDimensions": [
+      695,
+      520
+    ],
+    "assetSha256": "e2c643b3262611320a4fd8bbcac7c0805ac9ff3a740d6a8d78bbdb7aaa3df8c9",
+    "note": "Original sheet image fitted on white 4:3 canvas; unrelated template diagrams excluded"
+  },
+  {
+    "id": "off-sunny-sf-e3875",
+    "file": "E3875 ELLIPTICAL Specification.xlsx",
+    "embeddedObject": "xl/media/image1.png",
+    "sourceDimensions": [
+      446,
+      523
+    ],
+    "assetSha256": "065136568e70423df1cf200685fe3fe219eb41be0604555c61f1767db101b111",
+    "note": "Original sheet image fitted on white 4:3 canvas; unrelated template diagrams excluded"
+  }
+]
