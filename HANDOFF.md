@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-30: Codex — spec-sheet images published as version 34
+- Changes: Image column/CSV wording; nine extracted original product images; 7150 Image unavailable. Both 8730 sheets share the same silver image, kept as supplied. Unrelated workbook diagrams not imported.
+- Files: HANDOFF.md release record.
+- Tests: all 17 suites passed, plus practice/offsite UI suites after final source-scoped practice adjustment. Standard and import-specific desktop/phone captures checked; Worker/archive build passed. Live UI confirms Image header, nine decoded images and sole 7150 unavailable label. Read all 166 live DB rows: nine archive images, original 156 data strings unchanged.
+- Local preview: checked; live offsite catalog opened and retained for user.
+- Claude Artifact: not published; Claude Code must sync archive images/canonical metadata and publish latest source.
+- Private Site: PUBLIC version 34 from exact main SHA ebd6eb7a30c43269084857a37a63d5f008ac3edb; deployment appgdep_6ae526f6f73c81919a35735b43e5eb44 succeeded. Audience/admin environment revision 1 unchanged; no migrations.
+- Practice data: not exported (public repository permission pending).
+- Remaining issues: 7150 source has no embedded image; low-quality source images retained and 8730G silver image discrepancy documented.
+- Next steps: refresh Off Sunny web catalog.
+
 ## 2026-10-30: Codex — embedded spec-sheet images for V3 pilot
 - Changes: Picture column/layout label and CSV header renamed Image. Extracted/visually checked nine source product images: NO.074-L, NO.083, 8730, 8730G, NO.025, SF-B2715, CB110, SF-E3872, SF-E3875. 7150 Word file has no embedded image and displays Image unavailable; current 156 image data unchanged. XLS drawings reassembled from BIFF MSODRAWINGGROUP/CONTINUE records; unrelated template diagrams excluded. Both 8730 sheets supply the same silver treadmill image, retained without recoloring. Images fitted on white 1200x900 canvases, SHA-256/provenance in images.json. E3875 warehouse/frame labels masked only during practice.
 - Delivery: Worker embeds JPEGs at build time and serves canonical image paths without GitHub runtime fetch. Preview serves the same paths. Guarded one-time backfill fills empty image/url fields only when offsite source/file match; custom existing URLs/uploads are never replaced. Source selector also scopes practice pool/category counts/distractors, so new photos do not mix sources by default. No migrations/access changes.
