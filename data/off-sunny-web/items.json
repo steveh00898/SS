@@ -10,7 +10,7 @@
     "priceChecked": true,
     "url": "",
     "imageAssetId": null,
-    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-074-l.jpg",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-074-l-official-v1.jpg",
     "photoChecked": true,
     "productSpecs": {
       "driveResistanceSystem": null,
@@ -26,7 +26,7 @@
     },
     "createdAt": "2026-10-30T00:00:00Z",
     "updatedAt": "2026-10-30T00:00:00Z",
-    "imageAvailability": "spec-sheet",
+    "imageAvailability": "official-website",
     "photoMasks": null
   },
   {
@@ -40,7 +40,7 @@
     "priceChecked": true,
     "url": "",
     "imageAssetId": null,
-    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-083.jpg",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-083-official-v1.jpg",
     "photoChecked": true,
     "productSpecs": {
       "driveResistanceSystem": null,
@@ -56,7 +56,7 @@
     },
     "createdAt": "2026-10-30T00:00:00Z",
     "updatedAt": "2026-10-30T00:00:00Z",
-    "imageAvailability": "spec-sheet",
+    "imageAvailability": "official-website",
     "photoMasks": null
   },
   {
@@ -70,8 +70,8 @@
     "priceChecked": true,
     "url": "",
     "imageAssetId": null,
-    "imageUrl": "",
-    "photoChecked": false,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-7150-official-v1.jpg",
+    "photoChecked": true,
     "productSpecs": {
       "driveResistanceSystem": "Belt / Magnetic brake",
       "speedResistanceLevels": "Multi control",
@@ -86,7 +86,25 @@
     },
     "createdAt": "2026-10-30T00:00:00Z",
     "updatedAt": "2026-10-30T00:00:00Z",
-    "imageAvailability": "unavailable"
+    "imageAvailability": "official-website",
+    "photoMasks": {
+      "sku": [
+        [
+          0.29,
+          0.26,
+          0.3,
+          0.17
+        ]
+      ],
+      "name": [
+        [
+          0.29,
+          0.26,
+          0.3,
+          0.17
+        ]
+      ]
+    }
   },
   {
     "id": "off-sunny-8730",
@@ -99,7 +117,7 @@
     "priceChecked": true,
     "url": "",
     "imageAssetId": null,
-    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-8730.jpg",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-8730-official-v1.jpg",
     "photoChecked": true,
     "productSpecs": {
       "driveResistanceSystem": "DC motor; 2.5 HP peak / 1.25 HP continuous",
@@ -117,7 +135,7 @@
     },
     "createdAt": "2026-10-30T00:00:00Z",
     "updatedAt": "2026-10-30T00:00:00Z",
-    "imageAvailability": "spec-sheet",
+    "imageAvailability": "official-website",
     "photoMasks": null
   },
   {
@@ -131,7 +149,7 @@
     "priceChecked": true,
     "url": "",
     "imageAssetId": null,
-    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-8730g.jpg",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-8730g-official-v1.jpg",
     "photoChecked": true,
     "productSpecs": {
       "driveResistanceSystem": "DC motor; 2.5 HP peak / 1.25 HP continuous",
@@ -149,7 +167,7 @@
     },
     "createdAt": "2026-10-30T00:00:00Z",
     "updatedAt": "2026-10-30T00:00:00Z",
-    "imageAvailability": "spec-sheet",
+    "imageAvailability": "official-website",
     "photoMasks": null
   },
   {
@@ -163,7 +181,7 @@
     "priceChecked": true,
     "url": "",
     "imageAssetId": null,
-    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-025.jpg",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-025-official-v1.jpg",
     "photoChecked": true,
     "productSpecs": {
       "driveResistanceSystem": null,
@@ -179,7 +197,7 @@
     },
     "createdAt": "2026-10-30T00:00:00Z",
     "updatedAt": "2026-10-30T00:00:00Z",
-    "imageAvailability": "spec-sheet",
+    "imageAvailability": "official-website",
     "photoMasks": null
   },
   {
@@ -193,7 +211,7 @@
     "priceChecked": true,
     "url": "",
     "imageAssetId": null,
-    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b2715.jpg",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b2715-official-v1.jpg",
     "photoChecked": true,
     "productSpecs": {
       "driveResistanceSystem": "Wind resistance",
@@ -209,7 +227,7 @@
     },
     "createdAt": "2026-10-30T00:00:00Z",
     "updatedAt": "2026-10-30T00:00:00Z",
-    "imageAvailability": "spec-sheet",
+    "imageAvailability": "official-website",
     "photoMasks": null
   },
   {
@@ -223,7 +241,7 @@
     "priceChecked": true,
     "url": "",
     "imageAssetId": null,
-    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-cb110.jpg",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-cb110-official-v1.jpg",
     "photoChecked": true,
     "productSpecs": {
       "driveResistanceSystem": null,
@@ -239,7 +257,7 @@
     },
     "createdAt": "2026-10-30T00:00:00Z",
     "updatedAt": "2026-10-30T00:00:00Z",
-    "imageAvailability": "spec-sheet",
+    "imageAvailability": "official-website",
     "photoMasks": null
   },
   {
@@ -253,7 +271,7 @@
     "priceChecked": true,
     "url": "",
     "imageAssetId": null,
-    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e3872.jpg",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e3872-official-v1.jpg",
     "photoChecked": true,
     "productSpecs": {
       "driveResistanceSystem": "Magnetic",
@@ -271,7 +289,7 @@
     },
     "createdAt": "2026-10-30T00:00:00Z",
     "updatedAt": "2026-10-30T00:00:00Z",
-    "imageAvailability": "spec-sheet",
+    "imageAvailability": "official-website",
     "photoMasks": null
   },
   {
@@ -285,7 +303,7 @@
     "priceChecked": true,
     "url": "",
     "imageAssetId": null,
-    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e3875.jpg",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e3875-official-v1.jpg",
     "photoChecked": true,
     "productSpecs": {
       "driveResistanceSystem": "Electrical resistance",
@@ -302,36 +320,7 @@
     },
     "createdAt": "2026-10-30T00:00:00Z",
     "updatedAt": "2026-10-30T00:00:00Z",
-    "imageAvailability": "spec-sheet",
-    "photoMasks": {
-      "sku": [
-        [
-          0.5,
-          0.04,
-          0.28,
-          0.6
-        ],
-        [
-          0.33,
-          0.64,
-          0.2,
-          0.09
-        ]
-      ],
-      "name": [
-        [
-          0.5,
-          0.04,
-          0.28,
-          0.6
-        ],
-        [
-          0.33,
-          0.64,
-          0.2,
-          0.09
-        ]
-      ]
-    }
+    "imageAvailability": "official-website",
+    "photoMasks": null
   }
 ]

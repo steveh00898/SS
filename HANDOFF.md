@@ -2,6 +2,18 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-30: Codex — official-first images for all ten pilot models
+- Changes: searched Sunny by each exact SKU/model, checked product variant SKUs (eight models) and exact-model official assembly pages (SF-B2715/SF-E3875). All ten now use official images; 7150 gains an image and 8730G gains the gold variant. Shared mat image is explicitly assigned to both matching variants. Rejects CB110S/SMART/accessory near matches. No catalog-source/category/spec/price/product-link changes. Sheet assets retained as fallback. AGENTS.md now requires official exact-model search first, sheet extraction second, Image unavailable last for every offsite import; record provenance and preserve user uploads.
+- Files: AGENTS.md, data/off-sunny-web/items.json/official-images.json/README.md, ten versioned image assets, scripts/build.mjs, server/worker.js, three image/import tests and fixture, HANDOFF.md.
+- Safety: read all 166 live records before editing; nine known sheet image paths and one empty 7150 image, no custom uploads. Guarded one-time upgrade replaces only known previous sheet URLs or empty fields; preserves custom assets/URLs. Versioned paths avoid stale image caches. Practice text masks checked; 7150 model/name panel covered.
+- Tests: existing 17 suites passed; new packaged-build image suite passed (18 total). Standard and offsite desktop/phone captures generated/checked. Exact bytes, exact-SKU variant selection evidence, ten decoded images, legacy-image replacement and custom-upload preservation verified. Found/fixed a v34 packaging regression where broad filename replacement also changed current image paths; restored product-id paths and added built-Worker test verifying current external-fetch path and embedded official bytes.
+- Local preview: checked; all ten official source images visually inspected in contact sheet.
+- Claude Artifact: not published; Claude Code must sync new assets/metadata and AGENTS rule, then republish.
+- Private Site: publication pending from this pushed commit; public access/admin environment unchanged.
+- Practice data: not exported (public repository permission pending).
+- Remaining issues: finding official product/support pages does not independently establish current sale/discontinued status; retained user's source grouping. Mat variants share official product image. No unsupported substitute images.
+- Next steps: publish and verify all ten live images plus current-image routing.
+
 ## 2026-10-30: Codex — spec-sheet images published as version 34
 - Changes: Image column/CSV wording; nine extracted original product images; 7150 Image unavailable. Both 8730 sheets share the same silver image, kept as supplied. Unrelated workbook diagrams not imported.
 - Files: HANDOFF.md release record.

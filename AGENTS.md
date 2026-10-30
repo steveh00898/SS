@@ -109,3 +109,6 @@ Newest entry first; never rewrite older entries (fixing a factual mistake, such 
 - Remaining issues: ...
 - Next steps: ...
 ```
+
+## Off Sunny web image priority
+Before every new off-Sunny-web import, search sunnyhealthfitness.com by the exact model number. Prefer a verified exact-SKU variant image on an official product page; an exact-model official manual/assembly page is also acceptable. Never substitute a SMART model, accessory or different variant merely returned by search. If no exact official image can be verified, extract the product image from the specification sheet, excluding template diagrams. If neither exists, display Image unavailable. Record source URL/object, exact-model evidence and asset hash; inspect/mask printed model/name/price text for practice. Preserve current entries and custom uploaded images. Finding an official page does not automatically reclassify the source group.

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "off-sunny-no-074-l",
+    "sku": "NO. 074-L",
+    "page": "https://sunnyhealthfitness.com/products/treadmill-floor-mat-1",
+    "image": "https://cdn.shopify.com/s/files/1/0052/7043/7978/products/N0_074_1_a41101dd-55e8-4575-ba6c-d5421fdca39f.jpg?v=1711043540",
+    "variantId": 30892907266138,
+    "match": "exact variant SKU",
+    "checked": "2026-10-30",
+    "sha256": "436c60f173033d04528465f564a73ae82e4fcee88699fb7268d1fb71568ed281"
+  },
+  {
+    "id": "off-sunny-no-083",
+    "sku": "NO. 083",
+    "page": "https://sunnyhealthfitness.com/products/treadmill-floor-mat-1",
+    "image": "https://cdn.shopify.com/s/files/1/0052/7043/7978/products/N0_074_1_a41101dd-55e8-4575-ba6c-d5421fdca39f.jpg?v=1711043540",
+    "variantId": 30892907200602,
+    "match": "exact variant SKU",
+    "checked": "2026-10-30",
+    "sha256": "436c60f173033d04528465f564a73ae82e4fcee88699fb7268d1fb71568ed281"
+  },
+  {
+    "id": "off-sunny-7150",
+    "sku": "7150",
+    "page": "https://sunnyhealthfitness.com/products/asuna-7150-minotaur-cycle-exercise-bike-magnetic-belt-drive-high-weight-capacity-commercial-indoor-cycling-bike",
+    "image": "https://cdn.shopify.com/s/files/1/0052/7043/7978/products/sunny-health-fitness-bikes-minotaur-cycle-exercise-bike-7150-01.jpg?v=1629307465",
+    "variantId": 16470568927322,
+    "match": "exact variant SKU",
+    "checked": "2026-10-30",
+    "sha256": "db42c303f591a5d3ea0487795883cfa805ec10f6607267794a81cef3f1935b76"
+  },
+  {
+    "id": "off-sunny-8730",
+    "sku": "8730",
+    "page": "https://sunnyhealthfitness.com/products/asuna-8730-space-saving-treadmill-motorized-low-profile-slim-folding",
+    "image": "https://cdn.shopify.com/s/files/1/0052/7043/7978/products/sunny-health-fitness-treadmills-space-saving-treadmill-8730-01.jpg?v=1646069375",
+    "variantId": 16470569123930,
+    "match": "exact variant SKU",
+    "checked": "2026-10-30",
+    "sha256": "9b9516bce7e96bd7559c7d2f5accf1cc66e062b55479b3b89737a160358b27c0"
+  },
+  {
+    "id": "off-sunny-8730g",
+    "sku": "8730G",
+    "page": "https://sunnyhealthfitness.com/products/asuna-8730g-space-saving-treadmill-motorized-with-speakers-for-aux-audio-connection",
+    "image": "https://cdn.shopify.com/s/files/1/0052/7043/7978/products/sunny-health-fitness-treadmills-space-saving-treadmill-8730G-01.jpg?v=1645835102",
+    "variantId": 16470571352154,
+    "match": "exact variant SKU",
+    "checked": "2026-10-30",
+    "sha256": "27ae5f924d176f57e6204373beface16a6bc26db1a9963ec8172cceb3fe3ab4e"
+  },
+  {
+    "id": "off-sunny-no-025",
+    "sku": "NO. 025",
+    "page": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-no-025-doorway-chin-up-bar",
+    "image": "https://cdn.shopify.com/s/files/1/0052/7043/7978/products/sunny-health-fitness-strength-doorway-chin-up-bar-NO.025-01.jpg?v=1583952052",
+    "variantId": 16470572826714,
+    "match": "exact variant SKU",
+    "checked": "2026-10-30",
+    "sha256": "a06741de55a9f6a4b6e53fb2cfdc621d711b0058a9fd1cee74e78a66c0e75c3c"
+  },
+  {
+    "id": "off-sunny-sf-b2715",
+    "sku": "SF-B2715",
+    "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b2715",
+    "image": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-bikes-zephyr-air-bike-fan-exercise-bike-unlimited-resistance-adjustable-handlebars-SF-B2715-01_750x.jpg?v=1604615043",
+    "variantId": null,
+    "match": "exact-model assembly-guide page",
+    "checked": "2026-10-30",
+    "sha256": "598a55d1b30389a87e57045c389a5a738da8dd7758b637398644c5a1d3efe1f1"
+  },
+  {
+    "id": "off-sunny-cb110",
+    "sku": "CB110",
+    "page": "https://sunnyhealthfitness.com/products/advanced-cadence-rpm-speed-sensor-for-indoor-and-outdoor-bikes-cb110",
+    "image": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-accessories-bike-cadence-CB110-01.jpg?v=1688574289",
+    "variantId": 53173624832364,
+    "match": "exact variant SKU",
+    "checked": "2026-10-30",
+    "sha256": "3d0f0b16f649b9d808b9ff22a3f8df5fdd59f2ad8d859df21ae18c3387cff91e"
+  },
+  {
+    "id": "off-sunny-sf-e3872",
+    "sku": "SF-E3872",
+    "page": "https://sunnyhealthfitness.com/products/magnetic-under-desk-elliptical-peddler-exerciser-sf-e3872",
+    "image": "https://cdn.shopify.com/s/files/1/0052/7043/7978/products/SU7131_1.jpg?v=1661976277",
+    "variantId": 17003155619930,
+    "match": "exact variant SKU",
+    "checked": "2026-10-30",
+    "sha256": "4ebb9b75604fa04206cc10081d389c31df054c3230f3753b701f59394d311e97"
+  },
+  {
+    "id": "off-sunny-sf-e3875",
+    "sku": "SF-E3875",
+    "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3875",
+    "image": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-bikes-motorized-elliptical-machine-SF-E3875-01_750x.jpg?v=1604076010",
+    "variantId": null,
+    "match": "exact-model assembly-guide page",
+    "checked": "2026-10-30",
+    "sha256": "570f1a220981934ae318cf902062572a12cc5983db494766ed5cf518348446ee"
+  }
+]
