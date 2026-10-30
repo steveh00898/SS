@@ -2,6 +2,27 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-30: Claude Code — git pull: Off Sunny web pilot synced to the Claude Artifact (version 22)
+- Changes: reviewed Codex commits 2f1dd8a, f42a0f4, ebd6eb7, 7fddc9f, 0f485ee, 7088dc1. They match their HANDOFF entries:
+  - 10 V3 reference products as a separate `off-sunny-web` catalog source.
+  - Source selector (Current website 156 / Off Sunny web 10 / All 166).
+  - "Image" column wording; official-first images; the Worker packages the images.
+  - New AGENTS.md image-priority rule.
+  - `/api` and the `window.claude` fallback are intact, and the Artifact boot mapping keeps `catalogSource` and `sourceFile`.
+  - New tests add coverage; no assertion was weakened.
+- Claude Artifact data:
+  - Uploaded the 10 `data/images/off-sunny-web/*-official-v1.jpg` files to the Artifact asset store.
+  - Created the 10 `off-sunny-*` item documents from `data/off-sunny-web/items.json` (none existed before; checked first). Every field is identical to the repository, except `imageAssetId` and `imageUrl` (`/_blob/<id>`), because the Artifact cannot serve `/api/catalog-images/...`.
+  - The 156 current records are untouched. Read back all 10: 0 field mismatches.
+- Files: HANDOFF.md
+- Tests: all 18 tests/*.spec.cjs passed. `npm run build` passed; `npm run screenshots` passed (14 PNGs). Preview `?source=off-sunny-web`: 10 rows, all 10 images decoded on desktop, no page errors.
+- Local preview: checked.
+- Claude Artifact: published version 22 from 7088dc1.
+- Private Site: PUBLIC version 35 from 0f485ee (Codex); same app code as main.
+- Practice data: not re-exported (no change).
+- Remaining issues: none. For future off-Sunny imports, Claude Code must again upload the images to Artifact assets; data/*.json image paths for that source point to Site routes.
+- Next steps: none.
+
 ## 2026-10-30: Codex — official-first image refresh published as version 35
 - Changes: all ten pilot models now use verified official images; 7150 image available and 8730G gold image correct. Official-first -> spec sheet -> unavailable rule recorded in AGENTS.md. Source group/category/specs/prices/product links unchanged. Repaired v34 current-image build-path regression.
 - Files: HANDOFF.md release record.
