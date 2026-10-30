@@ -2,6 +2,22 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-30: Claude Code — Claude Artifact: owner links to the Site's Accounts, Public Usage Analysis and Feedback
+- Changes: the owner noticed Accounts, Public Usage Analysis and the Feedback button are missing on the Claude link. They are Site-only on purpose: outside visitors can't save anything in the Artifact, so local copies would stay empty. The owner chose links. In the Claude Artifact only, when `user.isOwner()` is true:
+  - The section menu shows "Accounts ↗" and "Public Usage Analysis ↗"; they open `https://sunny-product-finder.steven-peace.chatgpt.site/?view=accounts|usage` in a new tab.
+  - "Feedback ↗" opens the Site's Public Usage Analysis, where visitor feedback is listed.
+  - Non-owners see none of these.
+  - Deep links `?view=accounts|usage` on the Artifact fall back to the catalog without opening the Site.
+  - The private Site's behaviour is unchanged: `pr.siteLinks` is only set in the Artifact runtime.
+- Files: app/index.html, tests/artifact-site-links.spec.cjs (new), HANDOFF.md
+- Tests: all 19 tests/*.spec.cjs passed; `npm run build` passed.
+- Local preview: checked through the new Artifact-runtime test (owner and non-owner).
+- Claude Artifact: to be republished from this commit.
+- Private Site: PUBLIC version 35 from 0f485ee. This change has no effect on the Site, but its app code differs from main until Codex next publishes.
+- Practice data: not re-exported (no change).
+- Remaining issues: the Site URL is written in app/index.html; update it if the Site address changes.
+- Next steps: Codex runs "git pull".
+
 ## 2026-10-30: Claude Code — git pull: Off Sunny web pilot synced to the Claude Artifact (version 22)
 - Changes: reviewed Codex commits 2f1dd8a, f42a0f4, ebd6eb7, 7fddc9f, 0f485ee, 7088dc1. They match their HANDOFF entries:
   - 10 V3 reference products as a separate `off-sunny-web` catalog source.

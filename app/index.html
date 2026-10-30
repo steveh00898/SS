@@ -1094,11 +1094,11 @@ body.spec-view table.ptable{min-width:0}
   }
   async function initPractice(runtime, db, user) {
     try {
-      if (runtime) { const uid = user && typeof user.id === "function" ? await user.id() : null; pr.store = uid && db ? artifactPractice(db, uid) : null; pr.source = "claude-artifact"; pr.enabled = !!uid; }
+      if (runtime) { const uid = user && typeof user.id === "function" ? await user.id() : null; pr.store = uid && db ? artifactPractice(db, uid) : null; pr.source = "claude-artifact"; pr.enabled = !!uid; pr.siteLinks = !!(user && typeof user.isOwner === "function" && await Promise.resolve(user.isOwner()).catch(() => false)); }
       else { const s = await api("/api/session").catch(() => null); pr.store = s && s.practice ? sitePractice : null; pr.source = "private-site"; pr.enabled = !!(s && s.practice); pr.admin = !!(s && s.admin); if (s && s.email) pr.me.email = String(s.email); }
       if (pr.store) pr.records = (await pr.store.load()).map(cleanRecord);
     } catch (e) { pr.store = null; pr.saveNote = "Your saved results couldn't load, so this visit isn't saved."; }
-    pr.loaded = true; activatePublicFeatures(); if ((!pr.enabled && ["practice","progress","accounts"].includes(pr.view)) || (!pr.admin && pr.view === "usage")) setView("catalog"); renderPractice(); document.querySelector('#views [data-view="accounts"]').hidden = !pr.admin; if (pr.view !== "catalog") renderPractice();
+    pr.loaded = true; activatePublicFeatures(); if ((!pr.enabled && ["practice","progress","accounts"].includes(pr.view)) || (!pr.admin && pr.view === "usage") || (pr.source === "claude-artifact" && ["accounts","usage"].includes(pr.view))) { const keep = pr.siteLinks; pr.siteLinks = false; setView("catalog"); pr.siteLinks = keep; } renderPractice(); document.querySelector('#views [data-view="accounts"]').hidden = !pr.admin && !pr.siteLinks; if (pr.siteLinks) siteLinkLabels(); if (pr.view !== "catalog") renderPractice();
   }
   let saveChain = Promise.resolve();
   function savePractice(recs) {
@@ -1220,7 +1220,16 @@ body.spec-view table.ptable{min-width:0}
   document.addEventListener('focusin',e=>{if(!e.target.closest('.compact-picker'))closePickers()});
   for(const [button,target] of [['categoryExpand','tabs'],['toolsExpand','specLegend']]) $('#'+button).addEventListener('click',()=>{openMobilePopup($('#'+button),$('#'+target),button==='categoryExpand'?'Choose category':'Tiers & Compare')});
   // ----- rendering -----
+  // Claude Artifact: Accounts, Public Usage Analysis and visitor feedback live on the private Site, because outside visitors can't
+  // save anything in the Artifact. The owner gets links that open the Site's pages instead of empty local copies.
+  const SITE_URL = "https://sunny-product-finder.steven-peace.chatgpt.site/";
+  function openSite(view) { const a = document.createElement("a"); a.href = SITE_URL + "?view=" + view; a.target = "_blank"; a.rel = "noopener"; document.body.appendChild(a); a.click(); a.remove(); }
+  function siteLinkLabels() {
+    for (const v of ["accounts", "usage"]) { const b = document.querySelector('#views [data-view="' + v + '"]'); if (b && !b.textContent.endsWith("↗")) { b.textContent += " ↗"; b.title = "Opens on the private Site"; } }
+    const f = $("#feedbackToggle"); f.textContent = "Feedback ↗"; f.title = "Visitor feedback is collected on the private Site (Public Usage Analysis)";
+  }
   function setView(v) {
+    if (pr.siteLinks && (v === "accounts" || v === "usage")) { openSite(v); v = "catalog"; }
     if (v === "usage" && pr.loaded && !pr.admin) v = "catalog";
     if (["practice","progress"].includes(v) && pr.enabled !== true) v = "catalog";
     if (v === pr.view) return;
@@ -1232,7 +1241,7 @@ body.spec-view table.ptable{min-width:0}
   $("#views").addEventListener("click", (e) => { const b = e.target.closest("[data-view]"); if (b) setView(b.dataset.view); });
   const saveLine = () => !pr.loaded ? "Loading your saved results…" : pr.saveNote ? pr.saveNote : pr.store ? "Your results are saved to your account." : "Results aren't saved in this view. Sign in to keep your progress.";
   function renderPractice() {
-    document.querySelector('#views [data-view="usage"]').hidden = !pr.admin;
+    document.querySelector('#views [data-view="usage"]').hidden = !pr.admin && !pr.siteLinks;
     $('#usageView').hidden = pr.view !== 'usage' || !pr.admin;
     document.querySelectorAll('#views [data-view="practice"],#views [data-view="progress"]').forEach(b => b.hidden = pr.enabled !== true);
     document.body.dataset.view = pr.view;
@@ -1325,7 +1334,7 @@ body.spec-view table.ptable{min-width:0}
   function scheduleTelemetry(delay=250){clearTimeout(deliveryTimer);deliveryTimer=setTimeout(flushTelemetry,delay);}
   function queueTelemetry(event){if(pr.admin||pr.source==='claude-artifact')return;outbox.push({...event,eventId:publicEventId(),queuedAt:Date.now()});persistTelemetry();if(pr.loaded&&pr.source==='private-site')scheduleTelemetry();}
   function activatePublicFeatures(){
-    $('#feedbackWidget').hidden=pr.source!=='private-site';
+    $('#feedbackWidget').hidden=pr.source!=='private-site'&&!pr.siteLinks;
     if(pr.admin||pr.source!=='private-site'){outbox=[];try{localStorage.removeItem(telemetryKey)}catch{}return;}
     try{const stored=JSON.parse(localStorage.getItem(telemetryKey)||'[]');if(Array.isArray(stored)){const byId=new Map([...stored,...outbox].filter(x=>x&&typeof x.eventId==='string'&&Date.now()-x.queuedAt<86400000).map(x=>[x.eventId,x]));outbox=[...byId.values()].slice(-100);}}catch{}persistTelemetry();scheduleTelemetry();
   }
@@ -1348,6 +1357,7 @@ body.spec-view table.ptable{min-width:0}
   window.addEventListener('error',e=>{if(e instanceof ErrorEvent)queueTelemetry({type:'app_error',value:1})});window.addEventListener('unhandledrejection',()=>queueTelemetry({type:'app_error',value:1}));
   let feedbackId=publicEventId(),feedbackLastComment='';
   function closeFeedback(){ $('#feedbackPanel').hidden=true;$('#feedbackToggle').setAttribute('aria-expanded','false');$('#feedbackToggle').focus();}
+  $('#feedbackToggle').addEventListener('click',e=>{if(pr.siteLinks){e.stopImmediatePropagation();openSite('usage');}},true);
   $('#feedbackToggle').addEventListener('click',()=>{const open=$('#feedbackPanel').hidden;$('#feedbackPanel').hidden=!open;$('#feedbackToggle').setAttribute('aria-expanded',String(open));if(open)$('#feedbackComment').focus();});
   $('#feedbackClose').addEventListener('click',closeFeedback);$('#feedbackPanel').addEventListener('keydown',e=>{if(e.key==='Escape'){e.stopPropagation();closeFeedback();}});
   $('#feedbackPanel').addEventListener('submit',async e=>{e.preventDefault();const input=$('#feedbackComment'),button=$('#feedbackSubmit'),status=$('#feedbackStatus'),comment=input.value.trim();if(!comment){status.textContent='Please enter a comment.';return;}if(comment!==feedbackLastComment){feedbackId=publicEventId();feedbackLastComment=comment;}button.disabled=true;input.disabled=true;status.textContent='Sending…';
