@@ -18,6 +18,7 @@ for (const file of fs.readdirSync(path.join(root, 'data')).filter((f) => f.endsW
     items.set(row.id, { ...row, imageAssetId: '', imageUrl: fs.existsSync(path.join(root, picture)) ? '/' + picture : '' });
   }
 }
+for(const row of JSON.parse(fs.readFileSync(path.join(root,'data/off-sunny-web/items.json'),'utf8')))items.set(row.id,{...row});
 const uploads = new Map();
 const practice = new Map(); // SKU practice results, in memory like everything else here
 const profile = { name: '' };
