@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-30: Codex — official-first image refresh published as version 35
+- Changes: all ten pilot models now use verified official images; 7150 image available and 8730G gold image correct. Official-first -> spec sheet -> unavailable rule recorded in AGENTS.md. Source group/category/specs/prices/product links unchanged. Repaired v34 current-image build-path regression.
+- Files: HANDOFF.md release record.
+- Tests: 18 suites passed; standard/import captures and source contact sheet checked; packaged Worker route/bytes check passed. Live headless Chrome decoded all ten 1200px official images and verified 156 current-view rows plus a current product image. In-app browser binding failed with browser.user unavailable; headless live verification succeeded. Read all live DB rows: 166 total, ten versioned official image URLs, original current 156 strings unchanged.
+- Local preview: checked; live screenshot at work/outputs/official-images-live.png.
+- Claude Artifact: not published; Claude Code must sync official asset metadata, AGENTS rule and source before republishing.
+- Private Site: PUBLIC version 35 from exact main SHA 0f485eedb20d50f6cee3be1476c0a894cc646b15; deployment appgdep_6ae5295767bc81919b641f36c5a3c5e6 succeeded; public audience/admin environment revision 1 unchanged.
+- Practice data: not exported (public repository permission pending).
+- Remaining issues: source grouping retained even when official product/support pages exist; no sales-status inference.
+- Next steps: refresh Off Sunny web catalog; future imports follow AGENTS image priority.
+
 ## 2026-10-30: Codex — official-first images for all ten pilot models
 - Changes: searched Sunny by each exact SKU/model, checked product variant SKUs (eight models) and exact-model official assembly pages (SF-B2715/SF-E3875). All ten now use official images; 7150 gains an image and 8730G gains the gold variant. Shared mat image is explicitly assigned to both matching variants. Rejects CB110S/SMART/accessory near matches. No catalog-source/category/spec/price/product-link changes. Sheet assets retained as fallback. AGENTS.md now requires official exact-model search first, sheet extraction second, Image unavailable last for every offsite import; record provenance and preserve user uploads.
 - Files: AGENTS.md, data/off-sunny-web/items.json/official-images.json/README.md, ten versioned image assets, scripts/build.mjs, server/worker.js, three image/import tests and fixture, HANDOFF.md.
