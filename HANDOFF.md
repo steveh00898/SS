@@ -2,6 +2,18 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-30: Claude Code — git pull: reviewed 33 Codex commits (172a153..9672157); Claude Artifact version 21
+- Changes: reviewed the commits against their HANDOFF entries: simplified sidebar and mobile cards; SKU links to product pages; "User Manual/Assembly Guide" column (manuals and YouTube guides embedded in app/index.html from data/manuals/*.json); CSV with guide URLs and Excel UTF-8; public Site with guest catalog-only views; admin-only Public Usage Analysis (link clicks, timing, charts) and public feedback widget (migrations 0003, 0004); official `productSpecs` for the eight remaining categories; "Model number" wording. Worker: anonymous writes are limited to `/api/public-usage/click`, `/api/public-usage/events` and `/api/feedback` (same-origin, size-bounded, validated, 90-day retention); all usage and feedback reads are admin-only; catalog and practice writes still need a signed-in user. The Artifact runtime is unaffected: telemetry and feedback only run when the source is the private Site, and practice stays on for signed-in Artifact viewers. Test edits: every removed assertion has a renamed or updated replacement, except the mobile spec-cell width check, replaced because mobile spec cells are now intentionally hidden. The two issues I flagged on 2026-10-23 (phone category popup layout, desktop selector spacing) are fixed.
+- Catalog data: read the Artifact `items` database (156 docs, no edits since my last write). All 93 items whose `productSpecs` changed still matched the old repository data, so I wrote only `productSpecs`, pinned with `if_version` (two atomic batches). No conflicts; no other fields touched.
+- Files: HANDOFF.md
+- Tests: all 13 tests/*.spec.cjs passed. `npm run screenshots` passed. Phone category popup and desktop catalog inspected.
+- Local preview: checked via screenshots.
+- Claude Artifact: published version 21 from 9672157.
+- Private Site: version 32 (Codex); same app code as main.
+- Practice data: not re-exported (no change).
+- Remaining issues: none found. Note: anonymous feedback has only duplicate protection (same comment within 60 seconds), not a rate limit; fine at current traffic, worth revisiting if spam appears.
+- Next steps: none.
+
 ## 2026-10-28: Codex — model terminology published as version 32
 - Changes: published model-number wording; no identifiers or data changed.
 - Files: HANDOFF.md release record.
