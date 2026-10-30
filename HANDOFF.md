@@ -12,7 +12,7 @@ Newest entry first. Each agent adds one entry per completed task (format in AGEN
 - Files: app/index.html, tests/artifact-site-links.spec.cjs (new), HANDOFF.md
 - Tests: all 19 tests/*.spec.cjs passed; `npm run build` passed.
 - Local preview: checked through the new Artifact-runtime test (owner and non-owner).
-- Claude Artifact: to be republished from this commit.
+- Claude Artifact: published version 23 from c0c0d06.
 - Private Site: PUBLIC version 35 from 0f485ee. This change has no effect on the Site, but its app code differs from main until Codex next publishes.
 - Practice data: not re-exported (no change).
 - Remaining issues: the Site URL is written in app/index.html; update it if the Site address changes.
