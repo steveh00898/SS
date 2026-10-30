@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-30: Codex — off Sunny web pilot published as version 33
+- Changes: ten requested V3 reference records published with source selector and plain muted category annotation. Default current catalog remains 156; archive 10; combined 166.
+- Files: HANDOFF.md release record.
+- Tests: all 16 suites passed; standard preview captures passed with network permission after restricted localhost denial; import-specific desktop/phone checked. Worker/archive build and deployment succeeded. Opened live Site and verified source selector, all ten records, category grouping and specifications through visible UI. Live DB read confirms 166 rows/10 off-sunny-web; all original 156 data strings byte-identical to the pre-import read.
+- Local preview: checked; live UI opened at ?source=off-sunny-web and All category selected.
+- Claude Artifact: not published; currently version 21 from 9672157 per Claude handoff. Claude Code must sync archive records from nested canonical data/off-sunny-web/items.json (safe insert only), then publish latest app.
+- Private Site: PUBLIC version 33 from exact main SHA 2f1dd8a461e27baaf0744101604d1ebff9ae3892; deployment appgdep_6ae523b15a808191b08280c34f2b2c2c succeeded. Existing public audience, admin environment revision 1 and databases retained; no migrations.
+- Practice data: not exported (public repository permission pending).
+- Remaining issues: no verified pictures/prices/product/manual/assembly links for this pilot; originals untouched. Adjustable DB import deferred because not in this explicit list.
+- Next steps: review the ten records; additional source files require next selected batch.
+
 ## 2026-10-30: Codex — ten V3 off Sunny web reference products
 - Changes: imported only the ten requested V3 files as separate off-sunny-web records (NO.074-L, NO.083, 7150, 8730, 8730G, NO.025, SF-B2715, CB110, SF-E3872, SF-E3875). Current website remains default 156; Off Sunny web 10; All products 166. Existing category types preserved; muted plain grey off Sunny web text below category label, no badge. Source selector works desktop/mobile, updates URL, scopes counts/search/suggestions/CSV/comparison; numeric tier cohorts keep current/offsite separate. CSV includes Catalog source. Archive IDs are namespaced; source metadata retained through edits and bulk saves. No exact overlaps in this batch; CB110 is distinct from current CB110S. Adjustable DB workbook is outside this explicit batch and not imported.
 - Data: data/off-sunny-web/items.json plus per-file SHA-256/cell provenance and README; original source files untouched. Build/preview load archive alongside current canonical category files. One-time INSERT OR IGNORE upgrade adds only the archive records, keeps current rows unchanged and does not resurrect deleted records. No schema migrations.
