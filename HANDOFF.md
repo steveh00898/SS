@@ -2,6 +2,18 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-10-30: Codex — Site version 36 verified; reset Product Spec to the top on each open
+- Changes: PUBLIC Site version 36 deployed from a0d5d9f069d228234905465b1e5373fc8dab2f10 (includes 467604e). Final live verification confirmed 156 current records unchanged in every API field, existing ten archive records changed only by the two new metadata fields, ten new records identical to canonical JSON, counts 156/20/176, 19 decoded archive images, 17 manual links, eight video links, desktop/390px dialogs, keyboard image navigation and zero page errors. No resource links were clicked in production, so verification did not create artificial click counts.
+- Live QA correction: a check originally waited on a lazy image nearly 4,000px above the viewport; bringing it into view loaded it successfully. This was a verifier condition, not a preview connection failure. Inspection also caught retained dialog scroll on phone after reopening; the app now resets the Product Spec body to the top on every open, with a regression check after scrolling/closing/switching products.
+- Files: app/index.html, tests/product-specs.spec.cjs, HANDOFF.md.
+- Tests: all 20 suites passed after the scroll reset, including the new reopen-at-top regression assertion. Build passed; the screenshots script refreshed all 14 desktop/phone PNGs and dedicated spec screenshots passed.
+- Local preview: desktop and 390px Product Spec checked; live screenshots saved in work/outputs/product-spec-live-{desktop,phone}.png.
+- Claude Artifact: not published by Codex; remains version 23 from c0c0d06 and needs the batch/spec sync described below.
+- Private Site: PUBLIC version 36, exact build SHA a0d5d9f069d228234905465b1e5373fc8dab2f10; environment revision 1 and access unchanged. This dialog reset will be republished from its tested pushed commit.
+- Practice data: not exported; first-export permission pending for this public repository. Existing local export/report has zero records, with no current live-usage claim.
+- Remaining issues: unavailable resources remain as recorded in the batch notes; no new catalog discrepancy found.
+- Next steps: publish the tested dialog reset and record the final deployed version/source SHA.
+
 ## 2026-10-30: Codex — Off Sunny web batch two and category-based Product Spec dialogs
 - Changes: reviewed incoming Claude Code commits 31f554a, c0c0d06 and 31fa06c (Artifact sync/owner links); all matched HANDOFF. Added structured specs and verified resources to the existing ten archive records; imported only the ten newly requested V3 files. Holder Template contains NO. 082. SF-T7515 and SF-T7515SMART remain separate; NO. 077GR is not replaced with another SMART variant. Normalized exact-model comparison found no duplicate against the current 156 or the first archive ten.
 - Catalog: Current website 156 / Off Sunny web 20 / All 176. Original 156 canonical files unchanged. Read-only comparison against all 166 deployed records before writing found no business-data differences (missing/null fields normalized). Existing archive names, images and comparison fields preserved; only missing structured metadata is backfilled. Import markers/INSERT OR IGNORE prevent overwrites or resurrection of deleted first-batch items.
