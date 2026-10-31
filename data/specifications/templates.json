@@ -1,0 +1,1736 @@
+{
+  "Treadmills": [
+    {
+      "title": "Product and dimensions",
+      "fields": [
+        [
+          "brand",
+          "Brand"
+        ],
+        [
+          "materials",
+          "Materials"
+        ],
+        [
+          "color",
+          "Color"
+        ],
+        [
+          "productWeight",
+          "Product weight"
+        ],
+        [
+          "maxUserWeightLb",
+          "Maximum user weight (lb)"
+        ],
+        [
+          "maxUserHeight",
+          "Maximum user height"
+        ],
+        [
+          "keyDimensions",
+          "Assembled / product dimensions"
+        ],
+        [
+          "foldedDimensions",
+          "Folded dimensions"
+        ],
+        [
+          "footprint",
+          "Floor footprint"
+        ],
+        [
+          "shippingWeight",
+          "Shipping weight"
+        ],
+        [
+          "shippingDimensions",
+          "Shipping dimensions"
+        ],
+        [
+          "upc",
+          "UPC"
+        ],
+        [
+          "latex",
+          "Latex / rubber information"
+        ]
+      ]
+    },
+    {
+      "title": "Performance and adjustments",
+      "fields": [
+        [
+          "driveResistanceSystem",
+          "Drive / motor"
+        ],
+        [
+          "motorType",
+          "Motor type"
+        ],
+        [
+          "peakHp",
+          "Peak horsepower"
+        ],
+        [
+          "continuousHp",
+          "Continuous horsepower"
+        ],
+        [
+          "speedRange",
+          "Speed range"
+        ],
+        [
+          "speedResistanceLevels",
+          "Speed / resistance"
+        ],
+        [
+          "inclineType",
+          "Incline type"
+        ],
+        [
+          "inclineRange",
+          "Incline range"
+        ],
+        [
+          "inclineLevels",
+          "Individual incline levels"
+        ],
+        [
+          "inclineDegrees",
+          "Incline angle"
+        ],
+        [
+          "runningSurface",
+          "Available running surface"
+        ],
+        [
+          "beltDimensions",
+          "Physical running belt dimensions"
+        ],
+        [
+          "workoutAreaWidthIn",
+          "Workout-area width (in)"
+        ],
+        [
+          "workoutAreaLengthIn",
+          "Workout-area length (in)"
+        ],
+        [
+          "softDrop",
+          "Soft-drop system"
+        ],
+        [
+          "shockAbsorption",
+          "Shock absorption"
+        ],
+        [
+          "foldable",
+          "Foldable"
+        ],
+        [
+          "transportWheels",
+          "Transport wheels"
+        ]
+      ]
+    },
+    {
+      "title": "Console and connectivity",
+      "fields": [
+        [
+          "display",
+          "Monitor / displayed metrics"
+        ],
+        [
+          "screenType",
+          "Screen type"
+        ],
+        [
+          "screenSize",
+          "Screen size"
+        ],
+        [
+          "battery",
+          "Monitor battery"
+        ],
+        [
+          "bluetooth",
+          "Bluetooth"
+        ],
+        [
+          "heartRate",
+          "Pulse sensors"
+        ],
+        [
+          "wirelessHeartRate",
+          "Wireless heart-rate support"
+        ],
+        [
+          "deviceHolder",
+          "Device holder"
+        ],
+        [
+          "bottleHolder",
+          "Bottle holder"
+        ],
+        [
+          "programs",
+          "Programs"
+        ],
+        [
+          "speakers",
+          "Speakers / audio"
+        ],
+        [
+          "usb",
+          "USB / device charging"
+        ],
+        [
+          "electrical",
+          "Electrical requirements"
+        ],
+        [
+          "watts",
+          "Power (W)"
+        ],
+        [
+          "amps",
+          "Current (A)"
+        ],
+        [
+          "powerCord",
+          "Power-cord length"
+        ]
+      ]
+    },
+    {
+      "title": "Features",
+      "fields": [
+        [
+          "features",
+          "Features / functions"
+        ]
+      ]
+    }
+  ],
+  "Indoor Bikes": [
+    {
+      "title": "Product and dimensions",
+      "fields": [
+        [
+          "brand",
+          "Brand"
+        ],
+        [
+          "materials",
+          "Materials"
+        ],
+        [
+          "color",
+          "Color"
+        ],
+        [
+          "productWeight",
+          "Product weight"
+        ],
+        [
+          "maxUserWeightLb",
+          "Maximum user weight (lb)"
+        ],
+        [
+          "maxUserHeight",
+          "Maximum user height"
+        ],
+        [
+          "keyDimensions",
+          "Assembled / product dimensions"
+        ],
+        [
+          "foldedDimensions",
+          "Folded dimensions"
+        ],
+        [
+          "footprint",
+          "Floor footprint"
+        ],
+        [
+          "shippingWeight",
+          "Shipping weight"
+        ],
+        [
+          "shippingDimensions",
+          "Shipping dimensions"
+        ],
+        [
+          "upc",
+          "UPC"
+        ],
+        [
+          "latex",
+          "Latex / rubber information"
+        ]
+      ]
+    },
+    {
+      "title": "Performance and adjustments",
+      "fields": [
+        [
+          "driveResistanceSystem",
+          "Drive / resistance system"
+        ],
+        [
+          "resistanceType",
+          "Resistance type"
+        ],
+        [
+          "speedResistanceLevels",
+          "Resistance levels"
+        ],
+        [
+          "flywheelWeight",
+          "Flywheel weight"
+        ],
+        [
+          "inseam",
+          "Inseam / fit range"
+        ],
+        [
+          "qFactor",
+          "Q-factor"
+        ],
+        [
+          "seatAdjustment",
+          "Seat adjustment"
+        ],
+        [
+          "handlebarAdjustment",
+          "Handlebar adjustment"
+        ],
+        [
+          "seatHeight",
+          "Seat height"
+        ],
+        [
+          "seatToHandlebar",
+          "Seat-to-handlebar distance"
+        ],
+        [
+          "pedalType",
+          "Pedal type"
+        ],
+        [
+          "pedalThread",
+          "Pedal thread"
+        ],
+        [
+          "crankType",
+          "Crank type"
+        ],
+        [
+          "foldable",
+          "Foldable"
+        ],
+        [
+          "transportWheels",
+          "Transport wheels"
+        ]
+      ]
+    },
+    {
+      "title": "Console and connectivity",
+      "fields": [
+        [
+          "display",
+          "Monitor / displayed metrics"
+        ],
+        [
+          "screenType",
+          "Screen type"
+        ],
+        [
+          "screenSize",
+          "Screen size"
+        ],
+        [
+          "battery",
+          "Monitor battery"
+        ],
+        [
+          "bluetooth",
+          "Bluetooth"
+        ],
+        [
+          "heartRate",
+          "Pulse sensors"
+        ],
+        [
+          "wirelessHeartRate",
+          "Wireless heart-rate support"
+        ],
+        [
+          "deviceHolder",
+          "Device holder"
+        ],
+        [
+          "bottleHolder",
+          "Bottle holder"
+        ],
+        [
+          "programs",
+          "Programs"
+        ],
+        [
+          "speakers",
+          "Speakers / audio"
+        ],
+        [
+          "usb",
+          "USB / device charging"
+        ],
+        [
+          "electrical",
+          "Electrical requirements"
+        ],
+        [
+          "watts",
+          "Power (W)"
+        ],
+        [
+          "amps",
+          "Current (A)"
+        ],
+        [
+          "powerCord",
+          "Power-cord length"
+        ]
+      ]
+    },
+    {
+      "title": "Features",
+      "fields": [
+        [
+          "features",
+          "Features / functions"
+        ]
+      ]
+    }
+  ],
+  "Ellipticals": [
+    {
+      "title": "Product and dimensions",
+      "fields": [
+        [
+          "brand",
+          "Brand"
+        ],
+        [
+          "materials",
+          "Materials"
+        ],
+        [
+          "color",
+          "Color"
+        ],
+        [
+          "productWeight",
+          "Product weight"
+        ],
+        [
+          "maxUserWeightLb",
+          "Maximum user weight (lb)"
+        ],
+        [
+          "maxUserHeight",
+          "Maximum user height"
+        ],
+        [
+          "keyDimensions",
+          "Assembled / product dimensions"
+        ],
+        [
+          "foldedDimensions",
+          "Folded dimensions"
+        ],
+        [
+          "footprint",
+          "Floor footprint"
+        ],
+        [
+          "shippingWeight",
+          "Shipping weight"
+        ],
+        [
+          "shippingDimensions",
+          "Shipping dimensions"
+        ],
+        [
+          "upc",
+          "UPC"
+        ],
+        [
+          "latex",
+          "Latex / rubber information"
+        ]
+      ]
+    },
+    {
+      "title": "Performance and adjustments",
+      "fields": [
+        [
+          "driveResistanceSystem",
+          "Drive / resistance system"
+        ],
+        [
+          "resistanceType",
+          "Resistance type"
+        ],
+        [
+          "speedResistanceLevels",
+          "Resistance levels"
+        ],
+        [
+          "inclineStrideMotion",
+          "Stride / motion"
+        ],
+        [
+          "stride",
+          "Stride length"
+        ],
+        [
+          "flywheelWeight",
+          "Flywheel weight"
+        ],
+        [
+          "pedalType",
+          "Pedal type"
+        ],
+        [
+          "crankType",
+          "Crank type"
+        ],
+        [
+          "foldable",
+          "Foldable"
+        ],
+        [
+          "transportWheels",
+          "Transport wheels"
+        ]
+      ]
+    },
+    {
+      "title": "Console and connectivity",
+      "fields": [
+        [
+          "display",
+          "Monitor / displayed metrics"
+        ],
+        [
+          "screenType",
+          "Screen type"
+        ],
+        [
+          "screenSize",
+          "Screen size"
+        ],
+        [
+          "battery",
+          "Monitor battery"
+        ],
+        [
+          "bluetooth",
+          "Bluetooth"
+        ],
+        [
+          "heartRate",
+          "Pulse sensors"
+        ],
+        [
+          "wirelessHeartRate",
+          "Wireless heart-rate support"
+        ],
+        [
+          "deviceHolder",
+          "Device holder"
+        ],
+        [
+          "bottleHolder",
+          "Bottle holder"
+        ],
+        [
+          "programs",
+          "Programs"
+        ],
+        [
+          "speakers",
+          "Speakers / audio"
+        ],
+        [
+          "usb",
+          "USB / device charging"
+        ],
+        [
+          "electrical",
+          "Electrical requirements"
+        ],
+        [
+          "watts",
+          "Power (W)"
+        ],
+        [
+          "amps",
+          "Current (A)"
+        ],
+        [
+          "powerCord",
+          "Power-cord length"
+        ]
+      ]
+    },
+    {
+      "title": "Features",
+      "fields": [
+        [
+          "features",
+          "Features / functions"
+        ]
+      ]
+    }
+  ],
+  "Rowers": [
+    {
+      "title": "Product and dimensions",
+      "fields": [
+        [
+          "brand",
+          "Brand"
+        ],
+        [
+          "materials",
+          "Materials"
+        ],
+        [
+          "color",
+          "Color"
+        ],
+        [
+          "productWeight",
+          "Product weight"
+        ],
+        [
+          "maxUserWeightLb",
+          "Maximum user weight (lb)"
+        ],
+        [
+          "maxUserHeight",
+          "Maximum user height"
+        ],
+        [
+          "keyDimensions",
+          "Assembled / product dimensions"
+        ],
+        [
+          "foldedDimensions",
+          "Folded dimensions"
+        ],
+        [
+          "footprint",
+          "Floor footprint"
+        ],
+        [
+          "shippingWeight",
+          "Shipping weight"
+        ],
+        [
+          "shippingDimensions",
+          "Shipping dimensions"
+        ],
+        [
+          "upc",
+          "UPC"
+        ],
+        [
+          "latex",
+          "Latex / rubber information"
+        ]
+      ]
+    },
+    {
+      "title": "Performance and adjustments",
+      "fields": [
+        [
+          "driveResistanceSystem",
+          "Resistance system"
+        ],
+        [
+          "speedResistanceLevels",
+          "Resistance levels"
+        ],
+        [
+          "inclineStrideMotion",
+          "Rowing motion"
+        ],
+        [
+          "slideRail",
+          "Slide rail dimensions"
+        ],
+        [
+          "railInseam",
+          "Slide rail inseam"
+        ],
+        [
+          "seatHeight",
+          "Seat height"
+        ],
+        [
+          "foldable",
+          "Foldable"
+        ],
+        [
+          "transportWheels",
+          "Transport wheels"
+        ]
+      ]
+    },
+    {
+      "title": "Console and connectivity",
+      "fields": [
+        [
+          "display",
+          "Monitor / displayed metrics"
+        ],
+        [
+          "screenType",
+          "Screen type"
+        ],
+        [
+          "screenSize",
+          "Screen size"
+        ],
+        [
+          "battery",
+          "Monitor battery"
+        ],
+        [
+          "bluetooth",
+          "Bluetooth"
+        ],
+        [
+          "heartRate",
+          "Pulse sensors"
+        ],
+        [
+          "wirelessHeartRate",
+          "Wireless heart-rate support"
+        ],
+        [
+          "deviceHolder",
+          "Device holder"
+        ],
+        [
+          "bottleHolder",
+          "Bottle holder"
+        ],
+        [
+          "programs",
+          "Programs"
+        ],
+        [
+          "speakers",
+          "Speakers / audio"
+        ],
+        [
+          "usb",
+          "USB / device charging"
+        ],
+        [
+          "electrical",
+          "Electrical requirements"
+        ],
+        [
+          "watts",
+          "Power (W)"
+        ],
+        [
+          "amps",
+          "Current (A)"
+        ],
+        [
+          "powerCord",
+          "Power-cord length"
+        ]
+      ]
+    },
+    {
+      "title": "Features",
+      "fields": [
+        [
+          "features",
+          "Features / functions"
+        ]
+      ]
+    }
+  ],
+  "Steppers": [
+    {
+      "title": "Product and dimensions",
+      "fields": [
+        [
+          "brand",
+          "Brand"
+        ],
+        [
+          "materials",
+          "Materials"
+        ],
+        [
+          "color",
+          "Color"
+        ],
+        [
+          "productWeight",
+          "Product weight"
+        ],
+        [
+          "maxUserWeightLb",
+          "Maximum user weight (lb)"
+        ],
+        [
+          "maxUserHeight",
+          "Maximum user height"
+        ],
+        [
+          "keyDimensions",
+          "Assembled / product dimensions"
+        ],
+        [
+          "foldedDimensions",
+          "Folded dimensions"
+        ],
+        [
+          "footprint",
+          "Floor footprint"
+        ],
+        [
+          "shippingWeight",
+          "Shipping weight"
+        ],
+        [
+          "shippingDimensions",
+          "Shipping dimensions"
+        ],
+        [
+          "upc",
+          "UPC"
+        ],
+        [
+          "latex",
+          "Latex / rubber information"
+        ]
+      ]
+    },
+    {
+      "title": "Performance and adjustments",
+      "fields": [
+        [
+          "driveResistanceSystem",
+          "Resistance system"
+        ],
+        [
+          "speedResistanceLevels",
+          "Resistance levels"
+        ],
+        [
+          "inclineStrideMotion",
+          "Step motion"
+        ],
+        [
+          "stepHeight",
+          "Step height"
+        ],
+        [
+          "pedalType",
+          "Pedal type"
+        ],
+        [
+          "handlebarAdjustment",
+          "Handlebar adjustment"
+        ],
+        [
+          "resistanceBands",
+          "Resistance bands"
+        ]
+      ]
+    },
+    {
+      "title": "Console and connectivity",
+      "fields": [
+        [
+          "display",
+          "Monitor / displayed metrics"
+        ],
+        [
+          "screenType",
+          "Screen type"
+        ],
+        [
+          "screenSize",
+          "Screen size"
+        ],
+        [
+          "battery",
+          "Monitor battery"
+        ],
+        [
+          "bluetooth",
+          "Bluetooth"
+        ],
+        [
+          "heartRate",
+          "Pulse sensors"
+        ],
+        [
+          "wirelessHeartRate",
+          "Wireless heart-rate support"
+        ],
+        [
+          "deviceHolder",
+          "Device holder"
+        ],
+        [
+          "bottleHolder",
+          "Bottle holder"
+        ],
+        [
+          "programs",
+          "Programs"
+        ],
+        [
+          "speakers",
+          "Speakers / audio"
+        ],
+        [
+          "usb",
+          "USB / device charging"
+        ],
+        [
+          "electrical",
+          "Electrical requirements"
+        ],
+        [
+          "watts",
+          "Power (W)"
+        ],
+        [
+          "amps",
+          "Current (A)"
+        ],
+        [
+          "powerCord",
+          "Power-cord length"
+        ]
+      ]
+    },
+    {
+      "title": "Features",
+      "fields": [
+        [
+          "features",
+          "Features / functions"
+        ]
+      ]
+    }
+  ],
+  "Row-N-Ride": [
+    {
+      "title": "Product and dimensions",
+      "fields": [
+        [
+          "brand",
+          "Brand"
+        ],
+        [
+          "materials",
+          "Materials"
+        ],
+        [
+          "color",
+          "Color"
+        ],
+        [
+          "productWeight",
+          "Product weight"
+        ],
+        [
+          "maxUserWeightLb",
+          "Maximum user weight (lb)"
+        ],
+        [
+          "maxUserHeight",
+          "Maximum user height"
+        ],
+        [
+          "keyDimensions",
+          "Assembled / product dimensions"
+        ],
+        [
+          "foldedDimensions",
+          "Folded dimensions"
+        ],
+        [
+          "footprint",
+          "Floor footprint"
+        ],
+        [
+          "shippingWeight",
+          "Shipping weight"
+        ],
+        [
+          "shippingDimensions",
+          "Shipping dimensions"
+        ],
+        [
+          "upc",
+          "UPC"
+        ],
+        [
+          "latex",
+          "Latex / rubber information"
+        ]
+      ]
+    },
+    {
+      "title": "Performance and adjustments",
+      "fields": [
+        [
+          "resistanceType",
+          "Resistance system"
+        ],
+        [
+          "speedResistanceLevels",
+          "Resistance levels / bands"
+        ],
+        [
+          "inclineStrideMotion",
+          "Squat angles / motion"
+        ],
+        [
+          "seatAdjustment",
+          "Seat adjustment"
+        ],
+        [
+          "handlebarAdjustment",
+          "Handlebar adjustment"
+        ],
+        [
+          "seatDimensions",
+          "Seat dimensions"
+        ],
+        [
+          "seatHeight",
+          "Seat height"
+        ],
+        [
+          "foldable",
+          "Foldable"
+        ],
+        [
+          "transportWheels",
+          "Transport wheels"
+        ]
+      ]
+    },
+    {
+      "title": "Console and connectivity",
+      "fields": [
+        [
+          "display",
+          "Monitor / displayed metrics"
+        ],
+        [
+          "screenType",
+          "Screen type"
+        ],
+        [
+          "screenSize",
+          "Screen size"
+        ],
+        [
+          "battery",
+          "Monitor battery"
+        ],
+        [
+          "bluetooth",
+          "Bluetooth"
+        ],
+        [
+          "heartRate",
+          "Pulse sensors"
+        ],
+        [
+          "wirelessHeartRate",
+          "Wireless heart-rate support"
+        ],
+        [
+          "deviceHolder",
+          "Device holder"
+        ],
+        [
+          "bottleHolder",
+          "Bottle holder"
+        ],
+        [
+          "programs",
+          "Programs"
+        ],
+        [
+          "speakers",
+          "Speakers / audio"
+        ],
+        [
+          "usb",
+          "USB / device charging"
+        ],
+        [
+          "electrical",
+          "Electrical requirements"
+        ],
+        [
+          "watts",
+          "Power (W)"
+        ],
+        [
+          "amps",
+          "Current (A)"
+        ],
+        [
+          "powerCord",
+          "Power-cord length"
+        ]
+      ]
+    },
+    {
+      "title": "Features",
+      "fields": [
+        [
+          "features",
+          "Features / functions"
+        ]
+      ]
+    }
+  ],
+  "Pilates Reformers": [
+    {
+      "title": "Product and dimensions",
+      "fields": [
+        [
+          "brand",
+          "Brand"
+        ],
+        [
+          "materials",
+          "Materials"
+        ],
+        [
+          "color",
+          "Color"
+        ],
+        [
+          "productWeight",
+          "Product weight"
+        ],
+        [
+          "maxUserWeightLb",
+          "Maximum user weight (lb)"
+        ],
+        [
+          "maxUserHeight",
+          "Maximum user height"
+        ],
+        [
+          "keyDimensions",
+          "Assembled / product dimensions"
+        ],
+        [
+          "foldedDimensions",
+          "Folded dimensions"
+        ],
+        [
+          "footprint",
+          "Floor footprint"
+        ],
+        [
+          "shippingWeight",
+          "Shipping weight"
+        ],
+        [
+          "shippingDimensions",
+          "Shipping dimensions"
+        ],
+        [
+          "upc",
+          "UPC"
+        ],
+        [
+          "latex",
+          "Latex / rubber information"
+        ]
+      ]
+    },
+    {
+      "title": "Performance and adjustments",
+      "fields": [
+        [
+          "driveResistanceSystem",
+          "Resistance system"
+        ],
+        [
+          "speedResistanceLevels",
+          "Resistance levels"
+        ],
+        [
+          "inclineStrideMotion",
+          "Adjustment / motion"
+        ],
+        [
+          "seatDimensions",
+          "Carriage / seat dimensions"
+        ],
+        [
+          "foldable",
+          "Foldable"
+        ],
+        [
+          "accessories",
+          "Included accessories"
+        ]
+      ]
+    },
+    {
+      "title": "Console and connectivity",
+      "fields": [
+        [
+          "display",
+          "Monitor / displayed metrics"
+        ],
+        [
+          "screenType",
+          "Screen type"
+        ],
+        [
+          "screenSize",
+          "Screen size"
+        ],
+        [
+          "battery",
+          "Monitor battery"
+        ],
+        [
+          "bluetooth",
+          "Bluetooth"
+        ],
+        [
+          "heartRate",
+          "Pulse sensors"
+        ],
+        [
+          "wirelessHeartRate",
+          "Wireless heart-rate support"
+        ],
+        [
+          "deviceHolder",
+          "Device holder"
+        ],
+        [
+          "bottleHolder",
+          "Bottle holder"
+        ],
+        [
+          "programs",
+          "Programs"
+        ],
+        [
+          "speakers",
+          "Speakers / audio"
+        ],
+        [
+          "usb",
+          "USB / device charging"
+        ],
+        [
+          "electrical",
+          "Electrical requirements"
+        ],
+        [
+          "watts",
+          "Power (W)"
+        ],
+        [
+          "amps",
+          "Current (A)"
+        ],
+        [
+          "powerCord",
+          "Power-cord length"
+        ]
+      ]
+    },
+    {
+      "title": "Features",
+      "fields": [
+        [
+          "features",
+          "Features / functions"
+        ]
+      ]
+    }
+  ],
+  "Racks": [
+    {
+      "title": "Product and dimensions",
+      "fields": [
+        [
+          "brand",
+          "Brand"
+        ],
+        [
+          "materials",
+          "Materials"
+        ],
+        [
+          "color",
+          "Color"
+        ],
+        [
+          "productWeight",
+          "Product weight"
+        ],
+        [
+          "maxUserWeightLb",
+          "Maximum user weight (lb)"
+        ],
+        [
+          "maxUserHeight",
+          "Maximum user height"
+        ],
+        [
+          "keyDimensions",
+          "Assembled / product dimensions"
+        ],
+        [
+          "foldedDimensions",
+          "Folded dimensions"
+        ],
+        [
+          "footprint",
+          "Floor footprint"
+        ],
+        [
+          "shippingWeight",
+          "Shipping weight"
+        ],
+        [
+          "shippingDimensions",
+          "Shipping dimensions"
+        ],
+        [
+          "upc",
+          "UPC"
+        ],
+        [
+          "latex",
+          "Latex / rubber information"
+        ]
+      ]
+    },
+    {
+      "title": "Performance and adjustments",
+      "fields": [
+        [
+          "capacityConditions",
+          "Capacity conditions"
+        ],
+        [
+          "frameCapacity",
+          "Frame / equipment capacity"
+        ],
+        [
+          "compatibility",
+          "Compatible racks / equipment"
+        ],
+        [
+          "adjustments",
+          "Adjustment positions"
+        ],
+        [
+          "accessories",
+          "Included accessories"
+        ],
+        [
+          "foldable",
+          "Foldable"
+        ]
+      ]
+    },
+    {
+      "title": "Console and connectivity",
+      "fields": [
+        [
+          "deviceHolder",
+          "Device holder"
+        ],
+        [
+          "battery",
+          "Battery"
+        ],
+        [
+          "bluetooth",
+          "Bluetooth"
+        ]
+      ]
+    },
+    {
+      "title": "Features",
+      "fields": [
+        [
+          "features",
+          "Features / functions"
+        ]
+      ]
+    }
+  ],
+  "Weight Benches": [
+    {
+      "title": "Product and dimensions",
+      "fields": [
+        [
+          "brand",
+          "Brand"
+        ],
+        [
+          "materials",
+          "Materials"
+        ],
+        [
+          "color",
+          "Color"
+        ],
+        [
+          "productWeight",
+          "Product weight"
+        ],
+        [
+          "maxUserWeightLb",
+          "Maximum user weight (lb)"
+        ],
+        [
+          "maxUserHeight",
+          "Maximum user height"
+        ],
+        [
+          "keyDimensions",
+          "Assembled / product dimensions"
+        ],
+        [
+          "foldedDimensions",
+          "Folded dimensions"
+        ],
+        [
+          "footprint",
+          "Floor footprint"
+        ],
+        [
+          "shippingWeight",
+          "Shipping weight"
+        ],
+        [
+          "shippingDimensions",
+          "Shipping dimensions"
+        ],
+        [
+          "upc",
+          "UPC"
+        ],
+        [
+          "latex",
+          "Latex / rubber information"
+        ]
+      ]
+    },
+    {
+      "title": "Performance and adjustments",
+      "fields": [
+        [
+          "capacityConditions",
+          "Capacity conditions"
+        ],
+        [
+          "inclineStrideMotion",
+          "Adjustment positions"
+        ],
+        [
+          "seatDimensions",
+          "Seat / pad dimensions"
+        ],
+        [
+          "foldable",
+          "Foldable"
+        ],
+        [
+          "accessories",
+          "Included accessories"
+        ]
+      ]
+    },
+    {
+      "title": "Console and connectivity",
+      "fields": [
+        [
+          "deviceHolder",
+          "Device holder"
+        ],
+        [
+          "battery",
+          "Battery"
+        ],
+        [
+          "bluetooth",
+          "Bluetooth"
+        ]
+      ]
+    },
+    {
+      "title": "Features",
+      "fields": [
+        [
+          "features",
+          "Features / functions"
+        ]
+      ]
+    }
+  ],
+  "Weights": [
+    {
+      "title": "Product and dimensions",
+      "fields": [
+        [
+          "brand",
+          "Brand"
+        ],
+        [
+          "materials",
+          "Materials"
+        ],
+        [
+          "color",
+          "Color"
+        ],
+        [
+          "productWeight",
+          "Product weight"
+        ],
+        [
+          "maxUserWeightLb",
+          "Maximum user weight (lb)"
+        ],
+        [
+          "maxUserHeight",
+          "Maximum user height"
+        ],
+        [
+          "keyDimensions",
+          "Assembled / product dimensions"
+        ],
+        [
+          "foldedDimensions",
+          "Folded dimensions"
+        ],
+        [
+          "footprint",
+          "Floor footprint"
+        ],
+        [
+          "shippingWeight",
+          "Shipping weight"
+        ],
+        [
+          "shippingDimensions",
+          "Shipping dimensions"
+        ],
+        [
+          "upc",
+          "UPC"
+        ],
+        [
+          "latex",
+          "Latex / rubber information"
+        ]
+      ]
+    },
+    {
+      "title": "Performance and adjustments",
+      "fields": [
+        [
+          "weightOptions",
+          "Weight options / adjustment"
+        ],
+        [
+          "grip",
+          "Grip / handle"
+        ],
+        [
+          "dimensionsEach",
+          "Dimensions per piece"
+        ],
+        [
+          "pieces",
+          "Pieces per set"
+        ],
+        [
+          "accessories",
+          "Included accessories"
+        ]
+      ]
+    },
+    {
+      "title": "Console and connectivity",
+      "fields": [
+        [
+          "deviceHolder",
+          "Device holder"
+        ],
+        [
+          "battery",
+          "Battery"
+        ],
+        [
+          "bluetooth",
+          "Bluetooth"
+        ]
+      ]
+    },
+    {
+      "title": "Features",
+      "fields": [
+        [
+          "features",
+          "Features / functions"
+        ]
+      ]
+    }
+  ],
+  "Essentials": [
+    {
+      "title": "Product and dimensions",
+      "fields": [
+        [
+          "brand",
+          "Brand"
+        ],
+        [
+          "materials",
+          "Materials"
+        ],
+        [
+          "color",
+          "Color"
+        ],
+        [
+          "productWeight",
+          "Product weight"
+        ],
+        [
+          "maxUserWeightLb",
+          "Maximum user weight (lb)"
+        ],
+        [
+          "maxUserHeight",
+          "Maximum user height"
+        ],
+        [
+          "keyDimensions",
+          "Assembled / product dimensions"
+        ],
+        [
+          "foldedDimensions",
+          "Folded dimensions"
+        ],
+        [
+          "footprint",
+          "Floor footprint"
+        ],
+        [
+          "shippingWeight",
+          "Shipping weight"
+        ],
+        [
+          "shippingDimensions",
+          "Shipping dimensions"
+        ],
+        [
+          "upc",
+          "UPC"
+        ],
+        [
+          "latex",
+          "Latex / rubber information"
+        ]
+      ]
+    },
+    {
+      "title": "Performance and adjustments",
+      "fields": [
+        [
+          "capacityConditions",
+          "Capacity conditions"
+        ],
+        [
+          "compatibility",
+          "Compatibility / fit"
+        ],
+        [
+          "adjustments",
+          "Adjustments"
+        ],
+        [
+          "accessories",
+          "Included accessories"
+        ],
+        [
+          "foldable",
+          "Foldable"
+        ],
+        [
+          "battery",
+          "Battery"
+        ]
+      ]
+    },
+    {
+      "title": "Console and connectivity",
+      "fields": [
+        [
+          "deviceHolder",
+          "Device holder"
+        ],
+        [
+          "battery",
+          "Battery"
+        ],
+        [
+          "bluetooth",
+          "Bluetooth"
+        ]
+      ]
+    },
+    {
+      "title": "Features",
+      "fields": [
+        [
+          "features",
+          "Features / functions"
+        ]
+      ]
+    }
+  ]
+}

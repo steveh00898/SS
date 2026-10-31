@@ -1,0 +1,87 @@
+[
+  {
+    "id": "off-sunny-sf-b122061",
+    "file": "Final Spec Sheet for SF-B122061 09262023.xlsx",
+    "sha256": "2618ca8c0b23cbcb990e9db53d8e1063c903916c06b7a786392d80f0b62adb52",
+    "primarySheet": "xl/worksheets/sheet1.xml",
+    "decisions": [
+      "Source shipping weight 31.5 kg / 67.2 lb has inconsistent units. Both source values are retained."
+    ]
+  },
+  {
+    "id": "off-sunny-sf-t7515",
+    "file": "Final spec sheet for SF-T7515 new version 04142025.xls",
+    "sha256": "a003a83923f53e5e81229642e696e9fd8d4813dd511d2913f3451dc9a5d2eea8",
+    "primarySheet": "Specs",
+    "decisions": [
+      "Running space and physical belt length differ; comparison workout length uses 48.8 in. The source level list begins at 2.5% and ends at 12%."
+    ]
+  },
+  {
+    "id": "off-sunny-sf-t7515smart",
+    "file": "Final spec sheet for SF-T7515 SMART new version 04142025.xls",
+    "sha256": "4646ac172dfd8292bafeac80ed1d7cd48925b66720dbb0dc94f2d18eae9f1330",
+    "primarySheet": "Specs",
+    "decisions": [
+      "Running space and physical belt length differ; comparison workout length uses 48.8 in. The source level list begins at 2.5% and ends at 12%."
+    ]
+  },
+  {
+    "id": "off-sunny-sf-xfa008",
+    "file": "Final SPEC SHEET for SF-XFA008 - 08212023.xlsx",
+    "sha256": "18c3801ae5754f9146bba139eac0c7d47630604c4c139571a4437a10f5a4cfda",
+    "primarySheet": "xl/worksheets/sheet1.xml",
+    "decisions": [
+      "Source carton metric and inch measurements do not agree. Both are retained as written. The pictured support rack is not the attachment itself."
+    ]
+  },
+  {
+    "id": "off-sunny-sf-a023047",
+    "file": "Final Spec Sheet-SF-A023047  03.28.2025.xlsx",
+    "sha256": "852edd7a8df761ff80afa1bb3e6c851b751d8c1c2ed6c50056d35d0898bd63a9",
+    "primarySheet": "xl/worksheets/sheet1.xml",
+    "decisions": []
+  },
+  {
+    "id": "off-sunny-sf-xf924016",
+    "file": "Final Spec Sheet-SF-XF924016-240614.xlsx",
+    "sha256": "0a14b06762c36b948253e5095f0ed420a8abbc92eaa8ebfba83b608e79751096",
+    "primarySheet": "xl/worksheets/sheet1.xml",
+    "decisions": []
+  },
+  {
+    "id": "off-sunny-no-082",
+    "file": "Holder Template.xlsx",
+    "sha256": "079406be4ca98d8fb80ffb896ddcae2164dc90665b7be51fb3e8c3739c36f14f",
+    "primarySheet": "xl/worksheets/sheet1.xml",
+    "decisions": []
+  },
+  {
+    "id": "off-sunny-no-076",
+    "file": "No. 076 Specification.xlsx",
+    "sha256": "47470daad2f57682a088300c9bf3c10d439ca16dd75bfb90527e37cc81d951ac",
+    "primarySheet": "xl/worksheets/sheet1.xml",
+    "decisions": [
+      "Dimension units are not labeled in the source sheet; no unit has been inferred."
+    ]
+  },
+  {
+    "id": "off-sunny-no-077gr",
+    "file": "NO. 077GR final spec sheet 11.22.2024.xlsx",
+    "sha256": "78602de4f10875739d4664859df1637563835c3eec179da3f8f832ebf424cae6",
+    "primarySheet": "xl/worksheets/sheet1.xml",
+    "decisions": [
+      "Model number is NO. 077GR, although the source product name includes SMART. Kept separate from NO. 077SMART and NO. 077S.",
+      "The resistance-level field says N/A; the features explicitly list three adjustable exercise bands."
+    ]
+  },
+  {
+    "id": "off-sunny-no-084",
+    "file": "No. 084 Specification.pdf",
+    "sha256": "22d1a94ffc869c598371e85368dc18372412f820858f9efe97fd2a9b7f29c64a",
+    "primarySheet": "PDF",
+    "decisions": [
+      "The sheet does not specify a maximum user/load capacity. No capacity inferred from the product name or other versions."
+    ]
+  }
+]

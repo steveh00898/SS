@@ -27,7 +27,41 @@
     "createdAt": "2026-10-30T00:00:00Z",
     "updatedAt": "2026-10-30T00:00:00Z",
     "imageAvailability": "official-website",
-    "photoMasks": null
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "PVC",
+        "color": "Brown Box",
+        "productWeight": "5.1 lbs",
+        "shippingWeight": "5.7 lbs",
+        "keyDimensions": "90.6*39.3*0.16 inch",
+        "shippingDimensions": "41*11*11 inch",
+        "accessories": "Not applicable"
+      },
+      "sources": [
+        "074L 0.4mm spec sheet 09262019.xlsx"
+      ],
+      "evidence": {
+        "brand": "074L 0.4mm spec sheet 09262019.xlsx / xl/worksheets/sheet1.xml / row 1",
+        "materials": "074L 0.4mm spec sheet 09262019.xlsx / xl/worksheets/sheet1.xml / row 18",
+        "color": "074L 0.4mm spec sheet 09262019.xlsx / xl/worksheets/sheet1.xml / row 11",
+        "productWeight": "074L 0.4mm spec sheet 09262019.xlsx / xl/worksheets/sheet1.xml / row 4",
+        "shippingWeight": "074L 0.4mm spec sheet 09262019.xlsx / xl/worksheets/sheet1.xml / row 5",
+        "keyDimensions": "074L 0.4mm spec sheet 09262019.xlsx / xl/worksheets/sheet1.xml / row 12",
+        "shippingDimensions": "074L 0.4mm spec sheet 09262019.xlsx / xl/worksheets/sheet1.xml / row 7",
+        "accessories": "074L 0.4mm spec sheet 09262019.xlsx / xl/worksheets/sheet1.xml / row 19"
+      },
+      "notes": []
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-10-30"
+    }
   },
   {
     "id": "off-sunny-no-083",
@@ -57,7 +91,43 @@
     "createdAt": "2026-10-30T00:00:00Z",
     "updatedAt": "2026-10-30T00:00:00Z",
     "imageAvailability": "official-website",
-    "photoMasks": null
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "PVC",
+        "color": "Brown Box",
+        "productWeight": "1.7 lbs",
+        "shippingWeight": "2.8 lbs",
+        "keyDimensions": "51.2*23.6*0.16 inch",
+        "shippingDimensions": "25*15*15 inch",
+        "accessories": "Not applicable"
+      },
+      "sources": [
+        "083 spec sheet 09262019.xlsx"
+      ],
+      "evidence": {
+        "brand": "083 spec sheet 09262019.xlsx / xl/worksheets/sheet1.xml / row 1",
+        "materials": "083 spec sheet 09262019.xlsx / xl/worksheets/sheet1.xml / row 18",
+        "color": "083 spec sheet 09262019.xlsx / xl/worksheets/sheet1.xml / row 11",
+        "productWeight": "083 spec sheet 09262019.xlsx / xl/worksheets/sheet1.xml / row 4",
+        "shippingWeight": "083 spec sheet 09262019.xlsx / xl/worksheets/sheet1.xml / row 5",
+        "keyDimensions": "083 spec sheet 09262019.xlsx / xl/worksheets/sheet1.xml / row 12",
+        "shippingDimensions": "083 spec sheet 09262019.xlsx / xl/worksheets/sheet1.xml / row 7",
+        "accessories": "083 spec sheet 09262019.xlsx / xl/worksheets/sheet1.xml / row 19"
+      },
+      "notes": [
+        "The source name says 4 ft × 2 ft; the dimension field says 51.2 × 23.6 × 0.16 in. Both are retained without forcing agreement."
+      ]
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-10-30"
+    }
   },
   {
     "id": "off-sunny-7150",
@@ -104,6 +174,42 @@
           0.17
         ]
       ]
+    },
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "productWeight": "132.75 lb",
+        "shippingWeight": "144.4 lb",
+        "keyDimensions": "57L × 27.2W × 49.2H in",
+        "shippingDimensions": "44L × 11.2W × 37H in",
+        "driveResistanceSystem": "Belt / magnetic brake",
+        "resistanceType": "Magnetic brake",
+        "speedResistanceLevels": "Multi control",
+        "flywheelWeight": "33 lb",
+        "inseam": "Source gives user height: 61–76.77 in (not an inseam range)",
+        "seatAdjustment": "Forward / back / up / down",
+        "handlebarAdjustment": "Forward / back / up / down",
+        "pedalType": "SPD with straps",
+        "transportWheels": "In front stabilizer tube",
+        "bottleHolder": "Yes",
+        "crankType": "3 pieces",
+        "heartRate": "No",
+        "display": "No meter",
+        "battery": "No meter battery"
+      },
+      "sources": [
+        "7150 Specification.docx"
+      ],
+      "evidence": {},
+      "notes": []
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/7150_manual.pdf?v=1680889641",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/7150",
+      "assemblyPage": null,
+      "checkedAt": "2026-10-30"
     }
   },
   {
@@ -136,7 +242,55 @@
     "createdAt": "2026-10-30T00:00:00Z",
     "updatedAt": "2026-10-30T00:00:00Z",
     "imageAvailability": "official-website",
-    "photoMasks": null
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "productWeight": "95LBS",
+        "shippingWeight": "108LBS",
+        "keyDimensions": "60*30.3*40INCHES",
+        "shippingDimensions": "65.2*31.9*6.2INCHES",
+        "battery": "Not applicable",
+        "deviceHolder": "Not applicable",
+        "motorType": "DC",
+        "speedRange": "0.6–8 mph",
+        "inclineRange": "Not applicable",
+        "inclineDegrees": "Not applicable",
+        "runningSurface": "17.7W × 49.2L in",
+        "electrical": "110 V",
+        "speakers": "MP3 JACK",
+        "usb": "Neither",
+        "peakHp": "2.5 HP",
+        "continuousHp": "1.25 HP"
+      },
+      "sources": [
+        "8730  specification sheet.xls"
+      ],
+      "evidence": {
+        "productWeight": "8730  specification sheet.xls / Sheet1 / row 3",
+        "shippingWeight": "8730  specification sheet.xls / Sheet1 / row 5",
+        "keyDimensions": "8730  specification sheet.xls / Sheet1 / row 4",
+        "shippingDimensions": "8730  specification sheet.xls / Sheet1 / row 6",
+        "battery": "8730  specification sheet.xls / Sheet1 / row 7",
+        "deviceHolder": "8730  specification sheet.xls / Sheet1 / row 18",
+        "motorType": "8730  specification sheet.xls / Sheet1 / row 23",
+        "speedRange": "8730  specification sheet.xls / Sheet1 / row 9",
+        "inclineRange": "8730  specification sheet.xls / Sheet1 / row 12",
+        "inclineDegrees": "8730  specification sheet.xls / Sheet1 / row 13",
+        "runningSurface": "8730  specification sheet.xls / Sheet1 / row 14",
+        "electrical": "8730  specification sheet.xls / Sheet1 / row 25",
+        "speakers": "8730  specification sheet.xls / Sheet1 / row 35",
+        "usb": "8730  specification sheet.xls / Sheet1 / row 36"
+      },
+      "notes": []
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/8730_manual.pdf?v=1741375295",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/8730",
+      "assemblyPage": null,
+      "checkedAt": "2026-10-30"
+    }
   },
   {
     "id": "off-sunny-8730g",
@@ -168,7 +322,55 @@
     "createdAt": "2026-10-30T00:00:00Z",
     "updatedAt": "2026-10-30T00:00:00Z",
     "imageAvailability": "official-website",
-    "photoMasks": null
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "productWeight": "95LBS",
+        "shippingWeight": "108LBS",
+        "keyDimensions": "60*30.3*40INCHES",
+        "shippingDimensions": "65.2*31.9*6.2INCHES",
+        "battery": "Not applicable",
+        "deviceHolder": "Not applicable",
+        "motorType": "DC",
+        "speedRange": "0.6–8 mph",
+        "inclineRange": "Not applicable",
+        "inclineDegrees": "Not applicable",
+        "runningSurface": "17.7W × 49.2L in",
+        "electrical": "110 V",
+        "speakers": "MP3 JACK",
+        "usb": "Neither",
+        "peakHp": "2.5 HP",
+        "continuousHp": "1.25 HP"
+      },
+      "sources": [
+        "8730G specification sheet.xls"
+      ],
+      "evidence": {
+        "productWeight": "8730G specification sheet.xls / Sheet1 / row 3",
+        "shippingWeight": "8730G specification sheet.xls / Sheet1 / row 5",
+        "keyDimensions": "8730G specification sheet.xls / Sheet1 / row 4",
+        "shippingDimensions": "8730G specification sheet.xls / Sheet1 / row 6",
+        "battery": "8730G specification sheet.xls / Sheet1 / row 7",
+        "deviceHolder": "8730G specification sheet.xls / Sheet1 / row 18",
+        "motorType": "8730G specification sheet.xls / Sheet1 / row 23",
+        "speedRange": "8730G specification sheet.xls / Sheet1 / row 9",
+        "inclineRange": "8730G specification sheet.xls / Sheet1 / row 12",
+        "inclineDegrees": "8730G specification sheet.xls / Sheet1 / row 13",
+        "runningSurface": "8730G specification sheet.xls / Sheet1 / row 14",
+        "electrical": "8730G specification sheet.xls / Sheet1 / row 25",
+        "speakers": "8730G specification sheet.xls / Sheet1 / row 35",
+        "usb": "8730G specification sheet.xls / Sheet1 / row 36"
+      },
+      "notes": []
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/8730G_manual_V1.6_03102025.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/8730g",
+      "assemblyPage": null,
+      "checkedAt": "2026-10-30"
+    }
   },
   {
     "id": "off-sunny-no-025",
@@ -198,7 +400,33 @@
     "createdAt": "2026-10-30T00:00:00Z",
     "updatedAt": "2026-10-30T00:00:00Z",
     "imageAvailability": "official-website",
-    "photoMasks": null
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny",
+        "productWeight": "2.97LBS",
+        "shippingWeight": "3.1LBS",
+        "keyDimensions": "Lenth:24.6Inches"
+      },
+      "sources": [
+        "Accessory Product Spec No. 025.xlsx"
+      ],
+      "evidence": {
+        "brand": "Accessory Product Spec No. 025.xlsx / xl/worksheets/sheet1.xml / row 1",
+        "productWeight": "Accessory Product Spec No. 025.xlsx / xl/worksheets/sheet1.xml / row 4",
+        "shippingWeight": "Accessory Product Spec No. 025.xlsx / xl/worksheets/sheet1.xml / row 5",
+        "keyDimensions": "Accessory Product Spec No. 025.xlsx / xl/worksheets/sheet1.xml / row 7"
+      },
+      "notes": []
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/NO.025_MANUAL.pdf",
+      "assemblyUrl": "https://www.youtube.com/watch?v=dgnFV2bv0n4",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-025",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-025",
+      "checkedAt": "2026-10-30"
+    }
   },
   {
     "id": "off-sunny-sf-b2715",
@@ -228,7 +456,59 @@
     "createdAt": "2026-10-30T00:00:00Z",
     "updatedAt": "2026-10-30T00:00:00Z",
     "imageAvailability": "official-website",
-    "photoMasks": null
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "productWeight": "61.38 lb",
+        "shippingWeight": "68.23 lb",
+        "keyDimensions": "40.55*20.47*51.57",
+        "shippingDimensions": "38.58*8.66*25.98",
+        "driveResistanceSystem": "Wind Resistance",
+        "resistanceType": "Wind Resistance",
+        "flywheelWeight": "No",
+        "inseam": "21.26; 33.46",
+        "seatAdjustment": "Up/Down",
+        "handlebarAdjustment": "Up/Down",
+        "crankType": "1PC",
+        "battery": "2*AAA",
+        "display": "SPEED/DISTANCE/TIME/CALORIES/ODOMETER",
+        "deviceHolder": "Yes",
+        "foldable": "No",
+        "stride": "11 inches"
+      },
+      "sources": [
+        "B2715 Specification sheet.xls"
+      ],
+      "evidence": {
+        "brand": "B2715 Specification sheet.xls / Sheet1 / row 1",
+        "productWeight": "B2715 Specification sheet.xls / Sheet1 / row 4",
+        "shippingWeight": "B2715 Specification sheet.xls / Sheet1 / row 6",
+        "keyDimensions": "B2715 Specification sheet.xls / Sheet1 / row 5",
+        "shippingDimensions": "B2715 Specification sheet.xls / Sheet1 / row 7",
+        "driveResistanceSystem": "B2715 Specification sheet.xls / Sheet1 / row 16",
+        "resistanceType": "B2715 Specification sheet.xls / Sheet1 / row 16",
+        "flywheelWeight": "B2715 Specification sheet.xls / Sheet1 / row 13",
+        "inseam": "B2715 Specification sheet.xls / Sheet1 / row 17",
+        "seatAdjustment": "B2715 Specification sheet.xls / Sheet1 / row 20",
+        "handlebarAdjustment": "B2715 Specification sheet.xls / Sheet1 / row 21",
+        "crankType": "B2715 Specification sheet.xls / Sheet1 / row 26",
+        "battery": "B2715 Specification sheet.xls / Sheet1 / row 12",
+        "display": "B2715 Specification sheet.xls / Sheet1 / row 8",
+        "deviceHolder": "B2715 Specification sheet.xls / Sheet1 / row 10",
+        "foldable": "B2715 Specification sheet.xls / Sheet1 / row 28",
+        "stride": "B2715 Specification sheet.xls / Sheet1 / row 29"
+      },
+      "notes": []
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-B2715_EN_SP_20250610_V4.3.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b2715",
+      "assemblyPage": null,
+      "checkedAt": "2026-10-30"
+    }
   },
   {
     "id": "off-sunny-cb110",
@@ -258,7 +538,69 @@
     "createdAt": "2026-10-30T00:00:00Z",
     "updatedAt": "2026-10-30T00:00:00Z",
     "imageAvailability": "official-website",
-    "photoMasks": null
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "plastic+chip",
+        "color": "Black",
+        "productWeight": "0.03KGS/0.02LBS",
+        "shippingWeight": "0.042KGS/0.1LBS",
+        "keyDimensions": "40*42*11mm/1.57*1.65*0.43inch",
+        "foldedDimensions": "Not applicable",
+        "shippingDimensions": "25.5x76x90mm/1*3*3.4inch",
+        "footprint": "Not applicable",
+        "resistanceType": "Not applicable",
+        "speedResistanceLevels": "Not applicable",
+        "flywheelWeight": "Not applicable",
+        "display": "Not applicable",
+        "screenType": "Not applicable",
+        "screenSize": "Not applicable",
+        "foldable": "FLIP",
+        "powerCord": "Not applicable",
+        "programs": "Not applicable",
+        "seatDimensions": "Not applicable",
+        "features": "Easier to install, battery cover easier to open Extra cable ties 2 light indicator that separate between indoor and outdoor bike",
+        "latex": "Not applicable"
+      },
+      "sources": [
+        "CB110 SPEC SHEET 2023-3-16.xlsx"
+      ],
+      "evidence": {
+        "brand": "CB110 SPEC SHEET 2023-3-16.xlsx / xl/worksheets/sheet1.xml / row 3",
+        "materials": "CB110 SPEC SHEET 2023-3-16.xlsx / xl/worksheets/sheet1.xml / row 7",
+        "color": "CB110 SPEC SHEET 2023-3-16.xlsx / xl/worksheets/sheet1.xml / row 6",
+        "productWeight": "CB110 SPEC SHEET 2023-3-16.xlsx / xl/worksheets/sheet1.xml / row 10",
+        "shippingWeight": "CB110 SPEC SHEET 2023-3-16.xlsx / xl/worksheets/sheet1.xml / row 9",
+        "keyDimensions": "CB110 SPEC SHEET 2023-3-16.xlsx / xl/worksheets/sheet1.xml / row 12",
+        "foldedDimensions": "CB110 SPEC SHEET 2023-3-16.xlsx / xl/worksheets/sheet1.xml / row 13",
+        "shippingDimensions": "CB110 SPEC SHEET 2023-3-16.xlsx / xl/worksheets/sheet1.xml / row 14",
+        "footprint": "CB110 SPEC SHEET 2023-3-16.xlsx / xl/worksheets/sheet1.xml / row 16",
+        "resistanceType": "CB110 SPEC SHEET 2023-3-16.xlsx / xl/worksheets/sheet1.xml / row 20",
+        "speedResistanceLevels": "CB110 SPEC SHEET 2023-3-16.xlsx / xl/worksheets/sheet1.xml / row 21",
+        "flywheelWeight": "CB110 SPEC SHEET 2023-3-16.xlsx / xl/worksheets/sheet1.xml / row 11",
+        "display": "CB110 SPEC SHEET 2023-3-16.xlsx / xl/worksheets/sheet1.xml / row 40",
+        "screenType": "CB110 SPEC SHEET 2023-3-16.xlsx / xl/worksheets/sheet1.xml / row 18",
+        "screenSize": "CB110 SPEC SHEET 2023-3-16.xlsx / xl/worksheets/sheet1.xml / row 17",
+        "foldable": "CB110 SPEC SHEET 2023-3-16.xlsx / xl/worksheets/sheet1.xml / row 91",
+        "powerCord": "CB110 SPEC SHEET 2023-3-16.xlsx / xl/worksheets/sheet1.xml / row 39",
+        "programs": "CB110 SPEC SHEET 2023-3-16.xlsx / xl/worksheets/sheet1.xml / row 22",
+        "seatDimensions": "CB110 SPEC SHEET 2023-3-16.xlsx / xl/worksheets/sheet1.xml / row 15",
+        "features": "CB110 SPEC SHEET 2023-3-16.xlsx / xl/worksheets/sheet1.xml / row 42",
+        "latex": "CB110 SPEC SHEET 2023-3-16.xlsx / xl/worksheets/sheet1.xml / row 8"
+      },
+      "notes": [
+        "Source net weight 0.03 kg / 0.02 lb is inconsistent; preserved here as source text, not used for comparison."
+      ]
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/CB110_Manual_V2.2--Pages.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/cb110",
+      "assemblyPage": null,
+      "checkedAt": "2026-10-30"
+    }
   },
   {
     "id": "off-sunny-sf-e3872",
@@ -290,7 +632,57 @@
     "createdAt": "2026-10-30T00:00:00Z",
     "updatedAt": "2026-10-30T00:00:00Z",
     "imageAvailability": "official-website",
-    "photoMasks": null
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "productWeight": "24.2LBS",
+        "shippingWeight": "31.24LBS",
+        "keyDimensions": "22.83*18.31*11.02 Inches",
+        "shippingDimensions": "25*20.3*12.4 INCHES",
+        "driveResistanceSystem": "Magnetic",
+        "resistanceType": "Magnetic",
+        "speedResistanceLevels": "8",
+        "flywheelWeight": "3.52LBS",
+        "seatAdjustment": "Not applicable",
+        "handlebarAdjustment": "Not applicable",
+        "crankType": "3 PCS",
+        "battery": "LR44",
+        "deviceHolder": "Not applicable",
+        "foldable": "Not applicable",
+        "stride": "7 INCHES; SLIDE RAIL LENGTH; 7 INCHES"
+      },
+      "sources": [
+        "E3872 specification sheet.xlsx"
+      ],
+      "evidence": {
+        "productWeight": "E3872 specification sheet.xlsx / xl/worksheets/sheet1.xml / row 3",
+        "shippingWeight": "E3872 specification sheet.xlsx / xl/worksheets/sheet1.xml / row 5",
+        "keyDimensions": "E3872 specification sheet.xlsx / xl/worksheets/sheet1.xml / row 4",
+        "shippingDimensions": "E3872 specification sheet.xlsx / xl/worksheets/sheet1.xml / row 6",
+        "driveResistanceSystem": "E3872 specification sheet.xlsx / xl/worksheets/sheet1.xml / row 13",
+        "resistanceType": "E3872 specification sheet.xlsx / xl/worksheets/sheet1.xml / row 13",
+        "speedResistanceLevels": "E3872 specification sheet.xlsx / xl/worksheets/sheet1.xml / row 15",
+        "flywheelWeight": "E3872 specification sheet.xlsx / xl/worksheets/sheet1.xml / row 11",
+        "seatAdjustment": "E3872 specification sheet.xlsx / xl/worksheets/sheet1.xml / row 18",
+        "handlebarAdjustment": "E3872 specification sheet.xlsx / xl/worksheets/sheet1.xml / row 19",
+        "crankType": "E3872 specification sheet.xlsx / xl/worksheets/sheet1.xml / row 24",
+        "battery": "E3872 specification sheet.xlsx / xl/worksheets/sheet1.xml / row 10",
+        "deviceHolder": "E3872 specification sheet.xlsx / xl/worksheets/sheet1.xml / row 8",
+        "foldable": "E3872 specification sheet.xlsx / xl/worksheets/sheet1.xml / row 26",
+        "stride": "E3872 specification sheet.xlsx / xl/worksheets/sheet1.xml / row 14"
+      },
+      "notes": [
+        "The source says no limit for user weight. No verified numeric capacity is provided; this is not a claim of unlimited safe capacity."
+      ]
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-E3872_EN_20251020_V6.1.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3872",
+      "assemblyPage": null,
+      "checkedAt": "2026-10-30"
+    }
   },
   {
     "id": "off-sunny-sf-e3875",
@@ -321,6 +713,1038 @@
     "createdAt": "2026-10-30T00:00:00Z",
     "updatedAt": "2026-10-30T00:00:00Z",
     "imageAvailability": "official-website",
-    "photoMasks": null
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "productWeight": "189.6LBS",
+        "shippingWeight": "211.6 lb",
+        "keyDimensions": "62.8X26.38X70.08",
+        "shippingDimensions": "60.24X21.85X28.74",
+        "driveResistanceSystem": "Electrical resistance",
+        "resistanceType": "Electrical resistance",
+        "speedResistanceLevels": "PROGRAMMABLE",
+        "battery": "NO",
+        "display": "Speed,RPM,Time,Dist.,ODO,Cal.,WATT,Heart Rate,Target HR,Program",
+        "deviceHolder": "YES",
+        "stride": "19.685 inch"
+      },
+      "sources": [
+        "E3875 ELLIPTICAL Specification.xlsx"
+      ],
+      "evidence": {
+        "productWeight": "E3875 ELLIPTICAL Specification.xlsx / xl/worksheets/sheet1.xml / row 3",
+        "shippingWeight": "E3875 ELLIPTICAL Specification.xlsx / xl/worksheets/sheet1.xml / row 5",
+        "keyDimensions": "E3875 ELLIPTICAL Specification.xlsx / xl/worksheets/sheet1.xml / row 4",
+        "shippingDimensions": "E3875 ELLIPTICAL Specification.xlsx / xl/worksheets/sheet1.xml / row 6",
+        "driveResistanceSystem": "E3875 ELLIPTICAL Specification.xlsx / xl/worksheets/sheet1.xml / row 9",
+        "resistanceType": "E3875 ELLIPTICAL Specification.xlsx / xl/worksheets/sheet1.xml / row 9",
+        "speedResistanceLevels": "E3875 ELLIPTICAL Specification.xlsx / xl/worksheets/sheet1.xml / row 8",
+        "battery": "E3875 ELLIPTICAL Specification.xlsx / xl/worksheets/sheet1.xml / row 12",
+        "display": "E3875 ELLIPTICAL Specification.xlsx / xl/worksheets/sheet1.xml / row 13",
+        "deviceHolder": "E3875 ELLIPTICAL Specification.xlsx / xl/worksheets/sheet1.xml / row 11",
+        "stride": "E3875 ELLIPTICAL Specification.xlsx / xl/worksheets/sheet1.xml / row 21"
+      },
+      "notes": []
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SUNNY_E3875_Manual_V2.2.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3875",
+      "assemblyPage": null,
+      "checkedAt": "2026-10-30"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b122061",
+    "sku": "SF-B122061",
+    "name": "Prime Magnetic Belt Drive Indoor Cycling Bike",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "sourceFile": "Final Spec Sheet for SF-B122061 09262023.xlsx",
+    "price": null,
+    "priceChecked": true,
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b122061-official-v1.jpg",
+    "imageAssetId": null,
+    "photoChecked": true,
+    "photoMasks": null,
+    "productSpecs": {
+      "driveResistanceSystem": "Magnetic / belt drive",
+      "speedResistanceLevels": "7 resistance levels",
+      "inclineStrideMotion": null,
+      "maxUserWeightLb": 265,
+      "keyDimensions": "45.9L × 27W × 47.2H in",
+      "workoutAreaWidthIn": null,
+      "workoutAreaLengthIn": null,
+      "resistanceLevels": 7,
+      "source": "V3 spec sheet: Final Spec Sheet for SF-B122061 09262023.xlsx",
+      "portfolioCategory": "Indoor Bikes",
+      "dimensionOrder": "L × W × H unless otherwise specified"
+    },
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "imageAvailability": "official-website",
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "steel，plastic",
+        "color": "Gray，black",
+        "productWeight": "26.6KG/58.7 LBS",
+        "shippingWeight": "31.5KG/67.2 LBS",
+        "keyDimensions": "116.5*68.5*120CM 45.9*27*47.2 INCH",
+        "foldedDimensions": "Not applicable",
+        "shippingDimensions": "108*22.5*55CM/ 42.5*8.9*21.7 INCH",
+        "footprint": "1165*685MM/45.9*27INCH",
+        "resistanceType": "Magnetic",
+        "speedResistanceLevels": "7 Levels",
+        "flywheelWeight": "3.6KGS/7.9LBS",
+        "inseam": "MIN:750MM/29.5INCH; MAX:940MM/37 INCH",
+        "qFactor": "200MM/7.87INCH",
+        "seatAdjustment": "UP, DOWN, FWD, BWD",
+        "handlebarAdjustment": "UP and DOWN only",
+        "seatHeight": "MIN:840MM/33.1INCH; MAX:1045MM/41.1INCH",
+        "seatToHandlebar": "MIN:420.03MM/16.5INCH; MAX:508.64MM/20INCH",
+        "pedalThread": "‘9/16INCH",
+        "display": "SPEED,TIME,DISTANCE,CALORISES,ODO,RPM,PULSE",
+        "screenType": "LCD",
+        "screenSize": "42*23mm (1.65*0.9INCH)",
+        "programs": "Not applicable",
+        "seatDimensions": "265*190*90MM/ 10.4*7.5*3.5INCH",
+        "features": "1) Different from traditional spinning bikes, this model uses a two-stage movement transmission system. 2)The resistance change is obvious which work out more silent and smooth, avoid shaking. 3)The bike has emergency lever brake ,the flywheel could be hold quicky and high sensitive.",
+        "latex": "Not applicable"
+      },
+      "sources": [
+        "Final Spec Sheet for SF-B122061 09262023.xlsx"
+      ],
+      "evidence": {
+        "brand": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 3",
+        "materials": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 7",
+        "color": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 6",
+        "productWeight": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 10",
+        "shippingWeight": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 9",
+        "keyDimensions": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 12",
+        "foldedDimensions": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 13",
+        "shippingDimensions": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 14",
+        "footprint": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 16",
+        "resistanceType": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 20",
+        "speedResistanceLevels": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 21",
+        "flywheelWeight": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 11",
+        "inseam": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 44",
+        "qFactor": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 45",
+        "seatAdjustment": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 47",
+        "handlebarAdjustment": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 48",
+        "seatHeight": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 52",
+        "seatToHandlebar": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 53",
+        "pedalThread": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 50",
+        "display": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 40",
+        "screenType": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 18",
+        "screenSize": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 17",
+        "programs": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 22",
+        "seatDimensions": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 15",
+        "features": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 42",
+        "latex": "Final Spec Sheet for SF-B122061 09262023.xlsx / xl/worksheets/sheet1.xml / row 8"
+      },
+      "notes": [
+        "Source shipping weight 31.5 kg / 67.2 lb has inconsistent units. Both source values are retained."
+      ]
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-B122061_USER_MANUAL_V1.0_07172023.pdf",
+      "assemblyUrl": "https://www.youtube.com/watch?v=ce-tAZHUOZ8",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b122061",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b122061",
+      "checkedAt": "2026-10-30"
+    },
+    "importBatch": "v3-batch-2"
+  },
+  {
+    "id": "off-sunny-sf-t7515",
+    "sku": "SF-T7515",
+    "name": "Smart Treadmill with Auto Incline",
+    "category": "Treadmills",
+    "catalogSource": "off-sunny-web",
+    "sourceFile": "Final spec sheet for SF-T7515 new version 04142025.xls",
+    "price": null,
+    "priceChecked": true,
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7515-official-v1.jpg",
+    "imageAssetId": null,
+    "photoChecked": true,
+    "photoMasks": {
+      "sku": [
+        [
+          0.23,
+          0.68,
+          0.25,
+          0.14
+        ]
+      ],
+      "name": [
+        [
+          0.23,
+          0.68,
+          0.25,
+          0.14
+        ]
+      ]
+    },
+    "productSpecs": {
+      "driveResistanceSystem": "Brushless; 1.75 HP peak / 1.0 HP continuous",
+      "speedResistanceLevels": "1–8 mph",
+      "inclineStrideMotion": "Auto incline; up to 12% (see individual source levels)",
+      "maxUserWeightLb": 300,
+      "keyDimensions": "64.2L × 28.3W × 52.8H in; folded 39.8L × 28.3W × 55.1H in",
+      "workoutAreaWidthIn": 16.4,
+      "workoutAreaLengthIn": 48.8,
+      "advertisedMotorHp": 1.75,
+      "maxSpeedMph": 8,
+      "source": "V3 spec sheet: Final spec sheet for SF-T7515 new version 04142025.xls",
+      "portfolioCategory": "Treadmills",
+      "dimensionOrder": "L × W × H unless otherwise specified"
+    },
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "imageAvailability": "official-website",
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "Plastic /steel",
+        "color": "Cool Grey 1C+Dark Grey+Silver",
+        "productWeight": "51.3 kgs/113 lbs",
+        "shippingWeight": "59.5 kgs/131 lbs",
+        "keyDimensions": "163*72*134 CM/ 64.2*28.3*52.8 INCHES",
+        "foldedDimensions": "101.2*72*140 CM/ 39.8*28.3*55.1 INCHES",
+        "shippingDimensions": "171*77.5*29.5 CM/ 67.3*30.5*11.6 INCHES",
+        "footprint": "1630*700 MM/64.2*27.6 INCHES",
+        "battery": "No",
+        "display": "program,speed,time,distance,calories,incline, STEPS, HEART RATE",
+        "screenType": "LCD",
+        "screenSize": "5\"(110*58mm）",
+        "deviceHolder": "Yes",
+        "heartRate": "Yes",
+        "wirelessHeartRate": "Yes",
+        "bluetooth": "Yes",
+        "foldable": "Yes",
+        "transportWheels": "Yes, Front",
+        "bottleHolder": "Yes",
+        "motorType": "brushless",
+        "continuousHp": "1.0HP",
+        "peakHp": "1.75HP",
+        "speedRange": "1-8 mph",
+        "inclineType": "Auto",
+        "inclineRange": "Up to 12%; source numeric fraction: 0.12",
+        "inclineLevels": "2.5%, 3%, 3.6%, 4.2%, 4.8%, 5.5%, 6.1%, 7.0%, 8.0%, 8.8%, 9.9%, 11.0%, 12.0%; need to list out the degree and % for each level",
+        "inclineDegrees": "1.45°-6.85°",
+        "runningSurface": "16.4W × 48.8L in (available running space)",
+        "beltDimensions": "16.4W × 50.8L in (physical belt)",
+        "softDrop": "yes",
+        "shockAbsorption": "YES",
+        "electrical": "100-120V/60Hz",
+        "watts": "875W",
+        "amps": "9.0A",
+        "powerCord": "186 CM/73.2 INCHES",
+        "programs": "12P+3 COUNTDOWN MODE+3 USER MODE+1 FAT",
+        "speakers": "No",
+        "usb": "No",
+        "features": "1, Soft LCD display 2, Authentic incline 3, Authentic speed 4, professional and standards bearing, more durable 5, Bluetooth with App function ,  Includes IPAD holder 6, Quick INCLINE Keys give you the ability to instantly program a specific incline level with the push of a button.",
+        "upc": "815749011152",
+        "latex": "rubber"
+      },
+      "sources": [
+        "Final spec sheet for SF-T7515 new version 04142025.xls"
+      ],
+      "evidence": {
+        "brand": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 7",
+        "materials": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 12",
+        "color": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 11",
+        "productWeight": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 16",
+        "shippingWeight": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 15",
+        "keyDimensions": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 17",
+        "foldedDimensions": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 18",
+        "shippingDimensions": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 19",
+        "footprint": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 20",
+        "battery": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 57",
+        "display": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 58",
+        "screenType": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 53",
+        "screenSize": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 54",
+        "deviceHolder": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 79",
+        "heartRate": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 69",
+        "wirelessHeartRate": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 70",
+        "bluetooth": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 60",
+        "foldable": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 25",
+        "transportWheels": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 29",
+        "bottleHolder": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 71",
+        "motorType": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 44",
+        "continuousHp": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 42",
+        "peakHp": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 43",
+        "speedRange": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 51",
+        "inclineType": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 46",
+        "inclineRange": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 47",
+        "inclineLevels": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 49",
+        "inclineDegrees": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 48",
+        "runningSurface": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 38",
+        "beltDimensions": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 39",
+        "softDrop": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 35",
+        "shockAbsorption": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 37",
+        "electrical": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 75",
+        "watts": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 76",
+        "amps": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 77",
+        "powerCord": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 74",
+        "programs": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 65",
+        "speakers": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 67",
+        "usb": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 68",
+        "features": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 84",
+        "upc": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 10",
+        "latex": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / row 13"
+      },
+      "notes": [
+        "Running space and physical belt length differ; comparison workout length uses 48.8 in. The source level list begins at 2.5% and ends at 12%."
+      ]
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-T7515_new_version_Manual_EN_ES_FR_20250320_V8.0.pdf",
+      "assemblyUrl": "https://www.youtube.com/watch?v=G4ve7quny78",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7515",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7515",
+      "checkedAt": "2026-10-30"
+    },
+    "importBatch": "v3-batch-2"
+  },
+  {
+    "id": "off-sunny-sf-t7515smart",
+    "sku": "SF-T7515SMART",
+    "name": "Premium Smart Treadmill with Auto Incline",
+    "category": "Treadmills",
+    "catalogSource": "off-sunny-web",
+    "sourceFile": "Final spec sheet for SF-T7515 SMART new version 04142025.xls",
+    "price": null,
+    "priceChecked": true,
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7515smart-official-v1.jpg",
+    "imageAssetId": null,
+    "photoChecked": true,
+    "photoMasks": {
+      "sku": [
+        [
+          0.23,
+          0.68,
+          0.25,
+          0.14
+        ]
+      ],
+      "name": [
+        [
+          0.23,
+          0.68,
+          0.25,
+          0.14
+        ]
+      ]
+    },
+    "productSpecs": {
+      "driveResistanceSystem": "Brushless; 1.75 HP peak / 1.0 HP continuous",
+      "speedResistanceLevels": "1–8 mph",
+      "inclineStrideMotion": "Auto incline; up to 12% (see individual source levels)",
+      "maxUserWeightLb": 300,
+      "keyDimensions": "64.2L × 28.3W × 52.8H in; folded 39.8L × 28.3W × 55.1H in",
+      "workoutAreaWidthIn": 16.4,
+      "workoutAreaLengthIn": 48.8,
+      "advertisedMotorHp": 1.75,
+      "maxSpeedMph": 8,
+      "source": "V3 spec sheet: Final spec sheet for SF-T7515 SMART new version 04142025.xls",
+      "portfolioCategory": "Treadmills",
+      "dimensionOrder": "L × W × H unless otherwise specified"
+    },
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "imageAvailability": "official-website",
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "Plastic /steel",
+        "color": "Dark Grey Black U+Black",
+        "productWeight": "51.3 kgs/113 lbs",
+        "shippingWeight": "59.5 kgs/131 lbs",
+        "keyDimensions": "163*72*134 CM/ 64.2*28.3*52.8 INCHES",
+        "foldedDimensions": "101.2*72*140 CM/ 39.8*28.3*55.1 INCHES",
+        "shippingDimensions": "171*77.5*29.5 CM/ 67.3*30.5*11.6 INCHES",
+        "footprint": "1630*700 MM/64.2*27.6 INCHES",
+        "battery": "No",
+        "display": "program,speed,time,distance,calories,incline, STEPS, HEART RATE",
+        "screenType": "LCD",
+        "screenSize": "5\"(110*58 MM/ 4.3*2.3 INCHES）",
+        "deviceHolder": "Yes",
+        "heartRate": "Yes",
+        "wirelessHeartRate": "Yes",
+        "bluetooth": "Yes",
+        "foldable": "Yes",
+        "transportWheels": "Yes, Front",
+        "bottleHolder": "Yes",
+        "motorType": "brushless",
+        "continuousHp": "1.0HP",
+        "peakHp": "1.75HP",
+        "speedRange": "1-8 mph",
+        "inclineType": "Auto",
+        "inclineRange": "Up to 12%; source numeric fraction: 0.12",
+        "inclineLevels": "2.5%, 3%, 3.6%, 4.2%, 4.8%, 5.5%, 6.1%, 7.0%, 8.0%, 8.8%, 9.9%, 11.0%, 12.0%; need to list out the degree and % for each level",
+        "inclineDegrees": "1.45°-6.85°",
+        "runningSurface": "16.4W × 48.8L in (available running space)",
+        "beltDimensions": "16.4W × 50.8L in (physical belt)",
+        "softDrop": "yes",
+        "shockAbsorption": "YES",
+        "electrical": "100-120V/60Hz",
+        "watts": "875W",
+        "amps": "9.0A",
+        "powerCord": "186 CM/73.2 INCHES",
+        "programs": "12P+3 COUNTDOWN MODE+3 USER MODE+1 FAT",
+        "speakers": "No",
+        "usb": "No",
+        "features": "1, Soft LCD display 2, Authentic incline 3, Authentic speed 4, professional and standards bearing, more durable 5, Bluetooth with App function ,  Includes IPAD holder 6, Quick INCLINE Keys give you the ability to instantly program a specific incline level with the push of a button.",
+        "upc": "815749017796",
+        "latex": "rubber"
+      },
+      "sources": [
+        "Final spec sheet for SF-T7515 SMART new version 04142025.xls"
+      ],
+      "evidence": {
+        "brand": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 7",
+        "materials": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 12",
+        "color": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 11",
+        "productWeight": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 16",
+        "shippingWeight": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 15",
+        "keyDimensions": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 17",
+        "foldedDimensions": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 18",
+        "shippingDimensions": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 19",
+        "footprint": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 20",
+        "battery": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 57",
+        "display": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 58",
+        "screenType": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 53",
+        "screenSize": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 54",
+        "deviceHolder": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 79",
+        "heartRate": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 69",
+        "wirelessHeartRate": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 70",
+        "bluetooth": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 60",
+        "foldable": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 25",
+        "transportWheels": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 29",
+        "bottleHolder": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 71",
+        "motorType": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 44",
+        "continuousHp": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 42",
+        "peakHp": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 43",
+        "speedRange": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 51",
+        "inclineType": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 46",
+        "inclineRange": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 47",
+        "inclineLevels": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 49",
+        "inclineDegrees": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 48",
+        "runningSurface": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 38",
+        "beltDimensions": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 39",
+        "softDrop": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 35",
+        "shockAbsorption": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 37",
+        "electrical": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 75",
+        "watts": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 76",
+        "amps": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 77",
+        "powerCord": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 74",
+        "programs": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 65",
+        "speakers": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 67",
+        "usb": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 68",
+        "features": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 84",
+        "upc": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 10",
+        "latex": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / row 13"
+      },
+      "notes": [
+        "Running space and physical belt length differ; comparison workout length uses 48.8 in. The source level list begins at 2.5% and ends at 12%."
+      ]
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-T7515SMART_English_Spanish_French_Manual_V3.2_03062025.pdf",
+      "assemblyUrl": "https://www.youtube.com/watch?v=e7mvn1-uxcQ",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7515smart",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7515smart",
+      "checkedAt": "2026-10-30"
+    },
+    "importBatch": "v3-batch-2"
+  },
+  {
+    "id": "off-sunny-sf-xfa008",
+    "sku": "SF-XFA008",
+    "name": "Adjustable Multi-Function Dip Station & Core Workout Attachment",
+    "category": "Racks",
+    "catalogSource": "off-sunny-web",
+    "sourceFile": "Final SPEC SHEET for SF-XFA008 - 08212023.xlsx",
+    "price": null,
+    "priceChecked": true,
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-xfa008-official-v1.jpg",
+    "imageAssetId": null,
+    "photoChecked": true,
+    "photoMasks": null,
+    "productSpecs": {
+      "driveResistanceSystem": null,
+      "speedResistanceLevels": null,
+      "inclineStrideMotion": null,
+      "maxUserWeightLb": 330,
+      "keyDimensions": "32.8L × 45.7W × 13.9H in",
+      "workoutAreaWidthIn": null,
+      "workoutAreaLengthIn": null,
+      "source": "V3 spec sheet: Final SPEC SHEET for SF-XFA008 - 08212023.xlsx",
+      "portfolioCategory": "Racks",
+      "dimensionOrder": "L × W × H unless otherwise specified"
+    },
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "imageAvailability": "official-website",
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "Steel, Leather, Cotton, Cloth, Plastic",
+        "color": "Black，Gray",
+        "productWeight": "12.1KG / 26.7LBS",
+        "shippingWeight": "14.2KG / 31.3LBS",
+        "keyDimensions": "832*1160*353MM 32.8*45.7*13.9 INCH",
+        "foldedDimensions": "Not applicable",
+        "shippingDimensions": "950*330*160MM 38.4*14.8*6.9 INCH",
+        "resistanceType": "Not applicable",
+        "speedResistanceLevels": "Not applicable",
+        "flywheelWeight": "Not applicable",
+        "screenType": "Not applicable",
+        "screenSize": "Not applicable",
+        "foldable": "FLIP",
+        "programs": "Not applicable",
+        "seatDimensions": "Not applicable",
+        "features": "1. It’s an attachment part for SUNNY’s strength training rack, easy to install and disassemble quickly 2. Suitable for SF-XF9925/9931/9933/920063/921024/921041/922059 and other strength training rack products. 3. The maximum weight of the user is up to 150 kg (330 LBS), suitable for a wide range of people. 4. The use height can be adjusted up and down on the frames according to needs, and the backrest can also be adjusted forward and backward, there are 5 adjustments holes which can adjust to the appropriate position according to personal needs. 5. Can do a variety of strength training exercises.",
+        "latex": "Not applicable",
+        "compatibility": "Sunny racks SF-XF9925, SF-XF9931, SF-XF9933, SF-XF920063, SF-XF921024, SF-XF921041 and SF-XF922059 (as listed in the source features).",
+        "adjustments": "Height adjustment on the support rack; backrest fore/aft adjustment with five holes."
+      },
+      "sources": [
+        "Final SPEC SHEET for SF-XFA008 - 08212023.xlsx"
+      ],
+      "evidence": {
+        "brand": "Final SPEC SHEET for SF-XFA008 - 08212023.xlsx / xl/worksheets/sheet1.xml / row 3",
+        "materials": "Final SPEC SHEET for SF-XFA008 - 08212023.xlsx / xl/worksheets/sheet1.xml / row 7",
+        "color": "Final SPEC SHEET for SF-XFA008 - 08212023.xlsx / xl/worksheets/sheet1.xml / row 6",
+        "productWeight": "Final SPEC SHEET for SF-XFA008 - 08212023.xlsx / xl/worksheets/sheet1.xml / row 10",
+        "shippingWeight": "Final SPEC SHEET for SF-XFA008 - 08212023.xlsx / xl/worksheets/sheet1.xml / row 9",
+        "keyDimensions": "Final SPEC SHEET for SF-XFA008 - 08212023.xlsx / xl/worksheets/sheet1.xml / row 12",
+        "foldedDimensions": "Final SPEC SHEET for SF-XFA008 - 08212023.xlsx / xl/worksheets/sheet1.xml / row 13",
+        "shippingDimensions": "Final SPEC SHEET for SF-XFA008 - 08212023.xlsx / xl/worksheets/sheet1.xml / row 14",
+        "resistanceType": "Final SPEC SHEET for SF-XFA008 - 08212023.xlsx / xl/worksheets/sheet1.xml / row 19",
+        "speedResistanceLevels": "Final SPEC SHEET for SF-XFA008 - 08212023.xlsx / xl/worksheets/sheet1.xml / row 20",
+        "flywheelWeight": "Final SPEC SHEET for SF-XFA008 - 08212023.xlsx / xl/worksheets/sheet1.xml / row 11",
+        "screenType": "Final SPEC SHEET for SF-XFA008 - 08212023.xlsx / xl/worksheets/sheet1.xml / row 17",
+        "screenSize": "Final SPEC SHEET for SF-XFA008 - 08212023.xlsx / xl/worksheets/sheet1.xml / row 16",
+        "foldable": "Final SPEC SHEET for SF-XFA008 - 08212023.xlsx / xl/worksheets/sheet1.xml / row 91",
+        "programs": "Final SPEC SHEET for SF-XFA008 - 08212023.xlsx / xl/worksheets/sheet1.xml / row 21",
+        "seatDimensions": "Final SPEC SHEET for SF-XFA008 - 08212023.xlsx / xl/worksheets/sheet1.xml / row 15",
+        "features": "Final SPEC SHEET for SF-XFA008 - 08212023.xlsx / xl/worksheets/sheet1.xml / row 41",
+        "latex": "Final SPEC SHEET for SF-XFA008 - 08212023.xlsx / xl/worksheets/sheet1.xml / row 8",
+        "compatibility": "Final SPEC SHEET for SF-XFA008 - 08212023.xlsx / xl/worksheets/sheet1.xml / row 41",
+        "adjustments": "Final SPEC SHEET for SF-XFA008 - 08212023.xlsx / xl/worksheets/sheet1.xml / row 41"
+      },
+      "notes": [
+        "Source carton metric and inch measurements do not agree. Both are retained as written. The pictured support rack is not the attachment itself."
+      ]
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-XFA008_English_Manual_Version1.0_20230714.pdf",
+      "assemblyUrl": "https://www.youtube.com/watch?v=RPdefTZQQeA",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-xfa008",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-xfa008",
+      "checkedAt": "2026-10-30"
+    },
+    "importBatch": "v3-batch-2"
+  },
+  {
+    "id": "off-sunny-sf-a023047",
+    "sku": "SF-A023047",
+    "name": "Portable Ab Crunch and Upper Body Assisted Trainer",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "sourceFile": "Final Spec Sheet-SF-A023047  03.28.2025.xlsx",
+    "price": null,
+    "priceChecked": true,
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-a023047-official-v1.jpg",
+    "imageAssetId": null,
+    "photoChecked": true,
+    "photoMasks": null,
+    "productSpecs": {
+      "driveResistanceSystem": null,
+      "speedResistanceLevels": null,
+      "inclineStrideMotion": null,
+      "maxUserWeightLb": 300,
+      "keyDimensions": "Position 1: 28.7L × 27.6W × 23.8H in; position 2: 30.9L × 27.6W × 20.9H in",
+      "workoutAreaWidthIn": null,
+      "workoutAreaLengthIn": null,
+      "source": "V3 spec sheet: Final Spec Sheet-SF-A023047  03.28.2025.xlsx",
+      "portfolioCategory": "Essentials",
+      "dimensionOrder": "L × W × H unless otherwise specified"
+    },
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "imageAvailability": "official-website",
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "Q235+Foam+leather",
+        "color": "Dark grey with shining silver, Black",
+        "productWeight": "3.4kg/7.6lbs",
+        "shippingWeight": "4.4kg/9.8lbs",
+        "keyDimensions": "Position 1: 730 × 700 × 605 mm / 28.7 × 27.6 × 23.8 in; position 2: 785 × 700 × 530 mm / 30.9 × 27.6 × 20.9 in",
+        "foldedDimensions": "Not applicable",
+        "shippingDimensions": "715*85*370mm 28.2*3.4*14.6 inches",
+        "footprint": "730*700mm 28.7x27.6inches",
+        "resistanceType": "Not applicable",
+        "speedResistanceLevels": "Not applicable",
+        "flywheelWeight": "Not applicable",
+        "display": "NO",
+        "screenType": "Not applicable",
+        "screenSize": "Not applicable",
+        "foldable": "FLIP",
+        "powerCord": "NO",
+        "programs": "Not applicable",
+        "features": "1.Easy assembly and portable design. 2.Ideal choice for home gym. 3.Comfortable headrest. 4.Multiple exercising modes. 5.Light weight & durable.",
+        "latex": "Not applicable",
+        "capacityConditions": "Regular use: 135 kg / 300 lb; dips and push-ups: 135 kg / 300 lb"
+      },
+      "sources": [
+        "Final Spec Sheet-SF-A023047  03.28.2025.xlsx"
+      ],
+      "evidence": {
+        "brand": "Final Spec Sheet-SF-A023047  03.28.2025.xlsx / xl/worksheets/sheet1.xml / row 3",
+        "materials": "Final Spec Sheet-SF-A023047  03.28.2025.xlsx / xl/worksheets/sheet1.xml / row 7",
+        "color": "Final Spec Sheet-SF-A023047  03.28.2025.xlsx / xl/worksheets/sheet1.xml / row 6",
+        "productWeight": "Final Spec Sheet-SF-A023047  03.28.2025.xlsx / xl/worksheets/sheet1.xml / row 11",
+        "shippingWeight": "Final Spec Sheet-SF-A023047  03.28.2025.xlsx / xl/worksheets/sheet1.xml / row 10",
+        "keyDimensions": "Final Spec Sheet-SF-A023047  03.28.2025.xlsx / xl/worksheets/sheet1.xml / row 13",
+        "foldedDimensions": "Final Spec Sheet-SF-A023047  03.28.2025.xlsx / xl/worksheets/sheet1.xml / row 14",
+        "shippingDimensions": "Final Spec Sheet-SF-A023047  03.28.2025.xlsx / xl/worksheets/sheet1.xml / row 15",
+        "footprint": "Final Spec Sheet-SF-A023047  03.28.2025.xlsx / xl/worksheets/sheet1.xml / row 17",
+        "resistanceType": "Final Spec Sheet-SF-A023047  03.28.2025.xlsx / xl/worksheets/sheet1.xml / row 23",
+        "speedResistanceLevels": "Final Spec Sheet-SF-A023047  03.28.2025.xlsx / xl/worksheets/sheet1.xml / row 24",
+        "flywheelWeight": "Final Spec Sheet-SF-A023047  03.28.2025.xlsx / xl/worksheets/sheet1.xml / row 12",
+        "display": "Final Spec Sheet-SF-A023047  03.28.2025.xlsx / xl/worksheets/sheet1.xml / row 44",
+        "screenType": "Final Spec Sheet-SF-A023047  03.28.2025.xlsx / xl/worksheets/sheet1.xml / row 19",
+        "screenSize": "Final Spec Sheet-SF-A023047  03.28.2025.xlsx / xl/worksheets/sheet1.xml / row 18",
+        "foldable": "Final Spec Sheet-SF-A023047  03.28.2025.xlsx / xl/worksheets/sheet1.xml / row 101",
+        "powerCord": "Final Spec Sheet-SF-A023047  03.28.2025.xlsx / xl/worksheets/sheet1.xml / row 43",
+        "programs": "Final Spec Sheet-SF-A023047  03.28.2025.xlsx / xl/worksheets/sheet1.xml / row 25",
+        "features": "Final Spec Sheet-SF-A023047  03.28.2025.xlsx / xl/worksheets/sheet1.xml / row 46",
+        "latex": "Final Spec Sheet-SF-A023047  03.28.2025.xlsx / xl/worksheets/sheet1.xml / row 9"
+      },
+      "notes": []
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-A023047_EN_Manual_Version_1.1_20260122.pdf",
+      "assemblyUrl": "https://www.youtube.com/watch?v=5QgWagUvNLA",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-a023047",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-a023047",
+      "checkedAt": "2026-10-30"
+    },
+    "importBatch": "v3-batch-2"
+  },
+  {
+    "id": "off-sunny-sf-xf924016",
+    "sku": "SF-XF924016",
+    "name": "Multi-Function Power Tower with Dip Station, Pull-Up Bar and Core Workout",
+    "category": "Racks",
+    "catalogSource": "off-sunny-web",
+    "sourceFile": "Final Spec Sheet-SF-XF924016-240614.xlsx",
+    "price": null,
+    "priceChecked": true,
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-xf924016-official-v1.jpg",
+    "imageAssetId": null,
+    "photoChecked": true,
+    "photoMasks": null,
+    "productSpecs": {
+      "driveResistanceSystem": null,
+      "speedResistanceLevels": null,
+      "inclineStrideMotion": null,
+      "maxUserWeightLb": 300,
+      "keyDimensions": "39.2L × 40.9W × 83.7H in",
+      "workoutAreaWidthIn": null,
+      "workoutAreaLengthIn": null,
+      "source": "V3 spec sheet: Final Spec Sheet-SF-XF924016-240614.xlsx",
+      "portfolioCategory": "Racks",
+      "dimensionOrder": "L × W × H unless otherwise specified"
+    },
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "imageAvailability": "official-website",
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "Q235，PVC，PP",
+        "color": "Dark Gray with sliver+Black",
+        "productWeight": "24.2 KGS/53.4LBS",
+        "shippingWeight": "27.4 KGS/60.3LBS",
+        "keyDimensions": "99.5*104*212.5cm 39.2*40.9*83.7 inches",
+        "foldedDimensions": "Not applicable",
+        "shippingDimensions": "136.5*41*15 CM/ 53.7*16.1*5.9inches",
+        "footprint": "99.5*65 CM/ 39.2*25.6 inches",
+        "maxUserHeight": "190 CM/74.8inches",
+        "resistanceType": "Not applicable",
+        "speedResistanceLevels": "Not applicable",
+        "flywheelWeight": "Not applicable",
+        "display": "NO",
+        "screenType": "Not applicable",
+        "screenSize": "Not applicable",
+        "foldable": "FLIP",
+        "powerCord": "NO",
+        "programs": "Not applicable",
+        "seatDimensions": "Not applicable",
+        "features": "1、300 lbs max user weight capacity, user can feel safe during intense training. Closed frame design, good stability, to ensure the exercise process safe and effective. 2、All in one, from classic pull-ups and sit-ups to parallel bars and leg lifts, it meets a wide range of strength training needs. This versatile design makes it an all-in-one solution for anyone who wants to target different muscle groups and achieve a full-body workout. 3、The pull-up bar has two sets of grip positions, suitable for a wide or narrow grip, ensuring that user can perform a variety of pull-ups. 4、With a small footprint, it is a practical addition to any home gym, garage or exercise area 5、Easy installation, user can set it up quickly and start training immediately.",
+        "latex": "Not applicable"
+      },
+      "sources": [
+        "Final Spec Sheet-SF-XF924016-240614.xlsx"
+      ],
+      "evidence": {
+        "brand": "Final Spec Sheet-SF-XF924016-240614.xlsx / xl/worksheets/sheet1.xml / row 3",
+        "materials": "Final Spec Sheet-SF-XF924016-240614.xlsx / xl/worksheets/sheet1.xml / row 7",
+        "color": "Final Spec Sheet-SF-XF924016-240614.xlsx / xl/worksheets/sheet1.xml / row 6",
+        "productWeight": "Final Spec Sheet-SF-XF924016-240614.xlsx / xl/worksheets/sheet1.xml / row 10",
+        "shippingWeight": "Final Spec Sheet-SF-XF924016-240614.xlsx / xl/worksheets/sheet1.xml / row 9",
+        "keyDimensions": "Final Spec Sheet-SF-XF924016-240614.xlsx / xl/worksheets/sheet1.xml / row 12",
+        "foldedDimensions": "Final Spec Sheet-SF-XF924016-240614.xlsx / xl/worksheets/sheet1.xml / row 13",
+        "shippingDimensions": "Final Spec Sheet-SF-XF924016-240614.xlsx / xl/worksheets/sheet1.xml / row 14",
+        "footprint": "Final Spec Sheet-SF-XF924016-240614.xlsx / xl/worksheets/sheet1.xml / row 16",
+        "maxUserHeight": "Final Spec Sheet-SF-XF924016-240614.xlsx / xl/worksheets/sheet1.xml / row 20",
+        "resistanceType": "Final Spec Sheet-SF-XF924016-240614.xlsx / xl/worksheets/sheet1.xml / row 21",
+        "speedResistanceLevels": "Final Spec Sheet-SF-XF924016-240614.xlsx / xl/worksheets/sheet1.xml / row 22",
+        "flywheelWeight": "Final Spec Sheet-SF-XF924016-240614.xlsx / xl/worksheets/sheet1.xml / row 11",
+        "display": "Final Spec Sheet-SF-XF924016-240614.xlsx / xl/worksheets/sheet1.xml / row 42",
+        "screenType": "Final Spec Sheet-SF-XF924016-240614.xlsx / xl/worksheets/sheet1.xml / row 18",
+        "screenSize": "Final Spec Sheet-SF-XF924016-240614.xlsx / xl/worksheets/sheet1.xml / row 17",
+        "foldable": "Final Spec Sheet-SF-XF924016-240614.xlsx / xl/worksheets/sheet1.xml / row 99",
+        "powerCord": "Final Spec Sheet-SF-XF924016-240614.xlsx / xl/worksheets/sheet1.xml / row 41",
+        "programs": "Final Spec Sheet-SF-XF924016-240614.xlsx / xl/worksheets/sheet1.xml / row 23",
+        "seatDimensions": "Final Spec Sheet-SF-XF924016-240614.xlsx / xl/worksheets/sheet1.xml / row 15",
+        "features": "Final Spec Sheet-SF-XF924016-240614.xlsx / xl/worksheets/sheet1.xml / row 44",
+        "latex": "Final Spec Sheet-SF-XF924016-240614.xlsx / xl/worksheets/sheet1.xml / row 8"
+      },
+      "notes": []
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-XF924016.pdf",
+      "assemblyUrl": "https://www.youtube.com/watch?v=2wOcw8xlXr0",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-xf924016",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-xf924016",
+      "checkedAt": "2026-10-30"
+    },
+    "importBatch": "v3-batch-2"
+  },
+  {
+    "id": "off-sunny-no-082",
+    "sku": "NO. 082",
+    "name": "Universal Bike Mount Clamp Holder for Phone and Tablet",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "sourceFile": "Holder Template.xlsx",
+    "price": null,
+    "priceChecked": true,
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-082-official-v1.jpg",
+    "imageAssetId": null,
+    "photoChecked": true,
+    "photoMasks": null,
+    "productSpecs": {
+      "driveResistanceSystem": null,
+      "speedResistanceLevels": null,
+      "inclineStrideMotion": null,
+      "maxUserWeightLb": null,
+      "keyDimensions": "Holder: 8 × 5 in; folded 4.7 × 5 in",
+      "workoutAreaWidthIn": null,
+      "workoutAreaLengthIn": null,
+      "source": "V3 spec sheet: Holder Template.xlsx",
+      "portfolioCategory": "Essentials",
+      "dimensionOrder": "L × W × H unless otherwise specified"
+    },
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "imageAvailability": "official-website",
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "SUNNY",
+        "materials": "ABS",
+        "color": "Black",
+        "productWeight": "0.29 lb",
+        "shippingWeight": "0.42 lb",
+        "keyDimensions": "8 × 5 in (holder)",
+        "foldedDimensions": "4.7 × 5 in (holder)",
+        "shippingDimensions": "17.13*11.42*18.11 Inches",
+        "accessories": "No"
+      },
+      "sources": [
+        "Holder Template.xlsx"
+      ],
+      "evidence": {
+        "brand": "Holder Template.xlsx / xl/worksheets/sheet1.xml / row 1",
+        "materials": "Holder Template.xlsx / xl/worksheets/sheet1.xml / row 17",
+        "color": "Holder Template.xlsx / xl/worksheets/sheet1.xml / row 8",
+        "productWeight": "Holder Template.xlsx / xl/worksheets/sheet1.xml / row 4",
+        "shippingWeight": "Holder Template.xlsx / xl/worksheets/sheet1.xml / row 5",
+        "keyDimensions": "Holder Template.xlsx / xl/worksheets/sheet1.xml / row 9",
+        "foldedDimensions": "Holder Template.xlsx / xl/worksheets/sheet1.xml / row 10",
+        "shippingDimensions": "Holder Template.xlsx / xl/worksheets/sheet1.xml / row 6",
+        "accessories": "Holder Template.xlsx / xl/worksheets/sheet1.xml / row 16"
+      },
+      "notes": []
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/D418001_NO.082_MANUAL_12132018.pdf",
+      "assemblyUrl": "https://www.youtube.com/watch?v=ydnzV8C4Usc",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-082",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-082",
+      "checkedAt": "2026-10-30"
+    },
+    "importBatch": "v3-batch-2"
+  },
+  {
+    "id": "off-sunny-no-076",
+    "sku": "NO. 076",
+    "name": "Barbell Lock Collars - Pair",
+    "category": "Weights",
+    "catalogSource": "off-sunny-web",
+    "sourceFile": "No. 076 Specification.xlsx",
+    "price": null,
+    "priceChecked": true,
+    "url": "",
+    "imageUrl": "",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "productSpecs": {
+      "driveResistanceSystem": null,
+      "speedResistanceLevels": null,
+      "inclineStrideMotion": null,
+      "maxUserWeightLb": null,
+      "keyDimensions": "3.35 × 1.9 × 2 each (source does not label units)",
+      "workoutAreaWidthIn": null,
+      "workoutAreaLengthIn": null,
+      "source": "V3 spec sheet: No. 076 Specification.xlsx",
+      "portfolioCategory": "Weights",
+      "dimensionOrder": "L × W × H unless otherwise specified"
+    },
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "productWeight": "0.75 lb",
+        "shippingWeight": "0.86 lb",
+        "keyDimensions": "3.35 × 1.9 × 2 each (source does not label units)",
+        "pieces": "Pair"
+      },
+      "sources": [
+        "No. 076 Specification.xlsx"
+      ],
+      "evidence": {
+        "productWeight": "No. 076 Specification.xlsx / xl/worksheets/sheet1.xml / row 4",
+        "shippingWeight": "No. 076 Specification.xlsx / xl/worksheets/sheet1.xml / row 5",
+        "keyDimensions": "No. 076 Specification.xlsx / xl/worksheets/sheet1.xml / row 3",
+        "pieces": "No. 076 Specification.xlsx / xl/worksheets/sheet1.xml / row 2"
+      },
+      "notes": [
+        "Dimension units are not labeled in the source sheet; no unit has been inferred."
+      ]
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-10-30"
+    },
+    "importBatch": "v3-batch-2"
+  },
+  {
+    "id": "off-sunny-no-077gr",
+    "sku": "NO. 077GR",
+    "name": "Smart Upright Row-N-Ride Exerciser in Green",
+    "category": "Row-N-Ride",
+    "catalogSource": "off-sunny-web",
+    "sourceFile": "NO. 077GR final spec sheet 11.22.2024.xlsx",
+    "price": null,
+    "priceChecked": true,
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-077gr-official-v1.jpg",
+    "imageAssetId": null,
+    "photoChecked": true,
+    "photoMasks": null,
+    "productSpecs": {
+      "driveResistanceSystem": "Exercise bands",
+      "speedResistanceLevels": "Three adjustable exercise bands",
+      "inclineStrideMotion": "30°, 60° and 90° squat motion",
+      "maxUserWeightLb": 330,
+      "keyDimensions": "45.3L × 19.3W × 50H in; folded 11.4L × 19.3W × 55.7H in",
+      "workoutAreaWidthIn": null,
+      "workoutAreaLengthIn": null,
+      "source": "V3 spec sheet: NO. 077GR final spec sheet 11.22.2024.xlsx",
+      "portfolioCategory": "Row-N-Ride",
+      "dimensionOrder": "L × W × H unless otherwise specified"
+    },
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "imageAvailability": "official-website",
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "Q235，PP, PVC，PE，ABS",
+        "color": "White/Red 485C/Light Gray 5U/Cool white/Green 368U",
+        "productWeight": "12.4 kgs / 27.3 lbs",
+        "shippingWeight": "14.2kgs / 31.3lbs",
+        "keyDimensions": "1150*490*1270 mm / 45.3*19.3*50 inches",
+        "foldedDimensions": "290*490*1415 mm / 11.4*19.3*55.7 inches",
+        "shippingDimensions": "1117*210*200 mm / 44*8.3*7.9 inches",
+        "footprint": "955*425 mm / 37.6*16.7 inches",
+        "maxUserHeight": "1900mm",
+        "driveResistanceSystem": "Not applicable",
+        "resistanceType": "Exercise Band",
+        "speedResistanceLevels": "Not applicable",
+        "flywheelWeight": "Not applicable",
+        "battery": "2*AA",
+        "display": "TIME/CNT/CAL/TOT.CNT/SCAN/PULSE(when connect with the matching Bluetooth heart rate monitor)",
+        "screenType": "LCD",
+        "screenSize": "32*20 mm/1.3*0.8 inches",
+        "deviceHolder": "No",
+        "heartRate": "No",
+        "wirelessHeartRate": "Yes",
+        "bluetooth": "YES",
+        "transportWheels": "No",
+        "bottleHolder": "No",
+        "electrical": "Not applicable",
+        "watts": "Not applicable",
+        "amps": "Not applicable",
+        "powerCord": "Not applicable",
+        "programs": "Not applicable",
+        "speakers": "No",
+        "usb": "No",
+        "seatDimensions": "290*190*40 mm / 11.4*7.5*1.6 inches",
+        "features": "Three adjustable resistance bands; assisted squats; foldable; SunnyFit app and compatible wireless heart-rate monitor.",
+        "upc": "815749015044",
+        "latex": "Yes (exercise bands)",
+        "inclineStrideMotion": "30°, 60° and 90° squat motion",
+        "seatAdjustment": "Five seat fore/aft holes; source seat-tube heights 23.3, 19.6, 14.5 in",
+        "handlebarAdjustment": "Height adjustable"
+      },
+      "sources": [
+        "NO. 077GR final spec sheet 11.22.2024.xlsx"
+      ],
+      "evidence": {
+        "brand": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 7",
+        "materials": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 12",
+        "color": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 11",
+        "productWeight": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 15",
+        "shippingWeight": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 14",
+        "keyDimensions": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 17",
+        "foldedDimensions": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 18",
+        "shippingDimensions": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 19",
+        "footprint": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 21",
+        "maxUserHeight": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 23",
+        "driveResistanceSystem": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 28",
+        "resistanceType": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 24",
+        "speedResistanceLevels": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 25",
+        "flywheelWeight": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 16",
+        "battery": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 45",
+        "display": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 48",
+        "screenType": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 46",
+        "screenSize": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 47",
+        "deviceHolder": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 61",
+        "heartRate": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 58",
+        "wirelessHeartRate": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 59",
+        "bluetooth": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 50",
+        "transportWheels": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 40",
+        "bottleHolder": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 62",
+        "electrical": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 66",
+        "watts": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 67",
+        "amps": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 68",
+        "powerCord": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 65",
+        "programs": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 49",
+        "speakers": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 56",
+        "usb": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 57",
+        "seatDimensions": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 20",
+        "features": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 74",
+        "upc": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 10",
+        "latex": "NO. 077GR final spec sheet 11.22.2024.xlsx / xl/worksheets/sheet1.xml / row 13"
+      },
+      "notes": [
+        "Model number is NO. 077GR, although the source product name includes SMART. Kept separate from NO. 077SMART and NO. 077S.",
+        "The resistance-level field says N/A; the features explicitly list three adjustable exercise bands."
+      ]
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/NO.077GR_Manual_EN_20250828_V1.2.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-077gr",
+      "assemblyPage": null,
+      "checkedAt": "2026-10-30"
+    },
+    "importBatch": "v3-batch-2"
+  },
+  {
+    "id": "off-sunny-no-084",
+    "sku": "NO. 084",
+    "name": "Wood Plyo Box with Cover",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "sourceFile": "No. 084 Specification.pdf",
+    "price": null,
+    "priceChecked": true,
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-084-official-v1.jpg",
+    "imageAssetId": null,
+    "photoChecked": true,
+    "photoMasks": null,
+    "productSpecs": {
+      "driveResistanceSystem": null,
+      "speedResistanceLevels": null,
+      "inclineStrideMotion": null,
+      "maxUserWeightLb": null,
+      "keyDimensions": "30 × 24 × 20 (source does not label units)",
+      "workoutAreaWidthIn": null,
+      "workoutAreaLengthIn": null,
+      "source": "V3 spec sheet: No. 084 Specification.pdf",
+      "portfolioCategory": "Essentials",
+      "dimensionOrder": "L × W × H unless otherwise specified"
+    },
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "imageAvailability": "official-website",
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny",
+        "productWeight": "74 lb",
+        "shippingWeight": "76.2 lb",
+        "shippingDimensions": "32 × 24.6 × 11.6 in",
+        "keyDimensions": "30 × 24 × 20 (source does not label units)",
+        "features": "Assembly required. Can be used with or without cover."
+      },
+      "sources": [
+        "No. 084 Specification.pdf"
+      ],
+      "evidence": {},
+      "notes": [
+        "The sheet does not specify a maximum user/load capacity. No capacity inferred from the product name or other versions."
+      ]
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/NO.084_Manual_v_1.1.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-084",
+      "assemblyPage": null,
+      "checkedAt": "2026-10-30"
+    },
+    "importBatch": "v3-batch-2"
   }
 ]
