@@ -12,7 +12,7 @@ Newest entry first. Each agent adds one entry per completed task (format in AGEN
 - Files: app/index.html, tests/product-specs.spec.cjs (adds: no "Not provided" text, and "Unavailable" is smaller and lighter than a known value), HANDOFF.md
 - Tests: all 20 tests/*.spec.cjs passed; `npm run build` passed. Dark-mode dialog and link column checked by screenshot.
 - Local preview: checked.
-- Claude Artifact: to be republished from this commit.
+- Claude Artifact: published version 25 from 3f33fc1.
 - Private Site: PUBLIC version 37 from 1fc8068; behind main by this styling change. Codex publishes.
 - Practice data: not re-exported (no change).
 - Remaining issues: V2 spec import for the 156 is blocked on file access (above).
