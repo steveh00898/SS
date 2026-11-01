@@ -2,6 +2,27 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-01: Claude Code — git pull: Off Sunny web batch two and Product Spec synced to the Claude Artifact (version 24)
+- Changes: reviewed Codex commits a0d5d9f, 1fc8068 and d0bb28c. They match their HANDOFF entries:
+  - 10 new V3 archive records.
+  - `specDetails` and `resourceLinks` for the first 10.
+  - Category Product Spec templates (`data/specifications/templates.json`) and the dialog.
+  - Dialog scroll reset.
+  - `/api` and the `window.claude` paths are intact.
+  - Test edits only raise counts for the 10 new records (166→176, 10→20 archive, 9→18 images, 0→17 manuals, 0→1 unavailable); no check was weakened. The new tests/product-specs.spec.cjs adds coverage.
+- Claude Artifact data:
+  - Read the 10 existing archive documents first. No app-only edits (only the Artifact image fields differ from the repository), so I added only `specDetails` and `resourceLinks`, pinned with `if_version`.
+  - Uploaded 9 new official images (`*-official-v1.jpg`) to Artifact assets and created the 10 new `off-sunny-*` documents from `data/off-sunny-web/items.json`. Every field is unchanged except `imageAssetId`/`imageUrl` (`/_blob/<id>`). NO. 076 has no image, as in the repository.
+  - The 156 current records were not touched. The database now holds 176 items.
+- Files: HANDOFF.md
+- Tests: all 20 tests/*.spec.cjs passed; `npm run build` passed; `npm run screenshots` passed (14 PNGs). Preview `?source=off-sunny-web&category=All` at 1440 and 390: 20 rows, 17 manual links, 8 assembly links, 20 Product Spec links, 1 "Image unavailable" (NO. 076), Product Spec dialog opens, no page errors.
+- Local preview: checked.
+- Claude Artifact: published version 24 from d0bb28c.
+- Private Site: PUBLIC version 37 from 1fc8068 (Codex); same app code as main.
+- Practice data: not re-exported (no change).
+- Remaining issues: none new. Resource gaps and source inconsistencies are as Codex recorded in data/off-sunny-web/batch-two-notes.md.
+- Next steps: none.
+
 ## 2026-10-30: Codex — PUBLIC Site version 37 published and verified from 1fc8068
 - Changes: published the complete Off Sunny web second batch, original-ten Product Spec backfill, resources and final dialog scroll reset. Source was already pushed to main and includes 467604e. No further application/data changes in this handoff-only commit.
 - Files: HANDOFF.md.
