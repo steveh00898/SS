@@ -2,6 +2,22 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-01: Claude Code — Product Spec "Unavailable" styling; brighter available resource links
+- Changes (owner request):
+  - In the Product Spec dialog, missing values now read "Unavailable" (was "Not provided"), in a smaller (12.5px), dimmer style (`td.spec-unavailable`: muted colour at 0.7 opacity). Known values use the full text colour.
+  - In the User Manual/Assembly Guide column, available links ("User manual ↗", "Assembly guide ↗", "Product Spec") now use the full text colour (white in dark mode) and turn accent red on hover. "Manual unavailable" and "Assembly guide unavailable" keep their wording and muted colour, as the owner asked.
+- Not done yet: the owner asked to fill the Product Spec for the 156 current-website products from "Sorted Master SPEC SHEET - V2" on their Windows PC (`C:\Users\Asus\Desktop\Sunny\Sunny Product Finder\...`). Claude Code's cloud session cannot reach that folder, so it waits for the owner to upload the files, or for Codex to do it. Owner decisions for that import:
+  - Keep the per-category templates; fields may be added to a category template when V2 sheets have useful details.
+  - Where V2 disagrees with values the app already shows, keep the app value and report a side-by-side app vs. Excel conflict list.
+- Files: app/index.html, tests/product-specs.spec.cjs (adds: no "Not provided" text, and "Unavailable" is smaller and lighter than a known value), HANDOFF.md
+- Tests: all 20 tests/*.spec.cjs passed; `npm run build` passed. Dark-mode dialog and link column checked by screenshot.
+- Local preview: checked.
+- Claude Artifact: to be republished from this commit.
+- Private Site: PUBLIC version 37 from 1fc8068; behind main by this styling change. Codex publishes.
+- Practice data: not re-exported (no change).
+- Remaining issues: V2 spec import for the 156 is blocked on file access (above).
+- Next steps: owner uploads the V2 folder (zip) to Claude Code, or asks Codex to run the import with the decisions above.
+
 ## 2026-11-01: Claude Code — git pull: Off Sunny web batch two and Product Spec synced to the Claude Artifact (version 24)
 - Changes: reviewed Codex commits a0d5d9f, 1fc8068 and d0bb28c. They match their HANDOFF entries:
   - 10 new V3 archive records.
