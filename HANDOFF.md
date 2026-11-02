@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-01: Codex — sticky Product Spec and ISV category navigation
+- Changes: added boxed, sticky category navigation to the top of both Product Spec and ISV dialogs. Selecting a category jumps instantly to its section, updates the active tab, keeps the destination visible below the frozen navigation, and preserves keyboard focus. ISV shows only categories containing information for the selected product and carries the workbook category colour on each tab. Narrow screens use a horizontally scrollable navigation row without widening the page.
+- Files: `app/index.html`, `tests/product-specs.spec.cjs`, `tests/treadmill-specifications.spec.cjs`, `HANDOFF.md`.
+- Tests: the focused Product Spec/ISV navigation regression passed, including desktop/mobile layout, sticky positioning, jump behavior, active state, populated-only ISV categories and focus trapping. All other 21 test files passed except `tests/practice.spec.cjs`, whose pre-existing day-count fixture expected 3 but produced 2 because it subtracts fixed 24-hour periods across the 2026-11-01 daylight-saving transition. `npm run build` and `npm run practice-report` passed.
+- Local preview: visually checked the Product Spec dialog at 390 px; boxed category tabs remain visible above the section content and the page has no horizontal overflow.
+- Claude Artifact: unchanged; Codex cannot publish it.
+- Private Site: not published yet; pending this entry's commit and push to main.
+- Practice data: not exported because first-export approval for this public repository is still pending; the existing report has zero results.
+- Remaining issues: the DST-sensitive practice test fixture remains unrelated to this feature and needs a calendar-day helper instead of fixed 24-hour subtraction.
+- Next steps: commit and push, publish the exact pushed SHA to the public Site, verify the live category navigation, then record the deployment.
+
 ## 2026-11-01: Codex — private Site version 39 published from 3d68456
 - Changes: published the Product info / ISV comparison implementation from exact pushed main commit `3d684561827fc53186f630b72fc17a1bd52ca3cd`. Live verification found 23 treadmill rows and 23 ISV controls; SF-T723030 showed the expected yellow Product Spec difference, labeled ISV fallbacks, ten workbook category sections, a matching yellow ISV value and the invalid latex warning.
 - Files: `HANDOFF.md` only in this follow-up; deployed source is exact pushed main commit `3d684561827fc53186f630b72fc17a1bd52ca3cd`.
