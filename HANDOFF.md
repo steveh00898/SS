@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-02: Codex — public Site version 42 published
+- Changes: published the cleaner ISV 4.0 reference, corrected SunnyFit® App branding and hidden AV HTML Features from exact pushed source `7ad8515051a8daa38bb4b13b0275b4fcb49d41bb`.
+- Files: HANDOFF.md only.
+- Tests: all 23 tests, build and 14 screenshots passed before publication.
+- Local preview: all 156 product dialogs verified.
+- Claude Artifact: unchanged, version 26 from 6b96a0c; pending Claude Code sync.
+- Private Site: PUBLIC version 42, deployment `appgdep_6ae8bcc7f3048191a308a3a6f5348a59` succeeded; environment revision 1 preserved.
+- Practice data: not exported, first public-repository export permission pending; existing report has zero results.
+- Remaining issues: unrelated source specification anomalies remain visible for review.
+- Next steps: owner reviews the cleaned ISV content.
+
 ## 2026-11-02: Codex — cleaner ISV reference and readable feature information
 - Changes: refreshed all 156 current catalog ISV entries using the owner's ISV 4.0.xlsx SHF worksheet through FN, retaining exact SKU/row matches. The reference fixes garbled symbols and descriptions; SunnyFit branding is normalized to SunnyFit® App. AV HTML Features is hidden in every ISV dialog; readable Bullet Features and descriptions remain. Raw AV source is retained in the snapshot for provenance and never rendered as HTML. Source filename, worksheet and hash now identify the cleaner workbook.
 - Files: app/index.html, data/isv/current-products.json, scripts/import-current-isv.py, tests/current-isv.spec.cjs, tests/isv-data.spec.cjs, HANDOFF.md.
