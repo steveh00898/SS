@@ -29,29 +29,32 @@
     "brand": [
      "B3"
     ],
-    "materials": [
-     "B7"
-    ],
     "color": [
      "B6"
     ],
-    "productWeight": [
-     "B10"
-    ],
-    "maxUserWeightLb": [
-     "B19"
-    ],
-    "keyDimensions": [
-     "B12"
-    ],
-    "footprint": [
-     "B16"
+    "materials": [
+     "B7"
     ],
     "shippingWeight": [
      "B9"
     ],
+    "productWeight": [
+     "B10"
+    ],
+    "flywheelWeight": [
+     "B11"
+    ],
+    "keyDimensions": [
+     "B12"
+    ],
     "shippingDimensions": [
      "B14"
+    ],
+    "footprint": [
+     "B16"
+    ],
+    "maxUserWeightLb": [
+     "B19"
     ],
     "resistanceType": [
      "B20"
@@ -59,21 +62,18 @@
     "speedResistanceLevels": [
      "B21"
     ],
+    "magnets": [
+     "B23"
+    ],
     "stride": [
      "B63"
-    ],
-    "flywheelWeight": [
-     "B11"
     ],
     "stepHeight": [
      "C64",
      "E64"
     ],
-    "magnets": [
-     "B23"
-    ],
-    "display": [
-     "B40"
+    "battery": [
+     "E25"
     ],
     "screenType": [
      "B18"
@@ -81,8 +81,8 @@
     "screenSize": [
      "B17"
     ],
-    "battery": [
-     "E25"
+    "display": [
+     "B40"
     ],
     "bluetooth": [
      "E31"
@@ -108,29 +108,32 @@
     "brand": [
      "B3"
     ],
-    "materials": [
-     "B7"
-    ],
     "color": [
      "B6"
     ],
-    "productWeight": [
-     "B10"
-    ],
-    "maxUserWeightLb": [
-     "B19"
-    ],
-    "keyDimensions": [
-     "B12"
-    ],
-    "footprint": [
-     "B16"
+    "materials": [
+     "B7"
     ],
     "shippingWeight": [
      "B9"
     ],
+    "productWeight": [
+     "B10"
+    ],
+    "flywheelWeight": [
+     "B11"
+    ],
+    "keyDimensions": [
+     "B12"
+    ],
     "shippingDimensions": [
      "B14"
+    ],
+    "footprint": [
+     "B16"
+    ],
+    "maxUserWeightLb": [
+     "B19"
     ],
     "resistanceType": [
      "B20"
@@ -138,21 +141,18 @@
     "speedResistanceLevels": [
      "B21"
     ],
+    "magnets": [
+     "B23"
+    ],
     "stride": [
      "B64"
-    ],
-    "flywheelWeight": [
-     "B11"
     ],
     "stepHeight": [
      "C65",
      "E65"
     ],
-    "magnets": [
-     "B23"
-    ],
-    "display": [
-     "B41"
+    "battery": [
+     "E25"
     ],
     "screenType": [
      "B18"
@@ -160,8 +160,8 @@
     "screenSize": [
      "B17"
     ],
-    "battery": [
-     "E25"
+    "display": [
+     "B41"
     ],
     "bluetooth": [
      "E32"
@@ -187,14 +187,29 @@
     "brand": [
      "B3"
     ],
-    "materials": [
-     "B7"
-    ],
     "color": [
      "B6"
     ],
+    "materials": [
+     "B7"
+    ],
+    "shippingWeight": [
+     "B9"
+    ],
     "productWeight": [
      "B10"
+    ],
+    "flywheelWeight": [
+     "B11"
+    ],
+    "keyDimensions": [
+     "B12"
+    ],
+    "shippingDimensions": [
+     "B14"
+    ],
+    "footprint": [
+     "B16"
     ],
     "maxUserWeightLb": [
      "B19"
@@ -202,39 +217,24 @@
     "maxUserHeight": [
      "B20"
     ],
-    "keyDimensions": [
-     "B12"
-    ],
-    "footprint": [
-     "B16"
-    ],
-    "shippingWeight": [
-     "B9"
-    ],
-    "shippingDimensions": [
-     "B14"
-    ],
     "resistanceType": [
      "B21"
     ],
     "speedResistanceLevels": [
      "B22"
     ],
+    "magnets": [
+     "B24"
+    ],
     "stride": [
      "B65"
-    ],
-    "flywheelWeight": [
-     "B11"
     ],
     "stepHeight": [
      "C66",
      "E66"
     ],
-    "magnets": [
-     "B24"
-    ],
-    "display": [
-     "B42"
+    "battery": [
+     "E26"
     ],
     "screenType": [
      "B18"
@@ -242,14 +242,14 @@
     "screenSize": [
      "B17"
     ],
-    "battery": [
-     "E26"
-    ],
-    "bluetooth": [
-     "E33"
+    "display": [
+     "B42"
     ],
     "programs": [
      "B23"
+    ],
+    "bluetooth": [
+     "E33"
     ],
     "features": [
      "B44"
@@ -272,20 +272,23 @@
     "brand": [
      "B3"
     ],
+    "shippingWeight": [
+     "B6"
+    ],
     "productWeight": [
      "B7"
     ],
-    "maxUserWeightLb": [
-     "B14"
+    "flywheelWeight": [
+     "B8"
     ],
     "keyDimensions": [
      "B9"
     ],
-    "shippingWeight": [
-     "B6"
-    ],
     "shippingDimensions": [
      "B11"
+    ],
+    "maxUserWeightLb": [
+     "B14"
     ],
     "resistanceType": [
      "B15"
@@ -293,27 +296,24 @@
     "speedResistanceLevels": [
      "B16"
     ],
+    "magnets": [
+     "B18"
+    ],
     "stride": [
      "B51"
-    ],
-    "flywheelWeight": [
-     "B8"
     ],
     "stepHeight": [
      "B52",
      "D52"
     ],
-    "magnets": [
-     "B18"
-    ],
-    "display": [
-     "B34"
+    "battery": [
+     "D20"
     ],
     "screenSize": [
      "B13"
     ],
-    "battery": [
-     "D20"
+    "display": [
+     "B34"
     ],
     "bluetooth": [
      "D26"
@@ -339,26 +339,29 @@
     "brand": [
      "B3"
     ],
-    "materials": [
-     "B7"
-    ],
     "color": [
      "B6"
     ],
-    "productWeight": [
-     "B12"
-    ],
-    "maxUserWeightLb": [
-     "B20"
-    ],
-    "keyDimensions": [
-     "B14"
+    "materials": [
+     "B7"
     ],
     "shippingWeight": [
      "B11"
     ],
+    "productWeight": [
+     "B12"
+    ],
+    "flywheelWeight": [
+     "B13"
+    ],
+    "keyDimensions": [
+     "B14"
+    ],
     "shippingDimensions": [
      "B16"
+    ],
+    "maxUserWeightLb": [
+     "B20"
     ],
     "resistanceType": [
      "B21"
@@ -366,20 +369,17 @@
     "speedResistanceLevels": [
      "B22"
     ],
+    "magnets": [
+     "B24"
+    ],
     "stride": [
      "B59"
-    ],
-    "flywheelWeight": [
-     "B13"
     ],
     "stepHeight": [
      "B60"
     ],
-    "magnets": [
-     "B24"
-    ],
-    "display": [
-     "B40"
+    "battery": [
+     "D26"
     ],
     "screenType": [
      "B19"
@@ -387,8 +387,8 @@
     "screenSize": [
      "B18"
     ],
-    "battery": [
-     "D26"
+    "display": [
+     "B40"
     ],
     "programs": [
      "B23"
@@ -417,29 +417,32 @@
     "brand": [
      "B3"
     ],
-    "materials": [
-     "B7"
-    ],
     "color": [
      "B6"
     ],
-    "productWeight": [
-     "B10"
-    ],
-    "maxUserWeightLb": [
-     "B19"
-    ],
-    "keyDimensions": [
-     "B12"
-    ],
-    "footprint": [
-     "B14"
+    "materials": [
+     "B7"
     ],
     "shippingWeight": [
      "B9"
     ],
+    "productWeight": [
+     "B10"
+    ],
+    "flywheelWeight": [
+     "B11"
+    ],
+    "keyDimensions": [
+     "B12"
+    ],
     "shippingDimensions": [
      "B15"
+    ],
+    "footprint": [
+     "B14"
+    ],
+    "maxUserWeightLb": [
+     "B19"
     ],
     "resistanceType": [
      "B20"
@@ -447,21 +450,15 @@
     "speedResistanceLevels": [
      "B21"
     ],
+    "magnets": [
+     "B23"
+    ],
     "stride": [
      "B59"
-    ],
-    "flywheelWeight": [
-     "B11"
     ],
     "stepHeight": [
      "B60",
      "D60"
-    ],
-    "magnets": [
-     "B23"
-    ],
-    "display": [
-     "B40"
     ],
     "screenType": [
      "B18"
@@ -469,17 +466,20 @@
     "screenSize": [
      "B17"
     ],
-    "bluetooth": [
-     "D31"
+    "display": [
+     "B40"
     ],
     "programs": [
      "B22"
     ],
-    "powerCord": [
-     "B39"
+    "bluetooth": [
+     "D31"
     ],
     "plugType": [
      "D35"
+    ],
+    "powerCord": [
+     "B39"
     ],
     "features": [
      "B42"
@@ -502,17 +502,17 @@
     "brand": [
      "B3"
     ],
-    "materials": [
-     "B7"
-    ],
     "color": [
      "B6"
     ],
+    "materials": [
+     "B7"
+    ],
+    "shippingWeight": [
+     "B11"
+    ],
     "productWeight": [
      "B12"
-    ],
-    "maxUserWeightLb": [
-     "B21"
     ],
     "keyDimensions": [
      "B14"
@@ -520,11 +520,11 @@
     "foldedDimensions": [
      "B15"
     ],
-    "shippingWeight": [
-     "B11"
-    ],
     "shippingDimensions": [
      "B16"
+    ],
+    "maxUserWeightLb": [
+     "B21"
     ],
     "resistanceType": [
      "B22"
@@ -532,8 +532,8 @@
     "stride": [
      "B62"
     ],
-    "display": [
-     "B42"
+    "battery": [
+     "D27"
     ],
     "screenType": [
      "B20"
@@ -541,8 +541,8 @@
     "screenSize": [
      "B19"
     ],
-    "battery": [
-     "D27"
+    "display": [
+     "B42"
     ],
     "bluetooth": [
      "D33"
@@ -563,22 +563,25 @@
     "cell": "B8",
     "text": "SF-E902 SMART"
    },
-   "fieldsFilled": 30,
+   "fieldsFilled": 38,
    "cells": {
     "brand": [
      "B7"
     ],
-    "materials": [
-     "B12"
+    "upc": [
+     "B10"
     ],
     "color": [
      "B11"
     ],
+    "materials": [
+     "B12"
+    ],
+    "shippingWeight": [
+     "B14"
+    ],
     "productWeight": [
      "B15"
-    ],
-    "maxUserWeightLb": [
-     "B22"
     ],
     "keyDimensions": [
      "B17"
@@ -586,32 +589,47 @@
     "foldedDimensions": [
      "B18"
     ],
-    "footprint": [
-     "B21"
-    ],
-    "shippingWeight": [
-     "B14"
-    ],
     "shippingDimensions": [
      "B19"
     ],
-    "upc": [
-     "B10"
+    "footprint": [
+     "B21"
     ],
-    "stride": [
-     "B37"
-    ],
-    "transportWheels": [
-     "B40"
-    ],
-    "stepHeight": [
-     "B38"
+    "maxUserWeightLb": [
+     "B22"
     ],
     "magnets": [
      "B26"
     ],
-    "display": [
-     "B48"
+    "motorized": [
+     "B27"
+    ],
+    "pedalBothDirections": [
+     "B34"
+    ],
+    "selfLevelingPedals": [
+     "B35"
+    ],
+    "footStraps": [
+     "B36"
+    ],
+    "stride": [
+     "B37"
+    ],
+    "stepHeight": [
+     "B38"
+    ],
+    "transportWheels": [
+     "B40"
+    ],
+    "controlOnHandlebar": [
+     "B41"
+    ],
+    "meterSize": [
+     "B43"
+    ],
+    "battery": [
+     "B45"
     ],
     "screenType": [
      "B46"
@@ -619,11 +637,29 @@
     "screenSize": [
      "B47"
     ],
-    "battery": [
-     "B45"
+    "display": [
+     "B48"
     ],
     "bluetooth": [
      "B50"
+    ],
+    "bluetoothApp": [
+     "B52"
+    ],
+    "ftms": [
+     "B53"
+    ],
+    "wifi": [
+     "B54"
+    ],
+    "fan": [
+     "B55"
+    ],
+    "speakers": [
+     "B56"
+    ],
+    "usb": [
+     "B57"
     ],
     "heartRate": [
      "B58"
@@ -636,18 +672,6 @@
     ],
     "bottleHolder": [
      "B62"
-    ],
-    "speakers": [
-     "B56"
-    ],
-    "usb": [
-     "B57"
-    ],
-    "ftms": [
-     "B53"
-    ],
-    "wifi": [
-     "B54"
     ],
     "features": [
      "B74"
@@ -668,16 +692,22 @@
     "cell": "B8",
     "text": "SF-E324028"
    },
-   "fieldsFilled": 33,
+   "fieldsFilled": 43,
    "cells": {
     "brand": [
      "B7"
     ],
-    "materials": [
-     "B12"
+    "upc": [
+     "B10"
     ],
     "color": [
      "B11"
+    ],
+    "materials": [
+     "B12"
+    ],
+    "shippingWeight": [
+     "B14"
     ],
     "productWeight": [
      "B15"
@@ -685,17 +715,11 @@
     "keyDimensions": [
      "B17"
     ],
-    "footprint": [
-     "B21"
-    ],
-    "shippingWeight": [
-     "B14"
-    ],
     "shippingDimensions": [
      "B19"
     ],
-    "upc": [
-     "B10"
+    "footprint": [
+     "B21"
     ],
     "resistanceType": [
      "B24"
@@ -703,18 +727,36 @@
     "speedResistanceLevels": [
      "B25"
     ],
+    "motorized": [
+     "B27"
+    ],
+    "crankLength": [
+     "B32"
+    ],
+    "pedalBothDirections": [
+     "B34"
+    ],
+    "selfLevelingPedals": [
+     "B35"
+    ],
+    "footStraps": [
+     "B36"
+    ],
     "stride": [
      "B37"
-    ],
-    "transportWheels": [
-     "B40"
     ],
     "stepHeight": [
      "B38",
      "B39"
     ],
-    "display": [
-     "B48"
+    "transportWheels": [
+     "B40"
+    ],
+    "controlOnHandlebar": [
+     "B41"
+    ],
+    "meterSize": [
+     "B43"
     ],
     "screenType": [
      "B46"
@@ -722,8 +764,32 @@
     "screenSize": [
      "B47"
     ],
+    "display": [
+     "B48"
+    ],
+    "programs": [
+     "B49"
+    ],
     "bluetooth": [
      "B50"
+    ],
+    "bluetoothApp": [
+     "B52"
+    ],
+    "ftms": [
+     "B53"
+    ],
+    "wifi": [
+     "B54"
+    ],
+    "fan": [
+     "B55"
+    ],
+    "speakers": [
+     "B56"
+    ],
+    "usb": [
+     "B57"
     ],
     "heartRate": [
      "B58"
@@ -737,14 +803,11 @@
     "bottleHolder": [
      "B62"
     ],
-    "programs": [
-     "B49"
+    "plugType": [
+     "B64"
     ],
-    "speakers": [
-     "B56"
-    ],
-    "usb": [
-     "B57"
+    "powerCord": [
+     "B65"
     ],
     "watts": [
      "B67"
@@ -752,23 +815,15 @@
     "amps": [
      "B68"
     ],
-    "powerCord": [
-     "B65"
+    "energySaver": [
+     "B69"
     ],
-    "ftms": [
-     "B53"
-    ],
-    "wifi": [
-     "B54"
-    ],
-    "plugType": [
-     "B64"
+    "remoteControl": [
+     "B70",
+     "B71"
     ],
     "features": [
      "B74"
-    ],
-    "certification": [
-     "B73"
     ]
    }
   },
@@ -783,37 +838,43 @@
     "cell": "B5",
     "text": "SF-RBE420049"
    },
-   "fieldsFilled": 21,
+   "fieldsFilled": 22,
    "cells": {
     "brand": [
      "B3"
     ],
-    "materials": [
-     "B7"
-    ],
     "color": [
      "B6"
     ],
-    "productWeight": [
-     "B12"
+    "materials": [
+     "B7"
     ],
-    "maxUserWeightLb": [
-     "B21"
-    ],
-    "keyDimensions": [
-     "B14"
-    ],
-    "footprint": [
-     "B16"
+    "latex": [
+     "B10"
     ],
     "shippingWeight": [
      "B11"
     ],
+    "productWeight": [
+     "B12"
+    ],
+    "flywheelWeight": [
+     "B13"
+    ],
+    "keyDimensions": [
+     "B14"
+    ],
     "shippingDimensions": [
      "B17"
     ],
-    "latex": [
-     "B10"
+    "seatDimensions": [
+     "B18"
+    ],
+    "footprint": [
+     "B16"
+    ],
+    "maxUserWeightLb": [
+     "B21"
     ],
     "resistanceType": [
      "B22"
@@ -821,14 +882,11 @@
     "speedResistanceLevels": [
      "B23"
     ],
-    "flywheelWeight": [
-     "B13"
-    ],
     "magnets": [
      "B25"
     ],
-    "display": [
-     "B42"
+    "battery": [
+     "D27"
     ],
     "screenType": [
      "B20"
@@ -836,8 +894,8 @@
     "screenSize": [
      "B19"
     ],
-    "battery": [
-     "D27"
+    "display": [
+     "B42"
     ],
     "programs": [
      "B24"
@@ -861,37 +919,43 @@
     "cell": "B5",
     "text": "SF-RBE420035"
    },
-   "fieldsFilled": 22,
+   "fieldsFilled": 23,
    "cells": {
     "brand": [
      "B3"
     ],
-    "materials": [
-     "B7"
-    ],
     "color": [
      "B6"
     ],
-    "productWeight": [
-     "B10"
+    "materials": [
+     "B7"
     ],
-    "maxUserWeightLb": [
-     "B19"
-    ],
-    "keyDimensions": [
-     "B12"
-    ],
-    "footprint": [
-     "B14"
+    "latex": [
+     "B8"
     ],
     "shippingWeight": [
      "B9"
     ],
+    "productWeight": [
+     "B10"
+    ],
+    "flywheelWeight": [
+     "B11"
+    ],
+    "keyDimensions": [
+     "B12"
+    ],
     "shippingDimensions": [
      "B15"
     ],
-    "latex": [
-     "B8"
+    "seatDimensions": [
+     "B16"
+    ],
+    "footprint": [
+     "B14"
+    ],
+    "maxUserWeightLb": [
+     "B19"
     ],
     "resistanceType": [
      "B20"
@@ -899,18 +963,15 @@
     "speedResistanceLevels": [
      "B21"
     ],
-    "flywheelWeight": [
-     "B11"
+    "magnets": [
+     "B23"
     ],
     "stepHeight": [
      "B64",
      "D64"
     ],
-    "magnets": [
-     "B23"
-    ],
-    "display": [
-     "B40"
+    "battery": [
+     "D25"
     ],
     "screenType": [
      "B18"
@@ -918,14 +979,14 @@
     "screenSize": [
      "B17"
     ],
-    "battery": [
-     "D25"
-    ],
-    "bluetooth": [
-     "D31"
+    "display": [
+     "B40"
     ],
     "programs": [
      "B22"
+    ],
+    "bluetooth": [
+     "D31"
     ],
     "features": [
      "B42"
@@ -943,34 +1004,40 @@
     "cell": "B5",
     "text": "SF-RBE4886 SMART"
    },
-   "fieldsFilled": 22,
+   "fieldsFilled": 23,
    "cells": {
     "brand": [
      "B3"
     ],
-    "materials": [
-     "B7"
-    ],
     "color": [
      "B6"
     ],
-    "productWeight": [
-     "B10"
-    ],
-    "maxUserWeightLb": [
-     "B19"
-    ],
-    "keyDimensions": [
-     "B12"
-    ],
-    "footprint": [
-     "B14"
+    "materials": [
+     "B7"
     ],
     "shippingWeight": [
      "B9"
     ],
+    "productWeight": [
+     "B10"
+    ],
+    "flywheelWeight": [
+     "B11"
+    ],
+    "keyDimensions": [
+     "B12"
+    ],
     "shippingDimensions": [
      "B15"
+    ],
+    "seatDimensions": [
+     "B16"
+    ],
+    "footprint": [
+     "B14"
+    ],
+    "maxUserWeightLb": [
+     "B19"
     ],
     "resistanceType": [
      "B20"
@@ -978,18 +1045,12 @@
     "speedResistanceLevels": [
      "B21"
     ],
-    "flywheelWeight": [
-     "B11"
+    "magnets": [
+     "B23"
     ],
     "stepHeight": [
      "B64",
      "D64"
-    ],
-    "magnets": [
-     "B23"
-    ],
-    "display": [
-     "B40"
     ],
     "screenType": [
      "B18"
@@ -997,17 +1058,20 @@
     "screenSize": [
      "B17"
     ],
-    "bluetooth": [
-     "D31"
+    "display": [
+     "B40"
     ],
     "programs": [
      "B22"
     ],
-    "powerCord": [
-     "B39"
+    "bluetooth": [
+     "D31"
     ],
     "plugType": [
      "D35"
+    ],
+    "powerCord": [
+     "B39"
     ],
     "features": [
      "B42"
@@ -1025,34 +1089,37 @@
     "cell": "B8",
     "text": "SF-E324029"
    },
-   "fieldsFilled": 30,
+   "fieldsFilled": 38,
    "cells": {
     "brand": [
      "B7"
     ],
-    "materials": [
-     "B12"
+    "upc": [
+     "B10"
     ],
     "color": [
      "B11"
     ],
-    "productWeight": [
-     "B15"
-    ],
-    "keyDimensions": [
-     "B17"
-    ],
-    "footprint": [
-     "B21"
+    "materials": [
+     "B12"
     ],
     "shippingWeight": [
      "B14"
     ],
+    "productWeight": [
+     "B15"
+    ],
+    "flywheelWeight": [
+     "B16"
+    ],
+    "keyDimensions": [
+     "B17"
+    ],
     "shippingDimensions": [
      "B19"
     ],
-    "upc": [
-     "B10"
+    "footprint": [
+     "B21"
     ],
     "resistanceType": [
      "B24"
@@ -1060,21 +1127,36 @@
     "speedResistanceLevels": [
      "B25"
     ],
+    "crankLength": [
+     "B32"
+    ],
+    "pedalBothDirections": [
+     "B34"
+    ],
+    "selfLevelingPedals": [
+     "B35"
+    ],
+    "footStraps": [
+     "B36"
+    ],
     "stride": [
      "B37"
-    ],
-    "flywheelWeight": [
-     "B16"
-    ],
-    "transportWheels": [
-     "B40"
     ],
     "stepHeight": [
      "B38",
      "B39"
     ],
-    "display": [
-     "B48"
+    "transportWheels": [
+     "B40"
+    ],
+    "controlOnHandlebar": [
+     "B41"
+    ],
+    "meterSize": [
+     "B43"
+    ],
+    "battery": [
+     "B45"
     ],
     "screenType": [
      "B46"
@@ -1082,11 +1164,29 @@
     "screenSize": [
      "B47"
     ],
-    "battery": [
-     "B45"
+    "display": [
+     "B48"
     ],
     "bluetooth": [
      "B50"
+    ],
+    "bluetoothApp": [
+     "B52"
+    ],
+    "ftms": [
+     "B53"
+    ],
+    "wifi": [
+     "B54"
+    ],
+    "fan": [
+     "B55"
+    ],
+    "speakers": [
+     "B56"
+    ],
+    "usb": [
+     "B57"
     ],
     "heartRate": [
      "B58"
@@ -1099,18 +1199,6 @@
     ],
     "bottleHolder": [
      "B62"
-    ],
-    "speakers": [
-     "B56"
-    ],
-    "usb": [
-     "B57"
-    ],
-    "ftms": [
-     "B53"
-    ],
-    "wifi": [
-     "B54"
     ],
     "features": [
      "B74"
@@ -1136,20 +1224,20 @@
     "brand": [
      "B3"
     ],
+    "color": [
+     "B6"
+    ],
     "materials": [
      "B7"
     ],
-    "color": [
-     "B6"
+    "shippingWeight": [
+     "B11"
     ],
     "productWeight": [
      "B12"
     ],
     "keyDimensions": [
      "B14"
-    ],
-    "shippingWeight": [
-     "B11"
     ],
     "shippingDimensions": [
      "B16"
@@ -1167,8 +1255,8 @@
      "B63",
      "D63"
     ],
-    "display": [
-     "B41"
+    "battery": [
+     "D26"
     ],
     "screenType": [
      "B19"
@@ -1176,8 +1264,8 @@
     "screenSize": [
      "B18"
     ],
-    "battery": [
-     "D26"
+    "display": [
+     "B41"
     ],
     "programs": [
      "B23"
@@ -1203,14 +1291,29 @@
     "brand": [
      "B3"
     ],
-    "materials": [
-     "B7"
-    ],
     "color": [
      "B6"
     ],
+    "materials": [
+     "B7"
+    ],
+    "shippingWeight": [
+     "B9"
+    ],
     "productWeight": [
      "B10"
+    ],
+    "flywheelWeight": [
+     "B11"
+    ],
+    "keyDimensions": [
+     "B12"
+    ],
+    "shippingDimensions": [
+     "B14"
+    ],
+    "footprint": [
+     "B16"
     ],
     "maxUserWeightLb": [
      "B19"
@@ -1218,39 +1321,24 @@
     "maxUserHeight": [
      "B20"
     ],
-    "keyDimensions": [
-     "B12"
-    ],
-    "footprint": [
-     "B16"
-    ],
-    "shippingWeight": [
-     "B9"
-    ],
-    "shippingDimensions": [
-     "B14"
-    ],
     "resistanceType": [
      "B21"
     ],
     "speedResistanceLevels": [
      "B22"
     ],
+    "magnets": [
+     "B24"
+    ],
     "stride": [
      "B65"
-    ],
-    "flywheelWeight": [
-     "B11"
     ],
     "stepHeight": [
      "C66",
      "E66"
     ],
-    "magnets": [
-     "B24"
-    ],
-    "display": [
-     "B42"
+    "battery": [
+     "E26"
     ],
     "screenType": [
      "B18"
@@ -1258,8 +1346,8 @@
     "screenSize": [
      "B17"
     ],
-    "battery": [
-     "E26"
+    "display": [
+     "B42"
     ],
     "bluetooth": [
      "E33"
@@ -1285,14 +1373,29 @@
     "brand": [
      "B3"
     ],
-    "materials": [
-     "B7"
-    ],
     "color": [
      "B6"
     ],
+    "materials": [
+     "B7"
+    ],
+    "shippingWeight": [
+     "B9"
+    ],
     "productWeight": [
      "B10"
+    ],
+    "flywheelWeight": [
+     "B11"
+    ],
+    "keyDimensions": [
+     "B12"
+    ],
+    "shippingDimensions": [
+     "B14"
+    ],
+    "footprint": [
+     "B16"
     ],
     "maxUserWeightLb": [
      "B19"
@@ -1300,39 +1403,24 @@
     "maxUserHeight": [
      "B20"
     ],
-    "keyDimensions": [
-     "B12"
-    ],
-    "footprint": [
-     "B16"
-    ],
-    "shippingWeight": [
-     "B9"
-    ],
-    "shippingDimensions": [
-     "B14"
-    ],
     "resistanceType": [
      "B21"
     ],
     "speedResistanceLevels": [
      "B22"
     ],
+    "magnets": [
+     "B24"
+    ],
     "stride": [
      "B65"
-    ],
-    "flywheelWeight": [
-     "B11"
     ],
     "stepHeight": [
      "C66",
      "E66"
     ],
-    "magnets": [
-     "B24"
-    ],
-    "display": [
-     "B42"
+    "battery": [
+     "E26"
     ],
     "screenType": [
      "B18"
@@ -1340,8 +1428,8 @@
     "screenSize": [
      "B17"
     ],
-    "battery": [
-     "E26"
+    "display": [
+     "B42"
     ],
     "bluetooth": [
      "E33"
@@ -1367,20 +1455,23 @@
     "brand": [
      "B3"
     ],
+    "color": [
+     "B6"
+    ],
     "materials": [
      "B7"
     ],
-    "color": [
-     "B6"
+    "shippingWeight": [
+     "B11"
     ],
     "productWeight": [
      "B12"
     ],
+    "flywheelWeight": [
+     "B13"
+    ],
     "keyDimensions": [
      "B14"
-    ],
-    "shippingWeight": [
-     "B11"
     ],
     "shippingDimensions": [
      "B16"
@@ -1391,21 +1482,18 @@
     "speedResistanceLevels": [
      "B22"
     ],
+    "magnets": [
+     "B24"
+    ],
     "stride": [
      "B61"
-    ],
-    "flywheelWeight": [
-     "B13"
     ],
     "stepHeight": [
      "B62",
      "D62"
     ],
-    "magnets": [
-     "B24"
-    ],
-    "display": [
-     "B41"
+    "battery": [
+     "D26"
     ],
     "screenType": [
      "B19"
@@ -1413,8 +1501,8 @@
     "screenSize": [
      "B18"
     ],
-    "battery": [
-     "D26"
+    "display": [
+     "B41"
     ],
     "bluetooth": [
      "D32"
@@ -3103,7 +3191,7 @@
     "cell": "B5",
     "text": "SF-B1805 SMART"
    },
-   "fieldsFilled": 21,
+   "fieldsFilled": 20,
    "cells": {
     "brand": [
      "B3"
@@ -3167,9 +3255,6 @@
     ],
     "features": [
      "B36"
-    ],
-    "certification": [
-     "B35"
     ]
    }
   },
@@ -4365,7 +4450,7 @@
     "cell": "B8",
     "text": "SF-B024041"
    },
-   "fieldsFilled": 32,
+   "fieldsFilled": 31,
    "cells": {
     "brand": [
      "B7"
@@ -4459,9 +4544,6 @@
     ],
     "features": [
      "B74"
-    ],
-    "certification": [
-     "B73"
     ]
    }
   },
@@ -8300,17 +8382,17 @@
     "brand": [
      "B3"
     ],
-    "materials": [
-     "B7"
-    ],
     "color": [
      "B6"
     ],
+    "materials": [
+     "B7"
+    ],
+    "shippingWeight": [
+     "B9"
+    ],
     "productWeight": [
      "B10"
-    ],
-    "maxUserWeightLb": [
-     "B19"
     ],
     "keyDimensions": [
      "B12"
@@ -8318,14 +8400,35 @@
     "foldedDimensions": [
      "B13"
     ],
+    "shippingDimensions": [
+     "B14"
+    ],
     "footprint": [
      "B16"
     ],
-    "shippingWeight": [
-     "B9"
+    "maxUserWeightLb": [
+     "B19"
     ],
-    "shippingDimensions": [
-     "B14"
+    "speedRange": [
+     "B76"
+    ],
+    "inclineLevels": [
+     "B78"
+    ],
+    "inclineDegrees": [
+     "B80"
+    ],
+    "inclineRange": [
+     "B81"
+    ],
+    "electrical": [
+     "B82"
+    ],
+    "watts": [
+     "B83"
+    ],
+    "amps": [
+     "B84"
     ],
     "motorType": [
      "C85"
@@ -8342,23 +8445,17 @@
      "D86",
      "E86"
     ],
-    "speedRange": [
-     "B76"
-    ],
-    "inclineRange": [
-     "B81"
-    ],
-    "inclineLevels": [
-     "B78"
-    ],
-    "inclineDegrees": [
-     "B80"
+    "beltDimensions": [
+     "B87"
     ],
     "runningSurface": [
      "B88"
     ],
-    "beltDimensions": [
-     "B87"
+    "quickButtons": [
+     "B89"
+    ],
+    "storage": [
+     "B94"
     ],
     "deckType": [
      "B98"
@@ -8367,38 +8464,23 @@
      "B99",
      "D99"
     ],
-    "quickButtons": [
-     "B89"
-    ],
-    "storage": [
-     "B94"
-    ],
-    "display": [
-     "B42"
+    "screenSize": [
+     "B17"
     ],
     "screenType": [
      "B18"
     ],
-    "screenSize": [
-     "B17"
+    "programs": [
+     "B23"
     ],
     "bluetooth": [
      "E33"
     ],
-    "programs": [
-     "B23"
-    ],
-    "electrical": [
-     "B82"
-    ],
-    "watts": [
-     "B83"
-    ],
-    "amps": [
-     "B84"
-    ],
     "powerCord": [
      "B41"
+    ],
+    "display": [
+     "B42"
     ],
     "features": [
      "B44"
@@ -8419,76 +8501,37 @@
     "cell": "B8",
     "text": "SF-T724081"
    },
-   "fieldsFilled": 49,
+   "fieldsFilled": 55,
    "cells": {
     "brand": [
      "B7"
     ],
-    "materials": [
-     "B12"
+    "upc": [
+     "B10"
     ],
     "color": [
      "B11"
     ],
-    "productWeight": [
-     "B15"
-    ],
-    "maxUserWeightLb": [
-     "B44"
-    ],
-    "keyDimensions": [
-     "B16"
-    ],
-    "footprint": [
-     "B19"
+    "materials": [
+     "B12"
     ],
     "shippingWeight": [
      "B14"
     ],
+    "productWeight": [
+     "B15"
+    ],
+    "keyDimensions": [
+     "B16"
+    ],
     "shippingDimensions": [
      "B18"
     ],
-    "upc": [
-     "B10"
+    "footprint": [
+     "B19"
     ],
-    "motorType": [
-     "B43"
-    ],
-    "peakHp": [
-     "B42"
-    ],
-    "continuousHp": [
-     "B41"
-    ],
-    "speedRange": [
-     "B50"
-    ],
-    "inclineType": [
-     "B45"
-    ],
-    "inclineRange": [
-     "B46"
-    ],
-    "inclineLevels": [
-     "B48"
-    ],
-    "inclineDegrees": [
-     "B47"
-    ],
-    "runningSurface": [
-     "B37"
-    ],
-    "beltDimensions": [
-     "B38"
-    ],
-    "softDrop": [
-     "B34"
-    ],
-    "shockAbsorption": [
-     "B36"
-    ],
-    "foldable": [
-     "B24"
+    "maxUserWeightLb": [
+     "B44"
     ],
     "transportWheels": [
      "B28"
@@ -8496,54 +8539,20 @@
     "treadmillType": [
      "B20"
     ],
-    "deckType": [
-     "B32"
+    "speedRange": [
+     "B50"
     ],
-    "stepOnHeight": [
-     "B33"
+    "inclineType": [
+     "B45"
     ],
-    "rollerSize": [
-     "B39"
+    "inclineLevels": [
+     "B48"
     ],
-    "quickButtons": [
-     "B51",
-     "B49"
+    "inclineDegrees": [
+     "B47"
     ],
-    "handlebarHeight": [
-     "B23"
-    ],
-    "display": [
-     "B57"
-    ],
-    "screenType": [
-     "B52"
-    ],
-    "screenSize": [
-     "B53"
-    ],
-    "bluetooth": [
-     "B59"
-    ],
-    "heartRate": [
-     "B68"
-    ],
-    "wirelessHeartRate": [
-     "B69"
-    ],
-    "deviceHolder": [
-     "B78"
-    ],
-    "bottleHolder": [
-     "B70"
-    ],
-    "programs": [
-     "B64"
-    ],
-    "speakers": [
-     "B66"
-    ],
-    "usb": [
-     "B67"
+    "inclineRange": [
+     "B46"
     ],
     "electrical": [
      "B74"
@@ -8554,8 +8563,75 @@
     "amps": [
      "B76"
     ],
-    "powerCord": [
-     "B73"
+    "motorType": [
+     "B43"
+    ],
+    "peakHp": [
+     "B42"
+    ],
+    "continuousHp": [
+     "B41"
+    ],
+    "beltDimensions": [
+     "B38"
+    ],
+    "runningSurface": [
+     "B37"
+    ],
+    "quickButtons": [
+     "B51",
+     "B49"
+    ],
+    "softDrop": [
+     "B34"
+    ],
+    "shockAbsorption": [
+     "B36"
+    ],
+    "motorized": [
+     "B40"
+    ],
+    "foldable": [
+     "B24"
+    ],
+    "deckType": [
+     "B32"
+    ],
+    "stepOnHeight": [
+     "B33"
+    ],
+    "rollerSize": [
+     "B39"
+    ],
+    "handlebarHeight": [
+     "B23"
+    ],
+    "screenSize": [
+     "B53"
+    ],
+    "screenType": [
+     "B52"
+    ],
+    "programs": [
+     "B64"
+    ],
+    "deviceHolder": [
+     "B78"
+    ],
+    "bottleHolder": [
+     "B70"
+    ],
+    "heartRate": [
+     "B68"
+    ],
+    "wirelessHeartRate": [
+     "B69"
+    ],
+    "bluetooth": [
+     "B59"
+    ],
+    "bluetoothApp": [
+     "B61"
     ],
     "ftms": [
      "B62"
@@ -8565,6 +8641,30 @@
     ],
     "plugType": [
      "B72"
+    ],
+    "powerCord": [
+     "B73"
+    ],
+    "display": [
+     "B57"
+    ],
+    "speakers": [
+     "B66"
+    ],
+    "usb": [
+     "B67"
+    ],
+    "remoteControl": [
+     "B79"
+    ],
+    "controlOnHandlebar": [
+     "B26"
+    ],
+    "fan": [
+     "B65"
+    ],
+    "energySaver": [
+     "B77"
     ],
     "features": [
      "B83"
@@ -8587,20 +8687,20 @@
     "brand": [
      "B3"
     ],
-    "materials": [
-     "B7"
-    ],
     "color": [
      "B6"
     ],
+    "materials": [
+     "B7"
+    ],
+    "latex": [
+     "B8"
+    ],
+    "shippingWeight": [
+     "B9"
+    ],
     "productWeight": [
      "B10"
-    ],
-    "maxUserWeightLb": [
-     "B19"
-    ],
-    "maxUserHeight": [
-     "B20"
     ],
     "keyDimensions": [
      "B12"
@@ -8608,17 +8708,35 @@
     "foldedDimensions": [
      "B13"
     ],
-    "footprint": [
-     "B16"
-    ],
-    "shippingWeight": [
-     "B9"
-    ],
     "shippingDimensions": [
      "B14"
     ],
-    "latex": [
-     "B8"
+    "footprint": [
+     "B16"
+    ],
+    "maxUserWeightLb": [
+     "B19"
+    ],
+    "maxUserHeight": [
+     "B20"
+    ],
+    "speedRange": [
+     "B76"
+    ],
+    "inclineLevels": [
+     "B78"
+    ],
+    "inclineDegrees": [
+     "B80"
+    ],
+    "electrical": [
+     "B81"
+    ],
+    "watts": [
+     "B82"
+    ],
+    "amps": [
+     "B83"
     ],
     "motorType": [
      "D84"
@@ -8635,20 +8753,17 @@
      "D85",
      "E85"
     ],
-    "speedRange": [
-     "B76"
-    ],
-    "inclineLevels": [
-     "B78"
-    ],
-    "inclineDegrees": [
-     "B80"
+    "beltDimensions": [
+     "B86"
     ],
     "runningSurface": [
      "C87"
     ],
-    "beltDimensions": [
-     "B86"
+    "quickButtons": [
+     "B88"
+    ],
+    "storage": [
+     "B93"
     ],
     "deckType": [
      "B97"
@@ -8657,38 +8772,23 @@
      "B98",
      "D98"
     ],
-    "quickButtons": [
-     "B88"
-    ],
-    "storage": [
-     "B93"
-    ],
-    "display": [
-     "B42"
+    "screenSize": [
+     "B17"
     ],
     "screenType": [
      "B18"
     ],
-    "screenSize": [
-     "B17"
+    "programs": [
+     "B23"
     ],
     "bluetooth": [
      "E33"
     ],
-    "programs": [
-     "B23"
-    ],
-    "electrical": [
-     "B81"
-    ],
-    "watts": [
-     "B82"
-    ],
-    "amps": [
-     "B83"
-    ],
     "powerCord": [
      "B41"
+    ],
+    "display": [
+     "B42"
     ],
     "features": [
      "B44"
@@ -8706,22 +8806,25 @@
     "cell": "B8",
     "text": "SF-T723017"
    },
-   "fieldsFilled": 52,
+   "fieldsFilled": 58,
    "cells": {
     "brand": [
      "B7"
     ],
-    "materials": [
-     "B12"
+    "upc": [
+     "B10"
     ],
     "color": [
      "B11"
     ],
+    "materials": [
+     "B12"
+    ],
+    "shippingWeight": [
+     "B15"
+    ],
     "productWeight": [
      "B16"
-    ],
-    "maxUserWeightLb": [
-     "B45"
     ],
     "keyDimensions": [
      "B17"
@@ -8729,56 +8832,14 @@
     "foldedDimensions": [
      "B18"
     ],
-    "footprint": [
-     "B20"
-    ],
-    "shippingWeight": [
-     "B15"
-    ],
     "shippingDimensions": [
      "B19"
     ],
-    "upc": [
-     "B10"
+    "footprint": [
+     "B20"
     ],
-    "motorType": [
-     "B44"
-    ],
-    "peakHp": [
-     "B43"
-    ],
-    "continuousHp": [
-     "B42"
-    ],
-    "speedRange": [
-     "B51"
-    ],
-    "inclineType": [
-     "B46"
-    ],
-    "inclineRange": [
-     "B47"
-    ],
-    "inclineLevels": [
-     "B49"
-    ],
-    "inclineDegrees": [
-     "B48"
-    ],
-    "runningSurface": [
-     "B38"
-    ],
-    "beltDimensions": [
-     "B39"
-    ],
-    "softDrop": [
-     "B35"
-    ],
-    "shockAbsorption": [
-     "B37"
-    ],
-    "foldable": [
-     "B25"
+    "maxUserWeightLb": [
+     "B45"
     ],
     "transportWheels": [
      "B29"
@@ -8786,57 +8847,20 @@
     "treadmillType": [
      "B21"
     ],
-    "deckType": [
-     "B33"
+    "speedRange": [
+     "B51"
     ],
-    "stepOnHeight": [
-     "B34"
+    "inclineType": [
+     "B46"
     ],
-    "rollerSize": [
-     "B40"
+    "inclineLevels": [
+     "B49"
     ],
-    "quickButtons": [
-     "B52",
-     "B50"
+    "inclineDegrees": [
+     "B48"
     ],
-    "storage": [
-     "B26"
-    ],
-    "handlebarHeight": [
-     "B24"
-    ],
-    "display": [
-     "B58"
-    ],
-    "screenType": [
-     "B53"
-    ],
-    "screenSize": [
-     "B54"
-    ],
-    "bluetooth": [
-     "B60"
-    ],
-    "heartRate": [
-     "B69"
-    ],
-    "wirelessHeartRate": [
-     "B70"
-    ],
-    "deviceHolder": [
-     "B79"
-    ],
-    "bottleHolder": [
-     "B71"
-    ],
-    "programs": [
-     "B65"
-    ],
-    "speakers": [
-     "B67"
-    ],
-    "usb": [
-     "B68"
+    "inclineRange": [
+     "B47"
     ],
     "electrical": [
      "B75"
@@ -8847,8 +8871,78 @@
     "amps": [
      "B77"
     ],
-    "powerCord": [
-     "B74"
+    "motorType": [
+     "B44"
+    ],
+    "peakHp": [
+     "B43"
+    ],
+    "continuousHp": [
+     "B42"
+    ],
+    "beltDimensions": [
+     "B39"
+    ],
+    "runningSurface": [
+     "B38"
+    ],
+    "quickButtons": [
+     "B52",
+     "B50"
+    ],
+    "softDrop": [
+     "B35"
+    ],
+    "shockAbsorption": [
+     "B37"
+    ],
+    "motorized": [
+     "B41"
+    ],
+    "foldable": [
+     "B25"
+    ],
+    "storage": [
+     "B26"
+    ],
+    "deckType": [
+     "B33"
+    ],
+    "stepOnHeight": [
+     "B34"
+    ],
+    "rollerSize": [
+     "B40"
+    ],
+    "handlebarHeight": [
+     "B24"
+    ],
+    "screenSize": [
+     "B54"
+    ],
+    "screenType": [
+     "B53"
+    ],
+    "programs": [
+     "B65"
+    ],
+    "deviceHolder": [
+     "B79"
+    ],
+    "bottleHolder": [
+     "B71"
+    ],
+    "heartRate": [
+     "B69"
+    ],
+    "wirelessHeartRate": [
+     "B70"
+    ],
+    "bluetooth": [
+     "B60"
+    ],
+    "bluetoothApp": [
+     "B62"
     ],
     "ftms": [
      "B63"
@@ -8858,6 +8952,30 @@
     ],
     "plugType": [
      "B73"
+    ],
+    "powerCord": [
+     "B74"
+    ],
+    "display": [
+     "B58"
+    ],
+    "speakers": [
+     "B67"
+    ],
+    "usb": [
+     "B68"
+    ],
+    "remoteControl": [
+     "B80"
+    ],
+    "controlOnHandlebar": [
+     "B27"
+    ],
+    "fan": [
+     "B66"
+    ],
+    "energySaver": [
+     "B78"
     ],
     "features": [
      "B84"
@@ -8878,22 +8996,25 @@
     "cell": "B8",
     "text": "SF-T724012"
    },
-   "fieldsFilled": 50,
+   "fieldsFilled": 54,
    "cells": {
     "brand": [
      "B7"
     ],
-    "materials": [
-     "B12"
+    "upc": [
+     "B10"
     ],
     "color": [
      "B11"
     ],
+    "materials": [
+     "B12"
+    ],
+    "shippingWeight": [
+     "B15"
+    ],
     "productWeight": [
      "B16"
-    ],
-    "maxUserWeightLb": [
-     "B44"
     ],
     "keyDimensions": [
      "B17"
@@ -8901,56 +9022,14 @@
     "foldedDimensions": [
      "B18"
     ],
-    "footprint": [
-     "B20"
-    ],
-    "shippingWeight": [
-     "B15"
-    ],
     "shippingDimensions": [
      "B19"
     ],
-    "upc": [
-     "B10"
+    "footprint": [
+     "B20"
     ],
-    "motorType": [
-     "B43"
-    ],
-    "peakHp": [
-     "B42"
-    ],
-    "continuousHp": [
-     "B41"
-    ],
-    "speedRange": [
-     "B50"
-    ],
-    "inclineType": [
-     "B45"
-    ],
-    "inclineRange": [
-     "B46"
-    ],
-    "inclineLevels": [
-     "B48"
-    ],
-    "inclineDegrees": [
-     "B47"
-    ],
-    "runningSurface": [
-     "B37"
-    ],
-    "beltDimensions": [
-     "B38"
-    ],
-    "softDrop": [
-     "B34"
-    ],
-    "shockAbsorption": [
-     "B36"
-    ],
-    "foldable": [
-     "B24"
+    "maxUserWeightLb": [
+     "B44"
     ],
     "transportWheels": [
      "B28"
@@ -8958,54 +9037,20 @@
     "treadmillType": [
      "B14"
     ],
-    "deckType": [
-     "B32"
+    "speedRange": [
+     "B50"
     ],
-    "stepOnHeight": [
-     "B33"
+    "inclineType": [
+     "B45"
     ],
-    "rollerSize": [
-     "B39"
+    "inclineLevels": [
+     "B48"
     ],
-    "quickButtons": [
-     "B51",
-     "B49"
+    "inclineDegrees": [
+     "B47"
     ],
-    "storage": [
-     "B25"
-    ],
-    "handlebarHeight": [
-     "B23"
-    ],
-    "display": [
-     "B57"
-    ],
-    "screenType": [
-     "B52"
-    ],
-    "screenSize": [
-     "B53"
-    ],
-    "bluetooth": [
-     "B59"
-    ],
-    "heartRate": [
-     "B68"
-    ],
-    "wirelessHeartRate": [
-     "B69"
-    ],
-    "deviceHolder": [
-     "B78"
-    ],
-    "bottleHolder": [
-     "B70"
-    ],
-    "programs": [
-     "B64"
-    ],
-    "usb": [
-     "B67"
+    "inclineRange": [
+     "B46"
     ],
     "electrical": [
      "B74"
@@ -9016,8 +9061,78 @@
     "amps": [
      "B76"
     ],
-    "powerCord": [
-     "B73"
+    "motorType": [
+     "B43"
+    ],
+    "peakHp": [
+     "B42"
+    ],
+    "continuousHp": [
+     "B41"
+    ],
+    "beltDimensions": [
+     "B38"
+    ],
+    "runningSurface": [
+     "B37"
+    ],
+    "quickButtons": [
+     "B51",
+     "B49"
+    ],
+    "softDrop": [
+     "B34"
+    ],
+    "shockAbsorption": [
+     "B36"
+    ],
+    "motorized": [
+     "B40"
+    ],
+    "foldable": [
+     "B24"
+    ],
+    "storage": [
+     "B25"
+    ],
+    "deckType": [
+     "B32"
+    ],
+    "stepOnHeight": [
+     "B33"
+    ],
+    "rollerSize": [
+     "B39"
+    ],
+    "handlebarHeight": [
+     "B23"
+    ],
+    "screenSize": [
+     "B53"
+    ],
+    "screenType": [
+     "B52"
+    ],
+    "programs": [
+     "B64"
+    ],
+    "deviceHolder": [
+     "B78"
+    ],
+    "bottleHolder": [
+     "B70"
+    ],
+    "heartRate": [
+     "B68"
+    ],
+    "wirelessHeartRate": [
+     "B69"
+    ],
+    "bluetooth": [
+     "B59"
+    ],
+    "bluetoothApp": [
+     "B61"
     ],
     "ftms": [
      "B62"
@@ -9027,6 +9142,21 @@
     ],
     "plugType": [
      "B72"
+    ],
+    "powerCord": [
+     "B73"
+    ],
+    "display": [
+     "B57"
+    ],
+    "usb": [
+     "B67"
+    ],
+    "controlOnHandlebar": [
+     "B26"
+    ],
+    "energySaver": [
+     "B77"
     ],
     "features": [
      "B83"
@@ -9044,22 +9174,25 @@
     "cell": "B8",
     "text": "SF-T724011"
    },
-   "fieldsFilled": 50,
+   "fieldsFilled": 54,
    "cells": {
     "brand": [
      "B7"
     ],
-    "materials": [
-     "B12"
+    "upc": [
+     "B10"
     ],
     "color": [
      "B11"
     ],
+    "materials": [
+     "B12"
+    ],
+    "shippingWeight": [
+     "B14"
+    ],
     "productWeight": [
      "B15"
-    ],
-    "maxUserWeightLb": [
-     "B44"
     ],
     "keyDimensions": [
      "B16"
@@ -9067,56 +9200,14 @@
     "foldedDimensions": [
      "B17"
     ],
-    "footprint": [
-     "B19"
-    ],
-    "shippingWeight": [
-     "B14"
-    ],
     "shippingDimensions": [
      "B18"
     ],
-    "upc": [
-     "B10"
+    "footprint": [
+     "B19"
     ],
-    "motorType": [
-     "B43"
-    ],
-    "peakHp": [
-     "B42"
-    ],
-    "continuousHp": [
-     "B41"
-    ],
-    "speedRange": [
-     "B50"
-    ],
-    "inclineType": [
-     "B45"
-    ],
-    "inclineRange": [
-     "B46"
-    ],
-    "inclineLevels": [
-     "B48"
-    ],
-    "inclineDegrees": [
-     "B47"
-    ],
-    "runningSurface": [
-     "B37"
-    ],
-    "beltDimensions": [
-     "B38"
-    ],
-    "softDrop": [
-     "B34"
-    ],
-    "shockAbsorption": [
-     "B36"
-    ],
-    "foldable": [
-     "B24"
+    "maxUserWeightLb": [
+     "B44"
     ],
     "transportWheels": [
      "B28"
@@ -9124,53 +9215,20 @@
     "treadmillType": [
      "B20"
     ],
-    "deckType": [
-     "B32"
+    "speedRange": [
+     "B50"
     ],
-    "stepOnHeight": [
-     "B33"
+    "inclineType": [
+     "B45"
     ],
-    "rollerSize": [
-     "B39"
+    "inclineLevels": [
+     "B48"
     ],
-    "quickButtons": [
-     "B51"
+    "inclineDegrees": [
+     "B47"
     ],
-    "storage": [
-     "B25"
-    ],
-    "handlebarHeight": [
-     "B23"
-    ],
-    "display": [
-     "B57"
-    ],
-    "screenType": [
-     "B52"
-    ],
-    "screenSize": [
-     "B53"
-    ],
-    "bluetooth": [
-     "B59"
-    ],
-    "heartRate": [
-     "B68"
-    ],
-    "wirelessHeartRate": [
-     "B69"
-    ],
-    "deviceHolder": [
-     "B78"
-    ],
-    "bottleHolder": [
-     "B70"
-    ],
-    "programs": [
-     "B64"
-    ],
-    "usb": [
-     "B67"
+    "inclineRange": [
+     "B46"
     ],
     "electrical": [
      "B74"
@@ -9181,8 +9239,77 @@
     "amps": [
      "B76"
     ],
-    "powerCord": [
-     "B73"
+    "motorType": [
+     "B43"
+    ],
+    "peakHp": [
+     "B42"
+    ],
+    "continuousHp": [
+     "B41"
+    ],
+    "beltDimensions": [
+     "B38"
+    ],
+    "runningSurface": [
+     "B37"
+    ],
+    "quickButtons": [
+     "B51"
+    ],
+    "softDrop": [
+     "B34"
+    ],
+    "shockAbsorption": [
+     "B36"
+    ],
+    "motorized": [
+     "B40"
+    ],
+    "foldable": [
+     "B24"
+    ],
+    "storage": [
+     "B25"
+    ],
+    "deckType": [
+     "B32"
+    ],
+    "stepOnHeight": [
+     "B33"
+    ],
+    "rollerSize": [
+     "B39"
+    ],
+    "handlebarHeight": [
+     "B23"
+    ],
+    "screenSize": [
+     "B53"
+    ],
+    "screenType": [
+     "B52"
+    ],
+    "programs": [
+     "B64"
+    ],
+    "deviceHolder": [
+     "B78"
+    ],
+    "bottleHolder": [
+     "B70"
+    ],
+    "heartRate": [
+     "B68"
+    ],
+    "wirelessHeartRate": [
+     "B69"
+    ],
+    "bluetooth": [
+     "B59"
+    ],
+    "bluetoothApp": [
+     "B61"
     ],
     "ftms": [
      "B62"
@@ -9192,6 +9319,21 @@
     ],
     "plugType": [
      "B72"
+    ],
+    "powerCord": [
+     "B73"
+    ],
+    "display": [
+     "B57"
+    ],
+    "usb": [
+     "B67"
+    ],
+    "controlOnHandlebar": [
+     "B26"
+    ],
+    "energySaver": [
+     "B77"
     ],
     "features": [
      "B83"
@@ -9209,58 +9351,37 @@
     "cell": "B8",
     "text": "SF-T724064"
    },
-   "fieldsFilled": 44,
+   "fieldsFilled": 50,
    "cells": {
     "brand": [
      "B7"
     ],
-    "materials": [
-     "B12"
+    "upc": [
+     "B10"
     ],
     "color": [
      "B11"
     ],
-    "productWeight": [
-     "B16"
-    ],
-    "maxUserWeightLb": [
-     "B45"
-    ],
-    "keyDimensions": [
-     "B17"
-    ],
-    "footprint": [
-     "B20"
+    "materials": [
+     "B12"
     ],
     "shippingWeight": [
      "B15"
     ],
+    "productWeight": [
+     "B16"
+    ],
+    "keyDimensions": [
+     "B17"
+    ],
     "shippingDimensions": [
      "B19"
     ],
-    "upc": [
-     "B10"
+    "footprint": [
+     "B20"
     ],
-    "motorType": [
-     "B44"
-    ],
-    "peakHp": [
-     "B43"
-    ],
-    "continuousHp": [
-     "B42"
-    ],
-    "speedRange": [
-     "B51"
-    ],
-    "inclineDegrees": [
-     "B48"
-    ],
-    "runningSurface": [
-     "B38"
-    ],
-    "beltDimensions": [
-     "B39"
+    "maxUserWeightLb": [
+     "B45"
     ],
     "transportWheels": [
      "B29"
@@ -9268,53 +9389,11 @@
     "treadmillType": [
      "B21"
     ],
-    "deckType": [
-     "B33"
+    "speedRange": [
+     "B51"
     ],
-    "stepOnHeight": [
-     "B34"
-    ],
-    "rollerSize": [
-     "B40"
-    ],
-    "storage": [
-     "B26"
-    ],
-    "display": [
-     "B58"
-    ],
-    "screenType": [
-     "B53"
-    ],
-    "screenSize": [
-     "B54"
-    ],
-    "battery": [
-     "B57"
-    ],
-    "bluetooth": [
-     "B59"
-    ],
-    "heartRate": [
-     "B68"
-    ],
-    "wirelessHeartRate": [
-     "B69"
-    ],
-    "deviceHolder": [
-     "B78"
-    ],
-    "bottleHolder": [
-     "B70"
-    ],
-    "programs": [
-     "B64"
-    ],
-    "speakers": [
-     "B66"
-    ],
-    "usb": [
-     "B67"
+    "inclineDegrees": [
+     "B48"
     ],
     "electrical": [
      "B74"
@@ -9325,8 +9404,65 @@
     "amps": [
      "B76"
     ],
-    "powerCord": [
-     "B73"
+    "motorType": [
+     "B44"
+    ],
+    "peakHp": [
+     "B43"
+    ],
+    "continuousHp": [
+     "B42"
+    ],
+    "beltDimensions": [
+     "B39"
+    ],
+    "runningSurface": [
+     "B38"
+    ],
+    "motorized": [
+     "B41"
+    ],
+    "storage": [
+     "B26"
+    ],
+    "deckType": [
+     "B33"
+    ],
+    "stepOnHeight": [
+     "B34"
+    ],
+    "rollerSize": [
+     "B40"
+    ],
+    "screenSize": [
+     "B54"
+    ],
+    "screenType": [
+     "B53"
+    ],
+    "programs": [
+     "B64"
+    ],
+    "battery": [
+     "B57"
+    ],
+    "deviceHolder": [
+     "B78"
+    ],
+    "bottleHolder": [
+     "B70"
+    ],
+    "heartRate": [
+     "B68"
+    ],
+    "wirelessHeartRate": [
+     "B69"
+    ],
+    "bluetooth": [
+     "B59"
+    ],
+    "bluetoothApp": [
+     "B61"
     ],
     "ftms": [
      "B62"
@@ -9336,6 +9472,31 @@
     ],
     "plugType": [
      "B72"
+    ],
+    "powerCord": [
+     "B73"
+    ],
+    "display": [
+     "B58"
+    ],
+    "speakers": [
+     "B66"
+    ],
+    "usb": [
+     "B67"
+    ],
+    "remoteControl": [
+     "B79",
+     "B80"
+    ],
+    "controlOnHandlebar": [
+     "B27"
+    ],
+    "fan": [
+     "B65"
+    ],
+    "energySaver": [
+     "B77"
     ],
     "features": [
      "B83"
@@ -9356,31 +9517,49 @@
     "cell": "B4",
     "text": "SF-T722069"
    },
-   "fieldsFilled": 26,
+   "fieldsFilled": 27,
    "cells": {
     "brand": [
      "B2"
     ],
-    "materials": [
-     "B6"
-    ],
     "color": [
      "B5"
     ],
-    "productWeight": [
-     "B10"
-    ],
-    "maxUserWeightLb": [
-     "B18"
-    ],
-    "keyDimensions": [
-     "B12"
+    "materials": [
+     "B6"
     ],
     "shippingWeight": [
      "B9"
     ],
+    "productWeight": [
+     "B10"
+    ],
+    "keyDimensions": [
+     "B12"
+    ],
     "shippingDimensions": [
      "B14"
+    ],
+    "maxUserWeightLb": [
+     "B18"
+    ],
+    "speedRange": [
+     "B66"
+    ],
+    "inclineLevels": [
+     "B68"
+    ],
+    "inclineDegrees": [
+     "B70"
+    ],
+    "electrical": [
+     "B71"
+    ],
+    "watts": [
+     "B72"
+    ],
+    "amps": [
+     "B73"
     ],
     "motorType": [
      "B74"
@@ -9397,17 +9576,11 @@
      "D75",
      "E75"
     ],
-    "speedRange": [
-     "B66"
-    ],
-    "inclineLevels": [
-     "B68"
-    ],
-    "inclineDegrees": [
-     "B70"
-    ],
     "beltDimensions": [
      "B76"
+    ],
+    "storage": [
+     "B82"
     ],
     "deckType": [
      "B86"
@@ -9416,29 +9589,20 @@
      "B87",
      "D87"
     ],
-    "storage": [
-     "B82"
-    ],
-    "display": [
-     "B39"
+    "screenSize": [
+     "B16"
     ],
     "screenType": [
      "B17"
     ],
-    "screenSize": [
-     "B16"
-    ],
-    "electrical": [
-     "B71"
-    ],
-    "watts": [
-     "B72"
-    ],
-    "amps": [
-     "B73"
-    ],
     "powerCord": [
      "B38"
+    ],
+    "display": [
+     "B39"
+    ],
+    "remoteControl": [
+     "D35"
     ],
     "features": [
      "B41"
@@ -9456,22 +9620,22 @@
     "cell": "B4",
     "text": "SF-T722072"
    },
-   "fieldsFilled": 25,
+   "fieldsFilled": 26,
    "cells": {
     "brand": [
      "B2"
     ],
-    "materials": [
-     "B6"
-    ],
     "color": [
      "B5"
     ],
+    "materials": [
+     "B6"
+    ],
+    "shippingWeight": [
+     "B9"
+    ],
     "productWeight": [
      "B10"
-    ],
-    "maxUserWeightLb": [
-     "B18"
     ],
     "keyDimensions": [
      "B12"
@@ -9479,11 +9643,23 @@
     "foldedDimensions": [
      "B13"
     ],
-    "shippingWeight": [
-     "B9"
-    ],
     "shippingDimensions": [
      "B14"
+    ],
+    "maxUserWeightLb": [
+     "B18"
+    ],
+    "speedRange": [
+     "B66"
+    ],
+    "electrical": [
+     "B71"
+    ],
+    "watts": [
+     "B72"
+    ],
+    "amps": [
+     "B73"
     ],
     "motorType": [
      "B74"
@@ -9500,11 +9676,11 @@
      "D75",
      "E75"
     ],
-    "speedRange": [
-     "B66"
-    ],
     "beltDimensions": [
      "B76"
+    ],
+    "storage": [
+     "B82"
     ],
     "deckType": [
      "B86"
@@ -9512,29 +9688,21 @@
     "stepOnHeight": [
      "B87"
     ],
-    "storage": [
-     "B82"
-    ],
-    "display": [
-     "B39"
+    "screenSize": [
+     "B16"
     ],
     "screenType": [
      "B17"
     ],
-    "screenSize": [
-     "B16"
-    ],
-    "electrical": [
-     "B71"
-    ],
-    "watts": [
-     "B72"
-    ],
-    "amps": [
-     "B73"
-    ],
     "powerCord": [
      "B38"
+    ],
+    "display": [
+     "B39"
+    ],
+    "remoteControl": [
+     "D35",
+     "E35"
     ],
     "features": [
      "B41"
@@ -9552,22 +9720,22 @@
     "cell": "B4",
     "text": "SF-T722076"
    },
-   "fieldsFilled": 27,
+   "fieldsFilled": 28,
    "cells": {
     "brand": [
      "B2"
     ],
-    "materials": [
-     "B6"
-    ],
     "color": [
      "B5"
     ],
+    "materials": [
+     "B6"
+    ],
+    "shippingWeight": [
+     "B9"
+    ],
     "productWeight": [
      "B10"
-    ],
-    "maxUserWeightLb": [
-     "B18"
     ],
     "keyDimensions": [
      "B12"
@@ -9575,11 +9743,29 @@
     "foldedDimensions": [
      "B13"
     ],
-    "shippingWeight": [
-     "B9"
-    ],
     "shippingDimensions": [
      "B14"
+    ],
+    "maxUserWeightLb": [
+     "B18"
+    ],
+    "speedRange": [
+     "B66"
+    ],
+    "inclineLevels": [
+     "B68"
+    ],
+    "inclineDegrees": [
+     "B70"
+    ],
+    "electrical": [
+     "B71"
+    ],
+    "watts": [
+     "B72"
+    ],
+    "amps": [
+     "B73"
     ],
     "motorType": [
      "B74"
@@ -9596,17 +9782,11 @@
      "D75",
      "E75"
     ],
-    "speedRange": [
-     "B66"
-    ],
-    "inclineLevels": [
-     "B68"
-    ],
-    "inclineDegrees": [
-     "B70"
-    ],
     "beltDimensions": [
      "B76"
+    ],
+    "storage": [
+     "B82"
     ],
     "deckType": [
      "B86"
@@ -9615,29 +9795,21 @@
      "B87",
      "D87"
     ],
-    "storage": [
-     "B82"
-    ],
-    "display": [
-     "B39"
+    "screenSize": [
+     "B16"
     ],
     "screenType": [
      "B17"
     ],
-    "screenSize": [
-     "B16"
-    ],
-    "electrical": [
-     "B71"
-    ],
-    "watts": [
-     "B72"
-    ],
-    "amps": [
-     "B73"
-    ],
     "powerCord": [
      "B38"
+    ],
+    "display": [
+     "B39"
+    ],
+    "remoteControl": [
+     "D35",
+     "E35"
     ],
     "features": [
      "B41"
@@ -9655,22 +9827,22 @@
     "cell": "B5",
     "text": "SF-T723007"
    },
-   "fieldsFilled": 27,
+   "fieldsFilled": 28,
    "cells": {
     "brand": [
      "B3"
     ],
-    "materials": [
-     "B7"
-    ],
     "color": [
      "B6"
     ],
+    "materials": [
+     "B7"
+    ],
+    "shippingWeight": [
+     "B10"
+    ],
     "productWeight": [
      "B11"
-    ],
-    "maxUserWeightLb": [
-     "B20"
     ],
     "keyDimensions": [
      "B13"
@@ -9678,14 +9850,26 @@
     "foldedDimensions": [
      "B14"
     ],
+    "shippingDimensions": [
+     "B15"
+    ],
     "footprint": [
      "B17"
     ],
-    "shippingWeight": [
-     "B10"
+    "maxUserWeightLb": [
+     "B20"
     ],
-    "shippingDimensions": [
-     "B15"
+    "speedRange": [
+     "B69"
+    ],
+    "electrical": [
+     "B74"
+    ],
+    "watts": [
+     "B75"
+    ],
+    "amps": [
+     "B76"
     ],
     "motorType": [
      "B77"
@@ -9702,11 +9886,11 @@
      "D78",
      "E78"
     ],
-    "speedRange": [
-     "B69"
-    ],
     "beltDimensions": [
      "B79"
+    ],
+    "storage": [
+     "B85"
     ],
     "deckType": [
      "B89"
@@ -9714,32 +9898,24 @@
     "stepOnHeight": [
      "B90"
     ],
-    "storage": [
-     "B85"
-    ],
-    "display": [
-     "B41"
+    "screenSize": [
+     "B18"
     ],
     "screenType": [
      "B19"
     ],
-    "screenSize": [
-     "B18"
-    ],
     "battery": [
      "D26"
     ],
-    "electrical": [
-     "B74"
-    ],
-    "watts": [
-     "B75"
-    ],
-    "amps": [
-     "B76"
-    ],
     "powerCord": [
      "B40"
+    ],
+    "display": [
+     "B41"
+    ],
+    "remoteControl": [
+     "D37",
+     "E37"
     ],
     "features": [
      "B43"
@@ -9757,22 +9933,25 @@
     "cell": "B8",
     "text": "SF-T722022"
    },
-   "fieldsFilled": 50,
+   "fieldsFilled": 55,
    "cells": {
     "brand": [
      "B7"
     ],
-    "materials": [
-     "B12"
+    "upc": [
+     "B10"
     ],
     "color": [
      "B11"
     ],
+    "materials": [
+     "B12"
+    ],
+    "shippingWeight": [
+     "B15"
+    ],
     "productWeight": [
      "B16"
-    ],
-    "maxUserWeightLb": [
-     "B46"
     ],
     "keyDimensions": [
      "B17"
@@ -9780,53 +9959,14 @@
     "foldedDimensions": [
      "B18"
     ],
-    "footprint": [
-     "B20"
-    ],
-    "shippingWeight": [
-     "B15"
-    ],
     "shippingDimensions": [
      "B19"
     ],
-    "upc": [
-     "B10"
+    "footprint": [
+     "B20"
     ],
-    "motorType": [
-     "B45"
-    ],
-    "peakHp": [
-     "B44"
-    ],
-    "continuousHp": [
-     "B43"
-    ],
-    "speedRange": [
-     "B52"
-    ],
-    "inclineType": [
-     "B47"
-    ],
-    "inclineRange": [
-     "B48"
-    ],
-    "inclineLevels": [
-     "B50"
-    ],
-    "inclineDegrees": [
-     "B49"
-    ],
-    "runningSurface": [
-     "B39"
-    ],
-    "beltDimensions": [
-     "B40"
-    ],
-    "softDrop": [
-     "B36"
-    ],
-    "foldable": [
-     "B25"
+    "maxUserWeightLb": [
+     "B46"
     ],
     "transportWheels": [
      "B29"
@@ -9834,57 +9974,20 @@
     "treadmillType": [
      "B21"
     ],
-    "deckType": [
-     "B33"
+    "speedRange": [
+     "B52"
     ],
-    "stepOnHeight": [
-     "B34"
+    "inclineType": [
+     "B47"
     ],
-    "rollerSize": [
-     "B41"
+    "inclineLevels": [
+     "B50"
     ],
-    "quickButtons": [
-     "B53",
-     "B51"
+    "inclineDegrees": [
+     "B49"
     ],
-    "storage": [
-     "B26"
-    ],
-    "handlebarHeight": [
-     "B24"
-    ],
-    "display": [
-     "B59"
-    ],
-    "screenType": [
-     "B54"
-    ],
-    "screenSize": [
-     "B55"
-    ],
-    "bluetooth": [
-     "B60"
-    ],
-    "heartRate": [
-     "B69"
-    ],
-    "wirelessHeartRate": [
-     "B70"
-    ],
-    "deviceHolder": [
-     "B79"
-    ],
-    "bottleHolder": [
-     "B71"
-    ],
-    "programs": [
-     "B65"
-    ],
-    "speakers": [
-     "B67"
-    ],
-    "usb": [
-     "B68"
+    "inclineRange": [
+     "B48"
     ],
     "electrical": [
      "B75"
@@ -9895,14 +9998,102 @@
     "amps": [
      "B77"
     ],
-    "powerCord": [
-     "B74"
+    "motorType": [
+     "B45"
+    ],
+    "peakHp": [
+     "B44"
+    ],
+    "continuousHp": [
+     "B43"
+    ],
+    "beltDimensions": [
+     "B40"
+    ],
+    "runningSurface": [
+     "B39"
+    ],
+    "quickButtons": [
+     "B53",
+     "B51"
+    ],
+    "softDrop": [
+     "B36"
+    ],
+    "motorized": [
+     "B42"
+    ],
+    "foldable": [
+     "B25"
+    ],
+    "storage": [
+     "B26"
+    ],
+    "deckType": [
+     "B33"
+    ],
+    "stepOnHeight": [
+     "B34"
+    ],
+    "rollerSize": [
+     "B41"
+    ],
+    "handlebarHeight": [
+     "B24"
+    ],
+    "screenSize": [
+     "B55"
+    ],
+    "screenType": [
+     "B54"
+    ],
+    "programs": [
+     "B65"
+    ],
+    "deviceHolder": [
+     "B79"
+    ],
+    "bottleHolder": [
+     "B71"
+    ],
+    "heartRate": [
+     "B69"
+    ],
+    "wirelessHeartRate": [
+     "B70"
+    ],
+    "bluetooth": [
+     "B60"
+    ],
+    "bluetoothApp": [
+     "B62"
     ],
     "wifi": [
      "B64"
     ],
     "plugType": [
      "B73"
+    ],
+    "powerCord": [
+     "B74"
+    ],
+    "display": [
+     "B59"
+    ],
+    "speakers": [
+     "B67"
+    ],
+    "usb": [
+     "B68"
+    ],
+    "remoteControl": [
+     "B80"
+    ],
+    "fan": [
+     "B66"
+    ],
+    "energySaver": [
+     "B78"
     ],
     "features": [
      "B84"
@@ -9928,17 +10119,17 @@
     "brand": [
      "B3"
     ],
-    "materials": [
-     "B7"
-    ],
     "color": [
      "B6"
     ],
+    "materials": [
+     "B7"
+    ],
+    "shippingWeight": [
+     "B9"
+    ],
     "productWeight": [
      "B10"
-    ],
-    "maxUserWeightLb": [
-     "B19"
     ],
     "keyDimensions": [
      "B12"
@@ -9946,23 +10137,26 @@
     "foldedDimensions": [
      "B13"
     ],
+    "shippingDimensions": [
+     "B14"
+    ],
     "footprint": [
      "B16"
     ],
-    "shippingWeight": [
-     "B9"
-    ],
-    "shippingDimensions": [
-     "B14"
+    "maxUserWeightLb": [
+     "B19"
     ],
     "inclineDegrees": [
      "B80"
     ],
+    "beltDimensions": [
+     "B86"
+    ],
     "runningSurface": [
      "B87"
     ],
-    "beltDimensions": [
-     "B86"
+    "storage": [
+     "B93"
     ],
     "deckType": [
      "B97"
@@ -9970,23 +10164,20 @@
     "stepOnHeight": [
      "B98"
     ],
-    "storage": [
-     "B93"
-    ],
-    "display": [
-     "B42"
+    "screenSize": [
+     "B17"
     ],
     "screenType": [
      "B18"
-    ],
-    "screenSize": [
-     "B17"
     ],
     "battery": [
      "E26"
     ],
     "bluetooth": [
      "E33"
+    ],
+    "display": [
+     "B42"
     ],
     "features": [
      "B44"
@@ -10009,17 +10200,17 @@
     "brand": [
      "B2"
     ],
-    "materials": [
-     "B6"
-    ],
     "color": [
      "B5"
     ],
+    "materials": [
+     "B6"
+    ],
+    "shippingWeight": [
+     "B9"
+    ],
     "productWeight": [
      "B10"
-    ],
-    "maxUserWeightLb": [
-     "B18"
     ],
     "keyDimensions": [
      "B12"
@@ -10027,11 +10218,29 @@
     "foldedDimensions": [
      "B13"
     ],
-    "shippingWeight": [
-     "B9"
-    ],
     "shippingDimensions": [
      "B14"
+    ],
+    "maxUserWeightLb": [
+     "B18"
+    ],
+    "speedRange": [
+     "B66"
+    ],
+    "inclineLevels": [
+     "B68"
+    ],
+    "inclineDegrees": [
+     "B70"
+    ],
+    "electrical": [
+     "B71"
+    ],
+    "watts": [
+     "B72"
+    ],
+    "amps": [
+     "B73"
     ],
     "motorType": [
      "B74"
@@ -10048,17 +10257,14 @@
      "D75",
      "E75"
     ],
-    "speedRange": [
-     "B66"
-    ],
-    "inclineLevels": [
-     "B68"
-    ],
-    "inclineDegrees": [
-     "B70"
-    ],
     "beltDimensions": [
      "B76"
+    ],
+    "quickButtons": [
+     "B77"
+    ],
+    "storage": [
+     "B82"
     ],
     "deckType": [
      "B86"
@@ -10067,35 +10273,20 @@
      "B87",
      "D87"
     ],
-    "quickButtons": [
-     "B77"
-    ],
-    "storage": [
-     "B82"
-    ],
-    "display": [
-     "B39"
+    "screenSize": [
+     "B16"
     ],
     "screenType": [
      "B17"
     ],
-    "screenSize": [
-     "B16"
-    ],
     "programs": [
      "B21"
     ],
-    "electrical": [
-     "B71"
-    ],
-    "watts": [
-     "B72"
-    ],
-    "amps": [
-     "B73"
-    ],
     "powerCord": [
      "B38"
+    ],
+    "display": [
+     "B39"
     ],
     "features": [
      "B41"
@@ -10113,22 +10304,25 @@
     "cell": "B8",
     "text": "SF-T722021"
    },
-   "fieldsFilled": 44,
+   "fieldsFilled": 49,
    "cells": {
     "brand": [
      "B7"
     ],
-    "materials": [
-     "B12"
+    "upc": [
+     "B10"
     ],
     "color": [
      "B11"
     ],
+    "materials": [
+     "B12"
+    ],
+    "shippingWeight": [
+     "B15"
+    ],
     "productWeight": [
      "B16"
-    ],
-    "maxUserWeightLb": [
-     "B45"
     ],
     "keyDimensions": [
      "B17"
@@ -10136,41 +10330,14 @@
     "foldedDimensions": [
      "B18"
     ],
-    "footprint": [
-     "B20"
-    ],
-    "shippingWeight": [
-     "B15"
-    ],
     "shippingDimensions": [
      "B19"
     ],
-    "upc": [
-     "B10"
+    "footprint": [
+     "B20"
     ],
-    "motorType": [
-     "B44"
-    ],
-    "peakHp": [
-     "B43"
-    ],
-    "continuousHp": [
-     "B42"
-    ],
-    "speedRange": [
-     "B51"
-    ],
-    "runningSurface": [
-     "B38"
-    ],
-    "beltDimensions": [
-     "B39"
-    ],
-    "softDrop": [
-     "B35"
-    ],
-    "foldable": [
-     "B25"
+    "maxUserWeightLb": [
+     "B45"
     ],
     "transportWheels": [
      "B29"
@@ -10178,53 +10345,8 @@
     "treadmillType": [
      "B21"
     ],
-    "deckType": [
-     "B33"
-    ],
-    "stepOnHeight": [
-     "B34"
-    ],
-    "rollerSize": [
-     "B40"
-    ],
-    "quickButtons": [
-     "B52"
-    ],
-    "storage": [
-     "B26"
-    ],
-    "handlebarHeight": [
-     "B24"
-    ],
-    "display": [
-     "B58"
-    ],
-    "screenType": [
-     "B53"
-    ],
-    "bluetooth": [
-     "B59"
-    ],
-    "heartRate": [
-     "B68"
-    ],
-    "wirelessHeartRate": [
-     "B69"
-    ],
-    "deviceHolder": [
-     "B78"
-    ],
-    "bottleHolder": [
-     "B70"
-    ],
-    "programs": [
-     "B64"
-    ],
-    "speakers": [
-     "B66"
-    ],
-    "usb": [
-     "B67"
+    "speedRange": [
+     "B51"
     ],
     "electrical": [
      "B74"
@@ -10235,11 +10357,95 @@
     "amps": [
      "B76"
     ],
-    "powerCord": [
-     "B73"
+    "motorType": [
+     "B44"
+    ],
+    "peakHp": [
+     "B43"
+    ],
+    "continuousHp": [
+     "B42"
+    ],
+    "beltDimensions": [
+     "B39"
+    ],
+    "runningSurface": [
+     "B38"
+    ],
+    "quickButtons": [
+     "B52"
+    ],
+    "softDrop": [
+     "B35"
+    ],
+    "motorized": [
+     "B41"
+    ],
+    "foldable": [
+     "B25"
+    ],
+    "storage": [
+     "B26"
+    ],
+    "deckType": [
+     "B33"
+    ],
+    "stepOnHeight": [
+     "B34"
+    ],
+    "rollerSize": [
+     "B40"
+    ],
+    "handlebarHeight": [
+     "B24"
+    ],
+    "screenType": [
+     "B53"
+    ],
+    "programs": [
+     "B64"
+    ],
+    "deviceHolder": [
+     "B78"
+    ],
+    "bottleHolder": [
+     "B70"
+    ],
+    "heartRate": [
+     "B68"
+    ],
+    "wirelessHeartRate": [
+     "B69"
+    ],
+    "bluetooth": [
+     "B59"
+    ],
+    "bluetoothApp": [
+     "B61"
     ],
     "plugType": [
      "B72"
+    ],
+    "powerCord": [
+     "B73"
+    ],
+    "display": [
+     "B58"
+    ],
+    "speakers": [
+     "B66"
+    ],
+    "usb": [
+     "B67"
+    ],
+    "remoteControl": [
+     "B79"
+    ],
+    "fan": [
+     "B65"
+    ],
+    "energySaver": [
+     "B77"
     ],
     "features": [
      "B83"
@@ -10265,29 +10471,44 @@
     "brand": [
      "B3"
     ],
-    "materials": [
-     "B7"
-    ],
     "color": [
      "B6"
     ],
-    "productWeight": [
-     "B10"
-    ],
-    "maxUserWeightLb": [
-     "B19"
-    ],
-    "keyDimensions": [
-     "B12"
-    ],
-    "footprint": [
-     "B16"
+    "materials": [
+     "B7"
     ],
     "shippingWeight": [
      "B9"
     ],
+    "productWeight": [
+     "B10"
+    ],
+    "keyDimensions": [
+     "B12"
+    ],
     "shippingDimensions": [
      "B14"
+    ],
+    "footprint": [
+     "B16"
+    ],
+    "maxUserWeightLb": [
+     "B19"
+    ],
+    "speedRange": [
+     "B68"
+    ],
+    "inclineDegrees": [
+     "B72"
+    ],
+    "electrical": [
+     "B73"
+    ],
+    "watts": [
+     "B74"
+    ],
+    "amps": [
+     "B75"
     ],
     "motorType": [
      "B76"
@@ -10304,14 +10525,11 @@
      "D77",
      "E77"
     ],
-    "speedRange": [
-     "B68"
-    ],
-    "inclineDegrees": [
-     "B72"
-    ],
     "beltDimensions": [
      "B78"
+    ],
+    "storage": [
+     "B84"
     ],
     "deckType": [
      "B88"
@@ -10319,35 +10537,23 @@
     "stepOnHeight": [
      "B89"
     ],
-    "storage": [
-     "B84"
-    ],
-    "display": [
-     "B40"
+    "screenSize": [
+     "B17"
     ],
     "screenType": [
      "B18"
     ],
-    "screenSize": [
-     "B17"
+    "programs": [
+     "B22"
     ],
     "bluetooth": [
      "D31"
     ],
-    "programs": [
-     "B22"
-    ],
-    "electrical": [
-     "B73"
-    ],
-    "watts": [
-     "B74"
-    ],
-    "amps": [
-     "B75"
-    ],
     "powerCord": [
      "B39"
+    ],
+    "display": [
+     "B40"
     ],
     "features": [
      "B42"
@@ -10373,29 +10579,47 @@
     "brand": [
      "B3"
     ],
-    "materials": [
-     "B7"
-    ],
     "color": [
      "B6"
     ],
-    "productWeight": [
-     "B10"
-    ],
-    "maxUserWeightLb": [
-     "B19"
-    ],
-    "keyDimensions": [
-     "B12"
-    ],
-    "footprint": [
-     "B16"
+    "materials": [
+     "B7"
     ],
     "shippingWeight": [
      "B9"
     ],
+    "productWeight": [
+     "B10"
+    ],
+    "keyDimensions": [
+     "B12"
+    ],
     "shippingDimensions": [
      "B14"
+    ],
+    "footprint": [
+     "B16"
+    ],
+    "maxUserWeightLb": [
+     "B19"
+    ],
+    "speedRange": [
+     "B74"
+    ],
+    "inclineLevels": [
+     "B76"
+    ],
+    "inclineDegrees": [
+     "B78"
+    ],
+    "electrical": [
+     "B79"
+    ],
+    "watts": [
+     "B80"
+    ],
+    "amps": [
+     "B81"
     ],
     "motorType": [
      "B82"
@@ -10412,17 +10636,11 @@
      "D83",
      "E83"
     ],
-    "speedRange": [
-     "B74"
-    ],
-    "inclineLevels": [
-     "B76"
-    ],
-    "inclineDegrees": [
-     "B78"
-    ],
     "beltDimensions": [
      "B84"
+    ],
+    "quickButtons": [
+     "B85"
     ],
     "deckType": [
      "B94"
@@ -10431,35 +10649,23 @@
      "B95",
      "D95"
     ],
-    "quickButtons": [
-     "B85"
-    ],
-    "display": [
-     "B40"
-    ],
     "screenType": [
      "B18"
-    ],
-    "bluetooth": [
-     "E31"
     ],
     "programs": [
      "B22"
     ],
-    "electrical": [
-     "B79"
+    "bluetooth": [
+     "E31"
     ],
-    "watts": [
-     "B80"
-    ],
-    "amps": [
-     "B81"
+    "plugType": [
+     "D35"
     ],
     "powerCord": [
      "B39"
     ],
-    "plugType": [
-     "D35"
+    "display": [
+     "B40"
     ],
     "features": [
      "B42"
@@ -10482,29 +10688,29 @@
     "brand": [
      "B3"
     ],
-    "materials": [
-     "B7"
-    ],
     "color": [
      "B6"
     ],
-    "productWeight": [
-     "B10"
-    ],
-    "maxUserWeightLb": [
-     "B19"
-    ],
-    "keyDimensions": [
-     "B12"
-    ],
-    "footprint": [
-     "B16"
+    "materials": [
+     "B7"
     ],
     "shippingWeight": [
      "B9"
     ],
+    "productWeight": [
+     "B10"
+    ],
+    "keyDimensions": [
+     "B12"
+    ],
     "shippingDimensions": [
      "B14"
+    ],
+    "footprint": [
+     "B16"
+    ],
+    "maxUserWeightLb": [
+     "B19"
     ],
     "speedRange": [
      "B74"
@@ -10519,20 +10725,20 @@
      "B95",
      "D95"
     ],
-    "display": [
-     "B40"
+    "screenSize": [
+     "B17"
     ],
     "screenType": [
      "B18"
-    ],
-    "screenSize": [
-     "B17"
     ],
     "battery": [
      "E25"
     ],
     "plugType": [
      "D35"
+    ],
+    "display": [
+     "B40"
     ],
     "features": [
      "B42"
@@ -10550,34 +10756,43 @@
     "cell": "B5",
     "text": "SF-X7110"
    },
-   "fieldsFilled": 18,
+   "fieldsFilled": 21,
    "cells": {
     "brand": [
      "B3"
     ],
-    "materials": [
-     "B7"
-    ],
     "color": [
      "B6"
     ],
-    "productWeight": [
-     "B10"
-    ],
-    "maxUserWeightLb": [
-     "B19"
-    ],
-    "keyDimensions": [
-     "B12"
-    ],
-    "footprint": [
-     "B16"
+    "materials": [
+     "B7"
     ],
     "shippingWeight": [
      "B9"
     ],
+    "productWeight": [
+     "B10"
+    ],
+    "flywheelWeight": [
+     "B11"
+    ],
+    "keyDimensions": [
+     "B12"
+    ],
     "shippingDimensions": [
      "B14"
+    ],
+    "footprint": [
+     "B16"
+    ],
+    "maxUserWeightLb": [
+     "B19"
+    ],
+    "resistanceType": [
+     "B20"
+    ],
+    "magnets": [
+     "B23"
     ],
     "speedRange": [
      "B74"
@@ -10589,14 +10804,11 @@
      "B95",
      "D95"
     ],
-    "display": [
-     "B40"
+    "screenSize": [
+     "B17"
     ],
     "screenType": [
      "B18"
-    ],
-    "screenSize": [
-     "B17"
     ],
     "battery": [
      "E25"
@@ -10606,6 +10818,9 @@
     ],
     "plugType": [
      "D35"
+    ],
+    "display": [
+     "B40"
     ]
    }
   },
@@ -10620,76 +10835,37 @@
     "cell": "B8",
     "text": "SF-X7210"
    },
-   "fieldsFilled": 48,
+   "fieldsFilled": 54,
    "cells": {
     "brand": [
      "B7"
     ],
-    "materials": [
-     "B12"
+    "upc": [
+     "B10"
     ],
     "color": [
      "B11"
     ],
-    "productWeight": [
-     "B15"
-    ],
-    "maxUserWeightLb": [
-     "B44"
-    ],
-    "keyDimensions": [
-     "B16"
-    ],
-    "footprint": [
-     "B19"
+    "materials": [
+     "B12"
     ],
     "shippingWeight": [
      "B14"
     ],
+    "productWeight": [
+     "B15"
+    ],
+    "keyDimensions": [
+     "B16"
+    ],
     "shippingDimensions": [
      "B18"
     ],
-    "upc": [
-     "B10"
+    "footprint": [
+     "B19"
     ],
-    "motorType": [
-     "B43"
-    ],
-    "peakHp": [
-     "B42"
-    ],
-    "continuousHp": [
-     "B41"
-    ],
-    "speedRange": [
-     "B50"
-    ],
-    "inclineType": [
-     "B45"
-    ],
-    "inclineRange": [
-     "B46"
-    ],
-    "inclineLevels": [
-     "B48"
-    ],
-    "inclineDegrees": [
-     "B47"
-    ],
-    "runningSurface": [
-     "B37"
-    ],
-    "beltDimensions": [
-     "B38"
-    ],
-    "softDrop": [
-     "B34"
-    ],
-    "shockAbsorption": [
-     "B36"
-    ],
-    "foldable": [
-     "B24"
+    "maxUserWeightLb": [
+     "B44"
     ],
     "transportWheels": [
      "B28"
@@ -10697,51 +10873,20 @@
     "treadmillType": [
      "B20"
     ],
-    "deckType": [
-     "B32"
+    "speedRange": [
+     "B50"
     ],
-    "stepOnHeight": [
-     "B33"
+    "inclineType": [
+     "B45"
     ],
-    "rollerSize": [
-     "B39"
+    "inclineLevels": [
+     "B48"
     ],
-    "quickButtons": [
-     "B51",
-     "B49"
+    "inclineDegrees": [
+     "B47"
     ],
-    "handlebarHeight": [
-     "B23"
-    ],
-    "display": [
-     "B57"
-    ],
-    "screenType": [
-     "B52"
-    ],
-    "bluetooth": [
-     "B58"
-    ],
-    "heartRate": [
-     "B68"
-    ],
-    "wirelessHeartRate": [
-     "B69"
-    ],
-    "deviceHolder": [
-     "B78"
-    ],
-    "bottleHolder": [
-     "B70"
-    ],
-    "programs": [
-     "B64"
-    ],
-    "speakers": [
-     "B66"
-    ],
-    "usb": [
-     "B67"
+    "inclineRange": [
+     "B46"
     ],
     "electrical": [
      "B74"
@@ -10752,8 +10897,72 @@
     "amps": [
      "B76"
     ],
-    "powerCord": [
-     "B73"
+    "motorType": [
+     "B43"
+    ],
+    "peakHp": [
+     "B42"
+    ],
+    "continuousHp": [
+     "B41"
+    ],
+    "beltDimensions": [
+     "B38"
+    ],
+    "runningSurface": [
+     "B37"
+    ],
+    "quickButtons": [
+     "B51",
+     "B49"
+    ],
+    "softDrop": [
+     "B34"
+    ],
+    "shockAbsorption": [
+     "B36"
+    ],
+    "motorized": [
+     "B40"
+    ],
+    "foldable": [
+     "B24"
+    ],
+    "deckType": [
+     "B32"
+    ],
+    "stepOnHeight": [
+     "B33"
+    ],
+    "rollerSize": [
+     "B39"
+    ],
+    "handlebarHeight": [
+     "B23"
+    ],
+    "screenType": [
+     "B52"
+    ],
+    "programs": [
+     "B64"
+    ],
+    "deviceHolder": [
+     "B78"
+    ],
+    "bottleHolder": [
+     "B70"
+    ],
+    "heartRate": [
+     "B68"
+    ],
+    "wirelessHeartRate": [
+     "B69"
+    ],
+    "bluetooth": [
+     "B58"
+    ],
+    "bluetoothApp": [
+     "B61"
     ],
     "ftms": [
      "B62"
@@ -10763,6 +10972,30 @@
     ],
     "plugType": [
      "B72"
+    ],
+    "powerCord": [
+     "B73"
+    ],
+    "display": [
+     "B57"
+    ],
+    "speakers": [
+     "B66"
+    ],
+    "usb": [
+     "B67"
+    ],
+    "remoteControl": [
+     "B79"
+    ],
+    "controlOnHandlebar": [
+     "B26"
+    ],
+    "fan": [
+     "B65"
+    ],
+    "energySaver": [
+     "B77"
     ],
     "features": [
      "B83"
@@ -10780,22 +11013,25 @@
     "cell": "B8",
     "text": "SF-T724082"
    },
-   "fieldsFilled": 50,
+   "fieldsFilled": 56,
    "cells": {
     "brand": [
      "B7"
     ],
-    "materials": [
-     "B12"
+    "upc": [
+     "B10"
     ],
     "color": [
      "B11"
     ],
+    "materials": [
+     "B12"
+    ],
+    "shippingWeight": [
+     "B15"
+    ],
     "productWeight": [
      "B16"
-    ],
-    "maxUserWeightLb": [
-     "B45"
     ],
     "keyDimensions": [
      "B17"
@@ -10803,26 +11039,20 @@
     "foldedDimensions": [
      "B18"
     ],
-    "footprint": [
-     "B20"
-    ],
-    "shippingWeight": [
-     "B15"
-    ],
     "shippingDimensions": [
      "B19"
     ],
-    "upc": [
-     "B10"
+    "footprint": [
+     "B20"
     ],
-    "motorType": [
-     "B44"
+    "maxUserWeightLb": [
+     "B45"
     ],
-    "peakHp": [
-     "B43"
+    "transportWheels": [
+     "B29"
     ],
-    "continuousHp": [
-     "B42"
+    "treadmillType": [
+     "B21"
     ],
     "speedRange": [
      "B51"
@@ -10836,11 +11066,33 @@
     "inclineDegrees": [
      "B48"
     ],
-    "runningSurface": [
-     "B38"
+    "electrical": [
+     "B74"
+    ],
+    "watts": [
+     "B75"
+    ],
+    "amps": [
+     "B76"
+    ],
+    "motorType": [
+     "B44"
+    ],
+    "peakHp": [
+     "B43"
+    ],
+    "continuousHp": [
+     "B42"
     ],
     "beltDimensions": [
      "B39"
+    ],
+    "runningSurface": [
+     "B38"
+    ],
+    "quickButtons": [
+     "B52",
+     "B50"
     ],
     "softDrop": [
      "B35"
@@ -10848,14 +11100,14 @@
     "shockAbsorption": [
      "B37"
     ],
+    "motorized": [
+     "B41"
+    ],
     "foldable": [
      "B25"
     ],
-    "transportWheels": [
-     "B29"
-    ],
-    "treadmillType": [
-     "B21"
+    "storage": [
+     "B26"
     ],
     "deckType": [
      "B33"
@@ -10866,33 +11118,17 @@
     "rollerSize": [
      "B40"
     ],
-    "quickButtons": [
-     "B52",
-     "B50"
-    ],
-    "storage": [
-     "B26"
-    ],
     "handlebarHeight": [
      "B24"
-    ],
-    "display": [
-     "B58"
-    ],
-    "screenType": [
-     "B53"
     ],
     "screenSize": [
      "B54"
     ],
-    "bluetooth": [
-     "B59"
+    "screenType": [
+     "B53"
     ],
-    "heartRate": [
-     "B68"
-    ],
-    "wirelessHeartRate": [
-     "B69"
+    "programs": [
+     "B64"
     ],
     "deviceHolder": [
      "B78"
@@ -10900,8 +11136,29 @@
     "bottleHolder": [
      "B70"
     ],
-    "programs": [
-     "B64"
+    "heartRate": [
+     "B68"
+    ],
+    "wirelessHeartRate": [
+     "B69"
+    ],
+    "bluetooth": [
+     "B59"
+    ],
+    "bluetoothApp": [
+     "B61"
+    ],
+    "wifi": [
+     "B63"
+    ],
+    "plugType": [
+     "B72"
+    ],
+    "powerCord": [
+     "B73"
+    ],
+    "display": [
+     "B58"
     ],
     "speakers": [
      "B66"
@@ -10909,23 +11166,17 @@
     "usb": [
      "B67"
     ],
-    "electrical": [
-     "B74"
+    "remoteControl": [
+     "B79"
     ],
-    "watts": [
-     "B75"
+    "controlOnHandlebar": [
+     "B27"
     ],
-    "amps": [
-     "B76"
+    "fan": [
+     "B65"
     ],
-    "powerCord": [
-     "B73"
-    ],
-    "wifi": [
-     "B63"
-    ],
-    "plugType": [
-     "B72"
+    "energySaver": [
+     "B77"
     ],
     "features": [
      "B83"
@@ -10946,22 +11197,28 @@
     "cell": "B8",
     "text": "SF-T725067"
    },
-   "fieldsFilled": 49,
+   "fieldsFilled": 55,
    "cells": {
     "brand": [
      "B7"
     ],
-    "materials": [
-     "B12"
+    "upc": [
+     "B10"
     ],
     "color": [
      "B11"
     ],
+    "materials": [
+     "B12"
+    ],
+    "latex": [
+     "B13"
+    ],
+    "shippingWeight": [
+     "B15"
+    ],
     "productWeight": [
      "B16"
-    ],
-    "maxUserWeightLb": [
-     "B45"
     ],
     "keyDimensions": [
      "B17"
@@ -10969,29 +11226,20 @@
     "foldedDimensions": [
      "B18"
     ],
-    "footprint": [
-     "B20"
-    ],
-    "shippingWeight": [
-     "B15"
-    ],
     "shippingDimensions": [
      "B19"
     ],
-    "upc": [
-     "B10"
+    "footprint": [
+     "B20"
     ],
-    "latex": [
-     "B13"
+    "maxUserWeightLb": [
+     "B45"
     ],
-    "motorType": [
-     "B44"
+    "transportWheels": [
+     "B29"
     ],
-    "peakHp": [
-     "B43"
-    ],
-    "continuousHp": [
-     "B42"
+    "treadmillType": [
+     "B21"
     ],
     "speedRange": [
      "B51"
@@ -11002,23 +11250,45 @@
     "inclineLevels": [
      "B49"
     ],
-    "runningSurface": [
-     "B38"
+    "electrical": [
+     "B74"
+    ],
+    "watts": [
+     "B75"
+    ],
+    "amps": [
+     "B76"
+    ],
+    "motorType": [
+     "B44"
+    ],
+    "peakHp": [
+     "B43"
+    ],
+    "continuousHp": [
+     "B42"
     ],
     "beltDimensions": [
      "B39"
     ],
+    "runningSurface": [
+     "B38"
+    ],
+    "quickButtons": [
+     "B52",
+     "B50"
+    ],
     "softDrop": [
      "B35"
+    ],
+    "motorized": [
+     "B41"
     ],
     "foldable": [
      "B25"
     ],
-    "transportWheels": [
-     "B29"
-    ],
-    "treadmillType": [
-     "B21"
+    "storage": [
+     "B26"
     ],
     "deckType": [
      "B33"
@@ -11029,33 +11299,17 @@
     "rollerSize": [
      "B40"
     ],
-    "quickButtons": [
-     "B52",
-     "B50"
-    ],
-    "storage": [
-     "B26"
-    ],
     "handlebarHeight": [
      "B24"
-    ],
-    "display": [
-     "B58"
-    ],
-    "screenType": [
-     "B53"
     ],
     "screenSize": [
      "B54"
     ],
-    "bluetooth": [
-     "B59"
+    "screenType": [
+     "B53"
     ],
-    "heartRate": [
-     "B68"
-    ],
-    "wirelessHeartRate": [
-     "B69"
+    "programs": [
+     "B64"
     ],
     "deviceHolder": [
      "B78"
@@ -11063,26 +11317,17 @@
     "bottleHolder": [
      "B70"
     ],
-    "programs": [
-     "B64"
+    "heartRate": [
+     "B68"
     ],
-    "speakers": [
-     "B66"
+    "wirelessHeartRate": [
+     "B69"
     ],
-    "usb": [
-     "B67"
+    "bluetooth": [
+     "B59"
     ],
-    "electrical": [
-     "B74"
-    ],
-    "watts": [
-     "B75"
-    ],
-    "amps": [
-     "B76"
-    ],
-    "powerCord": [
-     "B73"
+    "bluetoothApp": [
+     "B61"
     ],
     "ftms": [
      "B62"
@@ -11092,6 +11337,30 @@
     ],
     "plugType": [
      "B72"
+    ],
+    "powerCord": [
+     "B73"
+    ],
+    "display": [
+     "B58"
+    ],
+    "speakers": [
+     "B66"
+    ],
+    "usb": [
+     "B67"
+    ],
+    "remoteControl": [
+     "B79"
+    ],
+    "controlOnHandlebar": [
+     "B27"
+    ],
+    "fan": [
+     "B65"
+    ],
+    "energySaver": [
+     "B77"
     ],
     "features": [
      "B83"
@@ -11109,22 +11378,25 @@
     "cell": "B8",
     "text": "SF-T722576"
    },
-   "fieldsFilled": 43,
+   "fieldsFilled": 48,
    "cells": {
     "brand": [
      "B7"
     ],
-    "materials": [
-     "B12"
+    "upc": [
+     "B10"
     ],
     "color": [
      "B11"
     ],
+    "materials": [
+     "B12"
+    ],
+    "shippingWeight": [
+     "B15"
+    ],
     "productWeight": [
      "B16"
-    ],
-    "maxUserWeightLb": [
-     "B45"
     ],
     "keyDimensions": [
      "B17"
@@ -11132,17 +11404,41 @@
     "foldedDimensions": [
      "B18"
     ],
-    "footprint": [
-     "B20"
-    ],
-    "shippingWeight": [
-     "B15"
-    ],
     "shippingDimensions": [
      "B19"
     ],
-    "upc": [
-     "B10"
+    "footprint": [
+     "B20"
+    ],
+    "maxUserWeightLb": [
+     "B45"
+    ],
+    "transportWheels": [
+     "B29"
+    ],
+    "treadmillType": [
+     "B21"
+    ],
+    "speedRange": [
+     "B51"
+    ],
+    "inclineType": [
+     "B46"
+    ],
+    "inclineLevels": [
+     "B49"
+    ],
+    "inclineDegrees": [
+     "B48"
+    ],
+    "inclineRange": [
+     "B47"
+    ],
+    "electrical": [
+     "B74"
+    ],
+    "amps": [
+     "B76"
     ],
     "motorType": [
      "B44"
@@ -11153,38 +11449,26 @@
     "continuousHp": [
      "B42"
     ],
-    "speedRange": [
-     "B51"
-    ],
-    "inclineType": [
-     "B46"
-    ],
-    "inclineRange": [
-     "B47"
-    ],
-    "inclineLevels": [
-     "B49"
-    ],
-    "inclineDegrees": [
-     "B48"
+    "beltDimensions": [
+     "B39"
     ],
     "runningSurface": [
      "B38"
     ],
-    "beltDimensions": [
-     "B39"
+    "quickButtons": [
+     "B52"
     ],
     "shockAbsorption": [
      "B37"
     ],
+    "motorized": [
+     "B41"
+    ],
     "foldable": [
      "B25"
     ],
-    "transportWheels": [
-     "B29"
-    ],
-    "treadmillType": [
-     "B21"
+    "storage": [
+     "B26"
     ],
     "deckType": [
      "B33"
@@ -11195,44 +11479,45 @@
     "rollerSize": [
      "B40"
     ],
-    "quickButtons": [
-     "B52"
-    ],
-    "storage": [
-     "B26"
-    ],
     "handlebarHeight": [
      "B24"
-    ],
-    "display": [
-     "B58"
-    ],
-    "screenType": [
-     "B53"
     ],
     "screenSize": [
      "B54"
     ],
-    "bluetooth": [
-     "B59"
+    "screenType": [
+     "B53"
     ],
     "deviceHolder": [
      "B78"
     ],
-    "electrical": [
-     "B74"
+    "bluetooth": [
+     "B59"
     ],
-    "amps": [
-     "B76"
-    ],
-    "powerCord": [
-     "B73"
+    "bluetoothApp": [
+     "B61"
     ],
     "ftms": [
      "B62"
     ],
     "plugType": [
      "B72"
+    ],
+    "powerCord": [
+     "B73"
+    ],
+    "display": [
+     "B58"
+    ],
+    "remoteControl": [
+     "B79",
+     "B80"
+    ],
+    "controlOnHandlebar": [
+     "B27"
+    ],
+    "energySaver": [
+     "B77"
     ],
     "features": [
      "B83"
@@ -12347,31 +12632,10 @@
   }
  ],
  "templateFieldsAdded": {
-  "Treadmills": [
-   "treadmillType",
-   "deckType",
-   "stepOnHeight",
-   "rollerSize",
-   "quickButtons",
-   "storage",
-   "handlebarHeight",
-   "ftms",
-   "wifi",
-   "plugType",
-   "certification"
-  ],
   "Indoor Bikes": [
    "magnets",
    "crankLength",
    "seatDimensions",
-   "ftms",
-   "wifi",
-   "plugType",
-   "certification"
-  ],
-  "Ellipticals": [
-   "stepHeight",
-   "magnets",
    "ftms",
    "wifi",
    "plugType",
@@ -12437,5 +12701,9 @@
   ]
  },
  "conflicts": 12,
- "conflictReport": "data/specifications/v2-conflicts.md"
+ "conflictReport": "data/specifications/v2-conflicts.md",
+ "templateBasis": {
+  "Treadmills": "Rebuilt from the rows and order of the SF-T723030 sheet (SF-T723030 final spec sheet 2026.6.1, Sheet1), plus UPC, treadmill type, roller size, handlebar height, FTMS, Wi-Fi, control on handlebar, fan and energy saver rows that the newer treadmill sheets carry.",
+  "Ellipticals": "Rebuilt from the rows and order of the SF-E324028 sheet (SF-E324028 spec sheet 12.11.2024, Specs), the elliptical sheet with the most filled fields, plus crank type and foldable rows used by older elliptical sheets."
+ }
 }

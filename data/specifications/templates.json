@@ -8,52 +8,60 @@
           "Brand"
         ],
         [
-          "materials",
-          "Materials"
+          "upc",
+          "UPC"
         ],
         [
           "color",
           "Color"
         ],
         [
-          "productWeight",
-          "Product weight"
-        ],
-        [
-          "maxUserWeightLb",
-          "Maximum user weight (lb)"
-        ],
-        [
-          "maxUserHeight",
-          "Maximum user height"
-        ],
-        [
-          "keyDimensions",
-          "Assembled / product dimensions"
-        ],
-        [
-          "foldedDimensions",
-          "Folded dimensions"
-        ],
-        [
-          "footprint",
-          "Floor footprint"
-        ],
-        [
-          "shippingWeight",
-          "Shipping weight"
-        ],
-        [
-          "shippingDimensions",
-          "Shipping dimensions"
-        ],
-        [
-          "upc",
-          "UPC"
+          "materials",
+          "Material"
         ],
         [
           "latex",
-          "Latex / rubber information"
+          "Contains latex / rubber"
+        ],
+        [
+          "shippingWeight",
+          "Gross weight (shipping)"
+        ],
+        [
+          "productWeight",
+          "Net weight (product)"
+        ],
+        [
+          "flywheelWeight",
+          "Flywheel weight"
+        ],
+        [
+          "keyDimensions",
+          "Assembled dimensions (L × W × H)"
+        ],
+        [
+          "foldedDimensions",
+          "Folded dimensions (L × W × H)"
+        ],
+        [
+          "shippingDimensions",
+          "Carton dimensions (L × W × H)"
+        ],
+        [
+          "footprint",
+          "Floor footprint (L × W)"
+        ],
+        [
+          "maxUserWeightLb",
+          "Max. user weight"
+        ],
+        [
+          "maxUserHeight",
+          "Max. user height"
+        ],
+        [
+          "transportWheels",
+          "Transportation wheels"
         ]
       ]
     },
@@ -61,8 +69,48 @@
       "title": "Performance and adjustments",
       "fields": [
         [
-          "driveResistanceSystem",
-          "Drive / motor"
+          "resistanceType",
+          "Resistance type"
+        ],
+        [
+          "magnets",
+          "Number of magnets & pull force per magnet"
+        ],
+        [
+          "treadmillType",
+          "Walking / running treadmill"
+        ],
+        [
+          "speedRange",
+          "Speed range"
+        ],
+        [
+          "inclineType",
+          "Incline type"
+        ],
+        [
+          "inclineLevels",
+          "Incline levels"
+        ],
+        [
+          "inclineDegrees",
+          "Incline degrees"
+        ],
+        [
+          "inclineRange",
+          "Incline %"
+        ],
+        [
+          "electrical",
+          "Voltage"
+        ],
+        [
+          "watts",
+          "Watts"
+        ],
+        [
+          "amps",
+          "Ampere (A)"
         ],
         [
           "motorType",
@@ -70,71 +118,43 @@
         ],
         [
           "peakHp",
-          "Peak horsepower"
+          "Horsepower – peak"
         ],
         [
           "continuousHp",
-          "Continuous horsepower"
-        ],
-        [
-          "speedRange",
-          "Speed range"
-        ],
-        [
-          "speedResistanceLevels",
-          "Speed / resistance"
-        ],
-        [
-          "inclineType",
-          "Incline type"
-        ],
-        [
-          "inclineRange",
-          "Incline range"
-        ],
-        [
-          "inclineLevels",
-          "Individual incline levels"
-        ],
-        [
-          "inclineDegrees",
-          "Incline angle"
-        ],
-        [
-          "runningSurface",
-          "Available running surface"
+          "Horsepower – continuous"
         ],
         [
           "beltDimensions",
-          "Physical running belt dimensions"
+          "Running belt measurement"
         ],
         [
-          "workoutAreaWidthIn",
-          "Workout-area width (in)"
+          "runningSurface",
+          "Running surface measurement"
         ],
         [
-          "workoutAreaLengthIn",
-          "Workout-area length (in)"
+          "quickButtons",
+          "Quick speed / incline buttons"
         ],
         [
           "softDrop",
-          "Soft-drop system"
+          "Soft drop"
         ],
         [
           "shockAbsorption",
           "Shock absorption"
         ],
         [
+          "motorized",
+          "Motorized"
+        ],
+        [
           "foldable",
           "Foldable"
         ],
         [
-          "transportWheels",
-          "Transport wheels"
-        ],
-        [
-          "treadmillType",
-          "Treadmill type"
+          "storage",
+          "Storage"
         ],
         [
           "deckType",
@@ -142,23 +162,15 @@
         ],
         [
           "stepOnHeight",
-          "Deck / step-on height"
+          "Deck to floor height"
         ],
         [
           "rollerSize",
           "Roller size"
         ],
         [
-          "quickButtons",
-          "Quick speed / incline buttons"
-        ],
-        [
-          "storage",
-          "Storage position"
-        ],
-        [
           "handlebarHeight",
-          "Handlebar height"
+          "Height from ground to top of handlebar"
         ]
       ]
     },
@@ -166,32 +178,20 @@
       "title": "Console and connectivity",
       "fields": [
         [
-          "display",
-          "Monitor / displayed metrics"
+          "screenSize",
+          "Screen size"
         ],
         [
           "screenType",
           "Screen type"
         ],
         [
-          "screenSize",
-          "Screen size"
+          "programs",
+          "Number of pre-programs"
         ],
         [
           "battery",
-          "Monitor battery"
-        ],
-        [
-          "bluetooth",
-          "Bluetooth"
-        ],
-        [
-          "heartRate",
-          "Pulse sensors"
-        ],
-        [
-          "wirelessHeartRate",
-          "Wireless heart-rate support"
+          "Battery"
         ],
         [
           "deviceHolder",
@@ -202,32 +202,20 @@
           "Bottle holder"
         ],
         [
-          "programs",
-          "Programs"
+          "heartRate",
+          "Heart rate sensors"
         ],
         [
-          "speakers",
-          "Speakers / audio"
+          "wirelessHeartRate",
+          "Wireless heart rate function"
         ],
         [
-          "usb",
-          "USB / device charging"
+          "bluetooth",
+          "Bluetooth compatible"
         ],
         [
-          "electrical",
-          "Electrical requirements"
-        ],
-        [
-          "watts",
-          "Power (W)"
-        ],
-        [
-          "amps",
-          "Current (A)"
-        ],
-        [
-          "powerCord",
-          "Power-cord length"
+          "bluetoothApp",
+          "Compatible with SUNNY app"
         ],
         [
           "ftms",
@@ -239,7 +227,39 @@
         ],
         [
           "plugType",
-          "Plug / adapter"
+          "Plug or adapter"
+        ],
+        [
+          "powerCord",
+          "Length of power cord"
+        ],
+        [
+          "display",
+          "Meter display"
+        ],
+        [
+          "speakers",
+          "Speaker"
+        ],
+        [
+          "usb",
+          "USB charging"
+        ],
+        [
+          "remoteControl",
+          "Remote control"
+        ],
+        [
+          "controlOnHandlebar",
+          "Control on handlebar"
+        ],
+        [
+          "fan",
+          "Fan / cooling"
+        ],
+        [
+          "energySaver",
+          "Energy saver mode"
         ]
       ]
     },
@@ -248,11 +268,11 @@
       "fields": [
         [
           "features",
-          "Features / functions"
+          "Features / functions / selling points"
         ],
         [
           "certification",
-          "Tests / certifications"
+          "Tests done / certifications"
         ]
       ]
     }
@@ -496,52 +516,60 @@
           "Brand"
         ],
         [
-          "materials",
-          "Materials"
+          "upc",
+          "UPC"
         ],
         [
           "color",
           "Color"
         ],
         [
-          "productWeight",
-          "Product weight"
-        ],
-        [
-          "maxUserWeightLb",
-          "Maximum user weight (lb)"
-        ],
-        [
-          "maxUserHeight",
-          "Maximum user height"
-        ],
-        [
-          "keyDimensions",
-          "Assembled / product dimensions"
-        ],
-        [
-          "foldedDimensions",
-          "Folded dimensions"
-        ],
-        [
-          "footprint",
-          "Floor footprint"
-        ],
-        [
-          "shippingWeight",
-          "Shipping weight"
-        ],
-        [
-          "shippingDimensions",
-          "Shipping dimensions"
-        ],
-        [
-          "upc",
-          "UPC"
+          "materials",
+          "Material"
         ],
         [
           "latex",
-          "Latex / rubber information"
+          "Contains latex"
+        ],
+        [
+          "shippingWeight",
+          "Gross weight (shipping)"
+        ],
+        [
+          "productWeight",
+          "Net weight"
+        ],
+        [
+          "flywheelWeight",
+          "Flywheel weight"
+        ],
+        [
+          "keyDimensions",
+          "Assembled dimensions (L × W × H)"
+        ],
+        [
+          "foldedDimensions",
+          "Folded dimensions (L × W × H)"
+        ],
+        [
+          "shippingDimensions",
+          "Shipping dimensions (L × W × H)"
+        ],
+        [
+          "seatDimensions",
+          "Seat dimensions (L × W × H)"
+        ],
+        [
+          "footprint",
+          "Floor footprint coverage (L × W)"
+        ],
+        [
+          "maxUserWeightLb",
+          "Max. user weight"
+        ],
+        [
+          "maxUserHeight",
+          "Max. user height"
         ]
       ]
     },
@@ -549,52 +577,64 @@
       "title": "Performance and adjustments",
       "fields": [
         [
-          "driveResistanceSystem",
-          "Drive / resistance system"
-        ],
-        [
           "resistanceType",
           "Resistance type"
         ],
         [
           "speedResistanceLevels",
-          "Resistance levels"
+          "Resistance level"
         ],
         [
-          "inclineStrideMotion",
-          "Stride / motion"
+          "magnets",
+          "Number of magnets & pull force per magnet"
         ],
         [
-          "stride",
-          "Stride length"
+          "motorized",
+          "Motorized"
         ],
         [
-          "flywheelWeight",
-          "Flywheel weight"
+          "driveResistanceSystem",
+          "Drive mechanism"
         ],
         [
-          "pedalType",
-          "Pedal type"
+          "crankLength",
+          "Crank length"
         ],
         [
           "crankType",
           "Crank type"
         ],
         [
+          "pedalBothDirections",
+          "Can be pedaled both directions"
+        ],
+        [
+          "selfLevelingPedals",
+          "Self-leveling pedals"
+        ],
+        [
+          "footStraps",
+          "Adjustable foot straps"
+        ],
+        [
+          "stride",
+          "Stride length"
+        ],
+        [
+          "stepHeight",
+          "Step height (step to floor)"
+        ],
+        [
+          "transportWheels",
+          "Transportation wheel"
+        ],
+        [
           "foldable",
           "Foldable"
         ],
         [
-          "transportWheels",
-          "Transport wheels"
-        ],
-        [
-          "stepHeight",
-          "Step height"
-        ],
-        [
-          "magnets",
-          "Magnets / pull force"
+          "controlOnHandlebar",
+          "Control on handlebar"
         ]
       ]
     },
@@ -602,68 +642,36 @@
       "title": "Console and connectivity",
       "fields": [
         [
-          "display",
-          "Monitor / displayed metrics"
-        ],
-        [
-          "screenType",
-          "Screen type"
-        ],
-        [
-          "screenSize",
-          "Screen size"
+          "meterSize",
+          "Meter size"
         ],
         [
           "battery",
-          "Monitor battery"
+          "Meter battery used"
         ],
         [
-          "bluetooth",
-          "Bluetooth"
+          "screenType",
+          "Meter screen / display type"
         ],
         [
-          "heartRate",
-          "Pulse sensors"
+          "screenSize",
+          "Meter screen / display size"
         ],
         [
-          "wirelessHeartRate",
-          "Wireless heart-rate support"
-        ],
-        [
-          "deviceHolder",
-          "Device holder"
-        ],
-        [
-          "bottleHolder",
-          "Bottle holder"
+          "display",
+          "Meter features"
         ],
         [
           "programs",
-          "Programs"
+          "Number of pre-programs"
         ],
         [
-          "speakers",
-          "Speakers / audio"
+          "bluetooth",
+          "Bluetooth connectivity"
         ],
         [
-          "usb",
-          "USB / device charging"
-        ],
-        [
-          "electrical",
-          "Electrical requirements"
-        ],
-        [
-          "watts",
-          "Power (W)"
-        ],
-        [
-          "amps",
-          "Current (A)"
-        ],
-        [
-          "powerCord",
-          "Power-cord length"
+          "bluetoothApp",
+          "Bluetooth type / app"
         ],
         [
           "ftms",
@@ -674,8 +682,60 @@
           "Wi-Fi"
         ],
         [
+          "fan",
+          "Fan / cooling"
+        ],
+        [
+          "speakers",
+          "Speakers / audio"
+        ],
+        [
+          "usb",
+          "Mobile charging (USB or wireless)"
+        ],
+        [
+          "heartRate",
+          "Heart monitor / pulse sensors"
+        ],
+        [
+          "wirelessHeartRate",
+          "Heart monitor / pulse wireless"
+        ],
+        [
+          "deviceHolder",
+          "Device / tablet holder"
+        ],
+        [
+          "bottleHolder",
+          "Hydration (water / bottle holder)"
+        ],
+        [
           "plugType",
-          "Plug / adapter"
+          "Plug or adapter"
+        ],
+        [
+          "powerCord",
+          "Plug or adapter cord length"
+        ],
+        [
+          "electrical",
+          "Electrical requirement"
+        ],
+        [
+          "watts",
+          "Watt"
+        ],
+        [
+          "amps",
+          "Ampere (A)"
+        ],
+        [
+          "energySaver",
+          "Energy saver mode"
+        ],
+        [
+          "remoteControl",
+          "Remote control"
         ]
       ]
     },
@@ -684,11 +744,11 @@
       "fields": [
         [
           "features",
-          "Features / functions"
+          "Features / functions / selling points"
         ],
         [
           "certification",
-          "Tests / certifications"
+          "Tests done / certifications"
         ]
       ]
     }

@@ -540,8 +540,7 @@
     "display": "TIME-SPEED-DISTANCE-CALORIES -ODOMETER-PULSE",
     "screenSize": "43*77mm",
     "battery": "2xAAA",
-    "features": "1. The surface is paited to be anti-sweat and anti-rust; 2. The design is comform to human-engineering. 3. Can link bluetooth to use app, to watch workout data in real time. 4. 20KG high weight with high inertia and high magnetic resistance, to meet high intensity exercise requirements.",
-    "certification": "SHARE WITH B1805"
+    "features": "1. The surface is paited to be anti-sweat and anti-rust; 2. The design is comform to human-engineering. 3. Can link bluetooth to use app, to watch workout data in real time. 4. 20KG high weight with high inertia and high magnetic resistance, to meet high intensity exercise requirements."
    },
    "evidence": {
     "brand": "SF-B1805 SMART Spec sheet.20220805.xlsx / Sheet1 / B3",
@@ -563,8 +562,7 @@
     "display": "SF-B1805 SMART Spec sheet.20220805.xlsx / Sheet1 / B34",
     "screenSize": "SF-B1805 SMART Spec sheet.20220805.xlsx / Sheet1 / B13",
     "battery": "SF-B1805 SMART Spec sheet.20220805.xlsx / Sheet1 / D20",
-    "features": "SF-B1805 SMART Spec sheet.20220805.xlsx / Sheet1 / B36",
-    "certification": "SF-B1805 SMART Spec sheet.20220805.xlsx / Sheet1 / B35"
+    "features": "SF-B1805 SMART Spec sheet.20220805.xlsx / Sheet1 / B36"
    },
    "sources": [
     "V2 spec sheet: SF-B1805 SMART Spec sheet.20220805.xlsx"
@@ -1795,8 +1793,7 @@
     "ftms": "No",
     "wifi": "No",
     "plugType": "Yes",
-    "features": "1. With buletooth, can connect SUNNYFIT APP; 2. Fully assembly, small footprint, easy to move; 3. Multi-scene use, can be placed under the desk, can do exercise while working; 4. With remote control, wireless remote control to adjust the speed levels; 5. Motorized mini elliptical, users can passive exercise, especially suitable for rehabilitation needs, and users who are inconvenient on legs and feet; 6. 18 levels speed, can manual or use remote control, can changes the direction forward or backward with one click,convinient to use; 7. 6 levels pre-program, meet variety of use requiement.",
-    "certification": "To de test"
+    "features": "1. With buletooth, can connect SUNNYFIT APP; 2. Fully assembly, small footprint, easy to move; 3. Multi-scene use, can be placed under the desk, can do exercise while working; 4. With remote control, wireless remote control to adjust the speed levels; 5. Motorized mini elliptical, users can passive exercise, especially suitable for rehabilitation needs, and users who are inconvenient on legs and feet; 6. 18 levels speed, can manual or use remote control, can changes the direction forward or backward with one click,convinient to use; 7. 6 levels pre-program, meet variety of use requiement."
    },
    "evidence": {
     "brand": "SF-B024041 final spec sheet 20250424.xlsx / Specs / B7",
@@ -1829,8 +1826,7 @@
     "ftms": "SF-B024041 final spec sheet 20250424.xlsx / Specs / B53",
     "wifi": "SF-B024041 final spec sheet 20250424.xlsx / Specs / B54",
     "plugType": "SF-B024041 final spec sheet 20250424.xlsx / Specs / B64",
-    "features": "SF-B024041 final spec sheet 20250424.xlsx / Specs / B74",
-    "certification": "SF-B024041 final spec sheet 20250424.xlsx / Specs / B73"
+    "features": "SF-B024041 final spec sheet 20250424.xlsx / Specs / B74"
    },
    "sources": [
     "V2 spec sheet: SF-B024041 final spec sheet 20250424.xlsx"
