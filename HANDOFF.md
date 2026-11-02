@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-01: Codex — git pull reviewed; private Site version 38 published
+- Changes: fast-forwarded `main` from `1fc8068` to `5821cde`; reviewed the six incoming Claude Code commits and their handoff entries. The changes add muted Product Spec unavailable values, fill structured V2 Product Spec data for 150 of 156 current products, rebuild the Treadmill and Elliptical templates from their selected sheets, and record Claude Artifact versions 24–26. Both the private Site `/api` path and `window.claude` fallback remain. Live read-only comparison found all 176 product identities present, 150 current-product `specDetails` pending the guarded one-time backfill, and only the documented `imageAvailability` metadata difference on ten archive records outside those specs.
+- Files: `HANDOFF.md` only in this follow-up; deployed source is exact pushed main commit `5821cdee1c33faedffa9e2f6225bbc9ec790be58`.
+- Tests: all 21 `tests/*.spec.cjs` files passed; `npm run build` passed; `npm run screenshots` passed and regenerated all 14 standard desktop/phone captures.
+- Local preview: checked through the screenshot suite.
+- Claude Artifact: published version 26 from `6b96a0c` by Claude Code; not changed by Codex.
+- Private Site: PUBLIC version 38 from exact main SHA `5821cdee1c33faedffa9e2f6225bbc9ec790be58`; deployment `appgdep_6ae8284d8ebc8191b8fe759a8e4920ce` succeeded; environment revision 1 and public audience preserved.
+- Practice data: not exported; first-export approval for this public repository is still pending. `npm run practice-report` read the existing Claude Artifact export with zero results, so answers, accuracy and most-missed fields/products are unavailable.
+- Remaining issues: six current products remain without matched V2 sheets and 12 documented app-versus-sheet conflicts remain for owner review; see the preceding Claude Code handoff and `data/specifications/v2-conflicts.md`.
+- Next steps: owner reviews the six unmatched products and 12 conflicts when ready.
+
 ## 2026-11-01: Claude Code — Claude Artifact version 26 from 6b96a0c (V2 Product Spec and rebuilt templates)
 - Changes (owner request "publish both"):
   - Claude Artifact data: read all 176 `items` documents first. The only app-only differences from `data/*.json` are the known 2026-10-20 owner edits on SF-T724011, SF-T725067, SF-T722021 and SF-T722076 (workout-area width/length, one key dimension), still left for the owner to decide. Merged only `specDetails` into the 150 filled records (three batches, each write pinned with `if_version`). Re-read afterwards: all 156 current records' `specDetails` equal the repository, and no other field changed. The 20 off-Sunny records were not touched.
