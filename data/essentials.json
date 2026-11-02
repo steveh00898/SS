@@ -33,6 +33,35 @@
    "source": "https://sunnyhealthfitness.com/collections/essentials/products/exercise-ball-sf-eb02",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "PVC",
+    "color": "Light White 2U",
+    "productWeight": "750G/1.7lbs",
+    "maxUserWeightLb": "300KG/660lbs",
+    "keyDimensions": "dia.45CM/ diameter 17.7inches",
+    "shippingWeight": "998G/2.2lbs",
+    "shippingDimensions": "16x12x24CM/6.3x4.7x9.4inches",
+    "features": "Workout,exercise,increase balance and stability Made of extra thick, durable,anti-slip pvc material Weight capacity 660 LBS, anti-burst 265LBS Air pump and instructions included"
+   },
+   "evidence": {
+    "brand": "SF-EB02-XS Final spec sheet 10182024.xlsx / Sheet1 / B3",
+    "materials": "SF-EB02-XS Final spec sheet 10182024.xlsx / Sheet1 / B7",
+    "color": "SF-EB02-XS Final spec sheet 10182024.xlsx / Sheet1 / B6",
+    "productWeight": "SF-EB02-XS Final spec sheet 10182024.xlsx / Sheet1 / B10",
+    "maxUserWeightLb": "SF-EB02-XS Final spec sheet 10182024.xlsx / Sheet1 / B19",
+    "keyDimensions": "SF-EB02-XS Final spec sheet 10182024.xlsx / Sheet1 / B12",
+    "shippingWeight": "SF-EB02-XS Final spec sheet 10182024.xlsx / Sheet1 / B9",
+    "shippingDimensions": "SF-EB02-XS Final spec sheet 10182024.xlsx / Sheet1 / B14",
+    "features": "SF-EB02-XS Final spec sheet 10182024.xlsx / Sheet1 / B43"
+   },
+   "sources": [
+    "V2 spec sheet: SF-EB02-XS Final spec sheet 10182024.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -69,6 +98,35 @@
    "source": "https://sunnyhealthfitness.com/collections/essentials/products/premium-pilates-ball-9-in-sf-eb01-rd",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "PVC",
+    "color": "Red 485C",
+    "productWeight": "318G/0.7lbs",
+    "maxUserWeightLb": "150KG/330lbs",
+    "keyDimensions": "dia.23CM/diameter 9inches",
+    "shippingWeight": "499G/1.1lbs",
+    "shippingDimensions": "20x7x18CM/7.9x2.8x7.1inches",
+    "features": "Intensify balance and stability workout. lmprove posture and form Made of extra thick, durable,anti-slip pvc material Weight capacity 330 LBS Air pump and instructions included"
+   },
+   "evidence": {
+    "brand": "SF-EB01-RD Final spec sheet 10182024.xlsx / EB01-RD / B3",
+    "materials": "SF-EB01-RD Final spec sheet 10182024.xlsx / EB01-RD / B7",
+    "color": "SF-EB01-RD Final spec sheet 10182024.xlsx / EB01-RD / B6",
+    "productWeight": "SF-EB01-RD Final spec sheet 10182024.xlsx / EB01-RD / B10",
+    "maxUserWeightLb": "SF-EB01-RD Final spec sheet 10182024.xlsx / EB01-RD / B19",
+    "keyDimensions": "SF-EB01-RD Final spec sheet 10182024.xlsx / EB01-RD / B12",
+    "shippingWeight": "SF-EB01-RD Final spec sheet 10182024.xlsx / EB01-RD / B9",
+    "shippingDimensions": "SF-EB01-RD Final spec sheet 10182024.xlsx / EB01-RD / B14",
+    "features": "SF-EB01-RD Final spec sheet 10182024.xlsx / EB01-RD / B43"
+   },
+   "sources": [
+    "V2 spec sheet: SF-EB01-RD Final spec sheet 10182024.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -95,6 +153,39 @@
    "source": "https://sunnyhealthfitness.com/collections/essentials/products/sunnyfit-heart-rate-monitor-hr200",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "Plastic+ABS",
+    "color": "Black",
+    "productWeight": "0.032KGS/0.07LBS",
+    "keyDimensions": "46.5x36x14 mm 1.83*1.41*0.55inch",
+    "shippingWeight": "0.055KGS/0.1LBS",
+    "shippingDimensions": "120*80*22mm/4.7*3.1*0.8inch",
+    "battery": "Rechargeable 90mAh lithium battery",
+    "bluetooth": "SUNNY APP/ Wahoo/Polar Beat/Strava/Zwift/Peloton",
+    "features": "Measures heart rate and steps Heart Rate Zones Display and Alert",
+    "certification": "FCC/REACH/ROSH/IC/CE-RED/UN38.3/ANT"
+   },
+   "evidence": {
+    "brand": "HR200 FINAL SPEC SHEET 2023-10-31.xlsx / Sheet1 / B3",
+    "materials": "HR200 FINAL SPEC SHEET 2023-10-31.xlsx / Sheet1 / B7",
+    "color": "HR200 FINAL SPEC SHEET 2023-10-31.xlsx / Sheet1 / B6",
+    "productWeight": "HR200 FINAL SPEC SHEET 2023-10-31.xlsx / Sheet1 / B12",
+    "keyDimensions": "HR200 FINAL SPEC SHEET 2023-10-31.xlsx / Sheet1 / B14",
+    "shippingWeight": "HR200 FINAL SPEC SHEET 2023-10-31.xlsx / Sheet1 / B11",
+    "shippingDimensions": "HR200 FINAL SPEC SHEET 2023-10-31.xlsx / Sheet1 / B16",
+    "battery": "HR200 FINAL SPEC SHEET 2023-10-31.xlsx / Sheet1 / D27",
+    "bluetooth": "HR200 FINAL SPEC SHEET 2023-10-31.xlsx / Sheet1 / D36",
+    "features": "HR200 FINAL SPEC SHEET 2023-10-31.xlsx / Sheet1 / B47",
+    "certification": "HR200 FINAL SPEC SHEET 2023-10-31.xlsx / Sheet1 / B46"
+   },
+   "sources": [
+    "V2 spec sheet: HR200 FINAL SPEC SHEET 2023-10-31.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -147,6 +238,43 @@
    "source": "https://sunnyhealthfitness.com/collections/essentials/products/composition-bmi-smart-scale-sunnyfit-app-compatible-sf-ws022063",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "Tempered glass+HIPS",
+    "color": "Black",
+    "productWeight": "1.25KG/2.8LBS",
+    "maxUserWeightLb": "180KG/400LBS",
+    "keyDimensions": "280*280*25mm/11*11*1INCHES",
+    "footprint": "280*280mm/11*11 INCHES",
+    "shippingWeight": "1.5KG/3.3LBS",
+    "shippingDimensions": "300*293*34mm/11.8*11.5*1.3INCHES",
+    "battery": "3*AAA",
+    "bluetooth": "SUNNY FIT",
+    "features": "● Bluetooth Version: BLE4.0, Works with iOS11.0 & Android6.0 OR Higher Version; ● High precision as Xiaomi scale ● 20 FUNCTIONS: WEIGHT, PROTEIN, METABOLIC AGE, IDEAL WEIGHT, BMI, BMR, VISCERAL FAT, BONE MASS, BODY FAT, BODY WATER, MUSCLE MASS, BODY TYPE, MUSCLE CONTROL, SKELETAL MUSCLE, FAT MASS, FAT-FREE BODY WEIGHT, FAT CONTROL, SUBCUTANEOUS FAT, HEART RATE, TARGET TRACKING ● Weigh small stuff from 100g-9.95KG; ● CNC large safe corner, Leather grain base design; ● HealthU+ APP smart function: Baby Weighing Mode, Water Daily Input Record, Body Dimension Record, Daily weight on scale reminder. ● AUTO Function: Step on, Auto-off; ● Smart Reminder:Low Battery Reminder, Overload Reminder. ● SDK provided available",
+    "certification": "CE/REACH/ROHS/FDA/FCC/BQB"
+   },
+   "evidence": {
+    "brand": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B3",
+    "materials": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B7",
+    "color": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B6",
+    "productWeight": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B10",
+    "maxUserWeightLb": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B19",
+    "keyDimensions": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B12",
+    "footprint": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B14",
+    "shippingWeight": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B9",
+    "shippingDimensions": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B15",
+    "battery": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / D25",
+    "bluetooth": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / D31",
+    "features": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B41",
+    "certification": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B40"
+   },
+   "sources": [
+    "V2 spec sheet: Spec Sheet for SF-WS022063 01292023.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -161,7 +289,40 @@
   "imageUrl": "/_blob/1e482464f9c9db27334305a7b2689816",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "ABS HANDLE, PVC ROPE",
+    "color": "Black handle / Black Rope",
+    "productWeight": "0.13KGS/0.28LBS",
+    "maxUserHeight": "195CM/76.8INCHES",
+    "keyDimensions": "14cm (5.51in.) handle length 1.5cm (0.59in.) handle diameter (top) 2.5cm (0.98in.) handle diameter (bottom)",
+    "shippingWeight": "0.19KGS/0.43LBS",
+    "shippingDimensions": "140*180*35mm/ 5.5*7.1*1.4inches",
+    "ropeLength": "3 M/118 inches",
+    "features": "1. Add silicone into PVC rope which make the rope more resistant to wear , low temperature environment still has excellent durability. 2.5.50mm thick PVC rope, strong jump; 3. The appearance of the handle is simple and generous, and the grip is comfortable; 4. The buckle is easy to disassemble, adjust the rope length in 1 second.",
+    "certification": "No"
+   },
+   "evidence": {
+    "brand": "SF-JR01-BK final spec sheet 01082025.xlsx / JR01 / B3",
+    "materials": "SF-JR01-BK final spec sheet 01082025.xlsx / JR01 / B7",
+    "color": "SF-JR01-BK final spec sheet 01082025.xlsx / JR01 / B6",
+    "productWeight": "SF-JR01-BK final spec sheet 01082025.xlsx / JR01 / B10",
+    "maxUserHeight": "SF-JR01-BK final spec sheet 01082025.xlsx / JR01 / B20",
+    "keyDimensions": "SF-JR01-BK final spec sheet 01082025.xlsx / JR01 / B12",
+    "shippingWeight": "SF-JR01-BK final spec sheet 01082025.xlsx / JR01 / B9",
+    "shippingDimensions": "SF-JR01-BK final spec sheet 01082025.xlsx / JR01 / B14",
+    "ropeLength": "SF-JR01-BK final spec sheet 01082025.xlsx / JR01 / B21",
+    "features": "SF-JR01-BK final spec sheet 01082025.xlsx / JR01 / B45",
+    "certification": "SF-JR01-BK final spec sheet 01082025.xlsx / JR01 / B44"
+   },
+   "sources": [
+    "V2 spec sheet: SF-JR01-BK final spec sheet 01082025.xlsx"
+   ],
+   "notes": []
+  }
  },
  {
   "id": "sf-jr03-bk",
@@ -175,7 +336,42 @@
   "imageUrl": "/_blob/964c5cda5b9f094eeb062cc1c9d55dce",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "ALUMINUM ALLOY+SILICONE HANDLE, PVC ROPE",
+    "color": "Black+Silver",
+    "productWeight": "470g/1.04lbs",
+    "maxUserHeight": "195CM/76.8INCHES",
+    "keyDimensions": "14.7cm (5.79in.) handle length 2.2cm (0.87in.) handle diameter",
+    "shippingWeight": "544g /1.2lbs",
+    "shippingDimensions": "140*180*40mm/5.5*7.1*1.6inches",
+    "latex": "The silicone case on the handle contain Latex",
+    "ropeLength": "3 M/118 inches",
+    "features": "1.7mm thick PVC rope body, sweat burning fat; 2. High speed oil bearing, smooth and durable; 3. Aluminum alloy anodized surface, high quality; 4. Food contact grade silicone is used in the hand grip, which is safe, reliable and comfortable to hold; 5. Can add 2*100g removable load, the whole rope can reach 470g, burning fat and sweat easily advance",
+    "certification": "NO"
+   },
+   "evidence": {
+    "brand": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B3",
+    "materials": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B7",
+    "color": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B6",
+    "productWeight": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B10",
+    "maxUserHeight": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B20",
+    "keyDimensions": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B12",
+    "shippingWeight": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B9",
+    "shippingDimensions": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B14",
+    "latex": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B8",
+    "ropeLength": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B21",
+    "features": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B45",
+    "certification": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B44"
+   },
+   "sources": [
+    "V2 spec sheet: SF-JR03-BK final spec sheet 01082025.xlsx"
+   ],
+   "notes": []
+  }
  },
  {
   "id": "sf-jr02-bk",
@@ -189,7 +385,42 @@
   "imageUrl": "/_blob/8859c6749c057f3cd114d8d0db8f8589",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "ALUMINUM ALLOY+SILICONE HANDLE, PU+STEEL WIRE ROPE",
+    "color": "Black+Silver",
+    "productWeight": "163g/0.36lbs",
+    "maxUserHeight": "195CM/76.8INCHES",
+    "keyDimensions": "17.3cm (6.81in.) handle length 1.5cm (0.59in.) handle diameter (top) 1.7cm (0.67in.) handle diamter (bottom)",
+    "shippingWeight": "230g/0.51lbs",
+    "shippingDimensions": "200*130*30mm/7.9*5.1*1.2inches",
+    "latex": "The silicone case on the handle contain Latex",
+    "ropeLength": "3 M/118 inches",
+    "features": "1. Self-locking patent structure, one press one loose, 1 second easy to adjust the length of the rope; 2. Single lock head contains 2 high speed bearings, running smoothly; 3. Aluminum alloy anodized surface, high quality; 4. Food contact grade silicone is used in the hand grip, which is safe, reliable and comfortable to hold; 5. 2.50mm wear-resistant PU wire rope, crossfit racing necessary.",
+    "certification": "NO"
+   },
+   "evidence": {
+    "brand": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B3",
+    "materials": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B7",
+    "color": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B6",
+    "productWeight": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B10",
+    "maxUserHeight": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B20",
+    "keyDimensions": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B12",
+    "shippingWeight": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B9",
+    "shippingDimensions": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B14",
+    "latex": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B8",
+    "ropeLength": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B21",
+    "features": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B45",
+    "certification": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B44"
+   },
+   "sources": [
+    "V2 spec sheet: SF-JR02-BK final spec sheet 01082025.xlsx"
+   ],
+   "notes": []
+  }
  },
  {
   "id": "sf-s025063",
@@ -215,6 +446,51 @@
    "source": "https://sunnyhealthfitness.com/collections/essentials/products/active-fitness-trampoline-sf-s025063",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "Steel+Plastic(PP/PE/PA/PVC)+elastic webbing",
+    "color": "Black+Middle Grey 426U+middle grey with silvery",
+    "productWeight": "20.2Lbs/9.2kg",
+    "maxUserWeightLb": "300lbs/135kg",
+    "keyDimensions": "38.2 x 38.2 x 51.2 inches/970x970x1300mm(MAX) 38.2 x 38.2 x 45.7 inches/970x970x1160mm(MIN)",
+    "foldedDimensions": "28x13x4.5 inches /710x330x115mm",
+    "footprint": "38.2*38.2inches/970*970mm",
+    "shippingWeight": "23.8Lbs/10.8kg",
+    "shippingDimensions": "32.5 x 16.1 x 4.7 inches/825x410x120mm",
+    "upc": "810153801801",
+    "latex": "Yes",
+    "compatibility": "No",
+    "adjustments": "No",
+    "trampolineHeight": "310mm/12.2 inches",
+    "features": "1. Uses elastic bands as a form of resistance. 2. The trampoline is equipped with a high-density breathable jumping surface for a more comfortable exercise experience; the frame features a wear-resistant coating to effectively prevent fading and paint peeling. 3. The high-stretch elastic bands can efficiently absorb 85% of impact vibrations, providing long-lasting and smoother rebound. 4. The trampoline uses a reinforced steel frame with 6 thickened support legs, supporting up to 300 lbs. 5. Easy to assemble. 6. The handrail height is adjustable in 5 levels, allowing users to adjust the trampoline handrail height according to their needs."
+   },
+   "evidence": {
+    "brand": "SF-S025063 final spec 03202026 update.xlsx / Specs / B7",
+    "materials": "SF-S025063 final spec 03202026 update.xlsx / Specs / B12",
+    "color": "SF-S025063 final spec 03202026 update.xlsx / Specs / B11",
+    "productWeight": "SF-S025063 final spec 03202026 update.xlsx / Specs / B31",
+    "maxUserWeightLb": "SF-S025063 final spec 03202026 update.xlsx / Specs / B15",
+    "keyDimensions": "SF-S025063 final spec 03202026 update.xlsx / Specs / B32",
+    "foldedDimensions": "SF-S025063 final spec 03202026 update.xlsx / Specs / B29",
+    "footprint": "SF-S025063 final spec 03202026 update.xlsx / Specs / B19",
+    "shippingWeight": "SF-S025063 final spec 03202026 update.xlsx / Specs / B34",
+    "shippingDimensions": "SF-S025063 final spec 03202026 update.xlsx / Specs / B33",
+    "upc": "SF-S025063 final spec 03202026 update.xlsx / Specs / B10",
+    "latex": "SF-S025063 final spec 03202026 update.xlsx / Specs / B17",
+    "compatibility": "SF-S025063 final spec 03202026 update.xlsx / Specs / B30",
+    "adjustments": "SF-S025063 final spec 03202026 update.xlsx / Specs / B22",
+    "trampolineHeight": "SF-S025063 final spec 03202026 update.xlsx / Specs / B27",
+    "features": "SF-S025063 final spec 03202026 update.xlsx / Specs / B36"
+   },
+   "sources": [
+    "V2 spec sheet: SF-S025063 final spec 03202026 update.xlsx"
+   ],
+   "notes": [
+    "Maximum user height reads \"NO height limit\" (B14); not shown as a limit. \"No limit\" is not an unlimited capacity."
+   ]
   }
  },
  {
@@ -241,6 +517,51 @@
    "source": "https://sunnyhealthfitness.com/collections/essentials/products/active-40-inch-fitness-trampoline-with-adjustable-handlebar-sf-s025064",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "Steel+Plastic(PP/PE/PA/PVC)+elastic webbing",
+    "color": "Black+(dark grey with silvery)",
+    "productWeight": "22.0Lbs/10kg",
+    "maxUserWeightLb": "300 lbs/135kg",
+    "keyDimensions": "42.5 x 42.5 x 51.2 inches/1080x1080x1300mm(MAX) 42.5 x 42.5 x 45.7 inches/970x970x1160mm(MIN)",
+    "foldedDimensions": "30.7 x 14.4 x 4.5 inches/780x365x115mm",
+    "footprint": "42.5 x 42.5 inches/1080*1080mm",
+    "shippingWeight": "26Lbs/15.6kg",
+    "shippingDimensions": "33.1 x 16.7 x 4.7 inches/840x425x120mm",
+    "upc": "810153801818",
+    "latex": "YES",
+    "compatibility": "No",
+    "adjustments": "No",
+    "trampolineHeight": "310mm/12.2 inches",
+    "features": "1. Uses elastic bands as a form of resistance. 2. The trampoline is equipped with a high-density breathable jumping surface for a more comfortable exercise experience; the frame features a wear-resistant coating to effectively prevent fading and paint peeling. 3. The high-stretch elastic bands can efficiently absorb 85% of impact vibrations, providing long-lasting and smoother rebound. 4. The trampoline uses a reinforced steel frame with 6 thickened support legs, supporting up to 300 lbs. 5. Easy to assemble. 6. The handrail height is adjustable in 5 levels, allowing users to adjust the trampoline handrail height according to their needs."
+   },
+   "evidence": {
+    "brand": "SF-S025064 Final Spec 20260320.xlsx / Specs / B7",
+    "materials": "SF-S025064 Final Spec 20260320.xlsx / Specs / B12",
+    "color": "SF-S025064 Final Spec 20260320.xlsx / Specs / B11",
+    "productWeight": "SF-S025064 Final Spec 20260320.xlsx / Specs / B31",
+    "maxUserWeightLb": "SF-S025064 Final Spec 20260320.xlsx / Specs / B15",
+    "keyDimensions": "SF-S025064 Final Spec 20260320.xlsx / Specs / B32",
+    "foldedDimensions": "SF-S025064 Final Spec 20260320.xlsx / Specs / B29",
+    "footprint": "SF-S025064 Final Spec 20260320.xlsx / Specs / B19",
+    "shippingWeight": "SF-S025064 Final Spec 20260320.xlsx / Specs / B34",
+    "shippingDimensions": "SF-S025064 Final Spec 20260320.xlsx / Specs / B33",
+    "upc": "SF-S025064 Final Spec 20260320.xlsx / Specs / B10",
+    "latex": "SF-S025064 Final Spec 20260320.xlsx / Specs / B17",
+    "compatibility": "SF-S025064 Final Spec 20260320.xlsx / Specs / B30",
+    "adjustments": "SF-S025064 Final Spec 20260320.xlsx / Specs / B22",
+    "trampolineHeight": "SF-S025064 Final Spec 20260320.xlsx / Specs / B27",
+    "features": "SF-S025064 Final Spec 20260320.xlsx / Specs / B36"
+   },
+   "sources": [
+    "V2 spec sheet: SF-S025064 Final Spec 20260320.xlsx"
+   ],
+   "notes": [
+    "Maximum user height reads \"No height limit\" (B14); not shown as a limit. \"No limit\" is not an unlimited capacity."
+   ]
   }
  },
  {
@@ -267,6 +588,51 @@
    "source": "https://sunnyhealthfitness.com/collections/essentials/products/active-48-inch-fitness-trampoline-with-adjustable-handlebar-sf-s025065",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "Steel+Plastic(PP/PE/PA/PVC)+Elastic webbing",
+    "color": "Black",
+    "productWeight": "23.80Lbs/10.8kg",
+    "maxUserWeightLb": "300 lbs/136kg",
+    "keyDimensions": "50.4 x 50.4 x 51.2inches/1280x1280x1300mm(MAX) 50.4 x 50.4 x 45.7 inches/1280x1280x1160mm(MIN)",
+    "foldedDimensions": "36.2*16.5*4.5inches/920*420*115mm",
+    "footprint": "50.4x50.4inches/1280x1280mm",
+    "shippingWeight": "28.6Lbs/13kg",
+    "shippingDimensions": "37.8x19.9x4.7inches/960x505x120mm",
+    "upc": "810153801825",
+    "latex": "Yes",
+    "compatibility": "No",
+    "adjustments": "No",
+    "trampolineHeight": "310mm/12.2inches",
+    "features": "1. Uses elastic bands as a form of resistance. 2. The trampoline is equipped with a high-density breathable jumping surface for a more comfortable exercise experience; the frame features a wear-resistant coating to effectively prevent fading and paint peeling. 3. The high-stretch elastic bands can efficiently absorb 85% of impact vibrations, providing long-lasting and smoother rebound. 4. The trampoline uses a reinforced steel frame with 6 thickened support legs, supporting up to 300 lbs. 5. Easy to assemble. 6. The handrail height is adjustable in 5 levels, allowing users to adjust the trampoline handrail height according to their needs."
+   },
+   "evidence": {
+    "brand": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B7",
+    "materials": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B12",
+    "color": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B11",
+    "productWeight": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B31",
+    "maxUserWeightLb": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B15",
+    "keyDimensions": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B32",
+    "foldedDimensions": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B29",
+    "footprint": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B19",
+    "shippingWeight": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B34",
+    "shippingDimensions": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B33",
+    "upc": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B10",
+    "latex": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B17",
+    "compatibility": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B30",
+    "adjustments": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B22",
+    "trampolineHeight": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B27",
+    "features": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B36"
+   },
+   "sources": [
+    "V2 spec sheet: SF-S025065 Final spec 03.27.2026.xlsx"
+   ],
+   "notes": [
+    "Maximum user height reads \"No height limit\" (B14); not shown as a limit. \"No limit\" is not an unlimited capacity."
+   ]
   }
  },
  {
@@ -293,6 +659,35 @@
    "source": "https://sunnyhealthfitness.com/collections/essentials/products/exercise-trampoline-40-inch-sf-021048",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "Q235+PP+Rubber",
+    "color": "Black",
+    "productWeight": "12KG/26.4 LBS",
+    "maxUserWeightLb": "130KGS/285LBS",
+    "keyDimensions": "108*108*34CM 42.5*42.5*13.4INCH",
+    "shippingWeight": "15 kg/33 lbs",
+    "shippingDimensions": "108.5*108*9.5CM/ 42.7*42.5*3.7 INCH",
+    "features": "1. The trampoline is a low-intensity full-body exercise equipment, which can effectively burn calories, lose weight quickly, make your body stronger, improve your physical condition, exercise all your muscles at the same time. It takes more fun than other exercise methods. 2. The trampoline is with variation of the quadrilateral design, so that users have greater jumping space than the round trampoline. Integral design of jumping cloth, jumping cloth and big skirt cloth integrated, so that users have a sense of security. 3. The trampoline is with good rebound effect, 36 wear-resistant elastic strings design, no noise when using. Elastic strings force value can be adjusted according to your preferences. 4. The trampoline is simple to assemble. The user only need to assemble four supporting tubes. Four supporting tubes is with drum shape, which make the trampoline more stable."
+   },
+   "evidence": {
+    "brand": "Spec Sheet for SF-S021048 01162023.xlsx / Sheet1 / B3",
+    "materials": "Spec Sheet for SF-S021048 01162023.xlsx / Sheet1 / B7",
+    "color": "Spec Sheet for SF-S021048 01162023.xlsx / Sheet1 / B6",
+    "productWeight": "Spec Sheet for SF-S021048 01162023.xlsx / Sheet1 / B10",
+    "maxUserWeightLb": "Spec Sheet for SF-S021048 01162023.xlsx / Sheet1 / B19",
+    "keyDimensions": "Spec Sheet for SF-S021048 01162023.xlsx / Sheet1 / B12",
+    "shippingWeight": "Spec Sheet for SF-S021048 01162023.xlsx / Sheet1 / B9",
+    "shippingDimensions": "Spec Sheet for SF-S021048 01162023.xlsx / Sheet1 / B14",
+    "features": "Spec Sheet for SF-S021048 01162023.xlsx / Sheet1 / B42"
+   },
+   "sources": [
+    "V2 spec sheet: Spec Sheet for SF-S021048 01162023.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -319,6 +714,35 @@
    "source": "https://sunnyhealthfitness.com/collections/essentials/products/indoor-outdoor-exercise-trampoline-36",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "Q235+PP+Rubber",
+    "color": "Black+Black U",
+    "productWeight": "11.2KG/24.6LBS",
+    "maxUserWeightLb": "130KGS/285LBS",
+    "keyDimensions": "100*100*34CM 39.4*39.4*13.4INCH",
+    "shippingWeight": "13.8KG/30.4LBS",
+    "shippingDimensions": "98.5*96.5*9.5CM/ 38.8*38.2*3.7 INCH",
+    "features": "1. The trampoline is a low-intensity full-body exercise equipment, which can effectively burn calories, lose weight quickly, make your body stronger, improve your physical condition, exercise all your muscles at the same time. It takes more fun than other exercise methods. 2. The trampoline is with variation of the quadrilateral design, so that users have greater jumping space than the round trampoline. Integral design of jumping cloth, jumping cloth and big skirt cloth integrated, so that users have a sense of security. 3. The trampoline is with good rebound effect, 32 wear-resistant elastic strings design, no noise when using. Elastic strings force value can be adjusted according to your preferences. 4. The trampoline is simple to assemble. The user only need to assemble four supporting tubes. Four supporting tubes is with drum shape, which make the trampoline more stable."
+   },
+   "evidence": {
+    "brand": "Spec Sheet for SF-S021047 01162023.xlsx / Sheet1 / B3",
+    "materials": "Spec Sheet for SF-S021047 01162023.xlsx / Sheet1 / B7",
+    "color": "Spec Sheet for SF-S021047 01162023.xlsx / Sheet1 / B6",
+    "productWeight": "Spec Sheet for SF-S021047 01162023.xlsx / Sheet1 / B10",
+    "maxUserWeightLb": "Spec Sheet for SF-S021047 01162023.xlsx / Sheet1 / B19",
+    "keyDimensions": "Spec Sheet for SF-S021047 01162023.xlsx / Sheet1 / B12",
+    "shippingWeight": "Spec Sheet for SF-S021047 01162023.xlsx / Sheet1 / B9",
+    "shippingDimensions": "Spec Sheet for SF-S021047 01162023.xlsx / Sheet1 / B14",
+    "features": "Spec Sheet for SF-S021047 01162023.xlsx / Sheet1 / B42"
+   },
+   "sources": [
+    "V2 spec sheet: Spec Sheet for SF-S021047 01162023.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -345,6 +769,35 @@
    "source": "https://sunnyhealthfitness.com/collections/essentials/products/premium-extra-thick-exercise-yoga-mat-1-2-inch-sf-em03",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "NBR",
+    "color": "BLUE 300U",
+    "productWeight": "1.1KG/2.5LB",
+    "keyDimensions": "188*61*1.27CM 74*24*0.5INCH",
+    "foldedDimensions": "17*17*61CM 6.7*6.7*24INCH",
+    "shippingWeight": "1.4KG/3.1LB",
+    "shippingDimensions": "18*18*64CM 7*7*25.2INCH",
+    "features": "Only one side of the yoga mat is textured, the use surface (front) is vertical stripes, the back is smooth."
+   },
+   "evidence": {
+    "brand": "SF-EM03-BU final spec sheet 06242024.xlsx / SF-EM03-BU / B3",
+    "materials": "SF-EM03-BU final spec sheet 06242024.xlsx / SF-EM03-BU / B7",
+    "color": "SF-EM03-BU final spec sheet 06242024.xlsx / SF-EM03-BU / B6",
+    "productWeight": "SF-EM03-BU final spec sheet 06242024.xlsx / SF-EM03-BU / B10",
+    "keyDimensions": "SF-EM03-BU final spec sheet 06242024.xlsx / SF-EM03-BU / B12",
+    "foldedDimensions": "SF-EM03-BU final spec sheet 06242024.xlsx / SF-EM03-BU / B13",
+    "shippingWeight": "SF-EM03-BU final spec sheet 06242024.xlsx / SF-EM03-BU / B9",
+    "shippingDimensions": "SF-EM03-BU final spec sheet 06242024.xlsx / SF-EM03-BU / B14",
+    "features": "SF-EM03-BU final spec sheet 06242024.xlsx / SF-EM03-BU / B42"
+   },
+   "sources": [
+    "V2 spec sheet: SF-EM03-BU final spec sheet 06242024.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -397,6 +850,37 @@
    "source": "https://sunnyhealthfitness.com/collections/essentials/products/exercise-yoga-mat-anti-slip-dual-color-sf-em02",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "PVC+SCRIM",
+    "color": "425U+BLACK U",
+    "productWeight": "2KGS/4.4LBS",
+    "keyDimensions": "FLAT: 180CMx61CMx0.6CM 70.87INx24INx0.24IN",
+    "foldedDimensions": "DIA. 13CM X 61CM 5.2IN x 24IN",
+    "shippingWeight": "2.18KG/4.8LBS",
+    "shippingDimensions": "62X13X13.5CM 24.4*5.3*5.3 INCHES",
+    "features": "Anti slip function is very good, surface material will not peel off, tackness is good. Sofe and confortable, it can give the user a good grip and cushion.",
+    "certification": "6A"
+   },
+   "evidence": {
+    "brand": "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-GY / B3",
+    "materials": "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-GY / B7",
+    "color": "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-GY / B6",
+    "productWeight": "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-GY / B10",
+    "keyDimensions": "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-GY / B12",
+    "foldedDimensions": "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-GY / B13",
+    "shippingWeight": "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-GY / B9",
+    "shippingDimensions": "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-GY / B14",
+    "features": "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-GY / B42",
+    "certification": "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-GY / B41"
+   },
+   "sources": [
+    "V2 spec sheet: SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -423,6 +907,35 @@
    "source": "https://sunnyhealthfitness.com/collections/essentials/products/puzzle-exercise-mat-black-sf-em01-bk",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "POLYETHENE",
+    "color": "BLACK",
+    "productWeight": "2KGS/4.4LBS",
+    "foldedDimensions": "62*62*1.27CM 24.4*24.4*0.5INCH",
+    "footprint": "181*122CM 71.3*48INCH",
+    "shippingWeight": "2.6KGS/5.7LBS",
+    "shippingDimensions": "63.4*66*9.1CM 25*26*3.6INCH",
+    "features": "1SET (6PCS) for 1 carton"
+   },
+   "evidence": {
+    "brand": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B3",
+    "materials": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B7",
+    "color": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B6",
+    "productWeight": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B10",
+    "foldedDimensions": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B13",
+    "footprint": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B16",
+    "shippingWeight": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B9",
+    "shippingDimensions": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B14",
+    "features": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B42"
+   },
+   "sources": [
+    "V2 spec sheet: SF-EM01-BK Final Spec Sheet 06052024.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -449,6 +962,29 @@
    "source": "https://sunnyhealthfitness.com/collections/essentials/products/treadmill-floor-mat-1",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "productWeight": "0.47KG/1LBS",
+    "keyDimensions": "76.2*50.8*0.4CM/30 x 20 x 0.16 inches",
+    "shippingWeight": "0.64KG/1.4LBS",
+    "shippingDimensions": "53*7*7CM/20.7*2.8*2.8INCH",
+    "features": "*Protection Floor *High Density & Non-slip Surface *Lightweight, easy to clean *ECO-FRIENDLY material"
+   },
+   "evidence": {
+    "brand": "Spec Sheet for NO. 074-XS 7.11.2022.xlsx / NO. 074-XS / B3",
+    "productWeight": "Spec Sheet for NO. 074-XS 7.11.2022.xlsx / NO. 074-XS / B7",
+    "keyDimensions": "Spec Sheet for NO. 074-XS 7.11.2022.xlsx / NO. 074-XS / B9",
+    "shippingWeight": "Spec Sheet for NO. 074-XS 7.11.2022.xlsx / NO. 074-XS / B6",
+    "shippingDimensions": "Spec Sheet for NO. 074-XS 7.11.2022.xlsx / NO. 074-XS / B11",
+    "features": "Spec Sheet for NO. 074-XS 7.11.2022.xlsx / NO. 074-XS / B36"
+   },
+   "sources": [
+    "V2 spec sheet: Spec Sheet for NO. 074-XS 7.11.2022.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -475,6 +1011,33 @@
    "source": "https://sunnyhealthfitness.com/collections/essentials/products/premium-yoga-stretch-strap-with-8-individual-grip-loops-no-107",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "100%polyester",
+    "color": "BLACK U+485C",
+    "productWeight": "0.13KG/0.29lbs",
+    "keyDimensions": "190.5*3.81cm/75X1.5INCHES",
+    "shippingWeight": "0.19KG/0.42lbs",
+    "shippingDimensions": "11*5*17.5cm/4.3*2*6.9INCHES",
+    "features": "1.High Quality and Durable Polyester strap with 8 individual grip points, precision stitched to allow you to use it for a long for time and provide continuous stability for your safe workout. 2.Multiple hand-holds allow for progressive degrees of stretch, It can be used in exercise, stretching, yoga, pilates and joint. 3.Full Body Exercise:Increase flexibility and range of motion, strengthen the core and back and improve posture"
+   },
+   "evidence": {
+    "brand": "NO. 107 final spec sheet 20250205.xlsx / Sheet1 / B3",
+    "materials": "NO. 107 final spec sheet 20250205.xlsx / Sheet1 / B7",
+    "color": "NO. 107 final spec sheet 20250205.xlsx / Sheet1 / B6",
+    "productWeight": "NO. 107 final spec sheet 20250205.xlsx / Sheet1 / B10",
+    "keyDimensions": "NO. 107 final spec sheet 20250205.xlsx / Sheet1 / B12",
+    "shippingWeight": "NO. 107 final spec sheet 20250205.xlsx / Sheet1 / B9",
+    "shippingDimensions": "NO. 107 final spec sheet 20250205.xlsx / Sheet1 / B14",
+    "features": "NO. 107 final spec sheet 20250205.xlsx / Sheet1 / B43"
+   },
+   "sources": [
+    "V2 spec sheet: NO. 107 final spec sheet 20250205.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -501,6 +1064,33 @@
    "source": "https://sunnyhealthfitness.com/collections/essentials/products/yoga-foam-roller-sf-er01",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "EPP Foam",
+    "color": "BLACK/BLUE/PINK",
+    "productWeight": "0.17KG/0.4 lbs",
+    "keyDimensions": "30CM (L) x 15CM dia. (+-0.5CM)/ 12\" x 6\" diameter",
+    "shippingWeight": "0.33KG/0.7 lbs",
+    "shippingDimensions": "16*16*31m/ 6.3*6.3*12.2 INCHES",
+    "features": "-The High Density EPP Foam Provides Firm Support & Won't Lose Its Shape. -Sturdy Design Provides Quality Pressure For Getting Rid Of Troublesome Knots. -The High Density Creates Pressure To Reduce Tension In Muscles Using Just Your Body Weight."
+   },
+   "evidence": {
+    "brand": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-12 / B3",
+    "materials": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-12 / B7",
+    "color": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-12 / B6",
+    "productWeight": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-12 / B10",
+    "keyDimensions": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-12 / B12",
+    "shippingWeight": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-12 / B9",
+    "shippingDimensions": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-12 / B14",
+    "features": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-12 / B43"
+   },
+   "sources": [
+    "V2 spec sheet: SF-ER01 final spec sheet 20250923.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -527,6 +1117,33 @@
    "source": "https://sunnyhealthfitness.com/collections/essentials/products/dual-sided-core-exercise-disk-no-104",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "ABS+NBR",
+    "color": "Black+Red 485C",
+    "productWeight": "192g/0.4lbs",
+    "keyDimensions": "17.8*17.8*0.9CM/ 7*7*0.4 INCHES for 1 PC 17.8*17.8*1.8CM/ 7*7*0.7 INCHES for 2 PCS",
+    "shippingWeight": "265g/0.6lbs",
+    "shippingDimensions": "18.4*18.3*2.2CM/7.2*7.2*0.9 INCHES",
+    "features": "This product is made of ABS and NBR material. High-quality double sided sliders for Use on any floor type. Perfect for cardio, strength, toning, stability and core workouts. Portable and convenient our sliders can be used almost anywhere. For Use with hands or feet and provides low impact workouts."
+   },
+   "evidence": {
+    "brand": "SPEC SHEET for NO. 104.xlsx / Sheet1 / B3",
+    "materials": "SPEC SHEET for NO. 104.xlsx / Sheet1 / B7",
+    "color": "SPEC SHEET for NO. 104.xlsx / Sheet1 / B6",
+    "productWeight": "SPEC SHEET for NO. 104.xlsx / Sheet1 / B10",
+    "keyDimensions": "SPEC SHEET for NO. 104.xlsx / Sheet1 / B12",
+    "shippingWeight": "SPEC SHEET for NO. 104.xlsx / Sheet1 / B9",
+    "shippingDimensions": "SPEC SHEET for NO. 104.xlsx / Sheet1 / B14",
+    "features": "SPEC SHEET for NO. 104.xlsx / Sheet1 / B42"
+   },
+   "sources": [
+    "V2 spec sheet: SPEC SHEET for NO. 104.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -553,6 +1170,33 @@
    "source": "https://sunnyhealthfitness.com/collections/essentials/products/15-inch-pilates-ring-no-106",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "PP+EVA+NBR+FIBER GLASS",
+    "color": "RED 485C & BLACK",
+    "productWeight": "0.38KG/0.84lbs",
+    "keyDimensions": "38cm /15 INCH",
+    "foldedDimensions": "37.5*4.5*37.5cm/14.76*1.77*14.76INCHES",
+    "shippingWeight": "0.6KG/1.32lbs",
+    "features": "Glass Fiber Resistance: A rank glass fiber fleet, supply stable and moderate resistance perfect for women. Anti crack, fast rebounce. Outstanding resistance performance and lasting. Soft Padding: Human body friendly handle design, soft NBR sleeve and firm PP handle. Non slip holding or attaching to your knee, leg. Body Building: Exercise by pushing, pulling or pressing the yoga circle, strengthen and tone your upper body, lower body, core. Also popular pelvic floor strengthen prop. Magic ring to your workout! Easy Store and Carry: Small size for backpack, and lightweight for carry outside! Multi Body Exercise: Different body part training!"
+   },
+   "evidence": {
+    "brand": "NO. 106 final spec sheet 20250205.xlsx / Sheet1 / B3",
+    "materials": "NO. 106 final spec sheet 20250205.xlsx / Sheet1 / B7",
+    "color": "NO. 106 final spec sheet 20250205.xlsx / Sheet1 / B6",
+    "productWeight": "NO. 106 final spec sheet 20250205.xlsx / Sheet1 / B10",
+    "keyDimensions": "NO. 106 final spec sheet 20250205.xlsx / Sheet1 / B13",
+    "foldedDimensions": "NO. 106 final spec sheet 20250205.xlsx / Sheet1 / B14",
+    "shippingWeight": "NO. 106 final spec sheet 20250205.xlsx / Sheet1 / B9",
+    "features": "NO. 106 final spec sheet 20250205.xlsx / Sheet1 / B44"
+   },
+   "sources": [
+    "V2 spec sheet: NO. 106 final spec sheet 20250205.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -579,6 +1223,39 @@
    "source": "https://sunnyhealthfitness.com/collections/essentials/products/balance-board-wobble-board-no-120",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "PP/TPE Plastic",
+    "color": "Grey",
+    "productWeight": "1.3KG/2.8LBS",
+    "maxUserWeightLb": "300 Ibs (135 kg)",
+    "keyDimensions": "41.5*9cm/16.34\"L * 3.74\"H",
+    "shippingWeight": "1.7KG/3.7LBS",
+    "shippingDimensions": "43*10*43CM/16.9*3.9*16.9INCHES",
+    "upc": "810153803553",
+    "accessories": "PE bag/pc/inner box&Manual",
+    "features": "Large size with 16.3” /41.5 cm diameter, larger space for both feet; Made of high grade heavy duty TPE plastic, wobble board is durability item with 300 lb weight capacity; Upscale ankle balance board with massage spikes surface provides grip & stability; Comfortable barefoot or with shoes, while delivering a gentle massage effect during exercise while doing exercise;Plastic wobble board helps to develop core strength, improve balance & coordination through hundreds of exercises like pushup, plank, mountain climber, burpee, squat, tree pose and more;With lightweight & portable design with handles, this balance workout board is easy to carry and practice anywhere; Ideal for home gym, outdoors, fitness club & office;Suitable for all levels, this balance board for adults helps strengthen lower legs, thighs, hips, and core through simple 360° weight shifts"
+   },
+   "evidence": {
+    "brand": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-GY / B7",
+    "materials": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-GY / B12",
+    "color": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-GY / B11",
+    "productWeight": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-GY / B24",
+    "maxUserWeightLb": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-GY / B15",
+    "keyDimensions": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-GY / B25",
+    "shippingWeight": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-GY / B23",
+    "shippingDimensions": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-GY / B26",
+    "upc": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-GY / B10",
+    "accessories": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-GY / B20",
+    "features": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-GY / B21"
+   },
+   "sources": [
+    "V2 spec sheet: NO. 120 Final Spec Template dated 20260723.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -605,6 +1282,39 @@
    "source": "https://sunnyhealthfitness.com/collections/essentials/products/multi-function-workout-ankle-straps-no-091",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "NEOPRENE, NYLON, METAL D-RING",
+    "color": "BLACK",
+    "productWeight": "0.2KG/0.5LBS",
+    "keyDimensions": "52.5*20.4*3CM/20.7*4.0*0.35 INCHES",
+    "foldedDimensions": "26.5*10.2*3CM/10.4*4.0*0.41 INCHES",
+    "shippingWeight": "0.4KGS/0.8LBS",
+    "shippingDimensions": "29.5*12.5*3.5CM/ 11.6*5.0*1.4 INCHES",
+    "latex": "1pair/innerbox, 54pairs/outbox",
+    "features": "[Multi-purpose] Body shaping and fat loss,Butt lift and leg exercises, strength training. - Hand wash with cold water only and lay flat to dry - Compatible with Power Racks SF-XF9931 & XF9925",
+    "certification": "the fabric and vecro pass the REACH ROHS CA65 test"
+   },
+   "evidence": {
+    "brand": "NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx / Sheet1 / B3",
+    "materials": "NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx / Sheet1 / B7",
+    "color": "NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx / Sheet1 / B6",
+    "productWeight": "NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx / Sheet1 / B10",
+    "keyDimensions": "NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx / Sheet1 / B12",
+    "foldedDimensions": "NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx / Sheet1 / B13",
+    "shippingWeight": "NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx / Sheet1 / B9",
+    "shippingDimensions": "NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx / Sheet1 / B14",
+    "latex": "NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx / Sheet1 / B8",
+    "features": "NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx / Sheet1 / B42",
+    "certification": "NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx / Sheet1 / B41"
+   },
+   "sources": [
+    "V2 spec sheet: NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -631,6 +1341,37 @@
    "source": "https://sunnyhealthfitness.com/collections/essentials/products/adjustable-weighted-vest-sf-wv01",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "Polyester/Imitation N Fabric, Neoprene‌, Iron Sand",
+    "color": "BLACK",
+    "productWeight": "4.5kg/10lbs",
+    "keyDimensions": "38x23x13/42cm/15x9x5.1/16.5inches",
+    "shippingWeight": "4.9kg/11lbs",
+    "shippingDimensions": "25*23*11cm/9.8*9.1*4.3 inches",
+    "upc": "810153803355",
+    "accessories": "PE bag/pc&Manual",
+    "features": "X-Balance Design lron Sand Filling:Crafted from soft, high-quality neoprene upper material, and filled with high-density iron sand, our adjustable weighted vest combines long-lasting durability with comfort. Weight Adjustable:our weight training starts at 4 pounds, and adds up to 10 pounds of resistance with six 1-pound iron sand weight bag. Adjustable Straps: Our weight vest features double-line stitching for enhanced durability, eliminating any concerns of leakage. The adjustable side straps come with loops to tuck in the excess ends, keeping things tidy and preventing distraction while running. Made from breathable neoprene, it dries quickly. Zipper Pouch: Carry your essentials in the convenient front zipper pouch—perfect for keeping your keys, wallet, or phone on the go. Plus, stay visible and safe during outdoor training thanks to the reflective strips on the front, shoulders, and back, ensuring you’re easy to spot in low light conditions."
+   },
+   "evidence": {
+    "brand": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A1 / B7",
+    "materials": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A1 / B12",
+    "color": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A1 / B11",
+    "productWeight": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A1 / B24",
+    "keyDimensions": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A1 / B25",
+    "shippingWeight": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A1 / B23",
+    "shippingDimensions": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A1 / B26",
+    "upc": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A1 / B10",
+    "accessories": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A1 / B20",
+    "features": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A1 / B21"
+   },
+   "sources": [
+    "V2 spec sheet: SF-WV01 final Spec Template dated 20260701.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -657,6 +1398,31 @@
    "source": "https://sunnyhealthfitness.com/collections/essentials/products/weightlifting-gloves-with-wrist-support-sf-gl02",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "Palm: Non-Leather Material (Ammara) Back: Fourway Polyester Fabric & Genuine Goatskin Leather Back Design: Neoprene Material Palm Padding: Foam Padded Palm Fourchettes: Lycra Stretch Fabric Binding: Polyester Cloth Fabric Binding at Cuff and Strap Strap: 2-inch DD Elastic Strap with Silicon Printed Logo with Velcro Hook & Loop Closure",
+    "color": "BLACK",
+    "keyDimensions": "S: (L: 7.3\" x W: 4\" x H: 0.8\" /INCHES",
+    "upc": "810153802341",
+    "latex": "NO",
+    "features": "Protects hands from abrasions, calluses, and fatigue Improves lifting control and grip confidence Provides wrist support to help reduce strain Enhances comfort during extended training sessions Ideal for weightlifting, strength training, CrossFit, cycling, and gym workouts"
+   },
+   "evidence": {
+    "brand": "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-S / B3",
+    "materials": "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-S / B8",
+    "color": "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-S / B7",
+    "keyDimensions": "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-S / B14",
+    "upc": "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-S / B6",
+    "latex": "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-S / B10",
+    "features": "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-S / B16"
+   },
+   "sources": [
+    "V2 spec sheet: SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx"
+   ],
+   "notes": []
   }
  }
 ]

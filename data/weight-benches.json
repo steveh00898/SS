@@ -23,6 +23,31 @@
    "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/stretch-training-machine-sf-bh621002",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Weight Benches"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "productWeight": "13.5KG/29.7LBS",
+    "maxUserWeightLb": "120KGS/265LBS",
+    "keyDimensions": "107*48*88.7CM 42.1*18.9*34.9 INCH",
+    "shippingWeight": "15.5KG/34.1LBS",
+    "shippingDimensions": "105*45.5*16 CM/ 41.3*17.9*6.3 INCH",
+    "features": "1. This is a stretching equipment to be used before exercising. It has an instructional diagram to demonstrate how to stretch different muscles 2. There are straps to place around the wrist to prevent falls"
+   },
+   "evidence": {
+    "brand": "SF-BH621002 Spec Sheet 2022.01.28 final (DIFF COLOR).xlsx / 2022-01-28 / B3",
+    "productWeight": "SF-BH621002 Spec Sheet 2022.01.28 final (DIFF COLOR).xlsx / 2022-01-28 / B7",
+    "maxUserWeightLb": "SF-BH621002 Spec Sheet 2022.01.28 final (DIFF COLOR).xlsx / 2022-01-28 / B14",
+    "keyDimensions": "SF-BH621002 Spec Sheet 2022.01.28 final (DIFF COLOR).xlsx / 2022-01-28 / B9",
+    "shippingWeight": "SF-BH621002 Spec Sheet 2022.01.28 final (DIFF COLOR).xlsx / 2022-01-28 / B6",
+    "shippingDimensions": "SF-BH621002 Spec Sheet 2022.01.28 final (DIFF COLOR).xlsx / 2022-01-28 / B11",
+    "features": "SF-BH621002 Spec Sheet 2022.01.28 final (DIFF COLOR).xlsx / 2022-01-28 / B36"
+   },
+   "sources": [
+    "V2 spec sheet: SF-BH621002 Spec Sheet 2022.01.28 final (DIFF COLOR).xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -65,6 +90,39 @@
    "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/fully-adjustable-power-zone-utility-heavy-duty-weight-bench-with-1000-lb-max-weight-sf-bh6920",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Weight Benches"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "productWeight": "67 LBS (30.4KG)",
+    "maxUserWeightLb": "330 lb",
+    "keyDimensions": "61*29.7*50.6 INCHES (1550*755*1285mm)",
+    "shippingWeight": "76 LBS (34.5KG)",
+    "shippingDimensions": "43.7*27.6*7.7 INCHES(1110*700*195mm)",
+    "capacityConditions": "500 lb (Max User Weight 330 lb)",
+    "seatDimensions": "12.8*11.6*1.77 INCHES (325*295*45mm)",
+    "features": "1. Max Weight Capacity is 1000LBS. And it can withstand 250LBS impact weight 2. The main frame was built from 2\" square, high-quality steel tube. 3. The seat cushion and back cushion are made of PU material which is tear and wear resistance. And the inner lining is made out of environmental friendly material. 4. The back support is adjustable. There are 7 levels (-20°, 0°, 15°, 30°, 45°, 60°, 85°) for adjusting. 5. The seat cushion is adjustable. There are 4 levels (0°~20°) for adjusting. 6. The item is with 4 sponges for foot. 7. The item could be used together with squat stand to do the declivity/horizontal/acclivity lifting. It's also a good dumbell chair, and it could also be used as a AB chair. 8. Backrest cushion and seat cushion are made of regenerated sponge and native sponge.",
+    "certification": "6A"
+   },
+   "evidence": {
+    "brand": "Spec Sheet for SF-BH6920 06212023 - unconfirmed.xlsx / Sheet1 / B2",
+    "productWeight": "Spec Sheet for SF-BH6920 06212023 - unconfirmed.xlsx / Sheet1 / B6",
+    "maxUserWeightLb": "Spec Sheet for SF-BH6920 06212023 - unconfirmed.xlsx / Sheet1 / B12",
+    "keyDimensions": "Spec Sheet for SF-BH6920 06212023 - unconfirmed.xlsx / Sheet1 / B8",
+    "shippingWeight": "Spec Sheet for SF-BH6920 06212023 - unconfirmed.xlsx / Sheet1 / B5",
+    "shippingDimensions": "Spec Sheet for SF-BH6920 06212023 - unconfirmed.xlsx / Sheet1 / B9",
+    "capacityConditions": "Spec Sheet for SF-BH6920 06212023 - unconfirmed.xlsx / Sheet1 / B12",
+    "seatDimensions": "Spec Sheet for SF-BH6920 06212023 - unconfirmed.xlsx / Sheet1 / B10",
+    "features": "Spec Sheet for SF-BH6920 06212023 - unconfirmed.xlsx / Sheet1 / B32",
+    "certification": "Spec Sheet for SF-BH6920 06212023 - unconfirmed.xlsx / Sheet1 / B31"
+   },
+   "sources": [
+    "V2 spec sheet: Spec Sheet for SF-BH6920 06212023 - unconfirmed.xlsx"
+   ],
+   "notes": [
+    "Frame / equipment capacity (B12) combines a total capacity and a user-weight limit: the user-weight part is shown as maximum user weight, the full wording under capacity."
+   ]
   }
  },
  {
@@ -91,6 +149,37 @@
    "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/foldable-roman-chair-with-dip-station-sf-bh620062",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Weight Benches"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "productWeight": "16.1kg/35.4lbs",
+    "maxUserWeightLb": "150KGS/330LBS",
+    "keyDimensions": "119*62*86CM 46.9*24.4*33.9INCH",
+    "foldedDimensions": "46.1*24.4*7.9 INCH (117*62*20CM)",
+    "shippingWeight": "18.5kg/40.7lbs",
+    "shippingDimensions": "96*49.5*16.5CM/ 37.8*19.5*6.5 INCH",
+    "seatDimensions": "200*190*110MM each 7.87*7.48*4.33INCH each",
+    "benchHeight": "Min: 640 mm(25.2 inch) Max: 865mm (34.1 inch)",
+    "features": "1.3-LEVELS ROMAN CHAIR ANGLE 2.10-LEVELS ROMAN CHAIR HEIGHT, available for the user with height within 2 meter. 3.It's folded, customer could fold it to save storage space. 4.Main functions;Back muscle, side abdominal muscle exercise, auxiliary function parallel bars, push-ups, etc 5.Can be moved easily by the transportation wheels 6.Can be used as dip station 7. 3 sets: 33°/42°/47°"
+   },
+   "evidence": {
+    "brand": "Spec Sheet--SF-BH620062 2022.02.10.xlsx / Sheet1 / B3",
+    "productWeight": "Spec Sheet--SF-BH620062 2022.02.10.xlsx / Sheet1 / B7",
+    "maxUserWeightLb": "Spec Sheet--SF-BH620062 2022.02.10.xlsx / Sheet1 / B15",
+    "keyDimensions": "Spec Sheet--SF-BH620062 2022.02.10.xlsx / Sheet1 / B9",
+    "foldedDimensions": "Spec Sheet--SF-BH620062 2022.02.10.xlsx / Sheet1 / B10",
+    "shippingWeight": "Spec Sheet--SF-BH620062 2022.02.10.xlsx / Sheet1 / B6",
+    "shippingDimensions": "Spec Sheet--SF-BH620062 2022.02.10.xlsx / Sheet1 / B11",
+    "seatDimensions": "Spec Sheet--SF-BH620062 2022.02.10.xlsx / Sheet1 / B12",
+    "benchHeight": "Spec Sheet--SF-BH620062 2022.02.10.xlsx / Sheet1 / B13",
+    "features": "Spec Sheet--SF-BH620062 2022.02.10.xlsx / Sheet1 / B37"
+   },
+   "sources": [
+    "V2 spec sheet: Spec Sheet--SF-BH620062 2022.02.10.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -117,6 +206,31 @@
    "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/sunny-health-and-fitness-sf-bh6629-45-degree-hyperextension-roman-chair",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Weight Benches"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "productWeight": "24 Ibs",
+    "keyDimensions": "39L x 24W x 33H",
+    "shippingWeight": "26 Ibs",
+    "shippingDimensions": "31L x 15.5W x 5.5H",
+    "frameCapacity": "113.4kgs/250lbs",
+    "features": "User Min.: 56 inches (140 cm), Max: 76 inches (195 cm)"
+   },
+   "evidence": {
+    "brand": "BH6629 Specification, max weight updated.xlsx / Specification / B1",
+    "productWeight": "BH6629 Specification, max weight updated.xlsx / Specification / B4",
+    "keyDimensions": "BH6629 Specification, max weight updated.xlsx / Specification / B9",
+    "shippingWeight": "BH6629 Specification, max weight updated.xlsx / Specification / B5",
+    "shippingDimensions": "BH6629 Specification, max weight updated.xlsx / Specification / B6",
+    "frameCapacity": "BH6629 Specification, max weight updated.xlsx / Specification / B13",
+    "features": "BH6629 Specification, max weight updated.xlsx / Specification / B21"
+   },
+   "sources": [
+    "V2 spec sheet: BH6629 Specification, max weight updated.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -153,6 +267,39 @@
    "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/adjustable-utility-weight-bench-sf-bh6921",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Weight Benches"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "productWeight": "18.5KG/40.7 LBS",
+    "maxUserWeightLb": "330 lb",
+    "keyDimensions": "52.44L*18.82W*45.9H INCHES 1332L*478W*1164.6H MM",
+    "foldedDimensions": "1180L*478W*210H INCHES 46.47L*18.82W*8.27H MM",
+    "shippingWeight": "22KG/48.5 LBS",
+    "shippingDimensions": "1260*520*245 mm 49.6*20.5*9.6 INCHES",
+    "capacityConditions": "430 lb (Max User Weight 330 lb)",
+    "features": "1.The maximum weight capacity of this unit is 1000 LBS. 2. The main body is made of high quality steel square tube, and the width of the enlarged sitting cushion is 12 \", which can provide better back support when exercising. 3, the product adopts machine folding packaging, customers can use the bench when open the package. 4. The rear bottom pipe is equipped with a transportation wheel, the front bottom pipe can be folded, convenient for moving and storing. 5, The front bottom tube has two levels of adjustment, according to the different position of the bolt, there are two kinds of adjustment Angle; When the pin is stuck in hole 1, the back pad can be adjusted to -10°, 0°, 15°, 45°, 60°, 80°; When the pin is stuck in hole 2, the back pad can be adjusted at -15°, -5°, 10°, 40°, 55°, 75° . 6, it can be used as a dumbbell movement exercise and with the strength training rack can do down, level, up, push the shoulder and other movements, but also can be used as a yoga action training.",
+    "certification": "6A"
+   },
+   "evidence": {
+    "brand": "SF-BH6921 Spec Sheet 2023.06.21.xlsx / Sheet1 / B3",
+    "productWeight": "SF-BH6921 Spec Sheet 2023.06.21.xlsx / Sheet1 / B7",
+    "maxUserWeightLb": "SF-BH6921 Spec Sheet 2023.06.21.xlsx / Sheet1 / B14",
+    "keyDimensions": "SF-BH6921 Spec Sheet 2023.06.21.xlsx / Sheet1 / B9",
+    "foldedDimensions": "SF-BH6921 Spec Sheet 2023.06.21.xlsx / Sheet1 / B10",
+    "shippingWeight": "SF-BH6921 Spec Sheet 2023.06.21.xlsx / Sheet1 / B6",
+    "shippingDimensions": "SF-BH6921 Spec Sheet 2023.06.21.xlsx / Sheet1 / B11",
+    "capacityConditions": "SF-BH6921 Spec Sheet 2023.06.21.xlsx / Sheet1 / B14",
+    "features": "SF-BH6921 Spec Sheet 2023.06.21.xlsx / Sheet1 / B36",
+    "certification": "SF-BH6921 Spec Sheet 2023.06.21.xlsx / Sheet1 / B35"
+   },
+   "sources": [
+    "V2 spec sheet: SF-BH6921 Spec Sheet 2023.06.21.xlsx"
+   ],
+   "notes": [
+    "Maximum user weight (lb) (B14) combines a total capacity and a user-weight limit: the user-weight part is shown as maximum user weight, the full wording under capacity."
+   ]
   }
  },
  {
@@ -215,6 +362,43 @@
    "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/adjustable-multifunction-weight-bench-sf-bh622045",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Weight Benches"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "STEEL TUBE/PLASTIC/LEATHER/PE Foam",
+    "color": "BLACK+485C+425U",
+    "productWeight": "18.2KG/40 LBS",
+    "maxUserWeightLb": "300 lb",
+    "keyDimensions": "1255*780*1165 MM 49.4*30.7*45.9 INCH",
+    "footprint": "1255*780MM 49.4*30.7INCH",
+    "shippingWeight": "20.7KG/45.5 LBS",
+    "shippingDimensions": "1248*355*210 MM/ 49.1*13.9*8.3 INCH",
+    "capacityConditions": "Total max weight capacity: 520 lbs (Max user weight: 135KGS/300LBS Max external weight capacity100KG/220LBS)",
+    "seatDimensions": "SEAT:305*270*45MM/ 12*10.6*1.8 INCH BACKREST:850*315*45MM/ 33.4*12.4*1.8INCH",
+    "features": "1.Users can adjust backrest pad and seat front and back to find the best angle for workout. 2.The backrest pad provides high density and widened cushion for users to have comfortable support. 3.The backrest pad can be adjusted in six angles: 0°, 15°, 30°, 45°, 60°, and 80° . The seat can be adjusted in two angles: 0° and -10° , could meet different exercise needs. 4.The bench has transportation wheels for users to move/store it easily. 5.The rear stabilizer has a mounting hole for people to use with the SF-XF922044.."
+   },
+   "evidence": {
+    "brand": "Final SPEC SHEET- SF-BH622045 06132023 update - 1.xlsx / Sheet1 / B3",
+    "materials": "Final SPEC SHEET- SF-BH622045 06132023 update - 1.xlsx / Sheet1 / B7",
+    "color": "Final SPEC SHEET- SF-BH622045 06132023 update - 1.xlsx / Sheet1 / B6",
+    "productWeight": "Final SPEC SHEET- SF-BH622045 06132023 update - 1.xlsx / Sheet1 / B12",
+    "maxUserWeightLb": "Final SPEC SHEET- SF-BH622045 06132023 update - 1.xlsx / Sheet1 / B21",
+    "keyDimensions": "Final SPEC SHEET- SF-BH622045 06132023 update - 1.xlsx / Sheet1 / B14",
+    "footprint": "Final SPEC SHEET- SF-BH622045 06132023 update - 1.xlsx / Sheet1 / B18",
+    "shippingWeight": "Final SPEC SHEET- SF-BH622045 06132023 update - 1.xlsx / Sheet1 / B11",
+    "shippingDimensions": "Final SPEC SHEET- SF-BH622045 06132023 update - 1.xlsx / Sheet1 / B16",
+    "capacityConditions": "Final SPEC SHEET- SF-BH622045 06132023 update - 1.xlsx / Sheet1 / B21",
+    "seatDimensions": "Final SPEC SHEET- SF-BH622045 06132023 update - 1.xlsx / Sheet1 / B17",
+    "features": "Final SPEC SHEET- SF-BH622045 06132023 update - 1.xlsx / Sheet1 / B44"
+   },
+   "sources": [
+    "V2 spec sheet: Final SPEC SHEET- SF-BH622045 06132023 update - 1.xlsx"
+   ],
+   "notes": [
+    "Maximum user weight (lb) (B21) combines a total capacity and a user-weight limit: the user-weight part is shown as maximum user weight, the full wording under capacity."
+   ]
   }
  },
  {
@@ -241,6 +425,39 @@
    "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/adjustable-standard-incline-weight-bench-with-leg-developer-and-preacher-curl-attachment-sf-bh623009",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Weight Benches"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "STEEL TUBE/PLASTIC/LEATHER(PVC)/PE Foam",
+    "color": "Dark grey and shining silver+425U+485C+Black",
+    "productWeight": "20.8KGS/45.9LBS",
+    "maxUserWeightLb": "300lbs/135kgs",
+    "keyDimensions": "1700*820*1138mm 66.9*32.3*44.8inch",
+    "footprint": "1710*785mm 67.3*30.9inch",
+    "shippingWeight": "23.6KGS/52LBS",
+    "shippingDimensions": "1250*510*170mm 49.2*20.1*6.7inch",
+    "seatDimensions": "460*310*45mm 18.1*12.2*1.8inch",
+    "features": "1. The maximum weight capacity of this unit is 430lbs (the weight capacity for the leg attachment is 100lbs), the maximum user weight is 300lbs (135kgs). 2. There are 3 different adjustments for Backrest (No. 31), suitable for different angles of chest training and other use of flat chair training. 3. The outer distance between the two Upright Post (No. 2) is 30.7\", suitable for a variety of sizes of the weight bar, and equipped with Safety Pin (No. 21) , to prevent the weight bar from flipping when hanging the bell. 4. The frame is made of 2mm steel pipe with powder coating, which can bear the load for a long time. 5. equipped with bicep pad and leg trainer, so that arms and legs, hips can be fully exercised"
+   },
+   "evidence": {
+    "brand": "SF-BH623009 SPEC SHEET 20240410 final.xlsx / SF-BH623009 / B3",
+    "materials": "SF-BH623009 SPEC SHEET 20240410 final.xlsx / SF-BH623009 / B7",
+    "color": "SF-BH623009 SPEC SHEET 20240410 final.xlsx / SF-BH623009 / B6",
+    "productWeight": "SF-BH623009 SPEC SHEET 20240410 final.xlsx / SF-BH623009 / B10",
+    "maxUserWeightLb": "SF-BH623009 SPEC SHEET 20240410 final.xlsx / SF-BH623009 / B19",
+    "keyDimensions": "SF-BH623009 SPEC SHEET 20240410 final.xlsx / SF-BH623009 / B12",
+    "footprint": "SF-BH623009 SPEC SHEET 20240410 final.xlsx / SF-BH623009 / B16",
+    "shippingWeight": "SF-BH623009 SPEC SHEET 20240410 final.xlsx / SF-BH623009 / B9",
+    "shippingDimensions": "SF-BH623009 SPEC SHEET 20240410 final.xlsx / SF-BH623009 / B14",
+    "seatDimensions": "SF-BH623009 SPEC SHEET 20240410 final.xlsx / SF-BH623009 / B15",
+    "features": "SF-BH623009 SPEC SHEET 20240410 final.xlsx / SF-BH623009 / B42"
+   },
+   "sources": [
+    "V2 spec sheet: SF-BH623009 SPEC SHEET 20240410 final.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -267,6 +484,43 @@
    "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/inversion-traction-stretch-decompression-table-sf-bh623052",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Weight Benches"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "STEEL/PLASTIC/LEATHER/PE Foam",
+    "color": "Dark Gary+BLACK+485C",
+    "productWeight": "17.2KG/37.9LBS",
+    "maxUserWeightLb": "400lbs/180kgs",
+    "maxUserHeight": "210cm/82.7inches",
+    "keyDimensions": "2165*940*655mm/ 85.2*37*25.8inches",
+    "footprint": "1215*405mm/ 47.8*15.9inches",
+    "shippingWeight": "19.6KG/43.2LBS",
+    "shippingDimensions": "1219.2*429.3*190.5mm/ 48*16.9*7.5inches",
+    "backrestDimensions": "1090*340*40mm/ 42.9*13.4*1.6inches",
+    "benchHeight": "40 cm / 15.75 inches",
+    "features": "1. This is a high performance auxiliary stretching machine, which can effectively stretch the user's lumbar spine. Relieves lower back pain and sedentary fatigue, the max users weight can up to 400 LBS. 2. High density, thick and wide back pad provides comfortable support for users; 3. It is suitable for users of different heights to adjust and use, and the Base Racks can be removed to use as well; 4. This product is also a practical flat chair, can do dumbbell bench press, sit-ups and other strength training."
+   },
+   "evidence": {
+    "brand": "SF-BH623052 SPECSHEET 11042024.xlsx / Sheet1 / B3",
+    "materials": "SF-BH623052 SPECSHEET 11042024.xlsx / Sheet1 / B7",
+    "color": "SF-BH623052 SPECSHEET 11042024.xlsx / Sheet1 / B6",
+    "productWeight": "SF-BH623052 SPECSHEET 11042024.xlsx / Sheet1 / B10",
+    "maxUserWeightLb": "SF-BH623052 SPECSHEET 11042024.xlsx / Sheet1 / B19",
+    "maxUserHeight": "SF-BH623052 SPECSHEET 11042024.xlsx / Sheet1 / B20",
+    "keyDimensions": "SF-BH623052 SPECSHEET 11042024.xlsx / Sheet1 / B12",
+    "footprint": "SF-BH623052 SPECSHEET 11042024.xlsx / Sheet1 / B16",
+    "shippingWeight": "SF-BH623052 SPECSHEET 11042024.xlsx / Sheet1 / B9",
+    "shippingDimensions": "SF-BH623052 SPECSHEET 11042024.xlsx / Sheet1 / B14",
+    "backrestDimensions": "SF-BH623052 SPECSHEET 11042024.xlsx / Sheet1 / B15",
+    "benchHeight": "SF-BH623052 SPECSHEET 11042024.xlsx / Sheet1 / B21",
+    "features": "SF-BH623052 SPECSHEET 11042024.xlsx / Sheet1 / B47"
+   },
+   "sources": [
+    "V2 spec sheet: SF-BH623052 SPECSHEET 11042024.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -293,6 +547,41 @@
    "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/adjustable-standard-incline-weight-bench-with-rack-sf-bh623008",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Weight Benches"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "STEEL TUBE/PLASTIC/LEATHER/PE Foam",
+    "color": "Dark gray silver+485C+425U+BLACK",
+    "productWeight": "15KG/33.1LBS",
+    "maxUserWeightLb": "300lbs",
+    "keyDimensions": "1240*820*1138mm 48.8*32.3*44.8inch",
+    "footprint": "1240*785mm 48.8*30.9inch",
+    "shippingWeight": "17.1KG/37.7LBS",
+    "shippingDimensions": "1250*335*170mm 49.2X13.2X6.7 INCHES",
+    "seatDimensions": "300*290*45mm 11.8*11.4*1.8inch",
+    "features": "1. The maximum weight capacity of this unit is 330lbs (150kgs), maximum user weight is 300lbs (135kgs). 2. There are 3 different adjustments for Backrest (No. 22), suitable for different angles of chest training and other use of flat chair training. 3. The outer distance between the two Upright Post (No. 2) is 30.7\", suitable for a variety of sizes of the weight bar, and equipped with Safety Pin (No. 17) , to prevent the weight bar from flipping when hanging the bell. 4. The frame is made of 2mm steel pipe with powder coating, which can bear the load for a long time.",
+    "certification": "6A"
+   },
+   "evidence": {
+    "brand": "SF-BH623008 SPEC SHEET 20240326 final.xlsx / SF-BH623008 / B3",
+    "materials": "SF-BH623008 SPEC SHEET 20240326 final.xlsx / SF-BH623008 / B7",
+    "color": "SF-BH623008 SPEC SHEET 20240326 final.xlsx / SF-BH623008 / B6",
+    "productWeight": "SF-BH623008 SPEC SHEET 20240326 final.xlsx / SF-BH623008 / B10",
+    "maxUserWeightLb": "SF-BH623008 SPEC SHEET 20240326 final.xlsx / SF-BH623008 / B19",
+    "keyDimensions": "SF-BH623008 SPEC SHEET 20240326 final.xlsx / SF-BH623008 / B12",
+    "footprint": "SF-BH623008 SPEC SHEET 20240326 final.xlsx / SF-BH623008 / B16",
+    "shippingWeight": "SF-BH623008 SPEC SHEET 20240326 final.xlsx / SF-BH623008 / B9",
+    "shippingDimensions": "SF-BH623008 SPEC SHEET 20240326 final.xlsx / SF-BH623008 / B14",
+    "seatDimensions": "SF-BH623008 SPEC SHEET 20240326 final.xlsx / SF-BH623008 / B15",
+    "features": "SF-BH623008 SPEC SHEET 20240326 final.xlsx / SF-BH623008 / B42",
+    "certification": "SF-BH623008 SPEC SHEET 20240326 final.xlsx / SF-BH623008 / B41"
+   },
+   "sources": [
+    "V2 spec sheet: SF-BH623008 SPEC SHEET 20240326 final.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -319,6 +608,45 @@
    "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/adjustable-stretch-and-decompression-table-sf-bh624089",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Weight Benches"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "STEEL/PLASTIC/LEATHER/PE Foam",
+    "color": "BLACK, DARK GREY,RED",
+    "productWeight": "14.5KG/32LBS",
+    "maxUserWeightLb": "400lbs/180KGS",
+    "maxUserHeight": "210cm/82.7inches",
+    "keyDimensions": "2155*575*425mm/84.8*22.6*16.7inches",
+    "footprint": "1670*575mm/65.7*22.6inches",
+    "shippingWeight": "16.9KG/37.2LBS",
+    "shippingDimensions": "1220*430*180mm 48*16.9*7.1inches",
+    "upc": "810153801399",
+    "latex": "NO",
+    "backrestDimensions": "1090*340*40mm/ 42.9*13.4*1.6inches",
+    "features": "1. This is a high-performance auxiliary stretching machine that can effectively stretch the user's lumbar vertebrae, relieve lower back pain and fatigue from prolonged sitting. 2. The high-density, thickened and widened back pad provides comfortable support for the user. 3. The adjustment part of the stretching machine is a quick adjustment structure, suitable for users of different heights to adjust and use. 4. This product is also a practical flat pad that can be used for yoga training and sit-up training."
+   },
+   "evidence": {
+    "brand": "SF-BH624089 Spec Sheet 20250122.xlsx / Sheet1 / B3",
+    "materials": "SF-BH624089 Spec Sheet 20250122.xlsx / Sheet1 / B8",
+    "color": "SF-BH624089 Spec Sheet 20250122.xlsx / Sheet1 / B7",
+    "productWeight": "SF-BH624089 Spec Sheet 20250122.xlsx / Sheet1 / B12",
+    "maxUserWeightLb": "SF-BH624089 Spec Sheet 20250122.xlsx / Sheet1 / B21",
+    "maxUserHeight": "SF-BH624089 Spec Sheet 20250122.xlsx / Sheet1 / B22",
+    "keyDimensions": "SF-BH624089 Spec Sheet 20250122.xlsx / Sheet1 / B14",
+    "footprint": "SF-BH624089 Spec Sheet 20250122.xlsx / Sheet1 / B18",
+    "shippingWeight": "SF-BH624089 Spec Sheet 20250122.xlsx / Sheet1 / B11",
+    "shippingDimensions": "SF-BH624089 Spec Sheet 20250122.xlsx / Sheet1 / B16",
+    "upc": "SF-BH624089 Spec Sheet 20250122.xlsx / Sheet1 / B6",
+    "latex": "SF-BH624089 Spec Sheet 20250122.xlsx / Sheet1 / B9",
+    "backrestDimensions": "SF-BH624089 Spec Sheet 20250122.xlsx / Sheet1 / B17",
+    "features": "SF-BH624089 Spec Sheet 20250122.xlsx / Sheet1 / B46"
+   },
+   "sources": [
+    "V2 spec sheet: SF-BH624089 Spec Sheet 20250122.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -345,6 +673,51 @@
    "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/multifunction-core-glute-trainer-sf-bh625020",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Weight Benches"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "Steel+PVC+Nylon+SBR+NBR",
+    "color": "Dark Gray + Red485C+Black+Gray 425U",
+    "productWeight": "12.5kg/27.6lb",
+    "maxUserWeightLb": "150kg(330lb)",
+    "maxUserHeight": "200cm/79 inches",
+    "keyDimensions": "1790*655*560mm(70.5*25.8*22inch)",
+    "footprint": "1790*510mm(70.5*20.1inch)",
+    "shippingWeight": "15.4kg/34LB",
+    "shippingDimensions": "1165*400*165mm(45.9*15.7*6.5 in)",
+    "upc": "810153803317",
+    "latex": "Yes, RESISTANCE TUBES",
+    "seatDimensions": "580*280*42mm(22.8*11*1.7 inch)",
+    "frameCapacity": "375kg (825lb) - Seat 225kg (500lb) - Hand Grip",
+    "extendedDimensions": "Compact: 1146*654*386mm/45.1*25.8*15.2inches; Fully extended: 1790*654/562mm/70.5*25.8*22.2inches",
+    "transportWheels": "No",
+    "features": "1. This product combines sit ups, squats, hip bridges, push ups, and other functions, making it a small home fitness center. 2. The product has a small footprint, with a minimum footprint of only 0.5m2 3. The main frame adopts a T-shaped structure of 2\" square tube and 2\" round tube, which is stable and reliable. The maximum weight of the user can reach 150kg 4. When using different functions for training, there are adjustment knobs to adapt to different heights, with a maximum applicable height of 2 meters. 5. Equipped with three 20lb resistance tubes for hip bridge exercises to increase the intensity of the exercise, other forms of resistance such as resistance bands or barbell bars can also be used."
+   },
+   "evidence": {
+    "brand": "SF-BH625020 final spec sheet 20260430.xlsx / Specs / B7",
+    "materials": "SF-BH625020 final spec sheet 20260430.xlsx / Specs / B12",
+    "color": "SF-BH625020 final spec sheet 20260430.xlsx / Specs / B11",
+    "productWeight": "SF-BH625020 final spec sheet 20260430.xlsx / Specs / B33",
+    "maxUserWeightLb": "SF-BH625020 final spec sheet 20260430.xlsx / Specs / B15",
+    "maxUserHeight": "SF-BH625020 final spec sheet 20260430.xlsx / Specs / B14",
+    "keyDimensions": "SF-BH625020 final spec sheet 20260430.xlsx / Specs / B34",
+    "footprint": "SF-BH625020 final spec sheet 20260430.xlsx / Specs / B19",
+    "shippingWeight": "SF-BH625020 final spec sheet 20260430.xlsx / Specs / B36",
+    "shippingDimensions": "SF-BH625020 final spec sheet 20260430.xlsx / Specs / B35",
+    "upc": "SF-BH625020 final spec sheet 20260430.xlsx / Specs / B10",
+    "latex": "SF-BH625020 final spec sheet 20260430.xlsx / Specs / B17",
+    "seatDimensions": "SF-BH625020 final spec sheet 20260430.xlsx / Specs / B25",
+    "frameCapacity": "SF-BH625020 final spec sheet 20260430.xlsx / Specs / B16",
+    "extendedDimensions": "SF-BH625020 final spec sheet 20260430.xlsx / Specs / B30, B31",
+    "transportWheels": "SF-BH625020 final spec sheet 20260430.xlsx / Specs / B18",
+    "features": "SF-BH625020 final spec sheet 20260430.xlsx / Specs / B38"
+   },
+   "sources": [
+    "V2 spec sheet: SF-BH625020 final spec sheet 20260430.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -371,6 +744,55 @@
    "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/adjustable-roman-chair-hyperextension-bench-sf-bh625080",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Weight Benches"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "Iron+PVC",
+    "color": "Black + Grey 425U& Black U+Red",
+    "productWeight": "11.1 kg/24.5lb",
+    "maxUserWeightLb": "150kg(330lb)",
+    "keyDimensions": "1130*470*890mm(41.9*18.50*35.2inch)",
+    "foldedDimensions": "512.25*470*860mm/20*18.50*33.8 inches",
+    "footprint": "1130*470mm(41.9*18.50inch)",
+    "shippingWeight": "12.5 kg /27.5lb",
+    "shippingDimensions": "785*440*170mm/30.9*17.3*6.7inch",
+    "upc": "810153802440",
+    "latex": "No",
+    "seatDimensions": "Front: 510*310*50mm; Back: 510*280*50mm",
+    "frameCapacity": "1000 lbs",
+    "backrestDimensions": "200*190*115mm",
+    "adjustableAngles": "0-15°",
+    "heightRange": "Min: 710 mm ; 27.95 inches; Max: 910 mm ; 35.83 inches",
+    "transportWheels": "No",
+    "features": "Optimal Adjustment: Tailor your back extension workout with 2 tilt angles and 11-stage adjustable backrest for ideal comfort, suitable for varying heights. Triangular Stability: With a stable triangular support structure, safe heavy steel, and anti-scratch powder coating, this Roman Chair Back Extension Bench provides a strong foundation for efficient workouts. Its wider base ensures a comfortable experience, making it ideal for fitness enthusiasts. Advanced Flexibility: Ergonomically designed with thick foam padding and adjustable ankle support for maximum comfort during back extensions and core exercises. Multiple Uses: Revolutionize your workout routine with our Roman Chair Back Extension Bench. Its unique design targets the core, buttocks, lower abdomen, and thighs, while primarily focusing on the lower back. Achieve a full-body workout with enhanced muscle strength."
+   },
+   "evidence": {
+    "brand": "SF-BH625080 Final Spec dated 20260520.xlsx / Specs / B7",
+    "materials": "SF-BH625080 Final Spec dated 20260520.xlsx / Specs / B12",
+    "color": "SF-BH625080 Final Spec dated 20260520.xlsx / Specs / B11",
+    "productWeight": "SF-BH625080 Final Spec dated 20260520.xlsx / Specs / B33",
+    "maxUserWeightLb": "SF-BH625080 Final Spec dated 20260520.xlsx / Specs / B15",
+    "keyDimensions": "SF-BH625080 Final Spec dated 20260520.xlsx / Specs / B34",
+    "foldedDimensions": "SF-BH625080 Final Spec dated 20260520.xlsx / Specs / B31",
+    "footprint": "SF-BH625080 Final Spec dated 20260520.xlsx / Specs / B19",
+    "shippingWeight": "SF-BH625080 Final Spec dated 20260520.xlsx / Specs / B36",
+    "shippingDimensions": "SF-BH625080 Final Spec dated 20260520.xlsx / Specs / B35",
+    "upc": "SF-BH625080 Final Spec dated 20260520.xlsx / Specs / B10",
+    "latex": "SF-BH625080 Final Spec dated 20260520.xlsx / Specs / B17",
+    "seatDimensions": "SF-BH625080 Final Spec dated 20260520.xlsx / Specs / B25, B26",
+    "frameCapacity": "SF-BH625080 Final Spec dated 20260520.xlsx / Specs / B16",
+    "backrestDimensions": "SF-BH625080 Final Spec dated 20260520.xlsx / Specs / B27",
+    "adjustableAngles": "SF-BH625080 Final Spec dated 20260520.xlsx / Specs / B30",
+    "heightRange": "SF-BH625080 Final Spec dated 20260520.xlsx / Specs / B28, B29",
+    "transportWheels": "SF-BH625080 Final Spec dated 20260520.xlsx / Specs / B18",
+    "features": "SF-BH625080 Final Spec dated 20260520.xlsx / Specs / B38"
+   },
+   "sources": [
+    "V2 spec sheet: SF-BH625080 Final Spec dated 20260520.xlsx"
+   ],
+   "notes": []
   }
  }
 ]

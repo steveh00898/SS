@@ -45,6 +45,33 @@
      0.18
     ]
    ]
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny",
+    "materials": "POLYURETHANE",
+    "color": "BLACK (STATED THE MAIN COLOR)",
+    "productWeight": "10LBS/4.54KGS",
+    "keyDimensions": "20*12.8*12.8CM/7.87*5.04*5.04INCHES for 1PC",
+    "shippingWeight": "11.48LBS/5.21KGS",
+    "shippingDimensions": "31.5*23.2*17.3CM/12.40*9.13*6.81INCHES",
+    "features": "This dumbbell is made of TPU material, High temperature and wear resistant material, and has no bad smell. The unique colored rings break the dullness of strength training. Hard chrome handle is easy to hold and non-slip. This model has a variety of weights, many options"
+   },
+   "evidence": {
+    "brand": "SF‐DB02‐5 UPDATE SPEC 2023-04-18.xlsx / Sheet1 / B3",
+    "materials": "SF‐DB02‐5 UPDATE SPEC 2023-04-18.xlsx / Sheet1 / B7",
+    "color": "SF‐DB02‐5 UPDATE SPEC 2023-04-18.xlsx / Sheet1 / B6",
+    "productWeight": "SF‐DB02‐5 UPDATE SPEC 2023-04-18.xlsx / Sheet1 / B12",
+    "keyDimensions": "SF‐DB02‐5 UPDATE SPEC 2023-04-18.xlsx / Sheet1 / B14",
+    "shippingWeight": "SF‐DB02‐5 UPDATE SPEC 2023-04-18.xlsx / Sheet1 / B11",
+    "shippingDimensions": "SF‐DB02‐5 UPDATE SPEC 2023-04-18.xlsx / Sheet1 / B16",
+    "features": "SF‐DB02‐5 UPDATE SPEC 2023-04-18.xlsx / Sheet1 / B43"
+   },
+   "sources": [
+    "V2 spec sheet: SF‐DB02‐5 UPDATE SPEC 2023-04-18.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -81,6 +108,37 @@
      0.14
     ]
    ]
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "Nature Rubber +SBR+Stainless steel (smooth surface)",
+    "color": "WHITE( PANTONE P1-1C )",
+    "productWeight": "20.3LBS/9.2KGS",
+    "keyDimensions": "450*450*24MM 17.8\"*17.8\"*0.9\" INCHES",
+    "shippingWeight": "21.4LBS/9.7KGS",
+    "shippingDimensions": "465X460X53MM 18.3\"x18.1\"x2.1INCHES",
+    "weightTolerance": "±1%",
+    "features": "high-grade color competition film scratches, falls, environmental protection, easy to clean, low elasticity and high safety",
+    "certification": "REACH CA65 UV TEST , 304 stainless steel sleeve salt spray test 1.8m drop test"
+   },
+   "evidence": {
+    "brand": "SF-OP01-10 BUMPER PLATE SPEC SHEET 2023-12-22.xlsx / 10LB / B3",
+    "materials": "SF-OP01-10 BUMPER PLATE SPEC SHEET 2023-12-22.xlsx / 10LB / B7",
+    "color": "SF-OP01-10 BUMPER PLATE SPEC SHEET 2023-12-22.xlsx / 10LB / B6",
+    "productWeight": "SF-OP01-10 BUMPER PLATE SPEC SHEET 2023-12-22.xlsx / 10LB / B12",
+    "keyDimensions": "SF-OP01-10 BUMPER PLATE SPEC SHEET 2023-12-22.xlsx / 10LB / B14",
+    "shippingWeight": "SF-OP01-10 BUMPER PLATE SPEC SHEET 2023-12-22.xlsx / 10LB / B11",
+    "shippingDimensions": "SF-OP01-10 BUMPER PLATE SPEC SHEET 2023-12-22.xlsx / 10LB / B16",
+    "weightTolerance": "SF-OP01-10 BUMPER PLATE SPEC SHEET 2023-12-22.xlsx / 10LB / B13",
+    "features": "SF-OP01-10 BUMPER PLATE SPEC SHEET 2023-12-22.xlsx / 10LB / B43",
+    "certification": "SF-OP01-10 BUMPER PLATE SPEC SHEET 2023-12-22.xlsx / 10LB / B42"
+   },
+   "sources": [
+    "V2 spec sheet: SF-OP01-10 BUMPER PLATE SPEC SHEET 2023-12-22.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -123,6 +181,35 @@
      0.13
     ]
    ]
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny",
+    "materials": "PVC",
+    "color": "BLACK (STATED THE MAIN COLOR)",
+    "productWeight": "10LBS/4.5KG",
+    "keyDimensions": "23.7*8*7CM/1pcs 9.3*3.2*2.8INCHES/1pcs",
+    "shippingWeight": "11.06LBS/5KG",
+    "shippingDimensions": "26.3*20.2*10.5CM/ 10.35* 7.95 * 4.13 INCHES",
+    "grip": "28mm (1.1 in)",
+    "features": "This dumbbell is made of PVC material. High temperature and wear resistant material, and has no Bad Odor/Smell. The trademark has a unique color and is more eye-catching. Decorative chrome plated handles are easy to hold and slip resistant. This model has a variety of weights, many options."
+   },
+   "evidence": {
+    "brand": "SF‐DB03‐5 UPDATE SPEC-5 11.02.2023.xlsx / Sheet1 / B3",
+    "materials": "SF‐DB03‐5 UPDATE SPEC-5 11.02.2023.xlsx / Sheet1 / B7",
+    "color": "SF‐DB03‐5 UPDATE SPEC-5 11.02.2023.xlsx / Sheet1 / B6",
+    "productWeight": "SF‐DB03‐5 UPDATE SPEC-5 11.02.2023.xlsx / Sheet1 / B12",
+    "keyDimensions": "SF‐DB03‐5 UPDATE SPEC-5 11.02.2023.xlsx / Sheet1 / B14",
+    "shippingWeight": "SF‐DB03‐5 UPDATE SPEC-5 11.02.2023.xlsx / Sheet1 / B11",
+    "shippingDimensions": "SF‐DB03‐5 UPDATE SPEC-5 11.02.2023.xlsx / Sheet1 / B16",
+    "grip": "SF‐DB03‐5 UPDATE SPEC-5 11.02.2023.xlsx / Sheet1 / B19",
+    "features": "SF‐DB03‐5 UPDATE SPEC-5 11.02.2023.xlsx / Sheet1 / B43"
+   },
+   "sources": [
+    "V2 spec sheet: SF‐DB03‐5 UPDATE SPEC-5 11.02.2023.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -137,7 +224,28 @@
   "imageUrl": "/_blob/8592586043f5c9241ea1f16609868df5",
   "createdAt": "2026-10-06T00:00:00Z",
   "updatedAt": "2026-10-06T00:00:00Z",
-  "photoChecked": true
+  "photoChecked": true,
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny",
+    "materials": "Iron",
+    "color": "pink",
+    "productWeight": "4LBS",
+    "shippingWeight": "5LBS"
+   },
+   "evidence": {
+    "brand": "NO.021-2-PAIR SPEC.xlsx / Specification / B1",
+    "materials": "NO.021-2-PAIR SPEC.xlsx / Specification / B13",
+    "color": "NO.021-2-PAIR SPEC.xlsx / Specification / B15",
+    "productWeight": "NO.021-2-PAIR SPEC.xlsx / Specification / B4",
+    "shippingWeight": "NO.021-2-PAIR SPEC.xlsx / Specification / B5"
+   },
+   "sources": [
+    "V2 spec sheet: NO.021-2-PAIR SPEC.xlsx"
+   ],
+   "notes": []
+  }
  },
  {
   "id": "no-103-2",
@@ -163,6 +271,35 @@
    "source": "https://sunnyhealthfitness.com/collections/free-weights/products/adjustable-wrist-weights-2-lb-pair-no-103-2",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Weights"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "Metal / Silicon /Velcro strap",
+    "color": "BLACK U +RED 485C + BLACK",
+    "productWeight": "4.2LBS/1.9KG",
+    "keyDimensions": "33.5*9.2*1.6cm 13.2*3.6*0.6inch",
+    "foldedDimensions": "200mm/7.9inch",
+    "shippingWeight": "4.3LBS/1.95KG",
+    "shippingDimensions": "23.8*10.2*4.5CM 9.4*4*1.8inch",
+    "features": "1- Silicone coated iron with hand feel oil spray, the product feels silky and comfortable in contact with the skin, 2- Not prone to dirt and dust, easy to clean, Velcro structure for easy wearing, simple and beautiful appearance"
+   },
+   "evidence": {
+    "brand": "NO. 103-2 final spec sheet 06072024.xlsx / NO. 103-2 / B3",
+    "materials": "NO. 103-2 final spec sheet 06072024.xlsx / NO. 103-2 / B7",
+    "color": "NO. 103-2 final spec sheet 06072024.xlsx / NO. 103-2 / B6",
+    "productWeight": "NO. 103-2 final spec sheet 06072024.xlsx / NO. 103-2 / B10",
+    "keyDimensions": "NO. 103-2 final spec sheet 06072024.xlsx / NO. 103-2 / B12",
+    "foldedDimensions": "NO. 103-2 final spec sheet 06072024.xlsx / NO. 103-2 / B13",
+    "shippingWeight": "NO. 103-2 final spec sheet 06072024.xlsx / NO. 103-2 / B9",
+    "shippingDimensions": "NO. 103-2 final spec sheet 06072024.xlsx / NO. 103-2 / B14",
+    "features": "NO. 103-2 final spec sheet 06072024.xlsx / NO. 103-2 / B42"
+   },
+   "sources": [
+    "V2 spec sheet: NO. 103-2 final spec sheet 06072024.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -189,6 +326,35 @@
    "source": "https://sunnyhealthfitness.com/collections/free-weights/products/adjustable-wrist-weights-1-lb-pair-no-103-1",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Weights"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "Metal / Silicon /Velcro strap",
+    "color": "Grey 649C+RED 485C+Black",
+    "productWeight": "2.1LBS/0.92KG",
+    "keyDimensions": "29x7.2x1.4cm 11.4*2.8*0.55inch",
+    "foldedDimensions": "179mm/7 inches",
+    "shippingWeight": "2.2LBS/0.99KG",
+    "shippingDimensions": "22*8.8*4.3CM 8.7*3.5*1.7inch",
+    "features": "1- Silicone coated iron with hand feel oil spray, the product feels silky and comfortable in contact with the skin, 2- Not prone to dirt and dust, easy to clean, Velcro structure for easy wearing, simple and beautiful appearance"
+   },
+   "evidence": {
+    "brand": "NO. 103-1 final spec sheet 06072024.xlsx / NO. 103-1 / B3",
+    "materials": "NO. 103-1 final spec sheet 06072024.xlsx / NO. 103-1 / B7",
+    "color": "NO. 103-1 final spec sheet 06072024.xlsx / NO. 103-1 / B6",
+    "productWeight": "NO. 103-1 final spec sheet 06072024.xlsx / NO. 103-1 / B10",
+    "keyDimensions": "NO. 103-1 final spec sheet 06072024.xlsx / NO. 103-1 / B12",
+    "foldedDimensions": "NO. 103-1 final spec sheet 06072024.xlsx / NO. 103-1 / B13",
+    "shippingWeight": "NO. 103-1 final spec sheet 06072024.xlsx / NO. 103-1 / B9",
+    "shippingDimensions": "NO. 103-1 final spec sheet 06072024.xlsx / NO. 103-1 / B14",
+    "features": "NO. 103-1 final spec sheet 06072024.xlsx / NO. 103-1 / B42"
+   },
+   "sources": [
+    "V2 spec sheet: NO. 103-1 final spec sheet 06072024.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -215,6 +381,35 @@
    "source": "https://sunnyhealthfitness.com/collections/free-weights/products/adjustable-ankle-weight-5-pound-pair-sf-wa02-bk",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Weights"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "NEOPRENE",
+    "color": "BLACK",
+    "productWeight": "10 lbs/ 4.5 kgs",
+    "keyDimensions": "17.7*5.9*1.4 INCHES/ 45*15*3.5 CM",
+    "shippingWeight": "10.2 lbs/ 4.6 kgs",
+    "shippingDimensions": "5.6*2.8*13.4 INCHES/ 14.3*7*34 CM",
+    "upc": "810153800361",
+    "features": "1- The fabric is soft and skin-friendly, fits the ankle, and will not be uncomfortable for a long time. 2- High-strength velcro straps ensures that the ankle weight will not loose during the exercise process. 3- The lengthened wings at both ends of the ankle weight can be well wrapped to protect the ankle skin, and will not be worn to the velcro strap. 4-The extended strap can be adapted to different calf sizes. 5-The weight is adjustable."
+   },
+   "evidence": {
+    "brand": "SF-WA02-BK final Spec Sheet 20251118.xlsx / Sheet1 / B3",
+    "materials": "SF-WA02-BK final Spec Sheet 20251118.xlsx / Sheet1 / B8",
+    "color": "SF-WA02-BK final Spec Sheet 20251118.xlsx / Sheet1 / B7",
+    "productWeight": "SF-WA02-BK final Spec Sheet 20251118.xlsx / Sheet1 / B11",
+    "keyDimensions": "SF-WA02-BK final Spec Sheet 20251118.xlsx / Sheet1 / B13",
+    "shippingWeight": "SF-WA02-BK final Spec Sheet 20251118.xlsx / Sheet1 / B10",
+    "shippingDimensions": "SF-WA02-BK final Spec Sheet 20251118.xlsx / Sheet1 / B15",
+    "upc": "SF-WA02-BK final Spec Sheet 20251118.xlsx / Sheet1 / B6",
+    "features": "SF-WA02-BK final Spec Sheet 20251118.xlsx / Sheet1 / B45"
+   },
+   "sources": [
+    "V2 spec sheet: SF-WA02-BK final Spec Sheet 20251118.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -275,6 +470,35 @@
    "source": "https://sunnyhealthfitness.com/collections/free-weights/products/ankle-weight-1-5-pound-pair-sf-wa01",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Weights"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "NEOPRENE",
+    "color": "BLACK",
+    "productWeight": "2 lbs/0.9 kgs",
+    "keyDimensions": "13.4*3.7*0.6 INCHES/ 34*9.5*1.5 CM",
+    "shippingWeight": "2.2 lbs/1 kgs",
+    "shippingDimensions": "3.7*2*9.6 INCHES/ 9.5*5*24.5 CM",
+    "upc": "810153800316",
+    "features": "1- The fabric is soft and skin-friendly, fits the ankle, and will not be uncomfortable for a long time. 2- High-strength velcro straps ensures that the ankle weight will not loose during the exercise process. 3- The lengthened wings at both ends of the ankle weight can be well wrapped to protect the ankle skin, and will not be worn to the velcro strap. 4-The extended strap can be adapted to different calf sizes."
+   },
+   "evidence": {
+    "brand": "SF-WA01-1 final Spec Sheet 20251118.xlsx / Sheet1 / B3",
+    "materials": "SF-WA01-1 final Spec Sheet 20251118.xlsx / Sheet1 / B8",
+    "color": "SF-WA01-1 final Spec Sheet 20251118.xlsx / Sheet1 / B7",
+    "productWeight": "SF-WA01-1 final Spec Sheet 20251118.xlsx / Sheet1 / B11",
+    "keyDimensions": "SF-WA01-1 final Spec Sheet 20251118.xlsx / Sheet1 / B13",
+    "shippingWeight": "SF-WA01-1 final Spec Sheet 20251118.xlsx / Sheet1 / B10",
+    "shippingDimensions": "SF-WA01-1 final Spec Sheet 20251118.xlsx / Sheet1 / B15",
+    "upc": "SF-WA01-1 final Spec Sheet 20251118.xlsx / Sheet1 / B6",
+    "features": "SF-WA01-1 final Spec Sheet 20251118.xlsx / Sheet1 / B45"
+   },
+   "sources": [
+    "V2 spec sheet: SF-WA01-1 final Spec Sheet 20251118.xlsx"
+   ],
+   "notes": []
   }
  }
 ]

@@ -131,6 +131,34 @@
         [
           "transportWheels",
           "Transport wheels"
+        ],
+        [
+          "treadmillType",
+          "Treadmill type"
+        ],
+        [
+          "deckType",
+          "Deck type"
+        ],
+        [
+          "stepOnHeight",
+          "Deck / step-on height"
+        ],
+        [
+          "rollerSize",
+          "Roller size"
+        ],
+        [
+          "quickButtons",
+          "Quick speed / incline buttons"
+        ],
+        [
+          "storage",
+          "Storage position"
+        ],
+        [
+          "handlebarHeight",
+          "Handlebar height"
         ]
       ]
     },
@@ -200,6 +228,18 @@
         [
           "powerCord",
           "Power-cord length"
+        ],
+        [
+          "ftms",
+          "FTMS"
+        ],
+        [
+          "wifi",
+          "Wi-Fi"
+        ],
+        [
+          "plugType",
+          "Plug / adapter"
         ]
       ]
     },
@@ -209,6 +249,10 @@
         [
           "features",
           "Features / functions"
+        ],
+        [
+          "certification",
+          "Tests / certifications"
         ]
       ]
     }
@@ -333,6 +377,18 @@
         [
           "transportWheels",
           "Transport wheels"
+        ],
+        [
+          "magnets",
+          "Magnets / pull force"
+        ],
+        [
+          "crankLength",
+          "Crank length"
+        ],
+        [
+          "seatDimensions",
+          "Seat dimensions"
         ]
       ]
     },
@@ -402,6 +458,18 @@
         [
           "powerCord",
           "Power-cord length"
+        ],
+        [
+          "ftms",
+          "FTMS"
+        ],
+        [
+          "wifi",
+          "Wi-Fi"
+        ],
+        [
+          "plugType",
+          "Plug / adapter"
         ]
       ]
     },
@@ -411,6 +479,10 @@
         [
           "features",
           "Features / functions"
+        ],
+        [
+          "certification",
+          "Tests / certifications"
         ]
       ]
     }
@@ -515,6 +587,14 @@
         [
           "transportWheels",
           "Transport wheels"
+        ],
+        [
+          "stepHeight",
+          "Step height"
+        ],
+        [
+          "magnets",
+          "Magnets / pull force"
         ]
       ]
     },
@@ -584,6 +664,18 @@
         [
           "powerCord",
           "Power-cord length"
+        ],
+        [
+          "ftms",
+          "FTMS"
+        ],
+        [
+          "wifi",
+          "Wi-Fi"
+        ],
+        [
+          "plugType",
+          "Plug / adapter"
         ]
       ]
     },
@@ -593,6 +685,10 @@
         [
           "features",
           "Features / functions"
+        ],
+        [
+          "certification",
+          "Tests / certifications"
         ]
       ]
     }
@@ -689,6 +785,22 @@
         [
           "transportWheels",
           "Transport wheels"
+        ],
+        [
+          "resistanceType",
+          "Resistance type"
+        ],
+        [
+          "flywheelWeight",
+          "Flywheel weight"
+        ],
+        [
+          "magnets",
+          "Magnets / pull force"
+        ],
+        [
+          "seatDimensions",
+          "Seat dimensions"
         ]
       ]
     },
@@ -758,6 +870,18 @@
         [
           "powerCord",
           "Power-cord length"
+        ],
+        [
+          "ftms",
+          "FTMS"
+        ],
+        [
+          "wifi",
+          "Wi-Fi"
+        ],
+        [
+          "plugType",
+          "Plug / adapter"
         ]
       ]
     },
@@ -767,6 +891,10 @@
         [
           "features",
           "Features / functions"
+        ],
+        [
+          "certification",
+          "Tests / certifications"
         ]
       ]
     }
@@ -859,6 +987,18 @@
         [
           "resistanceBands",
           "Resistance bands"
+        ],
+        [
+          "resistanceType",
+          "Resistance type"
+        ],
+        [
+          "stride",
+          "Stride length"
+        ],
+        [
+          "transportWheels",
+          "Transport wheels"
         ]
       ]
     },
@@ -928,6 +1068,18 @@
         [
           "powerCord",
           "Power-cord length"
+        ],
+        [
+          "ftms",
+          "FTMS"
+        ],
+        [
+          "wifi",
+          "Wi-Fi"
+        ],
+        [
+          "plugType",
+          "Plug / adapter"
         ]
       ]
     },
@@ -937,6 +1089,10 @@
         [
           "features",
           "Features / functions"
+        ],
+        [
+          "certification",
+          "Tests / certifications"
         ]
       ]
     }
@@ -1106,6 +1262,18 @@
         [
           "powerCord",
           "Power-cord length"
+        ],
+        [
+          "ftms",
+          "FTMS"
+        ],
+        [
+          "wifi",
+          "Wi-Fi"
+        ],
+        [
+          "plugType",
+          "Plug / adapter"
         ]
       ]
     },
@@ -1115,6 +1283,10 @@
         [
           "features",
           "Features / functions"
+        ],
+        [
+          "certification",
+          "Tests / certifications"
         ]
       ]
     }
@@ -1203,6 +1375,30 @@
         [
           "accessories",
           "Included accessories"
+        ],
+        [
+          "frameCapacity",
+          "Frame / equipment capacity"
+        ],
+        [
+          "benchHeight",
+          "Bench / carriage height"
+        ],
+        [
+          "adjustableAngles",
+          "Adjustable angles"
+        ],
+        [
+          "bandPegs",
+          "Springs / band pegs"
+        ],
+        [
+          "compatibility",
+          "Compatible racks / equipment"
+        ],
+        [
+          "transportWheels",
+          "Transport wheels"
         ]
       ]
     },
@@ -1281,6 +1477,10 @@
         [
           "features",
           "Features / functions"
+        ],
+        [
+          "certification",
+          "Tests / certifications"
         ]
       ]
     }
@@ -1369,6 +1569,14 @@
         [
           "foldable",
           "Foldable"
+        ],
+        [
+          "pullUpUserWeight",
+          "Pull-up bar user weight limit"
+        ],
+        [
+          "componentCapacities",
+          "Component load limits"
         ]
       ]
     },
@@ -1395,6 +1603,10 @@
         [
           "features",
           "Features / functions"
+        ],
+        [
+          "certification",
+          "Tests / certifications"
         ]
       ]
     }
@@ -1479,6 +1691,34 @@
         [
           "accessories",
           "Included accessories"
+        ],
+        [
+          "frameCapacity",
+          "Frame / equipment capacity"
+        ],
+        [
+          "backrestDimensions",
+          "Backrest dimensions"
+        ],
+        [
+          "adjustableAngles",
+          "Adjustable angles"
+        ],
+        [
+          "benchHeight",
+          "Bench / carriage height"
+        ],
+        [
+          "heightRange",
+          "Height range"
+        ],
+        [
+          "extendedDimensions",
+          "Compact / extended dimensions"
+        ],
+        [
+          "transportWheels",
+          "Transport wheels"
         ]
       ]
     },
@@ -1505,6 +1745,10 @@
         [
           "features",
           "Features / functions"
+        ],
+        [
+          "certification",
+          "Tests / certifications"
         ]
       ]
     }
@@ -1589,6 +1833,10 @@
         [
           "accessories",
           "Included accessories"
+        ],
+        [
+          "weightTolerance",
+          "Weight tolerance"
         ]
       ]
     },
@@ -1615,6 +1863,10 @@
         [
           "features",
           "Features / functions"
+        ],
+        [
+          "certification",
+          "Tests / certifications"
         ]
       ]
     }
@@ -1701,8 +1953,12 @@
           "Foldable"
         ],
         [
-          "battery",
-          "Battery"
+          "ropeLength",
+          "Rope length"
+        ],
+        [
+          "trampolineHeight",
+          "Trampoline height"
         ]
       ]
     },
@@ -1729,6 +1985,10 @@
         [
           "features",
           "Features / functions"
+        ],
+        [
+          "certification",
+          "Tests / certifications"
         ]
       ]
     }

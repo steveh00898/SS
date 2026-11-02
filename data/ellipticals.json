@@ -55,7 +55,60 @@
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Compact"
     },
-    "photoChecked": true
+    "photoChecked": true,
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "Q235. PP",
+        "color": "Dark Grey Black U+Black+Silver 877C",
+        "productWeight": "62.8LBS / 28.5KG",
+        "maxUserWeightLb": "220 LBS/ 100 KGS",
+        "keyDimensions": "1035*670*1520 MM 40.7*26.4*59.8 INCHES",
+        "footprint": "760*510 MM 29.9*20.1 INCHES",
+        "shippingWeight": "71.6LBS / 32.5KG",
+        "shippingDimensions": "865*325*510 MM 34.1*12.8*20.1 INCHES",
+        "resistanceType": "MAGNETIC",
+        "speedResistanceLevels": "8 LEVELS",
+        "stride": "280 MM/11 INCHES",
+        "flywheelWeight": "11 LBS / 5KG",
+        "stepHeight": "165 MM/6.5 INCHES 325 MM/12.8 INCHES",
+        "magnets": "8PCS / 1300GAUSS",
+        "display": "TIME-SPEED-DISTANCE-CALORIES -ODOMETER-COUNT-SPM-PULSE",
+        "screenType": "LCD",
+        "screenSize": "48*23 MM/1.9*0.9 INCHES",
+        "battery": "2*AAA",
+        "bluetooth": "SunnyFit APP",
+        "features": "1. Compact, space saving 2. Easy to move with Transportation wheels 3. Rear stabilizer has 12 adjustable angles to provide balance on uneven ground. 4. Compatible with the SunnyFit APP to view the real-time stats and track workout data. 5. Meter can connect wirelessly with heart rate monitors"
+      },
+      "evidence": {
+        "brand": "SF-E905 SMART final spec sheet 06072024.xlsx / Sheet1 / B3",
+        "materials": "SF-E905 SMART final spec sheet 06072024.xlsx / Sheet1 / B7",
+        "color": "SF-E905 SMART final spec sheet 06072024.xlsx / Sheet1 / B6",
+        "productWeight": "SF-E905 SMART final spec sheet 06072024.xlsx / Sheet1 / B10",
+        "maxUserWeightLb": "SF-E905 SMART final spec sheet 06072024.xlsx / Sheet1 / B19",
+        "keyDimensions": "SF-E905 SMART final spec sheet 06072024.xlsx / Sheet1 / B12",
+        "footprint": "SF-E905 SMART final spec sheet 06072024.xlsx / Sheet1 / B16",
+        "shippingWeight": "SF-E905 SMART final spec sheet 06072024.xlsx / Sheet1 / B9",
+        "shippingDimensions": "SF-E905 SMART final spec sheet 06072024.xlsx / Sheet1 / B14",
+        "resistanceType": "SF-E905 SMART final spec sheet 06072024.xlsx / Sheet1 / B20",
+        "speedResistanceLevels": "SF-E905 SMART final spec sheet 06072024.xlsx / Sheet1 / B21",
+        "stride": "SF-E905 SMART final spec sheet 06072024.xlsx / Sheet1 / B63",
+        "flywheelWeight": "SF-E905 SMART final spec sheet 06072024.xlsx / Sheet1 / B11",
+        "stepHeight": "SF-E905 SMART final spec sheet 06072024.xlsx / Sheet1 / C64, E64",
+        "magnets": "SF-E905 SMART final spec sheet 06072024.xlsx / Sheet1 / B23",
+        "display": "SF-E905 SMART final spec sheet 06072024.xlsx / Sheet1 / B40",
+        "screenType": "SF-E905 SMART final spec sheet 06072024.xlsx / Sheet1 / B18",
+        "screenSize": "SF-E905 SMART final spec sheet 06072024.xlsx / Sheet1 / B17",
+        "battery": "SF-E905 SMART final spec sheet 06072024.xlsx / Sheet1 / E25",
+        "bluetooth": "SF-E905 SMART final spec sheet 06072024.xlsx / Sheet1 / E31",
+        "features": "SF-E905 SMART final spec sheet 06072024.xlsx / Sheet1 / B42"
+      },
+      "sources": [
+        "V2 spec sheet: SF-E905 SMART final spec sheet 06072024.xlsx"
+      ],
+      "notes": []
+    }
   },
   {
     "id": "sf-e323038",
@@ -84,7 +137,60 @@
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Elite"
     },
-    "photoChecked": true
+    "photoChecked": true,
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "TPR+ABS+HIPS+PP+Steel",
+        "color": "Darkgray flash silver+gray flash silver+BLACK+485C",
+        "productWeight": "44KGS/96.9LBS",
+        "maxUserWeightLb": "300LBS/135KGS",
+        "keyDimensions": "1220*655*1645mm/48*25.8*64.8 inches",
+        "footprint": "1200*655mm/47.2*25.8 inches",
+        "shippingWeight": "52.3KGS/115LBS",
+        "shippingDimensions": "1125*440*660MM/44.3*17.3**26.0inches",
+        "resistanceType": "MAGNETIC",
+        "speedResistanceLevels": "16 LEVELS",
+        "stride": "16 inches/ 40.6cm",
+        "flywheelWeight": "5KGS/11.0LBS",
+        "stepHeight": "215mm/8.5 inches 413mm/16.3inches",
+        "magnets": "5PCS /1300GS",
+        "display": "SCAN,TIME, SPEED, DISTANCE, CALORIES, ODO ,PULSE, RPM",
+        "screenType": "LCD",
+        "screenSize": "79*40mm",
+        "battery": "2*AA",
+        "bluetooth": "SUNNY FIT",
+        "features": "HYPER QUIET MAGNETIC DRIVE SYSTEM:This elliptical training machine adopts the latest magnetic control system and mute system.Even the most intense exercise will not disturb your family. ADJUSTABLE MAGNETIC RESISTANCE:16 levels of adjustable resistance, practitioners at different stages can achieve effective exercise through different resistance adjustments. It is the best choice for indoor home fitness TWO-HANDLEBAR DESIGN & EASY ASSEMBLY:The dual armrest configuration can be used alternately during exercise to drive the whole body to exercise. We have pre-installed the elliptical machine in advance, so you don’t have to worry about the complicated installation process TRACK REAL-TIME DATA & PULSE MONITOR:The digital monitor displaysRPM, TIME, SPEED, DIST, ODO,CALORIES, and PULSE.It is equipped with a hand-held heart rate monitor. Monitor heart rate status at any time, so that fitness is justified"
+      },
+      "evidence": {
+        "brand": "SF-E323038 Final SPEC SHEET 20240809.xlsx / Sheet1 / B3",
+        "materials": "SF-E323038 Final SPEC SHEET 20240809.xlsx / Sheet1 / B7",
+        "color": "SF-E323038 Final SPEC SHEET 20240809.xlsx / Sheet1 / B6",
+        "productWeight": "SF-E323038 Final SPEC SHEET 20240809.xlsx / Sheet1 / B10",
+        "maxUserWeightLb": "SF-E323038 Final SPEC SHEET 20240809.xlsx / Sheet1 / B19",
+        "keyDimensions": "SF-E323038 Final SPEC SHEET 20240809.xlsx / Sheet1 / B12",
+        "footprint": "SF-E323038 Final SPEC SHEET 20240809.xlsx / Sheet1 / B16",
+        "shippingWeight": "SF-E323038 Final SPEC SHEET 20240809.xlsx / Sheet1 / B9",
+        "shippingDimensions": "SF-E323038 Final SPEC SHEET 20240809.xlsx / Sheet1 / B14",
+        "resistanceType": "SF-E323038 Final SPEC SHEET 20240809.xlsx / Sheet1 / B20",
+        "speedResistanceLevels": "SF-E323038 Final SPEC SHEET 20240809.xlsx / Sheet1 / B21",
+        "stride": "SF-E323038 Final SPEC SHEET 20240809.xlsx / Sheet1 / B64",
+        "flywheelWeight": "SF-E323038 Final SPEC SHEET 20240809.xlsx / Sheet1 / B11",
+        "stepHeight": "SF-E323038 Final SPEC SHEET 20240809.xlsx / Sheet1 / C65, E65",
+        "magnets": "SF-E323038 Final SPEC SHEET 20240809.xlsx / Sheet1 / B23",
+        "display": "SF-E323038 Final SPEC SHEET 20240809.xlsx / Sheet1 / B41",
+        "screenType": "SF-E323038 Final SPEC SHEET 20240809.xlsx / Sheet1 / B18",
+        "screenSize": "SF-E323038 Final SPEC SHEET 20240809.xlsx / Sheet1 / B17",
+        "battery": "SF-E323038 Final SPEC SHEET 20240809.xlsx / Sheet1 / E25",
+        "bluetooth": "SF-E323038 Final SPEC SHEET 20240809.xlsx / Sheet1 / E32",
+        "features": "SF-E323038 Final SPEC SHEET 20240809.xlsx / Sheet1 / B43"
+      },
+      "sources": [
+        "V2 spec sheet: SF-E323038 Final SPEC SHEET 20240809.xlsx"
+      ],
+      "notes": []
+    }
   },
   {
     "id": "sf-e324005",
@@ -113,7 +219,64 @@
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Compact"
     },
-    "photoChecked": true
+    "photoChecked": true,
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "TPR+ABS+HIPS+PP+Steel",
+        "color": "Darkgray flash silver+gray flash silver+BLACK+485C",
+        "productWeight": "28.1KGS/61.8LBS",
+        "maxUserWeightLb": "300LBS/135KGS",
+        "maxUserHeight": "195CM",
+        "keyDimensions": "1200*650*1485MM/47.2*25.6*58.5INCHES",
+        "footprint": "890*490MM/35*19.3INCHES",
+        "shippingWeight": "32KGS/70.4 LBS",
+        "shippingDimensions": "905*275*590MM/35.6*10.8*23.2INCHES",
+        "resistanceType": "Magnetic",
+        "speedResistanceLevels": "16LEVELS",
+        "stride": "290mm / 11.4\"",
+        "flywheelWeight": "5KGS/11LBS",
+        "stepHeight": "180mm/7.1LBS 330mm/13LBS",
+        "magnets": "4PCS Magnets; 800GS",
+        "display": "SCAN,TIME, SPEED, DISTANCE, CALORIES, ODO ,PULSE, RPM",
+        "screenType": "LCD",
+        "screenSize": "79*40mm",
+        "battery": "2*AA",
+        "bluetooth": "SUNNYFIT APP",
+        "programs": "NO",
+        "features": "HYPER QUIET MAGNETIC DRIVE SYSTEM:This is rear elliptical training machine adopts the latest magnetic control system and mute system.Even the most intense exercise will not disturb your family. ADJUSTABLE MAGNETIC RESISTANCE:16 levels of adjustable resistance, practitioners at different stages can achieve effective exercise through different resistance adjustments. It is the best choice for indoor home fitness TWO-HANDLEBAR DESIGN & EASY ASSEMBLY:The dual armrest configuration can be used alternately during exercise to drive the whole body to exercise. We have pre-installed the elliptical machine in advance, so you don’t have to worry about the complicated installation process TRACK REAL-TIME DATA & PULSE MONITOR:The digital monitor displaysRPM, TIME, SPEED, DIST, ODO,CALORIES, and PULSE.It is equipped with a hand-held heart rate monitor. Monitor heart rate status at any time, so that fitness is justified TRANSPORTATION WHEELS: There are 2 built-in wheels on the bottom of front leg that makes movement easier. Enjoy a portable cardiovascular machine that can roll from room to room in your home for easy storage."
+      },
+      "evidence": {
+        "brand": "SF-E324005 FINAL SPEC SHEET 20240929.xlsx / Sheet1 / B3",
+        "materials": "SF-E324005 FINAL SPEC SHEET 20240929.xlsx / Sheet1 / B7",
+        "color": "SF-E324005 FINAL SPEC SHEET 20240929.xlsx / Sheet1 / B6",
+        "productWeight": "SF-E324005 FINAL SPEC SHEET 20240929.xlsx / Sheet1 / B10",
+        "maxUserWeightLb": "SF-E324005 FINAL SPEC SHEET 20240929.xlsx / Sheet1 / B19",
+        "maxUserHeight": "SF-E324005 FINAL SPEC SHEET 20240929.xlsx / Sheet1 / B20",
+        "keyDimensions": "SF-E324005 FINAL SPEC SHEET 20240929.xlsx / Sheet1 / B12",
+        "footprint": "SF-E324005 FINAL SPEC SHEET 20240929.xlsx / Sheet1 / B16",
+        "shippingWeight": "SF-E324005 FINAL SPEC SHEET 20240929.xlsx / Sheet1 / B9",
+        "shippingDimensions": "SF-E324005 FINAL SPEC SHEET 20240929.xlsx / Sheet1 / B14",
+        "resistanceType": "SF-E324005 FINAL SPEC SHEET 20240929.xlsx / Sheet1 / B21",
+        "speedResistanceLevels": "SF-E324005 FINAL SPEC SHEET 20240929.xlsx / Sheet1 / B22",
+        "stride": "SF-E324005 FINAL SPEC SHEET 20240929.xlsx / Sheet1 / B65",
+        "flywheelWeight": "SF-E324005 FINAL SPEC SHEET 20240929.xlsx / Sheet1 / B11",
+        "stepHeight": "SF-E324005 FINAL SPEC SHEET 20240929.xlsx / Sheet1 / C66, E66",
+        "magnets": "SF-E324005 FINAL SPEC SHEET 20240929.xlsx / Sheet1 / B24",
+        "display": "SF-E324005 FINAL SPEC SHEET 20240929.xlsx / Sheet1 / B42",
+        "screenType": "SF-E324005 FINAL SPEC SHEET 20240929.xlsx / Sheet1 / B18",
+        "screenSize": "SF-E324005 FINAL SPEC SHEET 20240929.xlsx / Sheet1 / B17",
+        "battery": "SF-E324005 FINAL SPEC SHEET 20240929.xlsx / Sheet1 / E26",
+        "bluetooth": "SF-E324005 FINAL SPEC SHEET 20240929.xlsx / Sheet1 / E33",
+        "programs": "SF-E324005 FINAL SPEC SHEET 20240929.xlsx / Sheet1 / B23",
+        "features": "SF-E324005 FINAL SPEC SHEET 20240929.xlsx / Sheet1 / B44"
+      },
+      "sources": [
+        "V2 spec sheet: SF-E324005 FINAL SPEC SHEET 20240929.xlsx"
+      ],
+      "notes": []
+    }
   },
   {
     "id": "sf-e320047",
@@ -145,6 +308,51 @@
     "photoChecked": true,
     "photoMasks": {
       "name": [[0.58, 0.18, 0.07, 0.52]]
+    },
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "productWeight": "40.10KG/88LBS",
+        "maxUserWeightLb": "275LBS/1250KG",
+        "keyDimensions": "1315x610x1630mm/51.8*24*64.2INCHES",
+        "shippingWeight": "46.95KG/103LBS",
+        "shippingDimensions": "1150*330*585MM/45.3*13*23INCHES",
+        "resistanceType": "Magnetic",
+        "speedResistanceLevels": "12LEVELS",
+        "stride": "34cm/13.4inch",
+        "flywheelWeight": "5KGS/11LBS",
+        "stepHeight": "205.36mm/8.1inch 377.1mm/14.8inch",
+        "magnets": "4PCS MAGNETS; 1100+1400 Gauss",
+        "display": "SCAN/TIME/RPM/SPEED/DISTANCE/CALORIES/PULSE/CALENDAR/CLOCK/TEMPERATURE/BODY FAT/RECOVERY",
+        "screenSize": "8.2*4.4cm/3.2*1.7inch",
+        "battery": "2xAA",
+        "bluetooth": "APP",
+        "features": "1. The computer can connect to SunnyFit APP through bluetooth for training courses, sharing progress, and real maps simulation of cycling scene. 2. Smooth and quite large 5KG inertial wheel 3.Aluminum Bottle holder"
+      },
+      "evidence": {
+        "brand": "SF-E320047 Spec.sheet 03232022.xlsx / Sheet1 / B3",
+        "productWeight": "SF-E320047 Spec.sheet 03232022.xlsx / Sheet1 / B7",
+        "maxUserWeightLb": "SF-E320047 Spec.sheet 03232022.xlsx / Sheet1 / B14",
+        "keyDimensions": "SF-E320047 Spec.sheet 03232022.xlsx / Sheet1 / B9",
+        "shippingWeight": "SF-E320047 Spec.sheet 03232022.xlsx / Sheet1 / B6",
+        "shippingDimensions": "SF-E320047 Spec.sheet 03232022.xlsx / Sheet1 / B11",
+        "resistanceType": "SF-E320047 Spec.sheet 03232022.xlsx / Sheet1 / B15",
+        "speedResistanceLevels": "SF-E320047 Spec.sheet 03232022.xlsx / Sheet1 / B16",
+        "stride": "SF-E320047 Spec.sheet 03232022.xlsx / Sheet1 / B51",
+        "flywheelWeight": "SF-E320047 Spec.sheet 03232022.xlsx / Sheet1 / B8",
+        "stepHeight": "SF-E320047 Spec.sheet 03232022.xlsx / Sheet1 / B52, D52",
+        "magnets": "SF-E320047 Spec.sheet 03232022.xlsx / Sheet1 / B18",
+        "display": "SF-E320047 Spec.sheet 03232022.xlsx / Sheet1 / B34",
+        "screenSize": "SF-E320047 Spec.sheet 03232022.xlsx / Sheet1 / B13",
+        "battery": "SF-E320047 Spec.sheet 03232022.xlsx / Sheet1 / D20",
+        "bluetooth": "SF-E320047 Spec.sheet 03232022.xlsx / Sheet1 / D26",
+        "features": "SF-E320047 Spec.sheet 03232022.xlsx / Sheet1 / B36"
+      },
+      "sources": [
+        "V2 spec sheet: SF-E320047 Spec.sheet 03232022.xlsx"
+      ],
+      "notes": []
     }
   },
   {
@@ -177,6 +385,59 @@
     "photoChecked": true,
     "photoMasks": {
       "name": [[0.57, 0.24, 0.08, 0.24]]
+    },
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "HIPS +Carton Steel",
+        "color": "GREY-425U",
+        "productWeight": "126.5LBS/57.4KG",
+        "maxUserWeightLb": "275LBS/125KG",
+        "keyDimensions": "67.3*27.8*65.7 INCH 171*70.5*167cm",
+        "shippingWeight": "144.2LBS/65.4KG",
+        "shippingDimensions": "44.9x17.9x29.1 INCHES 113*44*71CM",
+        "resistanceType": "Magnetic",
+        "speedResistanceLevels": "12LEVELS",
+        "stride": "400mm/15.8 INCH",
+        "flywheelWeight": "11LBS/5KGS",
+        "stepHeight": "MIN: 258mm/10.1INCH",
+        "magnets": "4PCS MAGNETS; 1100-1400 Gauss",
+        "display": "RPM, SPEED, TIME, DISTANCE, CALORIES, PULSE",
+        "screenType": "LCD",
+        "screenSize": "8.2*4.4cm/3.2*1.7inch",
+        "battery": "2 x AA",
+        "programs": "NO",
+        "features": "1.Front drive elliptical and pedal track , to lower pressure on knees 2, Easy to use machine with wide pedals and step track 3.Aluminum Bars, for a smooth and quiet workout 4.Adjustable End Caps to ensure machine is leveled to the floor 5. Includes device holder and cup holder",
+        "certification": "6A"
+      },
+      "evidence": {
+        "brand": "SF-E320048 Spec.sheet 11-12-2022.xlsx / Sheet1 / B3",
+        "materials": "SF-E320048 Spec.sheet 11-12-2022.xlsx / Sheet1 / B7",
+        "color": "SF-E320048 Spec.sheet 11-12-2022.xlsx / Sheet1 / B6",
+        "productWeight": "SF-E320048 Spec.sheet 11-12-2022.xlsx / Sheet1 / B12",
+        "maxUserWeightLb": "SF-E320048 Spec.sheet 11-12-2022.xlsx / Sheet1 / B20",
+        "keyDimensions": "SF-E320048 Spec.sheet 11-12-2022.xlsx / Sheet1 / B14",
+        "shippingWeight": "SF-E320048 Spec.sheet 11-12-2022.xlsx / Sheet1 / B11",
+        "shippingDimensions": "SF-E320048 Spec.sheet 11-12-2022.xlsx / Sheet1 / B16",
+        "resistanceType": "SF-E320048 Spec.sheet 11-12-2022.xlsx / Sheet1 / B21",
+        "speedResistanceLevels": "SF-E320048 Spec.sheet 11-12-2022.xlsx / Sheet1 / B22",
+        "stride": "SF-E320048 Spec.sheet 11-12-2022.xlsx / Sheet1 / B59",
+        "flywheelWeight": "SF-E320048 Spec.sheet 11-12-2022.xlsx / Sheet1 / B13",
+        "stepHeight": "SF-E320048 Spec.sheet 11-12-2022.xlsx / Sheet1 / B60",
+        "magnets": "SF-E320048 Spec.sheet 11-12-2022.xlsx / Sheet1 / B24",
+        "display": "SF-E320048 Spec.sheet 11-12-2022.xlsx / Sheet1 / B40",
+        "screenType": "SF-E320048 Spec.sheet 11-12-2022.xlsx / Sheet1 / B19",
+        "screenSize": "SF-E320048 Spec.sheet 11-12-2022.xlsx / Sheet1 / B18",
+        "battery": "SF-E320048 Spec.sheet 11-12-2022.xlsx / Sheet1 / D26",
+        "programs": "SF-E320048 Spec.sheet 11-12-2022.xlsx / Sheet1 / B23",
+        "features": "SF-E320048 Spec.sheet 11-12-2022.xlsx / Sheet1 / B42",
+        "certification": "SF-E320048 Spec.sheet 11-12-2022.xlsx / Sheet1 / B41"
+      },
+      "sources": [
+        "V2 spec sheet: SF-E320048 Spec.sheet 11-12-2022.xlsx"
+      ],
+      "notes": []
     }
   },
   {
@@ -206,7 +467,64 @@
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Electromagnetic Ellipticals"
     },
-    "photoChecked": true
+    "photoChecked": true,
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "Q235+HIPS",
+        "color": "Black U+Red 485C",
+        "productWeight": "124.3LBS/56.4KG",
+        "maxUserWeightLb": "120KGS/265LBS",
+        "keyDimensions": "173.5*61.5*170CM 68.3*24.2*66.9 INCH",
+        "footprint": "173.5*57CM 68.3*22.4 INCH",
+        "shippingWeight": "149.3LBS/67.7KG",
+        "shippingDimensions": "141*44*78CM/55.5*17.3*30.7INCHES",
+        "resistanceType": "Magnetic",
+        "speedResistanceLevels": "16LEVELS",
+        "stride": "456MM/18 INCH",
+        "flywheelWeight": "4KGS/8.8 LBS",
+        "stepHeight": "280MM/11 INCH 460MM/18.1 INCH",
+        "magnets": "4PCS/ 1300Gauss",
+        "display": "SPEED/RPM/TIME/DISTANCE/ODO/CAL/WATT/PULSE/TARGET HR/LEVEL/BODY FAT",
+        "screenType": "LCD",
+        "screenSize": "128*59.5MM/5*2.3 INCH",
+        "bluetooth": "SUNNY FIT",
+        "programs": "12 Pre-set Programs+Manual Program+Watt Control Program+BODY FAT Program+TARGET HEART RATE Program+4 HEART RATE CONTROL Programs+4 User Programs",
+        "powerCord": "1830MM/72 INCH",
+        "plugType": "Adapter",
+        "features": "1.Front elliptical machine, elliptical pedal track, to protect the knee joint from damage 2.Bigger stride length, widened pedal, pedal inner spacing in line with ergonomic, natural and comfortable gait 3.Aluminum slide rail, smooth movement, quiet, comfortable,and roller is not easy to derail 4.Adjustable end caps on the rear stabilizer could adjust the balance to meet the uneven ground."
+      },
+      "evidence": {
+        "brand": "Spec Sheet for SF-E3889 SMART.xlsx / SF-E3889 SMART / B3",
+        "materials": "Spec Sheet for SF-E3889 SMART.xlsx / SF-E3889 SMART / B7",
+        "color": "Spec Sheet for SF-E3889 SMART.xlsx / SF-E3889 SMART / B6",
+        "productWeight": "Spec Sheet for SF-E3889 SMART.xlsx / SF-E3889 SMART / B10",
+        "maxUserWeightLb": "Spec Sheet for SF-E3889 SMART.xlsx / SF-E3889 SMART / B19",
+        "keyDimensions": "Spec Sheet for SF-E3889 SMART.xlsx / SF-E3889 SMART / B12",
+        "footprint": "Spec Sheet for SF-E3889 SMART.xlsx / SF-E3889 SMART / B14",
+        "shippingWeight": "Spec Sheet for SF-E3889 SMART.xlsx / SF-E3889 SMART / B9",
+        "shippingDimensions": "Spec Sheet for SF-E3889 SMART.xlsx / SF-E3889 SMART / B15",
+        "resistanceType": "Spec Sheet for SF-E3889 SMART.xlsx / SF-E3889 SMART / B20",
+        "speedResistanceLevels": "Spec Sheet for SF-E3889 SMART.xlsx / SF-E3889 SMART / B21",
+        "stride": "Spec Sheet for SF-E3889 SMART.xlsx / SF-E3889 SMART / B59",
+        "flywheelWeight": "Spec Sheet for SF-E3889 SMART.xlsx / SF-E3889 SMART / B11",
+        "stepHeight": "Spec Sheet for SF-E3889 SMART.xlsx / SF-E3889 SMART / B60, D60",
+        "magnets": "Spec Sheet for SF-E3889 SMART.xlsx / SF-E3889 SMART / B23",
+        "display": "Spec Sheet for SF-E3889 SMART.xlsx / SF-E3889 SMART / B40",
+        "screenType": "Spec Sheet for SF-E3889 SMART.xlsx / SF-E3889 SMART / B18",
+        "screenSize": "Spec Sheet for SF-E3889 SMART.xlsx / SF-E3889 SMART / B17",
+        "bluetooth": "Spec Sheet for SF-E3889 SMART.xlsx / SF-E3889 SMART / D31",
+        "programs": "Spec Sheet for SF-E3889 SMART.xlsx / SF-E3889 SMART / B22",
+        "powerCord": "Spec Sheet for SF-E3889 SMART.xlsx / SF-E3889 SMART / B39",
+        "plugType": "Spec Sheet for SF-E3889 SMART.xlsx / SF-E3889 SMART / D35",
+        "features": "Spec Sheet for SF-E3889 SMART.xlsx / SF-E3889 SMART / B42"
+      },
+      "sources": [
+        "V2 spec sheet: Spec Sheet for SF-E3889 SMART.xlsx"
+      ],
+      "notes": []
+    }
   },
   {
     "id": "sf-e902s",
@@ -235,7 +553,52 @@
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Air Walkers"
     },
-    "photoChecked": true
+    "photoChecked": true,
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "PLASTIC +steel",
+        "color": "BLACK +485C",
+        "productWeight": "17.1KGS/37.6 LBS",
+        "maxUserWeightLb": "100KG/220LBS",
+        "keyDimensions": "700*525*1425mm/27.6*20.7*56.1INCHS",
+        "foldedDimensions": "460*525*1565mm/18.1*20.7*61.6INCHS",
+        "shippingWeight": "20KGS/44.1LBS",
+        "shippingDimensions": "1115.1*231.1*439.4MM/ 43.9*9.1*17.3 INCHS",
+        "resistanceType": "Resistance Bands",
+        "stride": "520mm/20.5INCHS",
+        "display": "SCAN, TIME, COUNT, TOTAL COUNT, CAL.",
+        "screenType": "LCD",
+        "screenSize": "30*24mm/1.2*0.9 inchs",
+        "battery": "2*AA",
+        "bluetooth": "SUNNY FIT",
+        "features": "1. Silence and no noise during exercise; 2. Added the Resistance Bands can adjust the resistance; 3. Thicken the chest pad, more comfortable; the pad can adjust the height, adapt to more sports people; 4. Add the blurtooth, can connet the APP ; 5. Can be folded, does not take up space; 6. The product has device holder, can put phone and ipad; 7.Do not hurt the knee when exercise, suit for more people range; 8. Anti-slipSafty handlebar, foot pads; thickened pedal"
+      },
+      "evidence": {
+        "brand": "SF-E902S spec sheet 20250327.xlsx / Sheet1 / B3",
+        "materials": "SF-E902S spec sheet 20250327.xlsx / Sheet1 / B7",
+        "color": "SF-E902S spec sheet 20250327.xlsx / Sheet1 / B6",
+        "productWeight": "SF-E902S spec sheet 20250327.xlsx / Sheet1 / B12",
+        "maxUserWeightLb": "SF-E902S spec sheet 20250327.xlsx / Sheet1 / B21",
+        "keyDimensions": "SF-E902S spec sheet 20250327.xlsx / Sheet1 / B14",
+        "foldedDimensions": "SF-E902S spec sheet 20250327.xlsx / Sheet1 / B15",
+        "shippingWeight": "SF-E902S spec sheet 20250327.xlsx / Sheet1 / B11",
+        "shippingDimensions": "SF-E902S spec sheet 20250327.xlsx / Sheet1 / B16",
+        "resistanceType": "SF-E902S spec sheet 20250327.xlsx / Sheet1 / B22",
+        "stride": "SF-E902S spec sheet 20250327.xlsx / Sheet1 / B62",
+        "display": "SF-E902S spec sheet 20250327.xlsx / Sheet1 / B42",
+        "screenType": "SF-E902S spec sheet 20250327.xlsx / Sheet1 / B20",
+        "screenSize": "SF-E902S spec sheet 20250327.xlsx / Sheet1 / B19",
+        "battery": "SF-E902S spec sheet 20250327.xlsx / Sheet1 / D27",
+        "bluetooth": "SF-E902S spec sheet 20250327.xlsx / Sheet1 / D33",
+        "features": "SF-E902S spec sheet 20250327.xlsx / Sheet1 / B44"
+      },
+      "sources": [
+        "V2 spec sheet: SF-E902S spec sheet 20250327.xlsx"
+      ],
+      "notes": []
+    }
   },
   {
     "id": "sf-e902smart",
@@ -264,7 +627,78 @@
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Air Walkers"
     },
-    "photoChecked": true
+    "photoChecked": true,
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "plastic, steel, foam",
+        "color": "light gray, black, red",
+        "productWeight": "35 LBS (15.9 kg)",
+        "maxUserWeightLb": "100kgs / 220 lbs",
+        "keyDimensions": "25*19*57 Inches/ 635 *483 *1448 mm",
+        "foldedDimensions": "15*19*61. 5 Inches/ 381 *483 *1562 mm",
+        "footprint": "700*420mm/27.6*16.5inchs",
+        "shippingWeight": "41LBS (18.6 kg)",
+        "shippingDimensions": "43.9*9.1*17.3Inches/ 1115*231*439 mm",
+        "upc": "810153800545",
+        "stride": "762mm/30INCHS",
+        "transportWheels": "No",
+        "stepHeight": "145mm/5.7INCHS",
+        "magnets": "1pcs",
+        "display": "SCAN, TIME, COUNT, TOTAL COUNT, CAL.",
+        "screenType": "LCD",
+        "screenSize": "30*24mm/1.2*0.9 inchs",
+        "battery": "2*AA",
+        "bluetooth": "Yes",
+        "heartRate": "No",
+        "wirelessHeartRate": "Yes",
+        "deviceHolder": "No",
+        "bottleHolder": "No",
+        "speakers": "No",
+        "usb": "No",
+        "ftms": "Yes",
+        "wifi": "No",
+        "features": "1. Silence and no noise during exercise; 2. Thicken the chest pad, more comfortable; the pad can adjust the height, adapt to more sports people; 3. Add the bluetooth, can connet the APP; 4.Do not hurt the knee when exercise, suit for more people range; 5. Anti-slipSafty handlebar, foot pads; thickened pedal",
+        "certification": "ISTA6/ FCC/ICES"
+      },
+      "evidence": {
+        "brand": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B7",
+        "materials": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B12",
+        "color": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B11",
+        "productWeight": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B15",
+        "maxUserWeightLb": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B22",
+        "keyDimensions": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B17",
+        "foldedDimensions": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B18",
+        "footprint": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B21",
+        "shippingWeight": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B14",
+        "shippingDimensions": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B19",
+        "upc": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B10",
+        "stride": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B37",
+        "transportWheels": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B40",
+        "stepHeight": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B38",
+        "magnets": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B26",
+        "display": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B48",
+        "screenType": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B46",
+        "screenSize": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B47",
+        "battery": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B45",
+        "bluetooth": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B50",
+        "heartRate": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B58",
+        "wirelessHeartRate": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B59",
+        "deviceHolder": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B61",
+        "bottleHolder": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B62",
+        "speakers": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B56",
+        "usb": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B57",
+        "ftms": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B53",
+        "wifi": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B54",
+        "features": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B74",
+        "certification": "SF-E902 SMART Spec sheet (new version) 20241121.xlsx / Specs / B73"
+      },
+      "sources": [
+        "V2 spec sheet: SF-E902 SMART Spec sheet (new version) 20241121.xlsx"
+      ],
+      "notes": []
+    }
   },
   {
     "id": "sf-e324028",
@@ -293,7 +727,84 @@
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Under-Desk"
     },
-    "photoChecked": true
+    "photoChecked": true,
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "STELL,PLSTIC",
+        "color": "dark grey+light grey+black",
+        "productWeight": "18.1lbs/8.2kgs",
+        "keyDimensions": "495*460*265mm/19.5*18.1*10.4 inches",
+        "footprint": "495*460mm/19.5*18.1 inches",
+        "shippingWeight": "22.2lbs/10.1kgs",
+        "shippingDimensions": "22.2*19.5*12inches/ 564*500*305mm",
+        "upc": "810153800293",
+        "resistanceType": "N/A , level adjustment",
+        "speedResistanceLevels": "N/A ,18 levels speed",
+        "stride": "101.6mm /4 inches",
+        "transportWheels": "No",
+        "stepHeight": "Max: 175mm/6.9inches or 245mm/9.6inches; Min: 125mm/4.9inches",
+        "display": "TIME/SPEED/CAL/PULSE",
+        "screenType": "LCD",
+        "screenSize": "42*18mm/1.7*0.7inches",
+        "bluetooth": "Yes",
+        "heartRate": "No",
+        "wirelessHeartRate": "Yes",
+        "deviceHolder": "No",
+        "bottleHolder": "No",
+        "programs": "P1-P6",
+        "speakers": "No",
+        "usb": "No",
+        "watts": "90W",
+        "amps": "120V-240V~",
+        "powerCord": "1800mm/70.9 inches",
+        "ftms": "No",
+        "wifi": "No",
+        "plugType": "Yes",
+        "features": "1. With buletooth, can connect SUNNYFIT APP; 2. Fully assembly, small footprint, easy to move; 3. Multi-scene use, can be placed under the desk, can do exercise while working; 4. With remote control, wireless remote control to adjust the speed levels; 5. Motorized mini elliptical, users can passive exercise, especially suitable for rehabilitation needs, and users who are inconvenient on legs and feet; 6. 18 levels speed, can manual or use remote control, convinient to use; 7. 6 levels pre-program, meet variety of use requiement.",
+        "certification": "To de test"
+      },
+      "evidence": {
+        "brand": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B7",
+        "materials": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B12",
+        "color": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B11",
+        "productWeight": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B15",
+        "keyDimensions": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B17",
+        "footprint": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B21",
+        "shippingWeight": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B14",
+        "shippingDimensions": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B19",
+        "upc": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B10",
+        "resistanceType": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B24",
+        "speedResistanceLevels": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B25",
+        "stride": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B37",
+        "transportWheels": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B40",
+        "stepHeight": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B38, B39",
+        "display": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B48",
+        "screenType": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B46",
+        "screenSize": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B47",
+        "bluetooth": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B50",
+        "heartRate": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B58",
+        "wirelessHeartRate": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B59",
+        "deviceHolder": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B61",
+        "bottleHolder": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B62",
+        "programs": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B49",
+        "speakers": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B56",
+        "usb": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B57",
+        "watts": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B67",
+        "amps": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B68",
+        "powerCord": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B65",
+        "ftms": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B53",
+        "wifi": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B54",
+        "plugType": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B64",
+        "features": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B74",
+        "certification": "SF-E324028 spec sheet 12.11.2024.xlsx / Specs / B73"
+      },
+      "sources": [
+        "V2 spec sheet: SF-E324028 spec sheet 12.11.2024.xlsx"
+      ],
+      "notes": []
+    }
   },
   {
     "id": "sf-rbe420049",
@@ -325,6 +836,59 @@
     "photoChecked": true,
     "photoMasks": {
       "name": [[0.49, 0.2, 0.05, 0.2]]
+    },
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny",
+        "materials": "Plastic +carbon steel",
+        "color": "GREY-425U",
+        "productWeight": "100.1LBS/45.4KG",
+        "maxUserWeightLb": "300LBS/135KG",
+        "keyDimensions": "66.9*32.7*50.6INCH 1700*830*1285CM",
+        "footprint": "1594*575mm /62.8*22.6INCH",
+        "shippingWeight": "118.6LBS/53.8KG",
+        "shippingDimensions": "63x11.4x24.8 INCHES /160.5*28*62cm",
+        "latex": "NO",
+        "resistanceType": "Magnetic",
+        "speedResistanceLevels": "12LEVELS",
+        "flywheelWeight": "11LBS/ 5KGS",
+        "magnets": "4PCS MAGNETS; 1100-1400 Gauss",
+        "display": "SCAN TIME RPM SPEED DISTANCE CALORIES PULSE CALENDAR CLOCK TEMPERATURE",
+        "screenType": "LCD",
+        "screenSize": "8.2*4.4cm/3.2*1.7inch",
+        "battery": "2xAA",
+        "programs": "NO",
+        "features": "1.Front drive elliptical and pedal track , to lower pressure on knees 2, Easy to use machine with wide pedals and step track 3.Aluminum Bars, for a smooth and quiet workout 4.Adjustable End Caps to ensure machine is leveled to the floor 5. Includes device holder and cup holder",
+        "certification": "6A"
+      },
+      "evidence": {
+        "brand": "SF-RBE420049 & nbsp_ SPEC 12.30.2022.xlsx / Sheet1 / B3",
+        "materials": "SF-RBE420049 & nbsp_ SPEC 12.30.2022.xlsx / Sheet1 / B7",
+        "color": "SF-RBE420049 & nbsp_ SPEC 12.30.2022.xlsx / Sheet1 / B6",
+        "productWeight": "SF-RBE420049 & nbsp_ SPEC 12.30.2022.xlsx / Sheet1 / B12",
+        "maxUserWeightLb": "SF-RBE420049 & nbsp_ SPEC 12.30.2022.xlsx / Sheet1 / B21",
+        "keyDimensions": "SF-RBE420049 & nbsp_ SPEC 12.30.2022.xlsx / Sheet1 / B14",
+        "footprint": "SF-RBE420049 & nbsp_ SPEC 12.30.2022.xlsx / Sheet1 / B16",
+        "shippingWeight": "SF-RBE420049 & nbsp_ SPEC 12.30.2022.xlsx / Sheet1 / B11",
+        "shippingDimensions": "SF-RBE420049 & nbsp_ SPEC 12.30.2022.xlsx / Sheet1 / B17",
+        "latex": "SF-RBE420049 & nbsp_ SPEC 12.30.2022.xlsx / Sheet1 / B10",
+        "resistanceType": "SF-RBE420049 & nbsp_ SPEC 12.30.2022.xlsx / Sheet1 / B22",
+        "speedResistanceLevels": "SF-RBE420049 & nbsp_ SPEC 12.30.2022.xlsx / Sheet1 / B23",
+        "flywheelWeight": "SF-RBE420049 & nbsp_ SPEC 12.30.2022.xlsx / Sheet1 / B13",
+        "magnets": "SF-RBE420049 & nbsp_ SPEC 12.30.2022.xlsx / Sheet1 / B25",
+        "display": "SF-RBE420049 & nbsp_ SPEC 12.30.2022.xlsx / Sheet1 / B42",
+        "screenType": "SF-RBE420049 & nbsp_ SPEC 12.30.2022.xlsx / Sheet1 / B20",
+        "screenSize": "SF-RBE420049 & nbsp_ SPEC 12.30.2022.xlsx / Sheet1 / B19",
+        "battery": "SF-RBE420049 & nbsp_ SPEC 12.30.2022.xlsx / Sheet1 / D27",
+        "programs": "SF-RBE420049 & nbsp_ SPEC 12.30.2022.xlsx / Sheet1 / B24",
+        "features": "SF-RBE420049 & nbsp_ SPEC 12.30.2022.xlsx / Sheet1 / B44",
+        "certification": "SF-RBE420049 & nbsp_ SPEC 12.30.2022.xlsx / Sheet1 / B43"
+      },
+      "sources": [
+        "V2 spec sheet: SF-RBE420049 & nbsp_ SPEC 12.30.2022.xlsx"
+      ],
+      "notes": []
     }
   },
   {
@@ -354,7 +918,62 @@
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Recumbent Ellipticals"
     },
-    "photoChecked": true
+    "photoChecked": true,
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "Steel Q235+HIPS",
+        "color": "Grey 425U+Black U+Red 485C",
+        "productWeight": "39KG/86LBS",
+        "maxUserWeightLb": "120KGS/265LBS",
+        "keyDimensions": "160*73.5*122CM 63*28.9*48 INCH",
+        "footprint": "142*50.5CM 55.9*19.9 INCH",
+        "shippingWeight": "45KG/99.2LBS",
+        "shippingDimensions": "57.1*9.8*25.6INCH 145*25*65CM",
+        "latex": "NO",
+        "resistanceType": "Magnetic",
+        "speedResistanceLevels": "8LEVELS",
+        "flywheelWeight": "3KGS/6.6 LBS",
+        "stepHeight": "209.25MM/8.2 INCH 441.83MM/17.4 INCH",
+        "magnets": "4PCS/ 1300 Gauss",
+        "display": "SCAN/TIME/DISTANCE/CAL/ODO/SPEED/PULSE",
+        "screenType": "LCD",
+        "screenSize": "53*24MM/2.1*0.9 INCH",
+        "battery": "2xAAA",
+        "bluetooth": "SUNNY FIT",
+        "programs": "NO",
+        "features": "1. Linkage function of upper and lower limbs, hands and feet can be moved at the same time, or legs can be moved alone; elliptical pedal track, to protect the knee joint from damage 2. Seat can be adjusted forward or backward, adapt to different heights, easy to adjust 3. The transportation wheels are welded on the front stabilizer, which make it easy to move, more durable,and no affect for transport on carpet. 4. The rear stabilizer is with 12 Angle adjustable end caps, to adjust the balance on uneven ground. 5. Smooth, quiet and comfortable movement."
+      },
+      "evidence": {
+        "brand": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B3",
+        "materials": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B7",
+        "color": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B6",
+        "productWeight": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B10",
+        "maxUserWeightLb": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B19",
+        "keyDimensions": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B12",
+        "footprint": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B14",
+        "shippingWeight": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B9",
+        "shippingDimensions": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B15",
+        "latex": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B8",
+        "resistanceType": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B20",
+        "speedResistanceLevels": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B21",
+        "flywheelWeight": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B11",
+        "stepHeight": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B64, D64",
+        "magnets": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B23",
+        "display": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B40",
+        "screenType": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B18",
+        "screenSize": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B17",
+        "battery": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / D25",
+        "bluetooth": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / D31",
+        "programs": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B22",
+        "features": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B42"
+      },
+      "sources": [
+        "V2 spec sheet: Spec Sheet for SF-RBE420035 01172023.xlsx"
+      ],
+      "notes": []
+    }
   },
   {
     "id": "sf-rbe4886smart",
@@ -386,6 +1005,61 @@
     "photoChecked": true,
     "photoMasks": {
       "name": [[0.25, 0.64, 0.06, 0.2]]
+    },
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "Q235+HIPS",
+        "color": "Black U+Red 485C",
+        "productWeight": "113.1LBS/51.3KG",
+        "maxUserWeightLb": "135KGS/300LBS",
+        "keyDimensions": "182*84.5*129CM 71.7*33.3*50.8 INCH",
+        "footprint": "171.5*52CM 67.5*20.5 INCH",
+        "shippingWeight": "133.4LBS/60.5KG",
+        "shippingDimensions": "68.5*11*27.2INCHES/174*28*69CM",
+        "resistanceType": "Magnetic",
+        "speedResistanceLevels": "16LEVELS",
+        "flywheelWeight": "4KGS/8.8 LBS",
+        "stepHeight": "249.64MM/9.8 INCH 514.33MM/20.2 INCH",
+        "magnets": "4PCS/ 1300GAUSS",
+        "display": "SPEED/RPM/TIME/DISTANCE/ODO/CAL/WATT/PULSE/TARGET HR/LEVEL",
+        "screenType": "LCD",
+        "screenSize": "127*58MM/5*2.3 INCH",
+        "bluetooth": "SUNNYFIT APP",
+        "programs": "12P+Watt Control Program+BODY FAT Program+TARGET HEART RATE Program+4 HEART RATE CONTROL Program+4 User Program",
+        "powerCord": "1840MM/72.4 INCH",
+        "plugType": "ADAPTER",
+        "features": "1. Linkage function of upper and lower limbs, hands and feet can be moved at the same time, or legs can be moved alone, elliptical pedal track, to protect the knee joint from damage 2. Cushion wide, soft, comfortable and breathable, can be adjusted before and after, adapt to different heights, easy to adjust 3.Smooth, quiet and comfortable movement 4.Adjustable end caps for rear stabilizer to adjust the balance. 5. Adjustable handlebar grip (2 way - facing inward and outward) and horizontal length."
+      },
+      "evidence": {
+        "brand": "Spec Sheet for SF-RBE4886 SMART 01172023.xlsx / SF-RBE4886 SMART / B3",
+        "materials": "Spec Sheet for SF-RBE4886 SMART 01172023.xlsx / SF-RBE4886 SMART / B7",
+        "color": "Spec Sheet for SF-RBE4886 SMART 01172023.xlsx / SF-RBE4886 SMART / B6",
+        "productWeight": "Spec Sheet for SF-RBE4886 SMART 01172023.xlsx / SF-RBE4886 SMART / B10",
+        "maxUserWeightLb": "Spec Sheet for SF-RBE4886 SMART 01172023.xlsx / SF-RBE4886 SMART / B19",
+        "keyDimensions": "Spec Sheet for SF-RBE4886 SMART 01172023.xlsx / SF-RBE4886 SMART / B12",
+        "footprint": "Spec Sheet for SF-RBE4886 SMART 01172023.xlsx / SF-RBE4886 SMART / B14",
+        "shippingWeight": "Spec Sheet for SF-RBE4886 SMART 01172023.xlsx / SF-RBE4886 SMART / B9",
+        "shippingDimensions": "Spec Sheet for SF-RBE4886 SMART 01172023.xlsx / SF-RBE4886 SMART / B15",
+        "resistanceType": "Spec Sheet for SF-RBE4886 SMART 01172023.xlsx / SF-RBE4886 SMART / B20",
+        "speedResistanceLevels": "Spec Sheet for SF-RBE4886 SMART 01172023.xlsx / SF-RBE4886 SMART / B21",
+        "flywheelWeight": "Spec Sheet for SF-RBE4886 SMART 01172023.xlsx / SF-RBE4886 SMART / B11",
+        "stepHeight": "Spec Sheet for SF-RBE4886 SMART 01172023.xlsx / SF-RBE4886 SMART / B64, D64",
+        "magnets": "Spec Sheet for SF-RBE4886 SMART 01172023.xlsx / SF-RBE4886 SMART / B23",
+        "display": "Spec Sheet for SF-RBE4886 SMART 01172023.xlsx / SF-RBE4886 SMART / B40",
+        "screenType": "Spec Sheet for SF-RBE4886 SMART 01172023.xlsx / SF-RBE4886 SMART / B18",
+        "screenSize": "Spec Sheet for SF-RBE4886 SMART 01172023.xlsx / SF-RBE4886 SMART / B17",
+        "bluetooth": "Spec Sheet for SF-RBE4886 SMART 01172023.xlsx / SF-RBE4886 SMART / D31",
+        "programs": "Spec Sheet for SF-RBE4886 SMART 01172023.xlsx / SF-RBE4886 SMART / B22",
+        "powerCord": "Spec Sheet for SF-RBE4886 SMART 01172023.xlsx / SF-RBE4886 SMART / B39",
+        "plugType": "Spec Sheet for SF-RBE4886 SMART 01172023.xlsx / SF-RBE4886 SMART / D35",
+        "features": "Spec Sheet for SF-RBE4886 SMART 01172023.xlsx / SF-RBE4886 SMART / B42"
+      },
+      "sources": [
+        "V2 spec sheet: Spec Sheet for SF-RBE4886 SMART 01172023.xlsx"
+      ],
+      "notes": []
     }
   },
   {
@@ -415,7 +1089,78 @@
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Under-Desk"
     },
-    "photoChecked": true
+    "photoChecked": true,
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "steel,plastic",
+        "color": "dark gray,red ,black",
+        "productWeight": "6.8KG/15LBS",
+        "keyDimensions": "560*430*290MM/22*16.9*11.4 INCHES",
+        "footprint": "560*430MM/22*16.9 INCHES",
+        "shippingWeight": "9KG/19.8LBS",
+        "shippingDimensions": "620*465*325MM/24.4*18.3*12.8 INCHES",
+        "upc": "810153800309",
+        "resistanceType": "woollen felt",
+        "speedResistanceLevels": "stepless tension",
+        "stride": "177 MM / 7 INCHES",
+        "flywheelWeight": "0.13KG/0.3LBS",
+        "transportWheels": "No",
+        "stepHeight": "Max: 200MM/7.9INCHES; 305MM/12INCHES; Min: 128MM/5INCHES",
+        "display": "SCAN/SPD/TMR/CAL/DIS/ODO/PULSE",
+        "screenType": "LCD",
+        "screenSize": "32*20MM/1.3*0.8 INCHES",
+        "battery": "2*AAA",
+        "bluetooth": "YES",
+        "heartRate": "No",
+        "wirelessHeartRate": "Yes",
+        "deviceHolder": "No",
+        "bottleHolder": "No",
+        "speakers": "No",
+        "usb": "No",
+        "ftms": "No",
+        "wifi": "No",
+        "features": "1. The product occupies a small area, light weight, easy to move the machine; 2. Stepless resistance, adapt to different intensity of exercise needs; 3. The meter has bluetooth and wireless heart rate function, can connect SUNNYFIT APP to check the exercise data in real time; 4. Light and compact appearance; 5. Elliptical movement, protect the knee from injury; 6. Can be place under the desk, you can exercise while working; 7. The product is fully assembled, easy to use.",
+        "certification": "FCC/ICES/ISTA6"
+      },
+      "evidence": {
+        "brand": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B7",
+        "materials": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B12",
+        "color": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B11",
+        "productWeight": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B15",
+        "keyDimensions": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B17",
+        "footprint": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B21",
+        "shippingWeight": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B14",
+        "shippingDimensions": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B19",
+        "upc": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B10",
+        "resistanceType": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B24",
+        "speedResistanceLevels": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B25",
+        "stride": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B37",
+        "flywheelWeight": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B16",
+        "transportWheels": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B40",
+        "stepHeight": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B38, B39",
+        "display": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B48",
+        "screenType": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B46",
+        "screenSize": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B47",
+        "battery": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B45",
+        "bluetooth": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B50",
+        "heartRate": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B58",
+        "wirelessHeartRate": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B59",
+        "deviceHolder": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B61",
+        "bottleHolder": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B62",
+        "speakers": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B56",
+        "usb": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B57",
+        "ftms": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B53",
+        "wifi": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B54",
+        "features": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B74",
+        "certification": "SF-E324029 Final Spec sheet 20260602.xlsx / Specs / B73"
+      },
+      "sources": [
+        "V2 spec sheet: SF-E324029 Final Spec sheet 20260602.xlsx"
+      ],
+      "notes": []
+    }
   },
   {
     "id": "sf-e3959smartg",
@@ -444,7 +1189,52 @@
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Under-Desk"
     },
-    "photoChecked": true
+    "photoChecked": true,
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "SUNNY HEALTH & FITNESS",
+        "materials": "PLASTIC",
+        "color": "Dark Gray, black",
+        "productWeight": "21.4LBS/9.7KGS",
+        "keyDimensions": "22.8*18.3*11 INCHES/ 580*465*280MM",
+        "shippingWeight": "26.2LBS/11.9KGS",
+        "shippingDimensions": "25*20.3*12.4 INCHES/ 635*516*315MM",
+        "resistanceType": "ELECTRIC",
+        "speedResistanceLevels": "18 LEVELS",
+        "stride": "6.9INCHES/175MM",
+        "stepHeight": "3.35INCHES /85MM 10.9INCHES / 276MM",
+        "display": "POWER,MANUAL,AUTO,TIME.SPEED",
+        "screenType": "LCD",
+        "screenSize": "1.2*0.5 INCHES/ 29.7*13.7MM",
+        "battery": "CR2025*1",
+        "programs": "3, P1 P2 P3",
+        "features": "1. The meter has bluetooth function, to connect with SUNNY APP. 2. Conveniently adjust the resistance with remote control. 3. No need to installation, small footprint, easy to move. 4. Compact and portable design can be placed under the desk, you can work while exercising. 6. Low-impact workout with elliptical movement."
+      },
+      "evidence": {
+        "brand": "SF-E3959SMARTG Final spec sheet 20260603.xlsx / Sheet1 / B3",
+        "materials": "SF-E3959SMARTG Final spec sheet 20260603.xlsx / Sheet1 / B7",
+        "color": "SF-E3959SMARTG Final spec sheet 20260603.xlsx / Sheet1 / B6",
+        "productWeight": "SF-E3959SMARTG Final spec sheet 20260603.xlsx / Sheet1 / B12",
+        "keyDimensions": "SF-E3959SMARTG Final spec sheet 20260603.xlsx / Sheet1 / B14",
+        "shippingWeight": "SF-E3959SMARTG Final spec sheet 20260603.xlsx / Sheet1 / B11",
+        "shippingDimensions": "SF-E3959SMARTG Final spec sheet 20260603.xlsx / Sheet1 / B16",
+        "resistanceType": "SF-E3959SMARTG Final spec sheet 20260603.xlsx / Sheet1 / B21",
+        "speedResistanceLevels": "SF-E3959SMARTG Final spec sheet 20260603.xlsx / Sheet1 / B22",
+        "stride": "SF-E3959SMARTG Final spec sheet 20260603.xlsx / Sheet1 / B62",
+        "stepHeight": "SF-E3959SMARTG Final spec sheet 20260603.xlsx / Sheet1 / B63, D63",
+        "display": "SF-E3959SMARTG Final spec sheet 20260603.xlsx / Sheet1 / B41",
+        "screenType": "SF-E3959SMARTG Final spec sheet 20260603.xlsx / Sheet1 / B19",
+        "screenSize": "SF-E3959SMARTG Final spec sheet 20260603.xlsx / Sheet1 / B18",
+        "battery": "SF-E3959SMARTG Final spec sheet 20260603.xlsx / Sheet1 / D26",
+        "programs": "SF-E3959SMARTG Final spec sheet 20260603.xlsx / Sheet1 / B23",
+        "features": "SF-E3959SMARTG Final spec sheet 20260603.xlsx / Sheet1 / B43"
+      },
+      "sources": [
+        "V2 spec sheet: SF-E3959SMARTG Final spec sheet 20260603.xlsx"
+      ],
+      "notes": []
+    }
   },
   {
     "id": "sf-e323057",
@@ -473,7 +1263,62 @@
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Under-Desk"
     },
-    "photoChecked": true
+    "photoChecked": true,
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "STEEL, PLASTIC",
+        "color": "Dark gray, Black, BLACK U, Silver877, Red485C",
+        "productWeight": "34.2LBS (15.5KG)",
+        "maxUserWeightLb": "300LBS/135KGS",
+        "maxUserHeight": "74.8inches/190cm",
+        "keyDimensions": "84.5*47*128.5 cm 33.3*18.5*50.6 INCH",
+        "footprint": "68.5*47 cm/27*18.5 INCH",
+        "shippingWeight": "41.3LBS (18.8KG)",
+        "shippingDimensions": "72.5*52*32.5 cm 28.6*20.5*12.8 inch",
+        "resistanceType": "Magnetic resistance",
+        "speedResistanceLevels": "16 levels resistance",
+        "stride": "7 inches (17.8 cm)",
+        "flywheelWeight": "1.5kg/3.3lbs",
+        "stepHeight": "90mm/120mm 250mm/200mm",
+        "magnets": "3PCS/3200 gauss",
+        "display": "SCAN,TIME,SPEED,DIST,CAL,PULSE",
+        "screenType": "LCD",
+        "screenSize": "1.9*0.94 Inches / 4.8*2.4 cm",
+        "battery": "2*AAA",
+        "bluetooth": "SUNNYFIT",
+        "features": "1.The meter is with bluetooth and can be connected to SunnyFit APP. 2.There are 16 tension levels to adjust the resistance. 3.The equipment is easy to assemble and does not occupy an area. There is the transportation wheels to make move more convinencie. 4.The Elliptical motion trail can protect the knee from injury. 5.Add the handebar to increase the stability during exercise. 6.Add resistance bands to increase the hand movement function. 7.Add IPAD holder to make sports more entertaining."
+      },
+      "evidence": {
+        "brand": "SF-E323057 SPEC SHEET 06052024.xlsx / Sheet1 / B3",
+        "materials": "SF-E323057 SPEC SHEET 06052024.xlsx / Sheet1 / B7",
+        "color": "SF-E323057 SPEC SHEET 06052024.xlsx / Sheet1 / B6",
+        "productWeight": "SF-E323057 SPEC SHEET 06052024.xlsx / Sheet1 / B10",
+        "maxUserWeightLb": "SF-E323057 SPEC SHEET 06052024.xlsx / Sheet1 / B19",
+        "maxUserHeight": "SF-E323057 SPEC SHEET 06052024.xlsx / Sheet1 / B20",
+        "keyDimensions": "SF-E323057 SPEC SHEET 06052024.xlsx / Sheet1 / B12",
+        "footprint": "SF-E323057 SPEC SHEET 06052024.xlsx / Sheet1 / B16",
+        "shippingWeight": "SF-E323057 SPEC SHEET 06052024.xlsx / Sheet1 / B9",
+        "shippingDimensions": "SF-E323057 SPEC SHEET 06052024.xlsx / Sheet1 / B14",
+        "resistanceType": "SF-E323057 SPEC SHEET 06052024.xlsx / Sheet1 / B21",
+        "speedResistanceLevels": "SF-E323057 SPEC SHEET 06052024.xlsx / Sheet1 / B22",
+        "stride": "SF-E323057 SPEC SHEET 06052024.xlsx / Sheet1 / B65",
+        "flywheelWeight": "SF-E323057 SPEC SHEET 06052024.xlsx / Sheet1 / B11",
+        "stepHeight": "SF-E323057 SPEC SHEET 06052024.xlsx / Sheet1 / C66, E66",
+        "magnets": "SF-E323057 SPEC SHEET 06052024.xlsx / Sheet1 / B24",
+        "display": "SF-E323057 SPEC SHEET 06052024.xlsx / Sheet1 / B42",
+        "screenType": "SF-E323057 SPEC SHEET 06052024.xlsx / Sheet1 / B18",
+        "screenSize": "SF-E323057 SPEC SHEET 06052024.xlsx / Sheet1 / B17",
+        "battery": "SF-E323057 SPEC SHEET 06052024.xlsx / Sheet1 / E26",
+        "bluetooth": "SF-E323057 SPEC SHEET 06052024.xlsx / Sheet1 / E33",
+        "features": "SF-E323057 SPEC SHEET 06052024.xlsx / Sheet1 / B44"
+      },
+      "sources": [
+        "V2 spec sheet: SF-E323057 SPEC SHEET 06052024.xlsx"
+      ],
+      "notes": []
+    }
   },
   {
     "id": "sf-e323054",
@@ -502,7 +1347,62 @@
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Under-Desk"
     },
-    "photoChecked": true
+    "photoChecked": true,
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "STEEL, PLASTIC",
+        "color": "Medium Gray425U+Silver887+Red485C+BLACK",
+        "productWeight": "25.8 LBS (11.7 KG)",
+        "maxUserWeightLb": "300LBS/135KGS",
+        "maxUserHeight": "74.8inches/190cm",
+        "keyDimensions": "27*18.5*10.4 Inches (68.5*47*26.5cm)",
+        "footprint": "68.5*47cm/27*18.5INCH",
+        "shippingWeight": "32LBS (14.5KG)",
+        "shippingDimensions": "28.6*20.5*12.8inch 72.5*52*32.5CM",
+        "resistanceType": "Magnetic resistance",
+        "speedResistanceLevels": "16 levels resistance",
+        "stride": "7 inches (17.8 cm)",
+        "flywheelWeight": "1.5kg/3.3lbs",
+        "stepHeight": "90mm/120mm 250mm/200mm",
+        "magnets": "2PCS 3200 gauss",
+        "display": "SCAN/SPEED/TIME/DISTANCE/CALORIES/PULSE",
+        "screenType": "LCD",
+        "screenSize": "1.9*0.94 Inches / 4.8*2.4cm",
+        "battery": "2*AAA",
+        "bluetooth": "SUNNYFIT",
+        "features": "1.The meter is with bluetooth and can be connected to SunnyFit APP. 2.The equipment is easy to assemble and does not occupy an area. 3.The Elliptical motion trail can protect the knee from injury. 4.Standing-up usage can better exercise the coordination and stability of the body. 5.Add resistance bands to increase the hand movement function."
+      },
+      "evidence": {
+        "brand": "SF-E323054 SPEC SHEET 06032024.xlsx / Sheet1 / B3",
+        "materials": "SF-E323054 SPEC SHEET 06032024.xlsx / Sheet1 / B7",
+        "color": "SF-E323054 SPEC SHEET 06032024.xlsx / Sheet1 / B6",
+        "productWeight": "SF-E323054 SPEC SHEET 06032024.xlsx / Sheet1 / B10",
+        "maxUserWeightLb": "SF-E323054 SPEC SHEET 06032024.xlsx / Sheet1 / B19",
+        "maxUserHeight": "SF-E323054 SPEC SHEET 06032024.xlsx / Sheet1 / B20",
+        "keyDimensions": "SF-E323054 SPEC SHEET 06032024.xlsx / Sheet1 / B12",
+        "footprint": "SF-E323054 SPEC SHEET 06032024.xlsx / Sheet1 / B16",
+        "shippingWeight": "SF-E323054 SPEC SHEET 06032024.xlsx / Sheet1 / B9",
+        "shippingDimensions": "SF-E323054 SPEC SHEET 06032024.xlsx / Sheet1 / B14",
+        "resistanceType": "SF-E323054 SPEC SHEET 06032024.xlsx / Sheet1 / B21",
+        "speedResistanceLevels": "SF-E323054 SPEC SHEET 06032024.xlsx / Sheet1 / B22",
+        "stride": "SF-E323054 SPEC SHEET 06032024.xlsx / Sheet1 / B65",
+        "flywheelWeight": "SF-E323054 SPEC SHEET 06032024.xlsx / Sheet1 / B11",
+        "stepHeight": "SF-E323054 SPEC SHEET 06032024.xlsx / Sheet1 / C66, E66",
+        "magnets": "SF-E323054 SPEC SHEET 06032024.xlsx / Sheet1 / B24",
+        "display": "SF-E323054 SPEC SHEET 06032024.xlsx / Sheet1 / B42",
+        "screenType": "SF-E323054 SPEC SHEET 06032024.xlsx / Sheet1 / B18",
+        "screenSize": "SF-E323054 SPEC SHEET 06032024.xlsx / Sheet1 / B17",
+        "battery": "SF-E323054 SPEC SHEET 06032024.xlsx / Sheet1 / E26",
+        "bluetooth": "SF-E323054 SPEC SHEET 06032024.xlsx / Sheet1 / E33",
+        "features": "SF-E323054 SPEC SHEET 06032024.xlsx / Sheet1 / B44"
+      },
+      "sources": [
+        "V2 spec sheet: SF-E323054 SPEC SHEET 06032024.xlsx"
+      ],
+      "notes": []
+    }
   },
   {
     "id": "sf-e323017",
@@ -531,6 +1431,55 @@
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Under-Desk"
     },
-    "photoChecked": true
+    "photoChecked": true,
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "brand": "Sunny Health & Fitness",
+        "materials": "steel",
+        "color": "Gray, Silver,black",
+        "productWeight": "23.8 LBS (10.8KG)",
+        "keyDimensions": "22.8*18.1*10.9 Inches (55.5*46*276cm)",
+        "shippingWeight": "29LBS (13.2KG)",
+        "shippingDimensions": "25*20.3*12.4Inches (61*51.5*31.5cm)",
+        "resistanceType": "Magnetic resistance",
+        "speedResistanceLevels": "8 levels resistance",
+        "stride": "17.8cm/7INCH",
+        "flywheelWeight": "1.5kg/3.3lbs",
+        "stepHeight": "87mm 175mm",
+        "magnets": "2PCS 3200 gauss",
+        "display": "SCAN/SPEED/TIME/DISTANCE/CALORIES",
+        "screenType": "LCD",
+        "screenSize": "1.9*0.94 Inches / 4.8*2.4cm",
+        "battery": "2xAAA",
+        "bluetooth": "SUNNY FIT",
+        "features": "1. Complete machine shipment, customer no need to install; 2. 8 level adjustment resistance, adapt to different exercise intensity needs; 3. Small and convince, not take up too much space and easy to move ; 4. Equipped with rollers and tracks, stable movement and quiet; 5. Stylish and beautiful appearance. 6. Elliptical motion trajectory, does not hurt the knee\""
+      },
+      "evidence": {
+        "brand": "SF-E323017 SPEC SHEET 09192023.xlsx / Sheet1 / B3",
+        "materials": "SF-E323017 SPEC SHEET 09192023.xlsx / Sheet1 / B7",
+        "color": "SF-E323017 SPEC SHEET 09192023.xlsx / Sheet1 / B6",
+        "productWeight": "SF-E323017 SPEC SHEET 09192023.xlsx / Sheet1 / B12",
+        "keyDimensions": "SF-E323017 SPEC SHEET 09192023.xlsx / Sheet1 / B14",
+        "shippingWeight": "SF-E323017 SPEC SHEET 09192023.xlsx / Sheet1 / B11",
+        "shippingDimensions": "SF-E323017 SPEC SHEET 09192023.xlsx / Sheet1 / B16",
+        "resistanceType": "SF-E323017 SPEC SHEET 09192023.xlsx / Sheet1 / B21",
+        "speedResistanceLevels": "SF-E323017 SPEC SHEET 09192023.xlsx / Sheet1 / B22",
+        "stride": "SF-E323017 SPEC SHEET 09192023.xlsx / Sheet1 / B61",
+        "flywheelWeight": "SF-E323017 SPEC SHEET 09192023.xlsx / Sheet1 / B13",
+        "stepHeight": "SF-E323017 SPEC SHEET 09192023.xlsx / Sheet1 / B62, D62",
+        "magnets": "SF-E323017 SPEC SHEET 09192023.xlsx / Sheet1 / B24",
+        "display": "SF-E323017 SPEC SHEET 09192023.xlsx / Sheet1 / B41",
+        "screenType": "SF-E323017 SPEC SHEET 09192023.xlsx / Sheet1 / B19",
+        "screenSize": "SF-E323017 SPEC SHEET 09192023.xlsx / Sheet1 / B18",
+        "battery": "SF-E323017 SPEC SHEET 09192023.xlsx / Sheet1 / D26",
+        "bluetooth": "SF-E323017 SPEC SHEET 09192023.xlsx / Sheet1 / D32",
+        "features": "SF-E323017 SPEC SHEET 09192023.xlsx / Sheet1 / B43"
+      },
+      "sources": [
+        "V2 spec sheet: SF-E323017 SPEC SHEET 09192023.xlsx"
+      ],
+      "notes": []
+    }
   }
 ]

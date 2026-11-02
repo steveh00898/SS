@@ -33,6 +33,77 @@
    "source": "https://sunnyhealthfitness.com/collections/row-n-ride/products/sunny-health-and-fitness-no-077-upright-row-n-ride-rowing-machine",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Row-N-Ride"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "Q235, PP, PVC, PE, ABS",
+    "color": "White/RED 485C/Black/gray",
+    "productWeight": "12.4 kgs / 27.3 lbs",
+    "maxUserWeightLb": "150kgs /330 lbs",
+    "maxUserHeight": "1900mm",
+    "keyDimensions": "1150*490*1270 mm / 45.3*19.3*50 inches",
+    "foldedDimensions": "290*490*1415 mm / 11.4*19.3*55.7 inches",
+    "footprint": "955*425 mm / 37.6*16.7 inches",
+    "shippingWeight": "14.2kgs / 31.3lbs",
+    "shippingDimensions": "1117*210*200 mm / 44*8.3*7.9 inches",
+    "upc": "815749011893",
+    "latex": "Yes (exercise bands)",
+    "resistanceType": "Exercise Band",
+    "seatDimensions": "290*190*40 mm / 11.4*7.5*1.6 inches",
+    "transportWheels": "No",
+    "display": "TIME/CNT/CAL/TOT.CNT/SCAN/PULSE(when connect with the matching Bluetooth heart rate monitor)",
+    "screenType": "LCD",
+    "screenSize": "32*20 mm/1.3*0.8 inches",
+    "battery": "2*AA",
+    "bluetooth": "YES",
+    "heartRate": "No",
+    "wirelessHeartRate": "Yes",
+    "deviceHolder": "No",
+    "bottleHolder": "No",
+    "speakers": "No",
+    "usb": "No",
+    "ftms": "No",
+    "wifi": "No",
+    "features": "1. Adjustable seat cushion. The seat tube has five holes, user can adjust the seat cushion back and forth according to their height. 2.Adjustable handlebar. User can raise or lower the handlebar tube to desired height. 3.With LCD electronic display. User can tracking their workout progress at any time, such as:TIME,COUNT,CALORIES, TOTAL COUNT,PULSE. 4. Different levels of resistance and stretch when using the 3 adjustable resistance bands and/or 3 adjustable seat tube height ( 23.3 inch, 19.6 inch, 14.5 inch) 5.Assist in proper squats. Users can effectively exercise their lower body, upper body, abdomen and heart, effectively enhance cardiopulmonary function. Can work out the abdomen, waist, buttocks and legs. 6.Machine is foldable for convient storage 7. User can acheive a range of motion of 30, 60, and 90 degrees. 8. With SUNNY APP and wireless heart rate feature."
+   },
+   "evidence": {
+    "brand": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B7",
+    "materials": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B12",
+    "color": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B11",
+    "productWeight": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B15",
+    "maxUserWeightLb": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B22",
+    "maxUserHeight": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B23",
+    "keyDimensions": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B17",
+    "foldedDimensions": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B18",
+    "footprint": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B21",
+    "shippingWeight": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B14",
+    "shippingDimensions": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B19",
+    "upc": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B10",
+    "latex": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B13",
+    "resistanceType": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B24",
+    "seatDimensions": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B20",
+    "transportWheels": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B40",
+    "display": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B48",
+    "screenType": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B46",
+    "screenSize": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B47",
+    "battery": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B45",
+    "bluetooth": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B50",
+    "heartRate": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B58",
+    "wirelessHeartRate": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B59",
+    "deviceHolder": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B61",
+    "bottleHolder": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B62",
+    "speakers": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B56",
+    "usb": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B57",
+    "ftms": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B53",
+    "wifi": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B54",
+    "features": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B74"
+   },
+   "sources": [
+    "V2 spec sheet: NO. 077S final spec sheet 11.22.2024 .xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -69,6 +140,53 @@
    "source": "https://sunnyhealthfitness.com/collections/row-n-ride/products/smart-upright-row-n-ride-exerciser-no-077smart",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Row-N-Ride"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "SUNNY HEALTH & FITNESS",
+    "materials": "Q235, PP, PVC, PE, ABS",
+    "color": "BLACK/DARK GRAY/485C",
+    "productWeight": "13.4 KGS/29.5 LBS",
+    "maxUserWeightLb": "150 KGS/330 LBS",
+    "keyDimensions": "1250*490*1240 MM/ 49.2*19.3*48.8 INCHES",
+    "foldedDimensions": "1630*490*405 MM/ 64.2*19.3*15.9 INCHES",
+    "footprint": "955*425 MM/ 37.6*16.7 INCHES",
+    "shippingWeight": "15 KGS/33 LBS",
+    "shippingDimensions": "1118*210*200 MM/ 44*8.3*7.9 INCHES",
+    "resistanceType": "Exercise Band",
+    "seatDimensions": "290*190*40 MM/ 11.4*7.5*1.6 INCHES",
+    "display": "TIME/CNT/CAL/TOT.CNT/SCAN",
+    "screenType": "LCD",
+    "screenSize": "32*20 MM/1.3*0.8 INCHES",
+    "battery": "2*AA",
+    "features": "1. Adjustable seat cushion, the seat tube has five holes, user can adjust the seat cushion back and forth according to their height. 2.Adjustable handlebar, user can raise or lower the handlebar tube to desired height. 3.With LCD electronic display, user can tracking their workout progress at any time, such as:TIME,COUNT,CALORIES, TOTAL COUNT. 4. Different levels of resistance and stretch when using the 3 adjustable resistance bands and/or 3 adjustable seat tube height ( 23.3 inch, 19.6 inch, 14.5 inch) 5.Assist in proper squats. Users can effectively exercise their lower body, upper body, abdomen and heart, effectively enhance cardiopulmonary function. Can work out the abdomen, waist, buttocks and legs. 6.Machine is foldable for convient storage 7. User can acheive a range of motion of 30, 60, and 90 degrees. 8. With SUNNY APP. 9. With device holder, could place the phone or ipad.",
+    "certification": "ISTA 6A"
+   },
+   "evidence": {
+    "brand": "Final Spec Sheet - NO. 077 SMART New Max User Weight.xlsx / NO. 077SMART / B3",
+    "materials": "Final Spec Sheet - NO. 077 SMART New Max User Weight.xlsx / NO. 077SMART / B7",
+    "color": "Final Spec Sheet - NO. 077 SMART New Max User Weight.xlsx / NO. 077SMART / B6",
+    "productWeight": "Final Spec Sheet - NO. 077 SMART New Max User Weight.xlsx / NO. 077SMART / B12",
+    "maxUserWeightLb": "Final Spec Sheet - NO. 077 SMART New Max User Weight.xlsx / NO. 077SMART / B21",
+    "keyDimensions": "Final Spec Sheet - NO. 077 SMART New Max User Weight.xlsx / NO. 077SMART / B14",
+    "foldedDimensions": "Final Spec Sheet - NO. 077 SMART New Max User Weight.xlsx / NO. 077SMART / B15",
+    "footprint": "Final Spec Sheet - NO. 077 SMART New Max User Weight.xlsx / NO. 077SMART / B18",
+    "shippingWeight": "Final Spec Sheet - NO. 077 SMART New Max User Weight.xlsx / NO. 077SMART / B11",
+    "shippingDimensions": "Final Spec Sheet - NO. 077 SMART New Max User Weight.xlsx / NO. 077SMART / B16",
+    "resistanceType": "Final Spec Sheet - NO. 077 SMART New Max User Weight.xlsx / NO. 077SMART / B22",
+    "seatDimensions": "Final Spec Sheet - NO. 077 SMART New Max User Weight.xlsx / NO. 077SMART / B17",
+    "display": "Final Spec Sheet - NO. 077 SMART New Max User Weight.xlsx / NO. 077SMART / B42",
+    "screenType": "Final Spec Sheet - NO. 077 SMART New Max User Weight.xlsx / NO. 077SMART / B20",
+    "screenSize": "Final Spec Sheet - NO. 077 SMART New Max User Weight.xlsx / NO. 077SMART / B19",
+    "battery": "Final Spec Sheet - NO. 077 SMART New Max User Weight.xlsx / NO. 077SMART / D27",
+    "features": "Final Spec Sheet - NO. 077 SMART New Max User Weight.xlsx / NO. 077SMART / B44",
+    "certification": "Final Spec Sheet - NO. 077 SMART New Max User Weight.xlsx / NO. 077SMART / B43"
+   },
+   "sources": [
+    "V2 spec sheet: Final Spec Sheet - NO. 077 SMART New Max User Weight.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -105,6 +223,65 @@
    "source": "https://sunnyhealthfitness.com/collections/row-n-ride/products/upright-row-n-ride-plus-exerciser-no-077plus",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Row-N-Ride"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "Sunny Health & Fitness",
+    "materials": "Q235, ABS, PP, Cushion leather",
+    "color": "Dark Gray with silvery+485C+BLACK",
+    "productWeight": "17.8KG/39.2LBS",
+    "maxUserWeightLb": "350lbs/160kgs",
+    "maxUserHeight": "190CM",
+    "keyDimensions": "(1355 * 555 * 1375MM) 53.3 * 21.9 * 54.1inches",
+    "foldedDimensions": "260 * 555 * 1610MM 10.2 * 21.9 * 63.4inches",
+    "footprint": "950*555 MM/37.4*21.9inch",
+    "shippingWeight": "20.6KG/45.4LBS",
+    "shippingDimensions": "1185 * 280 * 220MM 46.7 * 11 * 8.7inches",
+    "latex": "YES (exercise bands)",
+    "resistanceType": "exercise bands",
+    "speedResistanceLevels": "4pcs exercise bands",
+    "seatDimensions": "300 * 190 * 45mm 11.8 * 7.4 * 1.8 inch",
+    "display": "REPS/MIN, COUNT, TIME, CALORIE, TOT",
+    "screenType": "LCD",
+    "screenSize": "1.18 * 1Inches (30*25MM)",
+    "battery": "2*AAA",
+    "bluetooth": "Sunny fit APP",
+    "programs": "NO",
+    "powerCord": "NO",
+    "features": "1. Adjustable seat cushion, the seat tube has four holes, user can adjust the seat cushion back and forth according to their height. 2.Adjustable handlebar, user can raise or lower the handlebar tube to desired height. 3.With LCD electronic display, user can tracking their workout progress at any time, such as:TIME,COUNT,CALORIES, Reps/Min. 4. Different levels of resistance and stretch when using the 4 adjustable resistance bands. 3 adjustable seat tube height ( 25.2inch, 21.5 inch, 16.6inch) 5. Assist in proper squats. Users can effectively exercise their lower body, upper body, abdomen and heart, effectively enhance cardiopulmonary function. Can work out the abdomen, waist, buttocks and legs. 6.Machine is foldable for convient storage 7. User can acheive a range of motion of 30, 60, and 90 degrees . 8. With SUNNY APP. 9. With device holder, could place the phone or ipad.",
+    "certification": "ISTA6A, FCC, ICES, ASTM"
+   },
+   "evidence": {
+    "brand": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / B3",
+    "materials": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / B7",
+    "color": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / B6",
+    "productWeight": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / B10",
+    "maxUserWeightLb": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / B19",
+    "maxUserHeight": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / B20",
+    "keyDimensions": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / B12",
+    "foldedDimensions": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / B13",
+    "footprint": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / B16",
+    "shippingWeight": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / B9",
+    "shippingDimensions": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / B14",
+    "latex": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / B8",
+    "resistanceType": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / B21",
+    "speedResistanceLevels": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / B22",
+    "seatDimensions": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / B15",
+    "display": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / B42",
+    "screenType": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / B18",
+    "screenSize": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / B17",
+    "battery": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / E26",
+    "bluetooth": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / E33",
+    "programs": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / B23",
+    "powerCord": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / B41",
+    "features": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / B44",
+    "certification": "077PLUS SMART final spec sheet-09182024.xlsx / Sheet1 / B43"
+   },
+   "sources": [
+    "V2 spec sheet: 077PLUS SMART final spec sheet-09182024.xlsx"
+   ],
+   "notes": []
   }
  },
  {
@@ -141,6 +318,55 @@
    "source": "https://sunnyhealthfitness.com/collections/row-n-ride/products/full-body-adjustable-multi-function-smart-row-n-ride-trainer-sf-a022070",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Row-N-Ride"
+  },
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "brand": "SUNNY HEALTHY & FITNESS",
+    "materials": "Q235, PP, PVC",
+    "color": "Dark Gray+BLACK",
+    "productWeight": "17.8Kg/39.3LBS",
+    "maxUserWeightLb": "100KG/220LBS",
+    "keyDimensions": "L1190*W680*H1030 MM/ L46.9*W26.8*H40.6 Inches",
+    "foldedDimensions": "L325*W680*H1465 MM/ L12.8*W26.8*H57.7Inches",
+    "footprint": "L970*W680 MM/ L38.2* W26.8Inches",
+    "shippingWeight": "20.3Kg/44.8 LBS",
+    "shippingDimensions": "L1040*W285*H260 MM/ L41*W11.2*10.2 Inches",
+    "resistanceType": "EXERCISE BAND",
+    "speedResistanceLevels": "3pcs exercise bands",
+    "seatDimensions": "L290*W190*H40 MM/ L11.4*W7.5*H1.57 Inches",
+    "display": "TIME, COUNT, CALORIES, TOTAL COUNT, SPM",
+    "screenType": "LCD",
+    "screenSize": "42*20MM/1.65*0.79 Inches",
+    "battery": "2*AAA",
+    "features": "1. A combination of rowing and riding exercise mode. 2.Adjustable seat cushion, the seat tube has five holes, user can adjust the seat cushion back and forth according to their height. 3.Adjustable upper handrail. The upper handrails have five holes, user can adjust thehandrails upper and down according to their height. 4.Different levels of resistance and stretch when using the 3 adjustable resistance bands . 5.With SUNNY APP. 6.Triangular structure, coarse pipe, strong capacity. 7.The product is foldable, only occupy a small area and is easy to store. 8.Non-slip handle sleeve, economical and dirt resistant."
+   },
+   "evidence": {
+    "brand": "SF-A022070 Final Spec Sheet 01.30.2024.xlsx / Sheet1 / B3",
+    "materials": "SF-A022070 Final Spec Sheet 01.30.2024.xlsx / Sheet1 / B7",
+    "color": "SF-A022070 Final Spec Sheet 01.30.2024.xlsx / Sheet1 / B6",
+    "productWeight": "SF-A022070 Final Spec Sheet 01.30.2024.xlsx / Sheet1 / B12",
+    "maxUserWeightLb": "SF-A022070 Final Spec Sheet 01.30.2024.xlsx / Sheet1 / B21",
+    "keyDimensions": "SF-A022070 Final Spec Sheet 01.30.2024.xlsx / Sheet1 / B14",
+    "foldedDimensions": "SF-A022070 Final Spec Sheet 01.30.2024.xlsx / Sheet1 / B15",
+    "footprint": "SF-A022070 Final Spec Sheet 01.30.2024.xlsx / Sheet1 / B18",
+    "shippingWeight": "SF-A022070 Final Spec Sheet 01.30.2024.xlsx / Sheet1 / B11",
+    "shippingDimensions": "SF-A022070 Final Spec Sheet 01.30.2024.xlsx / Sheet1 / B16",
+    "resistanceType": "SF-A022070 Final Spec Sheet 01.30.2024.xlsx / Sheet1 / B22",
+    "speedResistanceLevels": "SF-A022070 Final Spec Sheet 01.30.2024.xlsx / Sheet1 / B23",
+    "seatDimensions": "SF-A022070 Final Spec Sheet 01.30.2024.xlsx / Sheet1 / B17",
+    "display": "SF-A022070 Final Spec Sheet 01.30.2024.xlsx / Sheet1 / B42",
+    "screenType": "SF-A022070 Final Spec Sheet 01.30.2024.xlsx / Sheet1 / B20",
+    "screenSize": "SF-A022070 Final Spec Sheet 01.30.2024.xlsx / Sheet1 / B19",
+    "battery": "SF-A022070 Final Spec Sheet 01.30.2024.xlsx / Sheet1 / D27",
+    "features": "SF-A022070 Final Spec Sheet 01.30.2024.xlsx / Sheet1 / B44"
+   },
+   "sources": [
+    "V2 spec sheet: SF-A022070 Final Spec Sheet 01.30.2024.xlsx"
+   ],
+   "notes": [
+    "Pulse sensors (B30) holds an order-specific remark; not imported."
+   ]
   }
  }
 ]
