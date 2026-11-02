@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-01: Codex — public Site version 40 published from 6881e39
+- Changes: published the sticky Product Spec and ISV category navigation from exact pushed main commit `6881e394bbc7b08794488bbbf96a20c247f1c918`. Live verification found all 23 treadmill rows; SF-T723030 showed the four Product Spec tabs and ten populated ISV tabs, the ISV navigation was sticky, and selecting Treadmill set its active state.
+- Files: `HANDOFF.md` only in this follow-up; deployed source is exact pushed main commit `6881e394bbc7b08794488bbbf96a20c247f1c918`.
+- Tests: unchanged from the preceding implementation entry; all relevant Product Spec/ISV and catalog tests passed, with only the documented DST-sensitive practice day-count fixture failing independently.
+- Local preview: checked before publication; the live URL was checked after deployment and left open as the user-facing preview.
+- Claude Artifact: unchanged; Codex cannot publish it.
+- Private Site: PUBLIC version 40 from exact main SHA `6881e394bbc7b08794488bbbf96a20c247f1c918`; deployment `appgdep_6ae8390bd8e88191b5f7909d2ee9070f` succeeded; environment revision 1 and public audience preserved.
+- Practice data: not exported because first-export approval for this public repository is still pending; the existing report has zero results.
+- Remaining issues: the unrelated DST-sensitive practice test fixture still needs calendar-day arithmetic.
+- Next steps: owner reviews the live sticky category navigation on desktop and mobile.
+
 ## 2026-11-01: Codex — sticky Product Spec and ISV category navigation
 - Changes: added boxed, sticky category navigation to the top of both Product Spec and ISV dialogs. Selecting a category jumps instantly to its section, updates the active tab, keeps the destination visible below the frozen navigation, and preserves keyboard focus. ISV shows only categories containing information for the selected product and carries the workbook category colour on each tab. Narrow screens use a horizontally scrollable navigation row without widening the page.
 - Files: `app/index.html`, `tests/product-specs.spec.cjs`, `tests/treadmill-specifications.spec.cjs`, `HANDOFF.md`.
