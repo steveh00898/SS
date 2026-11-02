@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-01: Codex — private Site version 39 published from 3d68456
+- Changes: published the Product info / ISV comparison implementation from exact pushed main commit `3d684561827fc53186f630b72fc17a1bd52ca3cd`. Live verification found 23 treadmill rows and 23 ISV controls; SF-T723030 showed the expected yellow Product Spec difference, labeled ISV fallbacks, ten workbook category sections, a matching yellow ISV value and the invalid latex warning.
+- Files: `HANDOFF.md` only in this follow-up; deployed source is exact pushed main commit `3d684561827fc53186f630b72fc17a1bd52ca3cd`.
+- Tests: unchanged from the preceding implementation entry: all 22 test files, build and the 14-capture screenshot suite passed before publication; live Product Spec and ISV DOM/visual checks passed after publication.
+- Local preview: checked before publication; the live URL was checked after deployment and left open as the user-facing preview.
+- Claude Artifact: version 26 from `6b96a0c` unchanged; Codex cannot publish it.
+- Private Site: PUBLIC version 39 from exact main SHA `3d684561827fc53186f630b72fc17a1bd52ca3cd`; deployment `appgdep_6ae8348943908191bef136232266825c` succeeded; environment revision 1 and public audience preserved.
+- Practice data: not exported because first-export approval for this public repository is still pending; the existing report has zero results.
+- Remaining issues: source anomalies remain visible and intentionally excluded from fallback when invalid; no deployment failure remains.
+- Next steps: owner reviews the live yellow differences and source anomalies when ready.
+
 ## 2026-11-01: Codex — 23 treadmill Product Specs compared with ISV 4
 - Changes: renamed the guide column to Product info and added an ISV line for each of the 23 current treadmill products. Imported each exact-SKU master row from ISV 4 through column FN into a canonical snapshot, grouped the nonblank fields by the workbook's Basic Information, Production, dimensions, Marketing, General Spec and product-category sections, and preserved their source section colours. Product Spec and ISV now highlight genuine two-sided differences in yellow. When Product Spec is unavailable and a mapped ISV value is valid, the dialog shows the ISV value with a From ISV badge without changing canonical Product Spec data. Invalid or misplaced source cells remain visible with Source value not used and cannot autofill; this covers numeric latex values such as SF-T723030 BP=63.8, malformed counts, date-coerced levels and invalid plug-type values.
 - Files: `app/index.html`, `data/isv/treadmills.json`, `tests/isv-data.spec.cjs`, `tests/treadmill-specifications.spec.cjs`, `HANDOFF.md`.
