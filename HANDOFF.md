@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-01: Codex — public Site version 41 published
+- Changes: published all-current-product ISV comparison and one-click media links from exact pushed main SHA `03c618068e2eca371f687e5657e625b7a4965015`.
+- Files: HANDOFF.md only; source is the preceding implementation commit.
+- Tests: all 22 existing test files and the new all-156-product browser test passed after the documented fixture corrections; build and 14 screenshots passed.
+- Local preview: mobile ISV with clickable image link visually checked.
+- Claude Artifact: unchanged, version 26 from 6b96a0c; pending Claude Code sync.
+- Private Site: PUBLIC version 41, deployment `appgdep_6ae83c1d52008191910e90f297554861` succeeded from `03c618068e2eca371f687e5657e625b7a4965015`; environment revision 1 preserved.
+- Practice data: not exported, first public-repository export approval pending; existing report has zero results.
+- Remaining issues: source anomalies and fields without an unambiguous mapping remain visible in ISV for review.
+- Next steps: owner reviews the live ISV data for other categories.
+
 ## 2026-11-01: Codex — all current products receive ISV comparison and clickable links
 - Changes: imported ISV 4 A:FN for all 156 current catalog entries (153 unique SKUs), including the 133 non-treadmill entries. Exact SKU text resolves NO. 077S to row 73 rather than the distinct NO. 077-S row 74. All existing treadmill values are preserved. Every current product now has ISV with workbook categories, populated-only sticky tabs, yellow two-source differences and labeled valid ISV fallbacks. Shared fields and category-specific bike, elliptical, stepper and rower fields are mapped; ambiguous strength load capacity is not mapped to user weight. HTTP/HTTPS links in ISV, including image/video fields, open in a new tab with one click. Invalid values remain excluded from fallback. Canonical catalog and database records were not altered.
 - Files: app/index.html; data/isv/current-products.json; scripts/import-current-isv.py; tests/isv-data.spec.cjs; tests/current-isv.spec.cjs; tests/practice.spec.cjs; HANDOFF.md.
