@@ -13,7 +13,11 @@ assert.deepEqual(JSON.parse(embeddedMatch[1]),current,'embedded ISV snapshot mat
 assert.equal(current.items.length,156);
 assert.equal(new Set(current.items.map(item=>item.id)).size,156);
 assert.equal(new Set(current.items.map(item=>item.sku)).size,153);
-for(const item of source.items)assert.deepEqual(current.items.find(row=>row.id===item.id),item,'treadmill source is preserved');
+for(const item of source.items)assert.equal(current.items.find(row=>row.id===item.id).row,item.row,'exact treadmill matches are preserved');
+assert.equal(current.source.file,'ISV 4.0.xlsx');
+assert.equal(current.source.sheet,'SHF');
+assert.equal(current.items.find(row=>row.sku==='SF-T723030').fields.CI,'SunnyFit® App');
+assert.ok(!current.items.some(item=>Object.values(item.fields).some(value=>String(value).includes('\ufffd'))),'clean reference has no replacement characters');
 assert.equal(current.items.find(row=>row.sku==='NO. 077S').row,73,'exact SKU wins over a differently hyphenated variant');
 
 assert.equal(source.source.sheet,'ISV 4');

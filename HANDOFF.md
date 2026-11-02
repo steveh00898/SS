@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-02: Codex — cleaner ISV reference and readable feature information
+- Changes: refreshed all 156 current catalog ISV entries using the owner's ISV 4.0.xlsx SHF worksheet through FN, retaining exact SKU/row matches. The reference fixes garbled symbols and descriptions; SunnyFit branding is normalized to SunnyFit® App. AV HTML Features is hidden in every ISV dialog; readable Bullet Features and descriptions remain. Raw AV source is retained in the snapshot for provenance and never rendered as HTML. Source filename, worksheet and hash now identify the cleaner workbook.
+- Files: app/index.html, data/isv/current-products.json, scripts/import-current-isv.py, tests/current-isv.spec.cjs, tests/isv-data.spec.cjs, HANDOFF.md.
+- Tests: all 23 test files passed; all-product coverage confirms AV is absent and no Unicode replacement characters appear in any of the 156 ISV dialogs. The 249 links, 621 differences and 603 fallbacks remain unchanged. Build, 14 screenshots and practice-report passed.
+- Local preview: verified through all-product browser coverage and desktop/mobile screenshot suite.
+- Claude Artifact: unchanged at version 26 from 6b96a0c; pending Claude Code sync.
+- Private Site: pending commit/push and publication.
+- Practice data: not exported; first public-repository export permission pending. Existing report has zero results.
+- Remaining issues: original source anomalies unrelated to text remain visible; no inferred specification values were added.
+- Next steps: publish the pushed source and record the deployment.
+
 ## 2026-11-01: Codex — public Site version 41 published
 - Changes: published all-current-product ISV comparison and one-click media links from exact pushed main SHA `03c618068e2eca371f687e5657e625b7a4965015`.
 - Files: HANDOFF.md only; source is the preceding implementation commit.

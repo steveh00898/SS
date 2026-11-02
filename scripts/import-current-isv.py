@@ -6,7 +6,7 @@ import openpyxl, json, pathlib, re, datetime, hashlib, sys
 root=pathlib.Path(__file__).resolve().parents[1]
 source=pathlib.Path(sys.argv[1])
 w=openpyxl.load_workbook(source,data_only=True)
-s=w['ISV 4']
+s=w['SHF'] if 'SHF' in w.sheetnames else w['ISV 4']
 catalog=[]
 for p in root.glob('data/*.json'):
  try:
@@ -18,6 +18,9 @@ rows={}
 for row in s.iter_rows(min_row=4,max_col=170):
  if row[0].value is not None: rows.setdefault(norm(row[0].value),[]).append(row)
 data=json.loads((root/'data/isv/treadmills.json').read_text())
+data['source']['file']=source.name
+data['source']['sheet']=s.title
+data['source'].pop('modifiedAt',None)
 data['items']=[]
 for it in catalog:
  matches=rows.get(norm(it['sku']),[])
@@ -30,7 +33,10 @@ for it in catalog:
   value=cell.value
   if value is None or str(value).strip()=='': continue
   if isinstance(value,(datetime.datetime,datetime.date)): value=value.strftime('%Y-%m-%d')
-  fields[cell.column_letter]=value.strip() if isinstance(value,str) else value
+  if isinstance(value,str):
+   value=value.strip()
+   value=re.sub(r'SunnyFit(?:[®™\ufffd?]+)(?:\s*App)?','SunnyFit® App',value,flags=re.I)
+  fields[cell.column_letter]=value
  data['items'].append(dict(id=it['id'],sku=it['sku'],row=row[0].row,fields=fields))
 data['source']['sha256']=hashlib.sha256(source.read_bytes()).hexdigest()
 (root/'data/isv/current-products.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
