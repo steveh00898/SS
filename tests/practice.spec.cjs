@@ -59,7 +59,7 @@ await revealOptions(page,'[data-pact="stop"]');await page.locator('[data-pact="s
 // review missed only limits the pool to items under 75%
 await revealOptions(page,'[data-pact="setup"]');await page.locator('[data-pact="setup"]').click();await revealOptions(page,'[data-pmissed]');await page.locator('[data-pmissed]').check();assert.match(await page.locator('.pv-actions').innerText(),/\b[1-9]\d? products? in this practice/);
 // dashboard numbers match the saved results
-const day=d=>new Date(Date.now()-d*864e5).toISOString();const e=rows.find(r=>r.sku==='SF-E905SMART'),t=rows.find(r=>r.sku==='SF-T724081');
+const day=d=>{const date=new Date();date.setHours(12,0,0,0);date.setDate(date.getDate()-d);return date.toISOString();};const e=rows.find(r=>r.sku==='SF-E905SMART'),t=rows.find(r=>r.sku==='SF-T724081');
 practice=[['a1',2,t,'sku',true],['a2',2,t,'name',false],['a3',1,t,'sku',true],['a4',1,e,'sku',false],['a5',1,e,'price',true],['a6',0,e,'sku',false],['a7',0,t,'price',true],['a8',40,t,'sku',false]].map(([id,d,it,field,correct])=>({id,at:day(d),sessionId:'s',sku:it.sku,itemId:it.id,category:it.category,field,correct,chosen:'',answer:''}));
 await open('progress');await page.waitForSelector('.tiles');const tiles=await page.locator('.tile .v').allInnerTexts();assert.equal(tiles[0],'7');assert.equal(tiles[1],'57%');assert.equal(tiles[2],'3');assert.equal(tiles[3],'3');
 assert.match(await page.locator('.fbar').nth(0).innerText(),/50% · 2 of 4/);assert.match(await page.locator('.fbar').nth(2).innerText(),/100% · 2 of 2/);assert.match(await page.locator('#progressView').innerText(),/Most missed: Model number/);

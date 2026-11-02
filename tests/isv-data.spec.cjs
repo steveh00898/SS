@@ -8,7 +8,13 @@ const catalog=JSON.parse(fs.readFileSync(path.join(root,'data','treadmills.json'
 const html=fs.readFileSync(path.join(root,'app','index.html'),'utf8');
 const embeddedMatch=html.match(/  const ISV_TREADMILL_DATA=(.*);\r?\n  const resourceFor=/);
 assert.ok(embeddedMatch,'embedded ISV snapshot is present');
-assert.deepEqual(JSON.parse(embeddedMatch[1]),source,'embedded ISV snapshot matches the canonical generated JSON');
+const current=JSON.parse(fs.readFileSync(path.join(root,'data','isv','current-products.json'),'utf8'));
+assert.deepEqual(JSON.parse(embeddedMatch[1]),current,'embedded ISV snapshot matches all current products');
+assert.equal(current.items.length,156);
+assert.equal(new Set(current.items.map(item=>item.id)).size,156);
+assert.equal(new Set(current.items.map(item=>item.sku)).size,153);
+for(const item of source.items)assert.deepEqual(current.items.find(row=>row.id===item.id),item,'treadmill source is preserved');
+assert.equal(current.items.find(row=>row.sku==='NO. 077S').row,73,'exact SKU wins over a differently hyphenated variant');
 
 assert.equal(source.source.sheet,'ISV 4');
 assert.equal(source.source.columns,'A:FN');

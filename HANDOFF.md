@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-01: Codex — all current products receive ISV comparison and clickable links
+- Changes: imported ISV 4 A:FN for all 156 current catalog entries (153 unique SKUs), including the 133 non-treadmill entries. Exact SKU text resolves NO. 077S to row 73 rather than the distinct NO. 077-S row 74. All existing treadmill values are preserved. Every current product now has ISV with workbook categories, populated-only sticky tabs, yellow two-source differences and labeled valid ISV fallbacks. Shared fields and category-specific bike, elliptical, stepper and rower fields are mapped; ambiguous strength load capacity is not mapped to user weight. HTTP/HTTPS links in ISV, including image/video fields, open in a new tab with one click. Invalid values remain excluded from fallback. Canonical catalog and database records were not altered.
+- Files: app/index.html; data/isv/current-products.json; scripts/import-current-isv.py; tests/isv-data.spec.cjs; tests/current-isv.spec.cjs; tests/practice.spec.cjs; HANDOFF.md.
+- Tests: all existing 22 test files passed after correcting the import's whitespace normalization and the practice fixture's fixed-24-hour DST arithmetic to local calendar days at noon. New all-product browser coverage passed for 156 dialogs, 249 safe clickable links, 621 ISV differences and 603 labeled fallbacks. Build and all 14 standard screenshots passed; mobile ISV screenshot inspected.
+- Local preview: checked through preview server and browser tests; mobile links wrap inside the dialog without page overflow.
+- Claude Artifact: unchanged, version 26 from 6b96a0c; Claude Code must sync/publish it.
+- Private Site: publication pending this source commit and push.
+- Practice data: first-export permission for the public repository remains pending; existing report contains zero results.
+- Remaining issues: master source anomalies stay visible; fields with no unambiguous equivalent remain ISV-only rather than being inferred.
+- Next steps: publish this pushed source and record the version.
+
 ## 2026-11-01: Codex — public Site version 40 published from 6881e39
 - Changes: published the sticky Product Spec and ISV category navigation from exact pushed main commit `6881e394bbc7b08794488bbbf96a20c247f1c918`. Live verification found all 23 treadmill rows; SF-T723030 showed the four Product Spec tabs and ten populated ISV tabs, the ISV navigation was sticky, and selecting Treadmill set its active state.
 - Files: `HANDOFF.md` only in this follow-up; deployed source is exact pushed main commit `6881e394bbc7b08794488bbbf96a20c247f1c918`.
