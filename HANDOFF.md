@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-01: Claude Code — Claude Artifact version 26 from 6b96a0c (V2 Product Spec and rebuilt templates)
+- Changes (owner request "publish both"):
+  - Claude Artifact data: read all 176 `items` documents first. The only app-only differences from `data/*.json` are the known 2026-10-20 owner edits on SF-T724011, SF-T725067, SF-T722021 and SF-T722076 (workout-area width/length, one key dimension), still left for the owner to decide. Merged only `specDetails` into the 150 filled records (three batches, each write pinned with `if_version`). Re-read afterwards: all 156 current records' `specDetails` equal the repository, and no other field changed. The 20 off-Sunny records were not touched.
+  - Republished `app/index.html` from 6b96a0c to the artifact URL. Before that, the live page matched 3f33fc1 (v25) plus the publish wrapper, so there were no Artifact-side page edits to merge. Capabilities carried forward (assets, db, downloads, user).
+- Private Site: not published. Claude Code cannot reach it (AGENTS.md); Codex publishes it. It is still PUBLIC version 37 from 1fc8068, behind main by the "Unavailable" styling (3f33fc1), the V2 Product Spec import with its one-time backfill (4106ce5) and the rebuilt templates (6b96a0c).
+- Files: HANDOFF.md
+- Tests: unchanged since 6b96a0c (all 21 passed; build passed).
+- Claude Artifact: published version 26 from 6b96a0c.
+- Next: Codex publishes the private Site from main; the backfill `current-v2-spec-details-20261101` fills empty `specDetails` there once.
+
 ## 2026-11-01: Claude Code — Treadmill and Elliptical Product Spec templates rebuilt from the SF-T723030 and SF-E324028 sheets
 - Changes (owner request): the owner compared SF-T723030 in the app with its spec sheet and asked for a treadmill template based on that sheet, and an elliptical template based on the elliptical sheet with the most information.
   - Treadmills: the template now follows the SF-T723030 sheet's rows, labels and order (gross/net weight, flywheel, assembled/folded/carton dimensions, footprint, max user weight/height, resistance and magnets, walking/running type, speed, incline type/levels/degrees/%, voltage, watts, amps, motor type, peak/continuous HP, belt, running surface, quick buttons, soft drop, shock absorption, motorized, foldable, storage, deck type, deck height, console rows, remote control, tests, features). Rows only the newer treadmill sheets carry are kept at the end of their section: UPC, roller size, handlebar height, FTMS, Wi-Fi, control on handlebar, fan, energy saver. The app summary rows Drive / motor, Speed / resistance and Workout-area width/length were dropped; the same facts appear in the sheet rows.
