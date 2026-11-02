@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-01: Codex — 23 treadmill Product Specs compared with ISV 4
+- Changes: renamed the guide column to Product info and added an ISV line for each of the 23 current treadmill products. Imported each exact-SKU master row from ISV 4 through column FN into a canonical snapshot, grouped the nonblank fields by the workbook's Basic Information, Production, dimensions, Marketing, General Spec and product-category sections, and preserved their source section colours. Product Spec and ISV now highlight genuine two-sided differences in yellow. When Product Spec is unavailable and a mapped ISV value is valid, the dialog shows the ISV value with a From ISV badge without changing canonical Product Spec data. Invalid or misplaced source cells remain visible with Source value not used and cannot autofill; this covers numeric latex values such as SF-T723030 BP=63.8, malformed counts, date-coerced levels and invalid plug-type values.
+- Files: `app/index.html`, `data/isv/treadmills.json`, `tests/isv-data.spec.cjs`, `tests/treadmill-specifications.spec.cjs`, `HANDOFF.md`.
+- Tests: all 22 `tests/*.spec.cjs` files passed; `npm run build` passed; `npm run screenshots` passed and regenerated all 14 standard desktop/phone captures. The new coverage checks 23 exact unique SKUs, A:FN boundary and embedded snapshot parity; matching yellow backgrounds in both dialogs; valid fallback labels; invalid-source exclusion; category names; desktop/mobile stacking; and focus restoration.
+- Local preview: checked at `http://127.0.0.1:4174/?category=Treadmills`; Product Spec and ISV dialogs for SF-T723030 were visually inspected in dark mode.
+- Claude Artifact: version 26 from `6b96a0c` unchanged; Codex cannot publish it.
+- Private Site: not published yet; pending this entry's commit and push to main.
+- Practice data: not exported because first-export approval for this public repository is still pending. `npm run practice-report` read the existing Claude Artifact export with zero results, so answers, accuracy and most-missed fields/products are unavailable.
+- Remaining issues: the master workbook contains several source anomalies; they are intentionally shown for review but excluded from automatic fallback when they fail validation. Blank ISV cells are hidden because they contain no information.
+- Next steps: commit and push, publish the exact pushed SHA to the public private-Site URL, verify the live Product info / Product Spec / ISV behavior, then record the deployment.
+
 ## 2026-11-01: Codex — git pull reviewed; private Site version 38 published
 - Changes: fast-forwarded `main` from `1fc8068` to `5821cde`; reviewed the six incoming Claude Code commits and their handoff entries. The changes add muted Product Spec unavailable values, fill structured V2 Product Spec data for 150 of 156 current products, rebuild the Treadmill and Elliptical templates from their selected sheets, and record Claude Artifact versions 24–26. Both the private Site `/api` path and `window.claude` fallback remain. Live read-only comparison found all 176 product identities present, 150 current-product `specDetails` pending the guarded one-time backfill, and only the documented `imageAvailability` metadata difference on ten archive records outside those specs.
 - Files: `HANDOFF.md` only in this follow-up; deployed source is exact pushed main commit `5821cdee1c33faedffa9e2f6225bbc9ec790be58`.
