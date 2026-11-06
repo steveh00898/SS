@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-06: Claude Code — import V3 batch five: the last 114 verifiable Off Sunny web models
+- Changes: added 114 models from 107 V3 files. Totals: Current 156, Off Sunny web 334, All 490. 80 product pages, 73 manuals, 19 videos, 114 images (108 official, 6 from spec sheets), 113 ISV matches. A blank sheet name now uses the exact ISV Product Name; a blank or misprinted model cell uses the filename when an exact ISV row agrees. Eleven models stay out with reasons in data/off-sunny-web/batch-five-deferred.json. Older records and ISV rows are unchanged. Worker inserts them once and keeps edits and deletions; images load from pinned commit 5405564 (repo must stay public), then R2.
+- Files: data/off-sunny-web/{items,batch-five-*}; data/isv/*; data/images/off-sunny-web/*-batch5-v1.jpg; app/index.html (embedded ISV); server/worker.js; scripts/{build.mjs,import-v3-batch-five.py,merge-v3-batch-five.py,research-v3-batch-four.py}; tests/{off-sunny-batch-five,off-sunny-batch-four,off-sunny-batch-three,artifact-build}.spec.cjs; HANDOFF.md
+- Tests: all 29 tests/*.spec.cjs passed with installed Chrome through a local preload. Worker gzip 9,193,446 bytes (limit 10 MiB). artifact-build first failed only because the test read 10+ reference documents in text order; the test now sorts them numerically.
+- Local preview: not checked; covered by UI tests.
+- Claude Artifact: see the follow-up entry.
+- Private Site: not published (Codex publishes); last recorded PUBLIC version 45 from 15f3c65, behind main.
+- Practice data: not exported (owner decision).
+- Remaining issues: photos are photoChecked false, so SKU practice blurs them until printed text is checked. Held back: SF-A026006, SF-A026811, SF-E3919 SMART, SF-PM10-RB, SF-RW522816, SF-RW524087, SF-S026037, SF-T726024, SF-T726031, SF-X7330, UB202.
+- Next steps: owner supplies names or decides on the held-back models; Codex "git pull", then publish the Site.
 ## 2026-11-06: Claude Code — fix "Hide part of photo" losing record fields; Artifact version 28
 - Changes: itemRecord in app/index.html now keeps specDetails, resourceLinks, importBatch, catalogSource and sourceFile when a photo mask is saved. Regression added to tests/artifact-build.spec.cjs through the real draw-and-save flow. Checked all 220 Off Sunny web documents in the Artifact: none had lost catalogSource or specDetails and none had masks, so no repair was needed.
 - Files: app/index.html; tests/artifact-build.spec.cjs; HANDOFF.md

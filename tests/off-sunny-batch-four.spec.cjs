@@ -2,7 +2,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),{execFileSync}=
 const read=f=>JSON.parse(fs.readFileSync(__dirname+'/../'+f,'utf8'));
 const MODEL=s=>String(s).toUpperCase().replace(/[^A-Z0-9]/g,'');
 (async()=>{
- const archive=read('data/off-sunny-web/items.json'),batch=archive.filter(r=>r.importBatch==='v3-batch-4'),older=archive.filter(r=>r.importBatch!=='v3-batch-4');
+ const archive=read('data/off-sunny-web/items.json'),batch=archive.filter(r=>r.importBatch==='v3-batch-4'),older=archive.filter(r=>!['v3-batch-4','v3-batch-5'].includes(r.importBatch));
  assert.equal(batch.length,100);assert.equal(older.length,120);
  const current=fs.readdirSync(__dirname+'/../data').filter(f=>f.endsWith('.json')).flatMap(f=>read('data/'+f));assert.equal(current.length,156);
  const taken=new Set([...older,...current].map(r=>MODEL(r.sku)));assert.equal(new Set(batch.map(r=>MODEL(r.sku))).size,100,'distinct within the batch');for(const r of batch)assert(!taken.has(MODEL(r.sku)),'not already in the catalog: '+r.sku);
@@ -29,7 +29,7 @@ const MODEL=s=>String(s).toUpperCase().replace(/[^A-Z0-9]/g,'');
  const video=batch.find(r=>r.sku==='SF-S025005');assert.equal(video.resourceLinks.assemblyUrl,null,'video titled for another model is not used');
  // ISV: exact IDs only, unmatched models are left out, and no older match changed.
  const isv=read('data/isv/off-sunny-products.json'),audit=read('data/isv/off-sunny-match-audit.json');const unmatched=['SF-E326015-GY','SF-SK025801','SF-T724043'];
- assert.equal(isv.items.length,217);for(const sku of unmatched){assert(!isv.items.some(x=>x.sku===sku));assert.equal(audit.items.find(x=>x.sku===sku).status,'missing')}
+ assert.equal(isv.items.filter(x=>batch.some(r=>r.id===x.id)||older.some(r=>r.id===x.id)).length,217);for(const sku of unmatched){assert(!isv.items.some(x=>x.sku===sku));assert.equal(audit.items.find(x=>x.sku===sku).status,'missing')}
  for(const x of isv.items){const row=archive.find(r=>r.id===x.id);assert.equal(row.sku,x.sku);assert.equal(MODEL(x.fields.A),MODEL(row.sku==='NO. 089 COMBO'?'NO. 089-COMBO':row.sku))}
  assert(fs.readFileSync(__dirname+'/../app/index.html','utf8').includes('"id":"off-sunny-sf-t724964"'),'ISV reference embedded in the app');
  // Upgrade: insert-only, once, keeps edits and deletions.

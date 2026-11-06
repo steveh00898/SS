@@ -1,0 +1,458 @@
+[
+  {
+    "sku": "NO.122",
+    "sourceFile": "NO. 122 Draft Spec 9.28.26.xlsx"
+  },
+  {
+    "sku": "NO. 123",
+    "sourceFile": "NO. 123 draft spec 07302026.xlsx"
+  },
+  {
+    "sku": "SF-A020052 SMART",
+    "sourceFile": "SF-A020052 SMART  SPEC SHEET 20240625.xlsx"
+  },
+  {
+    "sku": "SF-A023001",
+    "sourceFile": "SF-A023001 Specification Sheet 20230714.xlsx"
+  },
+  {
+    "sku": "SF-A026020",
+    "sourceFile": "SF-A026020 draft Spec 07302026.xlsx"
+  },
+  {
+    "sku": "SF-B122050",
+    "sourceFile": "SF-B122050 Draft Spec Sheet 2022-8-1.xls"
+  },
+  {
+    "sku": "SF-B125071",
+    "sourceFile": "SF-B125071 draft spec sheet 20260729.xlsx"
+  },
+  {
+    "sku": "SF-B222001",
+    "sourceFile": "SF-B222001 draft spec sheet 04142025.xlsx"
+  },
+  {
+    "sku": "SF-E325094",
+    "sourceFile": "SF-E325094 draft Spec dated 9.17.2025.xlsx"
+  },
+  {
+    "sku": "SF-E326015WT",
+    "sourceFile": "SF-E326015WT final spec sheet 20260817.xlsx"
+  },
+  {
+    "sku": "SF-RB425097",
+    "sourceFile": "SF-RB425097 draft spec sheet 20260330.xlsx"
+  },
+  {
+    "sku": "SF-RW521020",
+    "sourceFile": "SF-RW521020 spec.sheet 10-8-2022.xlsx"
+  },
+  {
+    "sku": "SF-RW522016",
+    "sourceFile": "SF-RW522016 spec.sheet (see note inside) 2023-7-31.xlsx"
+  },
+  {
+    "sku": "SF-RW526003",
+    "sourceFile": "SF-RW526003 draft spec sheet 20260702.xlsx"
+  },
+  {
+    "sku": "SF-RW526027",
+    "sourceFile": "SF-RW526027 draft Spec sheet 20261027.xlsx"
+  },
+  {
+    "sku": "SF-T1407M",
+    "sourceFile": "SF-T1407M Specification sheet.xlsx"
+  },
+  {
+    "sku": "SF-T722068",
+    "sourceFile": "SF-T722068 Draft Spec Sheet 2022-12-8.xlsx"
+  },
+  {
+    "sku": "SF-T725079",
+    "sourceFile": "SF-T725079 Treadmill draft Spec dated 20251231.xlsx"
+  },
+  {
+    "sku": "SF-T725080",
+    "sourceFile": "SF-T725080 Treadmill draft Spec dated 20260602.xlsx"
+  },
+  {
+    "sku": "SF-T725095",
+    "sourceFile": "SF-T725095 Treadmill draft Spec dated 9.28.2026.xlsx"
+  },
+  {
+    "sku": "SF-T725880",
+    "sourceFile": "SF-T725880 Treadmill Final Spec dated 20260810.xlsx"
+  },
+  {
+    "sku": "SF-T726025",
+    "sourceFile": "SF-T726025（TB3460A） Treadmill  Spec dated 20261012-Final.xlsx"
+  },
+  {
+    "sku": "SF-T7610 SMART",
+    "sourceFile": "SF-T7610 SMART FINAL SPEC 01042024.xlsx"
+  },
+  {
+    "sku": "SF-T7705 SMART",
+    "sourceFile": "SF-T7705SMART Spec Sheet 05.05.2022 updated.xlsx"
+  },
+  {
+    "sku": "SF-T7724 SMART",
+    "sourceFile": "SF-T7724 SMART final SPEC SHEET 12.05.2023.xlsx"
+  },
+  {
+    "sku": "SF-T7945 SMART",
+    "sourceFile": "SF-T7945 SMART SPEC 08.16.2023.xlsx"
+  },
+  {
+    "sku": "SF-VP826016",
+    "sourceFile": "SF-VP826016 Final Spec Sheet 2026.10.27.xlsx"
+  },
+  {
+    "sku": "SF-VP826017",
+    "sourceFile": "SF-VP826017 Final Spec Sheet 2026.10.27.xlsx"
+  },
+  {
+    "sku": "SF-VP826018",
+    "sourceFile": "SF-VP826018 Final Spec Sheet 2026.10.28.xlsx"
+  },
+  {
+    "sku": "SF-VP826816",
+    "sourceFile": "SF-VP826816 spec sheet 8.5.2026.xlsx"
+  },
+  {
+    "sku": "SF-WA01-2",
+    "sourceFile": "SF-WA01-2 final Spec Sheet 20251118.xlsx"
+  },
+  {
+    "sku": "SF-WA01-3",
+    "sourceFile": "SF-WA01-3 final Spec Sheet 20251118.xlsx"
+  },
+  {
+    "sku": "SF-WA01-4",
+    "sourceFile": "SF-WA01-4 final Spec Sheet 20251118.xlsx"
+  },
+  {
+    "sku": "SF-WA01-5",
+    "sourceFile": "SF-WA01-5 final Spec Sheet 20251118.xlsx"
+  },
+  {
+    "sku": "SF-WV02-4",
+    "sourceFile": "SF-WV02 final Spec Template dated 20260701 .xlsx"
+  },
+  {
+    "sku": "SF-WV02-6",
+    "sourceFile": "SF-WV02 final Spec Template dated 20260701 .xlsx"
+  },
+  {
+    "sku": "SF-WV02-8",
+    "sourceFile": "SF-WV02 final Spec Template dated 20260701 .xlsx"
+  },
+  {
+    "sku": "SF-WV02-12",
+    "sourceFile": "SF-WV02 final Spec Template dated 20260701 .xlsx"
+  },
+  {
+    "sku": "SF-WV02-16",
+    "sourceFile": "SF-WV02 final Spec Template dated 20260701 .xlsx"
+  },
+  {
+    "sku": "SF-WV02-20",
+    "sourceFile": "SF-WV02 final Spec Template dated 20260701 .xlsx"
+  },
+  {
+    "sku": "SF-WV02-25",
+    "sourceFile": "SF-WV02 final Spec Template dated 20260701 .xlsx"
+  },
+  {
+    "sku": "SF-WV02-30",
+    "sourceFile": "SF-WV02 final Spec Template dated 20260701 .xlsx"
+  },
+  {
+    "sku": "SF-X7140",
+    "sourceFile": "SF-X7140 Final Spec sheet 20261013.xlsx"
+  },
+  {
+    "sku": "SF-X7200",
+    "sourceFile": "SF-X7200  FINAL SPEC SHEET 03062024.xls"
+  },
+  {
+    "sku": "SF-X7300",
+    "sourceFile": "SF-X7300 FINAL SPEC SHEET 12082023.xls"
+  },
+  {
+    "sku": "SF-X7300SMART",
+    "sourceFile": "SF-X7300SMART spec sheet 20250910.xlsx"
+  },
+  {
+    "sku": "SF-X7310",
+    "sourceFile": "SF-X7310 final Spec Sheet 20261001.xlsx"
+  },
+  {
+    "sku": "SF-XF920025",
+    "sourceFile": "SF-XF920025 Spec Sheet 2021.03.11 final.xlsx"
+  },
+  {
+    "sku": "SF-XF920063",
+    "sourceFile": "SF-XF920063 Spec Sheet 2022.11.09 v3.xlsx"
+  },
+  {
+    "sku": "SF-XF921024",
+    "sourceFile": "SF-XF921024 Spec Sheet 2022.02.09 final.xlsx"
+  },
+  {
+    "sku": "SF-XF921036",
+    "sourceFile": "SF-XF921036 SpecSheet 2021.10.09.xlsx"
+  },
+  {
+    "sku": "SF-XF921041",
+    "sourceFile": "SF-XF921041 Spec Sheet 2022.02.08 final.xlsx"
+  },
+  {
+    "sku": "SF-XF921050",
+    "sourceFile": "SF-XF921050 Spec Sheet 2022.01.28 final.xlsx"
+  },
+  {
+    "sku": "SF-XF922081",
+    "sourceFile": "SF-XF922081 SPEC SHEET 20240326 final.xlsx"
+  },
+  {
+    "sku": "SF-XF926805",
+    "sourceFile": "SF-XF926805 draft spec sheet 20260714.xlsx"
+  },
+  {
+    "sku": "SF-XF9927",
+    "sourceFile": "SF-XF9927 Spec Sheet 舒华 2022.04.11.xlsx"
+  },
+  {
+    "sku": "SF-XF9937",
+    "sourceFile": "SF-XF9937 Spec Sheet 舒华 2021.1.28 final.xlsx"
+  },
+  {
+    "sku": "SF-XF9938",
+    "sourceFile": "SF-XF9938 Spec Sheet 舒华 2020.12.02 final.xlsx"
+  },
+  {
+    "sku": "SF-XFA001",
+    "sourceFile": "SF-XFA001 Spec Sheet 舒华 2020.12.11 final.xlsx"
+  },
+  {
+    "sku": "SF-XFA002",
+    "sourceFile": "SF-XFA002 Spec Sheet 舒华 2021.09.09 final.xlsx"
+  },
+  {
+    "sku": "SF-XFA003",
+    "sourceFile": "SF-XFA003 Spec Sheet 舒华 2020.12.11 final.xlsx"
+  },
+  {
+    "sku": "SF-XFA004",
+    "sourceFile": "SF-XFA004 Spec Sheet 舒华 2020.12.11 final.xlsx"
+  },
+  {
+    "sku": "SF-XFA005",
+    "sourceFile": "SF-XFA005 Spec Sheet 舒华 2020.12.11 final.xlsx"
+  },
+  {
+    "sku": "SF-XFA006",
+    "sourceFile": "SF-XFA006 SpecSheet 舒华 2021.2.1 final.xlsx"
+  },
+  {
+    "sku": "SF-XFA007",
+    "sourceFile": "SF-XFA007 Spec Sheet 舒华 2021.06.25 final.xlsx"
+  },
+  {
+    "sku": "SF-XFA010",
+    "sourceFile": "SF-XFA010 SPEC SHEET 20240326 final.xlsx"
+  },
+  {
+    "sku": "SF-XFA011",
+    "sourceFile": "SF-XFA011 final spec sheet 04152024.xlsx"
+  },
+  {
+    "sku": "SF-XFA012",
+    "sourceFile": "SF-XFA012 final spec sheet 04302024.xlsx"
+  },
+  {
+    "sku": "SF-XFA013",
+    "sourceFile": "SF-XFA013 final spec sheets 05242024.xlsx"
+  },
+  {
+    "sku": "SF-XFA014",
+    "sourceFile": "SF-XFA014 Spec Sheet 07082024.xlsx"
+  },
+  {
+    "sku": "SF-XFA015",
+    "sourceFile": "SF-XFA015 spec sheet 20241128.xlsx"
+  },
+  {
+    "sku": "SF-DB02-10",
+    "sourceFile": "SF‐DB02‐10 UPDATE SPEC 2023-04-18.xlsx"
+  },
+  {
+    "sku": "SF-DB02-15",
+    "sourceFile": "SF‐DB02‐15 UPDATE SPEC 2023-04-18.xlsx"
+  },
+  {
+    "sku": "SF-DB02-20",
+    "sourceFile": "SF‐DB02‐20 UPDATE SPEC 2023-04-18.xlsx"
+  },
+  {
+    "sku": "SF-DB02-25",
+    "sourceFile": "SF‐DB02‐25 UPDATE SPEC 2023-04-18.xlsx"
+  },
+  {
+    "sku": "SF-DB02-30",
+    "sourceFile": "SF‐DB02‐30 UPDATE SPEC 2023-04-18.xlsx"
+  },
+  {
+    "sku": "SF-DB02-35",
+    "sourceFile": "SF‐DB02‐35 UPDATE SPEC 2023-04-18.xlsx"
+  },
+  {
+    "sku": "SF-DB02-40",
+    "sourceFile": "SF‐DB02‐40 UPDATE SPEC 2023-04-18.xlsx"
+  },
+  {
+    "sku": "SF-DB02-45",
+    "sourceFile": "SF‐DB02‐45 UPDATE SPEC 2023-04-18.xlsx"
+  },
+  {
+    "sku": "SF-DB02-50",
+    "sourceFile": "SF‐DB02‐50 UPDATE SPEC 2023-04-18.xlsx"
+  },
+  {
+    "sku": "SF-DB03-10",
+    "sourceFile": "SF‐DB03‐10 UPDATE SPEC-5 11.02.2023.xlsx"
+  },
+  {
+    "sku": "SF-DB03-15",
+    "sourceFile": "SF‐DB03‐15 UPDATE SPEC-5 11.02.2023.xlsx"
+  },
+  {
+    "sku": "SF-DB03-20",
+    "sourceFile": "SF‐DB03‐20 UPDATE SPEC-5  11.02.2023.xlsx"
+  },
+  {
+    "sku": "SF-DB03-25",
+    "sourceFile": "SF‐DB03‐25 UPDATE SPEC-5 11.02.2023.xlsx"
+  },
+  {
+    "sku": "SF-DB03-30",
+    "sourceFile": "SF‐DB03‐30 UPDATE SPEC-5  11.02.2023.xlsx"
+  },
+  {
+    "sku": "SF-DB03-35",
+    "sourceFile": "SF‐DB03‐35 UPDATE SPEC-5  11.02.2023.xlsx"
+  },
+  {
+    "sku": "SF-DB03-40",
+    "sourceFile": "SF‐DB03‐40 UPDATE SPEC-5  11.02.2023.xlsx"
+  },
+  {
+    "sku": "SF-DB03-45",
+    "sourceFile": "SF‐DB03‐45 UPDATE SPEC-5  11.02.2023.xlsx"
+  },
+  {
+    "sku": "SF-DB03-50",
+    "sourceFile": "SF‐DB03‐50 UPDATE SPEC-5 11.02.2023.xlsx"
+  },
+  {
+    "sku": "SF-B1986",
+    "sourceFile": "Spec Sheet  SF-B1986 05.17.2021 updated.xlsx"
+  },
+  {
+    "sku": "NO. 088-100",
+    "sourceFile": "Spec Sheet for NO. 088-100 01122026.xlsx"
+  },
+  {
+    "sku": "NO. 088-140",
+    "sourceFile": "Spec Sheet for NO. 088-140 01122026.xlsx"
+  },
+  {
+    "sku": "NO. 088-160",
+    "sourceFile": "Spec Sheet for NO. 088-160 01122026.xlsx"
+  },
+  {
+    "sku": "NO. 088-180",
+    "sourceFile": "Spec Sheet for NO. 088-180 01122026.xlsx"
+  },
+  {
+    "sku": "NO. 088-COMBO",
+    "sourceFile": "Spec Sheet for NO. 088-Combo 01.08.2026.xlsx"
+  },
+  {
+    "sku": "SF-E320033",
+    "sourceFile": "Spec Sheet for SF-E320033 11162022.xlsx"
+  },
+  {
+    "sku": "SF-RB424806",
+    "sourceFile": "SPEC SHEET for SF-RB424806 20260506.xlsx"
+  },
+  {
+    "sku": "SF-RW5941",
+    "sourceFile": "Spec Sheet for SF-RW5941 10-13-2022.xlsx"
+  },
+  {
+    "sku": "SF-RW5941 SMART",
+    "sourceFile": "Spec Sheet for SF-RW5941 SMART 10-13-2022.xlsx"
+  },
+  {
+    "sku": "SF-VP822056",
+    "sourceFile": "SPEC SHEET for SF-VP822056  05102023.xlsx"
+  },
+  {
+    "sku": "SF-VP822057",
+    "sourceFile": "Spec Sheet for SF-VP822057 (08VW) 20230201.xlsx"
+  },
+  {
+    "sku": "SF-WS024863",
+    "sourceFile": "Spec Sheet for SF-WS024863 01272026.xlsx"
+  },
+  {
+    "sku": "SF-E3912 SMART",
+    "sourceFile": "spec sheet SF-E3912 SMART 5.1.23.xlsx"
+  },
+  {
+    "sku": "SF-S0978",
+    "sourceFile": "Spec Sheet-S0978  12232021 .xlsx"
+  },
+  {
+    "sku": "SF-TD7884",
+    "sourceFile": "spec. sheet of  SF-TD7884.xlsx"
+  },
+  {
+    "sku": "SF-B1423",
+    "sourceFile": "Specification sheet for SF-B1423 from YD.xlsx"
+  },
+  {
+    "sku": "SF-E3908",
+    "sourceFile": "Specification sheet for SF-E3908 10082019.xlsx"
+  },
+  {
+    "sku": "SF-BH620037",
+    "sourceFile": "Spec Sheet--SF-BH620037.xlsx"
+  },
+  {
+    "sku": "P2000",
+    "sourceFile": "Spec Sheet-P2000  09122024 update.xlsx"
+  },
+  {
+    "sku": "SF-VP822058",
+    "sourceFile": "Spec Sheet for SF-VP822058 11182022.xlsx"
+  },
+  {
+    "sku": "SF-E3912",
+    "sourceFile": "spec sheet SF-E3912 update 5.1.23.xlsx"
+  },
+  {
+    "sku": "SF-A025049",
+    "sourceFile": "Strength Spec dated 2025.12.3.xlsx"
+  },
+  {
+    "sku": "TM100",
+    "sourceFile": "TM100 spec sheet.xlsx"
+  },
+  {
+    "sku": "SF-T722901",
+    "sourceFile": "Treadmill Spec Sheet Template SF-T722901 06282023.xlsx"
+  }
+]

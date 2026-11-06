@@ -1,0 +1,1889 @@
+{
+  "source": "Sorted Master SPEC SHEET - V3",
+  "importedAt": "2026-11-06",
+  "importedModels": 114,
+  "sourceFiles": 107,
+  "records": [
+    {
+      "id": "off-sunny-no-122",
+      "model": "NO.122",
+      "file": "NO. 122 Draft Spec 9.28.26.xlsx",
+      "sha256": "0d78d9b14192f57631bb0726e7f4e519ac43ca93707b63232e77dad1f2637555",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "NO.122"
+      },
+      "name": "Sunny Health & Fitness Push-Up Bar Set",
+      "nameSource": "ISV 4.0 SHF!F116",
+      "category": "Essentials",
+      "fieldsFilled": 13,
+      "notes": [
+        "The spec sheet gives no descriptive product name; the name comes from ISV 4.0 SHF!F116."
+      ]
+    },
+    {
+      "id": "off-sunny-no-123",
+      "model": "NO. 123",
+      "file": "NO. 123 draft spec 07302026.xlsx",
+      "sha256": "83ce4f8bf13698fe09b4ca512137f8d6b305aa7244cb3cab706c1c0684e29e31",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "NO. 123"
+      },
+      "name": "Sunny Health & Fitness Parallette Bar Set",
+      "nameSource": "ISV 4.0 SHF!F117",
+      "category": "Essentials",
+      "fieldsFilled": 13,
+      "notes": [
+        "The spec sheet gives no descriptive product name; the name comes from ISV 4.0 SHF!F117."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-a020052-smart",
+      "model": "SF-A020052 SMART",
+      "file": "SF-A020052 SMART  SPEC SHEET 20240625.xlsx",
+      "sha256": "8c4b23b8bd7f7e8b0f0863affbb701da4722fe2157f154d986a4f2afb0407b6b",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-A020052 SMART"
+      },
+      "name": "Sunny Health & Fitness Row-N-Ride® PRO Smart Squat Assist Trainer - SF-A020052SMART",
+      "nameSource": "ISV 4.0 SHF!F161",
+      "category": "Row-N-Ride",
+      "fieldsFilled": 19,
+      "notes": [
+        "The spec sheet gives no descriptive product name; the name comes from ISV 4.0 SHF!F161."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-a023001",
+      "model": "SF-A023001",
+      "file": "SF-A023001 Specification Sheet 20230714.xlsx",
+      "sha256": "3f631d7b3b70cb8846126600c551b36e179b10b346cd86bc42d35248378cefa5",
+      "sheet": "功能描述表",
+      "modelEvidence": {
+        "cell": "filename",
+        "text": "SF-A023001"
+      },
+      "name": "Sunny Health & Fitness Multi-Purpose Air-drive Adjustable Standing Desk – SF-A023001",
+      "nameSource": "ISV 4.0 SHF!F166",
+      "category": "Essentials",
+      "fieldsFilled": 2,
+      "notes": [
+        "The sheet has no model cell; the model comes from the filename and its exact ISV row.",
+        "The spec sheet gives no descriptive product name; the name comes from ISV 4.0 SHF!F166."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-a026020",
+      "model": "SF-A026020",
+      "file": "SF-A026020 draft Spec 07302026.xlsx",
+      "sha256": "91ff2ac32850c24d5bd2ee38f4eb9139508c67e84754cd2da28479e1c461437e",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-A026020"
+      },
+      "name": "Sunn Health and Fitness Instant Ab Blaster",
+      "nameSource": "ISV 4.0 SHF!F177",
+      "category": "Essentials",
+      "fieldsFilled": 47,
+      "notes": [
+        "The spec sheet gives no descriptive product name; the name comes from ISV 4.0 SHF!F177."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-b122050",
+      "model": "SF-B122050",
+      "file": "SF-B122050 Draft Spec Sheet 2022-8-1.xls",
+      "sha256": "5f1add2966fcdd7a0296ff7fb001da86cb1dc7e526ad2579459882e58bd53ec7",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-B122050"
+      },
+      "name": "Sunny Health & Fitness Redline Connected Magnetic Cycle Bike - SF-B122050",
+      "nameSource": "ISV 4.0 SHF!F213",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 9,
+      "notes": [
+        "The spec sheet gives no descriptive product name; the name comes from ISV 4.0 SHF!F213."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-b125071",
+      "model": "SF-B125071",
+      "file": "SF-B125071 draft spec sheet 20260729.xlsx",
+      "sha256": "cc55748644649cbb6e54061de16f380f2415e560e4af3ecec8ab89c2ec5025c2",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-B125071"
+      },
+      "name": "Sunny Health & Fitness Premium Smart Indoor Cycling Bike with 21.5\" Touchscreen - SF-B125071",
+      "nameSource": "ISV 4.0 SHF!F223",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 54,
+      "notes": [
+        "The spec sheet gives no descriptive product name; the name comes from ISV 4.0 SHF!F223."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-b222001",
+      "model": "SF-B222001",
+      "file": "SF-B222001 draft spec sheet 04142025.xlsx",
+      "sha256": "c4beac4b31d4d3772b0880373414aca9d850b62c3130c915e221deedbede4bb8",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-B222001"
+      },
+      "name": "Sunny Health & Fitness Smart Upright Exercise Bike with 8-level Magnetic Resistance - SF-B222001",
+      "nameSource": "ISV 4.0 SHF!F259",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 47,
+      "notes": [
+        "The spec sheet gives no descriptive product name; the name comes from ISV 4.0 SHF!F259."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-e325094",
+      "model": "SF-E325094",
+      "file": "SF-E325094 draft Spec dated 9.17.2025.xlsx",
+      "sha256": "42bf79d135ee77f0f8f0059b9877e39030fd75f9e0708782dd2a8031d1ec4d8b",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-E325094"
+      },
+      "name": "Sunny Health & Fitness SMART Premium Cardio Climber",
+      "nameSource": "ISV 4.0 SHF!F408",
+      "category": "Steppers",
+      "fieldsFilled": 40,
+      "notes": [
+        "The spec sheet gives no descriptive product name; the name comes from ISV 4.0 SHF!F408."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-e326015wt",
+      "model": "SF-E326015WT",
+      "file": "SF-E326015WT final spec sheet 20260817.xlsx",
+      "sha256": "011b44fd7f2d2fcab8f601d277229d0b5fbfd545a37fc5ffea8e9af6920c73c3",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-E326015WT"
+      },
+      "name": "Sunny Health & Fitness Smart Under Desk Motorized Elliptical - White",
+      "nameSource": "ISV 4.0 SHF!F410",
+      "category": "Ellipticals",
+      "fieldsFilled": 49,
+      "notes": [
+        "The spec sheet gives no descriptive product name; the name comes from ISV 4.0 SHF!F410."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-rb425097",
+      "model": "SF-RB425097",
+      "file": "SF-RB425097 draft spec sheet 20260330.xlsx",
+      "sha256": "88850dcf670af26cfb58ab79cbd76fffab55e5872f9eb684b8032712b6662dda",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-RB425097"
+      },
+      "name": "Premium Smart Motorized Recumbent Bike",
+      "nameSource": "ISV 4.0 SHF!F568",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 48,
+      "notes": [
+        "The spec sheet gives no descriptive product name; the name comes from ISV 4.0 SHF!F568."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-rw521020",
+      "model": "SF-RW521020",
+      "file": "SF-RW521020 spec.sheet 10-8-2022.xlsx",
+      "sha256": "016b73a5732fb7024d6171fb0d2b3308e7b1667fb14a861134c264da22f06d22",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-RW521020"
+      },
+      "name": "Sunny Health & Fitness SMART Compact Foldable Magnetic Rowing Machine with Bluetooth Connectivity - SF-RW521020",
+      "nameSource": "ISV 4.0 SHF!F585",
+      "category": "Rowers",
+      "fieldsFilled": 21,
+      "notes": [
+        "The spec sheet gives no descriptive product name; the name comes from ISV 4.0 SHF!F585."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-rw522016",
+      "model": "SF-RW522016",
+      "file": "SF-RW522016 spec.sheet (see note inside) 2023-7-31.xlsx",
+      "sha256": "9f00872cb10385510356d2a8a4b850a2376137520c945ad10b97855b48a32497",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-RW522016"
+      },
+      "name": "Sunny Health & Fitness SMART Compact Foldable Magnetic Rowing Machine with Bluetooth Connectivity - SF-RW522016",
+      "nameSource": "ISV 4.0 SHF!F586",
+      "category": "Rowers",
+      "fieldsFilled": 19,
+      "notes": [
+        "The spec sheet gives no descriptive product name; the name comes from ISV 4.0 SHF!F586."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-rw526003",
+      "model": "SF-RW526003",
+      "file": "SF-RW526003 draft spec sheet 20260702.xlsx",
+      "sha256": "09d182464afb04203ec6c4f3cd2c7e765efdde006b176f22c7cda8b21d87dee8",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-RW526003"
+      },
+      "name": "Sunny Health & Fitness Immersive Rowing Machine",
+      "nameSource": "ISV 4.0 SHF!F602",
+      "category": "Rowers",
+      "fieldsFilled": 44,
+      "notes": [
+        "The spec sheet gives no descriptive product name; the name comes from ISV 4.0 SHF!F602."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-rw526027",
+      "model": "SF-RW526027",
+      "file": "SF-RW526027 draft Spec sheet 20261027.xlsx",
+      "sha256": "cd2612a4c5f0a80244cdf76d7e62f08616526d5e4d6729eba961bcd004f0ecde",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-RW526027"
+      },
+      "name": "Sunny Health & Fitness Smart Magnetic Rower with Wood Frame",
+      "nameSource": "ISV 4.0 SHF!F603",
+      "category": "Rowers",
+      "fieldsFilled": 46,
+      "notes": [
+        "The spec sheet gives no descriptive product name; the name comes from ISV 4.0 SHF!F603."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-t1407m",
+      "model": "SF-T1407M",
+      "file": "SF-T1407M Specification sheet.xlsx",
+      "sha256": "f2cdd5515716c3c0e5cbb17b814ac332b2f014d76462f58e6e6eb177a9405f92",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "filename",
+        "text": "SF-T1407M"
+      },
+      "name": "MANUAL WALKING TREADMILL",
+      "nameSource": "sheet",
+      "category": "Treadmills",
+      "fieldsFilled": 15,
+      "notes": [
+        "The sheet prints the model as T-1407m; the model comes from the filename and its exact ISV row."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-t722068",
+      "model": "SF-T722068",
+      "file": "SF-T722068 Draft Spec Sheet 2022-12-8.xlsx",
+      "sha256": "5fa89a6c05dcad20a85e1c90fbd1907c654f1eea8919193cc523b103104f8d96",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "filename",
+        "text": "SF-T722068"
+      },
+      "name": "Sunny Health & Fitness Marathon Pro Smart Brushless Motor Auto Incline Treadmill – SF-T722068",
+      "nameSource": "ISV 4.0 SHF!F704",
+      "category": "Treadmills",
+      "fieldsFilled": 32,
+      "notes": [
+        "The sheet holds the model in the name cell and leaves the model cell blank; the model comes from the filename and its exact ISV row.",
+        "The source form holds the title in the model cell and the SKU in the name cell; they are used accordingly.",
+        "The spec sheet gives no descriptive product name; the name comes from ISV 4.0 SHF!F704."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-t725079",
+      "model": "SF-T725079",
+      "file": "SF-T725079 Treadmill draft Spec dated 20251231.xlsx",
+      "sha256": "9ce76453415e4d8517c3455215b735501fae6d9f7f4c0d5545b3fdcd7e056c24",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-T725079"
+      },
+      "name": "Sunny Health & Fitness Smart Vibration Treadpad - SF-T725079",
+      "nameSource": "ISV 4.0 SHF!F726",
+      "category": "Treadmills",
+      "fieldsFilled": 54,
+      "notes": [
+        "The spec sheet gives no descriptive product name; the name comes from ISV 4.0 SHF!F726."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-t725080",
+      "model": "SF-T725080",
+      "file": "SF-T725080 Treadmill draft Spec dated 20260602.xlsx",
+      "sha256": "24dae7bb6824e51aa3215741fd028ef660218fe73e1567fbf6b1d1e35fcfa6da",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-T725080"
+      },
+      "name": "Sunny Health & Fitness Smart 2-in-1 Vibration Treadpad - SF-T725080",
+      "nameSource": "ISV 4.0 SHF!F727",
+      "category": "Treadmills",
+      "fieldsFilled": 54,
+      "notes": [
+        "The spec sheet gives no descriptive product name; the name comes from ISV 4.0 SHF!F727."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-t725095",
+      "model": "SF-T725095",
+      "file": "SF-T725095 Treadmill draft Spec dated 9.28.2026.xlsx",
+      "sha256": "2458a7eee83fa8fc5eff45d794e0000257f71f497b58f081565a19531c78131d",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "filename",
+        "text": "SF-T725095"
+      },
+      "name": "Sunny Health & Fitness Smart Auto-Incline Treadmill with 20\" Wide Running Deck",
+      "nameSource": "ISV 4.0 SHF!F728",
+      "category": "Treadmills",
+      "fieldsFilled": 48,
+      "notes": [
+        "The sheet leaves the model cell blank; the model comes from the filename and its exact ISV row.",
+        "The spec sheet gives no descriptive product name; the name comes from ISV 4.0 SHF!F728."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-t725880",
+      "model": "SF-T725880",
+      "file": "SF-T725880 Treadmill Final Spec dated 20260810.xlsx",
+      "sha256": "40304905ca273f7ad87ef7ab5dce5b854903d9f3281a393257b7a8258e259194",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-T725880"
+      },
+      "name": "RECOVERY WALKING PAD WITH VIBRATION",
+      "nameSource": "sheet",
+      "category": "Treadmills",
+      "fieldsFilled": 54,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-t726025",
+      "model": "SF-T726025",
+      "file": "SF-T726025（TB3460A） Treadmill  Spec dated 20261012-Final.xlsx",
+      "sha256": "155dfd860ac4ddb1697fe0749ddad7c3ed3a28b3fc8c72e05c0e3132cdf1f458",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-T726025"
+      },
+      "name": "One-Click Folding Treadmill with 18\" Wide Belt",
+      "nameSource": "sheet",
+      "category": "Treadmills",
+      "fieldsFilled": 52,
+      "notes": [
+        "The sheet prints SF-726025 (TB3460A); the filename and exact ISV row give SF-T726025."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-t7610-smart",
+      "model": "SF-T7610 SMART",
+      "file": "SF-T7610 SMART FINAL SPEC 01042024.xlsx",
+      "sha256": "e8b11012a5bfba62c96f1300512c9588373c57a6752aa8bfc0941c94c66a3a76",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-T7610 SMART"
+      },
+      "name": "SMART EASY ASSEMBLY FOLDING TREADMILL",
+      "nameSource": "sheet",
+      "category": "Treadmills",
+      "fieldsFilled": 32,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-t7705-smart",
+      "model": "SF-T7705 SMART",
+      "file": "SF-T7705SMART Spec Sheet 05.05.2022 updated.xlsx",
+      "sha256": "59a365f2d3f46e89db401ec838e5afcc312b820057b284f925015e7740ba3eb6",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-T7705 SMART"
+      },
+      "name": "Sunny Health & Fitness Smart Treadmill with Auto Incline",
+      "nameSource": "sheet",
+      "category": "Treadmills",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-t7724-smart",
+      "model": "SF-T7724 SMART",
+      "file": "SF-T7724 SMART final SPEC SHEET 12.05.2023.xlsx",
+      "sha256": "b6a3d7f225a84c60a47b790b1e0dc4aff1c642d6e7c5c301d3f0b4c88405ce26",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-T7724 SMART"
+      },
+      "name": "ENERGY FLEX MOTORIZED AUTO INCLINE SMART TREADMILL",
+      "nameSource": "sheet",
+      "category": "Treadmills",
+      "fieldsFilled": 31,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-t7945-smart",
+      "model": "SF-T7945 SMART",
+      "file": "SF-T7945 SMART SPEC 08.16.2023.xlsx",
+      "sha256": "5459e9a7ea5742021865ed084f4658739a803fae22ddaadcd3759c52d07c1747",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-T7945 SMART"
+      },
+      "name": "Sunny Health & Fitness Smart Slim Under Desk Walking Treadpad",
+      "nameSource": "ISV 4.0 SHF!F771",
+      "category": "Treadmills",
+      "fieldsFilled": 33,
+      "notes": [
+        "The spec sheet gives no descriptive product name; the name comes from ISV 4.0 SHF!F771."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-vp826016",
+      "model": "SF-VP826016",
+      "file": "SF-VP826016 Final Spec Sheet 2026.10.27.xlsx",
+      "sha256": "73b1f5c5ee02317e75acfebb50739080f8b68c77d9947176fcd6e8ee55ac5632",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "SF-VP826016"
+      },
+      "name": "2D Vibration Plate",
+      "nameSource": "sheet",
+      "category": "Essentials",
+      "fieldsFilled": 16,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-vp826017",
+      "model": "SF-VP826017",
+      "file": "SF-VP826017 Final Spec Sheet 2026.10.27.xlsx",
+      "sha256": "db1e57759a3101e44d9067ca8df4b477e9b3afc233d4b061b82abd33dcfedabe",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "SF-VP826017"
+      },
+      "name": "2D Vibration Plate with Handlebar",
+      "nameSource": "sheet",
+      "category": "Essentials",
+      "fieldsFilled": 16,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-vp826018",
+      "model": "SF-VP826018",
+      "file": "SF-VP826018 Final Spec Sheet 2026.10.28.xlsx",
+      "sha256": "9d94f1b5b108f9bd6a00efebaf8d6e15133e8a4150c6e87a306b54cacd073f9b",
+      "sheet": "Specs ",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "SF-VP826018"
+      },
+      "name": "4D Vibration Plate",
+      "nameSource": "sheet",
+      "category": "Essentials",
+      "fieldsFilled": 16,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-vp826816",
+      "model": "SF-VP826816",
+      "file": "SF-VP826816 spec sheet 8.5.2026.xlsx",
+      "sha256": "72aabde8dbeb7044fb50c81f59acce7e3f7eee842055deb723f02f8905138204",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "SF-VP826816"
+      },
+      "name": "Vibration Wellness System",
+      "nameSource": "sheet",
+      "category": "Essentials",
+      "fieldsFilled": 16,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-wa01-2",
+      "model": "SF-WA01-2",
+      "file": "SF-WA01-2 final Spec Sheet 20251118.xlsx",
+      "sha256": "5cb4baf18aa3f9b18aef7904b308b225f41738f4ab659156634cd11e714d0c25",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-WA01-2"
+      },
+      "name": "ANKLE WEIGHT 2-POUND (PAIR)",
+      "nameSource": "sheet",
+      "category": "Weights",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-wa01-3",
+      "model": "SF-WA01-3",
+      "file": "SF-WA01-3 final Spec Sheet 20251118.xlsx",
+      "sha256": "027115c1eb4bba8c500bb02c93916a7a3c195196161f096e88d9208edf88bc8a",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-WA01-3"
+      },
+      "name": "ANKLE WEIGHT 3-POUND (PAIR)",
+      "nameSource": "sheet",
+      "category": "Weights",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-wa01-4",
+      "model": "SF-WA01-4",
+      "file": "SF-WA01-4 final Spec Sheet 20251118.xlsx",
+      "sha256": "8f426c54cffa4ebcdbe9a66725a6c71e30f1ba089c4942d083767dffbdd65395",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-WA01-4"
+      },
+      "name": "ANKLE WEIGHT 4-POUND (PAIR)",
+      "nameSource": "sheet",
+      "category": "Weights",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-wa01-5",
+      "model": "SF-WA01-5",
+      "file": "SF-WA01-5 final Spec Sheet 20251118.xlsx",
+      "sha256": "b8f37a9b019b0c48f1f45ddc0ad47705feae80d2cc07a860069f4f23021c6148",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-WA01-5"
+      },
+      "name": "ANKLE WEIGHT 5-POUND (PAIR)",
+      "nameSource": "sheet",
+      "category": "Weights",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-wv02-4",
+      "model": "SF-WV02-4",
+      "file": "SF-WV02 final Spec Template dated 20260701 .xlsx",
+      "sha256": "630d508d382f3d139e815338832804791ed92fed65c43832145cea15e12bf3df",
+      "sheet": "SF-WV02-4",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "SF-WV02-4"
+      },
+      "name": "FIXED WEIGHTED VEST 4LBS",
+      "nameSource": "sheet",
+      "category": "Essentials",
+      "fieldsFilled": 14,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-wv02-6",
+      "model": "SF-WV02-6",
+      "file": "SF-WV02 final Spec Template dated 20260701 .xlsx",
+      "sha256": "630d508d382f3d139e815338832804791ed92fed65c43832145cea15e12bf3df",
+      "sheet": "SF-WV02-6",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "SF-WV02-6"
+      },
+      "name": "FIXED WEIGHTED VEST 6LBS",
+      "nameSource": "sheet",
+      "category": "Essentials",
+      "fieldsFilled": 14,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-wv02-8",
+      "model": "SF-WV02-8",
+      "file": "SF-WV02 final Spec Template dated 20260701 .xlsx",
+      "sha256": "630d508d382f3d139e815338832804791ed92fed65c43832145cea15e12bf3df",
+      "sheet": "SF-WV02-8",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "SF-WV02-8"
+      },
+      "name": "FIXED WEIGHTED VEST 8LBS",
+      "nameSource": "sheet",
+      "category": "Essentials",
+      "fieldsFilled": 14,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-wv02-12",
+      "model": "SF-WV02-12",
+      "file": "SF-WV02 final Spec Template dated 20260701 .xlsx",
+      "sha256": "630d508d382f3d139e815338832804791ed92fed65c43832145cea15e12bf3df",
+      "sheet": "SF-WV02-12",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "SF-WV02-12"
+      },
+      "name": "FIXED WEIGHTED VEST 12LBS",
+      "nameSource": "sheet",
+      "category": "Essentials",
+      "fieldsFilled": 14,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-wv02-16",
+      "model": "SF-WV02-16",
+      "file": "SF-WV02 final Spec Template dated 20260701 .xlsx",
+      "sha256": "630d508d382f3d139e815338832804791ed92fed65c43832145cea15e12bf3df",
+      "sheet": "SF-WV02-16",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "SF-WV02-16"
+      },
+      "name": "FIXED WEIGHTED VEST 16LBS",
+      "nameSource": "sheet",
+      "category": "Essentials",
+      "fieldsFilled": 14,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-wv02-20",
+      "model": "SF-WV02-20",
+      "file": "SF-WV02 final Spec Template dated 20260701 .xlsx",
+      "sha256": "630d508d382f3d139e815338832804791ed92fed65c43832145cea15e12bf3df",
+      "sheet": "SF-WV02-20",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "SF-WV02-20"
+      },
+      "name": "FIXED WEIGHTED VEST 20LBS",
+      "nameSource": "sheet",
+      "category": "Essentials",
+      "fieldsFilled": 14,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-wv02-25",
+      "model": "SF-WV02-25",
+      "file": "SF-WV02 final Spec Template dated 20260701 .xlsx",
+      "sha256": "630d508d382f3d139e815338832804791ed92fed65c43832145cea15e12bf3df",
+      "sheet": "SF-WV02-25",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "SF-WV02-25"
+      },
+      "name": "FIXED WEIGHTED VEST 25LBS",
+      "nameSource": "sheet",
+      "category": "Essentials",
+      "fieldsFilled": 14,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-wv02-30",
+      "model": "SF-WV02-30",
+      "file": "SF-WV02 final Spec Template dated 20260701 .xlsx",
+      "sha256": "630d508d382f3d139e815338832804791ed92fed65c43832145cea15e12bf3df",
+      "sheet": "SF-WV02-30",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "SF-WV02-30"
+      },
+      "name": "FIXED WEIGHTED VEST 30LBS",
+      "nameSource": "sheet",
+      "category": "Essentials",
+      "fieldsFilled": 14,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-x7140",
+      "model": "SF-X7140",
+      "file": "SF-X7140 Final Spec sheet 20261013.xlsx",
+      "sha256": "5010968256e4d4e3184d108183fbade430e3acbc499a57b13830666e29e30752",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-X7140"
+      },
+      "name": "SMART ULTRA MANUAL TREADMILL",
+      "nameSource": "sheet",
+      "category": "Treadmills",
+      "fieldsFilled": 54,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-x7200",
+      "model": "SF-X7200",
+      "file": "SF-X7200  FINAL SPEC SHEET 03062024.xls",
+      "sha256": "88617dc7ef0e3a42e45df35c8c59c4fd3d9e3940ebde657fdbb1c1f19d2daa16",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-X7200"
+      },
+      "name": "INFINITY INCLINE TREADMILL",
+      "nameSource": "sheet",
+      "category": "Treadmills",
+      "fieldsFilled": 32,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-x7300",
+      "model": "SF-X7300",
+      "file": "SF-X7300 FINAL SPEC SHEET 12082023.xls",
+      "sha256": "7852a60e65842583e5bfb2ec59ec7a6712b1020748ab9118f016cabe4472cb53",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-X7300"
+      },
+      "name": "INFINITY STEPPER STAIR CLIMBER",
+      "nameSource": "sheet",
+      "category": "Steppers",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-x7300smart",
+      "model": "SF-X7300SMART",
+      "file": "SF-X7300SMART spec sheet 20250910.xlsx",
+      "sha256": "3dc10a1382320a40e4790d909b1cf5aa75c91f5a4aa6bd9f0249bd227da65482",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-X7300SMART"
+      },
+      "name": "PREMIUM STEPPER STAIR CLIMBER",
+      "nameSource": "sheet",
+      "category": "Steppers",
+      "fieldsFilled": 52,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-x7310",
+      "model": "SF-X7310",
+      "file": "SF-X7310 final Spec Sheet 20261001.xlsx",
+      "sha256": "39cebc063ae1bb2d9af930c505087720828b801de33e32e96166e251ff3b4c90",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-X7310"
+      },
+      "name": "PREMIUM STEPPER STAIR CLIMBER",
+      "nameSource": "sheet",
+      "category": "Steppers",
+      "fieldsFilled": 50,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xf920025",
+      "model": "SF-XF920025",
+      "file": "SF-XF920025 Spec Sheet 2021.03.11 final.xlsx",
+      "sha256": "786ad3d6d4ca93c9188ecb27d51c9ac2ed073280626dda693006b766837a7b99",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-XF920025"
+      },
+      "name": "Multifunction Weight & Dumbbell Rack",
+      "nameSource": "sheet",
+      "category": "Racks",
+      "fieldsFilled": 8,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xf920063",
+      "model": "SF-XF920063",
+      "file": "SF-XF920063 Spec Sheet 2022.11.09 v3.xlsx",
+      "sha256": "779f37ed21df7b81fcb9c24d81fcd656ea9367d6b86bd862ffaaab3a7127a5f4",
+      "sheet": "2022.11.09",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-XF920063"
+      },
+      "name": "ESSENTIAL POWER RACK",
+      "nameSource": "sheet",
+      "category": "Racks",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xf921024",
+      "model": "SF-XF921024",
+      "file": "SF-XF921024 Spec Sheet 2022.02.09 final.xlsx",
+      "sha256": "17ced9e5eba15f6f91727da1e8850add1eb338a9625557aaad03c9e8ea106e64",
+      "sheet": "2022.02.09",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-XF921024"
+      },
+      "name": "ESSENTIAL POWER CAGE SQUAT RACK",
+      "nameSource": "sheet",
+      "category": "Racks",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xf921036",
+      "model": "SF-XF921036",
+      "file": "SF-XF921036 SpecSheet 2021.10.09.xlsx",
+      "sha256": "200a6b4da36404941be54de1fbd910dbbea24cc222477c1f45a836e0a0a97d65",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-XF921036"
+      },
+      "name": "MULTI-WEIGHT STORAGE RACK STAND",
+      "nameSource": "sheet",
+      "category": "Racks",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xf921041",
+      "model": "SF-XF921041",
+      "file": "SF-XF921041 Spec Sheet 2022.02.08 final.xlsx",
+      "sha256": "48be62f506c3addb676169582acd81d47560d7118019c9b6a4cd19ab1b86d38f",
+      "sheet": "2022-01-28",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-XF921041"
+      },
+      "name": "POWERVERSA SQUAT STAND RACK",
+      "nameSource": "sheet",
+      "category": "Racks",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xf921050",
+      "model": "SF-XF921050",
+      "file": "SF-XF921050 Spec Sheet 2022.01.28 final.xlsx",
+      "sha256": "e07d6e395f618c2b9118dbcc65d72db3192122171c52e64568653243f5658c9e",
+      "sheet": "2022-01-28",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-XF921050"
+      },
+      "name": "MULTIFUNCTION STRENGTH BAR",
+      "nameSource": "sheet",
+      "category": "Racks",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xf922081",
+      "model": "SF-XF922081",
+      "file": "SF-XF922081 SPEC SHEET 20240326 final.xlsx",
+      "sha256": "8debd861c127a6f7f8efa2ad2384f0bd07d4e9e12d8e8aaa86beed22407593e4",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-XF922081"
+      },
+      "name": "MULTIFUNCTIONAL & ADJUSTABLE HEIGHT POWER TOWER",
+      "nameSource": "sheet",
+      "category": "Racks",
+      "fieldsFilled": 18,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xf926805",
+      "model": "SF-XF926805",
+      "file": "SF-XF926805 draft spec sheet 20260714.xlsx",
+      "sha256": "3fa1fd0469eb283acb7cd48a69d99b149c38df82b513a22f284b63e5124ffaea",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "SF-XF926805"
+      },
+      "name": "VKR with weight assist function",
+      "nameSource": "sheet",
+      "category": "Essentials",
+      "fieldsFilled": 17,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xf9927",
+      "model": "SF-XF9927",
+      "file": "SF-XF9927 Spec Sheet 舒华 2022.04.11.xlsx",
+      "sha256": "2478dd8c8a833126e80f8390a967b969ead7e954567f5c05a4b89d69e5b13d9a",
+      "sheet": "SF-XF9927",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-XF9927"
+      },
+      "name": "LAT PULLDOWN ATTACHMENT",
+      "nameSource": "sheet",
+      "category": "Racks",
+      "fieldsFilled": 11,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xf9937",
+      "model": "SF-XF9937",
+      "file": "SF-XF9937 Spec Sheet 舒华 2021.1.28 final.xlsx",
+      "sha256": "1570b094c73e18d3bb2b475592579526140b39d522573b3694daefcffc324369",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-XF9937"
+      },
+      "name": "DIP STATION STAND",
+      "nameSource": "sheet",
+      "category": "Racks",
+      "fieldsFilled": 8,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xf9938",
+      "model": "SF-XF9938",
+      "file": "SF-XF9938 Spec Sheet 舒华 2020.12.02 final.xlsx",
+      "sha256": "c137042938f99c9296d18631f92774452647f84acc0114f0781ddc8548e69bff",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-XF9938"
+      },
+      "name": "WEIGHT PLATE RACK",
+      "nameSource": "sheet",
+      "category": "Racks",
+      "fieldsFilled": 16,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xfa001",
+      "model": "SF-XFA001",
+      "file": "SF-XFA001 Spec Sheet 舒华 2020.12.11 final.xlsx",
+      "sha256": "5fd6dc89929ef7756a4d59a7d979e485938288008c7add373915a341ad3dd9cb",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-XFA001"
+      },
+      "name": "PULL UP BAR ATTACHMENT",
+      "nameSource": "sheet",
+      "category": "Racks",
+      "fieldsFilled": 8,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xfa002",
+      "model": "SF-XFA002",
+      "file": "SF-XFA002 Spec Sheet 舒华 2021.09.09 final.xlsx",
+      "sha256": "7b69666fe1d854bd3ade27d5382d5ad97e6b34321b0e352721fe40400a485a88",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-XFA002"
+      },
+      "name": "DIP BAR ATTACHMENT",
+      "nameSource": "sheet",
+      "category": "Racks",
+      "fieldsFilled": 9,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xfa003",
+      "model": "SF-XFA003",
+      "file": "SF-XFA003 Spec Sheet 舒华 2020.12.11 final.xlsx",
+      "sha256": "36cb62cbc830ff8ebadc9a73f7ed11e8ecbd32bd6bf8ba2d252234843ed3ef39",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-XFA003"
+      },
+      "name": "BAR HOLDER ATTACHMENT",
+      "nameSource": "sheet",
+      "category": "Racks",
+      "fieldsFilled": 8,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xfa004",
+      "model": "SF-XFA004",
+      "file": "SF-XFA004 Spec Sheet 舒华 2020.12.11 final.xlsx",
+      "sha256": "c807c789fa5bb5490cf5a1cfcbc75ec33ce11ffbe0553936ee1431bf32eeed9e",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-XFA004"
+      },
+      "name": "LANDMINE ATTACHMENT",
+      "nameSource": "sheet",
+      "category": "Racks",
+      "fieldsFilled": 8,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xfa005",
+      "model": "SF-XFA005",
+      "file": "SF-XFA005 Spec Sheet 舒华 2020.12.11 final.xlsx",
+      "sha256": "b125be069a29216cfea48026b1a6deee0b7d327b5998ddbad97098d943b425db",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-XFA005"
+      },
+      "name": "U-RING ATTACHMENT",
+      "nameSource": "sheet",
+      "category": "Racks",
+      "fieldsFilled": 8,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xfa006",
+      "model": "SF-XFA006",
+      "file": "SF-XFA006 SpecSheet 舒华 2021.2.1 final.xlsx",
+      "sha256": "599af52bf64bb9d65c525fd7dba68faaf848c71a15926966c88c8e694decfa10",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-XFA006"
+      },
+      "name": "LAT PULLDOWN ATTACHMENT",
+      "nameSource": "sheet",
+      "category": "Racks",
+      "fieldsFilled": 8,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xfa007",
+      "model": "SF-XFA007",
+      "file": "SF-XFA007 Spec Sheet 舒华 2021.06.25 final.xlsx",
+      "sha256": "84b1ff42cb5f0adafd1216c7977934b4a49d5d71f9f9b23ac67dca76709c0ce8",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-XFA007"
+      },
+      "name": "J-HOOK ATTACHMENT FOR POWER RACKS AND CAGES",
+      "nameSource": "sheet",
+      "category": "Racks",
+      "fieldsFilled": 8,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xfa010",
+      "model": "SF-XFA010",
+      "file": "SF-XFA010 SPEC SHEET 20240326 final.xlsx",
+      "sha256": "a7024bef7491dbd2bde1a2e917325764648b25455b04088c3c53077ff27a7081",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-XFA010"
+      },
+      "name": "1\" and 2\" ADJUSTABLE WEIGHT PLATE STORAGE RACK ATTACHMENT",
+      "nameSource": "sheet",
+      "category": "Racks",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xfa011",
+      "model": "SF-XFA011",
+      "file": "SF-XFA011 final spec sheet 04152024.xlsx",
+      "sha256": "78fe1ee26fe146c655f9f12b4a7adec339ee65de022f021d4966a997564c37f1",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-XFA011"
+      },
+      "name": "LAT PULLDOWN BAR CABLE ATTACHMENT",
+      "nameSource": "sheet",
+      "category": "Racks",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xfa012",
+      "model": "SF-XFA012",
+      "file": "SF-XFA012 final spec sheet 04302024.xlsx",
+      "sha256": "1aa1c3cf8d129618d9686884ffffe72c0eacbf03758f01e13edf107cecbe3f25",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-XFA012"
+      },
+      "name": "STRAIGHT BAR CABLE ATTACHMENT",
+      "nameSource": "sheet",
+      "category": "Racks",
+      "fieldsFilled": 21,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xfa013",
+      "model": "SF-XFA013",
+      "file": "SF-XFA013 final spec sheets 05242024.xlsx",
+      "sha256": "3e444012b42cfd5b8aefc177d1e91a2fb23ced7c559a1d259ac57067b8d7179b",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-XFA013"
+      },
+      "name": "TRICEP ROPE CABLE ATTACHMENT",
+      "nameSource": "sheet",
+      "category": "Racks",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xfa014",
+      "model": "SF-XFA014",
+      "file": "SF-XFA014 Spec Sheet 07082024.xlsx",
+      "sha256": "e325ff4c0da6e538c56c32f31a87c67228ee6fb660ee4f1a5524076ef6f00b65",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-XFA014"
+      },
+      "name": "Weight Plate Holder Sleeve for 2in Olympic Plates",
+      "nameSource": "sheet",
+      "category": "Racks",
+      "fieldsFilled": 10,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-xfa015",
+      "model": "SF-XFA015",
+      "file": "SF-XFA015 spec sheet 20241128.xlsx",
+      "sha256": "769380ac654199b2c70b4e3102b591260653904a360c0e9ada68e5aacbfbf29c",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-XFA015"
+      },
+      "name": "BELT SQUAT ATTACHMENT FOR POWER CAGES AND RACKS",
+      "nameSource": "sheet",
+      "category": "Racks",
+      "fieldsFilled": 20,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-db02-10",
+      "model": "SF-DB02-10",
+      "file": "SF‐DB02‐10 UPDATE SPEC 2023-04-18.xlsx",
+      "sha256": "5f3e92a9b54f3b53c896d2c7f46b1387c867a4f80ac6cae1b79f1ae79c9d8f61",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-DB02-10"
+      },
+      "name": "Signature Style Polyurethane Round Dumbbells 10 Pound (Pair)",
+      "nameSource": "sheet",
+      "category": "Weights",
+      "fieldsFilled": 19,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-db02-15",
+      "model": "SF-DB02-15",
+      "file": "SF‐DB02‐15 UPDATE SPEC 2023-04-18.xlsx",
+      "sha256": "2d1bfafc2a58b6536f1d8c8fa5877cdc818eda2c71fe8c38c94b3f34141a8dce",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-DB02-15"
+      },
+      "name": "Signature Style Polyurethane Round Dumbbells 15 Pound (Pair)",
+      "nameSource": "sheet",
+      "category": "Weights",
+      "fieldsFilled": 19,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-db02-20",
+      "model": "SF-DB02-20",
+      "file": "SF‐DB02‐20 UPDATE SPEC 2023-04-18.xlsx",
+      "sha256": "93cb524cf8c72adb46d7593abb2753eb789673412dd937d70fb2582b5d6f02f7",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-DB02-20"
+      },
+      "name": "Signature Style Polyurethane Round Dumbbells 20 Pound (Pair)",
+      "nameSource": "sheet",
+      "category": "Weights",
+      "fieldsFilled": 19,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-db02-25",
+      "model": "SF-DB02-25",
+      "file": "SF‐DB02‐25 UPDATE SPEC 2023-04-18.xlsx",
+      "sha256": "53e96c45a9a8cc114fb7aa5810214043e8be7ff43ab774a5dd0594ddd5c3fec1",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-DB02-25"
+      },
+      "name": "Signature Style Polyurethane Round Dumbbells 25 Pound (Pair)",
+      "nameSource": "sheet",
+      "category": "Weights",
+      "fieldsFilled": 19,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-db02-30",
+      "model": "SF-DB02-30",
+      "file": "SF‐DB02‐30 UPDATE SPEC 2023-04-18.xlsx",
+      "sha256": "f791af22871d4bb957f63942634ecd9ca0d703fafb7b958b8206f990de91c9af",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-DB02-30"
+      },
+      "name": "Signature Style Polyurethane Round Dumbbell 30 Pound",
+      "nameSource": "sheet",
+      "category": "Weights",
+      "fieldsFilled": 19,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-db02-35",
+      "model": "SF-DB02-35",
+      "file": "SF‐DB02‐35 UPDATE SPEC 2023-04-18.xlsx",
+      "sha256": "fa0ee9e0e9c1cf399649f4880860062f1a92c32da9e97581b170e3d9432b530d",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-DB02-35"
+      },
+      "name": "Signature Style Polyurethane Round Dumbbell 35 Pound",
+      "nameSource": "sheet",
+      "category": "Weights",
+      "fieldsFilled": 19,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-db02-40",
+      "model": "SF-DB02-40",
+      "file": "SF‐DB02‐40 UPDATE SPEC 2023-04-18.xlsx",
+      "sha256": "b4cef81294bdfdf0d67e819e8f47677dbba91516f779a71fa182e444a0eac777",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-DB02-40"
+      },
+      "name": "Signature Style Polyurethane Round Dumbbell 40 Pound",
+      "nameSource": "sheet",
+      "category": "Weights",
+      "fieldsFilled": 19,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-db02-45",
+      "model": "SF-DB02-45",
+      "file": "SF‐DB02‐45 UPDATE SPEC 2023-04-18.xlsx",
+      "sha256": "1e7301e5bcd2fa420b87260ad938aed83bdeb03f1a56b9d5eadc1b3f982fd875",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-DB02-45"
+      },
+      "name": "Signature Style Polyurethane Round Dumbbell 45 Pound",
+      "nameSource": "sheet",
+      "category": "Weights",
+      "fieldsFilled": 19,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-db02-50",
+      "model": "SF-DB02-50",
+      "file": "SF‐DB02‐50 UPDATE SPEC 2023-04-18.xlsx",
+      "sha256": "b0444b9d640eaa1fbd77f972d737dd956347274d78859405b795a47ae6fb9037",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-DB02-50"
+      },
+      "name": "Signature Style Polyurethane Round Dumbbell 50 Pound",
+      "nameSource": "sheet",
+      "category": "Weights",
+      "fieldsFilled": 18,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-db03-10",
+      "model": "SF-DB03-10",
+      "file": "SF‐DB03‐10 UPDATE SPEC-5 11.02.2023.xlsx",
+      "sha256": "cac6fb62145cd8749eecdf6687299f79a8b12e9c27eeeb8fde0172a40f79ac6f",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "filename",
+        "text": "SF-DB03-10"
+      },
+      "name": "CORE FIT HEX STYLE DUMBBELLS 10 - POUND(PAIR)",
+      "nameSource": "sheet",
+      "category": "Weights",
+      "fieldsFilled": 16,
+      "notes": [
+        "The sheet prints 10LBS in the model cell; the model comes from the filename and its exact ISV row."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-db03-15",
+      "model": "SF-DB03-15",
+      "file": "SF‐DB03‐15 UPDATE SPEC-5 11.02.2023.xlsx",
+      "sha256": "aab1c91550c0ce014ef9e5a0865d0840322b3d0002560dc9e644590d544baa66",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-DB03-15"
+      },
+      "name": "CORE FIT HEX STYLE DUMBBELLS 15 - POUND(PAIR)",
+      "nameSource": "sheet",
+      "category": "Weights",
+      "fieldsFilled": 17,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-db03-20",
+      "model": "SF-DB03-20",
+      "file": "SF‐DB03‐20 UPDATE SPEC-5  11.02.2023.xlsx",
+      "sha256": "0665d4f188d727e6f434baae87829e88b5e97c46733a7914b546a4229ef67694",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-DB03-20"
+      },
+      "name": "CORE FIT HEX STYLE DUMBBELLS 20 - POUND(PAIR)",
+      "nameSource": "sheet",
+      "category": "Weights",
+      "fieldsFilled": 17,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-db03-25",
+      "model": "SF-DB03-25",
+      "file": "SF‐DB03‐25 UPDATE SPEC-5 11.02.2023.xlsx",
+      "sha256": "870fe3e18221342fe23578b7399efd2d873b77469ef5d5173b0607bae335ac9f",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-DB03-25"
+      },
+      "name": "CORE FIT HEX STYLE DUMBBELLS 25 - POUND(PAIR)",
+      "nameSource": "sheet",
+      "category": "Weights",
+      "fieldsFilled": 17,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-db03-30",
+      "model": "SF-DB03-30",
+      "file": "SF‐DB03‐30 UPDATE SPEC-5  11.02.2023.xlsx",
+      "sha256": "14b9d0badc6fc87476d9e084523ae7924a85ddfadc90a4aa015c995a66821713",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-DB03-30"
+      },
+      "name": "CORE FIT HEX STYLE DUMBBELL 30 - POUND",
+      "nameSource": "sheet",
+      "category": "Weights",
+      "fieldsFilled": 17,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-db03-35",
+      "model": "SF-DB03-35",
+      "file": "SF‐DB03‐35 UPDATE SPEC-5  11.02.2023.xlsx",
+      "sha256": "9cfa5fa9eac30d7a84c697255829035f9da83b9dc05e9cf073f7a1a9d135c610",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-DB03-35"
+      },
+      "name": "CORE FIT HEX STYLE DUMBBELL 35 - POUND",
+      "nameSource": "sheet",
+      "category": "Weights",
+      "fieldsFilled": 17,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-db03-40",
+      "model": "SF-DB03-40",
+      "file": "SF‐DB03‐40 UPDATE SPEC-5  11.02.2023.xlsx",
+      "sha256": "3b3e1c9b5a062b6c10f83d7741055691d8a8c5f9c6ef87f51bc7134c0eaaab6c",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-DB03-40"
+      },
+      "name": "CORE FIT HEX STYLE DUMBBELL 40 - POUND",
+      "nameSource": "sheet",
+      "category": "Weights",
+      "fieldsFilled": 17,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-db03-45",
+      "model": "SF-DB03-45",
+      "file": "SF‐DB03‐45 UPDATE SPEC-5  11.02.2023.xlsx",
+      "sha256": "611452eb52c45340e037e52be8fb1edaac4aba4e959fbcfc6b575f2f9682beaa",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-DB03-45"
+      },
+      "name": "CORE FIT HEX STYLE DUMBBELL 45 - POUND",
+      "nameSource": "sheet",
+      "category": "Weights",
+      "fieldsFilled": 16,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-db03-50",
+      "model": "SF-DB03-50",
+      "file": "SF‐DB03‐50 UPDATE SPEC-5 11.02.2023.xlsx",
+      "sha256": "e0d9ea9ed48854bbf55c7bee8b409a354055254995c2a19e068f1021f49c85ea",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-DB03-50"
+      },
+      "name": "CORE FIT HEX STYLE DUMBBELL 50 - POUND",
+      "nameSource": "sheet",
+      "category": "Weights",
+      "fieldsFilled": 16,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b1986",
+      "model": "SF-B1986",
+      "file": "Spec Sheet  SF-B1986 05.17.2021 updated.xlsx",
+      "sha256": "057e8adaa1581d5aab778f17a95569e4b0a34ecdeeeeaff106259764e747488a",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-B1986"
+      },
+      "name": "EVOLUTION PRO II MAGNETIC BELT DRIVE INDOOR CYCLING BIKE",
+      "nameSource": "sheet",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 19,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-088-100",
+      "model": "NO. 088-100",
+      "file": "Spec Sheet for NO. 088-100 01122026.xlsx",
+      "sha256": "9fb92cc4f7b7fc4bc21b74ce84bc67b4137f62e9853041cfcf5941b843893ab9",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "NO. 088-100"
+      },
+      "name": "Strength Training Band - 100lb",
+      "nameSource": "sheet",
+      "category": "Essentials",
+      "fieldsFilled": 17,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-088-140",
+      "model": "NO. 088-140",
+      "file": "Spec Sheet for NO. 088-140 01122026.xlsx",
+      "sha256": "1e4773ad01c15c403ce2229e706d6905ea4725e2ad26f2b27983da5e79b63bc6",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "NO. 088-140"
+      },
+      "name": "Strength Training Band - 140lb",
+      "nameSource": "sheet",
+      "category": "Essentials",
+      "fieldsFilled": 17,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-088-160",
+      "model": "NO. 088-160",
+      "file": "Spec Sheet for NO. 088-160 01122026.xlsx",
+      "sha256": "490c57a349ede81be928e93de47a9ecb19f271addf705748a514fbdda430bab0",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "NO. 088-160"
+      },
+      "name": "Strength Training Band - 160lb",
+      "nameSource": "sheet",
+      "category": "Essentials",
+      "fieldsFilled": 17,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-088-180",
+      "model": "NO. 088-180",
+      "file": "Spec Sheet for NO. 088-180 01122026.xlsx",
+      "sha256": "d2498218ec4a83ffac6a5972d7995998e44042f44c5671ada99067b5130fc7b9",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "NO. 088-180"
+      },
+      "name": "Strength Training Band - 180lb",
+      "nameSource": "sheet",
+      "category": "Essentials",
+      "fieldsFilled": 17,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-088-combo",
+      "model": "NO. 088-COMBO",
+      "file": "Spec Sheet for NO. 088-Combo 01.08.2026.xlsx",
+      "sha256": "1fd802f1201500faeba619f9c7380f87c60344933b5a2d0a196f97eab0941214",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "NO. 088-COMBO"
+      },
+      "name": "Strength Training Band Combo",
+      "nameSource": "sheet",
+      "category": "Essentials",
+      "fieldsFilled": 17,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-e320033",
+      "model": "SF-E320033",
+      "file": "Spec Sheet for SF-E320033 11162022.xlsx",
+      "sha256": "48a38cdb3f0c5f069b01042107528e6c03bace56790de7c0609994270b9b3209",
+      "sheet": "SF-E320033",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-E320033"
+      },
+      "name": "PERFORMANCE INTERACTIVE SERIES ELLIPTICAL",
+      "nameSource": "sheet",
+      "category": "Ellipticals",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rb424806",
+      "model": "SF-RB424806",
+      "file": "SPEC SHEET for SF-RB424806 20260506.xlsx",
+      "sha256": "c8f812f25eabe31d1e5d3da5676b8e043e728ac572752b2fb4a78eeff3d4b692",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-RB424806"
+      },
+      "name": "Sunny Health & Fitness Smart Magnetic Resistance Recumbent Bike - SF-RB424806",
+      "nameSource": "sheet",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 54,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rw5941",
+      "model": "SF-RW5941",
+      "file": "Spec Sheet for SF-RW5941 10-13-2022.xlsx",
+      "sha256": "580da16a86e23f887e8d9970ca4e7ada63896b353c0aad6fef020cb09c1776a8",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-RW5941"
+      },
+      "name": "MULTIFUNCTION SPM MAGNETIC ROWING MACHINE",
+      "nameSource": "sheet",
+      "category": "Rowers",
+      "fieldsFilled": 19,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rw5941-smart",
+      "model": "SF-RW5941 SMART",
+      "file": "Spec Sheet for SF-RW5941 SMART 10-13-2022.xlsx",
+      "sha256": "c78894c7f654675f8d93e7d8aa8f50ae31dd450d7ffd2f452da30bd14cc15d8f",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-RW5941 SMART"
+      },
+      "name": "SMART MULTIFUNCTION SPM MAGNETIC ROWING MACHINE",
+      "nameSource": "sheet",
+      "category": "Rowers",
+      "fieldsFilled": 19,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-vp822056",
+      "model": "SF-VP822056",
+      "file": "SPEC SHEET for SF-VP822056  05102023.xlsx",
+      "sha256": "af8d1115cc1b418210850c09fe947685a64366e47936b2f610893fe4a9cd0e2e",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-VP822056"
+      },
+      "name": "Vibration platform exercise machine",
+      "nameSource": "sheet",
+      "category": "Essentials",
+      "fieldsFilled": 21,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-vp822057",
+      "model": "SF-VP822057",
+      "file": "Spec Sheet for SF-VP822057 (08VW) 20230201.xlsx",
+      "sha256": "98ccac59ee294e0bf8c04efafef49b36a2f1844c0a10f6e9b215f24a3793eaa2",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-VP822057"
+      },
+      "name": "FITBOARD 3D VIBRATION PLATFORM EXERCISE MACHINE",
+      "nameSource": "sheet",
+      "category": "Essentials",
+      "fieldsFilled": 17,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-ws024863",
+      "model": "SF-WS024863",
+      "file": "Spec Sheet for SF-WS024863 01272026.xlsx",
+      "sha256": "431ee6c1fa7b4ef8f7e757e80223ab0bf131f856f777ee7e88aefbb24cefab1a",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-WS024863"
+      },
+      "name": "SMART BMI SCALE",
+      "nameSource": "sheet",
+      "category": "Essentials",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-e3912-smart",
+      "model": "SF-E3912 SMART",
+      "file": "spec sheet SF-E3912 SMART 5.1.23.xlsx",
+      "sha256": "a58122c4813d254d581bb1b43db597644c7611b6e34b2dbbac2e5c590d2a6348",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-E3912 SMART"
+      },
+      "name": "PRE-PROGRAMMED ELLIPTICAL TRAINER SMART",
+      "nameSource": "sheet",
+      "category": "Ellipticals",
+      "fieldsFilled": 18,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-s0978",
+      "model": "SF-S0978",
+      "file": "Spec Sheet-S0978  12232021 .xlsx",
+      "sha256": "a03d493774428d560e0a7841c3e581e3e15682a49bc0f37465b371ca60996cf1",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-S0978"
+      },
+      "name": "TOTAL BODY STEPPER MACHINE",
+      "nameSource": "sheet",
+      "category": "Steppers",
+      "fieldsFilled": 12,
+      "notes": [
+        "The filename prints S0978; the sheet and exact ISV row give SF-S0978."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-td7884",
+      "model": "SF-TD7884",
+      "file": "spec. sheet of  SF-TD7884.xlsx",
+      "sha256": "5a54affb71b1d77cfb1ddff6d2d186499480a48c80fae59a35d1791271d80f1c",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-TD7884"
+      },
+      "name": "HEIGHT ADJUSTABLE WORKSTATION TREADMILL",
+      "nameSource": "sheet",
+      "category": "Treadmills",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b1423",
+      "model": "SF-B1423",
+      "file": "Specification sheet for SF-B1423 from YD.xlsx",
+      "sha256": "43fc515c8f67aea58f3c851cccaae7466cd38191a1e3be50a482766492c3c790",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B2",
+        "text": "SF-B1423"
+      },
+      "name": "Belt Drive Indoor Cycling Bike",
+      "nameSource": "sheet",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 20,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-e3908",
+      "model": "SF-E3908",
+      "file": "Specification sheet for SF-E3908 10082019.xlsx",
+      "sha256": "0c1c03a5056534d1a885324aca6dd7b734c616ef4e742ee6221c6754f9ed5c7d",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B1",
+        "text": "SF-E3908"
+      },
+      "name": "PORTABLE STAND UP ELLIPTICAL",
+      "nameSource": "sheet",
+      "category": "Ellipticals",
+      "fieldsFilled": 18,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-bh620037",
+      "model": "SF-BH620037",
+      "file": "Spec Sheet--SF-BH620037.xlsx",
+      "sha256": "84d25a8613f106c147728d683f1d03ba36070791ef8bfab5cefe31251ff6022b",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-BH620037"
+      },
+      "name": "FLAT UTILITY WEIGHT BENCH",
+      "nameSource": "sheet",
+      "category": "Weight Benches",
+      "fieldsFilled": 9,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-p2000",
+      "model": "P2000",
+      "file": "Spec Sheet-P2000  09122024 update.xlsx",
+      "sha256": "7853686ec41b48231c6f8573b01f2ef20463714761a86e56e450acb0fcb9c7b0",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "P2000"
+      },
+      "name": "TOTAL BODY PINK STEPPER MACHINE",
+      "nameSource": "sheet",
+      "category": "Steppers",
+      "fieldsFilled": 14,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-vp822058",
+      "model": "SF-VP822058",
+      "file": "Spec Sheet for SF-VP822058 11182022.xlsx",
+      "sha256": "9f50e60524e7bc348726e30e432b48831c63fd5c702a6e459f190107830af29d",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-VP822058"
+      },
+      "name": "Fitboard 4D Vibration Platform Exercise Machine",
+      "nameSource": "sheet",
+      "category": "Essentials",
+      "fieldsFilled": 21,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-e3912",
+      "model": "SF-E3912",
+      "file": "spec sheet SF-E3912 update 5.1.23.xlsx",
+      "sha256": "e1a5c67985d9f79a10591d8e39789eabb5456184aad4a7079bacf53bcf7ca88c",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-E3912"
+      },
+      "name": "PRE-PROGRAMMED ELLIPTICAL TRAINER",
+      "nameSource": "sheet",
+      "category": "Ellipticals",
+      "fieldsFilled": 16,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-a025049",
+      "model": "SF-A025049",
+      "file": "Strength Spec dated 2025.12.3.xlsx",
+      "sha256": "20622492180857e81b7d17b2800208ca68733c7ff41a1724cf82be4a612b4b3d",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "SF-A025049"
+      },
+      "name": "Sunny Health & Fitness Smart Power Core Glider",
+      "nameSource": "ISV 4.0 SHF!F173",
+      "category": "Essentials",
+      "fieldsFilled": 14,
+      "notes": [
+        "The filename names no model; the model comes from the sheet and its exact ISV row.",
+        "The spec sheet gives no descriptive product name; the name comes from ISV 4.0 SHF!F173."
+      ]
+    },
+    {
+      "id": "off-sunny-tm100",
+      "model": "TM100",
+      "file": "TM100 spec sheet.xlsx",
+      "sha256": "d7595f5a993d9960c5369c65f789a8b7c77838411f1b2cf1b7125ea6b7085e85",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "TM100"
+      },
+      "name": "15-Level Auto Incline Treadmill",
+      "nameSource": "sheet",
+      "category": "Treadmills",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-t722901",
+      "model": "SF-T722901",
+      "file": "Treadmill Spec Sheet Template SF-T722901 06282023.xlsx",
+      "sha256": "da06867523e18a64ca95860f976ad1033a9033dc43c1ea0408789fc0bf0c8557",
+      "sheet": "Treadmill",
+      "modelEvidence": {
+        "cell": "B10",
+        "text": "SF-T722901"
+      },
+      "name": "Sunny Health & Fitness Smart Treadmill with Easy Foldable Design, Adjustable Incline, Durable 275 LB weight capacity, and exclusive SunnyFit App Connection - SF-T722901",
+      "nameSource": "ISV 4.0 SHF!F708",
+      "category": "Treadmills",
+      "fieldsFilled": 6,
+      "notes": [
+        "The spec sheet gives no descriptive product name; the name comes from ISV 4.0 SHF!F708."
+      ]
+    }
+  ]
+}

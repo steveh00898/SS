@@ -8,7 +8,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),{execFileSync}=
  const html=fs.readFileSync(root+'/dist/artifact/index.html','utf8');
  for(const required of ['/api/session','window.claude','loadReference'])assert(html.includes(required),required);
  assert(!html.includes('data:font/woff2'),'no embedded fonts');
- const refs=fs.readdirSync(root+'/dist/artifact/reference').map(f=>[f.replace('.json',''),JSON.parse(fs.readFileSync(root+'/dist/artifact/reference/'+f,'utf8'))]);
+ const refs=fs.readdirSync(root+'/dist/artifact/reference').sort((a,b)=>a.localeCompare(b,undefined,{numeric:true})).map(f=>[f.replace('.json',''),JSON.parse(fs.readFileSync(root+'/dist/artifact/reference/'+f,'utf8'))]);
  for(const [,d] of refs)assert(Buffer.byteLength(JSON.stringify(d))<262144,'each document fits the 256 KiB database limit');
  const rowsOf=kind=>refs.filter(([,d])=>d.kind===kind).flatMap(([,d])=>JSON.parse(d.json));
  assert.deepEqual(rowsOf('isv-off'),JSON.parse(fs.readFileSync(root+'/data/isv/off-sunny-products.json','utf8')).items,'off-Sunny ISV is complete and identical');

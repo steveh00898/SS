@@ -1,7 +1,7 @@
-"""Exact-model official resource research for V3 batch four.
+"""Exact-model official resource research for V3 batches four and five.
 
-Usage: python scripts/research-v3-batch-four.py <staged JSON> <V3 folder> <cache dir>
-Writes data/off-sunny-web/batch-four-resources.json and data/images/off-sunny-web/*-batch4-v1.jpg.
+Usage: python scripts/research-v3-batch-four.py <staged JSON> <V3 folder> <cache dir> [four|five] [xls copies dir]
+Writes data/off-sunny-web/batch-<word>-resources.json and data/images/off-sunny-web/*-batch<n>-v1.jpg.
 A link is kept only when its page names this exact model: a variant SKU equal to the model, or a
 guide page heading that starts with the model. A similar model is never substituted. Requests are
 paced and cached so an interrupted run can be resumed; HTTP 429 stays "pending", not "unavailable".
@@ -16,7 +16,10 @@ SRC = pathlib.Path(sys.argv[2])
 TMP = pathlib.Path(sys.argv[3])
 TMP.mkdir(exist_ok=True)
 ASSETS = ROOT / 'data/images/off-sunny-web'
-OUT = ROOT / 'data/off-sunny-web/batch-four-resources.json'
+WORD = sys.argv[4] if len(sys.argv) > 4 else 'four'
+SUFFIX = {'four': '-batch4-v1.jpg', 'five': '-batch5-v1.jpg'}[WORD]
+XLS_COPIES = pathlib.Path(sys.argv[5]) if len(sys.argv) > 5 else None
+OUT = ROOT / f'data/off-sunny-web/batch-{WORD}-resources.json'
 SITE = 'https://sunnyhealthfitness.com'
 norm = lambda x: re.sub('[^A-Z0-9]', '', str(x).upper())
 last = 0.0
@@ -51,7 +54,7 @@ def save_image(raw, ident):
     im = ImageOps.contain(bg.convert('RGB'), (1104, 828))
     canvas = Image.new('RGB', (1200, 900), 'white')
     canvas.paste(im, ((1200 - im.width) // 2, (900 - im.height) // 2))
-    target = ASSETS / (ident + '-batch4-v1.jpg')
+    target = ASSETS / (ident + SUFFIX)
     canvas.save(target, quality=88, optimize=True)
     return target
 
@@ -95,7 +98,7 @@ def sheet_media(path, sheet_name):
     return sorted(out, key=lambda t: -t[0])
 
 
-sources = {r['id']: r for r in json.loads((ROOT / 'data/off-sunny-web/batch-four-sources.json').read_text(encoding='utf-8'))['records']}
+sources = {r['id']: r for r in json.loads((ROOT / f'data/off-sunny-web/batch-{WORD}-sources.json').read_text(encoding='utf-8'))['records']}
 feed = []
 for page in range(1, 9):
     data = json.loads(get(f'{SITE}/products.json?limit=250&page={page}', TMP / f'feed-{page}.json'))
@@ -215,7 +218,9 @@ for i, row in enumerate(rows):
             except Exception as x:
                 e['errors'].append({'image': str(x), 'url': url})
     if raw is None:
-        media = sheet_media(SRC / row['sourceFile'], sources[ident]['sheet'])
+        legacy = row['sourceFile'].lower().endswith('.xls')
+        book = XLS_COPIES / (pathlib.Path(row['sourceFile']).stem + '.xlsx') if legacy and XLS_COPIES else SRC / row['sourceFile']
+        media = sheet_media(book, sources[ident]['sheet'])
         if media:
             raw = media[0][2]
             e['imageAvailability'] = 'spec-sheet'

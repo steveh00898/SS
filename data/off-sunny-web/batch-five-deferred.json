@@ -1,0 +1,57 @@
+[
+  {
+    "sku": "SF-A026006",
+    "sourceFile": "SF-A026006 spec & force value list.xls",
+    "reason": "The file holds only a measuring list, with no product specification fields to import."
+  },
+  {
+    "sku": "SF-A026811",
+    "sourceFile": "SF-A026811 Draft Spec dated 20260702.xlsx",
+    "reason": "No descriptive product name in the sheet or ISV 4.0; name and category not guessed."
+  },
+  {
+    "sku": "SF-E3919 SMART",
+    "sourceFile": "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx",
+    "reason": "No descriptive product name in the sheet or ISV 4.0; name and category not guessed."
+  },
+  {
+    "sku": "SF-PM10-RB",
+    "sourceFile": "SF-PMA_01 final spec sheet 20260610.xlsx",
+    "reason": "Model cell does not match the filename and no ISV row confirms it; identity unclear."
+  },
+  {
+    "sku": "SF-RW522816",
+    "sourceFile": "SF-RW522816 draft spec.sheet20220902.xlsx",
+    "reason": "No descriptive product name in the sheet or ISV 4.0; name and category not guessed."
+  },
+  {
+    "sku": "SF-RW524087",
+    "sourceFile": "SF-RW524087  Draft Rower Spec2025.02.12.xlsx",
+    "reason": "No descriptive product name in the sheet or ISV 4.0; name and category not guessed."
+  },
+  {
+    "sku": "SF-S026037",
+    "sourceFile": "SF-S026037 draft spec.xlsx",
+    "reason": "No descriptive product name in the sheet or ISV 4.0; name and category not guessed."
+  },
+  {
+    "sku": "SF-T726031",
+    "sourceFile": "SF-T726031 Treadmill Spec Draft_20260717.xlsx",
+    "reason": "No descriptive product name in the sheet or ISV 4.0; name and category not guessed."
+  },
+  {
+    "sku": "SF-X7330",
+    "sourceFile": "SF-X7330(P1019A) draft spec 20260729.xlsx",
+    "reason": "No descriptive product name in the sheet or ISV 4.0; name and category not guessed."
+  },
+  {
+    "sku": "SF-T726024",
+    "sourceFile": "Treadmill draft Spec dated TB2460A（SF-T726024）.xlsx",
+    "reason": "No descriptive product name in the sheet or ISV 4.0; name and category not guessed."
+  },
+  {
+    "sku": "UB202",
+    "sourceFile": "UB202 SPEC SHEET TEMPLATE 09.20.2023.xlsx",
+    "reason": "No descriptive product name in the sheet or ISV 4.0; name and category not guessed."
+  }
+]
