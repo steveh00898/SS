@@ -39,9 +39,10 @@ for it in catalog:
   fields[cell.column_letter]=value
  data['items'].append(dict(id=it['id'],sku=it['sku'],row=row[0].row,fields=fields))
 data['source']['sha256']=hashlib.sha256(source.read_bytes()).hexdigest()
-(root/'data/isv/current-products.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 p=root/'app/index.html'
 html=p.read_text(encoding='utf-8')
-html=re.sub(r'  const ISV_TREADMILL_DATA=.*;\n  const resourceFor=',lambda m:'  const ISV_TREADMILL_DATA='+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n  const resourceFor=',html)
+html,count=re.subn(r'^  const ISV_TREADMILL_DATA=.*;$',lambda m:'  const ISV_TREADMILL_DATA='+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';',html,flags=re.M)
+if count!=1: raise ValueError('Expected exactly one current ISV constant; no files written')
+(root/'data/isv/current-products.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 p.write_text(html,encoding='utf-8')
 print('Imported',len(data['items']),'catalog records;',len(set(x['sku'] for x in data['items'])),'unique SKUs')

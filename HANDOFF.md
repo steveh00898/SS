@@ -2,6 +2,20 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-06: Codex — ISV reference and symmetric discrepancies for all120 off-Sunny-web models
+- Changes: added ISV links and exact-row reference data for all120 Off Sunny web models, using the current section/header/specification mapping template through A:FN. Archive lookup is scoped by archive ID, with separate source metadata; unknown archive IDs show unavailable instead of borrowing another current product's ISV by SKU. Product Spec and ISV highlight the same actual two-source discrepancies; missing Product Spec values retain labelled ISV display fallbacks. Source catalogue specifications are not overwritten by reference values.
+- Matching/provenance: read C:/Users/sHuynh/Desktop/ISV 4.0.xlsx, SHF worksheet, SHA25666c0c25dee9c35fefe083cdc03918498405727529e6e2f072e76a8ff13c5fb5a. All120matched, zero unmatched/ambiguous. Exact text preferred, otherwise whitespace and NO./SF-prefix typography only. Internal hyphens and SMART/size/colour suffixes remain distinct. One explicit alias NO. 089 COMBO / NO. 089-COMBO was verified against its V3 source filename and resistance tube set identity; matching audit records exact row/cell evidence.
+- Preservation: current156 ISV snapshot and all current/archive catalogue records unchanged; no database item edits required. Both Site /api and window.claude use the same embedded reference data. Raw AV HTML remains hidden and source values remain escaped. Both importers replace only their own embedded constant and assert exactly one match before writing outputs, so future refreshes preserve the other dataset.
+- Files: app/index.html; data/isv/off-sunny-products.json; data/isv/off-sunny-match-audit.json; scripts/import-off-sunny-isv.py; scripts/import-current-isv.py; tests/off-sunny-isv.spec.cjs; HANDOFF.md.
+- Tests: all26 tests/*.spec.cjs passed; build passed. New coverage checks all120 products across10 categories,494 highlighted mapped columns and517 labelled fallbacks; verifies symmetric discrepancy sets on both dialogs for every matched model, source row evidence, no raw AV rendering/replacement characters, mobile layout/focus, unchanged156 current links, and synthetic unmatched-ID/current-SKU collision safety. Read-only synthetic importer checks passed adjacent-constant preservation and syntax. Workbook SHA verified unchanged before/after reading. Built Worker gzip8,962,344bytes (<10MiB).
+- Local preview: focused desktop1440/phone390 browser checks passed; phone screenshot preview-screenshots/phone-off-sunny-isv.png. Parent handles final screenshots/live publication verification.
+- Claude Artifact: not published by Codex; last recorded version26 from6b96a0c. Claude Code must sync/publish the app and reference snapshot; catalogue database items do not need changing for ISV display.
+- Private Site: not yet published from this implementation; currently PUBLIC version44 froma0ec2a24446cb5b2ac30948987afc6c1fabae86d. Parent will publish tested pushed source, preserve access/environment, then record exact version/SHA in a follow-up entry.
+- Practice data: not exported; first public-repository export permission remains pending. No new live-practice claims.
+- Remaining issues: no unmatched ISV rows. Existing catalogue resource/image-mask limitations remain unrelated. Source-reference differences are review flags, not silent data replacements.
+- Handoff: user-requested continuation prompt is work/OFF-SUNNY-ISV-HANDOFF.md outside the repository; it records progress, runtime/verification instructions and publication boundary without credentials.
+- Next steps: parent publishes exact tested source and verifies live ISV links/highlights desktop/phone, records deployment, and updates the continuation prompt.
+
 ## 2026-11-06: Codex — Site version44 official resources verified live
 - Changes: PUBLIC Site version44 deployed from exact pushed main SHA a0ec2a24446cb5b2ac30948987afc6c1fabae86d. This follow-up changes HANDOFF.md only.
 - Files: HANDOFF.md.
