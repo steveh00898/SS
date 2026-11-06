@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-06: Claude Code — git pull on the owner's Windows PC: batch-three data synced to the Claude Artifact database; page not republished
+- Changes: reviewed Codex commits 718aaf8..4cfa433 by commit list, trailers, changed-file stats and test-line changes, not every diff line. All carry `Agent: Codex`; `/api` and `window.claude` paths remain in app/index.html. Read all 176 Artifact `items` first: only the expected Artifact image URLs and the known owner edits on SF-T724011, SF-T725067, SF-T722021 and SF-T722076 differ. Uploaded 99 images and inserted the 100 missing `off-sunny-*` documents (same fields as data/off-sunny-web/items.json except `id`, `imageAssetId`, `imageUrl`). Read back: 276 documents, all 176 originals byte-identical.
+- Files: HANDOFF.md
+- Tests: all 26 tests/*.spec.cjs passed on 4cfa433 with installed Chrome through a local preload (committed paths unchanged); `npm run screenshots` and `npm run build` passed. An earlier full run on 5e8cbbb had one failure: tests/usage-charts.spec.cjs timed out waiting for an element to be stable, then passed alone. Possibly flaky; not diagnosed.
+- Local preview: checked the catalog at localhost:4173 on an earlier commit; screenshots regenerated but not visually inspected.
+- Claude Artifact: database synced to 276 items; page NOT republished, still version 26 from 6b96a0c. app/index.html is now 2.87 MB with 2.6 MB in six embedded-data lines, too large for Claude Code to read in full before publishing as its publishing rules require. Not verified that the old page displays the new records correctly.
+- Private Site: PUBLIC version 45 from 15f3c65 (Codex); unchanged by this entry.
+- Practice data: not exported; first-export permission for the public repository still pending.
+- Remaining issues: Artifact page is behind main; owner decision needed on how to publish it. Four known owner edits still differ between the Artifact and data/*.json. Windows machine has portable Node at %LOCALAPPDATA%\Programs\nodejs-portable and per-user Git.
+- Next steps: owner decides the Artifact page approach; investigate usage-charts if it recurs.
+
 ## 2026-11-06: Codex — Site version45 off-Sunny ISV verified live
 - Changes: published exact pushed main SHA15f3c65592a76389413dcd47a177b1f433b049ef. All120 off-Sunny models now have exact-ID-scoped ISV using the existing template; Product Spec and ISV highlight corresponding differing fields in both views. Source workbook ISV4.0.xlsx/SHF/A:FN; source hash and row/matching evidence retained. Current156ISV snapshot and allcatalogue records unchanged.
 - Files: HANDOFF.md only in this follow-up.
