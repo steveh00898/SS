@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-06: Claude Code — fix "Hide part of photo" losing record fields; Artifact version 28
+- Changes: itemRecord in app/index.html now keeps specDetails, resourceLinks, importBatch, catalogSource and sourceFile when a photo mask is saved. Regression added to tests/artifact-build.spec.cjs through the real draw-and-save flow. Checked all 220 Off Sunny web documents in the Artifact: none had lost catalogSource or specDetails and none had masks, so no repair was needed.
+- Files: app/index.html; tests/artifact-build.spec.cjs; HANDOFF.md
+- Tests: all 28 tests/*.spec.cjs passed with installed Chrome through a local preload; build passed. Real Artifact viewer still not checked (browser pane not signed in).
+- Claude Artifact: republished as version 28 from this commit's build; reference data unchanged (version 03ba5e7a48eb85ac). Version number and SHA are in the commit that follows this entry's publish.
+- Private Site: not published; last recorded PUBLIC version 45 from 15f3c65. This fix reaches the Site when Codex publishes.
+- Practice data: not exported (owner decision).
+- Remaining issues: the owner still needs to check the Artifact while signed in.
+- Next steps: Codex "git pull", then publish the Site.
+
 ## 2026-11-06: Claude Code — Claude Artifact updated to the latest app through a smaller build
 - Changes: owner replaced the Artifact freeze with a smaller Artifact-only page. New scripts/build-artifact.mjs builds dist/artifact/index.html (258,995 characters) from app/index.html without changing that file: embedded ISV rows and manuals move to 18 documents in the Artifact's `reference` collection, and embedded fonts become a Google Fonts link. Rules updated in AGENTS.md and CLAUDE.md. Site code and behavior unchanged.
 - Files: scripts/build-artifact.mjs; tests/artifact-build.spec.cjs; AGENTS.md; CLAUDE.md; HANDOFF.md
