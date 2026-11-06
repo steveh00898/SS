@@ -1,0 +1,1522 @@
+{
+  "source": "Sorted Master SPEC SHEET - V3",
+  "importedAt": "2026-11-06",
+  "importedModels": 100,
+  "sourceFiles": 83,
+  "records": [
+    {
+      "id": "off-sunny-sf-e321006",
+      "model": "SF-E321006",
+      "file": "SF-E321006 Spec.sheet 2022.07.13 v2.xlsx",
+      "sha256": "75ffe51068b03a6bc857869152b87d33209e1ccef862dd819b687c5060395f2e",
+      "sheet": "Version 2",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-E321006"
+      },
+      "name": "POWER STRIDE ADVANCED ELLIPTICAL MACHINE",
+      "category": "Ellipticals",
+      "fieldsFilled": 15,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-e322002",
+      "model": "SF-E322002",
+      "file": "SF-E322002 Spec sheet 08192022.xlsx",
+      "sha256": "ac9e415d9d4ba90598f30f0c9ed46f2c7524cdf6bfaeb7557cce723dac3edc04",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-E322002"
+      },
+      "name": "Sunny Health & Fitness Essential Interactive Series Elliptical",
+      "category": "Ellipticals",
+      "fieldsFilled": 19,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-e322804",
+      "model": "SF-E322804",
+      "file": "SF-E322804 final spec sheet 20260430.xlsx",
+      "sha256": "2ace870f2189482622bbedb02664a11fbfc4e2aee2c435aa994ca82e91ac6298",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-E322804"
+      },
+      "name": "2-in-1 Elliptical and Cycle Trainer",
+      "category": "Ellipticals",
+      "fieldsFilled": 50,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-e322902",
+      "model": "SF-E322902",
+      "file": "SF-E322902 Spec sheet 08192022.xlsx",
+      "sha256": "33b082d966c0786e6e77d587e6fea1d9b2fb0b1314199fc445ce153965b50ac5",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-E322902"
+      },
+      "name": "Sunny Health & Fitness Essential Interactive Series Elliptical",
+      "category": "Ellipticals",
+      "fieldsFilled": 19,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-e323050",
+      "model": "SF-E323050",
+      "file": "SF-E323050 final spec sheet 05202024.xlsx",
+      "sha256": "dde92643485820c99768ffca8713cc293c9d4784dda2e8589c2eaeef3ce329c8",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-E323050"
+      },
+      "name": "PRO SMART ELLIPTICAL TRAINER WITH 15 LEVELS OF MAGNETIC RESISTANCE",
+      "category": "Ellipticals",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-e323055",
+      "model": "SF-E323055",
+      "file": "SF-E323055 final spec sheet 07042024.xlsx",
+      "sha256": "aaa14f3d39ea0acce2e23eec471ce79219185ff8e269cffebabfdb3a4b672132",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-E323055"
+      },
+      "name": "SMART 15-LEVEL MAGNETIC RESISTANCE ELLIPTICAL WITH LONG STRIDE",
+      "category": "Ellipticals",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-e326015-gy",
+      "model": "SF-E326015-GY",
+      "file": "SF-E326015GY final spec sheet 20260817.xlsx",
+      "sha256": "2c8f19346382e45e8e614d1bec2d200696ecfb8f84a8c6e19267ba8d6aab5bcc",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-E326015-GY"
+      },
+      "name": "SMART UNDER DESK MOTORIZED ELLIPTICAL - GREY",
+      "category": "Ellipticals",
+      "fieldsFilled": 49,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-e3810",
+      "model": "SF-E3810",
+      "file": "SF-E3810 specification sheet.xlsx",
+      "sha256": "ac904cfa8d10e0dc57c9d3d818fecf18acf9d9db9e8f48e1c5de3f9a8242221a",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B1",
+        "text": "SF-E3810"
+      },
+      "name": "MAGNETIC ELLIPTICAL TRAINER",
+      "category": "Ellipticals",
+      "fieldsFilled": 12,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-e3865",
+      "model": "SF-E3865",
+      "file": "SF-E3865 specification sheet.xlsx",
+      "sha256": "b8ba3bd7506a61922dc79bc0d96aa6f71093e6c4aa89c7401a4067605a9bcc81",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B3",
+        "text": "SF-E3865"
+      },
+      "name": "Stride Zone Elliptical",
+      "category": "Ellipticals",
+      "fieldsFilled": 12,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-e3872-smart",
+      "model": "SF-E3872 SMART",
+      "file": "SF-E3872 SMART  SPEC SHEET 20240529.xlsx",
+      "sha256": "bfabf65b3a0c124f937df1fd79688e9ab561f6e02d70b47c2db5d24037235b65",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-E3872 SMART"
+      },
+      "name": "SMART MAGNETIC UNDER DESK ELLIPTICAL",
+      "category": "Ellipticals",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-eb02-l",
+      "model": "SF-EB02-L",
+      "file": "SF-EB02-L Final spec sheet 10182024.xlsx",
+      "sha256": "45c2231328b55dd8185da83e5c0d28fe182ec3e948422b8e281e372b541f2489",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-EB02-L"
+      },
+      "name": "PREMIUM YOGA BALL LARGE 75CM",
+      "category": "Essentials",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-eb02-m",
+      "model": "SF-EB02-M",
+      "file": "SF-EB02-M Final spec sheet 10182024.xlsx",
+      "sha256": "86fed212978dd949c6af4b25b60b0f4bb1b66800e7b4d43f77e36ad8bad609dd",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-EB02-M"
+      },
+      "name": "PREMIUM YOGA BALL MEDIUM 65CM",
+      "category": "Essentials",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-eb02-s",
+      "model": "SF-EB02-S",
+      "file": "SF-EB02-S Final spec sheet 10182024.xlsx",
+      "sha256": "74ad2a7b0b653bd421559a3322979a7a90f713723d5d0549da0cf4de336994ba",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-EB02-S"
+      },
+      "name": "PREMIUM YOGA BALL SMALL 55CM",
+      "category": "Essentials",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-eb03-4",
+      "model": "SF-EB03-4",
+      "file": "SF-EB03-4 ~30  Final spec sheet 07292024.xlsx",
+      "sha256": "3d56d851764c471b57e9e9bf16b8162a735cf03d6eb80b42ab789fe90d1a0da6",
+      "sheet": "4LB",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-EB03-4"
+      },
+      "name": "Medicine Ball 4LBS",
+      "category": "Weights",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-eb03-6",
+      "model": "SF-EB03-6",
+      "file": "SF-EB03-4 ~30  Final spec sheet 07292024.xlsx",
+      "sha256": "3d56d851764c471b57e9e9bf16b8162a735cf03d6eb80b42ab789fe90d1a0da6",
+      "sheet": "6LB",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-EB03-6"
+      },
+      "name": "Medicine Ball 6LBS",
+      "category": "Weights",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-eb03-8",
+      "model": "SF-EB03-8",
+      "file": "SF-EB03-4 ~30  Final spec sheet 07292024.xlsx",
+      "sha256": "3d56d851764c471b57e9e9bf16b8162a735cf03d6eb80b42ab789fe90d1a0da6",
+      "sheet": "8LB",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-EB03-8"
+      },
+      "name": "Medicine Ball 8LBS",
+      "category": "Weights",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-eb03-10",
+      "model": "SF-EB03-10",
+      "file": "SF-EB03-4 ~30  Final spec sheet 07292024.xlsx",
+      "sha256": "3d56d851764c471b57e9e9bf16b8162a735cf03d6eb80b42ab789fe90d1a0da6",
+      "sheet": "10LB",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-EB03-10"
+      },
+      "name": "Medicine Ball 10LBS",
+      "category": "Weights",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-eb03-12",
+      "model": "SF-EB03-12",
+      "file": "SF-EB03-4 ~30  Final spec sheet 07292024.xlsx",
+      "sha256": "3d56d851764c471b57e9e9bf16b8162a735cf03d6eb80b42ab789fe90d1a0da6",
+      "sheet": "12LB",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-EB03-12"
+      },
+      "name": "Medicine Ball 12LBS",
+      "category": "Weights",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-eb03-15",
+      "model": "SF-EB03-15",
+      "file": "SF-EB03-4 ~30  Final spec sheet 07292024.xlsx",
+      "sha256": "3d56d851764c471b57e9e9bf16b8162a735cf03d6eb80b42ab789fe90d1a0da6",
+      "sheet": "15LB",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-EB03-15"
+      },
+      "name": "Medicine Ball 15LBS",
+      "category": "Weights",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-eb03-20",
+      "model": "SF-EB03-20",
+      "file": "SF-EB03-4 ~30  Final spec sheet 07292024.xlsx",
+      "sha256": "3d56d851764c471b57e9e9bf16b8162a735cf03d6eb80b42ab789fe90d1a0da6",
+      "sheet": "20LB",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-EB03-20"
+      },
+      "name": "Medicine Ball 20LBS",
+      "category": "Weights",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-eb03-25",
+      "model": "SF-EB03-25",
+      "file": "SF-EB03-4 ~30  Final spec sheet 07292024.xlsx",
+      "sha256": "3d56d851764c471b57e9e9bf16b8162a735cf03d6eb80b42ab789fe90d1a0da6",
+      "sheet": "25LB",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-EB03-25"
+      },
+      "name": "Medicine Ball 25LBS",
+      "category": "Weights",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-eb03-30",
+      "model": "SF-EB03-30",
+      "file": "SF-EB03-4 ~30  Final spec sheet 07292024.xlsx",
+      "sha256": "3d56d851764c471b57e9e9bf16b8162a735cf03d6eb80b42ab789fe90d1a0da6",
+      "sheet": "30LB",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-EB03-30"
+      },
+      "name": "Medicine Ball 30LBS",
+      "category": "Weights",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-eb04-10",
+      "model": "SF-EB04-10",
+      "file": "SF-EB04-Slam Ball final spec sheet 20251110.xlsx",
+      "sha256": "ebc6461725ed9229d63b45f66a1dc63feacdd54983ad3262265ceae7126aba21",
+      "sheet": "SF-EB04-10",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-EB04-10"
+      },
+      "name": "SLAM BALL 10LBS",
+      "category": "Weights",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-eb04-15",
+      "model": "SF-EB04-15",
+      "file": "SF-EB04-Slam Ball final spec sheet 20251110.xlsx",
+      "sha256": "ebc6461725ed9229d63b45f66a1dc63feacdd54983ad3262265ceae7126aba21",
+      "sheet": "SF-EB04-15",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-EB04-15"
+      },
+      "name": "SLAM BALL 15LBS",
+      "category": "Weights",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-eb04-20",
+      "model": "SF-EB04-20",
+      "file": "SF-EB04-Slam Ball final spec sheet 20251110.xlsx",
+      "sha256": "ebc6461725ed9229d63b45f66a1dc63feacdd54983ad3262265ceae7126aba21",
+      "sheet": "SF-EB04-20",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-EB04-20"
+      },
+      "name": "SLAM BALL 20LBS",
+      "category": "Weights",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-eb04-25",
+      "model": "SF-EB04-25",
+      "file": "SF-EB04-Slam Ball final spec sheet 20251110.xlsx",
+      "sha256": "ebc6461725ed9229d63b45f66a1dc63feacdd54983ad3262265ceae7126aba21",
+      "sheet": "SF-EB04-25",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-EB04-25"
+      },
+      "name": "SLAM BALL 25LBS",
+      "category": "Weights",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-eb04-30",
+      "model": "SF-EB04-30",
+      "file": "SF-EB04-Slam Ball final spec sheet 20251110.xlsx",
+      "sha256": "ebc6461725ed9229d63b45f66a1dc63feacdd54983ad3262265ceae7126aba21",
+      "sheet": "SF-EB04-30",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-EB04-30"
+      },
+      "name": "SLAM BALL 30LB",
+      "category": "Weights",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-eb04-40",
+      "model": "SF-EB04-40",
+      "file": "SF-EB04-Slam Ball final spec sheet 20251110.xlsx",
+      "sha256": "ebc6461725ed9229d63b45f66a1dc63feacdd54983ad3262265ceae7126aba21",
+      "sheet": "SF-EB04-40",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-EB04-40"
+      },
+      "name": "SLAM BALL 40LBS",
+      "category": "Weights",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-eb04-50",
+      "model": "SF-EB04-50",
+      "file": "SF-EB04-Slam Ball final spec sheet 20251110.xlsx",
+      "sha256": "ebc6461725ed9229d63b45f66a1dc63feacdd54983ad3262265ceae7126aba21",
+      "sheet": "SF-EB04-50",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-EB04-50"
+      },
+      "name": "Slam Ball 50LBS",
+      "category": "Weights",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-em02-bu",
+      "model": "SF-EM02-BU",
+      "file": "SF-EM02-BU SPEC SHEET.xlsx",
+      "sha256": "e914694d9389abf9c4a48fc2de0bab6bf9daf26825e3501de49ed10bc57fa46c",
+      "sheet": "SF-BH623008",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-EM02-BU"
+      },
+      "name": "Anti-Slip Dual Color Exercise Yoga Mat (Blue)",
+      "category": "Essentials",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-em02-pr",
+      "model": "SF-EM02-PR",
+      "file": "SF-EM02-PR SPEC SHEET.xlsx",
+      "sha256": "556fe28f8b399c9957c6e8e47639d48896a4f31d6406e0eb22d4e67380f543be",
+      "sheet": "SF-BH623008",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-EM02-PR"
+      },
+      "name": "Anti-Slip Dual Color Exercise Yoga Mat (Purple)",
+      "category": "Essentials",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-em03-gy",
+      "model": "SF-EM03-GY",
+      "file": "SF-EM03-GY final spec sheet 06242024.xlsx",
+      "sha256": "49ac9724e9bebfcdfd6d4071819751c01319c949e2264d2b5c56ce30e6ab23fc",
+      "sheet": "SF-EM03-GY ",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-EM03-GY"
+      },
+      "name": "PREMIUM 1/2-INCH EXTRA THICK EXERCISE YOGA MAT - GREY",
+      "category": "Essentials",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-em03-pk",
+      "model": "SF-EM03-PK",
+      "file": "SF-EM03-PK final spec sheet 06242024.xlsx",
+      "sha256": "cf41d40151ce40e19a3b6282ece735a46d6c7fcb9d1dcc7dcf893f4552462d20",
+      "sheet": "SF-EM03-PK",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-EM03-PK"
+      },
+      "name": "PREMIUM 1/2-INCH EXTRA THICK EXERCISE YOGA MAT - PINK",
+      "category": "Essentials",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-gl01-s",
+      "model": "SF-GL01-S",
+      "file": "SF-GL01-S,ML,L,XL Spec Sheet Updated Final.xlsx",
+      "sha256": "9bbbd076105fb1927326818a709cdacc0f71cd791786ff7e3494ef809a4fc04c",
+      "sheet": "SF-GL01-S",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-GL01-S"
+      },
+      "name": "Weightlifting Glove - Small",
+      "category": "Essentials",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-gl01-m",
+      "model": "SF-GL01-M",
+      "file": "SF-GL01-S,ML,L,XL Spec Sheet Updated Final.xlsx",
+      "sha256": "9bbbd076105fb1927326818a709cdacc0f71cd791786ff7e3494ef809a4fc04c",
+      "sheet": "SF-GL01-M",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-GL01-M"
+      },
+      "name": "Weightlifting Glove - Medium",
+      "category": "Essentials",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-gl01-l",
+      "model": "SF-GL01-L",
+      "file": "SF-GL01-S,ML,L,XL Spec Sheet Updated Final.xlsx",
+      "sha256": "9bbbd076105fb1927326818a709cdacc0f71cd791786ff7e3494ef809a4fc04c",
+      "sheet": "SF-GL01-L",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-GL01-L"
+      },
+      "name": "Weightlifting Glove - Large",
+      "category": "Essentials",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-gl01-xl",
+      "model": "SF-GL01-XL",
+      "file": "SF-GL01-S,ML,L,XL Spec Sheet Updated Final.xlsx",
+      "sha256": "9bbbd076105fb1927326818a709cdacc0f71cd791786ff7e3494ef809a4fc04c",
+      "sheet": "SF-GL01-XL",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-GL01-XL"
+      },
+      "name": "Weightlifting Glove - X-Large",
+      "category": "Essentials",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-kb03-50",
+      "model": "SF-KB03-50",
+      "file": "SF-KB03-50 Final Spec Template dated 20260728.xlsx",
+      "sha256": "ad9b0ee0fae3c3a90c26280bfecbca62824be7b8436451e1236688ed9ed47514",
+      "sheet": "SF-KB03-50",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "SF-KB03-50"
+      },
+      "name": "KETTLEBELL SET 50LBS",
+      "category": "Weights",
+      "fieldsFilled": 14,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-ob01-16",
+      "model": "SF-OB01-16",
+      "file": "SF-OB01-16 final spec sheet 20250813.xlsx",
+      "sha256": "dbc4f14bf89d0fa2c406e60054d29d53659e66ed58d43f5286dcb2ea1862d477",
+      "sheet": "SF-OB01-16",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-OB01-16"
+      },
+      "name": "16\" OLYMPIC DUMBBELL HANDLES",
+      "category": "Weights",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-ob01-20",
+      "model": "SF-OB01-20",
+      "file": "SF-OB01-20 final spec sheet 20250813.xlsx",
+      "sha256": "72199156c5dc74b15b1ff69b9da4c30419c37f3dccdc7537d9d71c86bac070f1",
+      "sheet": "SF-OB01-20",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-OB01-20"
+      },
+      "name": "20\" OLYMPIC DUMBBELL HANDLES WITH RING COLLARS",
+      "category": "Weights",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-ob02-34",
+      "model": "SF-OB02-34",
+      "file": "SF-OB02-34 final spec sheet 20250813.xlsx",
+      "sha256": "c2063acdfdffe886d8080023833a488c236ad72ef744207914424db7edf69337",
+      "sheet": "SF-OB02-34",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-OB02-34"
+      },
+      "name": "34\" OLYMPIC TRICEP BAR WITH RING COLLARS",
+      "category": "Weights",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-ob03-47",
+      "model": "SF-OB03-47",
+      "file": "SF-OB03-47 final spec sheet 20250813.xlsx",
+      "sha256": "61005f4134b1b4e9f269570436f6e8423e3c3c4d29ab92303d167011f5c7b50d",
+      "sheet": "SF-OB03-47",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-OB03-47"
+      },
+      "name": "47\" OLYMPIC CURL BAR WITH RING COLLARS",
+      "category": "Weights",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-ob03-48",
+      "model": "SF-OB03-48",
+      "file": "SF-OB03-48 final spec sheet 20250813.xlsx",
+      "sha256": "13de612f9caaeccd7182c983875be45809c10f18941ef3397266cf440006bf8c",
+      "sheet": "SF-OB03-48",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-OB03-48"
+      },
+      "name": "48\" OLYMPIC SUPER CURL BAR WITH RING COLLARS",
+      "category": "Weights",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-ob04-60",
+      "model": "SF-OB04-60",
+      "file": "SF-OB04-60 final spec sheet 20250813.xlsx",
+      "sha256": "140a03b6fa1ffc94310183d7ab6ee99fd2611ec464a34cd1be56571fd5b10bd1",
+      "sheet": "SF-OB04-60",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-OB04-60"
+      },
+      "name": "60\" OLYMPIC BAR",
+      "category": "Weights",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-ob04-72",
+      "model": "SF-OB04-72",
+      "file": "SF-OB04-72 final spec sheet 20250813.xlsx",
+      "sha256": "43d6644c4958c2e0a3c6daf4f2ed9e16ecf57607a8aa5fc686926e1c5bf4298c",
+      "sheet": "SF-OB04-72",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-OB04-72"
+      },
+      "name": "72\" OLYMPIC BAR",
+      "category": "Weights",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-ob04-79",
+      "model": "SF-OB04-79",
+      "file": "SF-OB04-79 final spec sheet 20250813.xlsx",
+      "sha256": "2974302c5c76c77582d5aa33321867db4a2741c7f2b7a6002207a9d678534dd8",
+      "sheet": "SF-OB04-79",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-OB04-79"
+      },
+      "name": "79\" OLYMPIC BAR",
+      "category": "Weights",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-ob04-86-28",
+      "model": "SF-OB04-86-28",
+      "file": "SF-OB04-86-28 final spec sheet 20250813.xlsx",
+      "sha256": "ebe32b0bc72d645730018ba63d45c9ff9550a3afde2a07a42c9a899b31848a26",
+      "sheet": "SF-OB04-86-28",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-OB04-86-28"
+      },
+      "name": "86\" OLYMPIC BAR 28MM DIAMETER",
+      "category": "Weights",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-ob04-86-30",
+      "model": "SF-OB04-86-30",
+      "file": "SF-OB04-86-30 final spec sheet 20250813.xlsx",
+      "sha256": "46923c3320a6c1df7714be5e603ad727488ffc0e5d2805da378b642d89284684",
+      "sheet": "SF-OB04-86-30",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-OB04-86-30"
+      },
+      "name": "86\" OLYMPIC BAR 30MM DIAMETER",
+      "category": "Weights",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-op01-15",
+      "model": "SF-OP01-15",
+      "file": "SF-OP01-15 BUMPER PLATE  SPEC SHEET 2023-12-22.xlsx",
+      "sha256": "94a45351319b983b556bbfbc09b054b204d147da4b9ce9eff3d840fea17cfca2",
+      "sheet": "15LB",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-OP01-15"
+      },
+      "name": "ELITE 2-INCH RUBBER OLYMPIC WEIGHT PLATES 15-POUND (PAIR)",
+      "category": "Weights",
+      "fieldsFilled": 20,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-op01-25",
+      "model": "SF-OP01-25",
+      "file": "SF-OP01-25 BUMPER PLATE  SPEC SHEET 2023-12-22.xlsx",
+      "sha256": "dffafb0b88574544dfdb26726a6308b0800c3911d1027a0badee5fdfef4b81af",
+      "sheet": "25LB",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-OP01-25"
+      },
+      "name": "ELITE 2-INCH RUBBER OLYMPIC WEIGHT PLATES 25-POUND (PAIR)",
+      "category": "Weights",
+      "fieldsFilled": 20,
+      "notes": [
+        "The source form holds the title in the model cell and the SKU in the name cell; they are used accordingly."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-op01-35",
+      "model": "SF-OP01-35",
+      "file": "SF-OP01-35 BUMPER PLATE  SPEC SHEET 2023-12-22.xlsx",
+      "sha256": "8315b010b0f444948fbd4b6d5ba2655b895932529a131336aa3deff9fadf4043",
+      "sheet": "35LB",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-OP01-35"
+      },
+      "name": "ELITE 2-INCH RUBBER OLYMPIC WEIGHT PLATES 35-POUND",
+      "category": "Weights",
+      "fieldsFilled": 20,
+      "notes": [
+        "The source form holds the title in the model cell and the SKU in the name cell; they are used accordingly."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-op01-45",
+      "model": "SF-OP01-45",
+      "file": "SF-OP01-45 BUMPER PLATE  SPEC SHEET 2023-12-22.xlsx",
+      "sha256": "1cdee33386b76a7815282ee6b3266966610a985dcbb8c9f8b7848c56bc999341",
+      "sheet": "45LB ",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-OP01-45"
+      },
+      "name": "ELITE 2-INCH RUBBER OLYMPIC WEIGHT PLATES 45-POUND",
+      "category": "Weights",
+      "fieldsFilled": 20,
+      "notes": [
+        "The source form holds the title in the model cell and the SKU in the name cell; they are used accordingly."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-op01-55",
+      "model": "SF-OP01-55",
+      "file": "SF-OP01-55 BUMPER PLATE  SPEC SHEET 2023-12-22.xlsx",
+      "sha256": "49b8c0f35f6405474b160315f593be335f6f9ab144ad79cb56688093ecc8f921",
+      "sheet": "55LB",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-OP01-55"
+      },
+      "name": "ELITE 2-INCH RUBBER OLYMPIC WEIGHT PLATES 55-POUND",
+      "category": "Weights",
+      "fieldsFilled": 20,
+      "notes": [
+        "The source form holds the title in the model cell and the SKU in the name cell; they are used accordingly."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-rb420031",
+      "model": "SF-RB420031",
+      "file": "SF-RB420031 Final spec sheet 05232024.xlsx",
+      "sha256": "c626bd19ca34cc4b91889ec9d649424f67f3283f3532a104158eadadbcef6e1b",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-RB420031"
+      },
+      "name": "Performance Interactive Series Recumbent Bike",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 27,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rb421004",
+      "model": "SF-RB421004",
+      "file": "SF-RB421004 Spec Sheet 2023.12.25.xlsx",
+      "sha256": "7f9e52bf0b5e48b08461c7210009c4f0cba90af63e223ac87b9912be585ab9e2",
+      "sheet": "版本号v1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-RB421004"
+      },
+      "name": "ENDURANCE SERIES MAGNETIC RECUMBENT BIKE",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 15,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rb422003",
+      "model": "SF-RB422003",
+      "file": "SF-RB422003 spec sheet 12132023 updated.xlsx",
+      "sha256": "ec072b71a6efbd4f94e916cfbd01571cd3dbbedd005b51e3a70a8cf1327b883e",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-RB422003"
+      },
+      "name": "Essential Interactive Series Recumbent Bike",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 27,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rb422903",
+      "model": "SF-RB422903",
+      "file": "SF-RB422903 spec sheet 08192022.xlsx",
+      "sha256": "45e041db0d60871762f997a10b29c08e2a4f22ce0647661456f646567f0cecec",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-RB422903"
+      },
+      "name": "Essential Interactive Series Recumbent Bike",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rb423034",
+      "model": "SF-RB423034",
+      "file": "SF-RB423034 final spec sheet 11242023.xlsx",
+      "sha256": "de64d9fc777dce74eb929e2f8a53d35341a160259aca36b075318b45ef45817b",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-RB423034"
+      },
+      "name": "SMART MAGNETIC RECUMBENT BIKE WITH HAND CYCLE",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 21,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rb424002",
+      "model": "SF-RB424002",
+      "file": "SF-RB424002 final spec sheet 05202024.xlsx",
+      "sha256": "debb619468ca30fb3362b540681d1744e16e5beee11e5e1e01be50c9a1c22224",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-RB424002"
+      },
+      "name": "SMART HEAVY-DUTY MAGNETIC RECUMBENT EXERCISE BIKE WITH 350LB WEIGHT CAPACITY",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rw1205",
+      "model": "SF-RW1205",
+      "file": "SF-RW1205 SPEC SHEET 11032023.xlsx",
+      "sha256": "37fe80feaff887c6b70f44f6c7c7d4eea7faa96291ef7ac7519a1d64690fd9c9",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-RW1205"
+      },
+      "name": "ROWER MAHCINE",
+      "category": "Rowers",
+      "fieldsFilled": 25,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rw520083k",
+      "model": "SF-RW520083K",
+      "file": "SF-RW520083K Spec.sheet 2023-8-2.xlsx",
+      "sha256": "1de4394b1a85eedb5a83c062ee8eb995c12e1c41cd5404275510d87c55535970",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-RW520083K"
+      },
+      "name": "MAGNETIC ROWING MACHINE",
+      "category": "Rowers",
+      "fieldsFilled": 17,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rw522017blu",
+      "model": "SF-RW522017BLU",
+      "file": "SF-RW522017BLU Spec Sheet 10102022.xlsx",
+      "sha256": "d5717e1f7cbffed72cbf702f238283c2a889320e0aa95fc6d040442407078829",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-RW522017BLU"
+      },
+      "name": "HYDRO + DUAL RESISTANCE SMART MAGNETIC WATER ROWING MACHINE，BLUE",
+      "category": "Rowers",
+      "fieldsFilled": 19,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rw522017grn",
+      "model": "SF-RW522017GRN",
+      "file": "SF-RW522017GRN final Spec Sheet 09102025.xlsx",
+      "sha256": "488d449b7b0955bd0643dfe66e869ac664a8f9610a7838bd8eb74ed42eb7dfe3",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-RW522017GRN"
+      },
+      "name": "HYDRO+ DUAL RESISTANCE SMART MAGNETIC WATER ROWING MACHINE, GREEN",
+      "category": "Rowers",
+      "fieldsFilled": 49,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rw522073",
+      "model": "SF-RW522073",
+      "file": "SF-RW522073 spec sheet 20230202.xlsx",
+      "sha256": "29891b92dc6ae53e2d3b391c04e30f146f6ebd0e9d1d205b26d4d2f875d751ec",
+      "sheet": "SF-RW522073",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-RW522073"
+      },
+      "name": "Hydro Water Rowing Machine",
+      "category": "Rowers",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rw522074",
+      "model": "SF-RW522074",
+      "file": "SF-RW522074 spec sheet 20230202.xlsx",
+      "sha256": "3db252cb5aa7aa9ab90bd4838f230f2fc2866bf59d6764f072749443b034e28a",
+      "sheet": "SF-RW522074",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-RW522074"
+      },
+      "name": "Wooden Water Rowing Machine﻿",
+      "category": "Rowers",
+      "fieldsFilled": 24,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rw522075",
+      "model": "SF-RW522075",
+      "file": "SF-RW522075  spec sheet 20230216.xlsx",
+      "sha256": "e354a01dc14c1adca94aada176648508afc72baaf8711a5d6a9c6de5557011a1",
+      "sheet": "SF-RW522075",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-RW522075"
+      },
+      "name": "VERTICAL HYDRO WOODEN WATER ROWING MACHINE",
+      "category": "Rowers",
+      "fieldsFilled": 25,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rw524960",
+      "model": "SF-RW524960",
+      "file": "SF-RW524960 draft spec sheet 20250605.xlsx",
+      "sha256": "eceb0e588f067d1df23fb5dc9cceb6a74936d70f56d26771b837c277e757bc03",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-RW524960"
+      },
+      "name": "SMART COMPACT ADJUSTABLE ROWING MACHINE",
+      "category": "Rowers",
+      "fieldsFilled": 42,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rw5515",
+      "model": "SF-RW5515",
+      "file": "SF-RW5515 Spec.sheet 2023-7-31.xlsx",
+      "sha256": "7f764c41e16c87c1495548712f853f521bc9d62ab336540475c931706439d873",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-RW5515"
+      },
+      "name": "MAGNETIC ROWING MACHINE",
+      "category": "Rowers",
+      "fieldsFilled": 17,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rw5606",
+      "model": "SF-RW5606",
+      "file": "SF-RW5606 spec 2020.11.5.xlsx",
+      "sha256": "32dc8d4227308da87652d9d78f2b70bab90d7b5cee669d76f202a5461452ee8e",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-RW5606"
+      },
+      "name": "ELASTIC CORD ROWING MACHINE",
+      "category": "Rowers",
+      "fieldsFilled": 19,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rw5622",
+      "model": "SF-RW5622",
+      "file": "SF-RW5622 spec 2020.11.5.xlsx",
+      "sha256": "51e3c3ec64a2520fa9c1230b5b5f4f1055a40c5c8e0b6b65811d6a8808869d28",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-RW5622"
+      },
+      "name": "DUAL FUNCTION MAGNETIC ROWING MACHINE",
+      "category": "Rowers",
+      "fieldsFilled": 19,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rw5713",
+      "model": "SF-RW5713",
+      "file": "SF-RW5713 Specification 20180126.docx",
+      "sha256": "d45710626efe6e5a56505ce2a19070090c68da0910642c924cacf36e3cbc644a",
+      "sheet": "document",
+      "modelEvidence": {
+        "cell": "1:2",
+        "text": "SF-RW5713"
+      },
+      "name": "Obsidian Surge 500 m Water Rower",
+      "category": "Rowers",
+      "fieldsFilled": 11,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rw5801",
+      "model": "SF-RW5801",
+      "file": "SF-RW5801 Specification sheet - verified 11.15.xlsx",
+      "sha256": "52b47131312adf4ded83d744790b0199e3057a1672ec6d7cbba0ed77d279cd5f",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B2",
+        "text": "SF-RW5801"
+      },
+      "name": "Magnetic Rowing Machine",
+      "category": "Rowers",
+      "fieldsFilled": 12,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rw5856",
+      "model": "SF-RW5856",
+      "file": "SF-RW5856 Spec Sheet 10.09.2020.xlsx",
+      "sha256": "4eab69b680f27ce99bb98e02256e8e05796896ceb14978d3bd990c214b49eb20",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-RW5856"
+      },
+      "name": "FLYWHEEL ROWING MACHINE",
+      "category": "Rowers",
+      "fieldsFilled": 16,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rw5864-smart",
+      "model": "SF-RW5864 SMART",
+      "file": "SF-RW5864 SMART Spec Sheet update 04.11.2024.xlsx",
+      "sha256": "c8c021f4069e228026203fa7ffa39d1b86b1e723aa0ebec3dd360b8ff1953243",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-RW5864 SMART"
+      },
+      "name": "SMART Full Motion Magnetic Rowing Machine",
+      "category": "Rowers",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rw5910-smart",
+      "model": "SF-RW5910 SMART",
+      "file": "SF-RW5910 SMART final spec sheet 05242024.xlsx",
+      "sha256": "bf01ac1e49ae3c5de6623ed627bdd0cd2bc37d7679b1405c96fd01bf81034e2a",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-RW5910 SMART"
+      },
+      "name": "PHANTOM HYDRO SMART WATER ROWING MACHINE",
+      "category": "Rowers",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rw5910",
+      "model": "SF-RW5910",
+      "file": "SF-RW5910 Specificationsheet 20191125.xlsx",
+      "sha256": "423c450174ac36b517f90bc3dc2f7ca3a547ccb1cd4c756073fe9a7bd48cfce9",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-RW5910"
+      },
+      "name": "WATER ROWING MACHINE",
+      "category": "Rowers",
+      "fieldsFilled": 19,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rw5987",
+      "model": "SF-RW5987",
+      "file": "SF-RW5987 Spec Sheet 10132020.xlsx",
+      "sha256": "5f83fe0b51ed8557e56cb1e4ed4a6ff8392616bf581b9dc3a985ec61f4756d0a",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-RW5987"
+      },
+      "name": "CONVENIENT ROWING MACHINE",
+      "category": "Rowers",
+      "fieldsFilled": 16,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-s021001",
+      "model": "SF-S021001",
+      "file": "SF-S021001 FINAL SPEC SHEET 20240306 update.xlsx",
+      "sha256": "489245ff8de12c899d72f758768459e52926e4567deab5f3fb9d4cdf20c9960e",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-S021001"
+      },
+      "name": "Climber Stepper with Handlebar",
+      "category": "Steppers",
+      "fieldsFilled": 24,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-s023051",
+      "model": "SF-S023051",
+      "file": "SF-S023051 Final Spec dated 20260529.xlsx",
+      "sha256": "18b8180b8fa0e86291e99ffe4da2118ec694b01d17c809fbab47a319b7933e11",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-S023051"
+      },
+      "name": "Adjustable Curved Climber",
+      "category": "Steppers",
+      "fieldsFilled": 50,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-s023812",
+      "model": "SF-S023812",
+      "file": "SF-S023812 final spec 2026.2.27.xlsx",
+      "sha256": "2d7e9813ec65cd771ef143e2872ab7d3a1557584aab8bbfefa418fc9aac9634d",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-S023812"
+      },
+      "name": "SMART MINI STEPPER WITH EXERCISE BANDS",
+      "category": "Steppers",
+      "fieldsFilled": 50,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-s024035",
+      "model": "SF-S024035",
+      "file": "SF-S024035 final Spec 11.21.2024 - small.xlsx",
+      "sha256": "c2b09cac0b44b76af3147fc0e73d8b72d2d881e934a105f97b50ab3c8acedff3",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-S024035"
+      },
+      "name": "SMART FOLDABLE STAIR CLIMBER",
+      "category": "Steppers",
+      "fieldsFilled": 50,
+      "notes": [
+        "The source seatDimensions field does not label measurement units; retained as written."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-s024835",
+      "model": "SF-S024835",
+      "file": "SF-S024835 Final Spec 11042025.xlsx",
+      "sha256": "fb21d6f3826eb9c954576b2618c1cf66656fea21e871ea934bd16174beb21a20",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-S024835"
+      },
+      "name": "Smart Climber",
+      "category": "Steppers",
+      "fieldsFilled": 50,
+      "notes": [
+        "The source seatDimensions field does not label measurement units; retained as written."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-s025005",
+      "model": "SF-S025005",
+      "file": "SF-S025005 final spec 07092025.xlsx",
+      "sha256": "d62bb0422c40942f6f87cd964cbda9adc9fadde9d575ece956990299b9c1ec1a",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-S025005"
+      },
+      "name": "Smart Foldable Stair Climber with Resistance Bands",
+      "category": "Steppers",
+      "fieldsFilled": 50,
+      "notes": [
+        "The source seatDimensions field does not label measurement units; retained as written."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-s025025gy",
+      "model": "SF-S025025GY",
+      "file": "SF-S025025GY final spec 11.03.2025 update.xlsx",
+      "sha256": "92aba66c0dc89c1b7710659bab83eed28b698531973334df4d8227becb4d9734",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-S025025GY"
+      },
+      "name": "SMART & COMPACT STEP CLIMBER IN GREY",
+      "category": "Steppers",
+      "fieldsFilled": 50,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-s025025wt",
+      "model": "SF-S025025WT",
+      "file": "SF-S025025WT final spec 11.03.2025 update.xlsx",
+      "sha256": "6edb7fb8871902cad82a2ccff08ff980083a32ec41061313568b4eb76877088d",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-S025025WT"
+      },
+      "name": "SMART & COMPACT STEP CLIMBER IN WHITE",
+      "category": "Steppers",
+      "fieldsFilled": 50,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-sb01-14",
+      "model": "SF-SB01-14",
+      "file": "SF-SB01-14 final spec sheet 20250813.xlsx",
+      "sha256": "2c1b7f0c60cf8df9fad0e75b64777e4473b4bc9ce78a83f005aa9edc1a778be8",
+      "sheet": "SF-SB01-14",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-SB01-14"
+      },
+      "name": "14\" THREADED CHROME DUMBBELL BAR (PAIR)",
+      "category": "Weights",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-sb01-24",
+      "model": "SF-SB01-24",
+      "file": "SF-SB01-24 final spec sheet 20250813.xlsx",
+      "sha256": "c8aafdaf10b126efdc321bc28dde8632a67ebfa0460a9123f4de05977abe08a1",
+      "sheet": "SF-SB01-24",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-SB01-24"
+      },
+      "name": "24\" THREADED CHROME DUMBBELL BAR（PAIR）",
+      "category": "Weights",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-sb02-34",
+      "model": "SF-SB02-34",
+      "file": "SF-SB02-34 final spec sheet 20250813.xlsx",
+      "sha256": "23e69559ef02d76d13812fde26c42c8b79103eba40fd311ff49b77cf26aef7e1",
+      "sheet": "SF-SB02-34",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-SB02-34"
+      },
+      "name": "34\" THREADED CHROME BARBELL BAR",
+      "category": "Weights",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-sb03-47",
+      "model": "SF-SB03-47",
+      "file": "SF-SB03-47 final spec sheet 20250813.xlsx",
+      "sha256": "765061cf41d6b712ee70e25b989348b539f1f1bf13f29e5d7ca76def7102241a",
+      "sheet": "SF-SB03-47",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-SB03-47"
+      },
+      "name": "47\" THREADED CHROME CURL BAR",
+      "category": "Weights",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-sb04-60",
+      "model": "SF-SB04-60",
+      "file": "SF-SB04-60 final spec sheet 20250813.xlsx",
+      "sha256": "75a4f41b843f544acef97a65bbb58ea663ad7b0b8d589aaaf9f25aa9362de28d",
+      "sheet": "SF-SB04-60",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-SB04-60"
+      },
+      "name": "60\" THREADED CHROME BARBELL BAR",
+      "category": "Weights",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-sk025001",
+      "model": "SF-SK025001",
+      "file": "SF-SK025001 Final Spec dated 10.08.2026.xlsx",
+      "sha256": "66e6418b02e1ad9e602d57717b6d63418940f5fc30041888f77f5507c065ae23",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-SK025001"
+      },
+      "name": "Magnetic Ski Trainer Machine",
+      "category": "Essentials",
+      "fieldsFilled": 49,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-sk025801",
+      "model": "SF-SK025801",
+      "file": "SF-SK025801 Draft Spec dated 05.22.2026.xlsx",
+      "sha256": "eff7fc78759dc1510f4112856b7feae94a5e5c3d96c553584d22656eb2661dab",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-SK025801"
+      },
+      "name": "Magnetic Ski Trainer Machine",
+      "category": "Essentials",
+      "fieldsFilled": 48,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-t4400-smart",
+      "model": "SF-T4400 SMART",
+      "file": "SF-T4400 SMART final Spec Sheet 07182024.xlsx",
+      "sha256": "1aa0a5f56bfadb12d320e7b403db9ce301a3f1fd9073ac6a2d5d874a900df561",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-T4400 SMART"
+      },
+      "name": "MANUAL INCLINE SMART TREADMILL",
+      "category": "Treadmills",
+      "fieldsFilled": 34,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-t722051",
+      "model": "SF-T722051",
+      "file": "SF-T722051 Specification Sheet 2023-1-18.xlsx",
+      "sha256": "c5f9dc51a285732074a95a8cd6f01d32ace6fb6339183a9f4194275f574d8461",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-T722051"
+      },
+      "name": "Helius Lite Smart Brushless Motor Treadpad Treadmill",
+      "category": "Treadmills",
+      "fieldsFilled": 32,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-t722054",
+      "model": "SF-T722054",
+      "file": "SF-T722054 Spec Sheet 07202023.xlsx",
+      "sha256": "14df359b3a45b778f80dabae086ea68429bbb0dfb0c20f3b8f8611a780c0477e",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-T722054"
+      },
+      "name": "PEGASUS CONNECTED FOLDING TREADMILL",
+      "category": "Treadmills",
+      "fieldsFilled": 31,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-t724043",
+      "model": "SF-T724043",
+      "file": "SF-T724043 Treadmill draft Spec 20250731.xlsx",
+      "sha256": "d03a32289b128b8146ab06369c4ec12f6ce55c2e8cb9998c6bc27072e2590d22",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-T724043"
+      },
+      "name": "SMART TREADMILL",
+      "category": "Treadmills",
+      "fieldsFilled": 50,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-t724811",
+      "model": "SF-T724811",
+      "file": "SF-T724811 final spec sheet 05222025.xlsx",
+      "sha256": "19762e9a3f92f640ccc1293ac35ee900cad94fa065505ca94455600ebd8338ab",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-T724811"
+      },
+      "name": "SMART 16\" TREADMILL WITH ADJUSTABLE INCLINE W/ BLUETOOTH",
+      "category": "Treadmills",
+      "fieldsFilled": 54,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-t724943",
+      "model": "SF-T724943",
+      "file": "SF-T724943 Treadmill final Spec 20250820.xlsx",
+      "sha256": "71658c9564347384687c809092082b80b2beee34f6815f90a8d8d9b366edd08a",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-T724943"
+      },
+      "name": "SMART ELITE TL4 TREADMILL",
+      "category": "Treadmills",
+      "fieldsFilled": 53,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-t724964",
+      "model": "SF-T724964",
+      "file": "SF-T724964 final Treadmill Spec dated 20250806.xlsx",
+      "sha256": "1799b5a0badaa4d591924dd087a86c58ef2cd9ed15283f349b01fe028edd2faf",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-T724964"
+      },
+      "name": "SMART TP10 WI-FI TREADMILL",
+      "category": "Treadmills",
+      "fieldsFilled": 54,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-t724965",
+      "model": "SF-T724965",
+      "file": "SF-T724965 Treadmill final Spec dated 20250805 .xlsx",
+      "sha256": "f5bc633d30e2c38881d5f4cae2401ce0824e1e576e2ac2b3297574ef1c8ea26d",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-T724965"
+      },
+      "name": "SMART TP20 WI-FI TREADMILL",
+      "category": "Treadmills",
+      "fieldsFilled": 54,
+      "notes": []
+    }
+  ]
+}

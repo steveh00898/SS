@@ -1,0 +1,118 @@
+[
+  {
+    "sku": "NO.122",
+    "sourceFile": "NO. 122 Draft Spec 9.28.26.xlsx",
+    "reason": "No descriptive product name in the sheet; name and category not guessed."
+  },
+  {
+    "sku": "NO. 123",
+    "sourceFile": "NO. 123 draft spec 07302026.xlsx",
+    "reason": "No descriptive product name in the sheet; name and category not guessed."
+  },
+  {
+    "sku": "SF-A020052 SMART",
+    "sourceFile": "SF-A020052 SMART  SPEC SHEET 20240625.xlsx",
+    "reason": "No descriptive product name in the sheet; name and category not guessed."
+  },
+  {
+    "sourceFile": "SF-A023001 Specification Sheet 20230714.xlsx",
+    "reason": "No model number cell in the sheet."
+  },
+  {
+    "sourceFile": "SF-A026006 spec & force value list.xls",
+    "reason": "Legacy .xls not read in this batch; left for a later import."
+  },
+  {
+    "sku": "SF-A026020",
+    "sourceFile": "SF-A026020 draft Spec 07302026.xlsx",
+    "reason": "No descriptive product name in the sheet; name and category not guessed."
+  },
+  {
+    "sku": "SF-A026811",
+    "sourceFile": "SF-A026811 Draft Spec dated 20260702.xlsx",
+    "reason": "No descriptive product name in the sheet; name and category not guessed."
+  },
+  {
+    "sourceFile": "SF-B122050 Draft Spec Sheet 2022-8-1.xls",
+    "reason": "Legacy .xls not read in this batch; left for a later import."
+  },
+  {
+    "sku": "SF-B125071",
+    "sourceFile": "SF-B125071 draft spec sheet 20260729.xlsx",
+    "reason": "No descriptive product name in the sheet; name and category not guessed."
+  },
+  {
+    "sku": "SF-B222001",
+    "sourceFile": "SF-B222001 draft spec sheet 04142025.xlsx",
+    "reason": "No descriptive product name in the sheet; name and category not guessed."
+  },
+  {
+    "sku": "SF-E325094",
+    "sourceFile": "SF-E325094 draft Spec dated 9.17.2025.xlsx",
+    "reason": "No descriptive product name in the sheet; name and category not guessed."
+  },
+  {
+    "sku": "SF-E326015WT",
+    "sourceFile": "SF-E326015WT final spec sheet 20260817.xlsx",
+    "reason": "No descriptive product name in the sheet; name and category not guessed."
+  },
+  {
+    "sku": "SF-E3919 SMART",
+    "sourceFile": "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx",
+    "reason": "No descriptive product name in the sheet; name and category not guessed."
+  },
+  {
+    "sku": "SF-PM10-RB",
+    "sourceFile": "SF-PMA_01 final spec sheet 20260610.xlsx",
+    "reason": "Model cell does not match the filename; identity unclear."
+  },
+  {
+    "sku": "SF-RB425097",
+    "sourceFile": "SF-RB425097 draft spec sheet 20260330.xlsx",
+    "reason": "No descriptive product name in the sheet; name and category not guessed."
+  },
+  {
+    "sku": "SF-RW521020",
+    "sourceFile": "SF-RW521020 spec.sheet 10-8-2022.xlsx",
+    "reason": "No descriptive product name in the sheet; name and category not guessed."
+  },
+  {
+    "sku": "SF-RW522016",
+    "sourceFile": "SF-RW522016 spec.sheet (see note inside) 2023-7-31.xlsx",
+    "reason": "No descriptive product name in the sheet; name and category not guessed."
+  },
+  {
+    "sku": "SF-RW522816",
+    "sourceFile": "SF-RW522816 draft spec.sheet20220902.xlsx",
+    "reason": "No descriptive product name in the sheet; name and category not guessed."
+  },
+  {
+    "sku": "SF-RW524087",
+    "sourceFile": "SF-RW524087  Draft Rower Spec2025.02.12.xlsx",
+    "reason": "No descriptive product name in the sheet; name and category not guessed."
+  },
+  {
+    "sku": "SF-RW526003",
+    "sourceFile": "SF-RW526003 draft spec sheet 20260702.xlsx",
+    "reason": "No descriptive product name in the sheet; name and category not guessed."
+  },
+  {
+    "sku": "SF-RW526027",
+    "sourceFile": "SF-RW526027 draft Spec sheet 20261027.xlsx",
+    "reason": "No descriptive product name in the sheet; name and category not guessed."
+  },
+  {
+    "sku": "SF-S026037",
+    "sourceFile": "SF-S026037 draft spec.xlsx",
+    "reason": "No descriptive product name in the sheet; name and category not guessed."
+  },
+  {
+    "sourceFile": "SF-T1407M Specification sheet.xlsx",
+    "reason": "No model number cell in the sheet."
+  },
+  {
+    "sku": "SF-T722068",
+    "sourceFile": "SF-T722068 Draft Spec Sheet 2022-12-8.xlsx",
+    "reason": "No descriptive product name in the sheet; name and category not guessed."
+  }
+]

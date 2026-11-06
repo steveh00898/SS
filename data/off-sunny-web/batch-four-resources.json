@@ -1,0 +1,3180 @@
+[
+  {
+    "id": "off-sunny-sf-e321006",
+    "sku": "SF-E321006",
+    "sourceFile": "SF-E321006 Spec.sheet 2022.07.13 v2.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/power-stride-advanced-elliptical-machine-sf-e321006?variant=39996981936218",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e321006",
+    "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-E321006_manual.pdf?v=1680906438",
+    "assemblyUrl": "https://www.youtube.com/watch?v=OLYUGN0C6uM",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e321006-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e321006",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/SF-E321006_750x.webp?v=1749839673",
+      "region": "user-manual page product image",
+      "sha256": "6e093fb24a77bf736cac6bfe18f7f1a5bcfcf12d0adfd53ac62cad331d6a68c7"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-E321006"
+      },
+      {
+        "guideHeading": "SF-E321006: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      },
+      {
+        "videoTitle": "How to Assemble: SF-E321006 Power Stride Smart Electro-Magnetic Elliptical"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-e322002",
+    "sku": "SF-E322002",
+    "sourceFile": "SF-E322002 Spec sheet 08192022.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": null,
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e322002",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-E322002_Multi-Language_Manual_V2.6_06252024.pdf",
+    "assemblyUrl": "https://www.youtube.com/watch?v=pmbViZJ8BiU",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e322002-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e322002",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-ellipticals-essential-interactive-series-elliptical-SF-E322002-01_750x.jpg?v=1654546345",
+      "region": "user-manual page product image",
+      "sha256": "9156f21daf624756d30bed861496c81c2197211371cfe0bff7a7316a56346111"
+    },
+    "evidence": [
+      {
+        "guideHeading": "SF-E322002: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      },
+      {
+        "videoTitle": "How To Assemble: SF-E322002 Essentials Series Magnetic Smart Elliptical"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-e322804",
+    "sku": "SF-E322804",
+    "sourceFile": "SF-E322804 final spec sheet 20260430.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/essential-magnetic-resistance-2-in-1-cross-trainer-elliptical-bike-sf-e322804?variant=53700991484268",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e322804-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/essential-magnetic-resistance-2-in-1-cross-trainer-elliptical-bike-sf-e322804?variant=53700991484268",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-essential-magnetic-resistance-cross-trainer-elliptical-sf-E322804-cover.jpg?v=1777939629",
+      "region": "exact-variant product image",
+      "sha256": "2e4fe807920e98f9e8e7f223203790ac1d917c2eb66a97ea006c295e0ee51174"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-E322804"
+      },
+      {
+        "guideHeadingMismatch": "SF-E322804: Instruction Manuals & Assembly Guides",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e322804"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-e322902",
+    "sku": "SF-E322902",
+    "sourceFile": "SF-E322902 Spec sheet 08192022.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/essential-series-smart-magnetic-elliptical-with-exclusive-sunnyfit®-app-enhanced-bluetooth-connectivity-sf-e322902?variant=40127340085338",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e322902",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-E322902_Manual_V1.0_2022.7.18.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e322902-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e322902",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/SUNNY-_1_917f2179-7241-4f68-a004-1f1ca8e0f186_750x.jpg?v=1666131346",
+      "region": "user-manual page product image",
+      "sha256": "6582e664804d9f913e908818aedcb3b982f57ca25eb7a79bcb0068f4bd995ac1"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-E322902"
+      },
+      {
+        "guideHeading": "SF-E322902: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-e323050",
+    "sku": "SF-E323050",
+    "sourceFile": "SF-E323050 final spec sheet 05202024.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": null,
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e323050-batch4-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageEvidence": {
+      "sourceFile": "SF-E323050 final spec sheet 05202024.xlsx",
+      "sheet": "Sheet1",
+      "object": "xl/media/image6.png",
+      "otherObjects": [
+        "xl/media/image6.png",
+        "xl/media/image1.png",
+        "xl/media/image2.png",
+        "xl/media/image3.png",
+        "xl/media/image5.png"
+      ],
+      "sha256": "6a182bb6d631735e4f20ee8f0003c8413b0a6b8b3ac8477448d3a4f14d275c1d",
+      "selection": "Chosen on visual review; larger sheet image was a console close-up or dimension drawing"
+    },
+    "evidence": [
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e323050",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-e323055",
+    "sku": "SF-E323055",
+    "sourceFile": "SF-E323055 final spec sheet 07042024.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": null,
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e323055-batch4-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageEvidence": {
+      "sourceFile": "SF-E323055 final spec sheet 07042024.xlsx",
+      "sheet": "Sheet1",
+      "object": "xl/media/image6.png",
+      "otherObjects": [
+        "xl/media/image8.png",
+        "xl/media/image7.png",
+        "xl/media/image1.png",
+        "xl/media/image2.png",
+        "xl/media/image9.png"
+      ],
+      "sha256": "bfea7ef07ae1992b846b655eb423afb407954cbf0fae03f468e7cd69d5888131"
+    },
+    "evidence": [
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e323055",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-e326015-gy",
+    "sku": "SF-E326015-GY",
+    "sourceFile": "SF-E326015GY final spec sheet 20260817.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": null,
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e326015-gy",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-E326015GY_Manual_EN_V1.0_20260707.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e326015-gy-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e326015-gy",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/SF-E326015GY_750x.png?v=1781644541",
+      "region": "user-manual page product image",
+      "sha256": "8eacf44467cca9874d5481f470cd1fdd32e30d754b7c49d4e3ca8ad263c2b760"
+    },
+    "evidence": [
+      {
+        "guideHeading": "SF-E326015GY: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-e3810",
+    "sku": "SF-E3810",
+    "sourceFile": "SF-E3810 specification sheet.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-sf-e3810-magnetic-elliptical-trainer-elliptical-machine-w-tablet-holder-lcd-monitor-and-heart-rate-monitoring?variant=16470597763162",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3810",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-E3810_manual_version_3.2_2020.10.9.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e3810-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3810",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-ellipticals-magnetic-elliptical-trainer-elliptical-machine-tablet-holder-LCD-monitor-and-heart-rate-monitor-SF-E3810-01_750x.jpg?v=1590770139",
+      "region": "user-manual page product image",
+      "sha256": "3478b2faa8596e05945b17fd47f9d4bb8ba17a060e08a3d3e0d2af30f0d5bd4f"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-E3810"
+      },
+      {
+        "guideHeading": "SF-E3810: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-e3865",
+    "sku": "SF-E3865",
+    "sourceFile": "SF-E3865 specification sheet.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-sf-e3865-magnetic-elliptical-trainer-elliptical-machine-w-lcd-monitor-and-heart-rate-monitoring-stride-zone?variant=16470597828698",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3865",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-E3865_manual_V1.5_2.15.2022.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e3865-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3865",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-ellipticals-magnetic-elliptical-machine-tablet-holder-LCD-monitor-heart-rate-monitoring-stride-zone-SF-E3865-01_750x.jpg?v=1590768670",
+      "region": "user-manual page product image",
+      "sha256": "f1d169f4c66441ec4c3da8dc30b22d1dc35eb34ebc4aa169d6777496f531185d"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-E3865"
+      },
+      {
+        "guideHeading": "SF-E3865: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-e3872-smart",
+    "sku": "SF-E3872 SMART",
+    "sourceFile": "SF-E3872 SMART  SPEC SHEET 20240529.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/smart-magnetic-under-desk-elliptical-peddler-exerciser-sf-e3872smart?variant=53111183147372",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3872smart",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-E3872SMART_EN_20251007_V1.4.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e3872-smart-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3872smart",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/SF-E3872SMART-8_750x.jpg?v=1769451144",
+      "region": "user-manual page product image",
+      "sha256": "1eb4d708549dd7e3aeed57ad6252c1f50940ba8602c48a0b39478c0c7625a3c8"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-E3872SMART"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3872-smart",
+        "status": 404
+      },
+      {
+        "guideHeading": "SF-E3872SMART: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-eb02-l",
+    "sku": "SF-EB02-L",
+    "sourceFile": "SF-EB02-L Final spec sheet 10182024.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/exercise-ball-sf-eb02?variant=52657533157740",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-eb02-l-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/exercise-ball-sf-eb02?variant=52657533157740",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/1-sunny-health-fitness-L-exercise-ball-sf-eb02.jpg?v=1785257333",
+      "region": "exact-variant product image",
+      "sha256": "08c40c41b3b8fbd9e64988f285c15e2cf1c4a674ab84cbd647ba8ebc1432152a"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-EB02-L"
+      },
+      {
+        "guideHeadingMismatch": "SF-EB02: User Manual & Assembly Guides",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-eb02-l"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-eb02-m",
+    "sku": "SF-EB02-M",
+    "sourceFile": "SF-EB02-M Final spec sheet 10182024.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/exercise-ball-sf-eb02?variant=52657533124972",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-eb02-m-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/exercise-ball-sf-eb02?variant=52657533124972",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/1-sunny-health-fitness-M-exercise-ball-sf-eb02.jpg?v=1785257333",
+      "region": "exact-variant product image",
+      "sha256": "ab99340c117c39c748b2ccfb606f1a8d2a8cb7e313c84c2c8ad9842311ce5e6e"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-EB02-M"
+      },
+      {
+        "guideHeadingMismatch": "SF-EB02: User Manual & Assembly Guides",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-eb02-m"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-eb02-s",
+    "sku": "SF-EB02-S",
+    "sourceFile": "SF-EB02-S Final spec sheet 10182024.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/exercise-ball-sf-eb02?variant=52657533092204",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-eb02-s-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/exercise-ball-sf-eb02?variant=52657533092204",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/1-sunny-health-fitness-S-exercise-ball-sf-eb02.jpg?v=1785257333",
+      "region": "exact-variant product image",
+      "sha256": "8da7f5c09977bb0f8daeb248462e2386d7841496193c3678faf6025588d821dd"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-EB02-S"
+      },
+      {
+        "guideHeadingMismatch": "SF-EB02: User Manual & Assembly Guides",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-eb02-s"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-eb03-4",
+    "sku": "SF-EB03-4",
+    "sourceFile": "SF-EB03-4 ~30  Final spec sheet 07292024.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/medicine-ball-4-30-lb-sf-eb03?variant=51891396706668",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-eb03-4-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/medicine-ball-4-30-lb-sf-eb03?variant=51891396706668",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-Accessory-SF-EB03-4-MEDICINE-BALL-shopify_shopify_-_product_only_01.jpg?v=1745272249",
+      "region": "exact-variant product image",
+      "sha256": "cab04fc40f43299d9eeb9e351632712bf893c6a117477998519e007d199ba77a"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-EB03-4"
+      },
+      {
+        "guideHeadingMismatch": "SF-EB03: User Manual & Assembly Guides",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-eb03-4"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-eb03-6",
+    "sku": "SF-EB03-6",
+    "sourceFile": "SF-EB03-4 ~30  Final spec sheet 07292024.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/medicine-ball-4-30-lb-sf-eb03?variant=51891396739436",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-eb03-6-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/medicine-ball-4-30-lb-sf-eb03?variant=51891396739436",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-Accessory-SF-EB03-6-MEDICINE-BALL-shopify_shopify_-_product_only_02_3f00dc98-0101-4126-838f-de65a48e005c.jpg?v=1745272249",
+      "region": "exact-variant product image",
+      "sha256": "04b3fc146013b523271a9b824246adf48189ea3f3773a2f713978278ca556ff8"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-EB03-6"
+      },
+      {
+        "guideHeadingMismatch": "SF-EB03: User Manual & Assembly Guides",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-eb03-6"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-eb03-8",
+    "sku": "SF-EB03-8",
+    "sourceFile": "SF-EB03-4 ~30  Final spec sheet 07292024.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/medicine-ball-4-30-lb-sf-eb03?variant=51891396772204",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-eb03-8-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/medicine-ball-4-30-lb-sf-eb03?variant=51891396772204",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-Accessory-SF-EB03-8-MEDICINE-BALL-shopify_shopify_-_product_only03.jpg?v=1745272249",
+      "region": "exact-variant product image",
+      "sha256": "9c8e3b9df35afe7e861347d0551e47b2f362f95496fbba49a281fc94d6b5b86f"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-EB03-8"
+      },
+      {
+        "guideHeadingMismatch": "SF-EB03: User Manual & Assembly Guides",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-eb03-8"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-eb03-10",
+    "sku": "SF-EB03-10",
+    "sourceFile": "SF-EB03-4 ~30  Final spec sheet 07292024.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/medicine-ball-4-30-lb-sf-eb03?variant=51891396804972",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-eb03-10-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/medicine-ball-4-30-lb-sf-eb03?variant=51891396804972",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-Accessory-SF-EB03-10-MEDICINE-BALL-shopify_shopify_-_product_only_04.jpg?v=1745272249",
+      "region": "exact-variant product image",
+      "sha256": "4384f33a4fbde47883b95c2b370a58f35f8cd87c771f15c7a2bb95574ae0adaa"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-EB03-10"
+      },
+      {
+        "guideHeadingMismatch": "SF-EB03: User Manual & Assembly Guides",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-eb03-10"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-eb03-12",
+    "sku": "SF-EB03-12",
+    "sourceFile": "SF-EB03-4 ~30  Final spec sheet 07292024.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/medicine-ball-4-30-lb-sf-eb03?variant=51891396837740",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-eb03-12-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/medicine-ball-4-30-lb-sf-eb03?variant=51891396837740",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-Accessory-SF-EB03-12-MEDICINE-BALL-shopify_shopify_-_product_only_05.jpg?v=1745272249",
+      "region": "exact-variant product image",
+      "sha256": "7988452fca5c89bad95646d665e08e352223d4cdd14920cf9782522e02276f03"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-EB03-12"
+      },
+      {
+        "guideHeadingMismatch": "SF-EB03: User Manual & Assembly Guides",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-eb03-12"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-eb03-15",
+    "sku": "SF-EB03-15",
+    "sourceFile": "SF-EB03-4 ~30  Final spec sheet 07292024.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/medicine-ball-4-30-lb-sf-eb03?variant=51891396870508",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-eb03-15-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/medicine-ball-4-30-lb-sf-eb03?variant=51891396870508",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-Accessory-SF-EB03-15-MEDICINE-BALL-shopify_shopify_-_product_only_06.jpg?v=1745272249",
+      "region": "exact-variant product image",
+      "sha256": "32cbfbab4d3588a48c1ee354d57c7258553be956a74f22ba92ced2758ac779b0"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-EB03-15"
+      },
+      {
+        "guideHeadingMismatch": "SF-EB03: User Manual & Assembly Guides",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-eb03-15"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-eb03-20",
+    "sku": "SF-EB03-20",
+    "sourceFile": "SF-EB03-4 ~30  Final spec sheet 07292024.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/medicine-ball-4-30-lb-sf-eb03?variant=51891396903276",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-eb03-20-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/medicine-ball-4-30-lb-sf-eb03?variant=51891396903276",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-Accessory-SF-EB03-20-MEDICINE-BALL-shopify_shopify_-_product_only_07.jpg?v=1745272249",
+      "region": "exact-variant product image",
+      "sha256": "42586387b0363d833f0fb9f979e36128f479ce6a0f8c4020db6cda805c040ada"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-EB03-20"
+      },
+      {
+        "guideHeadingMismatch": "SF-EB03: User Manual & Assembly Guides",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-eb03-20"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-eb03-25",
+    "sku": "SF-EB03-25",
+    "sourceFile": "SF-EB03-4 ~30  Final spec sheet 07292024.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/medicine-ball-4-30-lb-sf-eb03?variant=51891396936044",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-eb03-25-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/medicine-ball-4-30-lb-sf-eb03?variant=51891396936044",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-Accessory-SF-EB03-25-MEDICINE-BALL-shopify_shopify_-_product_only_08.jpg?v=1745272249",
+      "region": "exact-variant product image",
+      "sha256": "4b2f24b2b1a71ef4b03d2dca52ae93c5cd98cd140eea99b1e088a4763001ecf6"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-EB03-25"
+      },
+      {
+        "guideHeadingMismatch": "SF-EB03: User Manual & Assembly Guides",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-eb03-25"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-eb03-30",
+    "sku": "SF-EB03-30",
+    "sourceFile": "SF-EB03-4 ~30  Final spec sheet 07292024.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/medicine-ball-4-30-lb-sf-eb03?variant=51891396968812",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-eb03-30-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/medicine-ball-4-30-lb-sf-eb03?variant=51891396968812",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-Accessory-SF-EB03-30-MEDICINE-BALL-shopify_shopify_-_product_only_09.jpg?v=1745272249",
+      "region": "exact-variant product image",
+      "sha256": "1a4c8e8172c6812c7a3042e58097d98e3ffed7424568f120f936b234d10a83ea"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-EB03-30"
+      },
+      {
+        "guideHeadingMismatch": "SF-EB03: User Manual & Assembly Guides",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-eb03-30"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-eb04-10",
+    "sku": "SF-EB04-10",
+    "sourceFile": "SF-EB04-Slam Ball final spec sheet 20251110.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/slam-balls-strength-training-sf-eb04?variant=52646452756844",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-eb04-10-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/slam-balls-strength-training-sf-eb04?variant=52646452756844",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/Sunny_Health_Fitness_Slam_Ball_10LBS_-_SF-EB04-10_9c9fe18c-fd86-4352-b91d-15813654c22e.jpg?v=1763578018",
+      "region": "exact-variant product image",
+      "sha256": "701650058f3aacc2e8e2f83bf3d9b0b8dcc759139766593220b6975c04c53df4"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-EB04-10"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-eb04-10",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-eb04-15",
+    "sku": "SF-EB04-15",
+    "sourceFile": "SF-EB04-Slam Ball final spec sheet 20251110.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/slam-balls-strength-training-sf-eb04?variant=52646452822380",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-eb04-15-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/slam-balls-strength-training-sf-eb04?variant=52646452822380",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/Sunny_Health_Fitness_Slam_Ball_15LBS_-_SF-EB04-15_df92cf2c-0078-4f51-b22f-59dff841dce7.jpg?v=1763578018",
+      "region": "exact-variant product image",
+      "sha256": "0e7419ab9f5658d4d69023810fc67079eeb88514cc7d76e07a70980c99f37db1"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-EB04-15"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-eb04-15",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-eb04-20",
+    "sku": "SF-EB04-20",
+    "sourceFile": "SF-EB04-Slam Ball final spec sheet 20251110.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/slam-balls-strength-training-sf-eb04?variant=52646452855148",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-eb04-20-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/slam-balls-strength-training-sf-eb04?variant=52646452855148",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/Sunny_Health_Fitness_Slam_Ball_20LBS_-_SF-EB04-20_a737323b-a5d3-4306-b41e-6946509953c0.jpg?v=1763578018",
+      "region": "exact-variant product image",
+      "sha256": "57f22cd0b4e8560a0bef8c3d7494e05fcf8570d05261b61370d73d30af61bf05"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-EB04-20"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-eb04-20",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-eb04-25",
+    "sku": "SF-EB04-25",
+    "sourceFile": "SF-EB04-Slam Ball final spec sheet 20251110.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/slam-balls-strength-training-sf-eb04?variant=52646452887916",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-eb04-25-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/slam-balls-strength-training-sf-eb04?variant=52646452887916",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/Sunny_Health_Fitness_Slam_Ball_25LBS_-_SF-EB04-25_4dbaa607-c267-4a6e-b57f-9e256ccddd31.jpg?v=1763578018",
+      "region": "exact-variant product image",
+      "sha256": "9130b6d236029a7b000575745e4a4b1fa89908f102f5274190807eb3c223393e"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-EB04-25"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-eb04-25",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-eb04-30",
+    "sku": "SF-EB04-30",
+    "sourceFile": "SF-EB04-Slam Ball final spec sheet 20251110.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/slam-balls-strength-training-sf-eb04?variant=52646452920684",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-eb04-30-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/slam-balls-strength-training-sf-eb04?variant=52646452920684",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/Sunny_Health_Fitness_Slam_Ball_30LBS_-_SF-EB04-30_5a127da5-1153-42cd-a709-5fbf32a3db97.jpg?v=1763578018",
+      "region": "exact-variant product image",
+      "sha256": "ae10f19943f1c0b7bc5616c99aa02ca2a2b5f573c1df7e2148228634e1debdbb"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-EB04-30"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-eb04-30",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-eb04-40",
+    "sku": "SF-EB04-40",
+    "sourceFile": "SF-EB04-Slam Ball final spec sheet 20251110.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/slam-balls-strength-training-sf-eb04?variant=52646477398380",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-eb04-40-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/slam-balls-strength-training-sf-eb04?variant=52646477398380",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/Sunny_Health_Fitness_Slam_Ball_40LBS_-_SF-EB04-40_ae2319aa-7253-4e69-ad87-55a5d92f1ebe.jpg?v=1763578018",
+      "region": "exact-variant product image",
+      "sha256": "bc1d91f6ec8a0da6cfc94cfe2c1abee7830eacf8ff7405273e446332395b5587"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-EB04-40"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-eb04-40",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-eb04-50",
+    "sku": "SF-EB04-50",
+    "sourceFile": "SF-EB04-Slam Ball final spec sheet 20251110.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/slam-balls-strength-training-sf-eb04?variant=52646477431148",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-eb04-50-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/slam-balls-strength-training-sf-eb04?variant=52646477431148",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/Sunny_Health_Fitness_Slam_Ball_50LBS_-_SF-EB04-50_b4fdd8a6-375d-42aa-9050-132151723f18.jpg?v=1763578018",
+      "region": "exact-variant product image",
+      "sha256": "9806fd4f42dac2fa1284c0635a5cc5c285cec1084a2f93bab6d0ab8ca593170c"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-EB04-50"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-eb04-50",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-em02-bu",
+    "sku": "SF-EM02-BU",
+    "sourceFile": "SF-EM02-BU SPEC SHEET.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/exercise-yoga-mat-anti-slip-dual-color-sf-em02?variant=51981471547756",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-em02-bu-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/exercise-yoga-mat-anti-slip-dual-color-sf-em02?variant=51981471547756",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-accessories-yoga-mat-sf-em02-bu-01.jpg?v=1745008225",
+      "region": "exact-variant product image",
+      "sha256": "9fc994d34632cc2d03925378f26c0e02f86f4539f668ab358572b5139c76eaa8"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-EM02-BU"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-em02-bu",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-em02-pr",
+    "sku": "SF-EM02-PR",
+    "sourceFile": "SF-EM02-PR SPEC SHEET.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/exercise-yoga-mat-anti-slip-dual-color-sf-em02?variant=51981471514988",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-em02-pr-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/exercise-yoga-mat-anti-slip-dual-color-sf-em02?variant=51981471514988",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-accessories-yoga-mat-sf-em02-pr-01.jpg?v=1745008225",
+      "region": "exact-variant product image",
+      "sha256": "4f1994b78913c4efdff219fec33b1071820e729ffadc993de3913a3bfcca4882"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-EM02-PR"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-em02-pr",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-em03-gy",
+    "sku": "SF-EM03-GY",
+    "sourceFile": "SF-EM03-GY final spec sheet 06242024.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/premium-extra-thick-exercise-yoga-mat-1-2-inch-sf-em03?variant=41418697506906",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-em03-gy",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-EM03-GY-12-28.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-em03-gy-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-em03-gy",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/1-sunny-health-fitness-premium-extra-thick-exercise-yoga-mat-blue-sf-em03-gy_750x.jpg?v=1740525793",
+      "region": "user-manual page product image",
+      "sha256": "c45b5aae2cca1427845530dd2d2b6834363994c1b02f6644a74ece3b8c7381f0"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-EM03-GY"
+      },
+      {
+        "guideHeading": "SF-EM03-GY: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-em03-pk",
+    "sku": "SF-EM03-PK",
+    "sourceFile": "SF-EM03-PK final spec sheet 06242024.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/premium-extra-thick-exercise-yoga-mat-1-2-inch-sf-em03?variant=41418697539674",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-em03-pk",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-EM03-PK-12-28.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-em03-pk-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-em03-pk",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/1-sunny-health-fitness-premium-extra-thick-exercise-yoga-mat-blue-sf-em03-pk_750x.jpg?v=1740525793",
+      "region": "user-manual page product image",
+      "sha256": "cd8cebee03c1433e9be4b0f1b358e2200d24c7491b144e58c1c5e45c9c98012b"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-EM03-PK"
+      },
+      {
+        "guideHeading": "SF-EM03-PK: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-gl01-s",
+    "sku": "SF-GL01-S",
+    "sourceFile": "SF-GL01-S,ML,L,XL Spec Sheet Updated Final.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/weightlifting-gloves-sf-gl01?variant=53926379192684",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-gl01-s-batch4-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageEvidence": {
+      "sourceFile": "SF-GL01-S,ML,L,XL Spec Sheet Updated Final.xlsx",
+      "sheet": "SF-GL01-S",
+      "object": "xl/media/image1.jpeg",
+      "otherObjects": [],
+      "sha256": "3d3c414c3ae7da0c55be4590eedb4ed1cf6ea7915eac0bf687e9ee5dd8935c23",
+      "selection": "The workbook has one glove photo shared by all sizes"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-GL01-S"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-gl01-s",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-gl01-m",
+    "sku": "SF-GL01-M",
+    "sourceFile": "SF-GL01-S,ML,L,XL Spec Sheet Updated Final.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/weightlifting-gloves-sf-gl01?variant=53926379225452",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-gl01-m-batch4-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageEvidence": {
+      "sourceFile": "SF-GL01-S,ML,L,XL Spec Sheet Updated Final.xlsx",
+      "sheet": "SF-GL01-M",
+      "object": "xl/media/image1.jpeg",
+      "otherObjects": [],
+      "sha256": "3d3c414c3ae7da0c55be4590eedb4ed1cf6ea7915eac0bf687e9ee5dd8935c23",
+      "selection": "The workbook has one glove photo shared by all sizes"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-GL01-M"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-gl01-m",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-gl01-l",
+    "sku": "SF-GL01-L",
+    "sourceFile": "SF-GL01-S,ML,L,XL Spec Sheet Updated Final.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/weightlifting-gloves-sf-gl01?variant=53926379258220",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-gl01-l-batch4-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageEvidence": {
+      "sourceFile": "SF-GL01-S,ML,L,XL Spec Sheet Updated Final.xlsx",
+      "sheet": "SF-GL01-L",
+      "object": "xl/media/image1.jpeg",
+      "otherObjects": [],
+      "sha256": "3d3c414c3ae7da0c55be4590eedb4ed1cf6ea7915eac0bf687e9ee5dd8935c23",
+      "selection": "The workbook has one glove photo shared by all sizes"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-GL01-L"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-gl01-l",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-gl01-xl",
+    "sku": "SF-GL01-XL",
+    "sourceFile": "SF-GL01-S,ML,L,XL Spec Sheet Updated Final.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/weightlifting-gloves-sf-gl01?variant=53926379290988",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-gl01-xl-batch4-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageEvidence": {
+      "sourceFile": "SF-GL01-S,ML,L,XL Spec Sheet Updated Final.xlsx",
+      "sheet": "SF-GL01-XL",
+      "object": "xl/media/image1.jpeg",
+      "otherObjects": [],
+      "sha256": "3d3c414c3ae7da0c55be4590eedb4ed1cf6ea7915eac0bf687e9ee5dd8935c23",
+      "selection": "The workbook has one glove photo shared by all sizes"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-GL01-XL"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-gl01-xl",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-kb03-50",
+    "sku": "SF-KB03-50",
+    "sourceFile": "SF-KB03-50 Final Spec Template dated 20260728.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/50-lbs-kettlebell-set-for-full-body-strength-training-sf-kb03-50?variant=67716545446252",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-kb03-50-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/50-lbs-kettlebell-set-for-full-body-strength-training-sf-kb03-50?variant=67716545446252",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/1-sunny-health-fitness-50-lbs-kettlebell-set-sf-kb03-50.jpg?v=1792015130",
+      "region": "exact-variant product image",
+      "sha256": "eefefe37893b7c982a5c2c8a99e987209e80df58bc31757c9445e31844d3911a"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-KB03-50"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-kb03-50",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-ob01-16",
+    "sku": "SF-OB01-16",
+    "sourceFile": "SF-OB01-16 final spec sheet 20250813.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/olympic-dumbbell-bar-series-sf-ob01?variant=52741180490092",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-ob01-16-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/olympic-dumbbell-bar-series-sf-ob01?variant=52741180490092",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-16-inch-olympic-dumbbell.jpg?v=1774549671",
+      "region": "exact-variant product image",
+      "sha256": "58bd17c85a4187a8f8ddd9966fb8882f0b5ef06b751ad46ae34817645d7ec839"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-OB01-16"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-ob01-16",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-ob01-20",
+    "sku": "SF-OB01-20",
+    "sourceFile": "SF-OB01-20 final spec sheet 20250813.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/olympic-dumbbell-bar-series-sf-ob01?variant=52741180522860",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-ob01-20-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/olympic-dumbbell-bar-series-sf-ob01?variant=52741180522860",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/1-Sunny-Health-Fitness-SF-OB01-20-1200x1200_6ac108b2-4987-492f-b0bb-fa1d7c742ca9.jpg?v=1774549671",
+      "region": "exact-variant product image",
+      "sha256": "ea59bda07cea05b2be7294776987c3ca6d4181255a11ee0400c5a132b091ed0e"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-OB01-20"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-ob01-20",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-ob02-34",
+    "sku": "SF-OB02-34",
+    "sourceFile": "SF-OB02-34 final spec sheet 20250813.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/34-olympic-tricep-bar-sf-ob02-34?variant=52740445503852",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-ob02-34-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/34-olympic-tricep-bar-sf-ob02-34?variant=52740445503852",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-olympic-tricep-bar-spin-lock-collars-1.jpg?v=1782946702",
+      "region": "exact-variant product image",
+      "sha256": "0b03487ea78d77a51173104a40533e0d9326e020e3945a26fe0aebf1211497e7"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-OB02-34"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-ob02-34",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-ob03-47",
+    "sku": "SF-OB03-47",
+    "sourceFile": "SF-OB03-47 final spec sheet 20250813.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/olympic-curl-bar-series-sf-ob03?variant=52743820935532",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-ob03-47-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/olympic-curl-bar-series-sf-ob03?variant=52743820935532",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-olympic-curl-bar-barbell-sf-OB03-47-1.jpg?v=1775173536",
+      "region": "exact-variant product image",
+      "sha256": "ff554ebf049d22d6e7560463ca9f74b15713c036f443e502ee32a6ff23951801"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-OB03-47"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-ob03-47",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-ob03-48",
+    "sku": "SF-OB03-48",
+    "sourceFile": "SF-OB03-48 final spec sheet 20250813.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/olympic-curl-bar-series-sf-ob03?variant=52743820968300",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-ob03-48-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/olympic-curl-bar-series-sf-ob03?variant=52743820968300",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-olympic-curl-bar-barbell-sf-OB03-48-1.jpg?v=1775173732",
+      "region": "exact-variant product image",
+      "sha256": "c1d445c417c29026f1ef5b1f163989e335e3f94b0f72b377ef74977aaff54493"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-OB03-48"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-ob03-48",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-ob04-60",
+    "sku": "SF-OB04-60",
+    "sourceFile": "SF-OB04-60 final spec sheet 20250813.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/60-in-olympic-barbell-bar-sf-ob04-60?variant=52744133837164",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-ob04-60-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/60-in-olympic-barbell-bar-sf-ob04-60?variant=52744133837164",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/Sunny-Health-Fitness-60-inch-olympic-barbell-SF-OB04-60-1.jpg?v=1776874547",
+      "region": "exact-variant product image",
+      "sha256": "7d2534049bf507bcd05f3db91421c93bc9f95dc3e1619d4854ef8b180de99e43"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-OB04-60"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-ob04-60",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-ob04-72",
+    "sku": "SF-OB04-72",
+    "sourceFile": "SF-OB04-72 final spec sheet 20250813.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/72-in-olympic-barbell-sf-ob04-72?variant=52740159078764",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-ob04-72-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/72-in-olympic-barbell-sf-ob04-72?variant=52740159078764",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/Sunny-Health-Fitness-72-inch-olympic-barbaell-SF-OB04-72-main.jpg?v=1776892384",
+      "region": "exact-variant product image",
+      "sha256": "8b305d7df1ae8c547f9bb8f79edc5f712d2777cfffcdb117731bf030fcf6a9e8"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-OB04-72"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-ob04-72",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-ob04-79",
+    "sku": "SF-OB04-79",
+    "sourceFile": "SF-OB04-79 final spec sheet 20250813.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/79-in-olympic-barbell-sf-ob04-79?variant=52740197351788",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-ob04-79-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/79-in-olympic-barbell-sf-ob04-79?variant=52740197351788",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/Sunny-Health-Fitness-79-inch-olympic-barbell-SF-OB04-79-1.jpg?v=1776969545",
+      "region": "exact-variant product image",
+      "sha256": "e9ab3d2ddfcc87fded1a8b669a4ad9d3dbc7010b668bd6ea106e83bfc78a6ced"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-OB04-79"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-ob04-79",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-ob04-86-28",
+    "sku": "SF-OB04-86-28",
+    "sourceFile": "SF-OB04-86-28 final spec sheet 20250813.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/86-in-olympic-barbell-series-sf-ob04-86?variant=52744422785388",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-ob04-86-28-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/86-in-olympic-barbell-series-sf-ob04-86?variant=52744422785388",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/Sunny-Health-Fitness-86-inch-olympicbarbell-bar-SF-OB04-86-28.jpg?v=1776979728",
+      "region": "exact-variant product image",
+      "sha256": "311d6331f67c44b0f28f4fed53aa2b4862c7b4e890b5602f0c2a8224a83ad6bc"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-OB04-86-28"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-ob04-86-28",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-ob04-86-30",
+    "sku": "SF-OB04-86-30",
+    "sourceFile": "SF-OB04-86-30 final spec sheet 20250813.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/86-in-olympic-barbell-series-sf-ob04-86?variant=52744422818156",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-ob04-86-30-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/86-in-olympic-barbell-series-sf-ob04-86?variant=52744422818156",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/1-Sunny-Health-Fitness-SF-OB04-86-30-1200x1200_c9155bfc-d961-4c95-b935-3cf8c54fa0ff.jpg?v=1777071663",
+      "region": "exact-variant product image",
+      "sha256": "00d937931d69cdf8ef99d6aa40049c4969b286bfb3b7c35220f319a819dcef1e"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-OB04-86-30"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-ob04-86-30",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-op01-15",
+    "sku": "SF-OP01-15",
+    "sourceFile": "SF-OP01-15 BUMPER PLATE  SPEC SHEET 2023-12-22.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/elite-2-inch-rubber-olympic-weight-plates-sf-op01?variant=40483450290266",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-op01-15-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/elite-2-inch-rubber-olympic-weight-plates-sf-op01?variant=40483450290266",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-strength-elite-2inch-rubber-olympic-bumper-weight-plate-sf-op01-15-1.jpg?v=1712616968",
+      "region": "exact-variant product image",
+      "sha256": "b9ceb9691928d63607255d416589197bcb9e1eeab3662ee6dfb5cf199216b97b"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-OP01-15"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-op01-15",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-op01-25",
+    "sku": "SF-OP01-25",
+    "sourceFile": "SF-OP01-25 BUMPER PLATE  SPEC SHEET 2023-12-22.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/elite-2-inch-rubber-olympic-weight-plates-sf-op01?variant=40483450355802",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-op01-25-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/elite-2-inch-rubber-olympic-weight-plates-sf-op01?variant=40483450355802",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-strength-elite-2inch-rubber-olympic-bumper-weight-plate-sf-op01-25-1.jpg?v=1712617571",
+      "region": "exact-variant product image",
+      "sha256": "1f0e51ac00ee70633e206ef6e24200820956c3844d04791097b6de376472c80b"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-OP01-25"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-op01-25",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-op01-35",
+    "sku": "SF-OP01-35",
+    "sourceFile": "SF-OP01-35 BUMPER PLATE  SPEC SHEET 2023-12-22.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/elite-2-inch-rubber-olympic-weight-plates-sf-op01?variant=40483450421338",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-op01-35-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/elite-2-inch-rubber-olympic-weight-plates-sf-op01?variant=40483450421338",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-strength-elite-2inch-rubber-olympic-bumper-weight-plate-sf-op01-35-1.jpg?v=1712617571",
+      "region": "exact-variant product image",
+      "sha256": "8fc85d3aaba5c3aaddb07dbb0b263ca0588dba36c946b45d45052067d157bc12"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-OP01-35"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-op01-35",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-op01-45",
+    "sku": "SF-OP01-45",
+    "sourceFile": "SF-OP01-45 BUMPER PLATE  SPEC SHEET 2023-12-22.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/elite-2-inch-rubber-olympic-weight-plates-sf-op01?variant=40483450486874",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-op01-45-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/elite-2-inch-rubber-olympic-weight-plates-sf-op01?variant=40483450486874",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-strength-elite-2inch-rubber-olympic-bumper-weight-plate-sf-op01-45-1.jpg?v=1712617571",
+      "region": "exact-variant product image",
+      "sha256": "f793b3537e9e913255eccaa3d64b26efbdc4e1379096aecfbe30bb10c50255c7"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-OP01-45"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-op01-45",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-op01-55",
+    "sku": "SF-OP01-55",
+    "sourceFile": "SF-OP01-55 BUMPER PLATE  SPEC SHEET 2023-12-22.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/elite-2-inch-rubber-olympic-weight-plates-sf-op01?variant=40483450585178",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-op01-55-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/elite-2-inch-rubber-olympic-weight-plates-sf-op01?variant=40483450585178",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-strength-elite-2inch-rubber-olympic-bumper-weight-plate-sf-op01-55-1.jpg?v=1712617571",
+      "region": "exact-variant product image",
+      "sha256": "04f79a8e14dd886bb65d6a9a4f82931a6ae2f08e6da65daad1d4403d11f2445d"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-OP01-55"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-op01-55",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rb420031",
+    "sku": "SF-RB420031",
+    "sourceFile": "SF-RB420031 Final spec sheet 05232024.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/performance-interactive-series-recumbent-bike-sf-rb420031?variant=39823288860762",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb420031",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RB420031_Multi-language_Manual_V4.0_12052024.pdf",
+    "assemblyUrl": "https://www.youtube.com/watch?v=cIKZ5sG6yXE",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rb420031-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb420031",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sf-rb420031_750x.webp?v=1749858157",
+      "region": "user-manual page product image",
+      "sha256": "41ed788124b5dd8aaad83cc9cd6ad000d95188548cbb8326c7e1861620eff585"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-RB420031"
+      },
+      {
+        "guideHeading": "SF-RB420031: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      },
+      {
+        "videoTitle": "How To Assemble: SF-RB420031 Performance Smart Recumbent Exercise Bike"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rb421004",
+    "sku": "SF-RB421004",
+    "sourceFile": "SF-RB421004 Spec Sheet 2023.12.25.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/endurance-series-magnetic-recumbent-bike-sf-rb421004?variant=39996664414298",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb421004",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RB421004_English_Manual_Version1.1_2022.11.16.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rb421004-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb421004",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/SU9E51_1_750x.jpg?v=1667413732",
+      "region": "user-manual page product image",
+      "sha256": "a477b4f9e1fe6ecfd54fb3581713ebc6fea820d206c499e22795b7a042f04f4c"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-RB421004"
+      },
+      {
+        "guideHeading": "SF-RB421004: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rb422003",
+    "sku": "SF-RB422003",
+    "sourceFile": "SF-RB422003 spec sheet 12132023 updated.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/essential-interactive-series-recumbent-bike-sf-rb422003?variant=39826250170458",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb422003",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RB422003_Multi-language_Manual_V4.1_12182023.pdf",
+    "assemblyUrl": "https://www.youtube.com/watch?v=dbif6Cx735g",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rb422003-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb422003",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-bikes-essential-recumbent-interactive-series-recumbent-bike-SF-RB422003-01_750x.jpg?v=1716572065",
+      "region": "user-manual page product image",
+      "sha256": "2659330448c7e9df6a2778efb1522ffd468952867e1f77b7c3c1abf36dcb3132"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-RB422003"
+      },
+      {
+        "guideHeading": "SF-RB422003: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      },
+      {
+        "videoTitle": "How to Assemble: SF-RB422003 Performance Elite Magnetic Recumbent Elliptical"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rb422903",
+    "sku": "SF-RB422903",
+    "sourceFile": "SF-RB422903 spec sheet 08192022.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/essentials-series-magnetic-smart-recumbent-bike-with-exclusive-sunnyfit®-app-enhanced-bluetooth-connectivity-sf-rb422903?variant=40127426363482",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb422903",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RB422903_Manual_V1.0_2022.7.18.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rb422903-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb422903",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/SUNNY-_1_3e0122ad-bdc0-4f32-b256-644fc283fddf_750x.jpg?v=1665617461",
+      "region": "user-manual page product image",
+      "sha256": "c7f1591da99351f762114cf5fa35006c9bc7f4158e1bcb657a666dd1dcd6993c"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-RB422903"
+      },
+      {
+        "guideHeading": "SF-RB422903: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rb423034",
+    "sku": "SF-RB423034",
+    "sourceFile": "SF-RB423034 final spec sheet 11242023.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/smart-magnetic-recumbent-bike-with-hand-cycle-sf-rb423034?variant=40475142619226",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb423034",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RB423034_Multi-Language_Manual_V2.0_07052014.pdf",
+    "assemblyUrl": "https://www.youtube.com/watch?v=OQUpOWNANXc",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rb423034-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb423034",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/SF-RB423034-00_750x.jpg?v=1707269264",
+      "region": "user-manual page product image",
+      "sha256": "f7e7555aa5ed5980ac9da8ed357fb43c9ef719731476b7936e9d4f9dd52a40ab"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-RB423034"
+      },
+      {
+        "guideHeading": "SF-RB423034: User Manual & assembly Guides"
+      },
+      {
+        "manualOpened": true
+      },
+      {
+        "videoTitle": "How To Assemble: SF-RB423034 Smart Magnetic Recumbent Bike"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rb424002",
+    "sku": "SF-RB424002",
+    "sourceFile": "SF-RB424002 final spec sheet 05202024.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/smart-magnetic-recumbent-bike-heavy-duty-350lb-weight-capacity-sf-rb424002?variant=41316741447770",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb424002",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RB424002_English_Manual_V1.1_09302024.pdf",
+    "assemblyUrl": "https://www.youtube.com/watch?v=KvszGUorXKM",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rb424002-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb424002",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-bikes-sf-rb424002-smart-heavy-duty-magnetic-recumbent-exercise-bike-350lb-weight-capacity-product-main_750x.jpg?v=1739233192",
+      "region": "user-manual page product image",
+      "sha256": "153836452b365d51863d51a842619462be970a48805a8a46afd920e78a918645"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-RB424002"
+      },
+      {
+        "guideHeading": "SF-RB424002: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      },
+      {
+        "videoTitle": "How to Assemble: Smart Magnetic Recumbent Bike, Heavy Duty 350LB Weight Capacity SF-RB424002"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rw1205",
+    "sku": "SF-RW1205",
+    "sourceFile": "SF-RW1205 SPEC SHEET 11032023.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": null,
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw1205",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RW1205_Manual_EN_ES_FR_DE_IT_20250318_V3.6.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw1205-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw1205",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-rowers-rowing-machine-SF-RW1205-product_750x.jpg?v=1641232720",
+      "region": "user-manual page product image",
+      "sha256": "f879ed0af0451d3b1327598eb14be5adbbdfdea181ef8cce83535ac2a4955abd"
+    },
+    "evidence": [
+      {
+        "guideHeading": "SF-RW1205: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rw520083k",
+    "sku": "SF-RW520083K",
+    "sourceFile": "SF-RW520083K Spec.sheet 2023-8-2.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-sf-rw5515-magnetic-rowing-machine-rower-w-lcd-monitor?variant=39913314484314",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw520083k-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-sf-rw5515-magnetic-rowing-machine-rower-w-lcd-monitor?variant=39913314484314",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/products/sunny-health-fitness-rowers-magnetic-rowing-machine-SF-RW520083K-01.jpg?v=1668123103",
+      "region": "exact-variant product image",
+      "sha256": "23f9cab5a31b71fcef94ff8b879902fe8eb7e3478e854017a8b2b5af50880dac"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-RW520083K"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw520083k",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rw522017blu",
+    "sku": "SF-RW522017BLU",
+    "sourceFile": "SF-RW522017BLU Spec Sheet 10102022.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/hydro-dual-resistance-smart-magnetic-water-rowing-machine-in-black-sf-rw522017blk?variant=40208467329114",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw522017blu",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RW522017BLU_Multi_Manual_Version_1.1_20230217.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw522017blu-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw522017blu",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/SF-RW522017BLU_750x.webp?v=1755559093",
+      "region": "user-manual page product image",
+      "sha256": "9274590823a4662ca1312cf27ea2619a24fd230dbbc865ff56903c2a18ad95b7"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-RW522017BLU"
+      },
+      {
+        "guideHeading": "SF-RW522017BLU: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rw522017grn",
+    "sku": "SF-RW522017GRN",
+    "sourceFile": "SF-RW522017GRN final Spec Sheet 09102025.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/hydro-dual-resistance-smart-magnetic-water-rowing-machine-in-black-sf-rw522017blk?variant=40207670345818",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw522017grn",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RW522017GRN_Multi_Manual_Version_1.1_20230217.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw522017grn-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw522017grn",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/SF-RW522017GRN_750x.webp?v=1755559794",
+      "region": "user-manual page product image",
+      "sha256": "14ec99166c520a1b7f5b2c5971afc8c8d742d2ff9c3f990b614631639a177ba1"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-RW522017GRN"
+      },
+      {
+        "guideHeading": "SF-RW522017GRN: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rw522073",
+    "sku": "SF-RW522073",
+    "sourceFile": "SF-RW522073 spec sheet 20230202.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/hydro-water-rowing-machine-sf-rw522073?variant=40248449990746",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw522073",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RW522073_Version1.0_20221227.pdf",
+    "assemblyUrl": "https://www.youtube.com/watch?v=tSuIxBqYM1M",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw522073-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw522073",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-rowers-hydro-water-rowing-machine-SF-RW522073-0_750x.jpg?v=1679084790",
+      "region": "user-manual page product image",
+      "sha256": "8bdc1598927aa84775003c052722ad613ccba23d31c693d8882e2263620d75bd"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-RW522073"
+      },
+      {
+        "guideHeading": "SF-RW522073: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      },
+      {
+        "videoTitle": "How To Assemble: SF-RW522073 Hydro Water Rowing Machine"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rw522074",
+    "sku": "SF-RW522074",
+    "sourceFile": "SF-RW522074 spec sheet 20230202.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": null,
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw522074",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RW522074_Manual_Version1.2_20240327.pdf",
+    "assemblyUrl": "https://www.youtube.com/watch?v=Sl_x6YN7Eek",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw522074-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw522074",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-rowers-wooden-water-rowing-machine-SF-RW522074-01_750x.jpg?v=1679961999",
+      "region": "user-manual page product image",
+      "sha256": "3b9f7e4409c779f97b17565db272caea273ef45303156e3eb14e894d76e3f8b8"
+    },
+    "evidence": [
+      {
+        "guideHeading": "SF-RW522074: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      },
+      {
+        "videoTitle": "How To Assemble: SF-RW522074 Wooden Water Rowing Machine"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rw522075",
+    "sku": "SF-RW522075",
+    "sourceFile": "SF-RW522075  spec sheet 20230216.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/vertical-hydro-wooden-water-rowing-machine-sf-rw522075?variant=40251251032154",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw522075",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RW522075_Version1.0_20221227.pdf",
+    "assemblyUrl": "https://www.youtube.com/watch?v=L7x23g6eRHw",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw522075-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw522075",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-rowers-vertical-hydro-wooden-water-rowing-machine-SF-RW522075-01_750x.jpg?v=1680288473",
+      "region": "user-manual page product image",
+      "sha256": "312f87530405a01101a8cad55e31f601c27a138dc24a41911cfbd5ef4f33c20e"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-RW522075"
+      },
+      {
+        "guideHeading": "SF-RW522075: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      },
+      {
+        "videoTitle": "How To Assemble: SF-RW522075 Vertical Hydro Wooden Water Rowing Machine"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rw524960",
+    "sku": "SF-RW524960",
+    "sourceFile": "SF-RW524960 draft spec sheet 20250605.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/smart-adjustable-rower-sf-rw524960?variant=52919065739628",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw524960",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RW524960_Manual_EN_20250829_V1.0.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw524960-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw524960",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/SF-RW524960-3_750x.jpg?v=1764627765",
+      "region": "user-manual page product image",
+      "sha256": "790edbd9b42b3ef89f5c431645a94337da40a4a405cb4aeb0ac87b8d2f05668e"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-RW524960"
+      },
+      {
+        "guideHeading": "SF-RW524960: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rw5515",
+    "sku": "SF-RW5515",
+    "sourceFile": "SF-RW5515 Spec.sheet 2023-7-31.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-sf-rw5515-magnetic-rowing-machine-rower-w-lcd-monitor?variant=39913314451546",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5515",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RW5515_Multi-language_manual_V_7.9_20250915.pdf",
+    "assemblyUrl": "https://www.youtube.com/watch?v=KBmFlJOGyW0",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw5515-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5515",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-rowers-magnetic-rowing-machine-SF-RW5515-01_750x.jpg?v=1632353188",
+      "region": "user-manual page product image",
+      "sha256": "38151ce4aaedd9395c89c49f6b7aa989cb7dd86ac6c9a939108a7e5908bf19d8"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-RW5515"
+      },
+      {
+        "guideHeading": "SF-RW5515: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      },
+      {
+        "videoTitle": "How To Assemble: SF-RW5515 Magnetic Rowing Machine"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rw5606",
+    "sku": "SF-RW5606",
+    "sourceFile": "SF-RW5606 spec 2020.11.5.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": null,
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5606",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RW5606_English_Spanish_Manual_V1.11_06122024.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw5606-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5606",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-rowers-elastic-cord-rowing-machine-rower-LCD-monitor-SF-RW5606-01_750x.jpg?v=1609276857",
+      "region": "user-manual page product image",
+      "sha256": "7c32398ce8d2bfa3cf8427ec392abc5b8250590e98de468b0a95b1c56f2c18b8"
+    },
+    "evidence": [
+      {
+        "guideHeading": "SF-RW5606: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rw5622",
+    "sku": "SF-RW5622",
+    "sourceFile": "SF-RW5622 spec 2020.11.5.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-sf-rw5622-dual-function-magnetic-rowing-machine-rower-w-lcd-monitor?variant=16470600908890",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5622",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RW5622_Multi_Language_Manual_V1.13.pdf",
+    "assemblyUrl": "https://www.youtube.com/watch?v=O_S0yLVp57I",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw5622-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5622",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-rowers-dual-function-magnetic-rowing-machine-rower-LCD-monitor-SF-RW5622-01_750x.jpg?v=1629303869",
+      "region": "user-manual page product image",
+      "sha256": "c51e69c174ca405c6fd1f2acc250e53f701ac8446127d60079e672d4f3510c3b"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-RW5622"
+      },
+      {
+        "guideHeading": "SF-RW5622: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      },
+      {
+        "videoTitle": "How to assembly  rw5622"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rw5713",
+    "sku": "SF-RW5713",
+    "sourceFile": "SF-RW5713 Specification 20180126.docx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/obsidian-surge-water-rower?variant=16858736656474",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5713",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RW5713_Manual_EN_ES_FR_ZH_DE_IT_20250321_V6.0.pdf",
+    "assemblyUrl": "https://www.youtube.com/watch?v=pF4gmOwrHt4",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw5713-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5713",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-rowers-obsidian-surge-water-rowing-machine-rower-LCD-monitor-SF-RW5713-01_750x.jpg?v=1629303974",
+      "region": "user-manual page product image",
+      "sha256": "45bdfe8789b8e5ea5a356c73d069dd831cede87236528e1da901cd2851aa1987"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-RW5713"
+      },
+      {
+        "guideHeading": "SF-RW5713: User Manual & assembly Guides"
+      },
+      {
+        "manualOpened": true
+      },
+      {
+        "videoTitle": "How To Assemble: SF-RW5713 Obsidian Surge Water Rowing Machine Rower"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rw5801",
+    "sku": "SF-RW5801",
+    "sourceFile": "SF-RW5801 Specification sheet - verified 11.15.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": null,
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5801",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RW5801_Multilanguage_Manual_V3.7_20240717.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw5801-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5801",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-rowers-magnetic-rowing-machine-rower-LCD-monitor-bottle-holder-synergy-power-SF-RW5801-01_750x.jpg?v=1629305466",
+      "region": "user-manual page product image",
+      "sha256": "73bdc4c9029824dc3416f403fc3a7cfcb900992421aa021b61cf354beb46ba45"
+    },
+    "evidence": [
+      {
+        "guideHeading": "SF-RW5801: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rw5856",
+    "sku": "SF-RW5856",
+    "sourceFile": "SF-RW5856 Spec Sheet 10.09.2020.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-sf-rw5856-magnetic-rowing-machine-rower-11lb-flywheel-and-lcd-monitor-with-tablet-holder?variant=16470603432026",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5856",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RW5856_Manual_Version3.4_Multi-language_2023-8-10.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw5856-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5856",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-rowers-flywheel-rowing-machine-SF-RW5856-product_750x.jpg?v=1640904329",
+      "region": "user-manual page product image",
+      "sha256": "e67ab2584c87d4bdb85824a9bbcd04956160ee51a8437c74874f3de8005f9c39"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-RW5856"
+      },
+      {
+        "guideHeading": "SF-RW5856: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rw5864-smart",
+    "sku": "SF-RW5864 SMART",
+    "sourceFile": "SF-RW5864 SMART Spec Sheet update 04.11.2024.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": null,
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw5864-smart-batch4-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageEvidence": {
+      "sourceFile": "SF-RW5864 SMART Spec Sheet update 04.11.2024.xlsx",
+      "sheet": "Sheet1",
+      "object": "xl/media/image6.png",
+      "otherObjects": [
+        "xl/media/image7.png",
+        "xl/media/image6.png",
+        "xl/media/image8.png",
+        "xl/media/image1.png",
+        "xl/media/image2.png"
+      ],
+      "sha256": "4ae0457969553892fbf7ff3bfce2acfeaaf64a78b3ad9ed1430c6a11ec789fd3",
+      "selection": "Chosen on visual review; larger sheet image was a console close-up or dimension drawing"
+    },
+    "evidence": [
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5864-smart",
+        "status": 404
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5864smart",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rw5910-smart",
+    "sku": "SF-RW5910 SMART",
+    "sourceFile": "SF-RW5910 SMART final spec sheet 05242024.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/phantom-hydro-smart-water-rowing-machine-sf-rw5910smart?variant=41319157956698",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5910smart",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RW5910SMART_English_manual_V1.1_10122024.pdf",
+    "assemblyUrl": "https://www.youtube.com/watch?v=b8FzFO8L7ag",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw5910-smart-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5910smart",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-sf-rw5910smart-2_750x.jpg?v=1721160038",
+      "region": "user-manual page product image",
+      "sha256": "8578549e48cfe5b8b213b5430243de5011549b42b682d804dc99fbd587e13fe7"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-RW5910SMART"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5910-smart",
+        "status": 404
+      },
+      {
+        "guideHeading": "SF-RW5910SMART: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      },
+      {
+        "videoTitle": "How to Assemble: SF-RW5910SMART Phantom Hydro Smart Water Rowing Machine"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rw5910",
+    "sku": "SF-RW5910",
+    "sourceFile": "SF-RW5910 Specificationsheet 20191125.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/phantom-hydro-water-rowing-machine-sf-rw5910?variant=31682664235098",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5910",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RW5910_Spanish_English_manual_V2.6_01182024.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw5910-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5910",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-rowers-phantom-hydro-water-rower-machine-SF-RW5910-product_750x.jpg?v=1641343614",
+      "region": "user-manual page product image",
+      "sha256": "e98ed257bece648a7a3deaf1fea1e529261c10fd8d900004adc35dd07e0dce88"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-RW5910"
+      },
+      {
+        "guideHeading": "SF-RW5910: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-rw5987",
+    "sku": "SF-RW5987",
+    "sourceFile": "SF-RW5987 Spec Sheet 10132020.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/space-efficient-convenient-magnetic-rowing-machine-sf-rw5987?variant=32512816283738",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5987",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RW5987_Multi_language_manual_V_3.2_06.18.2021.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw5987-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5987",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-rowers-magnetic-rower-SF-RW5987-01_750x.jpg?v=1608311207",
+      "region": "user-manual page product image",
+      "sha256": "14e96ecdf3e50b7ff00d3c54a96854261128925674da845b2d0ea2dd22c067ad"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-RW5987"
+      },
+      {
+        "guideHeading": "SF-RW5987: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-s021001",
+    "sku": "SF-S021001",
+    "sourceFile": "SF-S021001 FINAL SPEC SHEET 20240306 update.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/climber-stepper-with-handlebar-sf-s021001?variant=40453697568858",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s021001",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-S021001_%20Manual_EN_ES_FR_DE_IT_%2020260428_V3.3.pdf",
+    "assemblyUrl": "https://www.youtube.com/watch?v=RzB-szRmPSg",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-s021001-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s021001",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/climber-stepper-with-handlebar-sf-s021001-review-02_750x.jpg?v=1709852394",
+      "region": "user-manual page product image",
+      "sha256": "c3267629f501dca7983d44922de72ed954901a0bc77542d09b51d2de7e02ba29"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-S021001"
+      },
+      {
+        "guideHeading": "SF-S021001: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      },
+      {
+        "videoTitle": "How To Assemble: Climber Stepper with Handlebar | SF-S021001"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-s023051",
+    "sku": "SF-S023051",
+    "sourceFile": "SF-S023051 Final Spec dated 20260529.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/curved-step-climber-with-long-stride-4-incline-angles-sf-s023051?variant=54023511769452",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s023051",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-S023051_Manual_EN_V2.0_20260909.pdf",
+    "assemblyUrl": "https://www.youtube.com/watch?v=jXBoqexQmQw",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-s023051-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s023051",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/1B-sunny-health-fitness-curved-step-climber-with-long-stride-4-incline-angles-sf-s23051_750x.jpg?v=1783975539",
+      "region": "user-manual page product image",
+      "sha256": "5290e775f5943811fd5f7b02028c3313eec9595bc87b9869658e82a3f2a87bbd"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-S023051"
+      },
+      {
+        "guideHeading": "SF-S023051: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      },
+      {
+        "videoTitle": "How To Assemble: SF-S023051 Adjustable Curved Climber"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-s023812",
+    "sku": "SF-S023812",
+    "sourceFile": "SF-S023812 final spec 2026.2.27.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/smart-fitness-compact-mini-stepper-with-resistance-bands-sf-023812?variant=53409564754284",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s023812",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-S023812_Manual_EN_20251229_V1.0.pdf",
+    "assemblyUrl": "https://www.youtube.com/watch?v=LJnpdRUAyfM",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-s023812-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s023812",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/SF-S023812_750x.jpg?v=1765488502",
+      "region": "user-manual page product image",
+      "sha256": "5aff475f69a82eb41a161fe5ac9bf3ef4c1b0263cbd729eabbec1867e244ce58"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-S023812"
+      },
+      {
+        "guideHeading": "SF-S023812: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      },
+      {
+        "videoTitle": "Unboxing Video: Stepper with Resistance Bands - SF-S023812"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-s024035",
+    "sku": "SF-S024035",
+    "sourceFile": "SF-S024035 final Spec 11.21.2024 - small.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/foldable-smart-cardio-step-climber-sf-s024035?variant=51731413827948",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s024035",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-S024035%20Manual_EN_V1.3_20260325.pdf",
+    "assemblyUrl": "https://www.youtube.com/watch?v=EXwWJ7PHGuw",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-s024035-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s024035",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-category-SF-S024035-name-shopify_shopify_-_product_only_750x.jpg?v=1741631101",
+      "region": "user-manual page product image",
+      "sha256": "05fef979c539402724e9a5f974c613696f6361a58bfed74eecb91418339d45fe"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-S024035"
+      },
+      {
+        "guideHeading": "SF-S024035: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      },
+      {
+        "videoTitle": "How To Assemble: SF-S024035 Foldable Smart Cardio Step Climber"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-s024835",
+    "sku": "SF-S024835",
+    "sourceFile": "SF-S024835 Final Spec 11042025.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/total-body-vertical-climber-sf-s024835?variant=53627629666668",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s024835",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-S024835_EN_20250710_V1.0.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-s024835-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s024835",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-category-SF-S024835-shopify_750x.jpg?v=1776706236",
+      "region": "user-manual page product image",
+      "sha256": "e437f76f571381a686583256a7f89a7f60934ed4e1a13e9f94bb5fb9ba96e8d4"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-S024835"
+      },
+      {
+        "guideHeading": "SF-S024835: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-s025005",
+    "sku": "SF-S025005",
+    "sourceFile": "SF-S025005 final spec 07092025.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/smart-foldable-stair-climber-with-resistance-bands-sf-s025005?variant=52650819420524",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s025005",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-S025005_Manual_EN_V1.3_20260108.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-s025005-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s025005",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/Sunny_Health_Fitness_Stepper_-SF-S025005_750x.jpg?v=1757456997",
+      "region": "user-manual page product image",
+      "sha256": "1d6476dab3cfed837776a8f53835d2127743eb6f938937f11d22b0fc0ada16cd"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-S025005"
+      },
+      {
+        "guideHeading": "SF-S025005: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      },
+      {
+        "videoTitle": "How To Assemble: SF-S023005 Smart Foldable Stair Climber w/ Resistance Bands"
+      }
+    ],
+    "errors": [
+      {
+        "videoTitleNamesOtherModel": "How To Assemble: SF-S023005 Smart Foldable Stair Climber w/ Resistance Bands"
+      }
+    ],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-s025025gy",
+    "sku": "SF-S025025GY",
+    "sourceFile": "SF-S025025GY final spec 11.03.2025 update.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/foldable-smart-cardio-step-climber-sf-s025025gy?variant=52977599349100",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s025025gy",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-S025025GY_Manual_EN_V1.2_2026.03.04.pdf",
+    "assemblyUrl": "https://www.youtube.com/watch?v=eTDsZnF_o8U",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-s025025gy-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s025025gy",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-SF-S025025GY-1_750x.png?v=1765489330",
+      "region": "user-manual page product image",
+      "sha256": "70458475969bd39188edc3aaf86d98aa7af5ee519bcab6eb7fdf4eae28213e69"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-S025025GY"
+      },
+      {
+        "guideHeading": "SF-S025025GY: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      },
+      {
+        "videoTitle": "How To Assemble: SF-S025025GY Foldable Smart Cardio Step Climber in Grey"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-s025025wt",
+    "sku": "SF-S025025WT",
+    "sourceFile": "SF-S025025WT final spec 11.03.2025 update.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/foldable-smart-cardio-step-climber-sf-s025025gy?variant=52977599381868",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s025025wt",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-S025025WT_Manual_EN_V1.2_2026.03.04.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-s025025wt-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s025025wt",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-SF-S025025WT-model-1_750x.png?v=1766612296",
+      "region": "user-manual page product image",
+      "sha256": "8cd62395c04f0254ef711cec4ac0da577de14cf34868dac815ce27c0807f9e2d"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-S025025WT"
+      },
+      {
+        "guideHeading": "SF-S025025WT: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-sb01-14",
+    "sku": "SF-SB01-14",
+    "sourceFile": "SF-SB01-14 final spec sheet 20250813.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/chrome-threaded-dumbbell-handle-series-sf-sb01?variant=52741287412076",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-sb01-14-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/chrome-threaded-dumbbell-handle-series-sf-sb01?variant=52741287412076",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-14-inch-threaded-dumbells-SF-SB01-14.jpg?v=1774390167",
+      "region": "exact-variant product image",
+      "sha256": "de2ea89b0776cd0bfeed0411b72e5942739d3b73a2332de13ba2f0194b56e2dc"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-SB01-14"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-sb01-14",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-sb01-24",
+    "sku": "SF-SB01-24",
+    "sourceFile": "SF-SB01-24 final spec sheet 20250813.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/chrome-threaded-dumbbell-handle-series-sf-sb01?variant=52741306122604",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-sb01-24-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/chrome-threaded-dumbbell-handle-series-sf-sb01?variant=52741306122604",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-24-inch-threaded-dumbells-SF-SB01-24.jpg?v=1774390237",
+      "region": "exact-variant product image",
+      "sha256": "6a17d312b995f9b19e934998266b5ec6e19825b71021f100eefc38f69db954b4"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-SB01-24"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-sb01-24",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-sb02-34",
+    "sku": "SF-SB02-34",
+    "sourceFile": "SF-SB02-34 final spec sheet 20250813.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/34-threaded-tricep-bar-sf-sb02-34?variant=52740687266156",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-sb02-34-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/34-threaded-tricep-bar-sf-sb02-34?variant=52740687266156",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-34-inch-threaded-tricep-bar-SF-SB02-34.jpg?v=1774386758",
+      "region": "exact-variant product image",
+      "sha256": "da9b2894b4a3166c80e448dc0bb77d6ecfa26a75ea307a08967351f268df92a6"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-SB02-34"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-sb02-34",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-sb03-47",
+    "sku": "SF-SB03-47",
+    "sourceFile": "SF-SB03-47 final spec sheet 20250813.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/47-threaded-ez-curl-bar-sf-sb03-47?variant=52740712268140",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-sb03-47-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/47-threaded-ez-curl-bar-sf-sb03-47?variant=52740712268140",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-57-inch-ez-curl-bar-sf-sb03-47-1.jpg?v=1774546530",
+      "region": "exact-variant product image",
+      "sha256": "4d2c30953756d5c680b7260002ca5411788280b8f4dd553bf7130eb816b74eb4"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-SB03-47"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-sb03-47",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-sb04-60",
+    "sku": "SF-SB04-60",
+    "sourceFile": "SF-SB04-60 final spec sheet 20250813.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/60-in-threaded-barbell-sf-sb04-60?variant=52740732289388",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-sb04-60-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/60-in-threaded-barbell-sf-sb04-60?variant=52740732289388",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-60-inch-threaded-barbell-with-star-lock-collars-SF-SB04-60.jpg?v=1774455737",
+      "region": "exact-variant product image",
+      "sha256": "644e230d6cb9f6c754536236523fb687b38ed96919a1cc03db5ede627830f5ec"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-SB04-60"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-sb04-60",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-sk025001",
+    "sku": "SF-SK025001",
+    "sourceFile": "SF-SK025001 Final Spec dated 10.08.2026.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/magnetic-ski-trainer-exercise-machine-sf-sk025001?variant=54196274168172",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-sk025001",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-SK025001_EN_Manual_V1.0_2026.09.17.pdf",
+    "assemblyUrl": "https://www.youtube.com/watch?v=MDKElys4R94",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-sk025001-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-sk025001",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/1-sunny-health-fitness-ProductOnlyProductOnly-magnetic-ski-trainer-machine-sf-sk025001_750x.jpg?v=1786994410",
+      "region": "user-manual page product image",
+      "sha256": "898101f58b8dfccd894b0d082a4bdf0970a92d026dc3fae2e7be2caf6b0473dd"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-SK025001"
+      },
+      {
+        "guideHeading": "SF-SK025001: User Manuals & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      },
+      {
+        "videoTitle": "How To Assemble: SF-SK025001 Magnetic Ski Trainer"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-sk025801",
+    "sku": "SF-SK025801",
+    "sourceFile": "SF-SK025801 Draft Spec dated 05.22.2026.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": null,
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-sk025801-batch4-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageEvidence": {
+      "sourceFile": "SF-SK025801 Draft Spec dated 05.22.2026.xlsx",
+      "sheet": "Specs",
+      "object": "xl/media/image4.png",
+      "otherObjects": [
+        "xl/media/image5.jpeg",
+        "xl/media/image1.png",
+        "xl/media/image3.png"
+      ],
+      "sha256": "65ae5ed6f30d778466401f5a7c6cb6e5566376874adda25351100746985b4cc2"
+    },
+    "evidence": [
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-sk025801",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-t4400-smart",
+    "sku": "SF-T4400 SMART",
+    "sourceFile": "SF-T4400 SMART final Spec Sheet 07182024.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/manual-incline-smart-treadmill-sf-t4400smart?variant=41372506751066",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t4400smart",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-T4400SMART_Manual_EN_ES_V2.0_04092026.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t4400-smart-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t4400smart",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-sf-t4400smart-1_750x.jpg?v=1725561522",
+      "region": "user-manual page product image",
+      "sha256": "c19282116b7f0ee61311b455ec989febf42fa2464d9f63c51e1ca8375f406656"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-T4400SMART"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t4400-smart",
+        "status": 404
+      },
+      {
+        "guideHeading": "SF-T4400SMART: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-t722051",
+    "sku": "SF-T722051",
+    "sourceFile": "SF-T722051 Specification Sheet 2023-1-18.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/helius-lite-smart-brushless-motor-treadpad-treadmill-sf-t722051?variant=40228891787354",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t722051",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-T722051_Manual_V1.1_08112023.pdf",
+    "assemblyUrl": "https://www.youtube.com/watch?v=ajgjPOjTYIQ",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t722051-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t722051",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-treadmills-helius-lite-smart-brushless-motor-treadpad-treadmill-SF-T722051-01_750x.jpg?v=1679533029",
+      "region": "user-manual page product image",
+      "sha256": "3a1983c87a9006dbec4255de99412048e3521fd5214ed34d118c529dc838a289"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-T722051"
+      },
+      {
+        "guideHeading": "SF-T722051: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      },
+      {
+        "videoTitle": "Product Unboxing: Helius Lite Smart Brushless Motor Treadpad Treadmill: SF-T722051"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-t722054",
+    "sku": "SF-T722054",
+    "sourceFile": "SF-T722054 Spec Sheet 07202023.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/pegasus-connected-folding-treadmill-sf-t722054?variant=40273168171098",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t722054",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-T722054_Manual_EN_ES_FR_DE_IT_V2.0_05012025.pdf",
+    "assemblyUrl": "https://www.youtube.com/watch?v=TOuDgmFStYI",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t722054-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t722054",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-treadmills-Pegasus-Connected-Folding-Treadmill-SF-T722054-01_750x.jpg?v=1687203768",
+      "region": "user-manual page product image",
+      "sha256": "a9a971a6f904c83758d265c5b26b2d424e8707d06bfa35441816f75f087ec723"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-T722054"
+      },
+      {
+        "guideHeading": "SF-T722054: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      },
+      {
+        "videoTitle": "How To Assemble: SF-T722054 Pegasus Connected Folding Treadmill"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-t724043",
+    "sku": "SF-T724043",
+    "sourceFile": "SF-T724043 Treadmill draft Spec 20250731.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": null,
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t724043-batch4-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageEvidence": {
+      "sourceFile": "SF-T724043 Treadmill draft Spec 20250731.xlsx",
+      "sheet": "Specs",
+      "object": "xl/media/image4.png",
+      "otherObjects": [
+        "xl/media/image5.png",
+        "xl/media/image2.png",
+        "xl/media/image1.png"
+      ],
+      "sha256": "bd6494e3c58bec7f4760ce299dab4d32334569697ef9deef4686eb975c304f8f"
+    },
+    "evidence": [
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t724043",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-t724811",
+    "sku": "SF-T724811",
+    "sourceFile": "SF-T724811 final spec sheet 05222025.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/apex-300-smart-motorized-treadmill-with-bluetooth-sf-t724811?variant=52943465021804",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t724811",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-T724811_Manual_EN_20251117_V1.2.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t724811-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t724811",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/SF-T724811-8768_750x.jpg?v=1764638103",
+      "region": "user-manual page product image",
+      "sha256": "a7aace1df9116b4298b6cc9211ded59b242d34fda86c57a4ead949a97d6747d7"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-T724811"
+      },
+      {
+        "guideHeading": "SF-T724811: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-t724943",
+    "sku": "SF-T724943",
+    "sourceFile": "SF-T724943 Treadmill final Spec 20250820.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/smart-elite-tl4-treadmill-sf-t724943?variant=52943331262828",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t724943",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-T724943_Manual_EN_V1.0_20250813.pdf",
+    "assemblyUrl": "https://www.youtube.com/watch?v=VG6S-yLkJE4",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t724943-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t724943",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/SF-T72494313842_750x.jpg?v=1764630815",
+      "region": "user-manual page product image",
+      "sha256": "9679fce0b031d8cb966c06783bb7fb5d74d816f1763016d3fc025f39a82b101b"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-T724943"
+      },
+      {
+        "guideHeading": "SF-T724943: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      },
+      {
+        "videoTitle": "How To Assemble: SF-T724943 Smart Elite TL4 Treadmill"
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-t724964",
+    "sku": "SF-T724964",
+    "sourceFile": "SF-T724964 final Treadmill Spec dated 20250806.xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/tp10-smart-treadmill-sf-t724964?variant=52943353512300",
+    "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t724964",
+    "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-T724964_Manual_EN_V2.0_07162025.pdf",
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t724964-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t724964",
+      "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/SF-T72496415484_750x.jpg?v=1764632622",
+      "region": "user-manual page product image",
+      "sha256": "b5afcbd84a1e4a34a40e3a5ccef87d2234ed8a9fdf919d0bb74f69c45c741624"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-T724964"
+      },
+      {
+        "guideHeading": "SF-T724964: User Manual & Assembly Guides"
+      },
+      {
+        "manualOpened": true
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  },
+  {
+    "id": "off-sunny-sf-t724965",
+    "sku": "SF-T724965",
+    "sourceFile": "SF-T724965 Treadmill final Spec dated 20250805 .xlsx",
+    "checkedAt": "2026-11-06",
+    "productUrl": "https://sunnyhealthfitness.com/products/smart-tp20-wi-fi-treadmill-sf-t724965?variant=52943360557420",
+    "guidePage": null,
+    "manualUrl": null,
+    "assemblyUrl": null,
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t724965-batch4-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageEvidence": {
+      "page": "https://sunnyhealthfitness.com/products/smart-tp20-wi-fi-treadmill-sf-t724965?variant=52943360557420",
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-T724965.jpg?v=1764788672",
+      "region": "exact-variant product image",
+      "sha256": "6b98cd7f62ae7b53e901befa610c01eaacf3c95c6d9b7ea476dedde8bfbbda3e"
+    },
+    "evidence": [
+      {
+        "product": "exact variant SKU",
+        "sku": "SF-T724965"
+      },
+      {
+        "guideMissing": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t724965",
+        "status": 404
+      }
+    ],
+    "errors": [],
+    "status": "verified"
+  }
+]
