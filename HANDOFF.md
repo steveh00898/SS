@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-06: Codex — Site version44 official resources verified live
+- Changes: PUBLIC Site version44 deployed from exact pushed main SHA a0ec2a24446cb5b2ac30948987afc6c1fabae86d. This follow-up changes HANDOFF.md only.
+- Files: HANDOFF.md.
+- Tests: all25 suites and final affected packaging/migration checks passed; build and14 standard desktop/phone screenshots passed. Live verification passed: all176 original records unchanged, new100 changed only allowed official resource/image fields and matched canonical data; counts276/120 preserved;72 product URLs,62 Preview Now PDFs,31 assembly videos,93 clean official images; SF-B1995 product anchor, exact PDF and matching manual-page photo verified at desktop/390px; zero page errors. No production resource clicks generated during QA.
+- Local preview: checked; live screenshots work/outputs/official-corrections-live-desktop.png and official-corrections-live-phone.png.
+- Claude Artifact: not published by Codex; last recorded version26 from6b96a0c. Claude Code must sync main and apply the100 final records/images with its own pinned writes and Artifact asset URLs.
+- Private Site: PUBLIC version44 from exact SHA a0ec2a24446cb5b2ac30948987afc6c1fabae86d; saved version appgprj_6ac574cb8a248191bf83b10b05b0a7df~appgver_04b9e65591188191bcfd2b8e4908fd5e; deployment appgdep_6aee1587d94c8191ab75c8f94b33e228 succeeded; environment revision1/public access preserved. https://sunny-product-finder.steven-peace.chatgpt.site/?source=off-sunny-web&category=All
+- Practice data: not exported; public-repository first-export permission pending. New photos remain practice-blurred until printed-text masks checked.
+- Remaining issues: no verified official product URL for28 and no verified Preview PDF for38 of the100; no URLs invented. Seven models have no new official photo; existing usable source image retained where available. Resource checks now finished without429 pending. Source specs/categories/names remain unchanged.
+- Next steps: owner can refresh and inspect SF-B1995. Claude Code handles Artifact publication; no Site republish needed for this handoff-only commit.
+
 ## 2026-11-06: Codex — verified official product links, manuals and clean photos for batch three
 - Changes: rechecked all100 batch-three models against Sunny's official product and guide pages. Model-number links now use72 exact-variant product URLs; the100 models have62 Preview Now manual PDFs,31 assembly videos and93 clean official images (63 manual-page images plus30 exact-product fallbacks). Existing positive destinations were retained if a lookup supplied no replacement. Six source-sheet image fallbacks remain; NO.085 has no usable image. Total archived images118 across120 records. No catalog specifications, names, categories, prices or source files changed; original20 archive records and156 current canonical records unchanged.
 - SF-B1995: verified product-page SKU link, clean white-background manual-page image and direct Preview Now PDF SF-B1995_Manual_English_20250408_V2.1.pdf, replacing the office-background sheet image. All93 official assets were visually checked and normalized to1200x900; printed-text practice masks still require checking, so photoChecked remains false.
