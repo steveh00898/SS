@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-06: Claude Code — Claude Artifact updated to the latest app through a smaller build
+- Changes: owner replaced the Artifact freeze with a smaller Artifact-only page. New scripts/build-artifact.mjs builds dist/artifact/index.html (258,995 characters) from app/index.html without changing that file: embedded ISV rows and manuals move to 18 documents in the Artifact's `reference` collection, and embedded fonts become a Google Fonts link. Rules updated in AGENTS.md and CLAUDE.md. Site code and behavior unchanged.
+- Files: scripts/build-artifact.mjs; tests/artifact-build.spec.cjs; AGENTS.md; CLAUDE.md; HANDOFF.md
+- Tests: new tests/artifact-build.spec.cjs passes against a mocked window.claude (complete data, matching highlights, 390px layout, banner when data is missing). The other 27 tests were not rerun; their last full pass was on the batch-four code, and app/index.html, server/ and data/ have not changed since.
+- Claude Artifact: PUBLISHED version 27, built from app/index.html at 3b33f8f before this commit. Reference data version 03ba5e7a48eb85ac; read back 18 of 18 documents identical. NOT verified in the real Artifact viewer: the browser pane is not signed in to claude.ai. Fonts now need Google Fonts, and first load fetches about 3 MB.
+- Private Site: not published; last recorded PUBLIC version 45 from 15f3c65, behind main. Codex to publish.
+- Practice data: not exported (owner decision).
+- Remaining issues: saveMask/itemRecord in app/index.html writes a record without specDetails, resourceLinks, catalogSource, sourceFile or importBatch. In the Artifact, using "Hide part of photo" on an Off Sunny web product replaces the document and loses those fields. Pre-existing, not fixed here. Four known owner edits still differ from data/*.json.
+- Next steps: owner checks the Artifact while signed in; Codex re-reads AGENTS.md and publishes the Site.
+
 ## 2026-11-06: Claude Code — batch four synced to the Claude Artifact database; page not republished
 - Changes: at the owner's request, read all 276 Artifact `items`, uploaded 100 batch-four images and inserted the 100 new `off-sunny-sf-*` documents (same fields as data/off-sunny-web/items.json except `id`, `imageAssetId`, `imageUrl`). Read back: 376 documents. No repository app or data change.
 - Files: HANDOFF.md

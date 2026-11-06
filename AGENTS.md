@@ -16,10 +16,10 @@ Where it is published:
 
 | Target | URL | Who updates it |
 |---|---|---|
-| Claude Artifact | https://claude.ai/artifact/Eux9EgPAA2p4td6ZLTAyXS | Frozen at version 26 from 6b96a0c by owner decision (2026-11-06); not republished unless the owner asks again |
-| Private Site | https://sunny-product-finder.steven-peace.chatgpt.site | Codex only (Claude Code cannot reach it). This is the main app. |
+| Claude Artifact | https://claude.ai/artifact/Eux9EgPAA2p4td6ZLTAyXS | Claude Code only. Published from `dist/artifact/index.html`, built by `node scripts/build-artifact.mjs` (Codex cannot reach it) |
+| Private Site | https://sunny-product-finder.steven-peace.chatgpt.site | Codex only (Claude Code cannot publish it directly). This is the main app. |
 
-The private Site is the main app. While the Artifact is frozen, Claude Code skips the Artifact publishing steps in this file and reports the Artifact as frozen. Codex keeps the Site current as part of "git push" and "git pull" below; the owner has given standing permission for that. Publish only:
+The private Site is the main app. The Artifact uses a smaller build of the same `app/index.html`: its ISV rows and manuals load from the Artifact's `reference` database collection, and its fonts from Google Fonts. Keep the embedded constants, the font line and the `initPractice` call in a form `scripts/build-artifact.mjs` can match. Each agent keeps its own preview link current as part of "git push" and "git pull" below; the owner has given standing permission for that. Publish only:
 - from a commit that is already pushed to `main` (record that exact SHA in HANDOFF.md),
 - when every test passes, and
 - when the published app would actually change: compare the last published SHA in HANDOFF.md with `main` for `app/index.html` (and, for the private Site, `server/`, `db/`, `drizzle/`, `data/`). If nothing relevant changed, skip publishing and say so.
@@ -32,9 +32,9 @@ The owner may still have to approve a credential prompt when Codex publishes; th
 |---|---|
 | **"git pull"** | Run "Start of every task" below (sync, review the other agent's work, tests, screenshots), then update **your own** preview link if the app changed (rules above), and report. No practice export ("SKU practice data" below). |
 | **"git push"** | Run "Before finishing" below (tests, HANDOFF.md entry, commit with your `Agent:` trailer, push to `main`), then update **your own** preview link if the app changed, and report the commit SHA and both links' status. |
-| **"publish site"** | Codex: publish the private Site from `main` HEAD now (pushed commits only), even if nothing changed. Claude Code: the Artifact is frozen, so say so and ask whether the owner wants to lift that. |
+| **"publish site"** | Codex: publish the private Site from `main` HEAD now (pushed commits only), even if nothing changed. Claude Code: republish the Claude Artifact from the smaller build. |
 
-The owner works in one tool at a time: "git push" in the tool they finished in, then "git pull" in the other. After that pair, the private Site shows the latest version.
+The owner works in one tool at a time: "git push" in the tool they finished in, then "git pull" in the other. After that pair, both links show the latest version.
 
 ## One agent at a time
 
