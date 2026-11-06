@@ -1,0 +1,2009 @@
+[
+  {
+    "id": "off-sunny-no-085",
+    "sku": "NO. 085",
+    "sourceFile": "No. 085 Specification.pdf",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-086",
+    "sku": "NO. 086",
+    "sourceFile": "No. 086 Specification.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-086-batch3-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-089-combo",
+    "sku": "NO. 089 COMBO",
+    "sourceFile": "NO. 089-COMBO final  Spec Sheet 08232024.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/NO._089-COMBO_Multi_Language_manual_V1.2_08.28.2024.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-089-combo",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "manualEvidence": "Exact-model official guide PDF configuration",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-089-combo-batch3-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-090",
+    "sku": "NO. 090",
+    "sourceFile": "NO. 090 final spec sheet 05232024.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/NO.090_Manual_EN_V1.2_20260827.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-090",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "manualEvidence": "Exact-model official guide PDF configuration",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-090-batch3-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-109",
+    "sku": "NO. 109",
+    "sourceFile": "NO. 109 Final spec sheet_03202026.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/NO.109_Manual_EN_V1.3_20260902.pdf",
+      "assemblyUrl": "https://www.youtube.com/watch?v=9j37EefcE9k",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-109",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-109",
+      "checkedAt": "2026-11-06",
+      "manualEvidence": "Exact-model official guide PDF configuration",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-109-batch3-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-110",
+    "sku": "NO. 110",
+    "sourceFile": "NO. 110 final spec sheet 20250213.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/NO._110_manual.pdf?v=1744754658",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-110",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "manualEvidence": "Exact-model official guide PDF configuration",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-110-batch3-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-111",
+    "sku": "NO. 111",
+    "sourceFile": "NO. 111 Final  Spec dated 20260119.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/NO._111_Manual_EN_V1.0_20251216.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-111",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "manualEvidence": "Exact-model official guide PDF configuration",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-111-batch3-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-112",
+    "sku": "NO. 112",
+    "sourceFile": "NO. 112 Final Spec dated 20260225.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/NO._112_Manual_EN_V1.0_20251209.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-112",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "manualEvidence": "Exact-model official guide PDF configuration",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-112-batch3-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-113",
+    "sku": "NO. 113",
+    "sourceFile": "NO. 113 Final Spec dated 20260225.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/NO._113_Manual_EN_V1.0_20251211.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-113",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "manualEvidence": "Exact-model official guide PDF configuration",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-113-batch3-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-116-l-bu",
+    "sku": "NO. 116-L-BU",
+    "sourceFile": "NO. 116 Final Spec Template dated 20260609.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-116-l-bu-batch3-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-116-l-gy",
+    "sku": "NO. 116-L-GY",
+    "sourceFile": "NO. 116 Final Spec Template dated 20260609.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-116-l-gy-batch3-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-116-xl-bu",
+    "sku": "NO. 116-XL-BU",
+    "sourceFile": "NO. 116 Final Spec Template dated 20260609.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-116-xl-bu-batch3-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-116-xl-gy",
+    "sku": "NO. 116-XL-GY",
+    "sourceFile": "NO. 116 Final Spec Template dated 20260609.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-116-xl-gy-batch3-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-117-gy",
+    "sku": "NO. 117-GY",
+    "sourceFile": "NO. 117 Final Spec Template dated 20260702.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-117-gy-batch3-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-117-bu",
+    "sku": "NO. 117-BU",
+    "sourceFile": "NO. 117 Final Spec Template dated 20260702.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-117-bu-batch3-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-121",
+    "sku": "NO.121",
+    "sourceFile": "NO. 121draft Spec Template dated 20260708.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-121-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-124-rd",
+    "sku": "NO. 124-RD",
+    "sourceFile": "NO. 124-RD draft Spec dated 20260320.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-124-rd-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-012-s",
+    "sku": "NO.012-S",
+    "sourceFile": "NO.012-S Spec sheet dated 20250714.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-012-s-batch3-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-021-10-pair",
+    "sku": "NO.021-10-PAIR",
+    "sourceFile": "NO.021-10-PAIR SPEC.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-021-10-pair-batch3-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-021-5-pair",
+    "sku": "NO.021-5-PAIR",
+    "sourceFile": "NO.021-5-PAIR SPEC.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-021-5-pair-batch3-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-021-8-pair",
+    "sku": "NO.021-8-PAIR",
+    "sourceFile": "NO.021-8-PAIR SPEC.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-021-8-pair-batch3-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-064",
+    "sku": "NO. 064",
+    "sourceFile": "NO.064 SPEC.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-064-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-074-m",
+    "sku": "NO. 074-M",
+    "sourceFile": "NO.074-M Accessory Product Spec - case pack.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-074-m-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-077-plus",
+    "sku": "NO.077 PLUS",
+    "sourceFile": "NO.077 plus  spec  sheet 4.20.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-077-plus-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-108-rd",
+    "sku": "NO. 108-RD",
+    "sourceFile": "NO.108 final spec sheet 20250213.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-108-rd-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-no-108-gy",
+    "sku": "NO. 108-GY",
+    "sourceFile": "NO.108 final spec sheet 20250213.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-108-gy-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-ob-20",
+    "sku": "OB-20",
+    "sourceFile": "OB 20 Specification 06.22.2023.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-ob-20-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-ob-48",
+    "sku": "OB-48",
+    "sourceFile": "OB-48 Specification 06.22.2023.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-ob-48-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-ob-hex",
+    "sku": "OB-HEX",
+    "sourceFile": "OB-HEX Specification 06.22.2023.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-ob-hex-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-ob-trap",
+    "sku": "OB-TRAP",
+    "sourceFile": "OB-TRAP Spec Sheet 2022.01.28 final.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-ob-trap-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-p2030",
+    "sku": "P2030",
+    "sourceFile": "P2030  spec sheet 06212023.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-p2030-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-p2100",
+    "sku": "P2100",
+    "sourceFile": "P2100 final spec sheet 11.22.2024 .xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-p2100-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-p2100-smart",
+    "sku": "P2100 SMART",
+    "sourceFile": "P2100 SMART final Spec Sheet Template 07.29.2024.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-p2100-smart-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-p2330",
+    "sku": "P2330",
+    "sourceFile": "P2330 SPEC SHEET  08292023 - FINAL.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-p2330-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-p2420",
+    "sku": "P2420",
+    "sourceFile": "P2420 SPEC SHEET 20240712 Final.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-p2420-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-p2530",
+    "sku": "P2530",
+    "sourceFile": "P2530 final spec 11.03.2025 update.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-p2530-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-rw5639",
+    "sku": "SF-RW5639",
+    "sourceFile": "RW5639 Spec Sheet 06172020.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw5639-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-s020027",
+    "sku": "SF-S020027",
+    "sourceFile": "S020027 final spec sheet 2023.10.30 update.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-s020027-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-s020065",
+    "sku": "SF-S020065",
+    "sourceFile": "S020065 spec sheet  05.17.2021.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-s020065-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-s0979",
+    "sku": "SF-S0979",
+    "sourceFile": "S0979 Spec Sheet 01.26.2021.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-s0979-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b0960",
+    "sku": "SF-B0960",
+    "sourceFile": "SF--B0960  spec sheet 11182021rev.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b0960-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-a020052",
+    "sku": "SF-A020052",
+    "sourceFile": "SF-A020052 spec sheet  0112021.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-a020052-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-a022005",
+    "sku": "SF-A022005",
+    "sourceFile": "SF-A022005 spec sheet.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-a022005-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-a022005smart",
+    "sku": "SF-A022005SMART",
+    "sourceFile": "SF-A022005SMART Final spec sheet 20260728.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-a022005smart-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-a022077",
+    "sku": "SF-A022077",
+    "sourceFile": "SF-A022077 spec sheet 09012023 - FINAL.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-a022077-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-a023053",
+    "sku": "SF-A023053",
+    "sourceFile": "SF-A023053-  FINAL SPEC SHEET New Max User Weight.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-a023053-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-a024854",
+    "sku": "SF-A024854",
+    "sourceFile": "SF-A024854 final spec sheet 11.22.2024 .xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-a024854-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-a024977",
+    "sku": "SF-A024977",
+    "sourceFile": "SF-A024977  Draft Spec dated 2025.06.05.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-a024977-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-a025829",
+    "sku": "SF-A025829",
+    "sourceFile": "SF-A025829 final spec sheet 20251225.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-a025829-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-a026011",
+    "sku": "SF-A026011",
+    "sourceFile": "SF-A026011 Final Spec dated 20261019.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-a026011-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b020026",
+    "sku": "SF-B020026",
+    "sourceFile": "SF-B020026  spec sheet 030162021_.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b020026-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b023004",
+    "sku": "SF-B023004",
+    "sourceFile": "SF-B023004 Draft SPEC SHEET  .xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b023004-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b023005wht",
+    "sku": "SF-B023005WHT",
+    "sourceFile": "SF-B023005WHT SPEC SHEET  08292023 - FINAL.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b023005wht-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b023805dgy",
+    "sku": "SF-B023805DGY",
+    "sourceFile": "SF-B023805DGY SPEC SHEET  08282023-FINAL.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b023805dgy-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b024073",
+    "sku": "SF-B024073",
+    "sourceFile": "SF-B024073 draft spec sheet 08072025.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b024073-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b024841",
+    "sku": "SF-B024841",
+    "sourceFile": "SF-B024841  spec sheet 20260625.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b024841-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b024973",
+    "sku": "SF-B024973",
+    "sourceFile": "SF-B024973 final spec sheet 08052025.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b024973-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b0418-smart",
+    "sku": "SF-B0418 SMART",
+    "sourceFile": "SF-B0418 SMART SPEC sheet 20260625.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b0418-smart-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b0891",
+    "sku": "SF-B0891",
+    "sourceFile": "SF-B0891 Specification Sheet.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b0891-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b1002",
+    "sku": "SF-B1002",
+    "sourceFile": "SF-B1002 Spec sheet 1.22.2021 Updated.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1002-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b122049",
+    "sku": "SF-B122049",
+    "sourceFile": "SF-B122049 Specification Sheet 20230116.xls",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b122955",
+    "sku": "SF-B122955",
+    "sourceFile": "SF-B122955   SPEC SHEET 06302023.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b122955-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b123033",
+    "sku": "SF-B123033",
+    "sourceFile": "SF-B123033 final spec sheet 08212024.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b123033-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b126029",
+    "sku": "SF-B126029",
+    "sourceFile": "SF-B126029 Bike Final spec 2026.10.20.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b126029-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b1709",
+    "sku": "SF-B1709",
+    "sourceFile": "SF-B1709 Specification.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1709-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b1714",
+    "sku": "SF-B1714",
+    "sourceFile": "SF-B1714 Specification - 5.17.2021.docx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b1805",
+    "sku": "SF-B1805",
+    "sourceFile": "SF-B1805 Spec sheet.20220805.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1805-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b1851",
+    "sku": "SF-B1851",
+    "sourceFile": "SF-B1851 Spec Sheet 03.23.2023.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1851-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b1876",
+    "sku": "SF-B1876",
+    "sourceFile": "SF-B1876 Spec Sheet 2020.08.19 舒华.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1876-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b1877",
+    "sku": "SF-B1877",
+    "sourceFile": "SF-B1877 Spec Sheet 舒华 2021.2.3 final.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1877-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b1879",
+    "sku": "SF-B1879",
+    "sourceFile": "SF-B1879 specification sheet 11.19.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1879-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b1913",
+    "sku": "SF-B1913",
+    "sourceFile": "SF-B1913 Specification 07172019.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1913-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b1995",
+    "sku": "SF-B1995",
+    "sourceFile": "SF-B1995 SpecSheet 2020.1.6.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1995-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b220030",
+    "sku": "SF-B220030",
+    "sourceFile": "SF-B220030 spec sheet20221012.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b220030-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b224027",
+    "sku": "SF-B224027",
+    "sourceFile": "SF-B224027 Final Spec 09.14.2026.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b224027-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b2883",
+    "sku": "SF-B2883",
+    "sourceFile": "SF-B2883 Specification 20190724.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b2883-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b2883smart",
+    "sku": "SF-B2883SMART",
+    "sourceFile": "SF-B2883SMART final spec sheet 20260813.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b2883smart-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b2989",
+    "sku": "SF-B2989",
+    "sourceFile": "SF-B2989 SpecSheet 2020.6.22.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b2989-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-b901-smart",
+    "sku": "SF-B901 SMART",
+    "sourceFile": "SF-B901 SMART final spec sheet 10302023.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b901-smart-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-bh620038",
+    "sku": "SF-BH620038",
+    "sourceFile": "SF-BH620038 Spec Sheet 2023.02.01 final.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bh620038-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-bh6802",
+    "sku": "SF-BH6802",
+    "sourceFile": "SF-BH6802 Specification.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bh6802-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-bl01-s",
+    "sku": "SF-BL01-S",
+    "sourceFile": "SF-BL01-S,ML,L,XL,XXL Spec Sheet Final.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl01-s-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-bl01-m",
+    "sku": "SF-BL01-M",
+    "sourceFile": "SF-BL01-S,ML,L,XL,XXL Spec Sheet Final.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl01-m-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-bl01-l",
+    "sku": "SF-BL01-L",
+    "sourceFile": "SF-BL01-S,ML,L,XL,XXL Spec Sheet Final.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl01-l-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-bl01-xl",
+    "sku": "SF-BL01-XL",
+    "sourceFile": "SF-BL01-S,ML,L,XL,XXL Spec Sheet Final.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl01-xl-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-bl01-xxl",
+    "sku": "SF-BL01-XXL",
+    "sourceFile": "SF-BL01-S,ML,L,XL,XXL Spec Sheet Final.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl01-xxl-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-bl02-s",
+    "sku": "SF-BL02-S",
+    "sourceFile": "SF-BL02-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl02-s-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-bl02-m",
+    "sku": "SF-BL02-M",
+    "sourceFile": "SF-BL02-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl02-m-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-bl02-l",
+    "sku": "SF-BL02-L",
+    "sourceFile": "SF-BL02-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl02-l-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-bl02-xl",
+    "sku": "SF-BL02-XL",
+    "sourceFile": "SF-BL02-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl02-xl-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-bl02-xxl",
+    "sku": "SF-BL02-XXL",
+    "sourceFile": "SF-BL02-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl02-xxl-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-bl03-s",
+    "sku": "SF-BL03-S",
+    "sourceFile": "SF-BL03-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl03-s-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-bl03-m",
+    "sku": "SF-BL03-M",
+    "sourceFile": "SF-BL03-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl03-m-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-bl03-l",
+    "sku": "SF-BL03-L",
+    "sourceFile": "SF-BL03-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl03-l-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-bl03-xl",
+    "sku": "SF-BL03-XL",
+    "sourceFile": "SF-BL03-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl03-xl-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-bl03-xxl",
+    "sku": "SF-BL03-XXL",
+    "sourceFile": "SF-BL03-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl03-xxl-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-e320001",
+    "sku": "SF-E320001",
+    "sourceFile": "SF-E320001 Spec Sheet 0925.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e320001-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-e320051",
+    "sku": "SF-E320051",
+    "sourceFile": "SF-E320051 Spec Sheet  04.24 .2022.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e320051-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-e321003",
+    "sku": "SF-E321003",
+    "sourceFile": "SF-E321003 Spec Sheet 2022.05.24 v1.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e321003-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  },
+  {
+    "id": "off-sunny-sf-e321005",
+    "sku": "SF-E321005",
+    "sourceFile": "SF-E321005 Spec.sheet 2022.07.13 v2.xlsx",
+    "importBatch": "v3-batch-3",
+    "url": "",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e321005-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null
+  }
+]
