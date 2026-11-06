@@ -54,7 +54,7 @@ const assert=require('assert'),fs=require('fs'),{chromium}=require('playwright')
  sql.prepare("UPDATE items SET data=json_set(data,'$.specDetails',json('{\"version\":1,\"values\":{}}')) WHERE id='sf-t724081'").run();
  sql.prepare("UPDATE items SET data=json_set(data,'$.sku','SF-X7100-EDIT','$.name','Renamed in app') WHERE id='sf-x7100'").run();
  const before=Object.fromEntries(sql.prepare('SELECT id,data FROM items').all().map(r=>[r.id,JSON.parse(r.data)]));
- const rows=await(await request('/api/items')).json();assert.equal(rows.length,176);
+ const rows=await(await request('/api/items')).json();assert.equal(rows.length,156+JSON.parse(fs.readFileSync(root+'/data/off-sunny-web/items.json','utf8')).length);
  for(const row of rows){const old=before[row.id];const {specDetails,...rest}=row,{specDetails:oldDetails,...oldRest}=old;assert.deepEqual(rest,{...oldRest,id:row.id},row.id+' other fields unchanged');
   const master=byId[row.id];
   if(row.catalogSource==='off-sunny-web')assert.deepEqual(specDetails,oldDetails);

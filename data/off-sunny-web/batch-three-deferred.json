@@ -1,0 +1,52 @@
+[
+  {
+    "sku": "NO.122",
+    "sourceFile": "NO. 122 Draft Spec 9.28.26.xlsx",
+    "reason": "Source has no verified descriptive product identity; deferred rather than assigning a guessed name/category."
+  },
+  {
+    "sku": "NO. 123",
+    "sourceFile": "NO. 123 draft spec 07302026.xlsx",
+    "reason": "Source has no verified descriptive product identity; deferred rather than assigning a guessed name/category."
+  },
+  {
+    "sku": "SF-A020052 SMART",
+    "sourceFile": "SF-A020052 SMART  SPEC SHEET 20240625.xlsx",
+    "reason": "Source has no verified descriptive product identity; deferred rather than assigning a guessed name/category."
+  },
+  {
+    "sku": "SF-A023001",
+    "sourceFile": "SF-A023001 Specification Sheet 20230714.xlsx",
+    "reason": "Source has no verified descriptive product identity; deferred rather than assigning a guessed name/category."
+  },
+  {
+    "sku": "SF-A026006",
+    "sourceFile": "SF-A026006 spec & force value list.xls",
+    "reason": "Source has no verified descriptive product identity; deferred rather than assigning a guessed name/category."
+  },
+  {
+    "sku": "SF-A026020",
+    "sourceFile": "SF-A026020 draft Spec 07302026.xlsx",
+    "reason": "Source has no verified descriptive product identity; deferred rather than assigning a guessed name/category."
+  },
+  {
+    "sku": "SF-A026811",
+    "sourceFile": "SF-A026811 Draft Spec dated 20260702.xlsx",
+    "reason": "Source has no verified descriptive product identity; deferred rather than assigning a guessed name/category."
+  },
+  {
+    "sku": "SF-B122050",
+    "sourceFile": "SF-B122050 Draft Spec Sheet 2022-8-1.xls",
+    "reason": "Source has no verified descriptive product identity; deferred rather than assigning a guessed name/category."
+  },
+  {
+    "sku": "SF-B125071",
+    "sourceFile": "SF-B125071 draft spec sheet 20260729.xlsx",
+    "reason": "Source has no verified descriptive product identity; deferred rather than assigning a guessed name/category."
+  },
+  {
+    "sku": "SF-B222001",
+    "sourceFile": "SF-B222001 draft spec sheet 04142025.xlsx",
+    "reason": "Source has no verified descriptive product identity; deferred rather than assigning a guessed name/category."
+  }
+]

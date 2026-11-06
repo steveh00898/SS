@@ -409,6 +409,34 @@
         [
           "seatDimensions",
           "Seat dimensions"
+        ],
+        [
+          "stride",
+          "Stride length"
+        ],
+        [
+          "stepHeight",
+          "Step height"
+        ],
+        [
+          "pedalBothDirections",
+          "Can be pedaled both directions"
+        ],
+        [
+          "footStraps",
+          "Adjustable foot straps"
+        ],
+        [
+          "motorized",
+          "Motorized"
+        ],
+        [
+          "controlOnHandlebar",
+          "Control on handlebar"
+        ],
+        [
+          "heightRange",
+          "Height range"
         ]
       ]
     },
@@ -490,6 +518,18 @@
         [
           "plugType",
           "Plug / adapter"
+        ],
+        [
+          "energySaver",
+          "Energy saver mode"
+        ],
+        [
+          "meterSize",
+          "Meter size"
+        ],
+        [
+          "remoteControl",
+          "Remote control"
         ]
       ]
     },
@@ -1059,6 +1099,10 @@
         [
           "transportWheels",
           "Transport wheels"
+        ],
+        [
+          "pedalBothDirections",
+          "Can be pedaled both directions"
         ]
       ]
     },
@@ -1140,6 +1184,10 @@
         [
           "plugType",
           "Plug / adapter"
+        ],
+        [
+          "meterSize",
+          "Meter size"
         ]
       ]
     },
@@ -1253,6 +1301,10 @@
         [
           "transportWheels",
           "Transport wheels"
+        ],
+        [
+          "flywheelWeight",
+          "Flywheel weight"
         ]
       ]
     },
@@ -1334,6 +1386,14 @@
         [
           "plugType",
           "Plug / adapter"
+        ],
+        [
+          "meterSize",
+          "Meter size"
+        ],
+        [
+          "energySaver",
+          "Energy saver mode"
         ]
       ]
     },
@@ -2019,6 +2079,22 @@
         [
           "trampolineHeight",
           "Trampoline height"
+        ],
+        [
+          "speedResistanceLevels",
+          "Resistance levels"
+        ],
+        [
+          "adjustableAngles",
+          "Adjustable angles"
+        ],
+        [
+          "stride",
+          "Stride length"
+        ],
+        [
+          "seatDimensions",
+          "Seat / pad dimensions"
         ]
       ]
     },
@@ -2036,6 +2112,30 @@
         [
           "bluetooth",
           "Bluetooth"
+        ],
+        [
+          "display",
+          "Monitor / displayed metrics"
+        ],
+        [
+          "screenSize",
+          "Screen size"
+        ],
+        [
+          "screenType",
+          "Screen type"
+        ],
+        [
+          "wirelessHeartRate",
+          "Wireless heart-rate support"
+        ],
+        [
+          "ftms",
+          "FTMS"
+        ],
+        [
+          "meterSize",
+          "Meter size"
         ]
       ]
     },

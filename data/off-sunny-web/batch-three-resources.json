@@ -1,0 +1,3311 @@
+[
+  {
+    "id": "off-sunny-no-085",
+    "sku": "No. 085",
+    "sourceFile": "No. 085 Specification.pdf",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "unavailable",
+    "research": [
+      {
+        "search": "https://sunnyhealthfitness.com/search/suggest.json?q=No.+085&resources%5Btype%5D=product&resources%5Blimit%5D=5&resources%5Boptions%5D%5Bunavailable_products%5D=show",
+        "results": 0
+      },
+      {
+        "guideError": "HTTP Error 404: Not Found"
+      }
+    ],
+    "imageEvidence": {
+      "visualAudit": "No usable image available in supported source; official verification may remain pending",
+      "reason": "Rendered sourcePDF checked: blank INSERT PRODUCT PICTURE HERE region; no product image embedded."
+    }
+  },
+  {
+    "id": "off-sunny-no-086",
+    "sku": "No. 086",
+    "sourceFile": "No. 086 Specification.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-086-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "official-website",
+    "research": [
+      {
+        "search": "https://sunnyhealthfitness.com/search/suggest.json?q=No.+086&resources%5Btype%5D=product&resources%5Blimit%5D=5&resources%5Boptions%5D%5Bunavailable_products%5D=show",
+        "results": 1
+      },
+      {
+        "guideError": "HTTP Error 404: Not Found"
+      }
+    ],
+    "imageEvidence": {
+      "url": "//cdn.shopify.com/s/files/1/0052/7043/7978/products/sunny-health-fitness-accessories-lifting-wrist-straps-w-neoprene-padding-2000lb-weight-capacity-heavy-duty-for-weightlifting-pair-No.086-01.jpg?v=1597790555",
+      "page": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-no-086-lifting-straps-with-neoprene-padding-2000lb-weight-capacity-heavy-duty-workout-wrist-straps-for-weightlifting-and-crossfit-training-pair?variant=16470583181402",
+      "evidence": "Official product exact variant SKU NO. 086",
+      "sha256": "6f09b244dda72c13e5c5eca298b279671270b641a0631546116b1e063c1c4596",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-089-combo",
+    "sku": "NO. 089 COMBO",
+    "sourceFile": "NO. 089-COMBO final  Spec Sheet 08232024.xlsx",
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/NO._089-COMBO_Multi_Language_manual_V1.2_08.28.2024.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-089-combo",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "manualEvidence": "Exact-model official guide PDF configuration",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-089-combo-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "official-website",
+    "research": [
+      {
+        "search": "https://sunnyhealthfitness.com/search/suggest.json?q=NO.+089+COMBO&resources%5Btype%5D=product&resources%5Blimit%5D=5&resources%5Boptions%5D%5Bunavailable_products%5D=show",
+        "results": 1
+      },
+      {
+        "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-089-combo",
+        "heading": "\n            NO. 089-COMBO: User Manual & Assembly Guides\n          ",
+        "exactModelHeading": true
+      }
+    ],
+    "imageEvidence": {
+      "url": "//cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-resistance-tube-set-no.089-1.jpg?v=1776210804",
+      "page": "https://sunnyhealthfitness.com/products/resistance-tube-set-no-089-combo?variant=40191986499674",
+      "evidence": "Official product exact variant SKU NO. 089-COMBO",
+      "sha256": "b2cd653256f560cf8c9b375757b3f9aba5ceefc42ddee55b1c6055ad3a23a1d9",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-090",
+    "sku": "NO. 090",
+    "sourceFile": "NO. 090 final spec sheet 05232024.xlsx",
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/NO.090_Manual_EN_V1.2_20260827.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-090",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "manualEvidence": "Exact-model official guide PDF configuration",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-090-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "official-website",
+    "research": [
+      {
+        "search": "https://sunnyhealthfitness.com/search/suggest.json?q=NO.+090&resources%5Btype%5D=product&resources%5Blimit%5D=5&resources%5Boptions%5D%5Bunavailable_products%5D=show",
+        "results": 1
+      },
+      {
+        "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-090",
+        "heading": "\n            NO. 090: User Manual & Assembly Guides\n          ",
+        "exactModelHeading": true
+      }
+    ],
+    "imageEvidence": {
+      "url": "//cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-no090-1.jpg?v=1726701605",
+      "page": "https://sunnyhealthfitness.com/products/ab-roller-wheel-no-090?variant=41427537723482",
+      "evidence": "Official product exact variant SKU NO. 090",
+      "sha256": "e3190e00dea4f5348a73254b04d42c286b0daf55e28079ce89b2d9de702a2f5c",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-109",
+    "sku": "NO. 109",
+    "sourceFile": "NO. 109 Final spec sheet_03202026.xlsx",
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/NO.109_Manual_EN_V1.3_20260902.pdf",
+      "assemblyUrl": "https://www.youtube.com/watch?v=9j37EefcE9k",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-109",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-109",
+      "checkedAt": "2026-11-06",
+      "manualEvidence": "Exact-model official guide PDF configuration",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-109-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "official-website",
+    "research": [
+      {
+        "search": "https://sunnyhealthfitness.com/search/suggest.json?q=NO.+109&resources%5Btype%5D=product&resources%5Blimit%5D=5&resources%5Boptions%5D%5Bunavailable_products%5D=show",
+        "results": 1
+      },
+      {
+        "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-109",
+        "heading": "\n            NO. 109: User Manual & Assembly Guides\n          ",
+        "exactModelHeading": true
+      }
+    ],
+    "imageEvidence": {
+      "url": "//cdn.shopify.com/s/files/1/0052/7043/7978/files/1-Sunny-Health-Fitness-NO-106-1200x1200.jpg?v=1759877553",
+      "page": "https://sunnyhealthfitness.com/products/adjustable-pull-up-bar-no-109?variant=52737648689516",
+      "evidence": "Official product exact variant SKU NO. 109",
+      "sha256": "4b6e5b92443f6799bbde8500a280be3d410b22b731f6caec406d3301f0c1be02",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-110",
+    "sku": "NO. 110",
+    "sourceFile": "NO. 110 final spec sheet 20250213.xlsx",
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/NO._110_manual.pdf?v=1744754658",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-110",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "manualEvidence": "Exact-model official guide PDF configuration",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-110-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "official-website",
+    "research": [
+      {
+        "search": "https://sunnyhealthfitness.com/search/suggest.json?q=NO.+110&resources%5Btype%5D=product&resources%5Blimit%5D=5&resources%5Boptions%5D%5Bunavailable_products%5D=show",
+        "results": 3
+      },
+      {
+        "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-110",
+        "heading": "\n            NO. 110: User Manual & Assembly Guides\n          ",
+        "exactModelHeading": true
+      }
+    ],
+    "imageEvidence": {
+      "url": "//cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-Accessories-NO.110-FOAM-BARBELL-PAD-shopify_shopify-productonly.jpg?v=1748382038",
+      "page": "https://sunnyhealthfitness.com/products/foam-barbell-pad-no-110?variant=51972257743212",
+      "evidence": "Official product exact variant SKU NO. 110",
+      "sha256": "20b483e35ff038d8c7eee156da652b9b30dc47705f3eb6fdbb97f3bbc41d553d",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-111",
+    "sku": "NO. 111",
+    "sourceFile": "NO. 111 Final  Spec dated 20260119.xlsx",
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/NO._111_Manual_EN_V1.0_20251216.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-111",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "manualEvidence": "Exact-model official guide PDF configuration",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-111-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "official-website",
+    "research": [
+      {
+        "search": "https://sunnyhealthfitness.com/search/suggest.json?q=NO.+111&resources%5Btype%5D=product&resources%5Blimit%5D=5&resources%5Boptions%5D%5Bunavailable_products%5D=show",
+        "results": 1
+      },
+      {
+        "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-111",
+        "heading": "\n            NO. 111: User Manual & Assembly Guides\n          ",
+        "exactModelHeading": true
+      }
+    ],
+    "imageEvidence": {
+      "url": "//cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-adjustable-wooden-slant-board-no-111-1.jpg?v=1778182050",
+      "page": "https://sunnyhealthfitness.com/products/adjustable-wooden-slant-board-no-111?variant=53414563905900",
+      "evidence": "Official product exact variant SKU NO. 111",
+      "sha256": "fe1013139431fab22d84dffc963f588dbe290d3f5f0680d2d453998ecdf25d79",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-112",
+    "sku": "NO. 112",
+    "sourceFile": "NO. 112 Final Spec dated 20260225.xlsx",
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/NO._112_Manual_EN_V1.0_20251209.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-112",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "manualEvidence": "Exact-model official guide PDF configuration",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-112-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "official-website",
+    "research": [
+      {
+        "search": "https://sunnyhealthfitness.com/search/suggest.json?q=NO.+112&resources%5Btype%5D=product&resources%5Blimit%5D=5&resources%5Boptions%5D%5Bunavailable_products%5D=show",
+        "results": 4
+      },
+      {
+        "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-112",
+        "heading": "\n            NO. 112: User Manual & Assembly Guides\n          ",
+        "exactModelHeading": true
+      }
+    ],
+    "imageEvidence": {
+      "url": "//cdn.shopify.com/s/files/1/0052/7043/7978/files/NO._112-sunny-health-fitness-1.jpg?v=1779995054",
+      "page": "https://sunnyhealthfitness.com/products/5-level-resistance-band-set-no-112?variant=53760067895660",
+      "evidence": "Official product exact variant SKU NO. 112",
+      "sha256": "9af342fba6e8d688b8f24b0515c1f8e7b42cede3fe48f2bf34863863629a0745",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-113",
+    "sku": "NO. 113",
+    "sourceFile": "NO. 113 Final Spec dated 20260225.xlsx",
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/NO._113_Manual_EN_V1.0_20251211.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-113",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "manualEvidence": "Exact-model official guide PDF configuration",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-113-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "official-website",
+    "research": [
+      {
+        "search": "https://sunnyhealthfitness.com/search/suggest.json?q=NO.+113&resources%5Btype%5D=product&resources%5Blimit%5D=5&resources%5Boptions%5D%5Bunavailable_products%5D=show",
+        "results": 2
+      },
+      {
+        "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-113",
+        "heading": "\n            NO. 113: User Manual & Assembly Guides\n          ",
+        "exactModelHeading": true
+      }
+    ],
+    "imageEvidence": {
+      "url": "//cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-5-level-resistance-loop-set-no.113-main.jpg?v=1776876055",
+      "page": "https://sunnyhealthfitness.com/products/5-level-resistance-band-set-no-113?variant=53644110758252",
+      "evidence": "Official product exact variant SKU NO. 113",
+      "sha256": "b954b078930a83a05747256bac09dcee388f63994817bc7b146b7510191e6a3a",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-116-l-bu",
+    "sku": "NO. 116-L-BU",
+    "sourceFile": "NO. 116 Final Spec Template dated 20260609.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-116-l-bu-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "official-website",
+    "research": [
+      {
+        "search": "https://sunnyhealthfitness.com/search/suggest.json?q=NO.+116-L-BU&resources%5Btype%5D=product&resources%5Blimit%5D=5&resources%5Boptions%5D%5Bunavailable_products%5D=show",
+        "results": 1
+      },
+      {
+        "guideError": "HTTP Error 404: Not Found"
+      }
+    ],
+    "imageEvidence": {
+      "url": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/1-sunny-health-fitness-foam-balance-pad-for-stability-balance-core-training-no-116-blue.jpg?v=1785261361",
+      "page": "https://sunnyhealthfitness.com/products/foam-balance-pad-for-stability-balance-core-training-no-116?variant=54085394465132",
+      "evidence": "Official product exact variant SKU NO. 116-L-BU",
+      "sha256": "e1532fb4e73ff8fef23ab62f94b216d140937dc05ee089b773b9708265b11e59",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-116-l-gy",
+    "sku": "NO. 116-L-GY",
+    "sourceFile": "NO. 116 Final Spec Template dated 20260609.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-116-l-gy-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "official-website",
+    "research": [
+      {
+        "search": "https://sunnyhealthfitness.com/search/suggest.json?q=NO.+116-L-GY&resources%5Btype%5D=product&resources%5Blimit%5D=5&resources%5Boptions%5D%5Bunavailable_products%5D=show",
+        "results": 1
+      },
+      {
+        "guideError": "HTTP Error 404: Not Found"
+      }
+    ],
+    "imageEvidence": {
+      "url": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/1-sunny-health-fitness-foam-balance-pad-for-stability-balance-core-training-no-116.jpg?v=1785260606",
+      "page": "https://sunnyhealthfitness.com/products/foam-balance-pad-for-stability-balance-core-training-no-116?variant=54085394530668",
+      "evidence": "Official product exact variant SKU NO. 116-L-GY",
+      "sha256": "a8069561b8bb4ce8638b4673d0d0d8eb44a82f43c0307435529a4c601bff6400",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-116-xl-bu",
+    "sku": "NO. 116-XL-BU",
+    "sourceFile": "NO. 116 Final Spec Template dated 20260609.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-116-xl-bu-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "official-website",
+    "research": [
+      {
+        "search": "https://sunnyhealthfitness.com/search/suggest.json?q=NO.+116-XL-BU&resources%5Btype%5D=product&resources%5Blimit%5D=5&resources%5Boptions%5D%5Bunavailable_products%5D=show",
+        "results": 1
+      },
+      {
+        "guideError": "HTTP Error 404: Not Found"
+      }
+    ],
+    "imageEvidence": {
+      "url": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/1-sunny-health-fitness-foam-balance-pad-for-stability-balance-core-training-no-116-blue.jpg?v=1785261361",
+      "page": "https://sunnyhealthfitness.com/products/foam-balance-pad-for-stability-balance-core-training-no-116?variant=54085394497900",
+      "evidence": "Official product exact variant SKU NO. 116-XL-BU",
+      "sha256": "e1532fb4e73ff8fef23ab62f94b216d140937dc05ee089b773b9708265b11e59",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-116-xl-gy",
+    "sku": "NO. 116-XL-GY",
+    "sourceFile": "NO. 116 Final Spec Template dated 20260609.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-116-xl-gy-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "official-website",
+    "research": [
+      {
+        "search": "https://sunnyhealthfitness.com/search/suggest.json?q=NO.+116-XL-GY&resources%5Btype%5D=product&resources%5Blimit%5D=5&resources%5Boptions%5D%5Bunavailable_products%5D=show",
+        "results": 1
+      },
+      {
+        "guideError": "HTTP Error 404: Not Found"
+      }
+    ],
+    "imageEvidence": {
+      "url": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/1-sunny-health-fitness-foam-balance-pad-for-stability-balance-core-training-no-116.jpg?v=1785260606",
+      "page": "https://sunnyhealthfitness.com/products/foam-balance-pad-for-stability-balance-core-training-no-116?variant=54085394563436",
+      "evidence": "Official product exact variant SKU NO. 116-XL-GY",
+      "sha256": "a8069561b8bb4ce8638b4673d0d0d8eb44a82f43c0307435529a4c601bff6400",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-117-gy",
+    "sku": "NO. 117-GY",
+    "sourceFile": "NO. 117 Final Spec Template dated 20260702.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-117-gy-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "official-website",
+    "research": [
+      {
+        "search": "https://sunnyhealthfitness.com/search/suggest.json?q=NO.+117-GY&resources%5Btype%5D=product&resources%5Blimit%5D=5&resources%5Boptions%5D%5Bunavailable_products%5D=show",
+        "results": 1
+      },
+      {
+        "guideError": "HTTP Error 404: Not Found"
+      }
+    ],
+    "imageEvidence": {
+      "url": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/1-sunny-health-fitness-GY-balance-cushion-no-117.jpg?v=1789517918",
+      "page": "https://sunnyhealthfitness.com/products/wobble-balance-cushion-no-117?variant=54418664456556",
+      "evidence": "Official product exact variant SKU NO. 117-GY",
+      "sha256": "221185b5c7ac5c3364a7c12e9c08f965d69596b6351d5b12e9e3b80cd13a0651",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-117-bu",
+    "sku": "NO. 117-BU",
+    "sourceFile": "NO. 117 Final Spec Template dated 20260702.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-117-bu-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "official-website",
+    "research": [
+      {
+        "search": "https://sunnyhealthfitness.com/search/suggest.json?q=NO.+117-BU&resources%5Btype%5D=product&resources%5Blimit%5D=5&resources%5Boptions%5D%5Bunavailable_products%5D=show",
+        "results": 1
+      },
+      {
+        "guideError": "HTTP Error 404: Not Found"
+      }
+    ],
+    "imageEvidence": {
+      "url": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/1-sunny-health-fitness-BU-balance-cushion-no-117.jpg?v=1789517876",
+      "page": "https://sunnyhealthfitness.com/products/wobble-balance-cushion-no-117?variant=54418664423788",
+      "evidence": "Official product exact variant SKU NO. 117-BU",
+      "sha256": "49e5ab470c6da97ee0e23f70df415c459cfc057843ac400926a0da86505aa284",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-121",
+    "sku": "NO.121",
+    "sourceFile": "NO. 121draft Spec Template dated 20260708.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-121-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "search": "https://sunnyhealthfitness.com/search/suggest.json?q=NO.121&resources%5Btype%5D=product&resources%5Blimit%5D=5&resources%5Boptions%5D%5Bunavailable_products%5D=show",
+        "results": 0
+      },
+      {
+        "guideError": "HTTP Error 404: Not Found"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "NO. 121draft Spec Template dated 20260708.xlsx",
+      "object": "xl/media/image2.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "No exact official image found",
+      "sha256": "b8914c92bfe6d403e459e3cf900ccca5549fc3b2c24026eb5b5cfc2624d5b602",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-124-rd",
+    "sku": "NO. 124-RD",
+    "sourceFile": "NO. 124-RD draft Spec dated 20260320.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-124-rd-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "search": "https://sunnyhealthfitness.com/search/suggest.json?q=NO.+124-RD&resources%5Btype%5D=product&resources%5Blimit%5D=5&resources%5Boptions%5D%5Bunavailable_products%5D=show",
+        "results": 0
+      },
+      {
+        "guideError": "HTTP Error 404: Not Found"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "NO. 124-RD draft Spec dated 20260320.xlsx",
+      "object": "xl/media/image2.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "No exact official image found",
+      "sha256": "a0a408719d1628b7c2092d1a58441565e300355c61df8bec613f5820552af3e8",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-012-s",
+    "sku": "NO.012-S",
+    "sourceFile": "NO.012-S Spec sheet dated 20250714.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "verified"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-012-s-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "official-website",
+    "research": [
+      {
+        "search": "https://sunnyhealthfitness.com/search/suggest.json?q=NO.012-S&resources%5Btype%5D=product&resources%5Blimit%5D=5&resources%5Boptions%5D%5Bunavailable_products%5D=show",
+        "results": 1
+      },
+      {
+        "guideError": "HTTP Error 404: Not Found"
+      }
+    ],
+    "imageEvidence": {
+      "url": "//cdn.shopify.com/s/files/1/0052/7043/7978/files/1-sunny-health-fitness-no-012-s-mini-stepper-step-machine-w-resistance-bands-and-lcd-monitor.jpg?v=1790106485",
+      "page": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-no-012-s-mini-stepper-step-machine-w-resistance-bands-and-lcd-monitor?variant=16470571417690",
+      "evidence": "Official product exact variant SKU NO. 012-S",
+      "sha256": "e21a19ca3ed354b961b258f17b84ed851e74fdbc7e0828aeb3de37ad36d566ad",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-021-10-pair",
+    "sku": "No.021-10-PAIR",
+    "sourceFile": "NO.021-10-PAIR SPEC.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-021-10-pair-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "official-website",
+    "research": [
+      {
+        "search": "https://sunnyhealthfitness.com/search/suggest.json?q=No.021-10-PAIR&resources%5Btype%5D=product&resources%5Blimit%5D=5&resources%5Boptions%5D%5Bunavailable_products%5D=show",
+        "results": 1
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "url": "https://cdn.shopify.com/s/files/1/0052/7043/7978/products/No.021-10-PAIR-6.jpg?v=1779488087",
+      "page": "https://sunnyhealthfitness.com/products/neoprene-dumbbell-pair?variant=17048476876890",
+      "evidence": "Official product exact variant SKU NO. 021-10-PAIR",
+      "sha256": "e8dff4112b64d2a2935e5c4051921bbc9334a8a92b5552eded74f5dfd085cdd1",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-021-5-pair",
+    "sku": "No.021-5-PAIR",
+    "sourceFile": "NO.021-5-PAIR SPEC.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-021-5-pair-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "official-website",
+    "research": [
+      {
+        "search": "https://sunnyhealthfitness.com/search/suggest.json?q=No.021-5-PAIR&resources%5Btype%5D=product&resources%5Blimit%5D=5&resources%5Boptions%5D%5Bunavailable_products%5D=show",
+        "results": 1
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "url": "https://cdn.shopify.com/s/files/1/0052/7043/7978/products/NO.021_5_5.jpg?v=1779487984",
+      "page": "https://sunnyhealthfitness.com/products/neoprene-dumbbell-pair?variant=31589088264282",
+      "evidence": "Official product exact variant SKU NO. 021-5-PAIR",
+      "sha256": "a94a6d94a517d4ca7dcd0dd849af8b46fec9a28357aa461cba1a5a1b2e368a20",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-021-8-pair",
+    "sku": "No.021-8-PAIR",
+    "sourceFile": "NO.021-8-PAIR SPEC.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-021-8-pair-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "official-website",
+    "research": [
+      {
+        "search": "https://sunnyhealthfitness.com/search/suggest.json?q=No.021-8-PAIR&resources%5Btype%5D=product&resources%5Blimit%5D=5&resources%5Boptions%5D%5Bunavailable_products%5D=show",
+        "results": 1
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "url": "https://cdn.shopify.com/s/files/1/0052/7043/7978/products/NO.021-8LBS-6.jpg?v=1779488021",
+      "page": "https://sunnyhealthfitness.com/products/neoprene-dumbbell-pair?variant=17035585978458",
+      "evidence": "Official product exact variant SKU NO. 021-8-PAIR",
+      "sha256": "1db9fe1507116676ff63b8f887806d87c37554af7c84fd30f955adb66fbc0ea1",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-064",
+    "sku": "NO. 064",
+    "sourceFile": "NO.064 SPEC.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-064-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "search": "https://sunnyhealthfitness.com/search/suggest.json?q=NO.+064&resources%5Btype%5D=product&resources%5Blimit%5D=5&resources%5Boptions%5D%5Bunavailable_products%5D=show",
+        "results": 5
+      },
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "NO.064 SPEC.xlsx",
+      "object": "xl/media/image1.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "277111c34158d82bb23473dac26958b345f5f9605443927465b879d1e8394405",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-074-m",
+    "sku": "NO. 074-M",
+    "sourceFile": "NO.074-M Accessory Product Spec - case pack.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-074-m-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "search": "https://sunnyhealthfitness.com/search/suggest.json?q=NO.+074-M&resources%5Btype%5D=product&resources%5Blimit%5D=5&resources%5Boptions%5D%5Bunavailable_products%5D=show",
+        "results": 1
+      },
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "NO.074-M Accessory Product Spec - case pack.xlsx",
+      "object": "xl/media/image1.jpeg",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "e10cca6495c5d19e46e78a5c7aa8afddb8bc1f36dc3f8818d9ab64d93a022855",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-077-plus",
+    "sku": "NO.077 PLUS",
+    "sourceFile": "NO.077 plus  spec  sheet 4.20.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-077-plus-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "NO.077 plus  spec  sheet 4.20.xlsx",
+      "object": "xl/media/image5.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "bdea6f8d62ebe3c3837f20a96fcdb436dc668787ca2680c806c83e645d221aca",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-108-rd",
+    "sku": "NO. 108-RD",
+    "sourceFile": "NO.108 final spec sheet 20250213.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-108-rd-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "NO.108 final spec sheet 20250213.xlsx",
+      "object": "xl/media/image12.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "2bbc035faa6c331bd063837b9f6aee2dd8855ac7d4a44e8f9b4057f4c6114cca",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-no-108-gy",
+    "sku": "NO. 108-GY",
+    "sourceFile": "NO.108 final spec sheet 20250213.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-108-gy-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "NO.108 final spec sheet 20250213.xlsx",
+      "object": "xl/media/image11.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "65328c8ba57faef4dc818e0d807273e7a1051e1527c5072d7bd8a905de5410e8",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-ob-20",
+    "sku": "OB-20",
+    "sourceFile": "OB 20 Specification 06.22.2023.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-ob-20-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "OB 20 Specification 06.22.2023.xlsx",
+      "object": "xl/media/image1.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "83a92c480f57ea71cbd0ae95f80c01a52a27d88599cb780e050281962cbb3ba9",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-ob-48",
+    "sku": "OB-48",
+    "sourceFile": "OB-48 Specification 06.22.2023.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-ob-48-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "OB-48 Specification 06.22.2023.xlsx",
+      "object": "xl/media/image1.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "1faec60f9de29a3c40ab128c96f80ead784ae109b81bff8107de545d9febb62c",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-ob-hex",
+    "sku": "OB-HEX",
+    "sourceFile": "OB-HEX Specification 06.22.2023.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-ob-hex-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "OB-HEX Specification 06.22.2023.xlsx",
+      "object": "xl/media/image1.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "549fd82d3a674a37158ef0cd73ba376c14db3bdb1518589fac3e3ba068d97702",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-ob-trap",
+    "sku": "OB-TRAP",
+    "sourceFile": "OB-TRAP Spec Sheet 2022.01.28 final.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-ob-trap-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "OB-TRAP Spec Sheet 2022.01.28 final.xlsx",
+      "object": "xl/media/image2.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "3cb5d62721c7df55cce0b9a21dde286aaff67687717b5598caedc33886bdbd35",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-p2030",
+    "sku": "P2030",
+    "sourceFile": "P2030  spec sheet 06212023.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-p2030-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "P2030  spec sheet 06212023.xlsx",
+      "object": "xl/media/image5.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "a1a494182bd0130bab77a6174caae1bb274ea7f42a914d492f3ce4ea5bd9146e",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-p2100",
+    "sku": "P2100",
+    "sourceFile": "P2100 final spec sheet 11.22.2024 .xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-p2100-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "P2100 final spec sheet 11.22.2024 .xlsx",
+      "object": "xl/media/image5.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "dc6e9afd06a9b1c8761bb19d6930ccc997e474e3a32d050e72402240da60ef88",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-p2100-smart",
+    "sku": "P2100 SMART",
+    "sourceFile": "P2100 SMART final Spec Sheet Template 07.29.2024.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-p2100-smart-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "P2100 SMART final Spec Sheet Template 07.29.2024.xlsx",
+      "object": "xl/media/image6.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "343c5ec45b298108dcac67a726bc69a3fa3e2d32755a5c377d6701fb832b59d2",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-p2330",
+    "sku": "P2330",
+    "sourceFile": "P2330 SPEC SHEET  08292023 - FINAL.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-p2330-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "P2330 SPEC SHEET  08292023 - FINAL.xlsx",
+      "object": "xl/media/image6.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "eea34f1d7ecd29c4efdf66c74b5ec1d6221b86a64411b353c305f6a10a494ed1",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-p2420",
+    "sku": "P2420",
+    "sourceFile": "P2420 SPEC SHEET 20240712 Final.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-p2420-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "P2420 SPEC SHEET 20240712 Final.xlsx",
+      "object": "xl/media/image6.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "0dbcfc8db000ba888cb6e3aa7b40caed318a01b8b0c89a9e2f8c34b14a445e8c",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-p2530",
+    "sku": "P2530",
+    "sourceFile": "P2530 final spec 11.03.2025 update.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-p2530-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "P2530 final spec 11.03.2025 update.xlsx",
+      "object": "xl/media/image2.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "9892bf1274f1dc03aef43494c957dc67d7eb83e0d31ea971e858805df154b844",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-rw5639",
+    "sku": "SF-RW5639",
+    "sourceFile": "RW5639 Spec Sheet 06172020.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw5639-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "RW5639 Spec Sheet 06172020.xlsx",
+      "object": "xl/media/image6.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "d578d4ba94fe0aa88138dd6dad9b3aa75823e4b64c4d8f79a43a8d24588291fb",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-s020027",
+    "sku": "SF-S020027",
+    "sourceFile": "S020027 final spec sheet 2023.10.30 update.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-s020027-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "S020027 final spec sheet 2023.10.30 update.xlsx",
+      "object": "xl/media/image5.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "7343bc422bc5a7f8b28a6fa216119646f6b0ecd40b06bf6fa08c503e92a9ab81",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-s020065",
+    "sku": "SF-S020065",
+    "sourceFile": "S020065 spec sheet  05.17.2021.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-s020065-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "S020065 spec sheet  05.17.2021.xlsx",
+      "object": "xl/media/image5.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "f1d557a6479fe92780857c425fb24c982d853facf750bec5fe8a568be8cf2b80",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-s0979",
+    "sku": "SF-S0979",
+    "sourceFile": "S0979 Spec Sheet 01.26.2021.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-s0979-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "S0979 Spec Sheet 01.26.2021.xlsx",
+      "object": "xl/media/image4.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "04b21762e24632cd1fe5bd2287058308b4ed4ef2e719a7f283bde4e43f5b7056",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b0960",
+    "sku": "SF-B0960",
+    "sourceFile": "SF--B0960  spec sheet 11182021rev.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b0960-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF--B0960  spec sheet 11182021rev.xlsx",
+      "object": "xl/media/image5.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "fdeafbe86e328429dbd863100a823850dca80d2ac4223a3cd2ac15ebbe76e900",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-a020052",
+    "sku": "SF-A020052",
+    "sourceFile": "SF-A020052 spec sheet  0112021.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-a020052-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-A020052 spec sheet  0112021.xlsx",
+      "object": "xl/media/image6.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "318f2af74ae92db78799f25cd277cbec1a97f0c66604dafa4b5707b03c98e8cb",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-a022005",
+    "sku": "SF-A022005",
+    "sourceFile": "SF-A022005 spec sheet.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-a022005-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-A022005 spec sheet.xlsx",
+      "object": "xl/media/image4.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "e3b019c07c4ac4e05fd93a3b935aac0d6c3ee05be8a7e4c7ba596060020365a9",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-a022005smart",
+    "sku": "SF-A022005SMART",
+    "sourceFile": "SF-A022005SMART Final spec sheet 20260728.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-a022005smart-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-A022005SMART Final spec sheet 20260728.xlsx",
+      "object": "xl/media/image2.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "4ccc79f79cf841bf948202a8ccfe74f94fcd425eede2b1d41897fb29c5e7a457",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-a022077",
+    "sku": "SF-A022077",
+    "sourceFile": "SF-A022077 spec sheet 09012023 - FINAL.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-a022077-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-A022077 spec sheet 09012023 - FINAL.xlsx",
+      "object": "xl/media/image6.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "a7d70cdc96d7729f16e79dd5827103f145d54c3cce05677584031cb1e78b63b6",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-a023053",
+    "sku": "SF-A023053",
+    "sourceFile": "SF-A023053-  FINAL SPEC SHEET New Max User Weight.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-a023053-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-A023053-  FINAL SPEC SHEET New Max User Weight.xlsx",
+      "object": "xl/media/image6.wmf",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "e050164d77d273dd73a3b61868386f8fde5bce17fbd568788bc10973f30af9dc",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-a024854",
+    "sku": "SF-A024854",
+    "sourceFile": "SF-A024854 final spec sheet 11.22.2024 .xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-a024854-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-A024854 final spec sheet 11.22.2024 .xlsx",
+      "object": "xl/media/image18.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "04ff40918e59e1f17c0dc29e2603b0f1080ff2b69818df58821b7946874064a8",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-a024977",
+    "sku": "SF-A024977",
+    "sourceFile": "SF-A024977  Draft Spec dated 2025.06.05.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-a024977-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-A024977  Draft Spec dated 2025.06.05.xlsx",
+      "object": "xl/media/image5.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "a49f66258dd450abf0074931ddf3db90c82733f84a26964f816b3bafdd6b39bf",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-a025829",
+    "sku": "SF-A025829",
+    "sourceFile": "SF-A025829 final spec sheet 20251225.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-a025829-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-A025829 final spec sheet 20251225.xlsx",
+      "object": "xl/media/image2.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "3ea4018dc255aac92d27729c1422924d90535e57c3b37187f58145a150ea62fe",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-a026011",
+    "sku": "SF-A026011",
+    "sourceFile": "SF-A026011 Final Spec dated 20261019.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-a026011-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-A026011 Final Spec dated 20261019.xlsx",
+      "object": "xl/media/image6.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "5bc49b2eaa2097e862ed0add9cc8c1eb9f34f25c4bd9e5697507b1731117c8b4",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b020026",
+    "sku": "SF-B020026",
+    "sourceFile": "SF-B020026  spec sheet 030162021_.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b020026-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B020026  spec sheet 030162021_.xlsx",
+      "object": "xl/media/image5.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "fc03b04dde38f89ff31da99df270e8235fd86f58ef36b4cdab2e95657d487c7b",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b023004",
+    "sku": "SF-B023004",
+    "sourceFile": "SF-B023004 Draft SPEC SHEET  .xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b023004-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B023004 Draft SPEC SHEET  .xlsx",
+      "object": "xl/media/image6.jpeg",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "99caf79fadc5909b8bf7c74b4696ac4ed9577f2e55e3a87c042b9d3f2609ac4d",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b023005wht",
+    "sku": "SF-B023005WHT",
+    "sourceFile": "SF-B023005WHT SPEC SHEET  08292023 - FINAL.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b023005wht-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B023005WHT SPEC SHEET  08292023 - FINAL.xlsx",
+      "object": "xl/media/image6.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "bf7eff8b58cd10491d731e976187c367154dcf4c5353d7277d21aee083551a9c",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b023805dgy",
+    "sku": "SF-B023805DGY",
+    "sourceFile": "SF-B023805DGY SPEC SHEET  08282023-FINAL.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b023805dgy-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B023805DGY SPEC SHEET  08282023-FINAL.xlsx",
+      "object": "xl/media/image1.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "700bcd3d65e78a086b85d111e26f50596249906444a2da57b8d8a98a275fd912",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b024073",
+    "sku": "SF-B024073",
+    "sourceFile": "SF-B024073 draft spec sheet 08072025.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b024073-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B024073 draft spec sheet 08072025.xlsx",
+      "object": "xl/media/image3.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "90c44603f730b24bac9b3d07ee52c99c4bf0e776e69faf378faabc861297a3a6",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b024841",
+    "sku": "SF-B024841",
+    "sourceFile": "SF-B024841  spec sheet 20260625.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b024841-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B024841  spec sheet 20260625.xlsx",
+      "object": "xl/media/image2.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "f22e4a8cda159b8f63db23e38e218dcbb5115d310a72f67af42206e96b4242be",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b024973",
+    "sku": "SF-B024973",
+    "sourceFile": "SF-B024973 final spec sheet 08052025.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b024973-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B024973 final spec sheet 08052025.xlsx",
+      "object": "xl/media/image3.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "90c44603f730b24bac9b3d07ee52c99c4bf0e776e69faf378faabc861297a3a6",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b0418-smart",
+    "sku": "SF-B0418 SMART",
+    "sourceFile": "SF-B0418 SMART SPEC sheet 20260625.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b0418-smart-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B0418 SMART SPEC sheet 20260625.xlsx",
+      "object": "xl/media/image2.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "832b97485c7e0f6d79709afca82bdd7c9861df45b701f6d67cbe550a070ed3b6",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b0891",
+    "sku": "SF-B0891",
+    "sourceFile": "SF-B0891 Specification Sheet.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b0891-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B0891 Specification Sheet.xlsx",
+      "object": "xl/media/image1.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "7c10159913d1adc9a0950f4ec5fa45a1b7604e18c8d482e1041fd5df8e4ab04d",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b1002",
+    "sku": "SF-B1002",
+    "sourceFile": "SF-B1002 Spec sheet 1.22.2021 Updated.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1002-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B1002 Spec sheet 1.22.2021 Updated.xlsx",
+      "object": "xl/media/image5.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "1e7ecaf65ca00bfd606e130b5d275a8c01871ed5d727270e64fef6d4985be748",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b122049",
+    "sku": "SF-B122049",
+    "sourceFile": "SF-B122049 Specification Sheet 20230116.xls",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "unavailable",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "visualAudit": "No usable image available in supported source; official verification may remain pending",
+      "reason": "Several competing embedded prototype/reference bikes; no unambiguous exactvariantpicture association, so none substituted."
+    }
+  },
+  {
+    "id": "off-sunny-sf-b122955",
+    "sku": "SF-B122955",
+    "sourceFile": "SF-B122955   SPEC SHEET 06302023.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b122955-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B122955   SPEC SHEET 06302023.xlsx",
+      "object": "xl/media/image7.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "crop": "Left63% retains sourceproduct image, removes annotatedsidepanel",
+      "sha256": "f1e237965a7e3e2a14d44c9dc6cf3472cf4775da2eb939ff599215fcfdf82757",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b123033",
+    "sku": "SF-B123033",
+    "sourceFile": "SF-B123033 final spec sheet 08212024.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b123033-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B123033 final spec sheet 08212024.xlsx",
+      "object": "xl/media/image5.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "751f2610d60b90ce9a15435e83edd3d2309368285895b44459555647d7bed91a",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b126029",
+    "sku": "SF-B126029",
+    "sourceFile": "SF-B126029 Bike Final spec 2026.10.20.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b126029-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B126029 Bike Final spec 2026.10.20.xlsx",
+      "object": "xl/media/image4.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "fb77198b72f4a6f6523384711554ea07aeac0bcd4e75a3aa0b7a6210aaf310a6",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b1709",
+    "sku": "SF-B1709",
+    "sourceFile": "SF-B1709 Specification.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1709-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B1709 Specification.xlsx",
+      "object": "xl/media/image1.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "5c8bc66bfdb7ce91464beab62f8d11b840bff9c261d471a559ad0f78be6a7363",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b1714",
+    "sku": "SF-B1714",
+    "sourceFile": "SF-B1714 Specification - 5.17.2021.docx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "unavailable",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "visualAudit": "No usable image available in supported source; official verification may remain pending",
+      "reason": "SourceWord has no word/media assets or product illustration."
+    }
+  },
+  {
+    "id": "off-sunny-sf-b1805",
+    "sku": "SF-B1805",
+    "sourceFile": "SF-B1805 Spec sheet.20220805.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1805-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B1805 Spec sheet.20220805.xlsx",
+      "object": "xl/media/image5.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "afbd4e2d0770191b086d85a9ce4a9fbcab115e9482cf96bab83b3b0305ba8cf8",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b1851",
+    "sku": "SF-B1851",
+    "sourceFile": "SF-B1851 Spec Sheet 03.23.2023.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1851-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B1851 Spec Sheet 03.23.2023.xlsx",
+      "object": "xl/media/image6.jpeg",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "6371d35867fac1a899d8eef265969f2f02f297220729a0552ec586182abab2f6",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b1876",
+    "sku": "SF-B1876",
+    "sourceFile": "SF-B1876 Spec Sheet 2020.08.19 舒华.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1876-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B1876 Spec Sheet 2020.08.19 舒华.xlsx",
+      "object": "xl/media/image4.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "86f94241931ab5a132ed4d33bd3c7d4a3ed76b685bbec1ec16e6b5b09c7765cf",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b1877",
+    "sku": "SF-B1877",
+    "sourceFile": "SF-B1877 Spec Sheet 舒华 2021.2.3 final.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1877-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B1877 Spec Sheet 舒华 2021.2.3 final.xlsx",
+      "object": "xl/media/image6.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "fb3d095f0fcb900208f64da5a019145cf3313c0ef0f858b08f5a1b8487105676",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b1879",
+    "sku": "SF-B1879",
+    "sourceFile": "SF-B1879 specification sheet 11.19.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1879-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B1879 specification sheet 11.19.xlsx",
+      "object": "xl/media/image1.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "22192c8e4faabe7f7edf6f395339e392395cefeed2ff10cefa20dcc7b9948bc9",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b1913",
+    "sku": "SF-B1913",
+    "sourceFile": "SF-B1913 Specification 07172019.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1913-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B1913 Specification 07172019.xlsx",
+      "object": "xl/media/image1.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "8f6857a852608238150b6941063436fb1927dc66d83dab42b77bd1b3385fb67d",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b1995",
+    "sku": "SF-B1995",
+    "sourceFile": "SF-B1995 SpecSheet 2020.1.6.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1995-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B1995 SpecSheet 2020.1.6.xlsx",
+      "object": "xl/media/image5.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "be8df00d92b180f40e569f498ee41b011397f6d517accd3d263fc87bab53ba40",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b220030",
+    "sku": "SF-B220030",
+    "sourceFile": "SF-B220030 spec sheet20221012.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b220030-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B220030 spec sheet20221012.xlsx",
+      "object": "xl/media/image4.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "9bb8c5787a05ea71ca3b4ea21dcf846a22138e2e9c1761a3ba2689c467349097",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b224027",
+    "sku": "SF-B224027",
+    "sourceFile": "SF-B224027 Final Spec 09.14.2026.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b224027-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B224027 Final Spec 09.14.2026.xlsx",
+      "object": "xl/media/image15.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "3458a4394445b01f12cf971865701c9f22693c3018d4b01855af3cf902461bfe",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b2883",
+    "sku": "SF-B2883",
+    "sourceFile": "SF-B2883 Specification 20190724.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b2883-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B2883 Specification 20190724.xlsx",
+      "object": "xl/media/image1.jpeg",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "d8a65f20cf123d83c5aee43c77c029173bf6ee4a251e638b6db233cc09f5cb77",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b2883smart",
+    "sku": "SF-B2883SMART",
+    "sourceFile": "SF-B2883SMART final spec sheet 20260813.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b2883smart-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B2883SMART final spec sheet 20260813.xlsx",
+      "object": "xl/media/image6.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "710cc90e244beb3ec2ff31ee4145ce670fb0cb2fad7423d4aa53662a62b1bb6d",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b2989",
+    "sku": "SF-B2989",
+    "sourceFile": "SF-B2989 SpecSheet 2020.6.22.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b2989-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B2989 SpecSheet 2020.6.22.xlsx",
+      "object": "xl/media/image5.jpeg",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "516a23afdbe194dfb4c98af90aecfe6f33a8c3f1b90df5b8990c87d4c9ecb56c",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-b901-smart",
+    "sku": "SF-B901 SMART",
+    "sourceFile": "SF-B901 SMART final spec sheet 10302023.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b901-smart-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-B901 SMART final spec sheet 10302023.xlsx",
+      "object": "xl/media/image4.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "7f618bb098197e5a611345b138c6fce685f11a9e07d3a9b9cb40f21a110fe94b",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-bh620038",
+    "sku": "SF-BH620038",
+    "sourceFile": "SF-BH620038 Spec Sheet 2023.02.01 final.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bh620038-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-BH620038 Spec Sheet 2023.02.01 final.xlsx",
+      "object": "xl/media/image2.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "fb93f1d1071ee7c30bad05d770fd429b5ee1a0ef0bc87d9208438e9b27d984b6",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-bh6802",
+    "sku": "SF-BH6802",
+    "sourceFile": "SF-BH6802 Specification.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bh6802-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-BH6802 Specification.xlsx",
+      "object": "xl/media/image1.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "0e5b4b0ba7bbe68433881ddc5dddad7391df2fd169e60f08bd1d420845740880",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-bl01-s",
+    "sku": "SF-BL01-S",
+    "sourceFile": "SF-BL01-S,ML,L,XL,XXL Spec Sheet Final.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl01-s-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-BL01-S,ML,L,XL,XXL Spec Sheet Final.xlsx",
+      "object": "xl/media/image1.jpeg",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "crop": "Vertical24%-84% removes surrounding paperwork; same sourcefamilyillustration acrosssizes",
+      "sha256": "ee2b5cfbfa5aaf2850df32e0543b16d0ecc43870294239a9ee92752681ebc049",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-bl01-m",
+    "sku": "SF-BL01-M",
+    "sourceFile": "SF-BL01-S,ML,L,XL,XXL Spec Sheet Final.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl01-m-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-BL01-S,ML,L,XL,XXL Spec Sheet Final.xlsx",
+      "object": "xl/media/image1.jpeg",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "crop": "Vertical24%-84% removes surrounding paperwork; same sourcefamilyillustration acrosssizes",
+      "sha256": "ee2b5cfbfa5aaf2850df32e0543b16d0ecc43870294239a9ee92752681ebc049",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-bl01-l",
+    "sku": "SF-BL01-L",
+    "sourceFile": "SF-BL01-S,ML,L,XL,XXL Spec Sheet Final.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl01-l-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-BL01-S,ML,L,XL,XXL Spec Sheet Final.xlsx",
+      "object": "xl/media/image1.jpeg",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "crop": "Vertical24%-84% removes surrounding paperwork; same sourcefamilyillustration acrosssizes",
+      "sha256": "ee2b5cfbfa5aaf2850df32e0543b16d0ecc43870294239a9ee92752681ebc049",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-bl01-xl",
+    "sku": "SF-BL01-XL",
+    "sourceFile": "SF-BL01-S,ML,L,XL,XXL Spec Sheet Final.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl01-xl-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-BL01-S,ML,L,XL,XXL Spec Sheet Final.xlsx",
+      "object": "xl/media/image1.jpeg",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "crop": "Vertical24%-84% removes surrounding paperwork; same sourcefamilyillustration acrosssizes",
+      "sha256": "ee2b5cfbfa5aaf2850df32e0543b16d0ecc43870294239a9ee92752681ebc049",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-bl01-xxl",
+    "sku": "SF-BL01-XXL",
+    "sourceFile": "SF-BL01-S,ML,L,XL,XXL Spec Sheet Final.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl01-xxl-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-BL01-S,ML,L,XL,XXL Spec Sheet Final.xlsx",
+      "object": "xl/media/image1.jpeg",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "crop": "Vertical24%-84% removes surrounding paperwork; same sourcefamilyillustration acrosssizes",
+      "sha256": "ee2b5cfbfa5aaf2850df32e0543b16d0ecc43870294239a9ee92752681ebc049",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-bl02-s",
+    "sku": "SF-BL02-S",
+    "sourceFile": "SF-BL02-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl02-s-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-BL02-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+      "object": "xl/media/image1.jpeg",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "crop": "Vertical24%-84% removes surrounding paperwork; same sourcefamilyillustration acrosssizes",
+      "sha256": "ee2b5cfbfa5aaf2850df32e0543b16d0ecc43870294239a9ee92752681ebc049",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-bl02-m",
+    "sku": "SF-BL02-M",
+    "sourceFile": "SF-BL02-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl02-m-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-BL02-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+      "object": "xl/media/image1.jpeg",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "crop": "Vertical24%-84% removes surrounding paperwork; same sourcefamilyillustration acrosssizes",
+      "sha256": "ee2b5cfbfa5aaf2850df32e0543b16d0ecc43870294239a9ee92752681ebc049",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-bl02-l",
+    "sku": "SF-BL02-L",
+    "sourceFile": "SF-BL02-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl02-l-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-BL02-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+      "object": "xl/media/image1.jpeg",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "crop": "Vertical24%-84% removes surrounding paperwork; same sourcefamilyillustration acrosssizes",
+      "sha256": "ee2b5cfbfa5aaf2850df32e0543b16d0ecc43870294239a9ee92752681ebc049",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-bl02-xl",
+    "sku": "SF-BL02-XL",
+    "sourceFile": "SF-BL02-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl02-xl-batch3-v1.jpg",
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialSearchError": "HTTP Error 429: Too Many Requests"
+      },
+      {
+        "guideError": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "imageEvidence": {
+      "sourceFile": "SF-BL02-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+      "object": "xl/media/image1.jpeg",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "crop": "Vertical24%-84% removes surrounding paperwork; same sourcefamilyillustration acrosssizes",
+      "sha256": "ee2b5cfbfa5aaf2850df32e0543b16d0ecc43870294239a9ee92752681ebc049",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-bl02-xxl",
+    "sku": "SF-BL02-XXL",
+    "sourceFile": "SF-BL02-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl02-xxl-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialVerification": "Pending: prior official site HTTP429 rate limit; not treated as not found"
+      }
+    ],
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageEvidence": {
+      "sourceFile": "SF-BL02-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+      "object": "xl/media/image1.jpeg",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "crop": "Vertical24%-84% removes surrounding paperwork; same sourcefamilyillustration acrosssizes",
+      "sha256": "ee2b5cfbfa5aaf2850df32e0543b16d0ecc43870294239a9ee92752681ebc049",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-bl03-s",
+    "sku": "SF-BL03-S",
+    "sourceFile": "SF-BL03-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl03-s-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialVerification": "Pending: prior official site HTTP429 rate limit; not treated as not found"
+      }
+    ],
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageEvidence": {
+      "sourceFile": "SF-BL03-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+      "object": "xl/media/image1.jpeg",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "crop": "Horizontal8%-78%, vertical0%-90% removes surroundingpaperwork; sourcefamilyillustration acrosssizes",
+      "sha256": "4cadd05568c9dd73012190521aa792755a14c354107fe2d57d59c3a5f3d4b648",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-bl03-m",
+    "sku": "SF-BL03-M",
+    "sourceFile": "SF-BL03-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl03-m-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialVerification": "Pending: prior official site HTTP429 rate limit; not treated as not found"
+      }
+    ],
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageEvidence": {
+      "sourceFile": "SF-BL03-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+      "object": "xl/media/image1.jpeg",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "crop": "Horizontal8%-78%, vertical0%-90% removes surroundingpaperwork; sourcefamilyillustration acrosssizes",
+      "sha256": "4cadd05568c9dd73012190521aa792755a14c354107fe2d57d59c3a5f3d4b648",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-bl03-l",
+    "sku": "SF-BL03-L",
+    "sourceFile": "SF-BL03-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl03-l-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialVerification": "Pending: prior official site HTTP429 rate limit; not treated as not found"
+      }
+    ],
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageEvidence": {
+      "sourceFile": "SF-BL03-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+      "object": "xl/media/image1.jpeg",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "crop": "Horizontal8%-78%, vertical0%-90% removes surroundingpaperwork; sourcefamilyillustration acrosssizes",
+      "sha256": "4cadd05568c9dd73012190521aa792755a14c354107fe2d57d59c3a5f3d4b648",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-bl03-xl",
+    "sku": "SF-BL03-XL",
+    "sourceFile": "SF-BL03-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl03-xl-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialVerification": "Pending: prior official site HTTP429 rate limit; not treated as not found"
+      }
+    ],
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageEvidence": {
+      "sourceFile": "SF-BL03-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+      "object": "xl/media/image1.jpeg",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "crop": "Horizontal8%-78%, vertical0%-90% removes surroundingpaperwork; sourcefamilyillustration acrosssizes",
+      "sha256": "4cadd05568c9dd73012190521aa792755a14c354107fe2d57d59c3a5f3d4b648",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-bl03-xxl",
+    "sku": "SF-BL03-XXL",
+    "sourceFile": "SF-BL03-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bl03-xxl-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialVerification": "Pending: prior official site HTTP429 rate limit; not treated as not found"
+      }
+    ],
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageEvidence": {
+      "sourceFile": "SF-BL03-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+      "object": "xl/media/image1.jpeg",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "crop": "Horizontal8%-78%, vertical0%-90% removes surroundingpaperwork; sourcefamilyillustration acrosssizes",
+      "sha256": "4cadd05568c9dd73012190521aa792755a14c354107fe2d57d59c3a5f3d4b648",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-e320001",
+    "sku": "SF-E320001",
+    "sourceFile": "SF-E320001 Spec Sheet 0925.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e320001-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialVerification": "Pending: prior official site HTTP429 rate limit; not treated as not found"
+      }
+    ],
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageEvidence": {
+      "sourceFile": "SF-E320001 Spec Sheet 0925.xlsx",
+      "object": "xl/media/image3.jpeg",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "ff817d80eb4f89a019a85dd2ae3533bce64a09bcbd02b224e27166e2e3cc7886",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-e320051",
+    "sku": "SF-E320051",
+    "sourceFile": "SF-E320051 Spec Sheet  04.24 .2022.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e320051-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialVerification": "Pending: prior official site HTTP429 rate limit; not treated as not found"
+      }
+    ],
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageEvidence": {
+      "sourceFile": "SF-E320051 Spec Sheet  04.24 .2022.xlsx",
+      "object": "xl/media/image4.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "8988ccb0214575cf128b205426609591b74bd1a0112177db2a0b0bd7d6e7c1fc",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-e321003",
+    "sku": "SF-E321003",
+    "sourceFile": "SF-E321003 Spec Sheet 2022.05.24 v1.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e321003-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialVerification": "Pending: prior official site HTTP429 rate limit; not treated as not found"
+      }
+    ],
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageEvidence": {
+      "sourceFile": "SF-E321003 Spec Sheet 2022.05.24 v1.xlsx",
+      "object": "xl/media/image4.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "b1f8afb8c66e3ecf6e5ac4e398d6f307ed241f591c0412bc24f6637cb246eca0",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  },
+  {
+    "id": "off-sunny-sf-e321005",
+    "sku": "SF-E321005",
+    "sourceFile": "SF-E321005 Spec.sheet 2022.07.13 v2.xlsx",
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-06",
+      "verificationStatus": "pending"
+    },
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e321005-batch3-v1.jpg",
+    "imageAvailability": "spec-sheet",
+    "research": [
+      {
+        "officialVerification": "Pending: prior official site HTTP429 rate limit; not treated as not found"
+      },
+      {
+        "curatedImageError": "\"There is no item named 'xl/media/image4.jpeg' in the archive\""
+      }
+    ],
+    "photoChecked": false,
+    "photoMasks": null,
+    "imageEvidence": {
+      "sourceFile": "SF-E321005 Spec.sheet 2022.07.13 v2.xlsx",
+      "object": "xl/media/image4.png",
+      "evidence": "Product-specific source image selected after visual inspection; reference diagrams/charts excluded",
+      "officialVerification": "pending due site HTTP429",
+      "sha256": "ea5becf994e5685fe637645a3e04c31294f4bc4f7b1e1f6e3bf8a27b7392af00",
+      "visualAudit": "Inspected product image; photoChecked remains false until printed model/name/weight masks are approved"
+    }
+  }
+]

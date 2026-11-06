@@ -1,0 +1,1543 @@
+{
+  "source": "Sorted Master SPEC SHEET - V3",
+  "importedAt": "2026-11-06",
+  "importedModels": 100,
+  "sourceFiles": 83,
+  "records": [
+    {
+      "id": "off-sunny-no-085",
+      "model": "NO. 085",
+      "file": "No. 085 Specification.pdf",
+      "sha256": "f3fbc8e68cec8cef8057252d951d621957a87a78bb3ddd71176548e127c2d860",
+      "sheet": "PDF",
+      "modelEvidence": {
+        "page": 1,
+        "text": "Item Number: No. 085"
+      },
+      "name": "3 in 1 Weighted PRO-Plyo Box 30\" 24\" 20\"",
+      "category": "Essentials",
+      "fieldsFilled": 7,
+      "notes": [
+        "Product dimension units are not labelled in the PDF; no units inferred. Name follows the printed product title."
+      ]
+    },
+    {
+      "id": "off-sunny-no-086",
+      "model": "NO. 086",
+      "file": "No. 086 Specification.xlsx",
+      "sha256": "fcce022998e9ad50f5884516bdab7d80d4615afbe27424b7354dfa4297b93c9d",
+      "sheet": "Specification",
+      "modelEvidence": {
+        "cell": "B2",
+        "text": "No. 086"
+      },
+      "name": "Padded Lifting Straps with Cushioned Wrists (Pair)",
+      "category": "Essentials",
+      "fieldsFilled": 8,
+      "notes": [
+        "The sheet lists 80 pairs per carton and net 8.1 kg / 18 lb, gross 8.7 kg / 19.3 lb. These values are not verified as the weight of a single pair; no per-pair weight is inferred."
+      ]
+    },
+    {
+      "id": "off-sunny-no-089-combo",
+      "model": "NO. 089 COMBO",
+      "file": "NO. 089-COMBO final  Spec Sheet 08232024.xlsx",
+      "sha256": "7192b883ac3f39a498c6bf318e5c0dd2c1c9d2bd55ab200f610b41c61df9cda9",
+      "sheet": "sheet ",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "NO. 089 COMBO"
+      },
+      "name": "RESISTANCE TUBE SET",
+      "category": "Essentials",
+      "fieldsFilled": 18,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-090",
+      "model": "NO. 090",
+      "file": "NO. 090 final spec sheet 05232024.xlsx",
+      "sha256": "b7d9d6b0c8868ccb1cb40317772bb82d72a63132193f7448cfbaf4560eba8035",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "NO. 090"
+      },
+      "name": "AB ROLLER",
+      "category": "Essentials",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-109",
+      "model": "NO. 109",
+      "file": "NO. 109 Final spec sheet_03202026.xlsx",
+      "sha256": "9e3634059b040512c69f01c1386bb84fe4350b0d2b0d036d52240499ef7368ae",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "NO. 109"
+      },
+      "name": "Adjustable Door Mount Pull Up Bar",
+      "category": "Essentials",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-110",
+      "model": "NO. 110",
+      "file": "NO. 110 final spec sheet 20250213.xlsx",
+      "sha256": "e47096cc091ae49be18d31fe2d4dae38beca246eafc36f3c733a468c14afb19f",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "NO. 110"
+      },
+      "name": "FOAM BARBELL PAD",
+      "category": "Essentials",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-111",
+      "model": "NO. 111",
+      "file": "NO. 111 Final  Spec dated 20260119.xlsx",
+      "sha256": "2ddff321df83f457d05f22045df80d497974d9ee4574cccdb966515c6b84015f",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "NO. 111"
+      },
+      "name": "SLANT BOARD",
+      "category": "Essentials",
+      "fieldsFilled": 18,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-112",
+      "model": "NO. 112",
+      "file": "NO. 112 Final Spec dated 20260225.xlsx",
+      "sha256": "2881ffb52ecc58dc4c65a168502e9dcdb12f5f90bd7cad29b561c66b539ca380",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "NO. 112"
+      },
+      "name": "RESISTANCE BAND 5 SET",
+      "category": "Essentials",
+      "fieldsFilled": 18,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-113",
+      "model": "NO. 113",
+      "file": "NO. 113 Final Spec dated 20260225.xlsx",
+      "sha256": "3cf9ca10e3f0eb3afcee545aa365c50154da6d0d81c9798a17ee05695a972468",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "NO. 113"
+      },
+      "name": "RESISTANCE LOOP 5 SET",
+      "category": "Essentials",
+      "fieldsFilled": 18,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-116-l-bu",
+      "model": "NO. 116-L-BU",
+      "file": "NO. 116 Final Spec Template dated 20260609.xlsx",
+      "sha256": "9fc95a064ad8b9414260b1beb07aae61f308ab143067297eb295c3b58bb0dceb",
+      "sheet": "NO. 116-L-BU",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "NO. 116-L-BU"
+      },
+      "name": "BALANCE PAD LARGE BLUE",
+      "category": "Essentials",
+      "fieldsFilled": 14,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-116-l-gy",
+      "model": "NO. 116-L-GY",
+      "file": "NO. 116 Final Spec Template dated 20260609.xlsx",
+      "sha256": "9fc95a064ad8b9414260b1beb07aae61f308ab143067297eb295c3b58bb0dceb",
+      "sheet": "NO. 116-L-GY",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "NO. 116-L-GY"
+      },
+      "name": "BALANCE PAD LARGE GREY",
+      "category": "Essentials",
+      "fieldsFilled": 14,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-116-xl-bu",
+      "model": "NO. 116-XL-BU",
+      "file": "NO. 116 Final Spec Template dated 20260609.xlsx",
+      "sha256": "9fc95a064ad8b9414260b1beb07aae61f308ab143067297eb295c3b58bb0dceb",
+      "sheet": "NO. 116-XL-BU",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "NO. 116-XL-BU"
+      },
+      "name": "BALANCE PAD EXTRA LARGE BLUE",
+      "category": "Essentials",
+      "fieldsFilled": 14,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-116-xl-gy",
+      "model": "NO. 116-XL-GY",
+      "file": "NO. 116 Final Spec Template dated 20260609.xlsx",
+      "sha256": "9fc95a064ad8b9414260b1beb07aae61f308ab143067297eb295c3b58bb0dceb",
+      "sheet": "NO. 116-XL-GY",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "NO. 116-XL-GY"
+      },
+      "name": "BALANCE PAD EXTRA LARGE GREY",
+      "category": "Essentials",
+      "fieldsFilled": 14,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-117-gy",
+      "model": "NO. 117-GY",
+      "file": "NO. 117 Final Spec Template dated 20260702.xlsx",
+      "sha256": "71b2221c712c58d38c7fef19f6d9c0129df273f1085abc1f3bd40ba54640645b",
+      "sheet": "NO. 117-GY",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "NO. 117-GY"
+      },
+      "name": "BALANCE CUSHION - GREY",
+      "category": "Essentials",
+      "fieldsFilled": 14,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-117-bu",
+      "model": "NO. 117-BU",
+      "file": "NO. 117 Final Spec Template dated 20260702.xlsx",
+      "sha256": "71b2221c712c58d38c7fef19f6d9c0129df273f1085abc1f3bd40ba54640645b",
+      "sheet": "NO. 117-BU",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "NO. 117-BU"
+      },
+      "name": "BALANCE CUSHION - BLUE",
+      "category": "Essentials",
+      "fieldsFilled": 14,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-121",
+      "model": "NO.121",
+      "file": "NO. 121draft Spec Template dated 20260708.xlsx",
+      "sha256": "4c5cc4fc770c283da7bcb9ac888d83c72a52a1bb3c385d910e23dc45b2671314",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "NO.121"
+      },
+      "name": "Wood Balance BOARD",
+      "category": "Essentials",
+      "fieldsFilled": 19,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-124-rd",
+      "model": "NO. 124-RD",
+      "file": "NO. 124-RD draft Spec dated 20260320.xlsx",
+      "sha256": "b6975de87ed5d80d5d93b7ffea6a34e987a1f0edce3efd03507350448d86ce59",
+      "sheet": "JL-LF-BKBL",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "NO. 124-RD"
+      },
+      "name": "3-in-1 Adjustable Aerobic Stepper",
+      "category": "Essentials",
+      "fieldsFilled": 17,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-012-s",
+      "model": "NO.012-S",
+      "file": "NO.012-S Spec sheet dated 20250714.xlsx",
+      "sha256": "e14e4989a8ea0dda3f97a9005b303badb5c350d814472d62857b071ac9159137",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "NO.012-S"
+      },
+      "name": "MINI STEPPER WITH EXERCISE BANDS",
+      "category": "Steppers",
+      "fieldsFilled": 49,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-021-10-pair",
+      "model": "NO.021-10-PAIR",
+      "file": "NO.021-10-PAIR SPEC.xlsx",
+      "sha256": "7df65ceaa85ad0ea7350400d7a8679f77fa1dff167654580a834dc90ce23c325",
+      "sheet": "Specification",
+      "modelEvidence": {
+        "cell": "B2",
+        "text": "No.021-10-PAIR"
+      },
+      "name": "Neoprene Dumbbell 10Lbs（PAIR）",
+      "category": "Weights",
+      "fieldsFilled": 5,
+      "notes": [
+        "Net and gross weights are explicitly for one pair; shipping dimensions use the inner box. Wood-box case-pack measurements are excluded."
+      ]
+    },
+    {
+      "id": "off-sunny-no-021-5-pair",
+      "model": "NO.021-5-PAIR",
+      "file": "NO.021-5-PAIR SPEC.xlsx",
+      "sha256": "c71af0ddc2fe3537784573635b2b919bf01c68cafdd6aca28a59db0f09be3daf",
+      "sheet": "Specification",
+      "modelEvidence": {
+        "cell": "B2",
+        "text": "No.021-5-PAIR"
+      },
+      "name": "Neoprene Dumbbell 5Lbs（PAIR）",
+      "category": "Weights",
+      "fieldsFilled": 6,
+      "notes": [
+        "Net and gross weights are explicitly for one pair; shipping dimensions use the inner box. Wood-box case-pack measurements are excluded."
+      ]
+    },
+    {
+      "id": "off-sunny-no-021-8-pair",
+      "model": "NO.021-8-PAIR",
+      "file": "NO.021-8-PAIR SPEC.xlsx",
+      "sha256": "c26437ca01e2d4ef114340840918a921b61c7ac23225e40453e68b9d4d6644dd",
+      "sheet": "Specification",
+      "modelEvidence": {
+        "cell": "B2",
+        "text": "No.021-8-PAIR"
+      },
+      "name": "Neoprene Dumbbell 8Lbs（PAIR）",
+      "category": "Weights",
+      "fieldsFilled": 5,
+      "notes": [
+        "Net and gross weights are explicitly for one pair; shipping dimensions use the inner box. Wood-box case-pack measurements are excluded."
+      ]
+    },
+    {
+      "id": "off-sunny-no-064",
+      "model": "NO. 064",
+      "file": "NO.064 SPEC.xlsx",
+      "sha256": "1173956d5173be8f739c9f0227916d1bdfd13e5079199cfb6cd7bf537bbb240c",
+      "sheet": "Specification",
+      "modelEvidence": {
+        "cell": "B2",
+        "text": "NO. 064"
+      },
+      "name": "Folding Gym Mat",
+      "category": "Essentials",
+      "fieldsFilled": 5,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-074-m",
+      "model": "NO. 074-M",
+      "file": "NO.074-M Accessory Product Spec - case pack.xlsx",
+      "sha256": "666904beee7a9c0130faa997c7cfee12f7e223ed580adce25e8b4a24a544bfa9",
+      "sheet": "Specification",
+      "modelEvidence": {
+        "cell": "B2",
+        "text": "NO. 074-M"
+      },
+      "name": "Treadmill Mat-Medium",
+      "category": "Essentials",
+      "fieldsFilled": 7,
+      "notes": [
+        "The sheet includes a six-piece master carton. Weight/shipping dimensions shown here use the explicitly labelled one-piece inner box, not the master carton."
+      ]
+    },
+    {
+      "id": "off-sunny-no-077-plus",
+      "model": "NO.077 PLUS",
+      "file": "NO.077 plus  spec  sheet 4.20.xlsx",
+      "sha256": "279058dbc05251fc4fabd8fd523828ea6699b3387c2977746762dffe54bcdce6",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "NO.077 PLUS"
+      },
+      "name": "ROW-N-RIDE™ PLUS",
+      "category": "Row-N-Ride",
+      "fieldsFilled": 16,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-108-rd",
+      "model": "NO. 108-RD",
+      "file": "NO.108 final spec sheet 20250213.xlsx",
+      "sha256": "1c2b15f36701bcd62e807fdc844d6304ab4e06588e709a88182749056d8051a9",
+      "sheet": "NO. 108-RD",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "NO. 108-RD"
+      },
+      "name": "CALF STRETCHER - RED",
+      "category": "Essentials",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-no-108-gy",
+      "model": "NO. 108-GY",
+      "file": "NO.108 final spec sheet 20250213.xlsx",
+      "sha256": "1c2b15f36701bcd62e807fdc844d6304ab4e06588e709a88182749056d8051a9",
+      "sheet": "NO. 108-GY",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "NO. 108-GY"
+      },
+      "name": "CALF STRETCHER - GREY",
+      "category": "Essentials",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-ob-20",
+      "model": "OB-20",
+      "file": "OB 20 Specification 06.22.2023.xlsx",
+      "sha256": "f6b757376b41ed7dcf48561dade0aac6c4b365d36374f43b522d71ebcab8a6bd",
+      "sheet": "Specification",
+      "modelEvidence": {
+        "cell": "B2",
+        "text": "OB-20"
+      },
+      "name": "Sunny Health & Fitness 20\" Olympic Single Dumbbell Handlebar with Ring Collars",
+      "category": "Weights",
+      "fieldsFilled": 6,
+      "notes": [
+        "The source keyDimensions field does not label measurement units; retained as written.",
+        "The source shippingDimensions field does not label measurement units; retained as written."
+      ]
+    },
+    {
+      "id": "off-sunny-ob-48",
+      "model": "OB-48",
+      "file": "OB-48 Specification 06.22.2023.xlsx",
+      "sha256": "6a93ca5103762947d27c9893da01a6e6e1a0603a55696e3392f11d20d3bedccb",
+      "sheet": "Specification",
+      "modelEvidence": {
+        "cell": "B2",
+        "text": "OB-48"
+      },
+      "name": "Sunny Health & Fitness 48\" Olympic Super Curl Bar with Ring Collars",
+      "category": "Weights",
+      "fieldsFilled": 6,
+      "notes": [
+        "The source keyDimensions field does not label measurement units; retained as written.",
+        "The source shippingDimensions field does not label measurement units; retained as written."
+      ]
+    },
+    {
+      "id": "off-sunny-ob-hex",
+      "model": "OB-HEX",
+      "file": "OB-HEX Specification 06.22.2023.xlsx",
+      "sha256": "9fa90017715b557df3e029ce23e27c13400d773c97a2ff7b11a36e4521622715",
+      "sheet": "Specification",
+      "modelEvidence": {
+        "cell": "B2",
+        "text": "OB-HEX"
+      },
+      "name": "Sunny Health & Fitness Olympic Hex Bar",
+      "category": "Weights",
+      "fieldsFilled": 6,
+      "notes": [
+        "The source keyDimensions field does not label measurement units; retained as written.",
+        "The source shippingDimensions field does not label measurement units; retained as written."
+      ]
+    },
+    {
+      "id": "off-sunny-ob-trap",
+      "model": "OB-TRAP",
+      "file": "OB-TRAP Spec Sheet 2022.01.28 final.xlsx",
+      "sha256": "f677c1e87102f8a8a5a9ac10a8085aa6fc045f9bce33eaf2f3ed442c6adad41b",
+      "sheet": "2022-01-28",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "OB-TRAP"
+      },
+      "name": "HEX TRAP BAR, 2-INCH DIAMETER SLEEVE",
+      "category": "Weights",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-p2030",
+      "model": "P2030",
+      "file": "P2030  spec sheet 06212023.xlsx",
+      "sha256": "3e76f1682c5db179cd7dc17ec9e4edb1583abf9e9cf26b1d76cf82b668fd6cd8",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "P2030"
+      },
+      "name": "PINK UNDER DESK ELLIPTICAL MACHINE",
+      "category": "Ellipticals",
+      "fieldsFilled": 17,
+      "notes": [
+        "Source user capacity says no limit; no verified numeric capacity or unlimited-safe-use claim is inferred."
+      ]
+    },
+    {
+      "id": "off-sunny-p2100",
+      "model": "P2100",
+      "file": "P2100 final spec sheet 11.22.2024 .xlsx",
+      "sha256": "a75c7c3180f8dfcd0cc56304145c030f89c1670f7e55ec9112feb60f1fc2a2e6",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "P2100"
+      },
+      "name": "UPRIGHT ROW-N-RIDE® EXERCISER IN PINK",
+      "category": "Row-N-Ride",
+      "fieldsFilled": 48,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-p2100-smart",
+      "model": "P2100 SMART",
+      "file": "P2100 SMART final Spec Sheet Template 07.29.2024.xlsx",
+      "sha256": "3a38ec05cad20f404944e85e558aac649abf4341a3801cb9f305f803c56ee59b",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "P2100 SMART"
+      },
+      "name": "SMART UPRIGHT ROW-N-RIDE® EXERCISER IN PINK",
+      "category": "Row-N-Ride",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-p2330",
+      "model": "P2330",
+      "file": "P2330 SPEC SHEET  08292023 - FINAL.xlsx",
+      "sha256": "6083dd79560a05c7d7457b6925f9ef07f74862ce3dadc9ddbaedbb2ad23ab5f7",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "P2330"
+      },
+      "name": "UNDER DESK SMART MINI EXERCISE BIKE (PINK)",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 25,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-p2420",
+      "model": "P2420",
+      "file": "P2420 SPEC SHEET 20240712 Final.xlsx",
+      "sha256": "c11e783328aaafad9e865771cae42bc0f3d565bd4d750e29316e600e806d1488",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "P2420"
+      },
+      "name": "PINK SMART PORTABLE MAGNETIC UNDER DESK ELLIPTICAL",
+      "category": "Ellipticals",
+      "fieldsFilled": 26,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-p2530",
+      "model": "P2530",
+      "file": "P2530 final spec 11.03.2025 update.xlsx",
+      "sha256": "a7f4ad3f73d39a52a6863a33cadb2d4f4a6e5b01d2bf09ebcd28a661ce22f71d",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "P2530"
+      },
+      "name": "SMART & COMPACT STEP CLIMBER IN PINK",
+      "category": "Steppers",
+      "fieldsFilled": 50,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-rw5639",
+      "model": "SF-RW5639",
+      "file": "RW5639 Spec Sheet 06172020.xlsx",
+      "sha256": "618df83fd296186a2b791ee1c25b57a2a43f46c4854fc2ea65e9efbba274c94a",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-RW5639"
+      },
+      "name": "FULL MOTION ROWING MACHINE",
+      "category": "Rowers",
+      "fieldsFilled": 17,
+      "notes": [
+        "The source foldedDimensions field does not label measurement units; retained as written."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-s020027",
+      "model": "SF-S020027",
+      "file": "S020027 final spec sheet 2023.10.30 update.xlsx",
+      "sha256": "445e45a3b6af05704661a81e196db5b43197b9ce64a32147804edfca3f27efd6",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-S020027"
+      },
+      "name": "STAIR STEPPER MACHINE WITH HANDLEBAR",
+      "category": "Steppers",
+      "fieldsFilled": 19,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-s020065",
+      "model": "SF-S020065",
+      "file": "S020065 spec sheet  05.17.2021.xlsx",
+      "sha256": "64d2372da183ad33822813eeb6b4b3761082b52999ccadac32c84077da58a10f",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-S020065"
+      },
+      "name": "HANDLEBAR STEP MACHINE WITH RESISTANCE BANDS",
+      "category": "Steppers",
+      "fieldsFilled": 18,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-s0979",
+      "model": "SF-S0979",
+      "file": "S0979 Spec Sheet 01.26.2021.xlsx",
+      "sha256": "bc4e6a7ca464ca3e3ebfaf9178fd49f392e1f11dbe861720f0f6c8a6d3c19e5d",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-S0979"
+      },
+      "name": "TOTAL BODY ADVANCED STEPPER MACHINE",
+      "category": "Steppers",
+      "fieldsFilled": 12,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b0960",
+      "model": "SF-B0960",
+      "file": "SF--B0960  spec sheet 11182021rev.xlsx",
+      "sha256": "30d3ba12c50d17b4d0f96f12fe9096e5ac7ef56c14300027f18d37a69e5b0653",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-B0960"
+      },
+      "name": "ELECTRIC UNDER DESK CYCLE",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 21,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-a020052",
+      "model": "SF-A020052",
+      "file": "SF-A020052 spec sheet  0112021.xlsx",
+      "sha256": "66776b77a75d1b38997e2881b6179f70146dc143b54a5e74a2bebecb347593af",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-A020052"
+      },
+      "name": "Squat Exercise Trainer",
+      "category": "Row-N-Ride",
+      "fieldsFilled": 16,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-a022005",
+      "model": "SF-A022005",
+      "file": "SF-A022005 spec sheet.xlsx",
+      "sha256": "790ac6f29d590124fb6943376874c644bcbc4d39aaaffd52d80a82300b9c1a62",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-A022005"
+      },
+      "name": "CORE GLIDER AB TRAINER MACHINE",
+      "category": "Essentials",
+      "fieldsFilled": 17,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-a022005smart",
+      "model": "SF-A022005SMART",
+      "file": "SF-A022005SMART Final spec sheet 20260728.xlsx",
+      "sha256": "a8e1e25fd3f8bbf8d1a06b0051c6f33907afee2c56586080e935e7eee93eceb6",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-A022005SMART"
+      },
+      "name": "Smart Core Glider Ab Waist Trainer Machine",
+      "category": "Essentials",
+      "fieldsFilled": 50,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-a022077",
+      "model": "SF-A022077",
+      "file": "SF-A022077 spec sheet 09012023 - FINAL.xlsx",
+      "sha256": "8b32d91aa219367065bbd8bf95f54a7e4c93474d17c8da8845968cf8801d4ef5",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-A022077"
+      },
+      "name": "UPRIGHT ROW-N-RIDE® EXERCISE BIKE",
+      "category": "Row-N-Ride",
+      "fieldsFilled": 23,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-a023053",
+      "model": "SF-A023053",
+      "file": "SF-A023053-  FINAL SPEC SHEET New Max User Weight.xlsx",
+      "sha256": "c88f4a2c5fd05078834ca2f79f56768fa2992ca7e556eb51dd39c44ee9fe4ffc",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-A023053"
+      },
+      "name": "ROW-N-RIDE® PRO-SMART SQUAT ASSIST TRAINER",
+      "category": "Row-N-Ride",
+      "fieldsFilled": 22,
+      "notes": [
+        "Product title appears in the source Color cell; used as the name. Color is unavailable rather than treating a product title as a color."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-a024854",
+      "model": "SF-A024854",
+      "file": "SF-A024854 final spec sheet 11.22.2024 .xlsx",
+      "sha256": "8ac032ddb27db897aeaade9518f2b7a307c70e7b59ff2d547bc437681a5dfac5",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-A024854"
+      },
+      "name": "SMART ROW-N-RIDE® SQUAT TRAINER",
+      "category": "Row-N-Ride",
+      "fieldsFilled": 48,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-a024977",
+      "model": "SF-A024977",
+      "file": "SF-A024977  Draft Spec dated 2025.06.05.xlsx",
+      "sha256": "cba78fe9901a15937e280500c0d2ef41e5b877b4f328a712d48dc7600cd27a91",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-A024977"
+      },
+      "name": "Smart Row-N-Ride® Squat Machine",
+      "category": "Row-N-Ride",
+      "fieldsFilled": 37,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-a025829",
+      "model": "SF-A025829",
+      "file": "SF-A025829 final spec sheet 20251225.xlsx",
+      "sha256": "682e9da206e19d3026b038c61f04e7e210201c5866cc553eddb939e7cc68f478",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B9",
+        "text": "SF-A025829"
+      },
+      "name": "Easy Split Leg Stretcher",
+      "category": "Essentials",
+      "fieldsFilled": 18,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-a026011",
+      "model": "SF-A026011",
+      "file": "SF-A026011 Final Spec dated 20261019.xlsx",
+      "sha256": "702e7e4c7d8f63518a51cbd5be2041d3bde4805aeb2976b0c125e0b1fd3d72ec",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-A026011"
+      },
+      "name": "Advanced Curved Core Trainer",
+      "category": "Essentials",
+      "fieldsFilled": 50,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b020026",
+      "model": "SF-B020026",
+      "file": "SF-B020026  spec sheet 030162021_.xlsx",
+      "sha256": "ffcd54acf758180664979fcac4fe04d095d23bb74ce9312a2183c12c35296d1c",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-B020026"
+      },
+      "name": "Magnetic Mini Exercise Pedal Cycle",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b023004",
+      "model": "SF-B023004",
+      "file": "SF-B023004 Draft SPEC SHEET  .xlsx",
+      "sha256": "bbd8441afe644e6b1cec856d0b37686cd010c5779d8515e1be2872503fcdb265",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-B023004"
+      },
+      "name": "MINI BIKE",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 24,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b023005wht",
+      "model": "SF-B023005WHT",
+      "file": "SF-B023005WHT SPEC SHEET  08292023 - FINAL.xlsx",
+      "sha256": "f476f71eee11371066033f7523b19a047fadf522f2256e35bd6d6e691091d46f",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-B023005WHT"
+      },
+      "name": "UNDER DESK SMART MINI EXERCISE BIKE (WHITE)",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 25,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b023805dgy",
+      "model": "SF-B023805DGY",
+      "file": "SF-B023805DGY SPEC SHEET  08282023-FINAL.xlsx",
+      "sha256": "dd049e48854e70a159db61736fb50b35607bca0439616c5587cfc5d5f9868ffb",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-B023805DGY"
+      },
+      "name": "Smart Under Desk Exercise Bike",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 25,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b024073",
+      "model": "SF-B024073",
+      "file": "SF-B024073 draft spec sheet 08072025.xlsx",
+      "sha256": "5ea58b5c110c15e5ee5cf60264214e87b4af1db92a179ca3b87603f01a9ca375",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-B024073"
+      },
+      "name": "Smart Under Desk Cycle",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 48,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b024841",
+      "model": "SF-B024841",
+      "file": "SF-B024841  spec sheet 20260625.xlsx",
+      "sha256": "d7fbde04d228d91cc29c4c65b06107ab77a7e1d2ac00c7441a25e4723ece8a10",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-B024841"
+      },
+      "name": "SMART MOTORIZED UNDER DESK CYCLE",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 51,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b024973",
+      "model": "SF-B024973",
+      "file": "SF-B024973 final spec sheet 08052025.xlsx",
+      "sha256": "f07a8e6470099f8f4e9a460d0571a1d6b71c9670349f63f9205d1727fedc54d8",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-B024973"
+      },
+      "name": "Smart Under Desk Cycle",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 50,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b0418-smart",
+      "model": "SF-B0418 SMART",
+      "file": "SF-B0418 SMART SPEC sheet 20260625.xlsx",
+      "sha256": "1b2dd6f7d92f28270cee62eda9cd5bdd008baaaa6fdc9ec9c6b214a3f6f4962f",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-B0418 SMART"
+      },
+      "name": "SMART MINI EXERCISE BIKE WITH RESISTANCE BANDS AND MAT",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 51,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b0891",
+      "model": "SF-B0891",
+      "file": "SF-B0891 Specification Sheet.xlsx",
+      "sha256": "99ad94b47228368852de14678ee75e274fa44b712e8ac0e9d0a4c3b924c9d882",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B1",
+        "text": "SF-B0891"
+      },
+      "name": "exercise mini bike",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 15,
+      "notes": [
+        "Source user capacity says no limit; no verified numeric capacity or unlimited-safe-use claim is inferred."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-b1002",
+      "model": "SF-B1002",
+      "file": "SF-B1002 Spec sheet 1.22.2021 Updated.xlsx",
+      "sha256": "9abc50bed402c164ed60123176cf6f6f047c247e9205233f025b7a3550777669",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-B1002"
+      },
+      "name": "BELT DRIVE INDOOR CYCLING BIKE",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b122049",
+      "model": "SF-B122049",
+      "file": "SF-B122049 Specification Sheet 20230116.xls",
+      "sha256": "4d997368f99503bc41321102026c6cc87085ca9ebed35037311fafac91ab7b4c",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-B122049"
+      },
+      "name": "TRYDEN CONNECTED MAGNETIC CYCLEBIKE",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 29,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b122955",
+      "model": "SF-B122955",
+      "file": "SF-B122955   SPEC SHEET 06302023.xlsx",
+      "sha256": "e6a3517d628cf7397db3650aa97a322e8985edaaeb51195c109611bfbd0cbe27",
+      "sheet": "SF-B122955",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-B122955"
+      },
+      "name": "INTERACTIVE SMART MAGNETIC EXERCISE BIKE",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 29,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b123033",
+      "model": "SF-B123033",
+      "file": "SF-B123033 final spec sheet 08212024.xlsx",
+      "sha256": "6e632c08705d2dcb3fc31f8615fe3c1284af605959c4949a633d1ae9107c7071",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-B123033"
+      },
+      "name": "Smart Magnetic Resistance Exercise Bike With Dumbbell Holder",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 25,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b126029",
+      "model": "SF-B126029",
+      "file": "SF-B126029 Bike Final spec 2026.10.20.xlsx",
+      "sha256": "552ec07c1c750684f0539365a180355648441ff61065be1a2dbe9bcb201a60d9",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-B126029"
+      },
+      "name": "Smart Incline/Decline Performance Bike With Digital Resistance",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 54,
+      "notes": [
+        "The source foldedDimensions field does not label measurement units; retained as written."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-b1709",
+      "model": "SF-B1709",
+      "file": "SF-B1709 Specification.xlsx",
+      "sha256": "3d2c756376258934838e820f9af2c70e67265112f89b3e2809a9e7153d15891a",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B2",
+        "text": "SF-B1709"
+      },
+      "name": "Sunny Health & Fitness SF-B1709 Belt Drive Magnetic Indoor Cycling Bike",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 18,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b1714",
+      "model": "SF-B1714",
+      "file": "SF-B1714 Specification - 5.17.2021.docx",
+      "sha256": "a3220de75f2a8b731c584c9f0b334607046f018385cd561c0ca27c6eb0907cbd",
+      "sheet": "document",
+      "modelEvidence": {
+        "cell": "1:2",
+        "text": "HM-5008/SF-B1714"
+      },
+      "name": "Evolution Pro Magnetic Belt Drive Indoor Cycling Bike",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 21,
+      "notes": [
+        "The source seatDimensions field does not label measurement units; retained as written."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-b1805",
+      "model": "SF-B1805",
+      "file": "SF-B1805 Spec sheet.20220805.xlsx",
+      "sha256": "e983289b994130a6a85c36791a2902f923227b888840d7b4073918476a2e5f4d",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-B1805"
+      },
+      "name": "MAGNETIC INDOOR CYCLING BIKE",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b1851",
+      "model": "SF-B1851",
+      "file": "SF-B1851 Spec Sheet 03.23.2023.xlsx",
+      "sha256": "673497e78c42fa8d0980d04ed5b56e0e135492986d7cb19e6fac662c75074cfe",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-B1851"
+      },
+      "name": "SYNERGY PRO MAGNETIC INDOOR CYCLING BIKE",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 20,
+      "notes": [
+        "Unrelated filled treadmill and rower reference subsections in this bike sheet are excluded. No treadmill speed, incline or running-belt measurements are assigned to this bike."
+      ]
+    },
+    {
+      "id": "off-sunny-sf-b1876",
+      "model": "SF-B1876",
+      "file": "SF-B1876 Spec Sheet 2020.08.19 舒华.xlsx",
+      "sha256": "28316d68a6d81f47586dac54c14c27869f48176f7f1c1e78b32a81f060e9ebd5",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-B1876"
+      },
+      "name": "MAGNETIC BELT DRIVE PREMIUM INDOOR CYCLING BIKE",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 21,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b1877",
+      "model": "SF-B1877",
+      "file": "SF-B1877 Spec Sheet 舒华 2021.2.3 final.xlsx",
+      "sha256": "6e9621e3916015d866fa7982e80898bd91d6a8715fb9644923c9c021a1a3f1f4",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-B1877"
+      },
+      "name": "MAGNETIC BELT DRIVE INDOOR CYCLING BIKE",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 19,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b1879",
+      "model": "SF-B1879",
+      "file": "SF-B1879 specification sheet 11.19.xlsx",
+      "sha256": "26c5f884bb8ae790b402a85fec98fa68dc59d6d868e92c9fc20690aed4266767",
+      "sheet": "1876",
+      "modelEvidence": {
+        "cell": "B2",
+        "text": "SF-B1879"
+      },
+      "name": "SYNERGY MAGNETIC INDOOR CYCLING BIKE",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 19,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b1913",
+      "model": "SF-B1913",
+      "file": "SF-B1913 Specification 07172019.xlsx",
+      "sha256": "da3163355f30e6ab20b580dcea5fe280f1774e883ab5214be622434ac2d77e34",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B1",
+        "text": "SF-B1913"
+      },
+      "name": "Training Cycling Bike",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 20,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b1995",
+      "model": "SF-B1995",
+      "file": "SF-B1995 SpecSheet 2020.1.6.xlsx",
+      "sha256": "736a0e952994530eade8b7dc286fb88c1dc2bac29764aa3be72acda7a0589cdc",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-B1995"
+      },
+      "name": "Belt Drive Pro II Indoor Cycling Bike",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 19,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b220030",
+      "model": "SF-B220030",
+      "file": "SF-B220030 spec sheet20221012.xlsx",
+      "sha256": "a5b6a37267a5d8bdba9d873df7a834cb843bf5bc963634419c2d3319c3836afb",
+      "sheet": "SF-B220030",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-B220030"
+      },
+      "name": "PERFORMANCE INTERACTIVE SERIES UPRIGHT BIKE",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 22,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b224027",
+      "model": "SF-B224027",
+      "file": "SF-B224027 Final Spec 09.14.2026.xlsx",
+      "sha256": "a94144010c42a17503d3a7f2d1bf74499c321c4ae9d4cb7289037acbe6a64836",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-B224027"
+      },
+      "name": "Tornado Smart Advanced Air Bike",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 55,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b2883",
+      "model": "SF-B2883",
+      "file": "SF-B2883 Specification 20190724.xlsx",
+      "sha256": "baebaf90b575da071b262f185233142dc0119cb3273b70b525cdd18663a71891",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B2",
+        "text": "SF-B2883"
+      },
+      "name": "Progammable Upright Bike",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 20,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b2883smart",
+      "model": "SF-B2883SMART",
+      "file": "SF-B2883SMART final spec sheet 20260813.xlsx",
+      "sha256": "903e9169d3015a1dd15b925fc92563ceeb64396fad9941f5757802e3e8682af5",
+      "sheet": "Specs",
+      "modelEvidence": {
+        "cell": "B8",
+        "text": "SF-B2883SMART"
+      },
+      "name": "PROGRAMMABLE SMART UPRIGHT BIKE",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 53,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b2989",
+      "model": "SF-B2989",
+      "file": "SF-B2989 SpecSheet 2020.6.22.xlsx",
+      "sha256": "c729d64ef706209241e5cb935e1ccedfddf529f16cf3b9381d5d120a8f35d39d",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-B2989"
+      },
+      "name": "Magnetic Foldable Exercise Bike",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 20,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-b901-smart",
+      "model": "SF-B901 SMART",
+      "file": "SF-B901 SMART final spec sheet 10302023.xlsx",
+      "sha256": "3c5d6f4aee4ea306421cb8bbe68d5bf588ae20e03ef64d112ea10876311979c7",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-B901 SMART"
+      },
+      "name": "SMART PRO INDOOR CYCLING EXERCISE BIKE",
+      "category": "Indoor Bikes",
+      "fieldsFilled": 24,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-bh620038",
+      "model": "SF-BH620038",
+      "file": "SF-BH620038 Spec Sheet 2023.02.01 final.xlsx",
+      "sha256": "8d918685484617fb49b809816793ac4978f46d1cf3df53db90a1ceb7b3135af5",
+      "sheet": "SF-BH620038",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-BH620038"
+      },
+      "name": "ADJUSTABLE INCLINE / DECLINE WEIGHT BENCH",
+      "category": "Weight Benches",
+      "fieldsFilled": 17,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-bh6802",
+      "model": "SF-BH6802",
+      "file": "SF-BH6802 Specification.xlsx",
+      "sha256": "695fc4eca3dfc87d0e0b6689a98594dc27a587d9bf9c8e98be50705b3dbef1f4",
+      "sheet": "Specification",
+      "modelEvidence": {
+        "cell": "B2",
+        "text": "SF-BH6802"
+      },
+      "name": "POWER RACK",
+      "category": "Racks",
+      "fieldsFilled": 10,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-bl01-s",
+      "model": "SF-BL01-S",
+      "file": "SF-BL01-S,ML,L,XL,XXL Spec Sheet Final.xlsx",
+      "sha256": "eaa3e776b8ef6e2609c1af3a44faf89a1ea00a0fb1bc41572527961378ba4d6f",
+      "sheet": "SF-BL01-S",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-BL01-S"
+      },
+      "name": "6” LEATHER LIFTING BELT - SMALL",
+      "category": "Essentials",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-bl01-m",
+      "model": "SF-BL01-M",
+      "file": "SF-BL01-S,ML,L,XL,XXL Spec Sheet Final.xlsx",
+      "sha256": "eaa3e776b8ef6e2609c1af3a44faf89a1ea00a0fb1bc41572527961378ba4d6f",
+      "sheet": "SF-BL01-M",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-BL01-M"
+      },
+      "name": "6” LEATHER LIFTING BELT - MEDIUM",
+      "category": "Essentials",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-bl01-l",
+      "model": "SF-BL01-L",
+      "file": "SF-BL01-S,ML,L,XL,XXL Spec Sheet Final.xlsx",
+      "sha256": "eaa3e776b8ef6e2609c1af3a44faf89a1ea00a0fb1bc41572527961378ba4d6f",
+      "sheet": "SF-BL01-L",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-BL01-L"
+      },
+      "name": "6” LEATHER LIFTING BELT - LARGE",
+      "category": "Essentials",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-bl01-xl",
+      "model": "SF-BL01-XL",
+      "file": "SF-BL01-S,ML,L,XL,XXL Spec Sheet Final.xlsx",
+      "sha256": "eaa3e776b8ef6e2609c1af3a44faf89a1ea00a0fb1bc41572527961378ba4d6f",
+      "sheet": "SF-BL01-XL",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-BL01-XL"
+      },
+      "name": "6” LEATHER LIFTING BELT - X-LARGE",
+      "category": "Essentials",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-bl01-xxl",
+      "model": "SF-BL01-XXL",
+      "file": "SF-BL01-S,ML,L,XL,XXL Spec Sheet Final.xlsx",
+      "sha256": "eaa3e776b8ef6e2609c1af3a44faf89a1ea00a0fb1bc41572527961378ba4d6f",
+      "sheet": "SF-BL01-XXL",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-BL01-XXL"
+      },
+      "name": "6” LEATHER LIFTING BELT - XX-LARGE",
+      "category": "Essentials",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-bl02-s",
+      "model": "SF-BL02-S",
+      "file": "SF-BL02-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+      "sha256": "be81ef7ce869c14e279d2efa3358a86cc9ebe7db510c42bac9b28abc930339dc",
+      "sheet": "SF-BL02-S",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-BL02-S"
+      },
+      "name": "4” LEATHER LIFTING BELT - SMALL",
+      "category": "Essentials",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-bl02-m",
+      "model": "SF-BL02-M",
+      "file": "SF-BL02-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+      "sha256": "be81ef7ce869c14e279d2efa3358a86cc9ebe7db510c42bac9b28abc930339dc",
+      "sheet": "SF-BL02-M",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-BL02-M"
+      },
+      "name": "4” LEATHER LIFTING BELT - MEDIUM",
+      "category": "Essentials",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-bl02-l",
+      "model": "SF-BL02-L",
+      "file": "SF-BL02-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+      "sha256": "be81ef7ce869c14e279d2efa3358a86cc9ebe7db510c42bac9b28abc930339dc",
+      "sheet": "SF-BL02-L",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-BL02-L"
+      },
+      "name": "4” LEATHER LIFTING BELT - LARGE",
+      "category": "Essentials",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-bl02-xl",
+      "model": "SF-BL02-XL",
+      "file": "SF-BL02-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+      "sha256": "be81ef7ce869c14e279d2efa3358a86cc9ebe7db510c42bac9b28abc930339dc",
+      "sheet": "SF-BL02-XL",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-BL02-XL"
+      },
+      "name": "4” LEATHER LIFTING BELT - X-LARGE",
+      "category": "Essentials",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-bl02-xxl",
+      "model": "SF-BL02-XXL",
+      "file": "SF-BL02-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+      "sha256": "be81ef7ce869c14e279d2efa3358a86cc9ebe7db510c42bac9b28abc930339dc",
+      "sheet": "SF-BL02-XXL",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-BL02-XXL"
+      },
+      "name": "4” LEATHER LIFTING BELT",
+      "category": "Essentials",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-bl03-s",
+      "model": "SF-BL03-S",
+      "file": "SF-BL03-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+      "sha256": "5c943ceb3274028d6186abfe26d8821255ce7a3d5b01178316a457e3a4e88048",
+      "sheet": "SF-BL03-S",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-BL03-S"
+      },
+      "name": "WEIGHTLIFTING BELT",
+      "category": "Essentials",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-bl03-m",
+      "model": "SF-BL03-M",
+      "file": "SF-BL03-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+      "sha256": "5c943ceb3274028d6186abfe26d8821255ce7a3d5b01178316a457e3a4e88048",
+      "sheet": "SF-BL03-M",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-BL03-M"
+      },
+      "name": "WEIGHTLIFTING BELT",
+      "category": "Essentials",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-bl03-l",
+      "model": "SF-BL03-L",
+      "file": "SF-BL03-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+      "sha256": "5c943ceb3274028d6186abfe26d8821255ce7a3d5b01178316a457e3a4e88048",
+      "sheet": "SF-BL03-L",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-BL03-L"
+      },
+      "name": "WEIGHTLIFTING BELT",
+      "category": "Essentials",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-bl03-xl",
+      "model": "SF-BL03-XL",
+      "file": "SF-BL03-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+      "sha256": "5c943ceb3274028d6186abfe26d8821255ce7a3d5b01178316a457e3a4e88048",
+      "sheet": "SF-BL03-XL",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-BL03-XL"
+      },
+      "name": "WEIGHTLIFTING BELT",
+      "category": "Essentials",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-bl03-xxl",
+      "model": "SF-BL03-XXL",
+      "file": "SF-BL03-S,ML,L,XL,XXL Spec Sheet Updated Final.xlsx",
+      "sha256": "5c943ceb3274028d6186abfe26d8821255ce7a3d5b01178316a457e3a4e88048",
+      "sheet": "SF-BL03-XXL",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-BL03-XXL"
+      },
+      "name": "WEIGHTLIFTING BELT",
+      "category": "Essentials",
+      "fieldsFilled": 7,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-e320001",
+      "model": "SF-E320001",
+      "file": "SF-E320001 Spec Sheet 0925.xlsx",
+      "sha256": "45f4d99cab20ce4f94042ea5ac714d36f6d85853180e958ecfe29835a36218b7",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B4",
+        "text": "SF-E320001"
+      },
+      "name": "PRE-PROGRAMMED ELLIPTICAL TRAINER",
+      "category": "Ellipticals",
+      "fieldsFilled": 18,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-e320051",
+      "model": "SF-E320051",
+      "file": "SF-E320051 Spec Sheet  04.24 .2022.xlsx",
+      "sha256": "7f0c9f48920b4856166e208994248b16fc33eb0e1877050cbeab91200487944a",
+      "sheet": "Sheet1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-E320051"
+      },
+      "name": "Portable Stand Up Elliptical with Resistance Bands",
+      "category": "Ellipticals",
+      "fieldsFilled": 19,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-e321003",
+      "model": "SF-E321003",
+      "file": "SF-E321003 Spec Sheet 2022.05.24 v1.xlsx",
+      "sha256": "7e3390ee4d83e01c71fc114b2b278a06a571c4ce3b91755fcb5fad276ea7576f",
+      "sheet": "版本号v1",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-E321003"
+      },
+      "name": "ENDURANCE SERIES MAGNETIC ELLIPTICAL",
+      "category": "Ellipticals",
+      "fieldsFilled": 16,
+      "notes": []
+    },
+    {
+      "id": "off-sunny-sf-e321005",
+      "model": "SF-E321005",
+      "file": "SF-E321005 Spec.sheet 2022.07.13 v2.xlsx",
+      "sha256": "bfa3aa8d89b20bbefee35be924f162c60e66d016cca2d865ec178464acc7bb25",
+      "sheet": "Version 2",
+      "modelEvidence": {
+        "cell": "B5",
+        "text": "SF-E321005"
+      },
+      "name": "POWER STRIDE ELLIPTICAL MACHINE",
+      "category": "Ellipticals",
+      "fieldsFilled": 16,
+      "notes": []
+    }
+  ]
+}
