@@ -2,6 +2,15 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-06: Claude Code — Artifact version 29 with batch five
+- Changes: reconciled first (only the four known owner edits differ: sf-t722021, sf-t722076, sf-t724011, sf-t725067). Uploaded 114 images, inserted 114 item documents, replaced the reference collection (now 21 documents, data version 4bd0bc0a1e026a01).
+- Files: HANDOFF.md; data/off-sunny-web/batch-five-notes.md
+- Tests: no code changed since efbb95e. Read back: 490 items match the repository apart from those four, and 21 of 21 reference documents are identical.
+- Claude Artifact: PUBLISHED version 29, built from efbb95e. The page differs from the previously checked build only in the reference version and expected ISV count. NOT verified in the real viewer: the browser pane is not signed in to claude.ai.
+- Private Site: not published; last recorded PUBLIC version 45 from 15f3c65, behind main. Codex to publish.
+- Practice data: not exported (owner decision).
+- Remaining issues: the owner still needs to check the Artifact while signed in.
+- Next steps: Codex "git pull", then publish the Site.
 ## 2026-11-06: Claude Code — import V3 batch five: the last 114 verifiable Off Sunny web models
 - Changes: added 114 models from 107 V3 files. Totals: Current 156, Off Sunny web 334, All 490. 80 product pages, 73 manuals, 19 videos, 114 images (108 official, 6 from spec sheets), 113 ISV matches. A blank sheet name now uses the exact ISV Product Name; a blank or misprinted model cell uses the filename when an exact ISV row agrees. Eleven models stay out with reasons in data/off-sunny-web/batch-five-deferred.json. Older records and ISV rows are unchanged. Worker inserts them once and keeps edits and deletions; images load from pinned commit 5405564 (repo must stay public), then R2.
 - Files: data/off-sunny-web/{items,batch-five-*}; data/isv/*; data/images/off-sunny-web/*-batch5-v1.jpg; app/index.html (embedded ISV); server/worker.js; scripts/{build.mjs,import-v3-batch-five.py,merge-v3-batch-five.py,research-v3-batch-four.py}; tests/{off-sunny-batch-five,off-sunny-batch-four,off-sunny-batch-three,artifact-build}.spec.cjs; HANDOFF.md

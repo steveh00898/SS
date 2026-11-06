@@ -11,7 +11,7 @@ Adds the last 114 models that can be verified from the V3 folder, from 107 files
 ## Decisions
 
 - Batch four's rules still apply. Two are widened, and both need an exact ISV 4.0 row:
-  - A blank or code-only name on the sheet uses the ISV Product Name (29 models). The record's notes name the ISV cell.
+  - A blank or code-only name on the sheet uses the ISV Product Name (22 models). The record's notes name the ISV cell.
   - A blank or misprinted model cell uses the filename when the ISV row agrees. A filename with no model uses the sheet's model cell when the ISV row agrees. These are listed in `IDENTITY` in the import script.
 - Four legacy `.xls` files were read through `.xlsx` copies made by Excel; the originals are unchanged and the SHA-256 is the original's.
 - ISV names are kept as written, including the "Sunn Health and Fitness" typo on SF-A026020.
