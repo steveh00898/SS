@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-06: Claude Code — batch four synced to the Claude Artifact database; page not republished
+- Changes: at the owner's request, read all 276 Artifact `items`, uploaded 100 batch-four images and inserted the 100 new `off-sunny-sf-*` documents (same fields as data/off-sunny-web/items.json except `id`, `imageAssetId`, `imageUrl`). Read back: 376 documents. No repository app or data change.
+- Files: HANDOFF.md
+- Tests: not rerun; no code changed since 9f72602.
+- Local preview: not applicable. The Artifact page could not be checked: the browser pane is not signed in to claude.ai and showed "The catalog is unavailable".
+- Claude Artifact: page NOT republished, still version 26 from 6b96a0c. app/index.html is 3.59 MB, too large for Claude Code to read in full before publishing. The new records have no ISV or newer features on that page. Display of the new records is unverified.
+- Private Site: not published; last recorded PUBLIC version 45 from 15f3c65, behind main. An attempt to run Codex from Claude Code stopped on the owner's ChatGPT usage limit before doing any work.
+- Practice data: not exported (owner decision).
+- Remaining issues: Artifact page behind main; four known owner edits still differ from data/*.json.
+- Next steps: owner checks the Artifact; Codex publishes the Site.
+
 ## 2026-11-06: Claude Code — import V3 batch four: 100 more Off Sunny web models
 - Changes: added 100 models from 83 V3 files, in filename order after processed files. Totals: Current 156, Off Sunny web 220, All 376. By category: Weights 37, Rowers 18, Essentials 13, Ellipticals 10, Steppers 8, Treadmills 8, Indoor Bikes 6. Insert-only one-time Worker import (`v3-batch-4`); existing records, edits, masks and deletions preserved. Site `/api` and `window.claude` paths unchanged.
 - Models: SF-E321006, SF-E322002, SF-E322804, SF-E322902, SF-E323050, SF-E323055, SF-E326015-GY, SF-E3810, SF-E3865, SF-E3872 SMART, SF-EB02-L/M/S, SF-EB03-4/6/8/10/12/15/20/25/30, SF-EB04-10/15/20/25/30/40/50, SF-EM02-BU/PR, SF-EM03-GY/PK, SF-GL01-S/M/L/XL, SF-KB03-50, SF-OB01-16/20, SF-OB02-34, SF-OB03-47/48, SF-OB04-60/72/79/86-28/86-30, SF-OP01-15/25/35/45/55, SF-RB420031, SF-RB421004, SF-RB422003, SF-RB422903, SF-RB423034, SF-RB424002, SF-RW1205, SF-RW520083K, SF-RW522017BLU, SF-RW522017GRN, SF-RW522073, SF-RW522074, SF-RW522075, SF-RW524960, SF-RW5515, SF-RW5606, SF-RW5622, SF-RW5713, SF-RW5801, SF-RW5856, SF-RW5864 SMART, SF-RW5910 SMART, SF-RW5910, SF-RW5987, SF-S021001, SF-S023051, SF-S023812, SF-S024035, SF-S024835, SF-S025005, SF-S025025GY, SF-S025025WT, SF-SB01-14/24, SF-SB02-34, SF-SB03-47, SF-SB04-60, SF-SK025001, SF-SK025801, SF-T4400 SMART, SF-T722051, SF-T722054, SF-T724043, SF-T724811, SF-T724943, SF-T724964, SF-T724965. Model-to-file mapping with SHA-256 and cell: data/off-sunny-web/batch-four-sources.json.
