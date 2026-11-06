@@ -16,10 +16,10 @@ Where it is published:
 
 | Target | URL | Who updates it |
 |---|---|---|
-| Claude Artifact | https://claude.ai/artifact/Eux9EgPAA2p4td6ZLTAyXS | Claude Code only (Codex cannot reach it) |
-| Private Site | https://sunny-product-finder.steven-peace.chatgpt.site | Codex only (Claude Code cannot reach it) |
+| Claude Artifact | https://claude.ai/artifact/Eux9EgPAA2p4td6ZLTAyXS | Frozen at version 26 from 6b96a0c by owner decision (2026-11-06); not republished unless the owner asks again |
+| Private Site | https://sunny-product-finder.steven-peace.chatgpt.site | Codex only (Claude Code cannot reach it). This is the main app. |
 
-Each agent keeps its own preview link current as part of "git push" and "git pull" below; the owner has given standing permission for that. Publish only:
+The private Site is the main app. While the Artifact is frozen, Claude Code skips the Artifact publishing steps in this file and reports the Artifact as frozen. Codex keeps the Site current as part of "git push" and "git pull" below; the owner has given standing permission for that. Publish only:
 - from a commit that is already pushed to `main` (record that exact SHA in HANDOFF.md),
 - when every test passes, and
 - when the published app would actually change: compare the last published SHA in HANDOFF.md with `main` for `app/index.html` (and, for the private Site, `server/`, `db/`, `drizzle/`, `data/`). If nothing relevant changed, skip publishing and say so.
@@ -30,11 +30,11 @@ The owner may still have to approve a credential prompt when Codex publishes; th
 
 | Owner says | Meaning (same for every agent) |
 |---|---|
-| **"git pull"** | Run "Start of every task" below (sync, review the other agent's work, tests, screenshots), then update **your own** preview link if the app changed (rules above), refresh your app's practice export and run `npm run practice-report` ("SKU practice data" below), and report. |
-| **"git push"** | Run "Before finishing" below (tests, HANDOFF.md entry, commit with your `Agent:` trailer, push to `main`), including your app's refreshed practice export, then update **your own** preview link if the app changed, and report the commit SHA and both links' status. |
-| **"publish site"** | Codex: publish the private Site from `main` HEAD now (pushed commits only), even if nothing changed. Claude Code: republish the Claude Artifact. |
+| **"git pull"** | Run "Start of every task" below (sync, review the other agent's work, tests, screenshots), then update **your own** preview link if the app changed (rules above), and report. No practice export ("SKU practice data" below). |
+| **"git push"** | Run "Before finishing" below (tests, HANDOFF.md entry, commit with your `Agent:` trailer, push to `main`), then update **your own** preview link if the app changed, and report the commit SHA and both links' status. |
+| **"publish site"** | Codex: publish the private Site from `main` HEAD now (pushed commits only), even if nothing changed. Claude Code: the Artifact is frozen, so say so and ask whether the owner wants to lift that. |
 
-The owner works in one tool at a time: "git push" in the tool they finished in, then "git pull" in the other. After that pair, both links show the latest version.
+The owner works in one tool at a time: "git push" in the tool they finished in, then "git pull" in the other. After that pair, the private Site shows the latest version.
 
 ## One agent at a time
 
@@ -77,13 +77,13 @@ If there are no new commits, say so and skip steps 4 and 5.
 
 ## SKU practice data
 
-Each app saves practice results per signed-in user in its own database (README.md, "SKU practice"). Neither agent can open the other's app, so the results meet in the repository:
+Each app saves practice results per signed-in user in its own database (README.md, "SKU practice").
 
-- Claude Code writes the Claude Artifact's results to `practice-data/claude-artifact.json` (read with its artifact database tool from the owner's `data/users/<id>/practice-*` documents).
-- Codex writes the private Site's results to `practice-data/private-site.json`: the owner's own results only (`GET /api/practice` as the owner, or D1 `practice_attempts` for the owner's user id). Other learners' results and emails never go into this public repository; the owner sees them in the Site's Accounts view.
-- Use the format in `practice-data/README.md`: the whole file is replaced on each export, with no user ids, names or emails. If you can't read your app's results, say so and ask the owner to use **Progress → Export results file** in that app instead; never invent or edit records.
-- Then run `npm run practice-report` (add `-- --md` to also write `practice-data/report.md`) and include the headline numbers in your report: answers, accuracy, most missed field, most missed products.
-- The repository is public. Ask the owner before the first export if it hasn't been made private.
+Owner decision (2026-11-06):
+
+- Each user can view only their own results; one user must never be able to view another's. Admins keep the private Site's **Accounts** view of every learner.
+- Do not export practice results to this public repository, including the owner's own, unless the owner asks again. Reports say "Practice data: not exported (owner decision)".
+- `practice-data/` and `npm run practice-report` stay in place but are not part of any routine.
 
 ## Before finishing
 

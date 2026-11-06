@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-06: Claude Code — owner decisions: Artifact frozen, practice results not exported
+- Changes: documentation only. The private Site is the main app and the Claude Artifact stays at version 26, with no republishing unless the owner asks. Practice results are not exported to this public repository, including the owner's. Each user views only their own results; admins keep the Site's Accounts view. The older entry's open questions on Artifact publishing and first export are closed.
+- Files: AGENTS.md; CLAUDE.md; HANDOFF.md
+- Tests: not run; no app, server, data or test files changed.
+- Local preview: not applicable.
+- Claude Artifact: not published; frozen at version 26 from 6b96a0c. Database remains at 276 items.
+- Private Site: not published by Claude Code; last recorded PUBLIC version 45 from 15f3c65.
+- Practice data: not exported (owner decision).
+- Remaining issues: four known owner edits still differ between the Artifact and data/*.json. README.md and practice-data/README.md still describe the export format, which is kept but not part of any routine.
+- Next steps: Codex re-reads AGENTS.md on next "git pull"; no Site publish needed.
+
 ## 2026-11-06: Claude Code — git pull on the owner's Windows PC: batch-three data synced to the Claude Artifact database; page not republished
 - Changes: reviewed Codex commits 718aaf8..4cfa433 by commit list, trailers, changed-file stats and test-line changes, not every diff line. All carry `Agent: Codex`; `/api` and `window.claude` paths remain in app/index.html. Read all 176 Artifact `items` first: only the expected Artifact image URLs and the known owner edits on SF-T724011, SF-T725067, SF-T722021 and SF-T722076 differ. Uploaded 99 images and inserted the 100 missing `off-sunny-*` documents (same fields as data/off-sunny-web/items.json except `id`, `imageAssetId`, `imageUrl`). Read back: 276 documents, all 176 originals byte-identical.
 - Files: HANDOFF.md
