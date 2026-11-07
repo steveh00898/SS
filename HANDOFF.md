@@ -2,6 +2,15 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-06: Claude Code — prices from Sunny US Mastersheet V1
+- Changes: applied the B2B TP column to the catalog (owner decision: the file wins). 3 prices changed, 286 Off Sunny web prices filled, 153 already matched; 7 matched models have a blank cell and keep no price. 136 of 582 rows are not in the app and 41 app models are not in the file; both lists are in data/pricing/us-mastersheet-v1-audit.json. NO. 077-S and NO. 077S are separate rows, so the app's NO. 077S took row 151 ($89.99). Worker applies the prices once to the Site database, keeping other edits and deletions.
+- Files: data/*.json; data/off-sunny-web/items.json; data/pricing/us-mastersheet-v1-audit.json; server/worker.js; scripts/apply-mastersheet-prices.py; tests/mastersheet-prices.spec.cjs; HANDOFF.md
+- Tests: all 30 tests/*.spec.cjs passed with installed Chrome through a local preload. Worker gzip 9,195,055 bytes.
+- Claude Artifact: page not republished (no page change, version 29). 289 item documents updated in its database and read back: prices match the repository and no other field changed. The priceSource label is repository and Site only.
+- Private Site: not published; last recorded PUBLIC version 45 from 15f3c65, behind main. Codex to publish.
+- Practice data: not exported (owner decision).
+- Remaining issues: B2B TP values are now in the public repository. Owner decides on the 136 missing rows.
+- Next steps: Codex "git pull", then publish the Site.
 ## 2026-11-06: Claude Code — Artifact version 29 with batch five
 - Changes: reconciled first (only the four known owner edits differ: sf-t722021, sf-t722076, sf-t724011, sf-t725067). Uploaded 114 images, inserted 114 item documents, replaced the reference collection (now 21 documents, data version 4bd0bc0a1e026a01).
 - Files: HANDOFF.md; data/off-sunny-web/batch-five-notes.md
