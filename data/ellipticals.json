@@ -26,7 +26,8 @@
       "dimensionOrder": "as specified in workbook (overall or folded machine dimensions)",
       "portfolioCategory": "Compact"
     },
-    "photoChecked": true
+    "photoChecked": true,
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-e905smart",
@@ -108,7 +109,8 @@
         "V2 spec sheet: SF-E905 SMART final spec sheet 06072024.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-e323038",
@@ -190,7 +192,8 @@
         "V2 spec sheet: SF-E323038 Final SPEC SHEET 20240809.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-e324005",
@@ -276,7 +279,8 @@
         "V2 spec sheet: SF-E324005 FINAL SPEC SHEET 20240929.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-e320047",
@@ -307,7 +311,14 @@
     },
     "photoChecked": true,
     "photoMasks": {
-      "name": [[0.58, 0.18, 0.07, 0.52]]
+      "name": [
+        [
+          0.58,
+          0.18,
+          0.07,
+          0.52
+        ]
+      ]
     },
     "specDetails": {
       "version": 1,
@@ -353,7 +364,8 @@
         "V2 spec sheet: SF-E320047 Spec.sheet 03232022.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-e320048",
@@ -384,7 +396,14 @@
     },
     "photoChecked": true,
     "photoMasks": {
-      "name": [[0.57, 0.24, 0.08, 0.24]]
+      "name": [
+        [
+          0.57,
+          0.24,
+          0.08,
+          0.24
+        ]
+      ]
     },
     "specDetails": {
       "version": 1,
@@ -438,7 +457,8 @@
         "V2 spec sheet: SF-E320048 Spec.sheet 11-12-2022.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-e3889smart",
@@ -524,7 +544,8 @@
         "V2 spec sheet: Spec Sheet for SF-E3889 SMART.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-e902s",
@@ -598,7 +619,8 @@
         "V2 spec sheet: SF-E902S spec sheet 20250327.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-e902smart",
@@ -714,7 +736,8 @@
         "V2 spec sheet: SF-E902 SMART Spec sheet (new version) 20241121.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-e324028",
@@ -840,7 +863,8 @@
         "V2 spec sheet: SF-E324028 spec sheet 12.11.2024.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-rbe420049",
@@ -871,7 +895,14 @@
     },
     "photoChecked": true,
     "photoMasks": {
-      "name": [[0.49, 0.2, 0.05, 0.2]]
+      "name": [
+        [
+          0.49,
+          0.2,
+          0.05,
+          0.2
+        ]
+      ]
     },
     "specDetails": {
       "version": 1,
@@ -927,7 +958,8 @@
         "V2 spec sheet: SF-RBE420049 & nbsp_ SPEC 12.30.2022.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-rbe420035",
@@ -1013,7 +1045,8 @@
         "V2 spec sheet: Spec Sheet for SF-RBE420035 01172023.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-rbe4886smart",
@@ -1044,7 +1077,14 @@
     },
     "photoChecked": true,
     "photoMasks": {
-      "name": [[0.25, 0.64, 0.06, 0.2]]
+      "name": [
+        [
+          0.25,
+          0.64,
+          0.06,
+          0.2
+        ]
+      ]
     },
     "specDetails": {
       "version": 1,
@@ -1102,7 +1142,8 @@
         "V2 spec sheet: Spec Sheet for SF-RBE4886 SMART 01172023.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-e324029",
@@ -1218,7 +1259,8 @@
         "V2 spec sheet: SF-E324029 Final Spec sheet 20260602.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-e3959smartg",
@@ -1292,7 +1334,8 @@
         "V2 spec sheet: SF-E3959SMARTG Final spec sheet 20260603.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-e323057",
@@ -1376,7 +1419,8 @@
         "V2 spec sheet: SF-E323057 SPEC SHEET 06052024.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-e323054",
@@ -1460,7 +1504,8 @@
         "V2 spec sheet: SF-E323054 SPEC SHEET 06032024.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-e323017",
@@ -1538,6 +1583,7 @@
         "V2 spec sheet: SF-E323017 SPEC SHEET 09192023.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   }
 ]

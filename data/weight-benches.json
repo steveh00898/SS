@@ -48,7 +48,8 @@
     "V2 spec sheet: SF-BH621002 Spec Sheet 2022.01.28 final (DIFF COLOR).xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-bh6920",
@@ -123,7 +124,8 @@
    "notes": [
     "Frame / equipment capacity (B12) combines a total capacity and a user-weight limit: the user-weight part is shown as maximum user weight, the full wording under capacity."
    ]
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-bh620062",
@@ -180,14 +182,15 @@
     "V2 spec sheet: Spec Sheet--SF-BH620062 2022.02.10.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-bh6629",
   "name": "45 Degree Hyperextension Roman Chair | Sunny Strength®",
   "sku": "SF-BH6629",
   "category": "Weight Benches",
-  "price": 89.99,
+  "price": 84.99,
   "priceChecked": true,
   "url": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/sunny-health-and-fitness-sf-bh6629-45-degree-hyperextension-roman-chair",
   "imageAssetId": "a75512f3c22b6a3c0c1b1715284d570c",
@@ -231,7 +234,8 @@
     "V2 spec sheet: BH6629 Specification, max weight updated.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-bh6921",
@@ -300,7 +304,8 @@
    "notes": [
     "Maximum user weight (lb) (B14) combines a total capacity and a user-weight limit: the user-weight part is shown as maximum user weight, the full wording under capacity."
    ]
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-bh6996",
@@ -336,7 +341,8 @@
    "source": "https://sunnyhealthfitness.com/collections/benches-chairs-tables/products/power-zone-strength-flat-bench-sf-bh6996",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Weight Benches"
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-bh622045",
@@ -399,7 +405,8 @@
    "notes": [
     "Maximum user weight (lb) (B21) combines a total capacity and a user-weight limit: the user-weight part is shown as maximum user weight, the full wording under capacity."
    ]
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-bh623009",
@@ -458,7 +465,8 @@
     "V2 spec sheet: SF-BH623009 SPEC SHEET 20240410 final.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-bh623052",
@@ -521,7 +529,8 @@
     "V2 spec sheet: SF-BH623052 SPECSHEET 11042024.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-bh623008",
@@ -582,7 +591,8 @@
     "V2 spec sheet: SF-BH623008 SPEC SHEET 20240326 final.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-bh624089",
@@ -647,7 +657,8 @@
     "V2 spec sheet: SF-BH624089 Spec Sheet 20250122.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-bh625020",
@@ -718,7 +729,8 @@
     "V2 spec sheet: SF-BH625020 final spec sheet 20260430.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-bh625080",
@@ -793,6 +805,7 @@
     "V2 spec sheet: SF-BH625080 Final Spec dated 20260520.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  }
 ]

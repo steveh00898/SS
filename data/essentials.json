@@ -62,7 +62,8 @@
     "V2 spec sheet: SF-EB02-XS Final spec sheet 10182024.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-eb01-rd",
@@ -127,7 +128,8 @@
     "V2 spec sheet: SF-EB01-RD Final spec sheet 10182024.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "hr200",
@@ -186,7 +188,8 @@
     "V2 spec sheet: HR200 FINAL SPEC SHEET 2023-10-31.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "cb110s",
@@ -212,7 +215,8 @@
    "source": "https://sunnyhealthfitness.com/collections/essentials/products/cadence-speed-sensor-for-cycling-sunnyfit-bike-cb110",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-ws022063",
@@ -275,7 +279,8 @@
     "V2 spec sheet: Spec Sheet for SF-WS022063 01292023.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-jr01-bk",
@@ -322,7 +327,8 @@
     "V2 spec sheet: SF-JR01-BK final spec sheet 01082025.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-jr03-bk",
@@ -371,7 +377,8 @@
     "V2 spec sheet: SF-JR03-BK final spec sheet 01082025.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-jr02-bk",
@@ -420,7 +427,8 @@
     "V2 spec sheet: SF-JR02-BK final spec sheet 01082025.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-s025063",
@@ -491,7 +499,8 @@
    "notes": [
     "Maximum user height reads \"NO height limit\" (B14); not shown as a limit. \"No limit\" is not an unlimited capacity."
    ]
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-s025064",
@@ -562,7 +571,8 @@
    "notes": [
     "Maximum user height reads \"No height limit\" (B14); not shown as a limit. \"No limit\" is not an unlimited capacity."
    ]
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-s025065",
@@ -633,7 +643,8 @@
    "notes": [
     "Maximum user height reads \"No height limit\" (B14); not shown as a limit. \"No limit\" is not an unlimited capacity."
    ]
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-s021048",
@@ -688,7 +699,8 @@
     "V2 spec sheet: Spec Sheet for SF-S021048 01162023.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-s021047",
@@ -743,7 +755,8 @@
     "V2 spec sheet: Spec Sheet for SF-S021047 01162023.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-em03-bu",
@@ -798,7 +811,8 @@
     "V2 spec sheet: SF-EM03-BU final spec sheet 06242024.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "no-031-b",
@@ -824,7 +838,8 @@
    "source": "https://sunnyhealthfitness.com/collections/essentials/products/sunny-health-and-fitness-no-031-b-yoga-mat-blue",
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-em02-gy",
@@ -881,7 +896,8 @@
     "V2 spec sheet: SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-em01-bk",
@@ -936,7 +952,8 @@
     "V2 spec sheet: SF-EM01-BK Final Spec Sheet 06052024.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "no-074-xs",
@@ -985,7 +1002,8 @@
     "V2 spec sheet: Spec Sheet for NO. 074-XS 7.11.2022.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "no-107",
@@ -1038,7 +1056,8 @@
     "V2 spec sheet: NO. 107 final spec sheet 20250205.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-er01-bk-12",
@@ -1091,7 +1110,8 @@
     "V2 spec sheet: SF-ER01 final spec sheet 20250923.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "no-104",
@@ -1144,7 +1164,8 @@
     "V2 spec sheet: SPEC SHEET for NO. 104.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "no-106",
@@ -1197,7 +1218,8 @@
     "V2 spec sheet: NO. 106 final spec sheet 20250205.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "no-120-gy",
@@ -1256,7 +1278,8 @@
     "V2 spec sheet: NO. 120 Final Spec Template dated 20260723.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "no-091",
@@ -1315,7 +1338,8 @@
     "V2 spec sheet: NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-wv01-a1",
@@ -1372,7 +1396,8 @@
     "V2 spec sheet: SF-WV01 final Spec Template dated 20260701.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-gl02-s",
@@ -1423,6 +1448,7 @@
     "V2 spec sheet: SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  }
 ]

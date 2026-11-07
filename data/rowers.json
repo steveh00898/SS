@@ -28,7 +28,14 @@
     },
     "photoChecked": true,
     "photoMasks": {
-      "name": [[0.07, 0.52, 0.1, 0.07]]
+      "name": [
+        [
+          0.07,
+          0.52,
+          0.1,
+          0.07
+        ]
+      ]
     },
     "specDetails": {
       "version": 1,
@@ -94,7 +101,8 @@
         "V2 spec sheet: SF-RW522067 Final SPEC SHEET 20240912 updated.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-rw523021",
@@ -125,7 +133,14 @@
     },
     "photoChecked": true,
     "photoMasks": {
-      "name": [[0.1, 0.56, 0.12, 0.08]]
+      "name": [
+        [
+          0.1,
+          0.56,
+          0.12,
+          0.08
+        ]
+      ]
     },
     "specDetails": {
       "version": 1,
@@ -189,7 +204,8 @@
         "V2 spec sheet: SF-RW523021 Final SPEC SHEET 20240619.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-rw523043",
@@ -220,7 +236,14 @@
     },
     "photoChecked": true,
     "photoMasks": {
-      "name": [[0.09, 0.53, 0.11, 0.07]]
+      "name": [
+        [
+          0.09,
+          0.53,
+          0.11,
+          0.07
+        ]
+      ]
     },
     "specDetails": {
       "version": 1,
@@ -304,7 +327,8 @@
         "V2 spec sheet: SF-RW523043 Final Spec Sheet 20241111.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-rw5713smart",
@@ -335,8 +359,22 @@
     },
     "photoChecked": true,
     "photoMasks": {
-      "sku": [[0.08, 0.55, 0.11, 0.07]],
-      "name": [[0.08, 0.55, 0.11, 0.07]]
+      "sku": [
+        [
+          0.08,
+          0.55,
+          0.11,
+          0.07
+        ]
+      ],
+      "name": [
+        [
+          0.08,
+          0.55,
+          0.11,
+          0.07
+        ]
+      ]
     },
     "specDetails": {
       "version": 1,
@@ -420,7 +458,8 @@
         "V2 spec sheet: SF-RW5713SMART Spec Sheet 09112025.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-rw5940smart",
@@ -451,7 +490,14 @@
     },
     "photoChecked": true,
     "photoMasks": {
-      "sku": [[0.68, 0.6, 0.09, 0.26]]
+      "sku": [
+        [
+          0.68,
+          0.6,
+          0.09,
+          0.26
+        ]
+      ]
     },
     "specDetails": {
       "version": 1,
@@ -535,7 +581,8 @@
         "V2 spec sheet: SF-RW5940SMART SPEC SHEET 2025.3.24.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-rw520008",
@@ -611,7 +658,8 @@
         "V2 spec sheet: SF-RW520008 Spec.sheet 01252022.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-rw5639smart",
@@ -642,8 +690,22 @@
     },
     "photoChecked": true,
     "photoMasks": {
-      "sku": [[0.13, 0.56, 0.08, 0.08]],
-      "name": [[0.39, 0.57, 0.14, 0.09]]
+      "sku": [
+        [
+          0.13,
+          0.56,
+          0.08,
+          0.08
+        ]
+      ],
+      "name": [
+        [
+          0.39,
+          0.57,
+          0.14,
+          0.09
+        ]
+      ]
     },
     "specDetails": {
       "version": 1,
@@ -695,7 +757,8 @@
         "V2 spec sheet: Final SF-RW5639 SMART SPEC SHEET 03272026.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-rw1205smart",
@@ -726,8 +789,22 @@
     },
     "photoChecked": true,
     "photoMasks": {
-      "sku": [[0.17, 0.45, 0.1, 0.11]],
-      "name": [[0.39, 0.59, 0.12, 0.12]]
+      "sku": [
+        [
+          0.17,
+          0.45,
+          0.1,
+          0.11
+        ]
+      ],
+      "name": [
+        [
+          0.39,
+          0.59,
+          0.12,
+          0.12
+        ]
+      ]
     },
     "specDetails": {
       "version": 1,
@@ -779,7 +856,8 @@
         "V2 spec sheet: SF-RW1205 SMART FINAL SPEC SHEET 08082023.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-rw522017blk",
@@ -810,7 +888,14 @@
     },
     "photoChecked": true,
     "photoMasks": {
-      "name": [[0.11, 0.58, 0.13, 0.07]]
+      "name": [
+        [
+          0.11,
+          0.58,
+          0.13,
+          0.07
+        ]
+      ]
     },
     "specDetails": {
       "version": 1,
@@ -896,7 +981,8 @@
         "V2 spec sheet: SF-RW522017BLK final Spec Sheet 09102025.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-rw520007",
@@ -970,7 +1056,8 @@
         "V2 spec sheet: SF-RW520007 Spec.sheet 01252022.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-rw524022",
@@ -1001,7 +1088,14 @@
     },
     "photoChecked": true,
     "photoMasks": {
-      "name": [[0.12, 0.48, 0.11, 0.07]]
+      "name": [
+        [
+          0.12,
+          0.48,
+          0.11,
+          0.07
+        ]
+      ]
     },
     "specDetails": {
       "version": 1,
@@ -1079,7 +1173,8 @@
         "V2 spec sheet: SF-RW524022 Rower final spec.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-rw524079",
@@ -1110,7 +1205,14 @@
     },
     "photoChecked": true,
     "photoMasks": {
-      "name": [[0.12, 0.39, 0.11, 0.07]]
+      "name": [
+        [
+          0.12,
+          0.39,
+          0.11,
+          0.07
+        ]
+      ]
     },
     "specDetails": {
       "version": 1,
@@ -1194,7 +1296,8 @@
         "V2 spec sheet: SF-RW524079 Final Spec dated 2026.10.28.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   },
   {
     "id": "sf-rw525023",
@@ -1225,7 +1328,14 @@
     },
     "photoChecked": true,
     "photoMasks": {
-      "sku": [[0.12, 0.57, 0.12, 0.08]]
+      "sku": [
+        [
+          0.12,
+          0.57,
+          0.12,
+          0.08
+        ]
+      ]
     },
     "specDetails": {
       "version": 1,
@@ -1301,6 +1411,7 @@
         "V2 spec sheet: SF-RW525023 Draft Spec 12.29.2025.xlsx"
       ],
       "notes": []
-    }
+    },
+    "priceSource": "Sunny US Mastersheet V1"
   }
 ]

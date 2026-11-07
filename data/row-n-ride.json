@@ -4,7 +4,7 @@
   "name": "Upright Row-N-Ride® Squat Assist Trainer Machine for Abs and Glute Workout",
   "sku": "NO. 077S",
   "category": "Row-N-Ride",
-  "price": 99.99,
+  "price": 89.99,
   "priceChecked": true,
   "url": "https://sunnyhealthfitness.com/collections/row-n-ride/products/sunny-health-and-fitness-no-077-upright-row-n-ride-rowing-machine",
   "imageAssetId": "706c844045d7bc9dfc03d83771a18b7d",
@@ -104,7 +104,8 @@
     "V2 spec sheet: NO. 077S final spec sheet 11.22.2024 .xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "no-077smart",
@@ -187,7 +188,8 @@
     "V2 spec sheet: Final Spec Sheet - NO. 077 SMART New Max User Weight.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "no-077plussmart",
@@ -282,7 +284,8 @@
     "V2 spec sheet: 077PLUS SMART final spec sheet-09182024.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-a022070",
@@ -367,6 +370,7 @@
    "notes": [
     "Pulse sensors (B30) holds an order-specific remark; not imported."
    ]
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  }
 ]

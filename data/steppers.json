@@ -78,7 +78,8 @@
     "V2 spec sheet: NO. 012 SMART- FINAL SPEC SHEET 2024.03.18 New Max User Weight.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "no-068smart",
@@ -171,7 +172,8 @@
    "notes": [
     "Maximum user height reads \"No limit\" (B23); not shown as a limit. \"No limit\" is not an unlimited capacity."
    ]
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-s0978smart",
@@ -246,7 +248,8 @@
     "V2 spec sheet: Final SF-S0978 SMART SPEC SHEET New Max User Weight updated.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-s0979smart",
@@ -327,7 +330,8 @@
     "V2 spec sheet: SF-S0979 SMART- FINAL SPEC SHEET New Max User Weight.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "p2000smart",
@@ -402,7 +406,8 @@
     "V2 spec sheet: P2000 SMART final SPEC SHEET 09102024 .xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-s023056",
@@ -479,7 +484,8 @@
    "notes": [
     "Maximum user weight (lb) (B19) holds an order-specific remark; not imported."
    ]
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-s020027smart",
@@ -552,7 +558,8 @@
     "V2 spec sheet: SF-S020027 SMART final spec sheet 20240105.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "p2410",
@@ -631,7 +638,8 @@
     "V2 spec sheet: P2410 FINAL SPEC SHEET 20240909.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-s026007",
@@ -726,7 +734,8 @@
     "V2 spec sheet: SF-S026007 final spec sheet 20260608.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-s021054",
@@ -797,7 +806,8 @@
     "V2 spec sheet: Final SF-S02154 SPEC SHEET 08022023 New Max User Weight updated.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-s021055",
@@ -868,7 +878,8 @@
     "V2 spec sheet: SF-S021055 FINAL SPEC SHEET New Max User Weight Updated.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-s026002",
@@ -968,7 +979,8 @@
     "V2 spec sheet: SF-S026002 Final Spec dated 20260715.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-s024072",
@@ -1063,6 +1075,7 @@
     "V2 spec sheet: SF-S024072 Final Spec dated 2026.7.29.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  }
 ]

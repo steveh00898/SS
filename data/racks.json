@@ -48,7 +48,8 @@
     "V2 spec sheet: Spec Sheet of SF-XF9931 - 12.31.2019.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-xf9925",
@@ -111,7 +112,8 @@
     "V2 spec sheet: SF-XF9925 Spec Sheet 2023.06.23 final.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-xf9933",
@@ -166,7 +168,8 @@
    "notes": [
     "The sheet labels B12 as maximum user weight (1000 LBS (455 KGS)); on a rack this figure may describe the total load the frame carries."
    ]
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-xf922011",
@@ -225,7 +228,8 @@
     "V2 spec sheet: Final SPEC SHEET SF-XF922011 20231030 final.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-xf922059",
@@ -286,7 +290,8 @@
     "V2 spec sheet: SF-XF922059 SPEC SHEET 2023.01.12 final.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-xf920020",
@@ -337,7 +342,8 @@
     "V2 spec sheet: SF-XF920020 Spec Sheet 2022.02.08 final.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-xf920021",
@@ -398,7 +404,8 @@
     "V2 spec sheet: SF-XF920021 SPEC SHEET 20241204 final.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-hg92401",
@@ -457,6 +464,7 @@
     "V2 spec sheet: SF-HG92401 final SPEC SHEET 04282024.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  }
 ]

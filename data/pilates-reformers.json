@@ -84,7 +84,8 @@
     "V2 spec sheet: SF-PM20 final spec sheet 20260702.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  },
  {
   "id": "sf-pm10",
@@ -171,6 +172,7 @@
     "V2 spec sheet: SF-PM10 final spec sheet 20260702.xlsx"
    ],
    "notes": []
-  }
+  },
+  "priceSource": "Sunny US Mastersheet V1"
  }
 ]
