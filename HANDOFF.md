@@ -2,6 +2,14 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-06: Codex — publish batch five and Mastersheet prices to Site
+- Changes: synced clean main and published the already-pushed application/data commit `1bdff3d808f0a0fedea9eec1420d9a16518b2923`. No catalog or application source was changed in this follow-up. The insert-only batch-four and batch-five imports and guarded Mastersheet price upgrade run on the Site; current catalog edits remain preserved.
+- Tests: all 30 `tests/*.spec.cjs` passed with installed Chrome, build passed, and 14 standard desktop/phone screenshots were generated.
+- Live verification: `/api/items` returned 490 items: 156 current and 334 Off Sunny web, including 100 batch-four and 114 batch-five records. A batch-five product image returned HTTP 200 with `image/jpeg` and 40,782 bytes on GET. HEAD returned 403, so image verification used GET.
+- Private Site: PUBLIC version 46, saved version `appgprj_6ac574cb8a248191bf83b10b05b0a7df~appgver_a42a9b7cfcec8191b067fbb6f4dbb162`, deployment `appgdep_6aee7dbea0808191be2e80b67024d35f` succeeded. Exact build source SHA `1bdff3d808f0a0fedea9eec1420d9a16518b2923`. Public access policy and environment revision 1 preserved. https://sunny-product-finder.steven-peace.chatgpt.site/?source=off-sunny-web&category=All
+- Claude Artifact: version 29 per prior handoff, unchanged by Codex. Practice data not exported.
+- Remaining issues: 11 identity-deferred models and unchecked practice image masks remain as previously recorded.
+
 ## 2026-11-06: Claude Code — prices from Sunny US Mastersheet V1
 - Changes: applied the B2B TP column to the catalog (owner decision: the file wins). 3 prices changed, 286 Off Sunny web prices filled, 153 already matched; 7 matched models have a blank cell and keep no price. 136 of 582 rows are not in the app and 41 app models are not in the file; both lists are in data/pricing/us-mastersheet-v1-audit.json. NO. 077-S and NO. 077S are separate rows, so the app's NO. 077S took row 151 ($89.99). Worker applies the prices once to the Site database, keeping other edits and deletions.
 - Files: data/*.json; data/off-sunny-web/items.json; data/pricing/us-mastersheet-v1-audit.json; server/worker.js; scripts/apply-mastersheet-prices.py; tests/mastersheet-prices.spec.cjs; HANDOFF.md
