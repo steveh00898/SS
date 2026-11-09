@@ -15,9 +15,14 @@ const assert=require('assert'),fs=require('fs'),{chromium}=require('playwright')
  order('Ellipticals',['brand','upc','color','materials','latex','shippingWeight','productWeight','flywheelWeight','keyDimensions','foldedDimensions','shippingDimensions','seatDimensions','footprint','maxUserWeightLb','maxUserHeight','resistanceType','speedResistanceLevels','magnets','motorized','driveResistanceSystem','crankLength','pedalBothDirections','selfLevelingPedals','footStraps','stride','stepHeight','transportWheels','controlOnHandlebar','meterSize','battery','screenType','screenSize','display','programs','bluetooth','bluetoothApp','ftms','wifi','fan','speakers','usb','heartRate','wirelessHeartRate','deviceHolder','bottleHolder','plugType','powerCord','electrical','watts','amps','energySaver','remoteControl','features','certification']);
  for(const k of ['driveResistanceSystem','speedResistanceLevels','workoutAreaWidthIn','workoutAreaLengthIn'])assert(!keysOf('Treadmills').includes(k),'Treadmills drops the app summary row '+k);
  const unmatched=['sf-e322004','cb110s','no-031-b','sf-bh6996','sf-db01-055','no-066-10'];
- const filled=catalog.filter(i=>i.specDetails);assert.equal(filled.length,150);assert.deepEqual(catalog.filter(i=>!i.specDetails).map(i=>i.id).sort(),[...unmatched].sort());
+ // The six unmatched records later received only the 2026-11-09 requested-field fill (tests/master-spec-fill.spec.cjs).
+ const FILL=['productWeight','shippingWeight','keyDimensions','shippingDimensions','qFactor','flywheelWeight','inseam','stepOnHeight','beltDimensions'],masterOnly=i=>i.specDetails?.notes?.some(n=>n.startsWith('Requested fields filled on 2026-11-09'))&&Object.keys(i.specDetails.values).every(k=>FILL.includes(k));
+ // The V2 checks below look at V2 values only; fields added by the 2026-11-09 fill carry their own evidence.
+ const added=JSON.parse(fs.readFileSync(root+'/data/specifications/master-fill-audit.json','utf8')).filled;
+ const v2View=i=>{const d=JSON.parse(JSON.stringify(i.specDetails));for(const f of added.filter(f=>f.id===i.id)){delete d.values[f.field];delete d.evidence[f.field];}d.sources=d.sources.filter(s=>s.startsWith('V2 spec sheet: '));d.notes=(d.notes||[]).filter(n=>!n.startsWith('Requested fields filled on 2026-11-09'));return d};
+ const filled=catalog.filter(i=>i.specDetails&&!masterOnly(i));assert.equal(filled.length,150);assert.deepEqual(catalog.filter(i=>!i.specDetails||masterOnly(i)).map(i=>i.id).sort(),[...unmatched].sort());
  const banned=/\b(PO#|supplier|created by|e\.g\.|if yes|if no|or others|this should be|check the data|pending|will update|will add)\b|^(flip|n\/?a|na|none|no limit)$|[一-鿿]/i;
- for(const item of filled){const d=item.specDetails,keys=keysOf(item.category),vk=Object.keys(d.values);
+ for(const item of filled){const d=v2View(item),keys=keysOf(item.category),vk=Object.keys(d.values);
   assert(templates[item.category],item.id);assert.equal(d.version,1);assert.equal(d.sources.length,1);assert.match(d.sources[0],/^V2 spec sheet: /);
   assert(vk.length>0,item.id);assert.deepEqual(vk,keys.filter(k=>vk.includes(k)),item.id+' values follow the category template order');assert.deepEqual(Object.keys(d.evidence),vk,item.id+' has evidence for every value');
   const file=d.sources[0].slice('V2 spec sheet: '.length);for(const [k,v] of Object.entries(d.values)){assert.equal(typeof v,'string');assert(v.trim(),item.id+' '+k);assert(!banned.test(v.trim())||k==='features'&&!/PO#|pending|will update|[一-鿿]/i.test(v),item.id+' '+k+': '+v);assert(d.evidence[k].startsWith(file+' / '),item.id+' '+k);assert.match(d.evidence[k],/ \/ [A-Z]+\d+(, [A-Z]+\d+)*$/);}
@@ -92,7 +97,7 @@ const assert=require('assert'),fs=require('fs'),{chromium}=require('playwright')
    for(const [key,value] of Object.entries(comparison))if(value!=null&&keysOf(category).includes(key)&&typeof value==='string')await assertDisplayedSource(key,value);
    if(item.id==='sf-t723030'){assert.equal(await page.locator('#productSpecBody [data-spec-field="runningSurface"] td').textContent(),'53.1 × 20.1 in');assert.match(await page.locator('#productSpecBody [data-spec-field="keyDimensions"] td').textContent(),/63.8(?:\*| × )30.9(?:\*| × )45.7/);}
    const gaps=await page.locator('#productSpecBody td.spec-unavailable').allTextContents();assert(gaps.length>0&&gaps.every(g=>g==='Unavailable'));
-   if(item.specDetails)assert.match(await page.locator('#productSpecBody').innerText(),/V2 spec sheet: /);
+   if(item.specDetails&&!masterOnly(item))assert.match(await page.locator('#productSpecBody').innerText(),/V2 spec sheet: /);
    await page.keyboard.press('Escape');await page.locator('#productSpecDialog').waitFor({state:'hidden'});}}
  assert.deepEqual(errors,[]);await browser.close();sql.close();
  console.log('PASS: V2 Product Spec for 150 of 156 current products follows each category template in order with evidence; unmatched 6 stay empty; one-time backfill fills only empty specDetails and keeps app edits; the dialog shows identical layouts per category with app values winning.');

@@ -27,7 +27,26 @@
       "portfolioCategory": "Compact"
     },
     "photoChecked": true,
-    "priceSource": "Sunny US Mastersheet V1"
+    "priceSource": "Sunny US Mastersheet V1",
+    "specDetails": {
+      "version": 1,
+      "values": {
+        "productWeight": "69.1",
+        "shippingWeight": "76.9 lb",
+        "keyDimensions": "45.1L x 26W x 60.2H"
+      },
+      "sources": [
+        "ISV 4.0"
+      ],
+      "evidence": {
+        "productWeight": "ISV 4.0 / SHF / AO389",
+        "shippingWeight": "ISV 4.0 / SHF / AA389",
+        "keyDimensions": "ISV 4.0 / SHF / AS389"
+      },
+      "notes": [
+        "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
+      ]
+    }
   },
   {
     "id": "sf-e905smart",

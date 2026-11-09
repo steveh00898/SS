@@ -342,7 +342,26 @@
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Weight Benches"
   },
-  "priceSource": "Sunny US Mastersheet V1"
+  "priceSource": "Sunny US Mastersheet V1",
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "productWeight": "35.6",
+    "shippingWeight": "41.9 lb",
+    "keyDimensions": "49.6L x 16.1W x 16.9H"
+   },
+   "sources": [
+    "ISV 4.0"
+   ],
+   "evidence": {
+    "productWeight": "ISV 4.0 / SHF / AO325",
+    "shippingWeight": "ISV 4.0 / SHF / AA325",
+    "keyDimensions": "ISV 4.0 / SHF / AS325"
+   },
+   "notes": [
+    "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
+   ]
+  }
  },
  {
   "id": "sf-bh622045",

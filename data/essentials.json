@@ -216,7 +216,26 @@
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
   },
-  "priceSource": "Sunny US Mastersheet V1"
+  "priceSource": "Sunny US Mastersheet V1",
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "productWeight": "0.02",
+    "shippingWeight": "0.1 lb",
+    "keyDimensions": "3.4L x 3W x 1H"
+   },
+   "sources": [
+    "ISV 4.0"
+   ],
+   "evidence": {
+    "productWeight": "ISV 4.0 / SHF / AO25",
+    "shippingWeight": "ISV 4.0 / SHF / AA25",
+    "keyDimensions": "ISV 4.0 / SHF / AS25"
+   },
+   "notes": [
+    "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
+   ]
+  }
  },
  {
   "id": "sf-ws022063",
@@ -839,7 +858,26 @@
    "dimensionOrder": "Official product measurements; variant ranges retained",
    "portfolioCategory": "Essentials"
   },
-  "priceSource": "Sunny US Mastersheet V1"
+  "priceSource": "Sunny US Mastersheet V1",
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "productWeight": "2.2",
+    "shippingWeight": "2.6 lb",
+    "keyDimensions": "68L x 24W x 0.16H"
+   },
+   "sources": [
+    "ISV 4.0"
+   ],
+   "evidence": {
+    "productWeight": "ISV 4.0 / SHF / AO37",
+    "shippingWeight": "ISV 4.0 / SHF / AA37",
+    "keyDimensions": "ISV 4.0 / SHF / AS37"
+   },
+   "notes": [
+    "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
+   ]
+  }
  },
  {
   "id": "sf-em02-gy",
@@ -935,7 +973,8 @@
     "footprint": "181*122CM 71.3*48INCH",
     "shippingWeight": "2.6KGS/5.7LBS",
     "shippingDimensions": "63.4*66*9.1CM 25*26*3.6INCH",
-    "features": "1SET (6PCS) for 1 carton"
+    "features": "1SET (6PCS) for 1 carton",
+    "keyDimensions": "24.4L x 24.4W x 0.5H"
    },
    "evidence": {
     "brand": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B3",
@@ -946,12 +985,16 @@
     "footprint": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B16",
     "shippingWeight": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B9",
     "shippingDimensions": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B14",
-    "features": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B42"
+    "features": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B42",
+    "keyDimensions": "ISV 4.0 / SHF / AS478"
    },
    "sources": [
-    "V2 spec sheet: SF-EM01-BK Final Spec Sheet 06052024.xlsx"
+    "V2 spec sheet: SF-EM01-BK Final Spec Sheet 06052024.xlsx",
+    "ISV 4.0"
    ],
-   "notes": []
+   "notes": [
+    "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -1433,7 +1476,9 @@
     "keyDimensions": "S: (L: 7.3\" x W: 4\" x H: 0.8\" /INCHES",
     "upc": "810153802341",
     "latex": "NO",
-    "features": "Protects hands from abrasions, calluses, and fatigue Improves lifting control and grip confidence Provides wrist support to help reduce strain Enhances comfort during extended training sessions Ideal for weightlifting, strength training, CrossFit, cycling, and gym workouts"
+    "features": "Protects hands from abrasions, calluses, and fatigue Improves lifting control and grip confidence Provides wrist support to help reduce strain Enhances comfort during extended training sessions Ideal for weightlifting, strength training, CrossFit, cycling, and gym workouts",
+    "productWeight": "0.18",
+    "shippingWeight": "0.23 lb"
    },
    "evidence": {
     "brand": "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-S / B3",
@@ -1442,12 +1487,17 @@
     "keyDimensions": "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-S / B14",
     "upc": "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-S / B6",
     "latex": "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-S / B10",
-    "features": "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-S / B16"
+    "features": "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-S / B16",
+    "productWeight": "ISV 4.0 / SHF / AO502",
+    "shippingWeight": "ISV 4.0 / SHF / AA502"
    },
    "sources": [
-    "V2 spec sheet: SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx"
+    "V2 spec sheet: SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx",
+    "ISV 4.0"
    ],
-   "notes": []
+   "notes": [
+    "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  }

@@ -22,7 +22,26 @@
     ]
    ]
   },
-  "priceSource": "Sunny US Mastersheet V1"
+  "priceSource": "Sunny US Mastersheet V1",
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "productWeight": "55",
+    "shippingWeight": "59 lb",
+    "keyDimensions": "19.1L x 8.5W x 8H"
+   },
+   "sources": [
+    "ISV 4.0"
+   ],
+   "evidence": {
+    "productWeight": "ISV 4.0 / SHF / AO341",
+    "shippingWeight": "ISV 4.0 / SHF / AA341",
+    "keyDimensions": "ISV 4.0 / SHF / AS341"
+   },
+   "notes": [
+    "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
+   ]
+  }
  },
  {
   "id": "sf-db02-5",
@@ -236,19 +255,24 @@
     "materials": "Iron",
     "color": "pink",
     "productWeight": "4LBS",
-    "shippingWeight": "5LBS"
+    "shippingWeight": "5LBS",
+    "keyDimensions": "5.5L x 2.5W x 2.5H"
    },
    "evidence": {
     "brand": "NO.021-2-PAIR SPEC.xlsx / Specification / B1",
     "materials": "NO.021-2-PAIR SPEC.xlsx / Specification / B13",
     "color": "NO.021-2-PAIR SPEC.xlsx / Specification / B15",
     "productWeight": "NO.021-2-PAIR SPEC.xlsx / Specification / B4",
-    "shippingWeight": "NO.021-2-PAIR SPEC.xlsx / Specification / B5"
+    "shippingWeight": "NO.021-2-PAIR SPEC.xlsx / Specification / B5",
+    "keyDimensions": "ISV 4.0 / SHF / AS32"
    },
    "sources": [
-    "V2 spec sheet: NO.021-2-PAIR SPEC.xlsx"
+    "V2 spec sheet: NO.021-2-PAIR SPEC.xlsx",
+    "ISV 4.0"
    ],
-   "notes": []
+   "notes": [
+    "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -443,7 +467,26 @@
     ]
    ]
   },
-  "priceSource": "Sunny US Mastersheet V1"
+  "priceSource": "Sunny US Mastersheet V1",
+  "specDetails": {
+   "version": 1,
+   "values": {
+    "productWeight": "10",
+    "shippingWeight": "11 lb",
+    "keyDimensions": "6.5L x 3.5W x 7H"
+   },
+   "sources": [
+    "ISV 4.0"
+   ],
+   "evidence": {
+    "productWeight": "ISV 4.0 / SHF / AO50",
+    "shippingWeight": "ISV 4.0 / SHF / AA50",
+    "keyDimensions": "ISV 4.0 / SHF / AS50"
+   },
+   "notes": [
+    "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
+   ]
+  }
  },
  {
   "id": "sf-wa01-1",

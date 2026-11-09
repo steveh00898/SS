@@ -609,6 +609,12 @@ body.spec-view table.ptable{min-width:0}
   const catalogLoadStartedAt=0;let catalogLoadReported=false;
   const $ = (s) => document.querySelector(s);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  // Customer-facing wording: "stepless" resistance reads as "micro-adjustable". Only the displayed text in the
+  // Product Spec and ISV dialogs changes; stored source text stays as written.
+  const sameCase = (word, text) => word === word.toUpperCase() ? text.toUpperCase() : word[0] === word[0].toUpperCase() ? text[0].toUpperCase() + text.slice(1) : text;
+  const plainWording = (s) => String(s).replace(/\bstepless(\s+)(micro[- ]?adjust)/gi, (m, sp, rest) => sameCase(m, rest)).replace(/\bstepless\b/gi, (m) => sameCase(m, "micro-adjustable"));
+  const rewordTree = (root) => { const walk = document.createTreeWalker(root, NodeFilter.SHOW_TEXT); for (let n = walk.nextNode(); n; n = walk.nextNode()) if (/stepless/i.test(n.nodeValue)) n.nodeValue = plainWording(n.nodeValue); };
+  for (const id of ["productSpecBody", "isvBody"]) { const el = document.getElementById(id); if (el) new MutationObserver(() => rewordTree(el)).observe(el, { childList: true, subtree: true, characterData: true }); }
   const money = (n) => (typeof n === "number" && isFinite(n)) ? "$" + n.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : "—";
   const norm = (s) => String(s || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
   const ICON_COPY = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>';

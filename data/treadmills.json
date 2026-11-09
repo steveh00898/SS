@@ -674,7 +674,7 @@
         "foldable": "Yes",
         "storage": "Vertical",
         "deckType": "double",
-        "stepOnHeight": "see the right table",
+        "stepOnHeight": "160 mm/6.3 INCHES",
         "rollerSize": "Front roller:φ42 mm/1.65 inches; Rear roller:φ38 mm/1.5 INCHES",
         "handlebarHeight": "1050 mm/41.3 INCHES",
         "screenSize": "3 screens, left and right screen size: 48*22 mm/1.9*0.9 INCHES; middle screen size: 78*22 mm/3.1*0.9 INCHES",
@@ -730,7 +730,7 @@
         "foldable": "SF-T724012 final spec sheet 04142025.xlsx / Specs / B24",
         "storage": "SF-T724012 final spec sheet 04142025.xlsx / Specs / B25",
         "deckType": "SF-T724012 final spec sheet 04142025.xlsx / Specs / B32",
-        "stepOnHeight": "SF-T724012 final spec sheet 04142025.xlsx / Specs / B33",
+        "stepOnHeight": "SF-T724012 draft spec sheet 11112024.xlsx / Specs / B33",
         "rollerSize": "SF-T724012 final spec sheet 04142025.xlsx / Specs / B39",
         "handlebarHeight": "SF-T724012 final spec sheet 04142025.xlsx / Specs / B23",
         "screenSize": "SF-T724012 final spec sheet 04142025.xlsx / Specs / B53",
@@ -753,9 +753,12 @@
         "features": "SF-T724012 final spec sheet 04142025.xlsx / Specs / B83"
       },
       "sources": [
-        "V2 spec sheet: SF-T724012 final spec sheet 04142025.xlsx"
+        "V2 spec sheet: SF-T724012 final spec sheet 04142025.xlsx",
+        "SF-T724012 draft spec sheet 11112024.xlsx"
       ],
-      "notes": []
+      "notes": [
+        "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
+      ]
     },
     "priceSource": "Sunny US Mastersheet V1"
   },

@@ -1,0 +1,5948 @@
+{
+ "source": "Master SPEC SHEET",
+ "filesRead": 1018,
+ "unreadable": [
+  "~$FA-7966 Specification Sheet 09272019.xlsx",
+  "~$FA-7967 Specification Sheet 09272019.xlsx"
+ ],
+ "fields": {
+  "Treadmills": [
+   "productWeight",
+   "shippingWeight",
+   "keyDimensions",
+   "stepOnHeight",
+   "beltDimensions",
+   "shippingDimensions"
+  ],
+  "Indoor Bikes": [
+   "productWeight",
+   "shippingWeight",
+   "keyDimensions",
+   "shippingDimensions",
+   "qFactor",
+   "flywheelWeight",
+   "inseam"
+  ]
+ },
+ "common": [
+  "productWeight",
+  "shippingWeight",
+  "keyDimensions"
+ ],
+ "filled": [
+  {
+   "id": "sf-e322004",
+   "sku": "SF-E322004",
+   "field": "productWeight",
+   "value": "69.1",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO389"
+  },
+  {
+   "id": "sf-e322004",
+   "sku": "SF-E322004",
+   "field": "shippingWeight",
+   "value": "76.9 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA389"
+  },
+  {
+   "id": "sf-e322004",
+   "sku": "SF-E322004",
+   "field": "keyDimensions",
+   "value": "45.1L x 26W x 60.2H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS389"
+  },
+  {
+   "id": "cb110s",
+   "sku": "CB110S",
+   "field": "productWeight",
+   "value": "0.02",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO25"
+  },
+  {
+   "id": "cb110s",
+   "sku": "CB110S",
+   "field": "shippingWeight",
+   "value": "0.1 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA25"
+  },
+  {
+   "id": "cb110s",
+   "sku": "CB110S",
+   "field": "keyDimensions",
+   "value": "3.4L x 3W x 1H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS25"
+  },
+  {
+   "id": "no-031-b",
+   "sku": "NO. 031-B",
+   "field": "productWeight",
+   "value": "2.2",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO37"
+  },
+  {
+   "id": "no-031-b",
+   "sku": "NO. 031-B",
+   "field": "shippingWeight",
+   "value": "2.6 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA37"
+  },
+  {
+   "id": "no-031-b",
+   "sku": "NO. 031-B",
+   "field": "keyDimensions",
+   "value": "68L x 24W x 0.16H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS37"
+  },
+  {
+   "id": "sf-em01-bk",
+   "sku": "SF-EM01-BK",
+   "field": "keyDimensions",
+   "value": "24.4L x 24.4W x 0.5H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS478"
+  },
+  {
+   "id": "sf-gl02-s",
+   "sku": "SF-GL02-S",
+   "field": "productWeight",
+   "value": "0.18",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO502"
+  },
+  {
+   "id": "sf-gl02-s",
+   "sku": "SF-GL02-S",
+   "field": "shippingWeight",
+   "value": "0.23 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA502"
+  },
+  {
+   "id": "sf-t724012",
+   "sku": "SF-T724012",
+   "field": "stepOnHeight",
+   "value": "160 mm/6.3 INCHES",
+   "source": "spec sheet",
+   "evidence": "SF-T724012 draft spec sheet 11112024.xlsx / Specs / B33"
+  },
+  {
+   "id": "sf-bh6996",
+   "sku": "SF-BH6996",
+   "field": "productWeight",
+   "value": "35.6",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO325"
+  },
+  {
+   "id": "sf-bh6996",
+   "sku": "SF-BH6996",
+   "field": "shippingWeight",
+   "value": "41.9 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA325"
+  },
+  {
+   "id": "sf-bh6996",
+   "sku": "SF-BH6996",
+   "field": "keyDimensions",
+   "value": "49.6L x 16.1W x 16.9H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS325"
+  },
+  {
+   "id": "sf-db01-055",
+   "sku": "SF-DB01-055",
+   "field": "productWeight",
+   "value": "55",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO341"
+  },
+  {
+   "id": "sf-db01-055",
+   "sku": "SF-DB01-055",
+   "field": "shippingWeight",
+   "value": "59 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA341"
+  },
+  {
+   "id": "sf-db01-055",
+   "sku": "SF-DB01-055",
+   "field": "keyDimensions",
+   "value": "19.1L x 8.5W x 8H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS341"
+  },
+  {
+   "id": "no-021-2-pair",
+   "sku": "NO. 021-2-PAIR",
+   "field": "keyDimensions",
+   "value": "5.5L x 2.5W x 2.5H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS32"
+  },
+  {
+   "id": "no-066-10",
+   "sku": "NO. 066-10",
+   "field": "productWeight",
+   "value": "10",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO50"
+  },
+  {
+   "id": "no-066-10",
+   "sku": "NO. 066-10",
+   "field": "shippingWeight",
+   "value": "11 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA50"
+  },
+  {
+   "id": "no-066-10",
+   "sku": "NO. 066-10",
+   "field": "keyDimensions",
+   "value": "6.5L x 3.5W x 7H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS50"
+  },
+  {
+   "id": "off-sunny-7150",
+   "sku": "7150",
+   "field": "qFactor",
+   "value": "186",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DB15"
+  },
+  {
+   "id": "off-sunny-8730",
+   "sku": "8730",
+   "field": "stepOnHeight",
+   "value": "Min 7.48 in / Max 9.46 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / ES21"
+  },
+  {
+   "id": "off-sunny-8730",
+   "sku": "8730",
+   "field": "beltDimensions",
+   "value": "51L x 19W in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / EG21"
+  },
+  {
+   "id": "off-sunny-8730g",
+   "sku": "8730G",
+   "field": "stepOnHeight",
+   "value": "3.94 In",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / ES22"
+  },
+  {
+   "id": "off-sunny-8730g",
+   "sku": "8730G",
+   "field": "beltDimensions",
+   "value": "49L x 17.75W in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / EG22"
+  },
+  {
+   "id": "off-sunny-sf-b2715",
+   "sku": "SF-B2715",
+   "field": "qFactor",
+   "value": "216 mm",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DB276"
+  },
+  {
+   "id": "off-sunny-sf-t7515",
+   "sku": "SF-T7515",
+   "field": "stepOnHeight",
+   "value": "167 MM/6.6 INCHES, 174 MM/6.9 INCHES, 179 MM/7.1 INCHES, 187 MM/7.4 INCHES, 195 MM/7.7 INCHES, 203 MM/8 INCHES, 207 MM/8.2 INCHES, 221 MM/8.7 INCHES, 232 MM/9.1 INCHES, 243 MM/9.6 INCHES, 256 MM/10.1 INCHES, 268 MM/10.6 INCHES, 279 MM/11 INCHES",
+   "source": "spec sheet",
+   "evidence": "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / B34"
+  },
+  {
+   "id": "off-sunny-sf-t7515smart",
+   "sku": "SF-T7515SMART",
+   "field": "stepOnHeight",
+   "value": "167 MM/6.6 INCHES, 174 MM/6.9 INCHES, 179 MM/7.1 INCHES, 187 MM/7.4 INCHES, 195 MM/7.7 INCHES, 203 MM/8 INCHES, 207 MM/8.2 INCHES, 221 MM/8.7 INCHES, 232 MM/9.1 INCHES, 243 MM/9.6 INCHES, 256 MM/10.1 INCHES, 268 MM/10.6 INCHES, 279 MM/11 INCHES",
+   "source": "spec sheet",
+   "evidence": "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / B34"
+  },
+  {
+   "id": "off-sunny-no-111",
+   "sku": "NO. 111",
+   "field": "shippingWeight",
+   "value": "5.3 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA103"
+  },
+  {
+   "id": "off-sunny-no-112",
+   "sku": "NO. 112",
+   "field": "shippingWeight",
+   "value": "0.91 lbs",
+   "source": "spec sheet",
+   "evidence": "Accessories Spec - NO. 112 - 5.15.26.xlsx / Specs / B23"
+  },
+  {
+   "id": "off-sunny-no-113",
+   "sku": "NO. 113",
+   "field": "shippingWeight",
+   "value": "0.32 lbs",
+   "source": "spec sheet",
+   "evidence": "Accessories Spec - NO. 113 - 4.30.26.xlsx / Specs / B23"
+  },
+  {
+   "id": "off-sunny-no-021-10-pair",
+   "sku": "NO.021-10-PAIR",
+   "field": "keyDimensions",
+   "value": "8L x 4W x 4H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS31"
+  },
+  {
+   "id": "off-sunny-no-021-5-pair",
+   "sku": "NO.021-5-PAIR",
+   "field": "keyDimensions",
+   "value": "7L x 3W x 3H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS33"
+  },
+  {
+   "id": "off-sunny-no-021-8-pair",
+   "sku": "NO.021-8-PAIR",
+   "field": "keyDimensions",
+   "value": "8L x 3.5W x 3.5H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS34"
+  },
+  {
+   "id": "off-sunny-sf-a025829",
+   "sku": "SF-A025829",
+   "field": "shippingWeight",
+   "value": "13.2 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA174"
+  },
+  {
+   "id": "off-sunny-sf-b123033",
+   "sku": "SF-B123033",
+   "field": "inseam",
+   "value": "Min 27.6 in/ Max 37.6 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DA218"
+  },
+  {
+   "id": "off-sunny-sf-b1709",
+   "sku": "SF-B1709",
+   "field": "qFactor",
+   "value": "203mm",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DB235"
+  },
+  {
+   "id": "off-sunny-sf-b1714",
+   "sku": "SF-B1714",
+   "field": "qFactor",
+   "value": "216mm",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DB238"
+  },
+  {
+   "id": "off-sunny-sf-b1879",
+   "sku": "SF-B1879",
+   "field": "qFactor",
+   "value": "203mm",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DB248"
+  },
+  {
+   "id": "off-sunny-sf-b1913",
+   "sku": "SF-B1913",
+   "field": "qFactor",
+   "value": "184mm",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DB249"
+  },
+  {
+   "id": "off-sunny-sf-b224027",
+   "sku": "SF-B224027",
+   "field": "inseam",
+   "value": "MIN: 672mm/26.4inches MAX: 975mm/38.3inches",
+   "source": "spec sheet",
+   "evidence": "SF-B224027 Bike  draft Spec dated 9.2.2025.xlsx / Specs / B43"
+  },
+  {
+   "id": "off-sunny-sf-b901-smart",
+   "sku": "SF-B901 SMART",
+   "field": "inseam",
+   "value": "Min 29.1 in/Max 42.1 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DA289"
+  },
+  {
+   "id": "off-sunny-sf-bl01-s",
+   "sku": "SF-BL01-S",
+   "field": "productWeight",
+   "value": "1.1",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO326"
+  },
+  {
+   "id": "off-sunny-sf-bl01-s",
+   "sku": "SF-BL01-S",
+   "field": "shippingWeight",
+   "value": "1.5 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA326"
+  },
+  {
+   "id": "off-sunny-sf-bl01-m",
+   "sku": "SF-BL01-M",
+   "field": "productWeight",
+   "value": "1.2",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO327"
+  },
+  {
+   "id": "off-sunny-sf-bl01-m",
+   "sku": "SF-BL01-M",
+   "field": "shippingWeight",
+   "value": "1.6 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA327"
+  },
+  {
+   "id": "off-sunny-sf-bl01-l",
+   "sku": "SF-BL01-L",
+   "field": "productWeight",
+   "value": "1.4",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO328"
+  },
+  {
+   "id": "off-sunny-sf-bl01-l",
+   "sku": "SF-BL01-L",
+   "field": "shippingWeight",
+   "value": "1.8 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA328"
+  },
+  {
+   "id": "off-sunny-sf-bl01-xl",
+   "sku": "SF-BL01-XL",
+   "field": "productWeight",
+   "value": "1.4",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO329"
+  },
+  {
+   "id": "off-sunny-sf-bl01-xl",
+   "sku": "SF-BL01-XL",
+   "field": "shippingWeight",
+   "value": "1.9 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA329"
+  },
+  {
+   "id": "off-sunny-sf-bl01-xxl",
+   "sku": "SF-BL01-XXL",
+   "field": "productWeight",
+   "value": "1.5",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO330"
+  },
+  {
+   "id": "off-sunny-sf-bl01-xxl",
+   "sku": "SF-BL01-XXL",
+   "field": "shippingWeight",
+   "value": "1.9 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA330"
+  },
+  {
+   "id": "off-sunny-sf-bl02-s",
+   "sku": "SF-BL02-S",
+   "field": "productWeight",
+   "value": "0.9",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO331"
+  },
+  {
+   "id": "off-sunny-sf-bl02-s",
+   "sku": "SF-BL02-S",
+   "field": "shippingWeight",
+   "value": "1.3 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA331"
+  },
+  {
+   "id": "off-sunny-sf-bl02-m",
+   "sku": "SF-BL02-M",
+   "field": "productWeight",
+   "value": "1.1",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO332"
+  },
+  {
+   "id": "off-sunny-sf-bl02-m",
+   "sku": "SF-BL02-M",
+   "field": "shippingWeight",
+   "value": "1.5 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA332"
+  },
+  {
+   "id": "off-sunny-sf-bl02-l",
+   "sku": "SF-BL02-L",
+   "field": "productWeight",
+   "value": "1.2",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO333"
+  },
+  {
+   "id": "off-sunny-sf-bl02-l",
+   "sku": "SF-BL02-L",
+   "field": "shippingWeight",
+   "value": "1.6 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA333"
+  },
+  {
+   "id": "off-sunny-sf-bl02-xl",
+   "sku": "SF-BL02-XL",
+   "field": "productWeight",
+   "value": "1.3",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO334"
+  },
+  {
+   "id": "off-sunny-sf-bl02-xl",
+   "sku": "SF-BL02-XL",
+   "field": "shippingWeight",
+   "value": "1.7 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA334"
+  },
+  {
+   "id": "off-sunny-sf-bl02-xxl",
+   "sku": "SF-BL02-XXL",
+   "field": "productWeight",
+   "value": "1.4",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO335"
+  },
+  {
+   "id": "off-sunny-sf-bl02-xxl",
+   "sku": "SF-BL02-XXL",
+   "field": "shippingWeight",
+   "value": "1.8 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA335"
+  },
+  {
+   "id": "off-sunny-sf-bl03-s",
+   "sku": "SF-BL03-S",
+   "field": "productWeight",
+   "value": "0.74",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO336"
+  },
+  {
+   "id": "off-sunny-sf-bl03-s",
+   "sku": "SF-BL03-S",
+   "field": "shippingWeight",
+   "value": "0.98 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA336"
+  },
+  {
+   "id": "off-sunny-sf-bl03-m",
+   "sku": "SF-BL03-M",
+   "field": "productWeight",
+   "value": "0.82",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO337"
+  },
+  {
+   "id": "off-sunny-sf-bl03-m",
+   "sku": "SF-BL03-M",
+   "field": "shippingWeight",
+   "value": "1.1 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA337"
+  },
+  {
+   "id": "off-sunny-sf-bl03-l",
+   "sku": "SF-BL03-L",
+   "field": "productWeight",
+   "value": "0.86",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO338"
+  },
+  {
+   "id": "off-sunny-sf-bl03-l",
+   "sku": "SF-BL03-L",
+   "field": "shippingWeight",
+   "value": "1.2 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA338"
+  },
+  {
+   "id": "off-sunny-sf-bl03-xl",
+   "sku": "SF-BL03-XL",
+   "field": "productWeight",
+   "value": "0.97",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO339"
+  },
+  {
+   "id": "off-sunny-sf-bl03-xl",
+   "sku": "SF-BL03-XL",
+   "field": "shippingWeight",
+   "value": "1.3 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA339"
+  },
+  {
+   "id": "off-sunny-sf-bl03-xxl",
+   "sku": "SF-BL03-XXL",
+   "field": "productWeight",
+   "value": "1.1",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO340"
+  },
+  {
+   "id": "off-sunny-sf-bl03-xxl",
+   "sku": "SF-BL03-XXL",
+   "field": "shippingWeight",
+   "value": "1.4 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA340"
+  },
+  {
+   "id": "off-sunny-sf-gl01-s",
+   "sku": "SF-GL01-S",
+   "field": "productWeight",
+   "value": "0.09",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO498"
+  },
+  {
+   "id": "off-sunny-sf-gl01-s",
+   "sku": "SF-GL01-S",
+   "field": "shippingWeight",
+   "value": "0.13 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA498"
+  },
+  {
+   "id": "off-sunny-sf-gl01-m",
+   "sku": "SF-GL01-M",
+   "field": "productWeight",
+   "value": "0.09",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO499"
+  },
+  {
+   "id": "off-sunny-sf-gl01-m",
+   "sku": "SF-GL01-M",
+   "field": "shippingWeight",
+   "value": "0.13 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA499"
+  },
+  {
+   "id": "off-sunny-sf-gl01-l",
+   "sku": "SF-GL01-L",
+   "field": "productWeight",
+   "value": "0.1",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO500"
+  },
+  {
+   "id": "off-sunny-sf-gl01-l",
+   "sku": "SF-GL01-L",
+   "field": "shippingWeight",
+   "value": "0.14 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA500"
+  },
+  {
+   "id": "off-sunny-sf-gl01-xl",
+   "sku": "SF-GL01-XL",
+   "field": "productWeight",
+   "value": "0.1",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO501"
+  },
+  {
+   "id": "off-sunny-sf-gl01-xl",
+   "sku": "SF-GL01-XL",
+   "field": "shippingWeight",
+   "value": "0.15 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA501"
+  },
+  {
+   "id": "off-sunny-sf-rb421004",
+   "sku": "SF-RB421004",
+   "field": "inseam",
+   "value": "Min 28.2 in/Max 35.6 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DA538"
+  },
+  {
+   "id": "off-sunny-sf-rb423034",
+   "sku": "SF-RB423034",
+   "field": "inseam",
+   "value": "Min 31.1in/ Max 39.4 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DA541"
+  },
+  {
+   "id": "off-sunny-sf-rb424002",
+   "sku": "SF-RB424002",
+   "field": "inseam",
+   "value": "28.7 - 36.6 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DA542"
+  },
+  {
+   "id": "off-sunny-sf-t724043",
+   "sku": "SF-T724043",
+   "field": "stepOnHeight",
+   "value": "112mm",
+   "source": "spec sheet",
+   "evidence": "SF-T724043 Treadmill draft Spec 20250731.xlsx / Specs / B34"
+  },
+  {
+   "id": "off-sunny-sf-t724811",
+   "sku": "SF-T724811",
+   "field": "stepOnHeight",
+   "value": "165 mm/6.5 INCHES",
+   "source": "spec sheet",
+   "evidence": "SF-T724811 final spec sheet 05222025.xlsx / Specs / B33"
+  },
+  {
+   "id": "off-sunny-sf-t724943",
+   "sku": "SF-T724943",
+   "field": "stepOnHeight",
+   "value": "158, 170, 179, 187, 194, 203, 209, 216, 223, 229, 234, 239, 246mm",
+   "source": "spec sheet",
+   "evidence": "SF-T724943 Treadmill final Spec 20250820.xlsx / Specs / B34"
+  },
+  {
+   "id": "off-sunny-sf-t724964",
+   "sku": "SF-T724964",
+   "field": "stepOnHeight",
+   "value": "70mm/2.8inches",
+   "source": "spec sheet",
+   "evidence": "SF-T724964 final Treadmill Spec dated 20250806.xlsx / Specs / B34"
+  },
+  {
+   "id": "off-sunny-sf-t724965",
+   "sku": "SF-T724965",
+   "field": "stepOnHeight",
+   "value": "67mm/2.6inches",
+   "source": "spec sheet",
+   "evidence": "SF-T724965 Treadmill final Spec dated 20250805 .xlsx / Specs / B34"
+  },
+  {
+   "id": "off-sunny-sf-a023001",
+   "sku": "SF-A023001",
+   "field": "productWeight",
+   "value": "58.4",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO166"
+  },
+  {
+   "id": "off-sunny-sf-a023001",
+   "sku": "SF-A023001",
+   "field": "shippingWeight",
+   "value": "66.1 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA166"
+  },
+  {
+   "id": "off-sunny-sf-a023001",
+   "sku": "SF-A023001",
+   "field": "keyDimensions",
+   "value": "47.2L x 23.9W x 47.2H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS166"
+  },
+  {
+   "id": "off-sunny-sf-t1407m",
+   "sku": "SF-T1407M",
+   "field": "stepOnHeight",
+   "value": "8.82 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / ES689"
+  },
+  {
+   "id": "off-sunny-sf-t1407m",
+   "sku": "SF-T1407M",
+   "field": "beltDimensions",
+   "value": "42L x 13W in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / EG689"
+  },
+  {
+   "id": "off-sunny-sf-t725079",
+   "sku": "SF-T725079",
+   "field": "stepOnHeight",
+   "value": "70mm/2.8inches",
+   "source": "spec sheet",
+   "evidence": "SF-T725079 Treadmill draft Spec dated 20251231.xlsx / Specs / B34"
+  },
+  {
+   "id": "off-sunny-sf-t725080",
+   "sku": "SF-T725080",
+   "field": "stepOnHeight",
+   "value": "67mm/2.6inches",
+   "source": "spec sheet",
+   "evidence": "SF-T725080 Treadmill draft Spec dated 20260602.xlsx / Specs / B34"
+  },
+  {
+   "id": "off-sunny-sf-t725880",
+   "sku": "SF-T725880",
+   "field": "stepOnHeight",
+   "value": "67mm/2.6inches",
+   "source": "spec sheet",
+   "evidence": "SF-T725880 Treadmill Final Spec dated 20260810.xlsx / Specs / B34"
+  },
+  {
+   "id": "off-sunny-sf-x7140",
+   "sku": "SF-X7140",
+   "field": "stepOnHeight",
+   "value": "min:210mm8.3inches; max: 280mm/11inches",
+   "source": "spec sheet",
+   "evidence": "SF-X7140 Final Spec sheet 20261013.xlsx / Specs / B34"
+  },
+  {
+   "id": "off-sunny-sf-t722901",
+   "sku": "SF-T722901",
+   "field": "keyDimensions",
+   "value": "62.2L x 26.8W x 47.2H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS708"
+  },
+  {
+   "id": "off-sunny-sf-t722901",
+   "sku": "SF-T722901",
+   "field": "stepOnHeight",
+   "value": "6.93 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / ES708"
+  },
+  {
+   "id": "off-sunny-sf-t722901",
+   "sku": "SF-T722901",
+   "field": "beltDimensions",
+   "value": "49L x 16W in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / EG708"
+  },
+  {
+   "id": "off-sunny-sf-t722901",
+   "sku": "SF-T722901",
+   "field": "shippingDimensions",
+   "value": "66.5L x 28.1W x 11.4H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AG708"
+  },
+  {
+   "id": "off-sunny-no-077-s",
+   "sku": "NO. 077-S",
+   "field": "productWeight",
+   "value": "12.4 kgs / 27.3 lbs",
+   "source": "spec sheet",
+   "evidence": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B15"
+  },
+  {
+   "id": "off-sunny-no-077-s",
+   "sku": "NO. 077-S",
+   "field": "shippingWeight",
+   "value": "14.2kgs / 31.3lbs",
+   "source": "spec sheet",
+   "evidence": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B14"
+  },
+  {
+   "id": "off-sunny-no-077-s",
+   "sku": "NO. 077-S",
+   "field": "keyDimensions",
+   "value": "1150*490*1270 mm / 45.3*19.3*50 inches",
+   "source": "spec sheet",
+   "evidence": "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B17"
+  },
+  {
+   "id": "off-sunny-sf-rw520084s",
+   "sku": "SF-RW520084S",
+   "field": "productWeight",
+   "value": "27.4 KG/60.9 LBS",
+   "source": "spec sheet",
+   "evidence": "SF-RW520084S Spec.sheet 2023-8-2.xlsx / Sheet1 / B7"
+  },
+  {
+   "id": "off-sunny-sf-rw520084s",
+   "sku": "SF-RW520084S",
+   "field": "shippingWeight",
+   "value": "31.9 KG/70.8 LBS",
+   "source": "spec sheet",
+   "evidence": "SF-RW520084S Spec.sheet 2023-8-2.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-rw520084s",
+   "sku": "SF-RW520084S",
+   "field": "keyDimensions",
+   "value": "2080*480*600MM 89*18.9*23.6 INCH",
+   "source": "spec sheet",
+   "evidence": "SF-RW520084S Spec.sheet 2023-8-2.xlsx / Sheet1 / B9"
+  },
+  {
+   "id": "off-sunny-8570",
+   "sku": "8570",
+   "field": "productWeight",
+   "value": "132 lb",
+   "source": "spec sheet",
+   "evidence": "8570 - Specification.xlsx / Sheet1 / B4"
+  },
+  {
+   "id": "off-sunny-8570",
+   "sku": "8570",
+   "field": "shippingWeight",
+   "value": "150 + 13.2 lb",
+   "source": "spec sheet",
+   "evidence": "8570 - Specification.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-8570",
+   "sku": "8570",
+   "field": "keyDimensions",
+   "value": "98\" x 21\" x 43\"",
+   "source": "spec sheet",
+   "evidence": "8570 - Specification.xlsx / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-8580",
+   "sku": "8580",
+   "field": "productWeight",
+   "value": "119 lb",
+   "source": "spec sheet",
+   "evidence": "8580 - Specification.xlsx / Sheet1 / B4"
+  },
+  {
+   "id": "off-sunny-8580",
+   "sku": "8580",
+   "field": "shippingWeight",
+   "value": "137 + 13.2 lbs",
+   "source": "spec sheet",
+   "evidence": "8580 - Specification.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-8580",
+   "sku": "8580",
+   "field": "keyDimensions",
+   "value": "105\" x 21\" x 48\"",
+   "source": "spec sheet",
+   "evidence": "8580 - Specification.xlsx / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-no-031-bk",
+   "sku": "NO. 031-BK",
+   "field": "productWeight",
+   "value": "1.0KG/2.2lbs",
+   "source": "spec sheet",
+   "evidence": "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-BK / B10"
+  },
+  {
+   "id": "off-sunny-no-031-bk",
+   "sku": "NO. 031-BK",
+   "field": "shippingWeight",
+   "value": "1.2KG/2.6lbs",
+   "source": "spec sheet",
+   "evidence": "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-BK / B9"
+  },
+  {
+   "id": "off-sunny-no-031-bk",
+   "sku": "NO. 031-BK",
+   "field": "keyDimensions",
+   "value": "173*61*4cm/68*24*1.57inches",
+   "source": "spec sheet",
+   "evidence": "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-BK / B12"
+  },
+  {
+   "id": "off-sunny-no-031-gr",
+   "sku": "NO. 031-GR",
+   "field": "productWeight",
+   "value": "1.0KG/2.2lbs",
+   "source": "spec sheet",
+   "evidence": "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-GR / B10"
+  },
+  {
+   "id": "off-sunny-no-031-gr",
+   "sku": "NO. 031-GR",
+   "field": "shippingWeight",
+   "value": "1.2KG/2.6lbs",
+   "source": "spec sheet",
+   "evidence": "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-GR / B9"
+  },
+  {
+   "id": "off-sunny-no-031-gr",
+   "sku": "NO. 031-GR",
+   "field": "keyDimensions",
+   "value": "173*61*4cm/68*24*1.57inches",
+   "source": "spec sheet",
+   "evidence": "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-GR / B12"
+  },
+  {
+   "id": "off-sunny-no-031-gy",
+   "sku": "NO. 031-GY",
+   "field": "productWeight",
+   "value": "1.0KG/2.2lbs",
+   "source": "spec sheet",
+   "evidence": "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-GY / B10"
+  },
+  {
+   "id": "off-sunny-no-031-gy",
+   "sku": "NO. 031-GY",
+   "field": "shippingWeight",
+   "value": "1.2KG/2.6lbs",
+   "source": "spec sheet",
+   "evidence": "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-GY / B9"
+  },
+  {
+   "id": "off-sunny-no-031-gy",
+   "sku": "NO. 031-GY",
+   "field": "keyDimensions",
+   "value": "173*61*4cm/68*24*1.57inches",
+   "source": "spec sheet",
+   "evidence": "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-GY / B12"
+  },
+  {
+   "id": "off-sunny-no-031-p",
+   "sku": "NO. 031-P",
+   "field": "productWeight",
+   "value": "2.2",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO41"
+  },
+  {
+   "id": "off-sunny-no-031-p",
+   "sku": "NO. 031-P",
+   "field": "shippingWeight",
+   "value": "2.6 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA41"
+  },
+  {
+   "id": "off-sunny-no-031-p",
+   "sku": "NO. 031-P",
+   "field": "keyDimensions",
+   "value": "68L x 24W x 0.16H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS41"
+  },
+  {
+   "id": "off-sunny-no-031-pk",
+   "sku": "NO. 031-PK",
+   "field": "productWeight",
+   "value": "1.0KG/2.2lbs",
+   "source": "spec sheet",
+   "evidence": "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-PK / B10"
+  },
+  {
+   "id": "off-sunny-no-031-pk",
+   "sku": "NO. 031-PK",
+   "field": "shippingWeight",
+   "value": "1.2KG/2.6lbs",
+   "source": "spec sheet",
+   "evidence": "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-PK / B9"
+  },
+  {
+   "id": "off-sunny-no-031-pk",
+   "sku": "NO. 031-PK",
+   "field": "keyDimensions",
+   "value": "173*61*4cm/68*24*1.57inches",
+   "source": "spec sheet",
+   "evidence": "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-PK / B12"
+  },
+  {
+   "id": "off-sunny-sf-em02-pk",
+   "sku": "SF-EM02-PK",
+   "field": "productWeight",
+   "value": "2KGS/4.4LBS",
+   "source": "spec sheet",
+   "evidence": "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-PK / B10"
+  },
+  {
+   "id": "off-sunny-sf-em02-pk",
+   "sku": "SF-EM02-PK",
+   "field": "shippingWeight",
+   "value": "2.18KG/4.8LBS",
+   "source": "spec sheet",
+   "evidence": "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-PK / B9"
+  },
+  {
+   "id": "off-sunny-sf-em02-pk",
+   "sku": "SF-EM02-PK",
+   "field": "keyDimensions",
+   "value": "FLAT: 180CMx61CMx0.6CM 71INx24INx0.24IN",
+   "source": "spec sheet",
+   "evidence": "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-PK / B12"
+  },
+  {
+   "id": "off-sunny-no-048",
+   "sku": "NO. 048",
+   "field": "productWeight",
+   "value": "3.97",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO45"
+  },
+  {
+   "id": "off-sunny-no-048",
+   "sku": "NO. 048",
+   "field": "shippingWeight",
+   "value": "5.07 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA45"
+  },
+  {
+   "id": "off-sunny-no-048",
+   "sku": "NO. 048",
+   "field": "keyDimensions",
+   "value": "72L x 24W x 1.8H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS45"
+  },
+  {
+   "id": "off-sunny-no-066-15",
+   "sku": "NO. 066-15",
+   "field": "productWeight",
+   "value": "15",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO51"
+  },
+  {
+   "id": "off-sunny-no-066-15",
+   "sku": "NO. 066-15",
+   "field": "shippingWeight",
+   "value": "16 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA51"
+  },
+  {
+   "id": "off-sunny-no-066-15",
+   "sku": "NO. 066-15",
+   "field": "keyDimensions",
+   "value": "7L x 4.5W x 7.5H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS51"
+  },
+  {
+   "id": "off-sunny-no-066-20",
+   "sku": "NO. 066-20",
+   "field": "productWeight",
+   "value": "20",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO52"
+  },
+  {
+   "id": "off-sunny-no-066-20",
+   "sku": "NO. 066-20",
+   "field": "shippingWeight",
+   "value": "21 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA52"
+  },
+  {
+   "id": "off-sunny-no-066-20",
+   "sku": "NO. 066-20",
+   "field": "keyDimensions",
+   "value": "7.5L x 4.5W x 8.5H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS52"
+  },
+  {
+   "id": "off-sunny-no-066-25",
+   "sku": "NO. 066-25",
+   "field": "productWeight",
+   "value": "25",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO53"
+  },
+  {
+   "id": "off-sunny-no-066-25",
+   "sku": "NO. 066-25",
+   "field": "shippingWeight",
+   "value": "26 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA53"
+  },
+  {
+   "id": "off-sunny-no-066-25",
+   "sku": "NO. 066-25",
+   "field": "keyDimensions",
+   "value": "8L x 5W x 9H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS53"
+  },
+  {
+   "id": "off-sunny-no-066-5",
+   "sku": "NO. 066-5",
+   "field": "productWeight",
+   "value": "5",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO54"
+  },
+  {
+   "id": "off-sunny-no-066-5",
+   "sku": "NO. 066-5",
+   "field": "shippingWeight",
+   "value": "5 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA54"
+  },
+  {
+   "id": "off-sunny-no-066-5",
+   "sku": "NO. 066-5",
+   "field": "keyDimensions",
+   "value": "5L x 3W x 6H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS54"
+  },
+  {
+   "id": "off-sunny-sf-t7945",
+   "sku": "SF-T7945",
+   "field": "productWeight",
+   "value": "24.5kg/54.0lbs",
+   "source": "spec sheet",
+   "evidence": "SF-T7945 Specification sheet 12122019.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-t7945",
+   "sku": "SF-T7945",
+   "field": "shippingWeight",
+   "value": "30.3kg/66.8lbs",
+   "source": "spec sheet",
+   "evidence": "SF-T7945 Specification sheet 12122019.xlsx / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-sf-t7945",
+   "sku": "SF-T7945",
+   "field": "keyDimensions",
+   "value": "126*54.5*16.5CM 49.6*21.5*6.5INCH",
+   "source": "spec sheet",
+   "evidence": "SF-T7945 Specification sheet 12122019.xlsx / Sheet1 / B8"
+  },
+  {
+   "id": "off-sunny-sf-t7945",
+   "sku": "SF-T7945",
+   "field": "stepOnHeight",
+   "value": "4.09 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / ES770"
+  },
+  {
+   "id": "off-sunny-sf-t7945",
+   "sku": "SF-T7945",
+   "field": "beltDimensions",
+   "value": "98*36CM/38.6*14.2INCH",
+   "source": "spec sheet",
+   "evidence": "SF-T7945 Specification sheet 12122019.xlsx / Sheet1 / B61"
+  },
+  {
+   "id": "off-sunny-sf-t7945",
+   "sku": "SF-T7945",
+   "field": "shippingDimensions",
+   "value": "137*63.5*21.5 CM 53.9*25*8.5 INCH",
+   "source": "spec sheet",
+   "evidence": "SF-T7945 Specification sheet 12122019.xlsx / Sheet1 / B10"
+  },
+  {
+   "id": "off-sunny-sf-t4400",
+   "sku": "SF-T4400",
+   "field": "productWeight",
+   "value": "103",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO696"
+  },
+  {
+   "id": "off-sunny-sf-t4400",
+   "sku": "SF-T4400",
+   "field": "shippingWeight",
+   "value": "119 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA696"
+  },
+  {
+   "id": "off-sunny-sf-t4400",
+   "sku": "SF-T4400",
+   "field": "keyDimensions",
+   "value": "62L x 25.5W x 50H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS696"
+  },
+  {
+   "id": "off-sunny-sf-t4400",
+   "sku": "SF-T4400",
+   "field": "stepOnHeight",
+   "value": "6.93 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / ES696"
+  },
+  {
+   "id": "off-sunny-sf-t4400",
+   "sku": "SF-T4400",
+   "field": "beltDimensions",
+   "value": "49L x 15.5W in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / EG696"
+  },
+  {
+   "id": "off-sunny-sf-t4400",
+   "sku": "SF-T4400",
+   "field": "shippingDimensions",
+   "value": "67L x 28W x 11H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AG696"
+  },
+  {
+   "id": "off-sunny-sf-t7603",
+   "sku": "SF-T7603",
+   "field": "productWeight",
+   "value": "103.6",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO742"
+  },
+  {
+   "id": "off-sunny-sf-t7603",
+   "sku": "SF-T7603",
+   "field": "shippingWeight",
+   "value": "121.3 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA742"
+  },
+  {
+   "id": "off-sunny-sf-t7603",
+   "sku": "SF-T7603",
+   "field": "keyDimensions",
+   "value": "62L x 27W x 47H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS742"
+  },
+  {
+   "id": "off-sunny-sf-t7603",
+   "sku": "SF-T7603",
+   "field": "stepOnHeight",
+   "value": "6.93 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / ES742"
+  },
+  {
+   "id": "off-sunny-sf-t7603",
+   "sku": "SF-T7603",
+   "field": "beltDimensions",
+   "value": "49L x 16W in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / EG742"
+  },
+  {
+   "id": "off-sunny-sf-t7603",
+   "sku": "SF-T7603",
+   "field": "shippingDimensions",
+   "value": "66.5L x 28W x 11.4H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AG742"
+  },
+  {
+   "id": "off-sunny-sf-t7610",
+   "sku": "SF-T7610",
+   "field": "productWeight",
+   "value": "70 lbs",
+   "source": "spec sheet",
+   "evidence": "T7610 spec sheet.docx / document / 3:2"
+  },
+  {
+   "id": "off-sunny-sf-t7610",
+   "sku": "SF-T7610",
+   "field": "shippingWeight",
+   "value": "84 lbs",
+   "source": "spec sheet",
+   "evidence": "T7610 spec sheet.docx / document / 5:2"
+  },
+  {
+   "id": "off-sunny-sf-t7610",
+   "sku": "SF-T7610",
+   "field": "keyDimensions",
+   "value": "49.6*48.4*27 INCHES (FOLDING DIMENSION: 51.2*19*27 INCHES)",
+   "source": "spec sheet",
+   "evidence": "T7610 spec sheet.docx / document / 4:2"
+  },
+  {
+   "id": "off-sunny-sf-t7610",
+   "sku": "SF-T7610",
+   "field": "stepOnHeight",
+   "value": "7.40 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / ES744"
+  },
+  {
+   "id": "off-sunny-sf-t7610",
+   "sku": "SF-T7610",
+   "field": "beltDimensions",
+   "value": "39L x 14W in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / EG744"
+  },
+  {
+   "id": "off-sunny-sf-t7610",
+   "sku": "SF-T7610",
+   "field": "shippingDimensions",
+   "value": "55*29*9 INCHES",
+   "source": "spec sheet",
+   "evidence": "T7610 spec sheet.docx / document / 6:2"
+  },
+  {
+   "id": "off-sunny-sf-t7632",
+   "sku": "SF-T7632",
+   "field": "productWeight",
+   "value": "75LBS",
+   "source": "spec sheet",
+   "evidence": "SF-T7632 spec sheet.docx / document / 3:2"
+  },
+  {
+   "id": "off-sunny-sf-t7632",
+   "sku": "SF-T7632",
+   "field": "shippingWeight",
+   "value": "88LBS",
+   "source": "spec sheet",
+   "evidence": "SF-T7632 spec sheet.docx / document / 5:2"
+  },
+  {
+   "id": "off-sunny-sf-t7632",
+   "sku": "SF-T7632",
+   "field": "keyDimensions",
+   "value": "50.4*26.6*47 INCHES (FOLDING DIMENSION: 15.7*26.6*51.2 INCHES)",
+   "source": "spec sheet",
+   "evidence": "SF-T7632 spec sheet.docx / document / 4:2"
+  },
+  {
+   "id": "off-sunny-sf-t7632",
+   "sku": "SF-T7632",
+   "field": "stepOnHeight",
+   "value": "8.14 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / ES749"
+  },
+  {
+   "id": "off-sunny-sf-t7632",
+   "sku": "SF-T7632",
+   "field": "beltDimensions",
+   "value": "44.5L x 14W in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / EG749"
+  },
+  {
+   "id": "off-sunny-sf-t7632",
+   "sku": "SF-T7632",
+   "field": "shippingDimensions",
+   "value": "56*29*10 INCHES",
+   "source": "spec sheet",
+   "evidence": "SF-T7632 spec sheet.docx / document / 6:2"
+  },
+  {
+   "id": "off-sunny-sf-t7643",
+   "sku": "SF-T7643",
+   "field": "productWeight",
+   "value": "143lbs",
+   "source": "spec sheet",
+   "evidence": "T7643 Specification.docx / document / 3:2"
+  },
+  {
+   "id": "off-sunny-sf-t7643",
+   "sku": "SF-T7643",
+   "field": "shippingWeight",
+   "value": "165lbs",
+   "source": "spec sheet",
+   "evidence": "T7643 Specification.docx / document / 5:2"
+  },
+  {
+   "id": "off-sunny-sf-t7643",
+   "sku": "SF-T7643",
+   "field": "keyDimensions",
+   "value": "60.6*32.3*52.4 INCHES (FOLDING DIMENSION: 39.4*32.3*53.15 INCHES)",
+   "source": "spec sheet",
+   "evidence": "T7643 Specification.docx / document / 4:2"
+  },
+  {
+   "id": "off-sunny-sf-t7643",
+   "sku": "SF-T7643",
+   "field": "stepOnHeight",
+   "value": "6.57 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / ES751"
+  },
+  {
+   "id": "off-sunny-sf-t7643",
+   "sku": "SF-T7643",
+   "field": "beltDimensions",
+   "value": "44.5L x 19.5W in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / EG751"
+  },
+  {
+   "id": "off-sunny-sf-t7643",
+   "sku": "SF-T7643",
+   "field": "shippingDimensions",
+   "value": "64*33.5*15 INCHES",
+   "source": "spec sheet",
+   "evidence": "T7643 Specification.docx / document / 6:2"
+  },
+  {
+   "id": "off-sunny-sf-t7718",
+   "sku": "SF-T7718",
+   "field": "productWeight",
+   "value": "116.8LBS 53KG",
+   "source": "spec sheet",
+   "evidence": "SF-T7718 Spec Sheet 01.07.2020.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-t7718",
+   "sku": "SF-T7718",
+   "field": "shippingWeight",
+   "value": "135.6LBS 61.5KG",
+   "source": "spec sheet",
+   "evidence": "SF-T7718 Spec Sheet 01.07.2020.xlsx / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-sf-t7718",
+   "sku": "SF-T7718",
+   "field": "keyDimensions",
+   "value": "62.6*29.3*47.6INCH 159*74.5*121CM",
+   "source": "spec sheet",
+   "evidence": "SF-T7718 Spec Sheet 01.07.2020.xlsx / Sheet1 / B8"
+  },
+  {
+   "id": "off-sunny-sf-t7718",
+   "sku": "SF-T7718",
+   "field": "stepOnHeight",
+   "value": "2.76 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / ES755"
+  },
+  {
+   "id": "off-sunny-sf-t7718",
+   "sku": "SF-T7718",
+   "field": "beltDimensions",
+   "value": "47.2*20.1 INCHES 120*51CM",
+   "source": "spec sheet",
+   "evidence": "SF-T7718 Spec Sheet 01.07.2020.xlsx / Sheet1 / B61"
+  },
+  {
+   "id": "off-sunny-sf-t7718",
+   "sku": "SF-T7718",
+   "field": "shippingDimensions",
+   "value": "66.5*31.5*9.3INCH 169*80*23.5CM",
+   "source": "spec sheet",
+   "evidence": "SF-T7718 Spec Sheet 01.07.2020.xlsx / Sheet1 / B10"
+  },
+  {
+   "id": "off-sunny-sf-t7718smart",
+   "sku": "SF-T7718SMART",
+   "field": "productWeight",
+   "value": "117.9LBS 53.5KG",
+   "source": "spec sheet",
+   "evidence": "SF-T7718 SMART Spec Sheet 02.10.2022 updated.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-t7718smart",
+   "sku": "SF-T7718SMART",
+   "field": "shippingWeight",
+   "value": "136.7LBS 62KG",
+   "source": "spec sheet",
+   "evidence": "SF-T7718 SMART Spec Sheet 02.10.2022 updated.xlsx / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-sf-t7718smart",
+   "sku": "SF-T7718SMART",
+   "field": "keyDimensions",
+   "value": "62.6*29.3*47.6INCH 159*74.5*121CM",
+   "source": "spec sheet",
+   "evidence": "SF-T7718 SMART Spec Sheet 02.10.2022 updated.xlsx / Sheet1 / B8"
+  },
+  {
+   "id": "off-sunny-sf-t7718smart",
+   "sku": "SF-T7718SMART",
+   "field": "stepOnHeight",
+   "value": "2.76INCH",
+   "source": "spec sheet",
+   "evidence": "SF-T7718 SMART Spec Sheet 02.10.2022 updated.xlsx / Sheet1 / B58"
+  },
+  {
+   "id": "off-sunny-sf-t7718smart",
+   "sku": "SF-T7718SMART",
+   "field": "beltDimensions",
+   "value": "47.2*20.1 INCHES 120*51CM",
+   "source": "spec sheet",
+   "evidence": "SF-T7718 SMART Spec Sheet 02.10.2022 updated.xlsx / Sheet1 / B64"
+  },
+  {
+   "id": "off-sunny-sf-t7718smart",
+   "sku": "SF-T7718SMART",
+   "field": "shippingDimensions",
+   "value": "66.5*31.5*9.3INCH 169*80*23.5CM",
+   "source": "spec sheet",
+   "evidence": "SF-T7718 SMART Spec Sheet 02.10.2022 updated.xlsx / Sheet1 / B10"
+  },
+  {
+   "id": "off-sunny-sf-t7724",
+   "sku": "SF-T7724",
+   "field": "productWeight",
+   "value": "126",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO758"
+  },
+  {
+   "id": "off-sunny-sf-t7724",
+   "sku": "SF-T7724",
+   "field": "shippingWeight",
+   "value": "145 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA758"
+  },
+  {
+   "id": "off-sunny-sf-t7724",
+   "sku": "SF-T7724",
+   "field": "keyDimensions",
+   "value": "68.75L x 30W x 54.25H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS758"
+  },
+  {
+   "id": "off-sunny-sf-t7724",
+   "sku": "SF-T7724",
+   "field": "stepOnHeight",
+   "value": "Min 5.63 in / Max 10.39 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / ES758"
+  },
+  {
+   "id": "off-sunny-sf-t7724",
+   "sku": "SF-T7724",
+   "field": "beltDimensions",
+   "value": "51.5L x 18W in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / EG758"
+  },
+  {
+   "id": "off-sunny-sf-t7724",
+   "sku": "SF-T7724",
+   "field": "shippingDimensions",
+   "value": "70.5L x 31W x 13H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AG758"
+  },
+  {
+   "id": "off-sunny-sf-t7857",
+   "sku": "SF-T7857",
+   "field": "productWeight",
+   "value": "123",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO761"
+  },
+  {
+   "id": "off-sunny-sf-t7857",
+   "sku": "SF-T7857",
+   "field": "shippingWeight",
+   "value": "146 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA761"
+  },
+  {
+   "id": "off-sunny-sf-t7857",
+   "sku": "SF-T7857",
+   "field": "keyDimensions",
+   "value": "57.7L x 29.52W x 47.79H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS761"
+  },
+  {
+   "id": "off-sunny-sf-t7857",
+   "sku": "SF-T7857",
+   "field": "stepOnHeight",
+   "value": "2 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / ES761"
+  },
+  {
+   "id": "off-sunny-sf-t7857",
+   "sku": "SF-T7857",
+   "field": "beltDimensions",
+   "value": "44L x 19.5W in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / EG761"
+  },
+  {
+   "id": "off-sunny-sf-t7857",
+   "sku": "SF-T7857",
+   "field": "shippingDimensions",
+   "value": "63L x 32W x 12H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AG761"
+  },
+  {
+   "id": "off-sunny-sf-t7909",
+   "sku": "SF-T7909",
+   "field": "productWeight",
+   "value": "115LBS 52.2KG",
+   "source": "spec sheet",
+   "evidence": "SF-T7909 Spec.sheet 1.14.2020.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-t7909",
+   "sku": "SF-T7909",
+   "field": "shippingWeight",
+   "value": "132LBS 59.9KG",
+   "source": "spec sheet",
+   "evidence": "SF-T7909 Spec.sheet 1.14.2020.xlsx / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-sf-t7909",
+   "sku": "SF-T7909",
+   "field": "keyDimensions",
+   "value": "60*31.3*51.5INCH 152.5*79.5*130.8CM",
+   "source": "spec sheet",
+   "evidence": "SF-T7909 Spec.sheet 1.14.2020.xlsx / Sheet1 / B8"
+  },
+  {
+   "id": "off-sunny-sf-t7909",
+   "sku": "SF-T7909",
+   "field": "stepOnHeight",
+   "value": "Min 5.71 in / Max 10.08 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / ES767"
+  },
+  {
+   "id": "off-sunny-sf-t7909",
+   "sku": "SF-T7909",
+   "field": "beltDimensions",
+   "value": "48.6*16.5INCH 121*42CM",
+   "source": "spec sheet",
+   "evidence": "SF-T7909 Spec.sheet 1.14.2020.xlsx / Sheet1 / B62"
+  },
+  {
+   "id": "off-sunny-sf-t7909",
+   "sku": "SF-T7909",
+   "field": "shippingDimensions",
+   "value": "64.5*33*11.8INCH 164*84*30CM",
+   "source": "spec sheet",
+   "evidence": "SF-T7909 Spec.sheet 1.14.2020.xlsx / Sheet1 / B10"
+  },
+  {
+   "id": "off-sunny-sf-t7917",
+   "sku": "SF-T7917",
+   "field": "productWeight",
+   "value": "148",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO768"
+  },
+  {
+   "id": "off-sunny-sf-t7917",
+   "sku": "SF-T7917",
+   "field": "shippingWeight",
+   "value": "170 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA768"
+  },
+  {
+   "id": "off-sunny-sf-t7917",
+   "sku": "SF-T7917",
+   "field": "keyDimensions",
+   "value": "69L x 32W x 56H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS768"
+  },
+  {
+   "id": "off-sunny-sf-t7917",
+   "sku": "SF-T7917",
+   "field": "stepOnHeight",
+   "value": "Min 18.1 in / Max 26.9 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / ES768"
+  },
+  {
+   "id": "off-sunny-sf-t7917",
+   "sku": "SF-T7917",
+   "field": "beltDimensions",
+   "value": "52L x 19W in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / EG768"
+  },
+  {
+   "id": "off-sunny-sf-t7917",
+   "sku": "SF-T7917",
+   "field": "shippingDimensions",
+   "value": "69.3L x 35W x 14.5H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AG768"
+  },
+  {
+   "id": "off-sunny-sf-t7942",
+   "sku": "SF-T7942",
+   "field": "productWeight",
+   "value": "77.16",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO769"
+  },
+  {
+   "id": "off-sunny-sf-t7942",
+   "sku": "SF-T7942",
+   "field": "shippingWeight",
+   "value": "90.4 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA769"
+  },
+  {
+   "id": "off-sunny-sf-t7942",
+   "sku": "SF-T7942",
+   "field": "keyDimensions",
+   "value": "50L x 27.5W x 47H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS769"
+  },
+  {
+   "id": "off-sunny-sf-t7942",
+   "sku": "SF-T7942",
+   "field": "stepOnHeight",
+   "value": "8.15 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / ES769"
+  },
+  {
+   "id": "off-sunny-sf-t7942",
+   "sku": "SF-T7942",
+   "field": "beltDimensions",
+   "value": "43L X 14W in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / EG769"
+  },
+  {
+   "id": "off-sunny-sf-t7942",
+   "sku": "SF-T7942",
+   "field": "shippingDimensions",
+   "value": "56.3L x 29.13W x 10.14H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AG769"
+  },
+  {
+   "id": "off-sunny-sf-t7971",
+   "sku": "SF-T7971",
+   "field": "productWeight",
+   "value": "39KGS/86LBS",
+   "source": "spec sheet",
+   "evidence": "SF-T7971 Spec Sheet 06132020.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-t7971",
+   "sku": "SF-T7971",
+   "field": "shippingWeight",
+   "value": "49KGS/108LBS",
+   "source": "spec sheet",
+   "evidence": "SF-T7971 Spec Sheet 06132020.xlsx / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-sf-t7971",
+   "sku": "SF-T7971",
+   "field": "keyDimensions",
+   "value": "145*68.5*136CM 57.0*27*53.5 INCHES",
+   "source": "spec sheet",
+   "evidence": "SF-T7971 Spec Sheet 06132020.xlsx / Sheet1 / B8"
+  },
+  {
+   "id": "off-sunny-sf-t7971",
+   "sku": "SF-T7971",
+   "field": "stepOnHeight",
+   "value": "2.2 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / ES776"
+  },
+  {
+   "id": "off-sunny-sf-t7971",
+   "sku": "SF-T7971",
+   "field": "beltDimensions",
+   "value": "120*40CM/47.2*15.7INCH",
+   "source": "spec sheet",
+   "evidence": "SF-T7971 Spec Sheet 06132020.xlsx / Sheet1 / B61"
+  },
+  {
+   "id": "off-sunny-sf-t7971",
+   "sku": "SF-T7971",
+   "field": "shippingDimensions",
+   "value": "154*75*18CM 60.6*29.5*7.1 INCHES",
+   "source": "spec sheet",
+   "evidence": "SF-T7971 Spec Sheet 06132020.xlsx / Sheet1 / B10"
+  },
+  {
+   "id": "off-sunny-no-079",
+   "sku": "NO. 079",
+   "field": "productWeight",
+   "value": "25.5",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO77"
+  },
+  {
+   "id": "off-sunny-no-079",
+   "sku": "NO. 079",
+   "field": "shippingWeight",
+   "value": "27.9 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA77"
+  },
+  {
+   "id": "off-sunny-no-079",
+   "sku": "NO. 079",
+   "field": "keyDimensions",
+   "value": "46L x 45W x 49.6H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS77"
+  },
+  {
+   "id": "off-sunny-no-042",
+   "sku": "NO. 042",
+   "field": "productWeight",
+   "value": "1",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO43"
+  },
+  {
+   "id": "off-sunny-no-042",
+   "sku": "NO. 042",
+   "field": "shippingWeight",
+   "value": "1 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA43"
+  },
+  {
+   "id": "off-sunny-no-042",
+   "sku": "NO. 042",
+   "field": "keyDimensions",
+   "value": "42L x 6W x 0.2H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS43"
+  },
+  {
+   "id": "off-sunny-sf-bh6507",
+   "sku": "SF-BH6507",
+   "field": "productWeight",
+   "value": "21",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO317"
+  },
+  {
+   "id": "off-sunny-sf-bh6507",
+   "sku": "SF-BH6507",
+   "field": "shippingWeight",
+   "value": "23.1 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA317"
+  },
+  {
+   "id": "off-sunny-sf-bh6507",
+   "sku": "SF-BH6507",
+   "field": "keyDimensions",
+   "value": "45.5L x 26.5W x 29.5H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS317"
+  },
+  {
+   "id": "off-sunny-obc-86",
+   "sku": "OBC-86",
+   "field": "productWeight",
+   "value": "49 Ibs",
+   "source": "spec sheet",
+   "evidence": "OBC-86 Specification 06.22.2023.xlsx / Specification / B4"
+  },
+  {
+   "id": "off-sunny-obc-86",
+   "sku": "OBC-86",
+   "field": "shippingWeight",
+   "value": "44 Ibs",
+   "source": "spec sheet",
+   "evidence": "OBC-86 Specification 06.22.2023.xlsx / Specification / B5"
+  },
+  {
+   "id": "off-sunny-stbb-60",
+   "sku": "STBB-60",
+   "field": "productWeight",
+   "value": "13.8",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO857"
+  },
+  {
+   "id": "off-sunny-stbb-60",
+   "sku": "STBB-60",
+   "field": "shippingWeight",
+   "value": "15 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA857"
+  },
+  {
+   "id": "off-sunny-stcb-47",
+   "sku": "STCB-47",
+   "field": "productWeight",
+   "value": "11 Ibs",
+   "source": "spec sheet",
+   "evidence": "STCB-47 Specification.xlsx / Specification / B4"
+  },
+  {
+   "id": "off-sunny-stcb-47",
+   "sku": "STCB-47",
+   "field": "shippingWeight",
+   "value": "12.1 Ibs",
+   "source": "spec sheet",
+   "evidence": "STCB-47 Specification.xlsx / Specification / B5"
+  },
+  {
+   "id": "off-sunny-stcb-47",
+   "sku": "STCB-47",
+   "field": "keyDimensions",
+   "value": "47L x 3W x 3H",
+   "source": "spec sheet",
+   "evidence": "STCB-47 Specification.xlsx / Specification / B9"
+  },
+  {
+   "id": "off-sunny-sttb-24",
+   "sku": "STTB-24",
+   "field": "productWeight",
+   "value": "11.7",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO860"
+  },
+  {
+   "id": "off-sunny-sttb-24",
+   "sku": "STTB-24",
+   "field": "shippingWeight",
+   "value": "13.2 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA860"
+  },
+  {
+   "id": "off-sunny-sttb-24",
+   "sku": "STTB-24",
+   "field": "keyDimensions",
+   "value": "24L x 7W x 2.5H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS860"
+  },
+  {
+   "id": "off-sunny-sf-xfa009",
+   "sku": "SF-XFA009",
+   "field": "productWeight",
+   "value": "3.0KG/6.6 LBS",
+   "source": "spec sheet",
+   "evidence": "final SPEC SHEET- SF-XFA009 update 06132023 .xlsx / Sheet1 / B12"
+  },
+  {
+   "id": "off-sunny-sf-xfa009",
+   "sku": "SF-XFA009",
+   "field": "shippingWeight",
+   "value": "3.6KG/7.9 LBS",
+   "source": "spec sheet",
+   "evidence": "final SPEC SHEET- SF-XFA009 update 06132023 .xlsx / Sheet1 / B11"
+  },
+  {
+   "id": "off-sunny-sf-xfa009",
+   "sku": "SF-XFA009",
+   "field": "keyDimensions",
+   "value": "780*305*70 MM 30.7*12*2.8 INCH",
+   "source": "spec sheet",
+   "evidence": "final SPEC SHEET- SF-XFA009 update 06132023 .xlsx / Sheet1 / B14"
+  },
+  {
+   "id": "off-sunny-no-045",
+   "sku": "NO. 045",
+   "field": "productWeight",
+   "value": "19",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO44"
+  },
+  {
+   "id": "off-sunny-no-045",
+   "sku": "NO. 045",
+   "field": "shippingWeight",
+   "value": "21 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA44"
+  },
+  {
+   "id": "off-sunny-no-045",
+   "sku": "NO. 045",
+   "field": "keyDimensions",
+   "value": "17L x 19W x 14H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS44"
+  },
+  {
+   "id": "off-sunny-sf-rw5809",
+   "sku": "SF-RW5809",
+   "field": "productWeight",
+   "value": "33.4 KG / 73.6 LBS",
+   "source": "spec sheet",
+   "evidence": "SF-RW5809 Specification Sheet 2021.4.2 Max Weight Updated.xlsx / Sheet1 / B7"
+  },
+  {
+   "id": "off-sunny-sf-rw5809",
+   "sku": "SF-RW5809",
+   "field": "shippingWeight",
+   "value": "38.7 KG / 85.3 LBS",
+   "source": "spec sheet",
+   "evidence": "SF-RW5809 Specification Sheet 2021.4.2 Max Weight Updated.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-rw5809",
+   "sku": "SF-RW5809",
+   "field": "keyDimensions",
+   "value": "196*48*112 CM 77.2*18.9*44.1 INCH",
+   "source": "spec sheet",
+   "evidence": "SF-RW5809 Specification Sheet 2021.4.2 Max Weight Updated.xlsx / Sheet1 / B9"
+  },
+  {
+   "id": "off-sunny-sf-rw5854",
+   "sku": "SF-RW5854",
+   "field": "productWeight",
+   "value": "75.8lbs=34.4kgs",
+   "source": "spec sheet",
+   "evidence": "SF-RW5854 specification sheet.docx / document / 4:2"
+  },
+  {
+   "id": "off-sunny-sf-rw5854",
+   "sku": "SF-RW5854",
+   "field": "shippingWeight",
+   "value": "86.9lbs=39.4kgs",
+   "source": "spec sheet",
+   "evidence": "SF-RW5854 specification sheet.docx / document / 6:2"
+  },
+  {
+   "id": "off-sunny-sf-rw5854",
+   "sku": "SF-RW5854",
+   "field": "keyDimensions",
+   "value": "94.5’x21.7’x32.7’=2400x550x830mm",
+   "source": "spec sheet",
+   "evidence": "SF-RW5854 specification sheet.docx / document / 5:2"
+  },
+  {
+   "id": "off-sunny-sf-rw5935",
+   "sku": "SF-RW5935",
+   "field": "productWeight",
+   "value": "24.1KG/53.1 LBS",
+   "source": "spec sheet",
+   "evidence": "SF-RW5935_Spec_Sheet 12.14.2020.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-rw5935",
+   "sku": "SF-RW5935",
+   "field": "shippingWeight",
+   "value": "28KG/61.8 LBS",
+   "source": "spec sheet",
+   "evidence": "SF-RW5935_Spec_Sheet 12.14.2020.xlsx / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-sf-rw5935",
+   "sku": "SF-RW5935",
+   "field": "keyDimensions",
+   "value": "183*47*63CM 72.0*18.5*24.8INCH",
+   "source": "spec sheet",
+   "evidence": "SF-RW5935_Spec_Sheet 12.14.2020.xlsx / Sheet1 / B8"
+  },
+  {
+   "id": "off-sunny-sf-rw520050",
+   "sku": "SF-RW520050",
+   "field": "productWeight",
+   "value": "25.5KG/56.2 LBS",
+   "source": "spec sheet",
+   "evidence": "SF-RW520050 Spec.sheet 12.082020.xlsx / Sheet1 / B7"
+  },
+  {
+   "id": "off-sunny-sf-rw520050",
+   "sku": "SF-RW520050",
+   "field": "shippingWeight",
+   "value": "29.7KG/66.5LBS",
+   "source": "spec sheet",
+   "evidence": "SF-RW520050 Spec.sheet 12.082020.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-rw520050",
+   "sku": "SF-RW520050",
+   "field": "keyDimensions",
+   "value": "1980*580*575MM 78*22.8*22.6INCH",
+   "source": "spec sheet",
+   "evidence": "SF-RW520050 Spec.sheet 12.082020.xlsx / Sheet1 / B9"
+  },
+  {
+   "id": "off-sunny-sf-rw5940",
+   "sku": "SF-RW5940",
+   "field": "productWeight",
+   "value": "37.0KGS/81.6LBS",
+   "source": "spec sheet",
+   "evidence": "SF-RW5940 Spec Sheet 03232022.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-rw5940",
+   "sku": "SF-RW5940",
+   "field": "shippingWeight",
+   "value": "43.5KGS/95.9LBS",
+   "source": "spec sheet",
+   "evidence": "SF-RW5940 Spec Sheet 03232022.xlsx / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-sf-rw5940",
+   "sku": "SF-RW5940",
+   "field": "keyDimensions",
+   "value": "229.7*56*100cm 90.4*22*39.4INCH",
+   "source": "spec sheet",
+   "evidence": "SF-RW5940 Spec Sheet 03232022.xlsx / Sheet1 / B8"
+  },
+  {
+   "id": "off-sunny-sf-rw5983",
+   "sku": "SF-RW5983",
+   "field": "productWeight",
+   "value": "33.8KGS/74.6LBS",
+   "source": "spec sheet",
+   "evidence": "SF-RW5983 Spec Sheet 2020.06.12.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-rw5983",
+   "sku": "SF-RW5983",
+   "field": "shippingWeight",
+   "value": "40.1KGS/88.2LBS",
+   "source": "spec sheet",
+   "evidence": "SF-RW5983 Spec Sheet 2020.06.12.xlsx / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-sf-rw5983",
+   "sku": "SF-RW5983",
+   "field": "keyDimensions",
+   "value": "222*49*91CM（104CM With ipad holder installed) 87.4*19.29*41.25INCH",
+   "source": "spec sheet",
+   "evidence": "SF-RW5983 Spec Sheet 2020.06.12.xlsx / Sheet1 / B8"
+  },
+  {
+   "id": "off-sunny-4500",
+   "sku": "4500",
+   "field": "productWeight",
+   "value": "75",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO9"
+  },
+  {
+   "id": "off-sunny-4500",
+   "sku": "4500",
+   "field": "shippingWeight",
+   "value": "91 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA9"
+  },
+  {
+   "id": "off-sunny-4500",
+   "sku": "4500",
+   "field": "keyDimensions",
+   "value": "81L x 20W x 25.2H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS9"
+  },
+  {
+   "id": "off-sunny-no-071g",
+   "sku": "NO. 071G",
+   "field": "productWeight",
+   "value": "3",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO58"
+  },
+  {
+   "id": "off-sunny-no-071g",
+   "sku": "NO. 071G",
+   "field": "shippingWeight",
+   "value": "4 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA58"
+  },
+  {
+   "id": "off-sunny-no-071g",
+   "sku": "NO. 071G",
+   "field": "keyDimensions",
+   "value": "72L x 30W x 0.23H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS58"
+  },
+  {
+   "id": "off-sunny-no-071p",
+   "sku": "NO. 071P",
+   "field": "productWeight",
+   "value": "3",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO59"
+  },
+  {
+   "id": "off-sunny-no-071p",
+   "sku": "NO. 071P",
+   "field": "shippingWeight",
+   "value": "4 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA59"
+  },
+  {
+   "id": "off-sunny-no-071p",
+   "sku": "NO. 071P",
+   "field": "keyDimensions",
+   "value": "72L x 30W x 0.23H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS59"
+  },
+  {
+   "id": "off-sunny-no-067-60",
+   "sku": "NO. 067-60",
+   "field": "productWeight",
+   "value": "60LBS",
+   "source": "spec sheet",
+   "evidence": "NO.067-60 SPEC.xlsx / Specification / B4"
+  },
+  {
+   "id": "off-sunny-no-067-60",
+   "sku": "NO. 067-60",
+   "field": "shippingWeight",
+   "value": "61LBS",
+   "source": "spec sheet",
+   "evidence": "NO.067-60 SPEC.xlsx / Specification / B5"
+  },
+  {
+   "id": "off-sunny-no-067-60",
+   "sku": "NO. 067-60",
+   "field": "keyDimensions",
+   "value": "6.75L x 7.5W x 10.5H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS55"
+  },
+  {
+   "id": "off-sunny-no-014",
+   "sku": "NO. 014",
+   "field": "productWeight",
+   "value": "33",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO30"
+  },
+  {
+   "id": "off-sunny-no-014",
+   "sku": "NO. 014",
+   "field": "shippingWeight",
+   "value": "35.5 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA30"
+  },
+  {
+   "id": "off-sunny-no-014",
+   "sku": "NO. 014",
+   "field": "keyDimensions",
+   "value": "16L x 12W x 3.5H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS30"
+  },
+  {
+   "id": "off-sunny-no-087",
+   "sku": "NO. 087",
+   "field": "productWeight",
+   "value": "40LB(18.16kg)",
+   "source": "spec sheet",
+   "evidence": "No. 087 Specification.xlsx / Specification / B4"
+  },
+  {
+   "id": "off-sunny-no-087",
+   "sku": "NO. 087",
+   "field": "shippingWeight",
+   "value": "40.5LB(18.38kg)",
+   "source": "spec sheet",
+   "evidence": "No. 087 Specification.xlsx / Specification / B5"
+  },
+  {
+   "id": "off-sunny-no-087",
+   "sku": "NO. 087",
+   "field": "keyDimensions",
+   "value": "17L x 8.5W x 8.5H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS85"
+  },
+  {
+   "id": "off-sunny-sdsn-20",
+   "sku": "SDSN-20",
+   "field": "productWeight",
+   "value": "22.2",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO153"
+  },
+  {
+   "id": "off-sunny-sdsn-20",
+   "sku": "SDSN-20",
+   "field": "shippingWeight",
+   "value": "23 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA153"
+  },
+  {
+   "id": "off-sunny-sdsn-20",
+   "sku": "SDSN-20",
+   "field": "keyDimensions",
+   "value": "16L x 12W x 5H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS153"
+  },
+  {
+   "id": "off-sunny-sf-db01-55",
+   "sku": "SF-DB01-55",
+   "field": "productWeight",
+   "value": "55 LBS / 24.9 KGS",
+   "source": "spec sheet",
+   "evidence": "SF-DB01-55 SPEC Sheet 2023-8-8-Small.xlsx / SF-DB01-55 / B11"
+  },
+  {
+   "id": "off-sunny-sf-db01-55",
+   "sku": "SF-DB01-55",
+   "field": "shippingWeight",
+   "value": "59 LBS / 26.8 KGS",
+   "source": "spec sheet",
+   "evidence": "SF-DB01-55 SPEC Sheet 2023-8-8-Small.xlsx / SF-DB01-55 / B10"
+  },
+  {
+   "id": "off-sunny-sf-db01-55",
+   "sku": "SF-DB01-55",
+   "field": "keyDimensions",
+   "value": "484*216*202 MM 19.1*8.5*8 INCH",
+   "source": "spec sheet",
+   "evidence": "SF-DB01-55 SPEC Sheet 2023-8-8-Small.xlsx / SF-DB01-55 / B13"
+  },
+  {
+   "id": "off-sunny-4200",
+   "sku": "4200",
+   "field": "productWeight",
+   "value": "99",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO7"
+  },
+  {
+   "id": "off-sunny-4200",
+   "sku": "4200",
+   "field": "shippingWeight",
+   "value": "112 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA7"
+  },
+  {
+   "id": "off-sunny-4200",
+   "sku": "4200",
+   "field": "keyDimensions",
+   "value": "41L x 21.5W x 56.75H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS7"
+  },
+  {
+   "id": "off-sunny-4200",
+   "sku": "4200",
+   "field": "shippingDimensions",
+   "value": "41.75L x 12.5W x 25.25H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AG7"
+  },
+  {
+   "id": "off-sunny-4200",
+   "sku": "4200",
+   "field": "inseam",
+   "value": "Min 28 in / Max 40 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DA7"
+  },
+  {
+   "id": "off-sunny-sf-b2906",
+   "sku": "SF-B2906",
+   "field": "productWeight",
+   "value": "43.4 lbs",
+   "source": "spec sheet",
+   "evidence": "SF-B2906 Bike - Spec Sheet - 09.22.2020.xlsx / Sheet1 / B4"
+  },
+  {
+   "id": "off-sunny-sf-b2906",
+   "sku": "SF-B2906",
+   "field": "shippingWeight",
+   "value": "49.6 lbs",
+   "source": "spec sheet",
+   "evidence": "SF-B2906 Bike - Spec Sheet - 09.22.2020.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-b2906",
+   "sku": "SF-B2906",
+   "field": "keyDimensions",
+   "value": "35 x 20.5 x 51.5 (in) in",
+   "source": "spec sheet",
+   "evidence": "SF-B2906 Bike - Spec Sheet - 09.22.2020.xlsx / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-sf-b2906",
+   "sku": "SF-B2906",
+   "field": "shippingDimensions",
+   "value": "30.9 x 9.8 x 22.8 (in.) in",
+   "source": "spec sheet",
+   "evidence": "SF-B2906 Bike - Spec Sheet - 09.22.2020.xlsx / Sheet1 / B7"
+  },
+  {
+   "id": "off-sunny-sf-b2906",
+   "sku": "SF-B2906",
+   "field": "qFactor",
+   "value": "279 mm",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DB281"
+  },
+  {
+   "id": "off-sunny-sf-b2906",
+   "sku": "SF-B2906",
+   "field": "flywheelWeight",
+   "value": "6.6 lb",
+   "source": "spec sheet",
+   "evidence": "SF-B2906 Bike - Spec Sheet - 09.22.2020.xlsx / Sheet1 / B11"
+  },
+  {
+   "id": "off-sunny-sf-b2906",
+   "sku": "SF-B2906",
+   "field": "inseam",
+   "value": "25.5 in.",
+   "source": "spec sheet",
+   "evidence": "SF-B2906 Bike - Spec Sheet - 09.22.2020.xlsx / Sheet1 / B15"
+  },
+  {
+   "id": "off-sunny-sf-b2952",
+   "sku": "SF-B2952",
+   "field": "productWeight",
+   "value": "56 lb",
+   "source": "spec sheet",
+   "evidence": "Specification sheet for SF-B2952 09292019.xlsx / Sheet1 / B4"
+  },
+  {
+   "id": "off-sunny-sf-b2952",
+   "sku": "SF-B2952",
+   "field": "shippingWeight",
+   "value": "64 lb",
+   "source": "spec sheet",
+   "evidence": "Specification sheet for SF-B2952 09292019.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-b2952",
+   "sku": "SF-B2952",
+   "field": "keyDimensions",
+   "value": "41.7*20.9*50.8 in",
+   "source": "spec sheet",
+   "evidence": "Specification sheet for SF-B2952 09292019.xlsx / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-sf-b2952",
+   "sku": "SF-B2952",
+   "field": "shippingDimensions",
+   "value": "33.9*11*24.8 in",
+   "source": "spec sheet",
+   "evidence": "Specification sheet for SF-B2952 09292019.xlsx / Sheet1 / B7"
+  },
+  {
+   "id": "off-sunny-sf-b2952",
+   "sku": "SF-B2952",
+   "field": "flywheelWeight",
+   "value": "6.6 lb",
+   "source": "spec sheet",
+   "evidence": "Specification sheet for SF-B2952 09292019.xlsx / Sheet1 / B13"
+  },
+  {
+   "id": "off-sunny-sf-b2952",
+   "sku": "SF-B2952",
+   "field": "inseam",
+   "value": "24",
+   "source": "spec sheet",
+   "evidence": "Specification sheet for SF-B2952 09292019.xlsx / Sheet1 / B17"
+  },
+  {
+   "id": "off-sunny-sf-b2969",
+   "sku": "SF-B2969",
+   "field": "productWeight",
+   "value": "31KG/68.3 LBS",
+   "source": "spec sheet",
+   "evidence": "B2969 SpecSheet2019.1.6.xlsx / B2969 / B6"
+  },
+  {
+   "id": "off-sunny-sf-b2969",
+   "sku": "SF-B2969",
+   "field": "shippingWeight",
+   "value": "36KG/79.4 LBS",
+   "source": "spec sheet",
+   "evidence": "B2969 SpecSheet2019.1.6.xlsx / B2969 / B5"
+  },
+  {
+   "id": "off-sunny-sf-b2969",
+   "sku": "SF-B2969",
+   "field": "keyDimensions",
+   "value": "122*55*142CM/ 48*21.7*56 INCH",
+   "source": "spec sheet",
+   "evidence": "B2969 SpecSheet2019.1.6.xlsx / B2969 / B8"
+  },
+  {
+   "id": "off-sunny-sf-b2969",
+   "sku": "SF-B2969",
+   "field": "shippingDimensions",
+   "value": "105*31.5*64CM/ 42.3*12.4*25.2INCH",
+   "source": "spec sheet",
+   "evidence": "B2969 SpecSheet2019.1.6.xlsx / B2969 / B9"
+  },
+  {
+   "id": "off-sunny-sf-b2969",
+   "sku": "SF-B2969",
+   "field": "flywheelWeight",
+   "value": "3.5KG/7.7LBS",
+   "source": "spec sheet",
+   "evidence": "B2969 SpecSheet2019.1.6.xlsx / B2969 / B7"
+  },
+  {
+   "id": "off-sunny-sf-b2969",
+   "sku": "SF-B2969",
+   "field": "inseam",
+   "value": "71.12CM/28INCH",
+   "source": "spec sheet",
+   "evidence": "B2969 SpecSheet2019.1.6.xlsx / B2969 / B37"
+  },
+  {
+   "id": "off-sunny-p8400",
+   "sku": "P8400",
+   "field": "productWeight",
+   "value": "48.5",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO148"
+  },
+  {
+   "id": "off-sunny-p8400",
+   "sku": "P8400",
+   "field": "shippingWeight",
+   "value": "55.5 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA148"
+  },
+  {
+   "id": "off-sunny-p8400",
+   "sku": "P8400",
+   "field": "keyDimensions",
+   "value": "43L x 23W x 35.5H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS148"
+  },
+  {
+   "id": "off-sunny-p8400",
+   "sku": "P8400",
+   "field": "shippingDimensions",
+   "value": "28.7L x 12.2W x 25.6H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AG148"
+  },
+  {
+   "id": "off-sunny-p8400",
+   "sku": "P8400",
+   "field": "inseam",
+   "value": "Min 27 in / Max 34 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DA148"
+  },
+  {
+   "id": "off-sunny-sf-rb4616s",
+   "sku": "SF-RB4616S",
+   "field": "productWeight",
+   "value": "26.8 kgs/59LBS",
+   "source": "spec sheet",
+   "evidence": "RB4616S spec sheet 20240605.xlsx / 6KG / B10"
+  },
+  {
+   "id": "off-sunny-sf-rb4616s",
+   "sku": "SF-RB4616S",
+   "field": "shippingWeight",
+   "value": "31.3 kgs/69LBS",
+   "source": "spec sheet",
+   "evidence": "RB4616S spec sheet 20240605.xlsx / 6KG / B9"
+  },
+  {
+   "id": "off-sunny-sf-rb4616s",
+   "sku": "SF-RB4616S",
+   "field": "keyDimensions",
+   "value": "1430*668*1090 mm/ 56.3*26.3*42.9 inches",
+   "source": "spec sheet",
+   "evidence": "RB4616S spec sheet 20240605.xlsx / 6KG / B12"
+  },
+  {
+   "id": "off-sunny-sf-rb4616s",
+   "sku": "SF-RB4616S",
+   "field": "shippingDimensions",
+   "value": "1320*250*585 mm/ 52*9.8*23inches",
+   "source": "spec sheet",
+   "evidence": "RB4616S spec sheet 20240605.xlsx / 6KG / B14"
+  },
+  {
+   "id": "off-sunny-sf-rb4616s",
+   "sku": "SF-RB4616S",
+   "field": "flywheelWeight",
+   "value": "3 kgs/6.6LBS",
+   "source": "spec sheet",
+   "evidence": "RB4616S spec sheet 20240605.xlsx / 6KG / B11"
+  },
+  {
+   "id": "off-sunny-sf-rb4616s",
+   "sku": "SF-RB4616S",
+   "field": "inseam",
+   "value": "780MM/30.7inches",
+   "source": "spec sheet",
+   "evidence": "RB4616S spec sheet 20240605.xlsx / 6KG / B62"
+  },
+  {
+   "id": "off-sunny-sf-rb4631",
+   "sku": "SF-RB4631",
+   "field": "productWeight",
+   "value": "91.1",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO552"
+  },
+  {
+   "id": "off-sunny-sf-rb4631",
+   "sku": "SF-RB4631",
+   "field": "shippingWeight",
+   "value": "103.2 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA552"
+  },
+  {
+   "id": "off-sunny-sf-rb4631",
+   "sku": "SF-RB4631",
+   "field": "keyDimensions",
+   "value": "51L x 25W x 52.5H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS552"
+  },
+  {
+   "id": "off-sunny-sf-rb4631",
+   "sku": "SF-RB4631",
+   "field": "shippingDimensions",
+   "value": "53.3L x 9.8W x 33.5H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AG552"
+  },
+  {
+   "id": "off-sunny-sf-rb4631",
+   "sku": "SF-RB4631",
+   "field": "inseam",
+   "value": "Min 27 in / Max 34 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DA552"
+  },
+  {
+   "id": "off-sunny-sf-rb4708",
+   "sku": "SF-RB4708",
+   "field": "productWeight",
+   "value": "41.3KGS/91.07LBS",
+   "source": "spec sheet",
+   "evidence": "SF-RB4708 Specification.docx / document / 3:2"
+  },
+  {
+   "id": "off-sunny-sf-rb4708",
+   "sku": "SF-RB4708",
+   "field": "shippingWeight",
+   "value": "46.3KGS/102.1LBS",
+   "source": "spec sheet",
+   "evidence": "SF-RB4708 Specification.docx / document / 5:2"
+  },
+  {
+   "id": "off-sunny-sf-rb4708",
+   "sku": "SF-RB4708",
+   "field": "keyDimensions",
+   "value": "159*63*138CM/62.60*24.80*54.33INCHES",
+   "source": "spec sheet",
+   "evidence": "SF-RB4708 Specification.docx / document / 4:2"
+  },
+  {
+   "id": "off-sunny-sf-rb4708",
+   "sku": "SF-RB4708",
+   "field": "shippingDimensions",
+   "value": "157*25*88CM/61.81*9.84*34.65 INCHES",
+   "source": "spec sheet",
+   "evidence": "SF-RB4708 Specification.docx / document / 6:2"
+  },
+  {
+   "id": "off-sunny-sf-rb4708",
+   "sku": "SF-RB4708",
+   "field": "flywheelWeight",
+   "value": "11 LBS",
+   "source": "spec sheet",
+   "evidence": "SF-RB4708 Specification.docx / document / 8:2"
+  },
+  {
+   "id": "off-sunny-sf-rb4708",
+   "sku": "SF-RB4708",
+   "field": "inseam",
+   "value": "Min 26.5 in / Max 34 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DA553"
+  },
+  {
+   "id": "off-sunny-sf-rb4850",
+   "sku": "SF-RB4850",
+   "field": "productWeight",
+   "value": "39.2 kgs/86.4 lbs",
+   "source": "spec sheet",
+   "evidence": "SF-RB4850 SPEC SHEET 06082023.xlsx / Sheet1 / B10"
+  },
+  {
+   "id": "off-sunny-sf-rb4850",
+   "sku": "SF-RB4850",
+   "field": "shippingWeight",
+   "value": "45.5 kgs/100.3 lbs",
+   "source": "spec sheet",
+   "evidence": "SF-RB4850 SPEC SHEET 06082023.xlsx / Sheet1 / B9"
+  },
+  {
+   "id": "off-sunny-sf-rb4850",
+   "sku": "SF-RB4850",
+   "field": "keyDimensions",
+   "value": "157*66*120CM 61.81*25.98*47.24INCHES",
+   "source": "spec sheet",
+   "evidence": "SF-RB4850 SPEC SHEET 06082023.xlsx / Sheet1 / B12"
+  },
+  {
+   "id": "off-sunny-sf-rb4850",
+   "sku": "SF-RB4850",
+   "field": "shippingDimensions",
+   "value": "156*25.5*65CM/ 61.4*10*25.6INCHES",
+   "source": "spec sheet",
+   "evidence": "SF-RB4850 SPEC SHEET 06082023.xlsx / Sheet1 / B14"
+  },
+  {
+   "id": "off-sunny-sf-rb4850",
+   "sku": "SF-RB4850",
+   "field": "flywheelWeight",
+   "value": "3KGS/6.6 LBS",
+   "source": "spec sheet",
+   "evidence": "SF-RB4850 SPEC SHEET 06082023.xlsx / Sheet1 / B11"
+  },
+  {
+   "id": "off-sunny-sf-rb4850",
+   "sku": "SF-RB4850",
+   "field": "inseam",
+   "value": "76CM/29.9INCHES",
+   "source": "spec sheet",
+   "evidence": "SF-RB4850 SPEC SHEET 06082023.xlsx / Sheet1 / B64"
+  },
+  {
+   "id": "off-sunny-sf-rb4876",
+   "sku": "SF-RB4876",
+   "field": "productWeight",
+   "value": "23.6KG/51.85LBS",
+   "source": "spec sheet",
+   "evidence": "Spec Sheet for SF-RB4876.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-rb4876",
+   "sku": "SF-RB4876",
+   "field": "shippingWeight",
+   "value": "27.8KG/61.16LBS",
+   "source": "spec sheet",
+   "evidence": "Spec Sheet for SF-RB4876.xlsx / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-sf-rb4876",
+   "sku": "SF-RB4876",
+   "field": "keyDimensions",
+   "value": "144*67.5*109CM 56.7*26.6*42.9INCHES",
+   "source": "spec sheet",
+   "evidence": "Spec Sheet for SF-RB4876.xlsx / Sheet1 / B8"
+  },
+  {
+   "id": "off-sunny-sf-rb4876",
+   "sku": "SF-RB4876",
+   "field": "shippingDimensions",
+   "value": "130.5*24.5*58CM 51.4*9.7*22.8INCHES",
+   "source": "spec sheet",
+   "evidence": "Spec Sheet for SF-RB4876.xlsx / Sheet1 / B9"
+  },
+  {
+   "id": "off-sunny-sf-rb4876",
+   "sku": "SF-RB4876",
+   "field": "flywheelWeight",
+   "value": "4.4LBS（2KG）",
+   "source": "spec sheet",
+   "evidence": "Spec Sheet for SF-RB4876.xlsx / Sheet1 / B7"
+  },
+  {
+   "id": "off-sunny-sf-rb4876",
+   "sku": "SF-RB4876",
+   "field": "inseam",
+   "value": "66CM/26INCHES",
+   "source": "spec sheet",
+   "evidence": "Spec Sheet for SF-RB4876.xlsx / Sheet1 / B48"
+  },
+  {
+   "id": "off-sunny-sf-rb4905",
+   "sku": "SF-RB4905",
+   "field": "productWeight",
+   "value": "57.7 LBS",
+   "source": "spec sheet",
+   "evidence": "SF-RB4905 Recumbent Bike - Spec Sheet - 9.23.2020  Update N.W, G.W and Carton size.xlsx / Sheet1 / B4"
+  },
+  {
+   "id": "off-sunny-sf-rb4905",
+   "sku": "SF-RB4905",
+   "field": "shippingWeight",
+   "value": "66.3 LBS",
+   "source": "spec sheet",
+   "evidence": "SF-RB4905 Recumbent Bike - Spec Sheet - 9.23.2020  Update N.W, G.W and Carton size.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-rb4905",
+   "sku": "SF-RB4905",
+   "field": "keyDimensions",
+   "value": "56 x 25 x 41 (in.) in",
+   "source": "spec sheet",
+   "evidence": "SF-RB4905 Recumbent Bike - Spec Sheet - 9.23.2020  Update N.W, G.W and Carton size.xlsx / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-sf-rb4905",
+   "sku": "SF-RB4905",
+   "field": "shippingDimensions",
+   "value": "46.7 x 9.6x 22.6 (in.) in",
+   "source": "spec sheet",
+   "evidence": "SF-RB4905 Recumbent Bike - Spec Sheet - 9.23.2020  Update N.W, G.W and Carton size.xlsx / Sheet1 / B7"
+  },
+  {
+   "id": "off-sunny-sf-rb4905",
+   "sku": "SF-RB4905",
+   "field": "flywheelWeight",
+   "value": "6.6 lb",
+   "source": "spec sheet",
+   "evidence": "SF-RB4905 Recumbent Bike - Spec Sheet - 9.23.2020  Update N.W, G.W and Carton size.xlsx / Sheet1 / B11"
+  },
+  {
+   "id": "off-sunny-sf-rb4905",
+   "sku": "SF-RB4905",
+   "field": "inseam",
+   "value": "30 in.",
+   "source": "spec sheet",
+   "evidence": "SF-RB4905 Recumbent Bike - Spec Sheet - 9.23.2020  Update N.W, G.W and Carton size.xlsx / Sheet1 / B15"
+  },
+  {
+   "id": "off-sunny-sf-rb4936",
+   "sku": "SF-RB4936",
+   "field": "productWeight",
+   "value": "31.2kg / 68.7lbs",
+   "source": "spec sheet",
+   "evidence": "SF-RB4936 Spec Sheet 1.8.2020.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-rb4936",
+   "sku": "SF-RB4936",
+   "field": "shippingWeight",
+   "value": "37.8kg / 83.3lbs",
+   "source": "spec sheet",
+   "evidence": "SF-RB4936 Spec Sheet 1.8.2020.xlsx / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-sf-rb4936",
+   "sku": "SF-RB4936",
+   "field": "keyDimensions",
+   "value": "1567 x 670 x 1180 mm 61.7 x 26.4 x 46.5 inch",
+   "source": "spec sheet",
+   "evidence": "SF-RB4936 Spec Sheet 1.8.2020.xlsx / Sheet1 / B8"
+  },
+  {
+   "id": "off-sunny-sf-rb4936",
+   "sku": "SF-RB4936",
+   "field": "shippingDimensions",
+   "value": "1400 x 285 x 580mm 55.2 x 11.2 x 22.8 inch",
+   "source": "spec sheet",
+   "evidence": "SF-RB4936 Spec Sheet 1.8.2020.xlsx / Sheet1 / B10"
+  },
+  {
+   "id": "off-sunny-sf-rb4936",
+   "sku": "SF-RB4936",
+   "field": "flywheelWeight",
+   "value": "2kg / 4.4 lbs",
+   "source": "spec sheet",
+   "evidence": "SF-RB4936 Spec Sheet 1.8.2020.xlsx / Sheet1 / B7"
+  },
+  {
+   "id": "off-sunny-sf-rb4936",
+   "sku": "SF-RB4936",
+   "field": "inseam",
+   "value": "470 mm /18.5 inch",
+   "source": "spec sheet",
+   "evidence": "SF-RB4936 Spec Sheet 1.8.2020.xlsx / Sheet1 / B48"
+  },
+  {
+   "id": "off-sunny-sf-rb4953",
+   "sku": "SF-RB4953",
+   "field": "productWeight",
+   "value": "74 lb",
+   "source": "spec sheet",
+   "evidence": "Specification sheet for SF-RB4953 09292019.xlsx / Sheet1 / B4"
+  },
+  {
+   "id": "off-sunny-sf-rb4953",
+   "sku": "SF-RB4953",
+   "field": "shippingWeight",
+   "value": "85 lb",
+   "source": "spec sheet",
+   "evidence": "Specification sheet for SF-RB4953 09292019.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-rb4953",
+   "sku": "SF-RB4953",
+   "field": "keyDimensions",
+   "value": "57.5*24.8*45.3 in",
+   "source": "spec sheet",
+   "evidence": "Specification sheet for SF-RB4953 09292019.xlsx / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-sf-rb4953",
+   "sku": "SF-RB4953",
+   "field": "shippingDimensions",
+   "value": "54.5*10.8*26.8 in",
+   "source": "spec sheet",
+   "evidence": "Specification sheet for SF-RB4953 09292019.xlsx / Sheet1 / B7"
+  },
+  {
+   "id": "off-sunny-sf-rb4953",
+   "sku": "SF-RB4953",
+   "field": "flywheelWeight",
+   "value": "6.6 lb",
+   "source": "spec sheet",
+   "evidence": "Specification sheet for SF-RB4953 09292019.xlsx / Sheet1 / B12"
+  },
+  {
+   "id": "off-sunny-sf-rb4953",
+   "sku": "SF-RB4953",
+   "field": "inseam",
+   "value": "27.5 in",
+   "source": "spec sheet",
+   "evidence": "Specification sheet for SF-RB4953 09292019.xlsx / Sheet1 / B18"
+  },
+  {
+   "id": "off-sunny-sf-rbd4703",
+   "sku": "SF-RBD4703",
+   "field": "productWeight",
+   "value": "94.8 LBS",
+   "source": "spec sheet",
+   "evidence": "SF-RBD4703 Specification.docx / document / 3:2"
+  },
+  {
+   "id": "off-sunny-sf-rbd4703",
+   "sku": "SF-RBD4703",
+   "field": "shippingWeight",
+   "value": "105.8 LBS",
+   "source": "spec sheet",
+   "evidence": "SF-RBD4703 Specification.docx / document / 5:2"
+  },
+  {
+   "id": "off-sunny-sf-rbd4703",
+   "sku": "SF-RBD4703",
+   "field": "keyDimensions",
+   "value": "52.8*23.6*53.5 INCHES",
+   "source": "spec sheet",
+   "evidence": "SF-RBD4703 Specification.docx / document / 4:2"
+  },
+  {
+   "id": "off-sunny-sf-rbd4703",
+   "sku": "SF-RBD4703",
+   "field": "shippingDimensions",
+   "value": "53.3*11*34.6 INCHES",
+   "source": "spec sheet",
+   "evidence": "SF-RBD4703 Specification.docx / document / 6:2"
+  },
+  {
+   "id": "off-sunny-sf-rbd4703",
+   "sku": "SF-RBD4703",
+   "field": "flywheelWeight",
+   "value": "11 LBS",
+   "source": "spec sheet",
+   "evidence": "SF-RBD4703 Specification.docx / document / 8:2"
+  },
+  {
+   "id": "off-sunny-sf-rbd4703",
+   "sku": "SF-RBD4703",
+   "field": "inseam",
+   "value": "Min 26 in / Max 35 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DA569"
+  },
+  {
+   "id": "off-sunny-sf-b020029",
+   "sku": "SF-B020029",
+   "field": "productWeight",
+   "value": "8kg/17.6lbs",
+   "source": "spec sheet",
+   "evidence": "SF-B020029  spec sheet 08.22.2022.xlsx / Sheet1 / B7"
+  },
+  {
+   "id": "off-sunny-sf-b020029",
+   "sku": "SF-B020029",
+   "field": "shippingWeight",
+   "value": "9.6kg/21.1lbs",
+   "source": "spec sheet",
+   "evidence": "SF-B020029  spec sheet 08.22.2022.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-b020029",
+   "sku": "SF-B020029",
+   "field": "keyDimensions",
+   "value": "548*475*367mm 21.6*18.7*14.4 inches",
+   "source": "spec sheet",
+   "evidence": "SF-B020029  spec sheet 08.22.2022.xlsx / Sheet1 / B9"
+  },
+  {
+   "id": "off-sunny-sf-b020029",
+   "sku": "SF-B020029",
+   "field": "shippingDimensions",
+   "value": "560*240*415mm 22x9.5x16.3 inches",
+   "source": "spec sheet",
+   "evidence": "SF-B020029  spec sheet 08.22.2022.xlsx / Sheet1 / B11"
+  },
+  {
+   "id": "off-sunny-sf-b020029",
+   "sku": "SF-B020029",
+   "field": "qFactor",
+   "value": "186mm/7.3inch",
+   "source": "spec sheet",
+   "evidence": "SF-B020029  spec sheet 08.22.2022.xlsx / Sheet1 / B43"
+  },
+  {
+   "id": "off-sunny-sf-b2729",
+   "sku": "SF-B2729",
+   "field": "productWeight",
+   "value": "99 lbs",
+   "source": "spec sheet",
+   "evidence": "SF-B2729 Spec.docx / document / 3:2"
+  },
+  {
+   "id": "off-sunny-sf-b2729",
+   "sku": "SF-B2729",
+   "field": "shippingWeight",
+   "value": "113 LBS",
+   "source": "spec sheet",
+   "evidence": "SF-B2729 Spec.docx / document / 5:2"
+  },
+  {
+   "id": "off-sunny-sf-b2729",
+   "sku": "SF-B2729",
+   "field": "keyDimensions",
+   "value": "55x23.5x49” in",
+   "source": "spec sheet",
+   "evidence": "SF-B2729 Spec.docx / document / 4:2"
+  },
+  {
+   "id": "off-sunny-sf-b2729",
+   "sku": "SF-B2729",
+   "field": "shippingDimensions",
+   "value": "56 x 11.5 x 35 inches",
+   "source": "spec sheet",
+   "evidence": "SF-B2729 Spec.docx / document / 6:2"
+  },
+  {
+   "id": "off-sunny-sf-b2729",
+   "sku": "SF-B2729",
+   "field": "qFactor",
+   "value": "203mm",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DB278"
+  },
+  {
+   "id": "off-sunny-sf-b2729",
+   "sku": "SF-B2729",
+   "field": "inseam",
+   "value": "Min 28 in / Max 41 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DA278"
+  },
+  {
+   "id": "off-sunny-sf-b2916",
+   "sku": "SF-B2916",
+   "field": "productWeight",
+   "value": "60.62LBS",
+   "source": "spec sheet",
+   "evidence": "SF-B2916 Specification 04032025.xlsx / Sheet1 / B4"
+  },
+  {
+   "id": "off-sunny-sf-b2916",
+   "sku": "SF-B2916",
+   "field": "shippingWeight",
+   "value": "68LBS",
+   "source": "spec sheet",
+   "evidence": "SF-B2916 Specification 04032025.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-b2916",
+   "sku": "SF-B2916",
+   "field": "keyDimensions",
+   "value": "43.7 X 23.23 X 50.5INCHES",
+   "source": "spec sheet",
+   "evidence": "SF-B2916 Specification 04032025.xlsx / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-sf-b2916",
+   "sku": "SF-B2916",
+   "field": "shippingDimensions",
+   "value": "41.73 X 10.04 X 27.56 INCHES",
+   "source": "spec sheet",
+   "evidence": "SF-B2916 Specification 04032025.xlsx / Sheet1 / B7"
+  },
+  {
+   "id": "off-sunny-sf-b2916",
+   "sku": "SF-B2916",
+   "field": "inseam",
+   "value": "MIN：68cm/27inch",
+   "source": "spec sheet",
+   "evidence": "SF-B2916 Specification 04032025.xlsx / Sheet1 / B17"
+  },
+  {
+   "id": "off-sunny-p8150",
+   "sku": "P8150",
+   "field": "productWeight",
+   "value": "104.7",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO145"
+  },
+  {
+   "id": "off-sunny-p8150",
+   "sku": "P8150",
+   "field": "shippingWeight",
+   "value": "119.1 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA145"
+  },
+  {
+   "id": "off-sunny-p8150",
+   "sku": "P8150",
+   "field": "keyDimensions",
+   "value": "47L x 20W x 47H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS145"
+  },
+  {
+   "id": "off-sunny-p8150",
+   "sku": "P8150",
+   "field": "shippingDimensions",
+   "value": "42.1L x 11W x 34.8H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AG145"
+  },
+  {
+   "id": "off-sunny-p8150",
+   "sku": "P8150",
+   "field": "qFactor",
+   "value": "177mm",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DB145"
+  },
+  {
+   "id": "off-sunny-p8150",
+   "sku": "P8150",
+   "field": "flywheelWeight",
+   "value": "40 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / BQ145"
+  },
+  {
+   "id": "off-sunny-p8150",
+   "sku": "P8150",
+   "field": "inseam",
+   "value": "Min 28 in / Max 39 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DA145"
+  },
+  {
+   "id": "off-sunny-sf-b1203",
+   "sku": "SF-B1203",
+   "field": "productWeight",
+   "value": "28.3KG/62.4LBS",
+   "source": "spec sheet",
+   "evidence": "SF-B1203 updated spec sheet 03152023.xlsx / Sheet1 / B10"
+  },
+  {
+   "id": "off-sunny-sf-b1203",
+   "sku": "SF-B1203",
+   "field": "shippingWeight",
+   "value": "30.8KG/68LBS",
+   "source": "spec sheet",
+   "evidence": "SF-B1203 updated spec sheet 03152023.xlsx / Sheet1 / B9"
+  },
+  {
+   "id": "off-sunny-sf-b1203",
+   "sku": "SF-B1203",
+   "field": "keyDimensions",
+   "value": "1047*592*1252 MM 41.2*23.3*49.3 INCH",
+   "source": "spec sheet",
+   "evidence": "SF-B1203 updated spec sheet 03152023.xlsx / Sheet1 / B12"
+  },
+  {
+   "id": "off-sunny-sf-b1203",
+   "sku": "SF-B1203",
+   "field": "shippingDimensions",
+   "value": "96*22.6*67.5 CM 37.8*8.9*26.6 INCH",
+   "source": "spec sheet",
+   "evidence": "SF-B1203 updated spec sheet 03152023.xlsx / Sheet1 / B14"
+  },
+  {
+   "id": "off-sunny-sf-b1203",
+   "sku": "SF-B1203",
+   "field": "qFactor",
+   "value": "207MM/8.1 INCH",
+   "source": "spec sheet",
+   "evidence": "SF-B1203 updated spec sheet 03152023.xlsx / Sheet1 / B48"
+  },
+  {
+   "id": "off-sunny-sf-b1203",
+   "sku": "SF-B1203",
+   "field": "flywheelWeight",
+   "value": "10KG/22LBS",
+   "source": "spec sheet",
+   "evidence": "SF-B1203 updated spec sheet 03152023.xlsx / Sheet1 / B11"
+  },
+  {
+   "id": "off-sunny-sf-b1203",
+   "sku": "SF-B1203",
+   "field": "inseam",
+   "value": "MIN:694MM/27.3INCH; MAX:865MM/34.1INCH",
+   "source": "spec sheet",
+   "evidence": "SF-B1203 updated spec sheet 03152023.xlsx / Sheet1 / B47"
+  },
+  {
+   "id": "off-sunny-sf-b121021",
+   "sku": "SF-B121021",
+   "field": "productWeight",
+   "value": "56.6kg/125.7lbs",
+   "source": "spec sheet",
+   "evidence": "SF-B121021 SpecSheet 2021.10.14.xlsx / Sheet1 / B7"
+  },
+  {
+   "id": "off-sunny-sf-b121021",
+   "sku": "SF-B121021",
+   "field": "shippingWeight",
+   "value": "62.6kg/139lbs",
+   "source": "spec sheet",
+   "evidence": "SF-B121021 SpecSheet 2021.10.14.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-b121021",
+   "sku": "SF-B121021",
+   "field": "keyDimensions",
+   "value": "129*58*121cm/ 51*23*48 INCHES",
+   "source": "spec sheet",
+   "evidence": "SF-B121021 SpecSheet 2021.10.14.xlsx / Sheet1 / B9"
+  },
+  {
+   "id": "off-sunny-sf-b121021",
+   "sku": "SF-B121021",
+   "field": "shippingDimensions",
+   "value": "105.5*25*88cm/41.5*9.8*34.7 INCH",
+   "source": "spec sheet",
+   "evidence": "SF-B121021 SpecSheet 2021.10.14.xlsx / Sheet1 / B11"
+  },
+  {
+   "id": "off-sunny-sf-b121021",
+   "sku": "SF-B121021",
+   "field": "qFactor",
+   "value": "190mm/7.5inch",
+   "source": "spec sheet",
+   "evidence": "SF-B121021 SpecSheet 2021.10.14.xlsx / Sheet1 / B43"
+  },
+  {
+   "id": "off-sunny-sf-b121021",
+   "sku": "SF-B121021",
+   "field": "flywheelWeight",
+   "value": "20KG/44.1LBS",
+   "source": "spec sheet",
+   "evidence": "SF-B121021 SpecSheet 2021.10.14.xlsx / Sheet1 / B8"
+  },
+  {
+   "id": "off-sunny-sf-b121021",
+   "sku": "SF-B121021",
+   "field": "inseam",
+   "value": "75 cm/29.5 inch",
+   "source": "spec sheet",
+   "evidence": "SF-B121021 SpecSheet 2021.10.14.xlsx / Sheet1 / B42"
+  },
+  {
+   "id": "off-sunny-sf-b122055",
+   "sku": "SF-B122055",
+   "field": "productWeight",
+   "value": "26.01KG/57.3 LBS",
+   "source": "spec sheet",
+   "evidence": "Spec Sheet for SF-B122055.xlsx / Sheet1 / B7"
+  },
+  {
+   "id": "off-sunny-sf-b122055",
+   "sku": "SF-B122055",
+   "field": "shippingWeight",
+   "value": "30.04KG/66.2LBS",
+   "source": "spec sheet",
+   "evidence": "Spec Sheet for SF-B122055.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-b122055",
+   "sku": "SF-B122055",
+   "field": "keyDimensions",
+   "value": "1175*545*1245mm 46.3*21.5*49INCH",
+   "source": "spec sheet",
+   "evidence": "Spec Sheet for SF-B122055.xlsx / Sheet1 / B9"
+  },
+  {
+   "id": "off-sunny-sf-b122055",
+   "sku": "SF-B122055",
+   "field": "shippingDimensions",
+   "value": "970*190*770mm/ 38.2*7.5*30.3INCH",
+   "source": "spec sheet",
+   "evidence": "Spec Sheet for SF-B122055.xlsx / Sheet1 / B12"
+  },
+  {
+   "id": "off-sunny-sf-b122055",
+   "sku": "SF-B122055",
+   "field": "qFactor",
+   "value": "184mm/7.2 INCH",
+   "source": "spec sheet",
+   "evidence": "Spec Sheet for SF-B122055.xlsx / Sheet1 / B43"
+  },
+  {
+   "id": "off-sunny-sf-b122055",
+   "sku": "SF-B122055",
+   "field": "flywheelWeight",
+   "value": "6KGS/13.2 LBS",
+   "source": "spec sheet",
+   "evidence": "Spec Sheet for SF-B122055.xlsx / Sheet1 / B8"
+  },
+  {
+   "id": "off-sunny-sf-b122055",
+   "sku": "SF-B122055",
+   "field": "inseam",
+   "value": "740MM/29.1INCH",
+   "source": "spec sheet",
+   "evidence": "Spec Sheet for SF-B122055.xlsx / Sheet1 / B42"
+  },
+  {
+   "id": "off-sunny-sf-b1509c",
+   "sku": "SF-B1509C",
+   "field": "productWeight",
+   "value": "105.3",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO233"
+  },
+  {
+   "id": "off-sunny-sf-b1509c",
+   "sku": "SF-B1509C",
+   "field": "shippingWeight",
+   "value": "118.6 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA233"
+  },
+  {
+   "id": "off-sunny-sf-b1509c",
+   "sku": "SF-B1509C",
+   "field": "keyDimensions",
+   "value": "48L x 20W x 47.5H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS233"
+  },
+  {
+   "id": "off-sunny-sf-b1509c",
+   "sku": "SF-B1509C",
+   "field": "shippingDimensions",
+   "value": "42.1L x 11W x 34.8H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AG233"
+  },
+  {
+   "id": "off-sunny-sf-b1509c",
+   "sku": "SF-B1509C",
+   "field": "qFactor",
+   "value": "203 mm",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DB233"
+  },
+  {
+   "id": "off-sunny-sf-b1509c",
+   "sku": "SF-B1509C",
+   "field": "flywheelWeight",
+   "value": "40 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / BQ233"
+  },
+  {
+   "id": "off-sunny-sf-b1509c",
+   "sku": "SF-B1509C",
+   "field": "inseam",
+   "value": "Min 27 in / Max 38 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DA233"
+  },
+  {
+   "id": "off-sunny-sf-b1711",
+   "sku": "SF-B1711",
+   "field": "productWeight",
+   "value": "117 lb",
+   "source": "spec sheet",
+   "evidence": "B1711 BIKE SPEC 20191018.xlsx / Sheet1 / B4"
+  },
+  {
+   "id": "off-sunny-sf-b1711",
+   "sku": "SF-B1711",
+   "field": "shippingWeight",
+   "value": "131 LB",
+   "source": "spec sheet",
+   "evidence": "B1711 BIKE SPEC 20191018.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-b1711",
+   "sku": "SF-B1711",
+   "field": "keyDimensions",
+   "value": "49 x 22 x 45.5 Inches",
+   "source": "spec sheet",
+   "evidence": "B1711 BIKE SPEC 20191018.xlsx / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-sf-b1711",
+   "sku": "SF-B1711",
+   "field": "shippingDimensions",
+   "value": "45.5 x 10 x 34.5 Inches",
+   "source": "spec sheet",
+   "evidence": "B1711 BIKE SPEC 20191018.xlsx / Sheet1 / B7"
+  },
+  {
+   "id": "off-sunny-sf-b1711",
+   "sku": "SF-B1711",
+   "field": "qFactor",
+   "value": "203mm",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DB236"
+  },
+  {
+   "id": "off-sunny-sf-b1711",
+   "sku": "SF-B1711",
+   "field": "flywheelWeight",
+   "value": "44 lb",
+   "source": "spec sheet",
+   "evidence": "B1711 BIKE SPEC 20191018.xlsx / Sheet1 / B13"
+  },
+  {
+   "id": "off-sunny-sf-b1711",
+   "sku": "SF-B1711",
+   "field": "inseam",
+   "value": "27",
+   "source": "spec sheet",
+   "evidence": "B1711 BIKE SPEC 20191018.xlsx / Sheet1 / B17"
+  },
+  {
+   "id": "off-sunny-sf-b1852",
+   "sku": "SF-B1852",
+   "field": "productWeight",
+   "value": "57.9KG/127.6LBS",
+   "source": "spec sheet",
+   "evidence": "B1852 Spec Sheet 2021.6.7 update.xlsx / Sheet1 / B7"
+  },
+  {
+   "id": "off-sunny-sf-b1852",
+   "sku": "SF-B1852",
+   "field": "shippingWeight",
+   "value": "65.3KG/144LBS",
+   "source": "spec sheet",
+   "evidence": "B1852 Spec Sheet 2021.6.7 update.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-b1852",
+   "sku": "SF-B1852",
+   "field": "keyDimensions",
+   "value": "1430mm*555mm*1270mm/56.3*21.9*50 INCH",
+   "source": "spec sheet",
+   "evidence": "B1852 Spec Sheet 2021.6.7 update.xlsx / Sheet1 / B9"
+  },
+  {
+   "id": "off-sunny-sf-b1852",
+   "sku": "SF-B1852",
+   "field": "shippingDimensions",
+   "value": "128*250*88.5CM/ 50.4*9.8*34.8 INCHES",
+   "source": "spec sheet",
+   "evidence": "B1852 Spec Sheet 2021.6.7 update.xlsx / Sheet1 / B11"
+  },
+  {
+   "id": "off-sunny-sf-b1852",
+   "sku": "SF-B1852",
+   "field": "qFactor",
+   "value": "208mm/8.2 INCH",
+   "source": "spec sheet",
+   "evidence": "B1852 Spec Sheet 2021.6.7 update.xlsx / Sheet1 / B42"
+  },
+  {
+   "id": "off-sunny-sf-b1852",
+   "sku": "SF-B1852",
+   "field": "flywheelWeight",
+   "value": "18KG/39.7LBS",
+   "source": "spec sheet",
+   "evidence": "B1852 Spec Sheet 2021.6.7 update.xlsx / Sheet1 / B8"
+  },
+  {
+   "id": "off-sunny-sf-b1852",
+   "sku": "SF-B1852",
+   "field": "inseam",
+   "value": "715mm/28.1 INCHES",
+   "source": "spec sheet",
+   "evidence": "B1852 Spec Sheet 2021.6.7 update.xlsx / Sheet1 / B41"
+  },
+  {
+   "id": "off-sunny-sf-b1877smart",
+   "sku": "SF-B1877SMART",
+   "field": "productWeight",
+   "value": "38.1KGS/84LBS",
+   "source": "spec sheet",
+   "evidence": "SF-B1877 SMART Spec Sheet 2022.04.08.xlsx / SF-B1877 SMART / B7"
+  },
+  {
+   "id": "off-sunny-sf-b1877smart",
+   "sku": "SF-B1877SMART",
+   "field": "shippingWeight",
+   "value": "43.8KGS/96.6LBS",
+   "source": "spec sheet",
+   "evidence": "SF-B1877 SMART Spec Sheet 2022.04.08.xlsx / SF-B1877 SMART / B6"
+  },
+  {
+   "id": "off-sunny-sf-b1877smart",
+   "sku": "SF-B1877SMART",
+   "field": "keyDimensions",
+   "value": "1240*510*1235MM 48.8*20.1*48.6INCHES seat to handlebar Distance Min：37cm Distance Max：49cm",
+   "source": "spec sheet",
+   "evidence": "SF-B1877 SMART Spec Sheet 2022.04.08.xlsx / SF-B1877 SMART / B9"
+  },
+  {
+   "id": "off-sunny-sf-b1877smart",
+   "sku": "SF-B1877SMART",
+   "field": "shippingDimensions",
+   "value": "1035*240*880MM 40.7*9.4*34.6INCHES",
+   "source": "spec sheet",
+   "evidence": "SF-B1877 SMART Spec Sheet 2022.04.08.xlsx / SF-B1877 SMART / B11"
+  },
+  {
+   "id": "off-sunny-sf-b1877smart",
+   "sku": "SF-B1877SMART",
+   "field": "qFactor",
+   "value": "206mm",
+   "source": "spec sheet",
+   "evidence": "SF-B1877 SMART Spec Sheet 2022.04.08.xlsx / SF-B1877 SMART / B42"
+  },
+  {
+   "id": "off-sunny-sf-b1877smart",
+   "sku": "SF-B1877SMART",
+   "field": "flywheelWeight",
+   "value": "13KGS/28.6LBS",
+   "source": "spec sheet",
+   "evidence": "SF-B1877 SMART Spec Sheet 2022.04.08.xlsx / SF-B1877 SMART / B8"
+  },
+  {
+   "id": "off-sunny-sf-b1877smart",
+   "sku": "SF-B1877SMART",
+   "field": "inseam",
+   "value": "695mm",
+   "source": "spec sheet",
+   "evidence": "SF-B1877 SMART Spec Sheet 2022.04.08.xlsx / SF-B1877 SMART / B41"
+  },
+  {
+   "id": "off-sunny-sf-b1964",
+   "sku": "SF-B1964",
+   "field": "productWeight",
+   "value": "47.8kg/105.4lbs",
+   "source": "spec sheet",
+   "evidence": "B1964 SpecSheet 2021.6.7 updated.xlsx / Sheet1 / B7"
+  },
+  {
+   "id": "off-sunny-sf-b1964",
+   "sku": "SF-B1964",
+   "field": "shippingWeight",
+   "value": "54.2kg/119.5lbs",
+   "source": "spec sheet",
+   "evidence": "B1964 SpecSheet 2021.6.7 updated.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-b1964",
+   "sku": "SF-B1964",
+   "field": "keyDimensions",
+   "value": "1230*510*1250mm / 48.4*20.1*49.2 INCH",
+   "source": "spec sheet",
+   "evidence": "B1964 SpecSheet 2021.6.7 updated.xlsx / Sheet1 / B9"
+  },
+  {
+   "id": "off-sunny-sf-b1964",
+   "sku": "SF-B1964",
+   "field": "shippingDimensions",
+   "value": "1030*250*880mm/ 41*10*35 INCH",
+   "source": "spec sheet",
+   "evidence": "B1964 SpecSheet 2021.6.7 updated.xlsx / Sheet1 / B11"
+  },
+  {
+   "id": "off-sunny-sf-b1964",
+   "sku": "SF-B1964",
+   "field": "qFactor",
+   "value": "212mm/8.3 INCH",
+   "source": "spec sheet",
+   "evidence": "B1964 SpecSheet 2021.6.7 updated.xlsx / Sheet1 / B42"
+  },
+  {
+   "id": "off-sunny-sf-b1964",
+   "sku": "SF-B1964",
+   "field": "flywheelWeight",
+   "value": "18KG/39.7LBS",
+   "source": "spec sheet",
+   "evidence": "B1964 SpecSheet 2021.6.7 updated.xlsx / Sheet1 / B8"
+  },
+  {
+   "id": "off-sunny-sf-b1964",
+   "sku": "SF-B1964",
+   "field": "inseam",
+   "value": "695mm/27.4inch",
+   "source": "spec sheet",
+   "evidence": "B1964 SpecSheet 2021.6.7 updated.xlsx / Sheet1 / B41"
+  },
+  {
+   "id": "off-sunny-sf-b1970",
+   "sku": "SF-B1970",
+   "field": "productWeight",
+   "value": "30.6KGS/67.5LBS",
+   "source": "spec sheet",
+   "evidence": "SF-B1970 Spec.sheet 2021.3.24 update.xlsx / Sheet1 / B7"
+  },
+  {
+   "id": "off-sunny-sf-b1970",
+   "sku": "SF-B1970",
+   "field": "shippingWeight",
+   "value": "36.3KGS/80.1LBS",
+   "source": "spec sheet",
+   "evidence": "SF-B1970 Spec.sheet 2021.3.24 update.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-b1970",
+   "sku": "SF-B1970",
+   "field": "keyDimensions",
+   "value": "1205*605*1300 MM 47.4*23.8*51.2 INCH",
+   "source": "spec sheet",
+   "evidence": "SF-B1970 Spec.sheet 2021.3.24 update.xlsx / Sheet1 / B9"
+  },
+  {
+   "id": "off-sunny-sf-b1970",
+   "sku": "SF-B1970",
+   "field": "shippingDimensions",
+   "value": "1070*250*865 MM 42.1*9.8*34.1 INCH",
+   "source": "spec sheet",
+   "evidence": "SF-B1970 Spec.sheet 2021.3.24 update.xlsx / Sheet1 / B11"
+  },
+  {
+   "id": "off-sunny-sf-b1970",
+   "sku": "SF-B1970",
+   "field": "qFactor",
+   "value": "190mm",
+   "source": "spec sheet",
+   "evidence": "SF-B1970 Spec.sheet 2021.3.24 update.xlsx / Sheet1 / B42"
+  },
+  {
+   "id": "off-sunny-sf-b1970",
+   "sku": "SF-B1970",
+   "field": "flywheelWeight",
+   "value": "8KG，Φ420*36mm",
+   "source": "spec sheet",
+   "evidence": "SF-B1970 Spec.sheet 2021.3.24 update.xlsx / Sheet1 / B8"
+  },
+  {
+   "id": "off-sunny-sf-b1970",
+   "sku": "SF-B1970",
+   "field": "inseam",
+   "value": "Min 28 in / Max 38 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DA252"
+  },
+  {
+   "id": "off-sunny-sf-b901",
+   "sku": "SF-B901",
+   "field": "productWeight",
+   "value": "102",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO287"
+  },
+  {
+   "id": "off-sunny-sf-b901",
+   "sku": "SF-B901",
+   "field": "shippingWeight",
+   "value": "114.7 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA287"
+  },
+  {
+   "id": "off-sunny-sf-b901",
+   "sku": "SF-B901",
+   "field": "keyDimensions",
+   "value": "46.5L x 18W x 46H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS287"
+  },
+  {
+   "id": "off-sunny-sf-b901",
+   "sku": "SF-B901",
+   "field": "shippingDimensions",
+   "value": "41L x 10W x 34.8H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AG287"
+  },
+  {
+   "id": "off-sunny-sf-b901",
+   "sku": "SF-B901",
+   "field": "qFactor",
+   "value": "152.4mm",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DB287"
+  },
+  {
+   "id": "off-sunny-sf-b901",
+   "sku": "SF-B901",
+   "field": "flywheelWeight",
+   "value": "40 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / BQ287"
+  },
+  {
+   "id": "off-sunny-sf-b901",
+   "sku": "SF-B901",
+   "field": "inseam",
+   "value": "Min 30 / Max 42 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DA287"
+  },
+  {
+   "id": "off-sunny-sf-e3959",
+   "sku": "SF-E3959",
+   "field": "productWeight",
+   "value": "21.4LBS 9.7KG",
+   "source": "spec sheet",
+   "evidence": "sf-e3959 spec sheet  update 20211117.xlsx / Sheet1 / B7"
+  },
+  {
+   "id": "off-sunny-sf-e3959",
+   "sku": "SF-E3959",
+   "field": "shippingWeight",
+   "value": "26.2LBS 11.9KG",
+   "source": "spec sheet",
+   "evidence": "sf-e3959 spec sheet  update 20211117.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-e3959",
+   "sku": "SF-E3959",
+   "field": "keyDimensions",
+   "value": "22.8 * 18.4 * 10.6 Inches （57.9 * 46.8 * 26.8cm)",
+   "source": "spec sheet",
+   "evidence": "sf-e3959 spec sheet  update 20211117.xlsx / Sheet1 / B9"
+  },
+  {
+   "id": "off-sunny-sf-e3988",
+   "sku": "SF-E3988",
+   "field": "productWeight",
+   "value": "14.8KGS/32.6LBS",
+   "source": "spec sheet",
+   "evidence": "SF-E3988 Spec Sheet - 05282020.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-e3988",
+   "sku": "SF-E3988",
+   "field": "shippingWeight",
+   "value": "17.8KGS/39.3LBS",
+   "source": "spec sheet",
+   "evidence": "SF-E3988 Spec Sheet - 05282020.xlsx / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-sf-e3988",
+   "sku": "SF-E3988",
+   "field": "keyDimensions",
+   "value": "L851 x W469 x H1299MM/ L33.5 x W18.5 x H51.75 INCHES",
+   "source": "spec sheet",
+   "evidence": "SF-E3988 Spec Sheet - 05282020.xlsx / Sheet1 / B8"
+  },
+  {
+   "id": "off-sunny-sf-e3804",
+   "sku": "SF-E3804",
+   "field": "productWeight",
+   "value": "81.42",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO420"
+  },
+  {
+   "id": "off-sunny-sf-e3804",
+   "sku": "SF-E3804",
+   "field": "shippingWeight",
+   "value": "93.04 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA420"
+  },
+  {
+   "id": "off-sunny-sf-e3804",
+   "sku": "SF-E3804",
+   "field": "keyDimensions",
+   "value": "43L x 24W x 62.5H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS420"
+  },
+  {
+   "id": "off-sunny-sf-e3862",
+   "sku": "SF-E3862",
+   "field": "productWeight",
+   "value": "125.7 lb",
+   "source": "spec sheet",
+   "evidence": "SF-E3862 specification sheet.xlsx / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-sf-e3862",
+   "sku": "SF-E3862",
+   "field": "shippingWeight",
+   "value": "145.5 lb",
+   "source": "spec sheet",
+   "evidence": "SF-E3862 specification sheet.xlsx / Sheet1 / B7"
+  },
+  {
+   "id": "off-sunny-sf-e3862",
+   "sku": "SF-E3862",
+   "field": "keyDimensions",
+   "value": "60.63x26.77x64.57 in",
+   "source": "spec sheet",
+   "evidence": "SF-E3862 specification sheet.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-e3903",
+   "sku": "SF-E3903",
+   "field": "productWeight",
+   "value": "64.6 LBS/29.3KG",
+   "source": "spec sheet",
+   "evidence": "SF-E3903 Spec Sheet 10.10.2020.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-e3903",
+   "sku": "SF-E3903",
+   "field": "shippingWeight",
+   "value": "72.5 LBS/32.9kg",
+   "source": "spec sheet",
+   "evidence": "SF-E3903 Spec Sheet 10.10.2020.xlsx / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-sf-e3903",
+   "sku": "SF-E3903",
+   "field": "keyDimensions",
+   "value": "45.3*22.6*59.2 inches / 115*57.4*150.4cm",
+   "source": "spec sheet",
+   "evidence": "SF-E3903 Spec Sheet 10.10.2020.xlsx / Sheet1 / B8"
+  },
+  {
+   "id": "off-sunny-sf-e3911",
+   "sku": "SF-E3911",
+   "field": "productWeight",
+   "value": "31.5KG(69.3LBS)",
+   "source": "spec sheet",
+   "evidence": "SF-E3911-Spec Sheet 05132020.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-e3911",
+   "sku": "SF-E3911",
+   "field": "shippingWeight",
+   "value": "37KG(81.4LBS)",
+   "source": "spec sheet",
+   "evidence": "SF-E3911-Spec Sheet 05132020.xlsx / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-sf-e3911",
+   "sku": "SF-E3911",
+   "field": "keyDimensions",
+   "value": "107x59x153.5cm (42.1x23.2x60.4inch)",
+   "source": "spec sheet",
+   "evidence": "SF-E3911-Spec Sheet 05132020.xlsx / Sheet1 / B8"
+  },
+  {
+   "id": "off-sunny-sf-e3914",
+   "sku": "SF-E3914",
+   "field": "productWeight",
+   "value": "40.0KG/88.2LBS",
+   "source": "spec sheet",
+   "evidence": "SF-E3914 Spec. Sheet 02052021.xls / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-e3914",
+   "sku": "SF-E3914",
+   "field": "shippingWeight",
+   "value": "45.3KG/99.9LBS",
+   "source": "spec sheet",
+   "evidence": "SF-E3914 Spec. Sheet 02052021.xls / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-sf-e3914",
+   "sku": "SF-E3914",
+   "field": "keyDimensions",
+   "value": "117*65.5*158.5CM 46*25.8*62.4INCH",
+   "source": "spec sheet",
+   "evidence": "SF-E3914 Spec. Sheet 02052021.xls / Sheet1 / B8"
+  },
+  {
+   "id": "off-sunny-sf-e3955",
+   "sku": "SF-E3955",
+   "field": "productWeight",
+   "value": "58.5LBS/26.5KGS",
+   "source": "spec sheet",
+   "evidence": "SF-E3955 Spec sheet  7.20.2021.xlsx / Sheet1 / B7"
+  },
+  {
+   "id": "off-sunny-sf-e3955",
+   "sku": "SF-E3955",
+   "field": "shippingWeight",
+   "value": "67.02LBS/30.4KGS",
+   "source": "spec sheet",
+   "evidence": "SF-E3955 Spec sheet  7.20.2021.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-e3955",
+   "sku": "SF-E3955",
+   "field": "keyDimensions",
+   "value": "111*61*151CM 43.7*24*59.4INCH",
+   "source": "spec sheet",
+   "evidence": "SF-E3955 Spec sheet  7.20.2021.xlsx / Sheet1 / B9"
+  },
+  {
+   "id": "off-sunny-sf-e3982",
+   "sku": "SF-E3982",
+   "field": "productWeight",
+   "value": "103 LBS (46.7 KG)",
+   "source": "spec sheet",
+   "evidence": "Spec Sheet for SF-E3982.xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-e3982",
+   "sku": "SF-E3982",
+   "field": "shippingWeight",
+   "value": "122.6 LBS (55.6 KG)",
+   "source": "spec sheet",
+   "evidence": "Spec Sheet for SF-E3982.xlsx / Sheet1 / B5"
+  },
+  {
+   "id": "off-sunny-sf-e3982",
+   "sku": "SF-E3982",
+   "field": "keyDimensions",
+   "value": "67.3 x 31.5 x 64.5 INCHES 171 x 80 x 167 CM（while one of the handle bars moved to front)",
+   "source": "spec sheet",
+   "evidence": "Spec Sheet for SF-E3982.xlsx / Sheet1 / B8"
+  },
+  {
+   "id": "off-sunny-sf-e902",
+   "sku": "SF-E902",
+   "field": "productWeight",
+   "value": "35 LBS (15.9 kg)",
+   "source": "spec sheet",
+   "evidence": "SF-E902 spec sheet .xlsx / Sheet1 / B7"
+  },
+  {
+   "id": "off-sunny-sf-e902",
+   "sku": "SF-E902",
+   "field": "shippingWeight",
+   "value": "41 LBS (18.6 kg)",
+   "source": "spec sheet",
+   "evidence": "SF-E902 spec sheet .xlsx / Sheet1 / B6"
+  },
+  {
+   "id": "off-sunny-sf-e902",
+   "sku": "SF-E902",
+   "field": "keyDimensions",
+   "value": "25L x 19W x 57H Inches (63.5 x 48.3 x 144.8 cm)",
+   "source": "spec sheet",
+   "evidence": "SF-E902 spec sheet .xlsx / Sheet1 / B9"
+  },
+  {
+   "id": "off-sunny-sf-e905",
+   "sku": "SF-E905",
+   "field": "productWeight",
+   "value": "60.8",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO451"
+  },
+  {
+   "id": "off-sunny-sf-e905",
+   "sku": "SF-E905",
+   "field": "shippingWeight",
+   "value": "69 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA451"
+  },
+  {
+   "id": "off-sunny-sf-e905",
+   "sku": "SF-E905",
+   "field": "keyDimensions",
+   "value": "28L x 17W x 57H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS451"
+  },
+  {
+   "id": "off-sunny-no-029-b",
+   "sku": "NO. 029-B",
+   "field": "productWeight",
+   "value": "0.8",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO36"
+  },
+  {
+   "id": "off-sunny-no-029-b",
+   "sku": "NO. 029-B",
+   "field": "shippingWeight",
+   "value": "1 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA36"
+  },
+  {
+   "id": "off-sunny-no-029-b",
+   "sku": "NO. 029-B",
+   "field": "keyDimensions",
+   "value": "118L x 1W x H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS36"
+  },
+  {
+   "id": "off-sunny-no-069",
+   "sku": "NO. 069",
+   "field": "productWeight",
+   "value": "0.55",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO57"
+  },
+  {
+   "id": "off-sunny-no-069",
+   "sku": "NO. 069",
+   "field": "shippingWeight",
+   "value": "1 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA57"
+  },
+  {
+   "id": "off-sunny-no-069",
+   "sku": "NO. 069",
+   "field": "keyDimensions",
+   "value": "118L x 1W x 1H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS57"
+  },
+  {
+   "id": "off-sunny-no-055",
+   "sku": "NO. 055",
+   "field": "productWeight",
+   "value": "2.2",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO46"
+  },
+  {
+   "id": "off-sunny-no-055",
+   "sku": "NO. 055",
+   "field": "shippingWeight",
+   "value": "2.8 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA46"
+  },
+  {
+   "id": "off-sunny-no-055",
+   "sku": "NO. 055",
+   "field": "keyDimensions",
+   "value": "21.66L x 21.66W x 21.66H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS46"
+  },
+  {
+   "id": "off-sunny-no-056",
+   "sku": "NO. 056",
+   "field": "productWeight",
+   "value": "2.4",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO47"
+  },
+  {
+   "id": "off-sunny-no-056",
+   "sku": "NO. 056",
+   "field": "shippingWeight",
+   "value": "3 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA47"
+  },
+  {
+   "id": "off-sunny-no-056",
+   "sku": "NO. 056",
+   "field": "keyDimensions",
+   "value": "25.6L x 25.6W x 25.6H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS47"
+  },
+  {
+   "id": "off-sunny-no-057",
+   "sku": "NO. 057",
+   "field": "productWeight",
+   "value": "2.87",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO48"
+  },
+  {
+   "id": "off-sunny-no-057",
+   "sku": "NO. 057",
+   "field": "shippingWeight",
+   "value": "3.5 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA48"
+  },
+  {
+   "id": "off-sunny-no-057",
+   "sku": "NO. 057",
+   "field": "keyDimensions",
+   "value": "29.53L x 29.53W x 29.53H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS48"
+  },
+  {
+   "id": "off-sunny-stw-001y",
+   "sku": "STW-001Y",
+   "field": "productWeight",
+   "value": "0.13",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO861"
+  },
+  {
+   "id": "off-sunny-stw-001y",
+   "sku": "STW-001Y",
+   "field": "shippingWeight",
+   "value": "0.19 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA861"
+  },
+  {
+   "id": "off-sunny-stw-001y",
+   "sku": "STW-001Y",
+   "field": "keyDimensions",
+   "value": "3.43x2.56x0.87 INCH",
+   "source": "spec sheet",
+   "evidence": "Accessory Product Spec for STW-001Y(JS-322) .xlsx / Specification / B9"
+  },
+  {
+   "id": "off-sunny-5150",
+   "sku": "5150",
+   "field": "productWeight",
+   "value": "112",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO11"
+  },
+  {
+   "id": "off-sunny-5150",
+   "sku": "5150",
+   "field": "shippingWeight",
+   "value": "123 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA11"
+  },
+  {
+   "id": "off-sunny-5150",
+   "sku": "5150",
+   "field": "keyDimensions",
+   "value": "48L x 23W x 49H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS11"
+  },
+  {
+   "id": "off-sunny-5150",
+   "sku": "5150",
+   "field": "shippingDimensions",
+   "value": "45.5L x 11W x 37.25H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AG11"
+  },
+  {
+   "id": "off-sunny-5150",
+   "sku": "5150",
+   "field": "qFactor",
+   "value": "160",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DB11"
+  },
+  {
+   "id": "off-sunny-5150",
+   "sku": "5150",
+   "field": "inseam",
+   "value": "Min 28 in / Max 40 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DA11"
+  },
+  {
+   "id": "off-sunny-7130",
+   "sku": "7130",
+   "field": "productWeight",
+   "value": "107.8lbs",
+   "source": "spec sheet",
+   "evidence": "7130 Specification.docx / document / 3:2"
+  },
+  {
+   "id": "off-sunny-7130",
+   "sku": "7130",
+   "field": "shippingWeight",
+   "value": "117.7lbs",
+   "source": "spec sheet",
+   "evidence": "7130 Specification.docx / document / 5:2"
+  },
+  {
+   "id": "off-sunny-7130",
+   "sku": "7130",
+   "field": "keyDimensions",
+   "value": "57.5” *25.2”*53” in",
+   "source": "spec sheet",
+   "evidence": "7130 Specification.docx / document / 4:2"
+  },
+  {
+   "id": "off-sunny-7130",
+   "sku": "7130",
+   "field": "shippingDimensions",
+   "value": "48”*9.8”*35” in",
+   "source": "spec sheet",
+   "evidence": "7130 Specification.docx / document / 6:2"
+  },
+  {
+   "id": "off-sunny-7130",
+   "sku": "7130",
+   "field": "qFactor",
+   "value": "178",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DB14"
+  },
+  {
+   "id": "off-sunny-7130",
+   "sku": "7130",
+   "field": "flywheelWeight",
+   "value": "33lbs",
+   "source": "spec sheet",
+   "evidence": "7130 Specification.docx / document / 9:2"
+  },
+  {
+   "id": "off-sunny-7130",
+   "sku": "7130",
+   "field": "inseam",
+   "value": "61”—75.6”",
+   "source": "spec sheet",
+   "evidence": "7130 Specification.docx / document / 12:2"
+  },
+  {
+   "id": "off-sunny-sf-b1509",
+   "sku": "SF-B1509",
+   "field": "productWeight",
+   "value": "104.7",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO232"
+  },
+  {
+   "id": "off-sunny-sf-b1509",
+   "sku": "SF-B1509",
+   "field": "shippingWeight",
+   "value": "119.1 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA232"
+  },
+  {
+   "id": "off-sunny-sf-b1509",
+   "sku": "SF-B1509",
+   "field": "keyDimensions",
+   "value": "49L x 20W x 47H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS232"
+  },
+  {
+   "id": "off-sunny-sf-b1509",
+   "sku": "SF-B1509",
+   "field": "shippingDimensions",
+   "value": "42.1L x 11W x 34.6H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AG232"
+  },
+  {
+   "id": "off-sunny-sf-b1509",
+   "sku": "SF-B1509",
+   "field": "qFactor",
+   "value": "203mm",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DB232"
+  },
+  {
+   "id": "off-sunny-sf-b1509",
+   "sku": "SF-B1509",
+   "field": "flywheelWeight",
+   "value": "40 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / BQ232"
+  },
+  {
+   "id": "off-sunny-sf-b1509",
+   "sku": "SF-B1509",
+   "field": "inseam",
+   "value": "Min 29 in / Max 38 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DA232"
+  },
+  {
+   "id": "off-sunny-sf-e320002",
+   "sku": "SF-E320002",
+   "field": "productWeight",
+   "value": "85.4",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO380"
+  },
+  {
+   "id": "off-sunny-sf-e320002",
+   "sku": "SF-E320002",
+   "field": "shippingWeight",
+   "value": "95.7 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA380"
+  },
+  {
+   "id": "off-sunny-sf-e320002",
+   "sku": "SF-E320002",
+   "field": "keyDimensions",
+   "value": "49.4L x 23.4W x 63.4H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS380"
+  },
+  {
+   "id": "off-sunny-sf-e323050s",
+   "sku": "SF-E323050S",
+   "field": "productWeight",
+   "value": "89.3",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO399"
+  },
+  {
+   "id": "off-sunny-sf-e323050s",
+   "sku": "SF-E323050S",
+   "field": "shippingWeight",
+   "value": "99.9 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA399"
+  },
+  {
+   "id": "off-sunny-sf-e323050s",
+   "sku": "SF-E323050S",
+   "field": "keyDimensions",
+   "value": "53.5L x 25.2W x 64H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS399"
+  },
+  {
+   "id": "off-sunny-sf-e323055s",
+   "sku": "SF-E323055S",
+   "field": "productWeight",
+   "value": "113.8",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO402"
+  },
+  {
+   "id": "off-sunny-sf-e323055s",
+   "sku": "SF-E323055S",
+   "field": "shippingWeight",
+   "value": "130.7 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA402"
+  },
+  {
+   "id": "off-sunny-sf-e323055s",
+   "sku": "SF-E323055S",
+   "field": "keyDimensions",
+   "value": "61.4L x 27.2W x 66.5H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS402"
+  },
+  {
+   "id": "off-sunny-sf-e3890",
+   "sku": "SF-E3890",
+   "field": "productWeight",
+   "value": "103.6",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO429"
+  },
+  {
+   "id": "off-sunny-sf-e3890",
+   "sku": "SF-E3890",
+   "field": "shippingWeight",
+   "value": "116.8 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA429"
+  },
+  {
+   "id": "off-sunny-sf-e3890",
+   "sku": "SF-E3890",
+   "field": "keyDimensions",
+   "value": "62.5L x 25W x 67H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS429"
+  },
+  {
+   "id": "off-sunny-sf-e3919",
+   "sku": "SF-E3919",
+   "field": "productWeight",
+   "value": "94.8",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO436"
+  },
+  {
+   "id": "off-sunny-sf-e3919",
+   "sku": "SF-E3919",
+   "field": "shippingWeight",
+   "value": "110.2 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA436"
+  },
+  {
+   "id": "off-sunny-sf-e3919",
+   "sku": "SF-E3919",
+   "field": "keyDimensions",
+   "value": "44L x 25W x 64H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS436"
+  },
+  {
+   "id": "off-sunny-no-072",
+   "sku": "NO. 072",
+   "field": "productWeight",
+   "value": "11",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO60"
+  },
+  {
+   "id": "off-sunny-no-072",
+   "sku": "NO. 072",
+   "field": "shippingWeight",
+   "value": "13.5 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA60"
+  },
+  {
+   "id": "off-sunny-no-072",
+   "sku": "NO. 072",
+   "field": "keyDimensions",
+   "value": "28L x 24W x 20H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS60"
+  },
+  {
+   "id": "off-sunny-sf-er01-bk-18",
+   "sku": "SF-ER01-BK-18",
+   "field": "productWeight",
+   "value": "0.25KG/0.6 lbs",
+   "source": "spec sheet",
+   "evidence": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-18 / B10"
+  },
+  {
+   "id": "off-sunny-sf-er01-bk-18",
+   "sku": "SF-ER01-BK-18",
+   "field": "shippingWeight",
+   "value": "0.5KG/1.1 lbs",
+   "source": "spec sheet",
+   "evidence": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-18 / B9"
+  },
+  {
+   "id": "off-sunny-sf-er01-bk-18",
+   "sku": "SF-ER01-BK-18",
+   "field": "keyDimensions",
+   "value": "45CM (L) x 15CM diameter (+-0.5CM)/ 18\" x 6\" diameter",
+   "source": "spec sheet",
+   "evidence": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-18 / B12"
+  },
+  {
+   "id": "off-sunny-sf-er01-bk-24",
+   "sku": "SF-ER01-BK-24",
+   "field": "productWeight",
+   "value": "0.34KG/0.8 lbs",
+   "source": "spec sheet",
+   "evidence": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-24 / B10"
+  },
+  {
+   "id": "off-sunny-sf-er01-bk-24",
+   "sku": "SF-ER01-BK-24",
+   "field": "shippingWeight",
+   "value": "0.64KG/1.4 lbs",
+   "source": "spec sheet",
+   "evidence": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-24 / B9"
+  },
+  {
+   "id": "off-sunny-sf-er01-bk-24",
+   "sku": "SF-ER01-BK-24",
+   "field": "keyDimensions",
+   "value": "60CM (L) x 15CM diameter (+-0.5CM)/ 24\" x 6\" diameter",
+   "source": "spec sheet",
+   "evidence": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-24 / B12"
+  },
+  {
+   "id": "off-sunny-sf-er01-bk-36",
+   "sku": "SF-ER01-BK-36",
+   "field": "productWeight",
+   "value": "0.5KG/1.1 lbs",
+   "source": "spec sheet",
+   "evidence": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-36 / B10"
+  },
+  {
+   "id": "off-sunny-sf-er01-bk-36",
+   "sku": "SF-ER01-BK-36",
+   "field": "shippingWeight",
+   "value": "0.9KG/2.0 lbs",
+   "source": "spec sheet",
+   "evidence": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-36 / B9"
+  },
+  {
+   "id": "off-sunny-sf-er01-bk-36",
+   "sku": "SF-ER01-BK-36",
+   "field": "keyDimensions",
+   "value": "90CM (L) x 15CM diameter (+-1.0CM)/ 36\" x 6\" diameter",
+   "source": "spec sheet",
+   "evidence": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-36 / B12"
+  },
+  {
+   "id": "off-sunny-sf-er01-bu-12",
+   "sku": "SF-ER01-BU-12",
+   "field": "productWeight",
+   "value": "0.4",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO490"
+  },
+  {
+   "id": "off-sunny-sf-er01-bu-12",
+   "sku": "SF-ER01-BU-12",
+   "field": "shippingWeight",
+   "value": "0.7 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA490"
+  },
+  {
+   "id": "off-sunny-sf-er01-bu-12",
+   "sku": "SF-ER01-BU-12",
+   "field": "keyDimensions",
+   "value": "12\" x 6\" diameter",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS490"
+  },
+  {
+   "id": "off-sunny-sf-er01-bu-18",
+   "sku": "SF-ER01-BU-18",
+   "field": "productWeight",
+   "value": "0.6",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO491"
+  },
+  {
+   "id": "off-sunny-sf-er01-bu-18",
+   "sku": "SF-ER01-BU-18",
+   "field": "shippingWeight",
+   "value": "1.1 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA491"
+  },
+  {
+   "id": "off-sunny-sf-er01-bu-18",
+   "sku": "SF-ER01-BU-18",
+   "field": "keyDimensions",
+   "value": "18\" x 6\" diameter",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS491"
+  },
+  {
+   "id": "off-sunny-sf-er01-bu-24",
+   "sku": "SF-ER01-BU-24",
+   "field": "productWeight",
+   "value": "0.8",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO492"
+  },
+  {
+   "id": "off-sunny-sf-er01-bu-24",
+   "sku": "SF-ER01-BU-24",
+   "field": "shippingWeight",
+   "value": "1.4 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA492"
+  },
+  {
+   "id": "off-sunny-sf-er01-bu-24",
+   "sku": "SF-ER01-BU-24",
+   "field": "keyDimensions",
+   "value": "24\" x 6\" diameter",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS492"
+  },
+  {
+   "id": "off-sunny-sf-er01-bu-36",
+   "sku": "SF-ER01-BU-36",
+   "field": "productWeight",
+   "value": "1.1",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO493"
+  },
+  {
+   "id": "off-sunny-sf-er01-bu-36",
+   "sku": "SF-ER01-BU-36",
+   "field": "shippingWeight",
+   "value": "2 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA493"
+  },
+  {
+   "id": "off-sunny-sf-er01-bu-36",
+   "sku": "SF-ER01-BU-36",
+   "field": "keyDimensions",
+   "value": "36\" x 6\" diameter",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS493"
+  },
+  {
+   "id": "off-sunny-sf-er01-pk-12",
+   "sku": "SF-ER01-PK-12",
+   "field": "productWeight",
+   "value": "0.4",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO494"
+  },
+  {
+   "id": "off-sunny-sf-er01-pk-12",
+   "sku": "SF-ER01-PK-12",
+   "field": "shippingWeight",
+   "value": "0.7 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA494"
+  },
+  {
+   "id": "off-sunny-sf-er01-pk-12",
+   "sku": "SF-ER01-PK-12",
+   "field": "keyDimensions",
+   "value": "12\" x 6\" diameter",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS494"
+  },
+  {
+   "id": "off-sunny-sf-er01-pk-18",
+   "sku": "SF-ER01-PK-18",
+   "field": "productWeight",
+   "value": "0.6",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO495"
+  },
+  {
+   "id": "off-sunny-sf-er01-pk-18",
+   "sku": "SF-ER01-PK-18",
+   "field": "shippingWeight",
+   "value": "1.1 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA495"
+  },
+  {
+   "id": "off-sunny-sf-er01-pk-18",
+   "sku": "SF-ER01-PK-18",
+   "field": "keyDimensions",
+   "value": "18\" x 6\" diameter",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS495"
+  },
+  {
+   "id": "off-sunny-sf-er01-pk-24",
+   "sku": "SF-ER01-PK-24",
+   "field": "productWeight",
+   "value": "0.8",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO496"
+  },
+  {
+   "id": "off-sunny-sf-er01-pk-24",
+   "sku": "SF-ER01-PK-24",
+   "field": "shippingWeight",
+   "value": "1.4 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA496"
+  },
+  {
+   "id": "off-sunny-sf-er01-pk-24",
+   "sku": "SF-ER01-PK-24",
+   "field": "keyDimensions",
+   "value": "24\" x 6\" diameter",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS496"
+  },
+  {
+   "id": "off-sunny-sf-er01-pk-36",
+   "sku": "SF-ER01-PK-36",
+   "field": "productWeight",
+   "value": "1.1",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO497"
+  },
+  {
+   "id": "off-sunny-sf-er01-pk-36",
+   "sku": "SF-ER01-PK-36",
+   "field": "shippingWeight",
+   "value": "2 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA497"
+  },
+  {
+   "id": "off-sunny-sf-er01-pk-36",
+   "sku": "SF-ER01-PK-36",
+   "field": "keyDimensions",
+   "value": "36\" x 6\" diameter",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS497"
+  },
+  {
+   "id": "off-sunny-no-003",
+   "sku": "NO. 003",
+   "field": "productWeight",
+   "value": "1.1",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO27"
+  },
+  {
+   "id": "off-sunny-no-003",
+   "sku": "NO. 003",
+   "field": "shippingWeight",
+   "value": "1.3 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA27"
+  },
+  {
+   "id": "off-sunny-no-003",
+   "sku": "NO. 003",
+   "field": "keyDimensions",
+   "value": "10.2L x 2W x 7.5H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS27"
+  },
+  {
+   "id": "off-sunny-sf-bh621802",
+   "sku": "SF-BH621802",
+   "field": "productWeight",
+   "value": "29.7",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO300"
+  },
+  {
+   "id": "off-sunny-sf-bh621802",
+   "sku": "SF-BH621802",
+   "field": "shippingWeight",
+   "value": "34.1 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA300"
+  },
+  {
+   "id": "off-sunny-sf-bh621802",
+   "sku": "SF-BH621802",
+   "field": "keyDimensions",
+   "value": "42.1L x 18.9W x 34.9H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS300"
+  },
+  {
+   "id": "off-sunny-sf-gl02-m",
+   "sku": "SF-GL02-M",
+   "field": "productWeight",
+   "value": "0.2",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO503"
+  },
+  {
+   "id": "off-sunny-sf-gl02-m",
+   "sku": "SF-GL02-M",
+   "field": "shippingWeight",
+   "value": "0.24 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA503"
+  },
+  {
+   "id": "off-sunny-sf-gl02-m",
+   "sku": "SF-GL02-M",
+   "field": "keyDimensions",
+   "value": "M:(L: 7.5\" x W: 4.3\" x H: 0.9\" /INCHES",
+   "source": "spec sheet",
+   "evidence": "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-M / B14"
+  },
+  {
+   "id": "off-sunny-sf-gl02-l",
+   "sku": "SF-GL02-L",
+   "field": "productWeight",
+   "value": "0.2",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO504"
+  },
+  {
+   "id": "off-sunny-sf-gl02-l",
+   "sku": "SF-GL02-L",
+   "field": "shippingWeight",
+   "value": "0.3 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA504"
+  },
+  {
+   "id": "off-sunny-sf-gl02-l",
+   "sku": "SF-GL02-L",
+   "field": "keyDimensions",
+   "value": "L:(L: 8\" x W: 4\" x H: 0.9\" /INCHES",
+   "source": "spec sheet",
+   "evidence": "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-L / B14"
+  },
+  {
+   "id": "off-sunny-sf-gl02-xl",
+   "sku": "SF-GL02-XL",
+   "field": "productWeight",
+   "value": "0.2",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO505"
+  },
+  {
+   "id": "off-sunny-sf-gl02-xl",
+   "sku": "SF-GL02-XL",
+   "field": "shippingWeight",
+   "value": "0.3 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA505"
+  },
+  {
+   "id": "off-sunny-sf-gl02-xl",
+   "sku": "SF-GL02-XL",
+   "field": "keyDimensions",
+   "value": "XL:(L: 8.25\" x W: 4.6\" x H: 0.9\"/INCHES",
+   "source": "spec sheet",
+   "evidence": "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-XL / B14"
+  },
+  {
+   "id": "off-sunny-sf-wv01-a2",
+   "sku": "SF-WV01-A2",
+   "field": "productWeight",
+   "value": "9.1kg/20.1lbs",
+   "source": "spec sheet",
+   "evidence": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A2 / B24"
+  },
+  {
+   "id": "off-sunny-sf-wv01-a2",
+   "sku": "SF-WV01-A2",
+   "field": "shippingWeight",
+   "value": "9.5kg/21lbs",
+   "source": "spec sheet",
+   "evidence": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A2 / B23"
+  },
+  {
+   "id": "off-sunny-sf-wv01-a2",
+   "sku": "SF-WV01-A2",
+   "field": "keyDimensions",
+   "value": "41x25x14/45cm/16.1x9.8x5.5/17.7inches",
+   "source": "spec sheet",
+   "evidence": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A2 / B25"
+  },
+  {
+   "id": "off-sunny-sf-wv01-a3",
+   "sku": "SF-WV01-A3",
+   "field": "productWeight",
+   "value": "14.5kg/32lbs",
+   "source": "spec sheet",
+   "evidence": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A3 / B24"
+  },
+  {
+   "id": "off-sunny-sf-wv01-a3",
+   "sku": "SF-WV01-A3",
+   "field": "shippingWeight",
+   "value": "15kg/33lbs",
+   "source": "spec sheet",
+   "evidence": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A3 / B23"
+  },
+  {
+   "id": "off-sunny-sf-wv01-a3",
+   "sku": "SF-WV01-A3",
+   "field": "keyDimensions",
+   "value": "45x28x15/51cm/17.7x11x5.9/20inches",
+   "source": "spec sheet",
+   "evidence": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A3 / B25"
+  },
+  {
+   "id": "off-sunny-no-120-pk",
+   "sku": "NO. 120-PK",
+   "field": "productWeight",
+   "value": "1.3KG/2.8LBS",
+   "source": "spec sheet",
+   "evidence": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-PK / B24"
+  },
+  {
+   "id": "off-sunny-no-120-pk",
+   "sku": "NO. 120-PK",
+   "field": "shippingWeight",
+   "value": "1.7KG/3.7LBS",
+   "source": "spec sheet",
+   "evidence": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-PK / B23"
+  },
+  {
+   "id": "off-sunny-no-120-pk",
+   "sku": "NO. 120-PK",
+   "field": "keyDimensions",
+   "value": "41.5*9cm/16.34\"L * 3.74\"H",
+   "source": "spec sheet",
+   "evidence": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-PK / B25"
+  },
+  {
+   "id": "off-sunny-no-120-bu",
+   "sku": "NO. 120-BU",
+   "field": "productWeight",
+   "value": "1.3KG/2.8LBS",
+   "source": "spec sheet",
+   "evidence": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-BU / B24"
+  },
+  {
+   "id": "off-sunny-no-120-bu",
+   "sku": "NO. 120-BU",
+   "field": "shippingWeight",
+   "value": "1.7KG/3.7LBS",
+   "source": "spec sheet",
+   "evidence": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-BU / B23"
+  },
+  {
+   "id": "off-sunny-no-120-bu",
+   "sku": "NO. 120-BU",
+   "field": "keyDimensions",
+   "value": "41.5*9cm/16.34\"L * 3.74\"H",
+   "source": "spec sheet",
+   "evidence": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-BU / B25"
+  },
+  {
+   "id": "off-sunny-p2610",
+   "sku": "P2610",
+   "field": "productWeight",
+   "value": "36.3",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO142"
+  },
+  {
+   "id": "off-sunny-p2610",
+   "sku": "P2610",
+   "field": "shippingWeight",
+   "value": "41.9 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA142"
+  },
+  {
+   "id": "off-sunny-sf-rw5639smartgy",
+   "sku": "SF-RW5639SMARTGY",
+   "field": "productWeight",
+   "value": "36.3",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO617"
+  },
+  {
+   "id": "off-sunny-sf-rw5639smartgy",
+   "sku": "SF-RW5639SMARTGY",
+   "field": "shippingWeight",
+   "value": "41.9 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA617"
+  },
+  {
+   "id": "off-sunny-sf-a026006",
+   "sku": "SF-A026006",
+   "field": "productWeight",
+   "value": "10.3kg/22.7lbs",
+   "source": "spec sheet",
+   "evidence": "SF-A026006 Strength Final Spec dated 08132026.xlsx / Specs / B31"
+  },
+  {
+   "id": "off-sunny-sf-a026006",
+   "sku": "SF-A026006",
+   "field": "shippingWeight",
+   "value": "25.8 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA175"
+  },
+  {
+   "id": "off-sunny-sf-a026006",
+   "sku": "SF-A026006",
+   "field": "keyDimensions",
+   "value": "828*510*880mm/32.6*20.1*34.6inches",
+   "source": "spec sheet",
+   "evidence": "SF-A026006 Strength Final Spec dated 08132026.xlsx / Specs / B32"
+  },
+  {
+   "id": "off-sunny-sf-vp824856",
+   "sku": "SF-VP824856",
+   "field": "productWeight",
+   "value": "21.3",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO783"
+  },
+  {
+   "id": "off-sunny-sf-vp824856",
+   "sku": "SF-VP824856",
+   "field": "shippingWeight",
+   "value": "24 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA783"
+  },
+  {
+   "id": "off-sunny-sf-vp824856",
+   "sku": "SF-VP824856",
+   "field": "keyDimensions",
+   "value": "22.8L x 15.1W x 5.4H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS783"
+  },
+  {
+   "id": "off-sunny-sf-s8978smart",
+   "sku": "SF-S8978SMART",
+   "field": "productWeight",
+   "value": "16.3",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO681"
+  },
+  {
+   "id": "off-sunny-sf-s8978smart",
+   "sku": "SF-S8978SMART",
+   "field": "shippingWeight",
+   "value": "18.4 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA681"
+  },
+  {
+   "id": "off-sunny-sf-s8978smart",
+   "sku": "SF-S8978SMART",
+   "field": "keyDimensions",
+   "value": "16.1L x 13W x 13.8H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS681"
+  },
+  {
+   "id": "off-sunny-sf-t722876",
+   "sku": "SF-T722876",
+   "field": "productWeight",
+   "value": "79.4",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO707"
+  },
+  {
+   "id": "off-sunny-sf-t722876",
+   "sku": "SF-T722876",
+   "field": "shippingWeight",
+   "value": "93.7 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA707"
+  },
+  {
+   "id": "off-sunny-sf-t722876",
+   "sku": "SF-T722876",
+   "field": "keyDimensions",
+   "value": "58.2L x 26.4W x 47.4H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS707"
+  },
+  {
+   "id": "off-sunny-sf-t722876",
+   "sku": "SF-T722876",
+   "field": "stepOnHeight",
+   "value": "Min 4.1 in/Max 5.7 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / ES707"
+  },
+  {
+   "id": "off-sunny-sf-t722876",
+   "sku": "SF-T722876",
+   "field": "beltDimensions",
+   "value": "45.7L x 16H in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / EG707"
+  },
+  {
+   "id": "off-sunny-sf-t722876",
+   "sku": "SF-T722876",
+   "field": "shippingDimensions",
+   "value": "64.2L x 27.2W x 7.1H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AG707"
+  }
+ ],
+ "conflicts": [
+  {
+   "id": "sf-xf920021",
+   "sku": "SF-XF920021",
+   "category": "Racks",
+   "field": "productWeight",
+   "app": "99.7KG/219.8LBS",
+   "specSheet": "105LBS/47.6KG",
+   "evidence": "SF-XF920021 SPEC SHEET 20241204 final.xlsx / FINAL / B12"
+  },
+  {
+   "id": "sf-rw525023",
+   "sku": "SF-RW525023",
+   "category": "Rowers",
+   "field": "productWeight",
+   "app": "~19.5kgs/42.9LBS",
+   "specSheet": "20.87kgs/46LBS",
+   "evidence": "SF-RW523023 Final Spec 20260529.xlsx / Specs / B16"
+  },
+  {
+   "id": "sf-rw525023",
+   "sku": "SF-RW525023",
+   "category": "Rowers",
+   "field": "shippingWeight",
+   "app": "~22.5kgs/49.5LBS",
+   "specSheet": "24kgs/53LBS",
+   "evidence": "SF-RW523023 Final Spec 20260529.xlsx / Specs / B15"
+  },
+  {
+   "id": "sf-rw525023",
+   "sku": "SF-RW525023",
+   "category": "Rowers",
+   "field": "keyDimensions",
+   "app": "1414.78×739.14×574.04 mm/ 55.7*29.1*22.6inches",
+   "specSheet": "1430×790/2030×755 mm/ 56.2*31.1/79.9*29.7inches",
+   "evidence": "SF-RW523023 Final Spec 20260529.xlsx / Specs / B18"
+  },
+  {
+   "id": "off-sunny-sf-b2715",
+   "sku": "SF-B2715",
+   "category": "Indoor Bikes",
+   "field": "flywheelWeight",
+   "app": "No",
+   "specSheet": "2.2 lbs (1kg)",
+   "evidence": "SF-B2715 Specification.xlsx / Sheet1 / B11"
+  },
+  {
+   "id": "off-sunny-no-089-combo",
+   "sku": "NO. 089 COMBO",
+   "category": "Essentials",
+   "field": "keyDimensions",
+   "app": "Not applicable",
+   "specSheet": "130*50*3cm 51.2*19.7*1.2inches",
+   "evidence": "NO. 089 Spec Sheet 2022-10-10.xlsx / sheet  / B9"
+  },
+  {
+   "id": "off-sunny-no-112",
+   "sku": "NO. 112",
+   "category": "Essentials",
+   "field": "productWeight",
+   "app": "31.7lbs",
+   "specSheet": "0.8 lbs",
+   "evidence": "Accessories Spec - NO. 112 - 5.15.26.xlsx / Specs / B24"
+  },
+  {
+   "id": "off-sunny-no-113",
+   "sku": "NO. 113",
+   "category": "Essentials",
+   "field": "productWeight",
+   "app": "24.3lbs",
+   "specSheet": "0.28 lbs",
+   "evidence": "Accessories Spec - NO. 113 - 4.30.26.xlsx / Specs / B24"
+  },
+  {
+   "id": "off-sunny-ob-20",
+   "sku": "OB-20",
+   "category": "Weights",
+   "field": "productWeight",
+   "app": "10 Ibs",
+   "specSheet": "6.2KG/13.7lbs",
+   "evidence": "OB-20 draft spec sheet 20241021.xlsx / OB-20 / B10"
+  },
+  {
+   "id": "off-sunny-ob-20",
+   "sku": "OB-20",
+   "category": "Weights",
+   "field": "shippingWeight",
+   "app": "11.5 Ibs",
+   "specSheet": "6.2KG/13.7lbs",
+   "evidence": "OB-20 draft spec sheet 20241021.xlsx / OB-20 / B9"
+  },
+  {
+   "id": "off-sunny-ob-20",
+   "sku": "OB-20",
+   "category": "Weights",
+   "field": "keyDimensions",
+   "app": "20 L",
+   "specSheet": "50.8cm*2.54cm /16*1 INCH",
+   "evidence": "OB-20 draft spec sheet 20241021.xlsx / OB-20 / B12"
+  },
+  {
+   "id": "off-sunny-ob-48",
+   "sku": "OB-48",
+   "category": "Weights",
+   "field": "productWeight",
+   "app": "18 Ibs",
+   "specSheet": "9.5KG/20.9lbs",
+   "evidence": "OB-48 draft spec sheet 20241021.xlsx / OB-48 / B10"
+  },
+  {
+   "id": "off-sunny-ob-48",
+   "sku": "OB-48",
+   "category": "Weights",
+   "field": "shippingWeight",
+   "app": "16 Ibs",
+   "specSheet": "9.5KG/20.9lbs",
+   "evidence": "OB-48 draft spec sheet 20241021.xlsx / OB-48 / B9"
+  },
+  {
+   "id": "off-sunny-sf-b224027",
+   "sku": "SF-B224027",
+   "category": "Indoor Bikes",
+   "field": "flywheelWeight",
+   "app": "Not applicable",
+   "specSheet": "5KG/11LBS",
+   "evidence": "SF-B224027 Bike  draft Spec dated 9.2.2025.xlsx / Specs / B17"
+  }
+ ],
+ "unavailable": [
+  {
+   "sku": "SF-RBE4886SMART",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-RBE420049",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-RBE420035",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-RB420032",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-RB4850SMART",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-RB4616SMART",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-RB420046",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-RB424006",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-B023005DGY",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-B023005DGY",
+   "category": "Indoor Bikes",
+   "field": "inseam"
+  },
+  {
+   "sku": "SF-B024041",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-B024041",
+   "category": "Indoor Bikes",
+   "field": "flywheelWeight"
+  },
+  {
+   "sku": "SF-B024041",
+   "category": "Indoor Bikes",
+   "field": "inseam"
+  },
+  {
+   "sku": "SF-B020026SMART",
+   "category": "Indoor Bikes",
+   "field": "inseam"
+  },
+  {
+   "sku": "SF-B020029SMART",
+   "category": "Indoor Bikes",
+   "field": "flywheelWeight"
+  },
+  {
+   "sku": "SF-B020029SMART",
+   "category": "Indoor Bikes",
+   "field": "inseam"
+  },
+  {
+   "sku": "SF-B0891SMART",
+   "category": "Indoor Bikes",
+   "field": "inseam"
+  },
+  {
+   "sku": "SF-B0960SMART",
+   "category": "Indoor Bikes",
+   "field": "flywheelWeight"
+  },
+  {
+   "sku": "SF-B0960SMART",
+   "category": "Indoor Bikes",
+   "field": "inseam"
+  },
+  {
+   "sku": "NO. 124-RD",
+   "category": "Essentials",
+   "field": "shippingWeight"
+  },
+  {
+   "sku": "P2330",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "P2330",
+   "category": "Indoor Bikes",
+   "field": "inseam"
+  },
+  {
+   "sku": "SF-B0960",
+   "category": "Indoor Bikes",
+   "field": "inseam"
+  },
+  {
+   "sku": "SF-B020026",
+   "category": "Indoor Bikes",
+   "field": "inseam"
+  },
+  {
+   "sku": "SF-B023004",
+   "category": "Indoor Bikes",
+   "field": "inseam"
+  },
+  {
+   "sku": "SF-B023005WHT",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-B023005WHT",
+   "category": "Indoor Bikes",
+   "field": "inseam"
+  },
+  {
+   "sku": "SF-B023805DGY",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-B023805DGY",
+   "category": "Indoor Bikes",
+   "field": "inseam"
+  },
+  {
+   "sku": "SF-B024073",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-B024073",
+   "category": "Indoor Bikes",
+   "field": "inseam"
+  },
+  {
+   "sku": "SF-B024841",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-B024841",
+   "category": "Indoor Bikes",
+   "field": "inseam"
+  },
+  {
+   "sku": "SF-B024973",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-B024973",
+   "category": "Indoor Bikes",
+   "field": "inseam"
+  },
+  {
+   "sku": "SF-B0418 SMART",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-B0418 SMART",
+   "category": "Indoor Bikes",
+   "field": "inseam"
+  },
+  {
+   "sku": "SF-B0891",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-B0891",
+   "category": "Indoor Bikes",
+   "field": "inseam"
+  },
+  {
+   "sku": "SF-B2883",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-RB420031",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-RB421004",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-RB422003",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-RB422903",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-RB423034",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-RB424002",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-B122050",
+   "category": "Indoor Bikes",
+   "field": "productWeight"
+  },
+  {
+   "sku": "SF-B122050",
+   "category": "Indoor Bikes",
+   "field": "shippingWeight"
+  },
+  {
+   "sku": "SF-B122050",
+   "category": "Indoor Bikes",
+   "field": "keyDimensions"
+  },
+  {
+   "sku": "SF-B122050",
+   "category": "Indoor Bikes",
+   "field": "shippingDimensions"
+  },
+  {
+   "sku": "SF-B122050",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-B122050",
+   "category": "Indoor Bikes",
+   "field": "inseam"
+  },
+  {
+   "sku": "SF-B125071",
+   "category": "Indoor Bikes",
+   "field": "inseam"
+  },
+  {
+   "sku": "SF-RB425097",
+   "category": "Indoor Bikes",
+   "field": "productWeight"
+  },
+  {
+   "sku": "SF-RB425097",
+   "category": "Indoor Bikes",
+   "field": "shippingWeight"
+  },
+  {
+   "sku": "SF-RW526003",
+   "category": "Rowers",
+   "field": "productWeight"
+  },
+  {
+   "sku": "SF-RW526003",
+   "category": "Rowers",
+   "field": "shippingWeight"
+  },
+  {
+   "sku": "SF-T725095",
+   "category": "Treadmills",
+   "field": "stepOnHeight"
+  },
+  {
+   "sku": "SF-T726025",
+   "category": "Treadmills",
+   "field": "stepOnHeight"
+  },
+  {
+   "sku": "SF-XF926805",
+   "category": "Essentials",
+   "field": "shippingWeight"
+  },
+  {
+   "sku": "SF-TD7884",
+   "category": "Treadmills",
+   "field": "stepOnHeight"
+  },
+  {
+   "sku": "SF-A025049",
+   "category": "Essentials",
+   "field": "shippingWeight"
+  },
+  {
+   "sku": "SF-T7603-CB",
+   "category": "Treadmills",
+   "field": "productWeight"
+  },
+  {
+   "sku": "SF-T7603-CB",
+   "category": "Treadmills",
+   "field": "shippingWeight"
+  },
+  {
+   "sku": "SF-T7603-CB",
+   "category": "Treadmills",
+   "field": "keyDimensions"
+  },
+  {
+   "sku": "SF-T7603-CB",
+   "category": "Treadmills",
+   "field": "stepOnHeight"
+  },
+  {
+   "sku": "SF-T7603-CB",
+   "category": "Treadmills",
+   "field": "beltDimensions"
+  },
+  {
+   "sku": "SF-T7603-CB",
+   "category": "Treadmills",
+   "field": "shippingDimensions"
+  },
+  {
+   "sku": "OBC-86",
+   "category": "Weights",
+   "field": "keyDimensions"
+  },
+  {
+   "sku": "STBB-60",
+   "category": "Weights",
+   "field": "keyDimensions"
+  },
+  {
+   "sku": "SF-RW520084S-CB",
+   "category": "Rowers",
+   "field": "productWeight"
+  },
+  {
+   "sku": "SF-RW520084S-CB",
+   "category": "Rowers",
+   "field": "shippingWeight"
+  },
+  {
+   "sku": "SF-RW520084S-CB",
+   "category": "Rowers",
+   "field": "keyDimensions"
+  },
+  {
+   "sku": "4200",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "4200",
+   "category": "Indoor Bikes",
+   "field": "flywheelWeight"
+  },
+  {
+   "sku": "SF-B2952",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-B2969",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "P8400",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "P8400",
+   "category": "Indoor Bikes",
+   "field": "flywheelWeight"
+  },
+  {
+   "sku": "SF-RB4616S",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-RB4631",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-RB4631",
+   "category": "Indoor Bikes",
+   "field": "flywheelWeight"
+  },
+  {
+   "sku": "SF-RB4708",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-RB4850",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-RB4876",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-RB4905",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-RB4936",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-RB4953",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-RB4954-FBA",
+   "category": "Indoor Bikes",
+   "field": "productWeight"
+  },
+  {
+   "sku": "SF-RB4954-FBA",
+   "category": "Indoor Bikes",
+   "field": "shippingWeight"
+  },
+  {
+   "sku": "SF-RB4954-FBA",
+   "category": "Indoor Bikes",
+   "field": "keyDimensions"
+  },
+  {
+   "sku": "SF-RB4954-FBA",
+   "category": "Indoor Bikes",
+   "field": "shippingDimensions"
+  },
+  {
+   "sku": "SF-RB4954-FBA",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-RB4954-FBA",
+   "category": "Indoor Bikes",
+   "field": "flywheelWeight"
+  },
+  {
+   "sku": "SF-RB4954-FBA",
+   "category": "Indoor Bikes",
+   "field": "inseam"
+  },
+  {
+   "sku": "SF-RBD4703",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-B020029",
+   "category": "Indoor Bikes",
+   "field": "flywheelWeight"
+  },
+  {
+   "sku": "SF-B020029",
+   "category": "Indoor Bikes",
+   "field": "inseam"
+  },
+  {
+   "sku": "SF-B2729",
+   "category": "Indoor Bikes",
+   "field": "flywheelWeight"
+  },
+  {
+   "sku": "SF-B2916",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-B2916",
+   "category": "Indoor Bikes",
+   "field": "flywheelWeight"
+  },
+  {
+   "sku": "5150",
+   "category": "Indoor Bikes",
+   "field": "flywheelWeight"
+  },
+  {
+   "sku": "P2610",
+   "category": "Rowers",
+   "field": "keyDimensions"
+  },
+  {
+   "sku": "SF-RW5639SMARTGY",
+   "category": "Rowers",
+   "field": "keyDimensions"
+  },
+  {
+   "sku": "SF-B224804",
+   "category": "Indoor Bikes",
+   "field": "productWeight"
+  },
+  {
+   "sku": "SF-B224804",
+   "category": "Indoor Bikes",
+   "field": "shippingWeight"
+  },
+  {
+   "sku": "SF-B224804",
+   "category": "Indoor Bikes",
+   "field": "keyDimensions"
+  },
+  {
+   "sku": "SF-B224804",
+   "category": "Indoor Bikes",
+   "field": "shippingDimensions"
+  },
+  {
+   "sku": "SF-B224804",
+   "category": "Indoor Bikes",
+   "field": "qFactor"
+  },
+  {
+   "sku": "SF-B224804",
+   "category": "Indoor Bikes",
+   "field": "flywheelWeight"
+  },
+  {
+   "sku": "SF-B224804",
+   "category": "Indoor Bikes",
+   "field": "inseam"
+  }
+ ],
+ "noSpecSheet": [
+  "4200",
+  "4500",
+  "5150",
+  "8730",
+  "8730G",
+  "CB110S",
+  "NO. 003",
+  "NO. 014",
+  "NO. 029-B",
+  "NO. 031-B",
+  "NO. 031-P",
+  "NO. 042",
+  "NO. 045",
+  "NO. 048",
+  "NO. 055",
+  "NO. 056",
+  "NO. 057",
+  "NO. 066-10",
+  "NO. 066-15",
+  "NO. 066-20",
+  "NO. 066-25",
+  "NO. 066-5",
+  "NO. 069",
+  "NO. 071G",
+  "NO. 071P",
+  "NO. 072",
+  "NO. 079",
+  "NO. 084",
+  "NO. 085",
+  "P2610",
+  "P8150",
+  "P8400",
+  "SDSN-20",
+  "SF-A023001",
+  "SF-B1509",
+  "SF-B1509C",
+  "SF-B224804",
+  "SF-B901",
+  "SF-BH621802",
+  "SF-BH6507",
+  "SF-BH6996",
+  "SF-DB01-055",
+  "SF-DB03-10",
+  "SF-E320002",
+  "SF-E322004",
+  "SF-E323050S",
+  "SF-E323055S",
+  "SF-E3804",
+  "SF-E3890",
+  "SF-E3919",
+  "SF-E905",
+  "SF-ER01-BU-12",
+  "SF-ER01-BU-18",
+  "SF-ER01-BU-24",
+  "SF-ER01-BU-36",
+  "SF-ER01-PK-12",
+  "SF-ER01-PK-18",
+  "SF-ER01-PK-24",
+  "SF-ER01-PK-36",
+  "SF-OP01-25",
+  "SF-OP01-35",
+  "SF-OP01-45",
+  "SF-OP01-55",
+  "SF-RB4631",
+  "SF-RB4954-FBA",
+  "SF-RW520084S-CB",
+  "SF-RW5639SMARTGY",
+  "SF-S8978SMART",
+  "SF-T1407M",
+  "SF-T4400",
+  "SF-T722068",
+  "SF-T722876",
+  "SF-T725095",
+  "SF-T726025",
+  "SF-T7603",
+  "SF-T7603-CB",
+  "SF-T7724",
+  "SF-T7857",
+  "SF-T7917",
+  "SF-T7942",
+  "SF-VP824856",
+  "STBB-60",
+  "STTB-24"
+ ]
+}
