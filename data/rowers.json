@@ -1342,12 +1342,12 @@
       "values": {
         "brand": "Sunny Health & Fitness",
         "materials": "Steel, plastic,FOAM",
-        "productWeight": "~19.5kgs/42.9LBS",
+        "productWeight": "20.87kgs/46LBS",
         "maxUserWeightLb": "180KGS/400LBS",
         "maxUserHeight": "2M",
-        "keyDimensions": "1414.78×739.14×574.04 mm/ 55.7*29.1*22.6inches",
+        "keyDimensions": "1430×790/2030×755 mm/ 56.2*31.1/79.9*29.7inches",
         "footprint": "42*21mm/ 1.6*0.8inch",
-        "shippingWeight": "~22.5kgs/49.5LBS",
+        "shippingWeight": "24kgs/53LBS",
         "shippingDimensions": "1320*355*250mm/ 51.96*13.97*98.4inches",
         "upc": "810153801689",
         "speedResistanceLevels": "1~12",
@@ -1376,12 +1376,12 @@
       "evidence": {
         "brand": "SF-RW525023 Draft Spec 12.29.2025.xlsx / Specs / B7",
         "materials": "SF-RW525023 Draft Spec 12.29.2025.xlsx / Specs / B12",
-        "productWeight": "SF-RW525023 Draft Spec 12.29.2025.xlsx / Specs / B16",
+        "productWeight": "SF-RW523023 Final Spec 20260529.xlsx / Specs / B16",
         "maxUserWeightLb": "SF-RW525023 Draft Spec 12.29.2025.xlsx / Specs / B24",
         "maxUserHeight": "SF-RW525023 Draft Spec 12.29.2025.xlsx / Specs / B25",
-        "keyDimensions": "SF-RW525023 Draft Spec 12.29.2025.xlsx / Specs / B18",
+        "keyDimensions": "SF-RW523023 Final Spec 20260529.xlsx / Specs / B18",
         "footprint": "SF-RW525023 Draft Spec 12.29.2025.xlsx / Specs / B23",
-        "shippingWeight": "SF-RW525023 Draft Spec 12.29.2025.xlsx / Specs / B15",
+        "shippingWeight": "SF-RW523023 Final Spec 20260529.xlsx / Specs / B15",
         "shippingDimensions": "SF-RW525023 Draft Spec 12.29.2025.xlsx / Specs / B21",
         "upc": "SF-RW525023 Draft Spec 12.29.2025.xlsx / Specs / B10",
         "speedResistanceLevels": "SF-RW525023 Draft Spec 12.29.2025.xlsx / Specs / B27",
@@ -1408,9 +1408,14 @@
         "plugType": "SF-RW525023 Draft Spec 12.29.2025.xlsx / Specs / B68"
       },
       "sources": [
-        "V2 spec sheet: SF-RW525023 Draft Spec 12.29.2025.xlsx"
+        "V2 spec sheet: SF-RW525023 Draft Spec 12.29.2025.xlsx",
+        "SF-RW523023 Final Spec 20260529.xlsx"
       ],
-      "notes": []
+      "notes": [
+        "2026-11-09 owner decision: productWeight uses the newest spec sheet value; replaced app value: ~19.5kgs/42.9LBS",
+        "2026-11-09 owner decision: shippingWeight uses the newest spec sheet value; replaced app value: ~22.5kgs/49.5LBS",
+        "2026-11-09 owner decision: keyDimensions uses the newest spec sheet value; replaced app value: 1414.78×739.14×574.04 mm/ 55.7*29.1*22.6inches"
+      ]
     },
     "priceSource": "Sunny US Mastersheet V1"
   }

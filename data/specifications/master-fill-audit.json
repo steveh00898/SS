@@ -5151,98 +5151,7 @@
    "evidence": "ISV 4.0 / SHF / AG707"
   }
  ],
- "conflicts": [
-  {
-   "id": "sf-rw525023",
-   "sku": "SF-RW525023",
-   "category": "Rowers",
-   "field": "productWeight",
-   "app": "~19.5kgs/42.9LBS",
-   "specSheet": "20.87kgs/46LBS",
-   "evidence": "SF-RW523023 Final Spec 20260529.xlsx / Specs / B16"
-  },
-  {
-   "id": "sf-rw525023",
-   "sku": "SF-RW525023",
-   "category": "Rowers",
-   "field": "shippingWeight",
-   "app": "~22.5kgs/49.5LBS",
-   "specSheet": "24kgs/53LBS",
-   "evidence": "SF-RW523023 Final Spec 20260529.xlsx / Specs / B15"
-  },
-  {
-   "id": "sf-rw525023",
-   "sku": "SF-RW525023",
-   "category": "Rowers",
-   "field": "keyDimensions",
-   "app": "1414.78×739.14×574.04 mm/ 55.7*29.1*22.6inches",
-   "specSheet": "1430×790/2030×755 mm/ 56.2*31.1/79.9*29.7inches",
-   "evidence": "SF-RW523023 Final Spec 20260529.xlsx / Specs / B18"
-  },
-  {
-   "id": "off-sunny-no-112",
-   "sku": "NO. 112",
-   "category": "Essentials",
-   "field": "productWeight",
-   "app": "31.7lbs",
-   "specSheet": "0.8 lbs",
-   "evidence": "Accessories Spec - NO. 112 - 5.15.26.xlsx / Specs / B24"
-  },
-  {
-   "id": "off-sunny-no-113",
-   "sku": "NO. 113",
-   "category": "Essentials",
-   "field": "productWeight",
-   "app": "24.3lbs",
-   "specSheet": "0.28 lbs",
-   "evidence": "Accessories Spec - NO. 113 - 4.30.26.xlsx / Specs / B24"
-  },
-  {
-   "id": "off-sunny-ob-20",
-   "sku": "OB-20",
-   "category": "Weights",
-   "field": "productWeight",
-   "app": "10 Ibs",
-   "specSheet": "6.2KG/13.7lbs",
-   "evidence": "OB-20 draft spec sheet 20241021.xlsx / OB-20 / B10"
-  },
-  {
-   "id": "off-sunny-ob-20",
-   "sku": "OB-20",
-   "category": "Weights",
-   "field": "shippingWeight",
-   "app": "11.5 Ibs",
-   "specSheet": "6.2KG/13.7lbs",
-   "evidence": "OB-20 draft spec sheet 20241021.xlsx / OB-20 / B9"
-  },
-  {
-   "id": "off-sunny-ob-20",
-   "sku": "OB-20",
-   "category": "Weights",
-   "field": "keyDimensions",
-   "app": "20 L",
-   "specSheet": "50.8cm*2.54cm /16*1 INCH",
-   "evidence": "OB-20 draft spec sheet 20241021.xlsx / OB-20 / B12"
-  },
-  {
-   "id": "off-sunny-ob-48",
-   "sku": "OB-48",
-   "category": "Weights",
-   "field": "productWeight",
-   "app": "18 Ibs",
-   "specSheet": "9.5KG/20.9lbs",
-   "evidence": "OB-48 draft spec sheet 20241021.xlsx / OB-48 / B10"
-  },
-  {
-   "id": "off-sunny-ob-48",
-   "sku": "OB-48",
-   "category": "Weights",
-   "field": "shippingWeight",
-   "app": "16 Ibs",
-   "specSheet": "9.5KG/20.9lbs",
-   "evidence": "OB-48 draft spec sheet 20241021.xlsx / OB-48 / B9"
-  }
- ],
+ "conflicts": [],
  "unavailable": [
   {
    "sku": "SF-EM01-BK",
@@ -5905,5 +5814,97 @@
   "SF-VP824856",
   "STBB-60",
   "STTB-24"
+ ],
+ "appliedConflicts": [
+  {
+   "id": "sf-rw525023",
+   "sku": "SF-RW525023",
+   "category": "Rowers",
+   "field": "productWeight",
+   "app": "~19.5kgs/42.9LBS",
+   "specSheet": "20.87kgs/46LBS",
+   "evidence": "SF-RW523023 Final Spec 20260529.xlsx / Specs / B16"
+  },
+  {
+   "id": "sf-rw525023",
+   "sku": "SF-RW525023",
+   "category": "Rowers",
+   "field": "shippingWeight",
+   "app": "~22.5kgs/49.5LBS",
+   "specSheet": "24kgs/53LBS",
+   "evidence": "SF-RW523023 Final Spec 20260529.xlsx / Specs / B15"
+  },
+  {
+   "id": "sf-rw525023",
+   "sku": "SF-RW525023",
+   "category": "Rowers",
+   "field": "keyDimensions",
+   "app": "1414.78×739.14×574.04 mm/ 55.7*29.1*22.6inches",
+   "specSheet": "1430×790/2030×755 mm/ 56.2*31.1/79.9*29.7inches",
+   "evidence": "SF-RW523023 Final Spec 20260529.xlsx / Specs / B18"
+  },
+  {
+   "id": "off-sunny-no-112",
+   "sku": "NO. 112",
+   "category": "Essentials",
+   "field": "productWeight",
+   "app": "31.7lbs",
+   "specSheet": "0.8 lbs",
+   "evidence": "Accessories Spec - NO. 112 - 5.15.26.xlsx / Specs / B24"
+  },
+  {
+   "id": "off-sunny-no-113",
+   "sku": "NO. 113",
+   "category": "Essentials",
+   "field": "productWeight",
+   "app": "24.3lbs",
+   "specSheet": "0.28 lbs",
+   "evidence": "Accessories Spec - NO. 113 - 4.30.26.xlsx / Specs / B24"
+  },
+  {
+   "id": "off-sunny-ob-20",
+   "sku": "OB-20",
+   "category": "Weights",
+   "field": "productWeight",
+   "app": "10 Ibs",
+   "specSheet": "6.2KG/13.7lbs",
+   "evidence": "OB-20 draft spec sheet 20241021.xlsx / OB-20 / B10"
+  },
+  {
+   "id": "off-sunny-ob-20",
+   "sku": "OB-20",
+   "category": "Weights",
+   "field": "shippingWeight",
+   "app": "11.5 Ibs",
+   "specSheet": "6.2KG/13.7lbs",
+   "evidence": "OB-20 draft spec sheet 20241021.xlsx / OB-20 / B9"
+  },
+  {
+   "id": "off-sunny-ob-20",
+   "sku": "OB-20",
+   "category": "Weights",
+   "field": "keyDimensions",
+   "app": "20 L",
+   "specSheet": "50.8cm*2.54cm /16*1 INCH",
+   "evidence": "OB-20 draft spec sheet 20241021.xlsx / OB-20 / B12"
+  },
+  {
+   "id": "off-sunny-ob-48",
+   "sku": "OB-48",
+   "category": "Weights",
+   "field": "productWeight",
+   "app": "18 Ibs",
+   "specSheet": "9.5KG/20.9lbs",
+   "evidence": "OB-48 draft spec sheet 20241021.xlsx / OB-48 / B10"
+  },
+  {
+   "id": "off-sunny-ob-48",
+   "sku": "OB-48",
+   "category": "Weights",
+   "field": "shippingWeight",
+   "app": "16 Ibs",
+   "specSheet": "9.5KG/20.9lbs",
+   "evidence": "OB-48 draft spec sheet 20241021.xlsx / OB-48 / B9"
+  }
  ]
 }

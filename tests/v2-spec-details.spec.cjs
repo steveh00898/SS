@@ -18,8 +18,8 @@ const assert=require('assert'),fs=require('fs'),{chromium}=require('playwright')
  // The six unmatched records later received only the 2026-11-09 requested-field fill (tests/master-spec-fill.spec.cjs).
  const FILL=['productWeight','shippingWeight','keyDimensions','shippingDimensions','qFactor','flywheelWeight','inseam','stepOnHeight','beltDimensions'],masterOnly=i=>i.specDetails?.notes?.some(n=>n.startsWith('Requested fields filled on 2026-11-09'))&&Object.keys(i.specDetails.values).every(k=>FILL.includes(k));
  // The V2 checks below look at V2 values only; fields added by the 2026-11-09 fill carry their own evidence.
- const added=JSON.parse(fs.readFileSync(root+'/data/specifications/master-fill-audit.json','utf8')).filled;
- const v2View=i=>{const d=JSON.parse(JSON.stringify(i.specDetails));for(const f of added.filter(f=>f.id===i.id)){delete d.values[f.field];delete d.evidence[f.field];}d.sources=d.sources.filter(s=>s.startsWith('V2 spec sheet: '));d.notes=(d.notes||[]).filter(n=>!n.startsWith('Requested fields filled on 2026-11-09'));return d};
+ const fillAudit=JSON.parse(fs.readFileSync(root+'/data/specifications/master-fill-audit.json','utf8')),added=[...fillAudit.filled,...(fillAudit.appliedConflicts||[])];
+ const v2View=i=>{const d=JSON.parse(JSON.stringify(i.specDetails));for(const f of added.filter(f=>f.id===i.id)){delete d.values[f.field];delete d.evidence[f.field];}d.sources=d.sources.filter(s=>s.startsWith('V2 spec sheet: '));d.notes=(d.notes||[]).filter(n=>!n.startsWith('Requested fields filled on 2026-11-09')&&!n.startsWith('2026-11-09 owner decision:'));return d};
  const filled=catalog.filter(i=>i.specDetails&&!masterOnly(i));assert.equal(filled.length,150);assert.deepEqual(catalog.filter(i=>!i.specDetails||masterOnly(i)).map(i=>i.id).sort(),[...unmatched].sort());
  const banned=/\b(PO#|supplier|created by|e\.g\.|if yes|if no|or others|this should be|check the data|pending|will update|will add)\b|^(flip|n\/?a|na|none|no limit)$|[一-鿿]/i;
  for(const item of filled){const d=v2View(item),keys=keysOf(item.category),vk=Object.keys(d.values);

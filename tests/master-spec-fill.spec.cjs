@@ -22,6 +22,17 @@ const read=f=>JSON.parse(fs.readFileSync(__dirname+'/../'+f,'utf8'));
  assert.equal(rows.find(r=>r.id===kept.id).specDetails.values[kept.field],'Owner value','app edit kept');
  sql.prepare('UPDATE items SET data=json_remove(data,?) WHERE id=?').run('$.specDetails.values.'+target.field,target.id);
  rows=await(await request('/api/items')).json();assert.equal(rows.find(r=>r.id===target.id).specDetails.values[target.field],undefined,'runs once');sql.close();
+ // Owner decision: differing values now use the spec sheet; the Site replaces them once, only where unchanged.
+ const applied=audit.appliedConflicts;assert.equal(applied.length,10);assert.equal(audit.conflicts.length,0);
+ for(const c of applied){const r=all.find(x=>x.id===c.id);assert.equal(r.specDetails.values[c.field],c.specSheet);assert.equal(r.specDetails.evidence[c.field],c.evidence)}
+ {const f2=await require('./usage-fixture.cjs')();global.APP_CATALOG.push(...archive);await f2.request('/api/items');
+  const [x,y]=[applied.find(c=>c.sku==='NO. 112'),applied.find(c=>c.sku==='OB-48'&&c.field==='productWeight')];
+  f2.sql.prepare("DELETE FROM catalog_meta WHERE key='spec-sheet-decisions-20261109'").run();
+  f2.sql.prepare('UPDATE items SET data=json_set(data,?,?) WHERE id=?').run('$.specDetails.values.'+x.field,x.app,x.id);
+  f2.sql.prepare('UPDATE items SET data=json_set(data,?,?) WHERE id=?').run('$.specDetails.values.'+y.field,'Owner edit',y.id);
+  const got=await(await f2.request('/api/items')).json();
+  assert.equal(got.find(r=>r.id===x.id).specDetails.values[x.field],x.specSheet,'old value replaced');
+  assert.equal(got.find(r=>r.id===y.id).specDetails.values[y.field],'Owner edit','later edit kept');f2.sql.close();}
  // Display wording.
  const html=fs.readFileSync(__dirname+'/../app/index.html','utf8');const src=html.match(/const sameCase = [^\n]+\n\s*const plainWording = [^\n]+/)[0];const plainWording=new Function(src+';return plainWording')();
  assert.equal(plainWording('STEPLESS RESISTANCE: Enjoy'),'MICRO-ADJUSTABLE RESISTANCE: Enjoy');

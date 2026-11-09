@@ -2424,7 +2424,7 @@
         "brand": "Sunny Health & Fitness",
         "materials": "TPE",
         "color": "Cool Grey 4C+Purple 7672C+Blue 294C+Green 348C +Orange 1505C",
-        "productWeight": "31.7lbs",
+        "productWeight": "0.8 lbs",
         "keyDimensions": "150x15cm（59*5.9.1inch）",
         "foldedDimensions": "1pc/ PE bag：22*17cm/8.66*6.7inches; 5pcs/set in express bag: 20*20*3.7cm/7.87*7.87*1.45inches/0.8lbs",
         "shippingDimensions": "15*14.2*14.2 inches",
@@ -2449,7 +2449,7 @@
         "brand": "NO. 112 Final Spec dated 20260225.xlsx / Specs / B7",
         "materials": "NO. 112 Final Spec dated 20260225.xlsx / Specs / B12",
         "color": "NO. 112 Final Spec dated 20260225.xlsx / Specs / B11",
-        "productWeight": "NO. 112 Final Spec dated 20260225.xlsx / Specs / B31",
+        "productWeight": "Accessories Spec - NO. 112 - 5.15.26.xlsx / Specs / B24",
         "keyDimensions": "NO. 112 Final Spec dated 20260225.xlsx / Specs / B32",
         "foldedDimensions": "NO. 112 Final Spec dated 20260225.xlsx / Specs / B29",
         "shippingDimensions": "NO. 112 Final Spec dated 20260225.xlsx / Specs / B33",
@@ -2467,7 +2467,8 @@
         "shippingWeight": "Accessories Spec - NO. 112 - 5.15.26.xlsx / Specs / B23"
       },
       "notes": [
-        "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
+        "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0.",
+        "2026-11-09 owner decision: productWeight uses the newest spec sheet value; replaced app value: 31.7lbs"
       ]
     },
     "productSpecs": {
@@ -2517,7 +2518,7 @@
         "brand": "Sunny Health & Fitness",
         "materials": "TPE",
         "color": "Cool Grey 4C+Purple 7672C+Blue 294C+Green 348C +Orange 1505C",
-        "productWeight": "24.3lbs",
+        "productWeight": "0.28 lbs",
         "keyDimensions": "30x5cm（11.8*2.0 inch）",
         "foldedDimensions": "1pc/ PE bag：22*11cm/8.66*4.33 inches; 5pcs/set in express bag: 13*21*2.3cm/5.1*8.3*0.9inches/0.28lbs",
         "shippingDimensions": "23.3*15.7*11.8 inches",
@@ -2542,7 +2543,7 @@
         "brand": "NO. 113 Final Spec dated 20260225.xlsx / Specs / B7",
         "materials": "NO. 113 Final Spec dated 20260225.xlsx / Specs / B12",
         "color": "NO. 113 Final Spec dated 20260225.xlsx / Specs / B11",
-        "productWeight": "NO. 113 Final Spec dated 20260225.xlsx / Specs / B31",
+        "productWeight": "Accessories Spec - NO. 113 - 4.30.26.xlsx / Specs / B24",
         "keyDimensions": "NO. 113 Final Spec dated 20260225.xlsx / Specs / B32",
         "foldedDimensions": "NO. 113 Final Spec dated 20260225.xlsx / Specs / B29",
         "shippingDimensions": "NO. 113 Final Spec dated 20260225.xlsx / Specs / B33",
@@ -2560,7 +2561,8 @@
         "shippingWeight": "Accessories Spec - NO. 113 - 4.30.26.xlsx / Specs / B23"
       },
       "notes": [
-        "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
+        "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0.",
+        "2026-11-09 owner decision: productWeight uses the newest spec sheet value; replaced app value: 24.3lbs"
       ]
     },
     "productSpecs": {
@@ -4007,26 +4009,30 @@
       "version": 1,
       "values": {
         "brand": "Sunny Health & Fitness",
-        "productWeight": "10 Ibs",
-        "shippingWeight": "11.5 Ibs",
-        "keyDimensions": "20 L",
+        "productWeight": "6.2KG/13.7lbs",
+        "shippingWeight": "6.2KG/13.7lbs",
+        "keyDimensions": "50.8cm*2.54cm /16*1 INCH",
         "shippingDimensions": "22L x 3.5W x 3.5H",
         "features": "Tensile Strength : 58015 - 72518 psi"
       },
       "sources": [
-        "OB 20 Specification 06.22.2023.xlsx"
+        "OB 20 Specification 06.22.2023.xlsx",
+        "OB-20 draft spec sheet 20241021.xlsx"
       ],
       "evidence": {
         "brand": "OB 20 Specification 06.22.2023.xlsx / Specification / B1",
-        "productWeight": "OB 20 Specification 06.22.2023.xlsx / Specification / B4",
-        "shippingWeight": "OB 20 Specification 06.22.2023.xlsx / Specification / B5",
-        "keyDimensions": "OB 20 Specification 06.22.2023.xlsx / Specification / B9",
+        "productWeight": "OB-20 draft spec sheet 20241021.xlsx / OB-20 / B10",
+        "shippingWeight": "OB-20 draft spec sheet 20241021.xlsx / OB-20 / B9",
+        "keyDimensions": "OB-20 draft spec sheet 20241021.xlsx / OB-20 / B12",
         "shippingDimensions": "OB 20 Specification 06.22.2023.xlsx / Specification / B6",
         "features": "OB 20 Specification 06.22.2023.xlsx / Specification / B20"
       },
       "notes": [
         "The source keyDimensions field does not label measurement units; retained as written.",
-        "The source shippingDimensions field does not label measurement units; retained as written."
+        "The source shippingDimensions field does not label measurement units; retained as written.",
+        "2026-11-09 owner decision: productWeight uses the newest spec sheet value; replaced app value: 10 Ibs",
+        "2026-11-09 owner decision: shippingWeight uses the newest spec sheet value; replaced app value: 11.5 Ibs",
+        "2026-11-09 owner decision: keyDimensions uses the newest spec sheet value; replaced app value: 20 L"
       ]
     },
     "productSpecs": {
@@ -4073,26 +4079,29 @@
       "version": 1,
       "values": {
         "brand": "Sunny Health & Fitness",
-        "productWeight": "18 Ibs",
-        "shippingWeight": "16 Ibs",
+        "productWeight": "9.5KG/20.9lbs",
+        "shippingWeight": "9.5KG/20.9lbs",
         "keyDimensions": "48L",
         "shippingDimensions": "49L x 5.5W x 4H",
         "features": "Tensile Strength : 58015 - 72518 psi"
       },
       "sources": [
-        "OB-48 Specification 06.22.2023.xlsx"
+        "OB-48 Specification 06.22.2023.xlsx",
+        "OB-48 draft spec sheet 20241021.xlsx"
       ],
       "evidence": {
         "brand": "OB-48 Specification 06.22.2023.xlsx / Specification / B1",
-        "productWeight": "OB-48 Specification 06.22.2023.xlsx / Specification / B4",
-        "shippingWeight": "OB-48 Specification 06.22.2023.xlsx / Specification / B5",
+        "productWeight": "OB-48 draft spec sheet 20241021.xlsx / OB-48 / B10",
+        "shippingWeight": "OB-48 draft spec sheet 20241021.xlsx / OB-48 / B9",
         "keyDimensions": "OB-48 Specification 06.22.2023.xlsx / Specification / B9",
         "shippingDimensions": "OB-48 Specification 06.22.2023.xlsx / Specification / B6",
         "features": "OB-48 Specification 06.22.2023.xlsx / Specification / B20"
       },
       "notes": [
         "The source keyDimensions field does not label measurement units; retained as written.",
-        "The source shippingDimensions field does not label measurement units; retained as written."
+        "The source shippingDimensions field does not label measurement units; retained as written.",
+        "2026-11-09 owner decision: productWeight uses the newest spec sheet value; replaced app value: 18 Ibs",
+        "2026-11-09 owner decision: shippingWeight uses the newest spec sheet value; replaced app value: 16 Ibs"
       ]
     },
     "productSpecs": {

@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-09: Claude Code — owner chose spec sheet values for the 10 differences
+- Changes: SF-RW525023 (product weight, shipping weight, dimensions), NO. 112 and NO. 113 (product weight), OB-20 (product weight, shipping weight, dimensions) and OB-48 (product and shipping weight) now use the newest spec sheet value with cell evidence; each record's notes keep the replaced value. Audit moves them to appliedConflicts. Worker applies them once on the Site (catalog_meta key spec-sheet-decisions-20261109) only where the stored value is still the replaced one, so later edits stay.
+- Files: scripts/apply-spec-conflicts.py; data/rowers.json; data/off-sunny-web/items.json; data/specifications/master-fill-audit.json; server/worker.js; tests/master-spec-fill.spec.cjs; tests/v2-spec-details.spec.cjs; HANDOFF.md
+- Tests: full run 33 of 34 passed; v2-spec-details failed because it checked SF-RW525023's decided fields against V2 evidence. It now leaves out the decided fields like the filled ones, and passes.
+- Claude Artifact: page unchanged (version 31). The 5 item documents were checked unchanged from the repository first, updated with pinned writes, and read back equal; no other field changed.
+- Private Site: not published; Codex to publish.
+- Next steps: Codex "git pull", then publish the Site.
 ## 2026-11-09: Claude Code — spec fill corrected: newest modified file only, product weight before net weight
 - Changes: owner checked SF-XF920021 (sheet PRODUCT WEIGHT 219.8 lb, not NET WEIGHT Box 1) and SF-B2715 (newest file says flywheel "No" = not available). The fill now reads only the most recently modified matching file; an explicit No / N/A there leaves the field unavailable, and ISV 4.0 is used only when that file has no such field. Product weight prefers the PRODUCT WEIGHT row over NET WEIGHT. Rerun from 9722f48 data: 640 fields filled (290 spec sheet, 350 ISV), 114 unavailable, 10 differences left for the owner. Versus the first run, 27 values on 12 products changed.
 - Files: scripts/fill-master-specs.py; data/*.json; data/off-sunny-web/items.json; data/specifications/master-fill-audit.json; HANDOFF.md
