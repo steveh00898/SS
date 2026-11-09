@@ -2,6 +2,12 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-09 — Codex imports 15 owner-provided catalog photos
+
+- Exact filename-to-model matches after removing the trailing photo number: NO. 042, NO. 055, NO. 056, NO. 057, NO. 069, NO. 072, NO. 076, NO. 079, NO. 085, NO. 087, OBC-86, SDSN-20, STBB-60, STCB-47 and STW-001Y. The folder's dumbbell WebP was skipped because live SF-DB01 already had the upload.
+- All 15 were missing images in the live catalog. Normalized them to 1200 × 900 JPEGs, checked the contact sheet, and pinned the image revision to `7fe18e46fe51e084a663fe70e3a37802341c7d20`. Image masks remain unchecked for practice.
+- One-time Site backfill matches row ID, exact SKU and source. It fills only records with neither an image URL nor an upload ID. It cannot recreate deleted records. The new regression covers those guards, pinned JPEG serving, and idempotency.
+
 ## 2026-11-09 — Codex publishes the uploaded-image fix
 
 - Public Site version 52 deployed from `46f13f9818121e2063e6c179ba41bf98ab120d11`, saved version `appgprj_6ac574cb8a248191bf83b10b05b0a7df~appgver_395670d926348191a44a693b6088f243`, deployment `appgdep_6af259b3949c8191a2d0da27663de0bd`.
