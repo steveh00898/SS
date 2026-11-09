@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-09 — Claude Code publishes Artifact version 30
+
+- Synced to `0f279cb` and reviewed Codex's commits since `1bdff3d`: 136 Mastersheet models imported (626 products in total), 113 verified pictures, side-by-side Product Spec/ISV comparison dialogs, verified and estimated measurement units. Test changes only exclude the new import cohort or accept unit-formatted display of the same numbers; no checks were removed.
+- Tests: all 33 suites pass (run from a container copy with local Chromium/Playwright paths).
+- Claude Artifact: version 30 (id `1794252660-95ea`) published from `dist/artifact/index.html` built at `0f279cb`; reference data version `25aefacef78101fc` (27 documents, 6 new) written with `if_version` pins; 136 new `items` documents created and 113 pictures uploaded to the Artifact assets. Existing Artifact items were not changed.
+- Private Site: not touched by Claude Code; per the entry above it runs `8154980` (version 50), which matches `main` in app code.
+
 ## 2026-11-09 — Codex publishes estimated measurement units
 
 - Public Site version 50 deployed from `8154980081ab2e19e46aa341edcc1f5ea9036f61`, saved version `appgprj_6ac574cb8a248191bf83b10b05b0a7df~appgver_2cf4794b2b2481919b3914a98b422811`, deployment `appgdep_6af21a44e1d4819188696fb285c83d6f`.
