@@ -1811,7 +1811,8 @@
     "ftms": "No",
     "wifi": "No",
     "plugType": "Yes",
-    "features": "1. With buletooth, can connect SUNNYFIT APP; 2. Fully assembly, small footprint, easy to move; 3. Multi-scene use, can be placed under the desk, can do exercise while working; 4. With remote control, wireless remote control to adjust the speed levels; 5. Motorized mini elliptical, users can passive exercise, especially suitable for rehabilitation needs, and users who are inconvenient on legs and feet; 6. 18 levels speed, can manual or use remote control, can changes the direction forward or backward with one click,convinient to use; 7. 6 levels pre-program, meet variety of use requiement."
+    "features": "1. With buletooth, can connect SUNNYFIT APP; 2. Fully assembly, small footprint, easy to move; 3. Multi-scene use, can be placed under the desk, can do exercise while working; 4. With remote control, wireless remote control to adjust the speed levels; 5. Motorized mini elliptical, users can passive exercise, especially suitable for rehabilitation needs, and users who are inconvenient on legs and feet; 6. 18 levels speed, can manual or use remote control, can changes the direction forward or backward with one click,convinient to use; 7. 6 levels pre-program, meet variety of use requiement.",
+    "flywheelWeight": "Not applicable"
    },
    "evidence": {
     "brand": "SF-B024041 final spec sheet 20250424.xlsx / Specs / B7",
@@ -1844,12 +1845,16 @@
     "ftms": "SF-B024041 final spec sheet 20250424.xlsx / Specs / B53",
     "wifi": "SF-B024041 final spec sheet 20250424.xlsx / Specs / B54",
     "plugType": "SF-B024041 final spec sheet 20250424.xlsx / Specs / B64",
-    "features": "SF-B024041 final spec sheet 20250424.xlsx / Specs / B74"
+    "features": "SF-B024041 final spec sheet 20250424.xlsx / Specs / B74",
+    "flywheelWeight": "SF-B024041 final spec sheet 20250424.xlsx / Specs / B16"
    },
    "sources": [
-    "V2 spec sheet: SF-B024041 final spec sheet 20250424.xlsx"
+    "V2 spec sheet: SF-B024041 final spec sheet 20250424.xlsx",
+    "SF-B024041 final spec sheet 20250424.xlsx"
    ],
-   "notes": []
+   "notes": [
+    "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -1978,7 +1983,8 @@
     "programs": "3(P1/P2/P3)",
     "powerCord": "182 CM/71.6 INCH",
     "features": "1. The Meter has buletooth function, can connect the SUNNY APP; 2. Free installation, small footprint, easy to move; 3. Can put under desk, can do exercise while working; 4. The product has remote control, can wireless adjust the resistance; 5. Electric product, especially suitable for rehabilitation needs, and inconvenient legs and feet to use",
-    "certification": "FCC/ICES/UL"
+    "certification": "FCC/ICES/UL",
+    "flywheelWeight": "Not applicable"
    },
    "evidence": {
     "brand": "SF-B020029 SMART SPEC SHEET 07122024 update.xlsx / Sheet1 / B3",
@@ -2000,12 +2006,16 @@
     "programs": "SF-B020029 SMART SPEC SHEET 07122024 update.xlsx / Sheet1 / B23",
     "powerCord": "SF-B020029 SMART SPEC SHEET 07122024 update.xlsx / Sheet1 / B41",
     "features": "SF-B020029 SMART SPEC SHEET 07122024 update.xlsx / Sheet1 / B44",
-    "certification": "SF-B020029 SMART SPEC SHEET 07122024 update.xlsx / Sheet1 / B43"
+    "certification": "SF-B020029 SMART SPEC SHEET 07122024 update.xlsx / Sheet1 / B43",
+    "flywheelWeight": "SF-B020029 SMART SPEC SHEET 07122024 update.xlsx / Sheet1 / B11"
    },
    "sources": [
-    "V2 spec sheet: SF-B020029 SMART SPEC SHEET 07122024 update.xlsx"
+    "V2 spec sheet: SF-B020029 SMART SPEC SHEET 07122024 update.xlsx",
+    "SF-B020029 SMART SPEC SHEET 07122024 update.xlsx"
    ],
-   "notes": []
+   "notes": [
+    "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -2134,7 +2144,8 @@
     "programs": "P1 P2 P3",
     "powerCord": "181.5CM/7.1INCH",
     "features": "1. The meter has bluetooth, can connect SUNNY APP; 2. No installation, small footprint, easy to move' 3. Can be placed under the desk, can do exercise while working; 4. Can adjust the resistance by using the wireless remote control; 5. It is especially suitable for people with rehabilitation needs and inconvenient legs and feet",
-    "certification": "FCC/ICES/UL"
+    "certification": "FCC/ICES/UL",
+    "flywheelWeight": "Not applicable"
    },
    "evidence": {
     "brand": "SF-B0960SMART SPEC SHEET 20240522.xlsx / Sheet1 / B3",
@@ -2156,12 +2167,16 @@
     "programs": "SF-B0960SMART SPEC SHEET 20240522.xlsx / Sheet1 / B23",
     "powerCord": "SF-B0960SMART SPEC SHEET 20240522.xlsx / Sheet1 / B41",
     "features": "SF-B0960SMART SPEC SHEET 20240522.xlsx / Sheet1 / B44",
-    "certification": "SF-B0960SMART SPEC SHEET 20240522.xlsx / Sheet1 / B43"
+    "certification": "SF-B0960SMART SPEC SHEET 20240522.xlsx / Sheet1 / B43",
+    "flywheelWeight": "SF-B0960SMART SPEC SHEET 20240522.xlsx / Sheet1 / B11"
    },
    "sources": [
-    "V2 spec sheet: SF-B0960SMART SPEC SHEET 20240522.xlsx"
+    "V2 spec sheet: SF-B0960SMART SPEC SHEET 20240522.xlsx",
+    "SF-B0960SMART SPEC SHEET 20240522.xlsx"
    ],
-   "notes": []
+   "notes": [
+    "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },

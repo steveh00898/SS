@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-09: Claude Code — spec fill corrected: newest modified file only, product weight before net weight
+- Changes: owner checked SF-XF920021 (sheet PRODUCT WEIGHT 219.8 lb, not NET WEIGHT Box 1) and SF-B2715 (newest file says flywheel "No" = not available). The fill now reads only the most recently modified matching file; an explicit No / N/A there leaves the field unavailable, and ISV 4.0 is used only when that file has no such field. Product weight prefers the PRODUCT WEIGHT row over NET WEIGHT. Rerun from 9722f48 data: 640 fields filled (290 spec sheet, 350 ISV), 114 unavailable, 10 differences left for the owner. Versus the first run, 27 values on 12 products changed.
+- Files: scripts/fill-master-specs.py; data/*.json; data/off-sunny-web/items.json; data/specifications/master-fill-audit.json; HANDOFF.md
+- Tests: all 34 tests/*.spec.cjs passed.
+- Claude Artifact: version 31 page unchanged; the 12 changed item documents had specDetails cleared and rewritten (pinned), then read back equal to the repository with no other field changed.
+- Private Site: not published; the fill migration (master-spec-fill-20261109) has not run yet, so it applies these corrected values. Codex to publish.
+- Next steps: Codex "git pull", then publish the Site; owner decides the remaining differences.
 ## 2026-11-09: Claude Code — requested spec fields from Master SPEC SHEET, then ISV 4.0; Artifact version 31
 - Changes: owner decisions — (1) only the fields from the 2026-10-28 feedback: product weight, shipping weight and product dimensions for every product; treadmills also deck-to-floor height, running belt and carton dimensions; indoor bikes also carton dimensions, Q-factor, flywheel weight and inseam; (2) fill only empty fields and list differences; (3) latest date in the file name wins; (4) "stepless" resistance shows as "micro-adjustable" in the Product Spec and ISV dialogs (display only; stored text unchanged). Filled 643 fields on 196 products: 305 from spec sheets (exact model cell), 338 from ISV 4.0. 111 fields have no value in either source and stay Unavailable; 14 spec-sheet values differ from the app and were not changed. All in data/specifications/master-fill-audit.json. Worker fills empty fields once on the Site (catalog_meta key master-spec-fill-20261109), keeping app edits.
 - Files: data/*.json; data/off-sunny-web/items.json; data/specifications/master-fill-audit.json; app/index.html; server/worker.js; scripts/fill-master-specs.py; tests/master-spec-fill.spec.cjs; tests/v2-spec-details.spec.cjs; HANDOFF.md

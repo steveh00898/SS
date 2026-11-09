@@ -9058,12 +9058,10 @@
         "energySaver": "Not applicable",
         "selfLevelingPedals": "No",
         "footStraps": "no",
-        "meterSize": "263L*200W mm 10.4L*7.9W inches",
-        "inseam": "MIN: 672mm/26.4inches MAX: 975mm/38.3inches"
+        "meterSize": "263L*200W mm 10.4L*7.9W inches"
       },
       "sources": [
-        "SF-B224027 Final Spec 09.14.2026.xlsx",
-        "SF-B224027 Bike  draft Spec dated 9.2.2025.xlsx"
+        "SF-B224027 Final Spec 09.14.2026.xlsx"
       ],
       "evidence": {
         "brand": "SF-B224027 Final Spec 09.14.2026.xlsx / Specs / B7",
@@ -9120,12 +9118,9 @@
         "energySaver": "SF-B224027 Final Spec 09.14.2026.xlsx / Specs / B77",
         "selfLevelingPedals": "SF-B224027 Final Spec 09.14.2026.xlsx / Specs / B36",
         "footStraps": "SF-B224027 Final Spec 09.14.2026.xlsx / Specs / B39",
-        "meterSize": "SF-B224027 Final Spec 09.14.2026.xlsx / Specs / B51",
-        "inseam": "SF-B224027 Bike  draft Spec dated 9.2.2025.xlsx / Specs / B43"
+        "meterSize": "SF-B224027 Final Spec 09.14.2026.xlsx / Specs / B51"
       },
-      "notes": [
-        "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
-      ]
+      "notes": []
     },
     "productSpecs": {
       "driveResistanceSystem": "Chain Drive+Belt Drive / Air Resistance",
@@ -35026,18 +35021,15 @@
       "version": 1,
       "values": {
         "productWeight": "40LB(18.16kg)",
-        "shippingWeight": "40.5LB(18.38kg)",
-        "keyDimensions": "17L x 8.5W x 8.5H"
+        "shippingWeight": "40.5LB(18.38kg)"
       },
       "sources": [
         "Sunny US Mastersheet V1.xlsx row 281",
-        "No. 087 Specification.xlsx",
-        "ISV 4.0"
+        "No. 087 Specification.xlsx"
       ],
       "evidence": {
         "productWeight": "No. 087 Specification.xlsx / Specification / B4",
-        "shippingWeight": "No. 087 Specification.xlsx / Specification / B5",
-        "keyDimensions": "ISV 4.0 / SHF / AS85"
+        "shippingWeight": "No. 087 Specification.xlsx / Specification / B5"
       },
       "notes": [
         "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
@@ -35294,24 +35286,22 @@
     "specDetails": {
       "version": 1,
       "values": {
-        "productWeight": "56 lb",
+        "productWeight": "56",
         "shippingWeight": "64 lb",
-        "keyDimensions": "41.7*20.9*50.8 in",
-        "shippingDimensions": "33.9*11*24.8 in",
-        "flywheelWeight": "6.6 lb",
-        "inseam": "24"
+        "keyDimensions": "40.5L x 21W x 51H",
+        "shippingDimensions": "33.9L x 11W x 24.8H",
+        "inseam": "Min 24 in in /Max 36.5 in"
       },
       "sources": [
         "Sunny US Mastersheet V1.xlsx row 286",
-        "Specification sheet for SF-B2952 09292019.xlsx"
+        "ISV 4.0"
       ],
       "evidence": {
-        "productWeight": "Specification sheet for SF-B2952 09292019.xlsx / Sheet1 / B4",
-        "shippingWeight": "Specification sheet for SF-B2952 09292019.xlsx / Sheet1 / B6",
-        "keyDimensions": "Specification sheet for SF-B2952 09292019.xlsx / Sheet1 / B5",
-        "shippingDimensions": "Specification sheet for SF-B2952 09292019.xlsx / Sheet1 / B7",
-        "flywheelWeight": "Specification sheet for SF-B2952 09292019.xlsx / Sheet1 / B13",
-        "inseam": "Specification sheet for SF-B2952 09292019.xlsx / Sheet1 / B17"
+        "productWeight": "ISV 4.0 / SHF / AO283",
+        "shippingWeight": "ISV 4.0 / SHF / AA283",
+        "keyDimensions": "ISV 4.0 / SHF / AS283",
+        "shippingDimensions": "ISV 4.0 / SHF / AG283",
+        "inseam": "ISV 4.0 / SHF / DA283"
       },
       "notes": [
         "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
@@ -35463,24 +35453,22 @@
     "specDetails": {
       "version": 1,
       "values": {
-        "productWeight": "26.8 kgs/59LBS",
-        "shippingWeight": "31.3 kgs/69LBS",
-        "keyDimensions": "1430*668*1090 mm/ 56.3*26.3*42.9 inches",
-        "shippingDimensions": "1320*250*585 mm/ 52*9.8*23inches",
-        "flywheelWeight": "3 kgs/6.6LBS",
-        "inseam": "780MM/30.7inches"
+        "productWeight": "59",
+        "shippingWeight": "69 lb",
+        "keyDimensions": "56.3L x 26.3W x 42.9H",
+        "shippingDimensions": "52L x 9.8W x 23H",
+        "inseam": "Min 30.7 in/Max 40.2 in"
       },
       "sources": [
         "Sunny US Mastersheet V1.xlsx row 289",
-        "RB4616S spec sheet 20240605.xlsx"
+        "ISV 4.0"
       ],
       "evidence": {
-        "productWeight": "RB4616S spec sheet 20240605.xlsx / 6KG / B10",
-        "shippingWeight": "RB4616S spec sheet 20240605.xlsx / 6KG / B9",
-        "keyDimensions": "RB4616S spec sheet 20240605.xlsx / 6KG / B12",
-        "shippingDimensions": "RB4616S spec sheet 20240605.xlsx / 6KG / B14",
-        "flywheelWeight": "RB4616S spec sheet 20240605.xlsx / 6KG / B11",
-        "inseam": "RB4616S spec sheet 20240605.xlsx / 6KG / B62"
+        "productWeight": "ISV 4.0 / SHF / AO549",
+        "shippingWeight": "ISV 4.0 / SHF / AA549",
+        "keyDimensions": "ISV 4.0 / SHF / AS549",
+        "shippingDimensions": "ISV 4.0 / SHF / AG549",
+        "inseam": "ISV 4.0 / SHF / DA549"
       },
       "notes": [
         "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
@@ -35575,24 +35563,21 @@
     "specDetails": {
       "version": 1,
       "values": {
-        "productWeight": "41.3KGS/91.07LBS",
-        "shippingWeight": "46.3KGS/102.1LBS",
-        "keyDimensions": "159*63*138CM/62.60*24.80*54.33INCHES",
-        "shippingDimensions": "157*25*88CM/61.81*9.84*34.65 INCHES",
-        "flywheelWeight": "11 LBS",
+        "productWeight": "95.8",
+        "shippingWeight": "110 lb",
+        "keyDimensions": "60L x 25.5W x 52H",
+        "shippingDimensions": "61L x 9.8W x 34.6H",
         "inseam": "Min 26.5 in / Max 34 in"
       },
       "sources": [
         "Sunny US Mastersheet V1.xlsx row 291",
-        "SF-RB4708 Specification.docx",
         "ISV 4.0"
       ],
       "evidence": {
-        "productWeight": "SF-RB4708 Specification.docx / document / 3:2",
-        "shippingWeight": "SF-RB4708 Specification.docx / document / 5:2",
-        "keyDimensions": "SF-RB4708 Specification.docx / document / 4:2",
-        "shippingDimensions": "SF-RB4708 Specification.docx / document / 6:2",
-        "flywheelWeight": "SF-RB4708 Specification.docx / document / 8:2",
+        "productWeight": "ISV 4.0 / SHF / AO553",
+        "shippingWeight": "ISV 4.0 / SHF / AA553",
+        "keyDimensions": "ISV 4.0 / SHF / AS553",
+        "shippingDimensions": "ISV 4.0 / SHF / AG553",
         "inseam": "ISV 4.0 / SHF / DA553"
       },
       "notes": [
@@ -35863,22 +35848,22 @@
       "values": {
         "productWeight": "74 lb",
         "shippingWeight": "85 lb",
-        "keyDimensions": "57.5*24.8*45.3 in",
-        "shippingDimensions": "54.5*10.8*26.8 in",
+        "keyDimensions": "57 x 25 x 45.5 (in.) in",
+        "shippingDimensions": "54.5 x 11 x 27 (in.) in",
         "flywheelWeight": "6.6 lb",
-        "inseam": "27.5 in"
+        "inseam": "30 in"
       },
       "sources": [
         "Sunny US Mastersheet V1.xlsx row 296",
-        "Specification sheet for SF-RB4953 09292019.xlsx"
+        "SF-RB4953 Recumbent Bike - Spec Sheet - 11.11.xlsx"
       ],
       "evidence": {
-        "productWeight": "Specification sheet for SF-RB4953 09292019.xlsx / Sheet1 / B4",
-        "shippingWeight": "Specification sheet for SF-RB4953 09292019.xlsx / Sheet1 / B6",
-        "keyDimensions": "Specification sheet for SF-RB4953 09292019.xlsx / Sheet1 / B5",
-        "shippingDimensions": "Specification sheet for SF-RB4953 09292019.xlsx / Sheet1 / B7",
-        "flywheelWeight": "Specification sheet for SF-RB4953 09292019.xlsx / Sheet1 / B12",
-        "inseam": "Specification sheet for SF-RB4953 09292019.xlsx / Sheet1 / B18"
+        "productWeight": "SF-RB4953 Recumbent Bike - Spec Sheet - 11.11.xlsx / Sheet1 / B4",
+        "shippingWeight": "SF-RB4953 Recumbent Bike - Spec Sheet - 11.11.xlsx / Sheet1 / B6",
+        "keyDimensions": "SF-RB4953 Recumbent Bike - Spec Sheet - 11.11.xlsx / Sheet1 / B5",
+        "shippingDimensions": "SF-RB4953 Recumbent Bike - Spec Sheet - 11.11.xlsx / Sheet1 / B7",
+        "flywheelWeight": "SF-RB4953 Recumbent Bike - Spec Sheet - 11.11.xlsx / Sheet1 / B12",
+        "inseam": "SF-RB4953 Recumbent Bike - Spec Sheet - 11.11.xlsx / Sheet1 / B18"
       },
       "notes": [
         "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
@@ -36019,7 +36004,8 @@
         "shippingWeight": "9.6kg/21.1lbs",
         "keyDimensions": "548*475*367mm 21.6*18.7*14.4 inches",
         "shippingDimensions": "560*240*415mm 22x9.5x16.3 inches",
-        "qFactor": "186mm/7.3inch"
+        "qFactor": "186mm/7.3inch",
+        "flywheelWeight": "Not applicable"
       },
       "sources": [
         "Sunny US Mastersheet V1.xlsx row 300",
@@ -36030,7 +36016,8 @@
         "shippingWeight": "SF-B020029  spec sheet 08.22.2022.xlsx / Sheet1 / B6",
         "keyDimensions": "SF-B020029  spec sheet 08.22.2022.xlsx / Sheet1 / B9",
         "shippingDimensions": "SF-B020029  spec sheet 08.22.2022.xlsx / Sheet1 / B11",
-        "qFactor": "SF-B020029  spec sheet 08.22.2022.xlsx / Sheet1 / B43"
+        "qFactor": "SF-B020029  spec sheet 08.22.2022.xlsx / Sheet1 / B43",
+        "flywheelWeight": "SF-B020029  spec sheet 08.22.2022.xlsx / Sheet1 / B8"
       },
       "notes": [
         "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."

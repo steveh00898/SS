@@ -4,8 +4,9 @@ Usage: python scripts/fill-master-specs.py <Master SPEC SHEET folder> [--cache <
 Fields: product weight, shipping weight and product dimensions for every product; treadmills also
 get deck-to-floor height, running belt and carton dimensions; indoor bikes get carton dimensions,
 Q-factor, flywheel weight and inseam. Only empty fields are filled. A spec sheet matches a product
-only when a visible model cell equals its model number (spaces and punctuation ignored); the sheet
-with the latest date in its file name is read first. Values that differ from what the app already
+only when a visible model cell equals its model number (spaces and punctuation ignored). Only the most
+recently modified matching file is used (owner decision 2026-11-09); when it answers No or N/A the field stays
+unavailable, and ISV 4.0 is used only when that file has no such field. Values that differ from what the app already
 shows are not changed; they are listed in data/specifications/master-fill-audit.json.
 """
 import argparse, datetime, importlib.util, json, pathlib, re, sys
@@ -21,7 +22,7 @@ COMMON = ['productWeight', 'shippingWeight', 'keyDimensions']
 FIELDS = {'Treadmills': COMMON + ['stepOnHeight', 'beltDimensions', 'shippingDimensions'],
           'Indoor Bikes': COMMON + ['shippingDimensions', 'qFactor', 'flywheelWeight', 'inseam']}
 ALIASES = dict(b3.ALIASES)
-ALIASES.update({'stepOnHeight': ['deck to floor height', 'deck height', 'step on height', 'step-on height', 'floor to deck height'],
+ALIASES.update({'productWeight': ['product weight', 'net weight'], 'stepOnHeight': ['deck to floor height', 'deck height', 'step on height', 'step-on height', 'floor to deck height'],
                 'qFactor': ['q-factor', 'q factor', 'qfactor'], 'inseam': ['inseam range', 'inseam', 'slide rail inseam']})
 # ISV 4.0 columns (sheet SHF) for the same fields. Inseam has a bike and a recumbent column.
 ISV = {'productWeight': ['AO'], 'shippingWeight': ['AA'], 'keyDimensions': ['AS'], 'shippingDimensions': ['AG'],
@@ -111,7 +112,7 @@ def main():
         for sheet in sheets or []:
             for m in models(sheet):
                 index.setdefault(m, []).append((rel, sheet))
-    order = lambda e: (file_date(pathlib.Path(e[0]).name) or datetime.date(1900, 1, 1), mtime.get(e[0], 0))
+    order = lambda e: mtime.get(e[0], 0)
 
     isv = {}
     for f in ('current-products.json', 'off-sunny-products.json'):
@@ -129,11 +130,19 @@ def main():
             sd = r.get('specDetails') or {'version': 1, 'values': {}, 'sources': [], 'evidence': {}, 'notes': []}
             vals = sd.setdefault('values', {}); ev = sd.setdefault('evidence', {}); srcs = sd.setdefault('sources', []); changed = False
             for key in keys:
-                found = None
-                for rel, sheet in entries:
+                found = None; says_none = None
+                latest = [e for e in entries if e[0] == entries[0][0]] if entries else []
+                for rel, sheet in latest:
                     pair = b3.find(b3.pairs(sheet, r['category'], r['name']), ALIASES.get(key, []))
-                    if pair and pair[2] and pair[2] != 'Not applicable' and usable(key, pair[2]):
-                        found = (with_units(key, pair[2], pair[1]), rel + ' / ' + sheet['name'] + ' / ' + pair[3], rel); break
+                    if not pair or not pair[2]: continue
+                    if usable(key, pair[2]):
+                        found = (with_units(key, pair[2], pair[1]), rel + ' / ' + sheet['name'] + ' / ' + pair[3], rel)
+                    else:
+                        says_none = pair[2] + ' (' + rel + ' / ' + sheet['name'] + ' / ' + pair[3] + ')'
+                    break
+                if says_none and not found:
+                    if blank(vals.get(key)): unavailable.append({'sku': r['sku'], 'category': r['category'], 'field': key, 'specSheet': says_none})
+                    continue
                 if not blank(vals.get(key)):
                     if found and not same(vals[key], found[0]):
                         conflicts.append({'id': r['id'], 'sku': r['sku'], 'category': r['category'], 'field': key, 'app': vals[key], 'specSheet': found[0], 'evidence': found[1]})

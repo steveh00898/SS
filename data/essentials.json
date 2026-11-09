@@ -973,8 +973,7 @@
     "footprint": "181*122CM 71.3*48INCH",
     "shippingWeight": "2.6KGS/5.7LBS",
     "shippingDimensions": "63.4*66*9.1CM 25*26*3.6INCH",
-    "features": "1SET (6PCS) for 1 carton",
-    "keyDimensions": "24.4L x 24.4W x 0.5H"
+    "features": "1SET (6PCS) for 1 carton"
    },
    "evidence": {
     "brand": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B3",
@@ -985,16 +984,12 @@
     "footprint": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B16",
     "shippingWeight": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B9",
     "shippingDimensions": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B14",
-    "features": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B42",
-    "keyDimensions": "ISV 4.0 / SHF / AS478"
+    "features": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B42"
    },
    "sources": [
-    "V2 spec sheet: SF-EM01-BK Final Spec Sheet 06052024.xlsx",
-    "ISV 4.0"
+    "V2 spec sheet: SF-EM01-BK Final Spec Sheet 06052024.xlsx"
    ],
-   "notes": [
-    "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
-   ]
+   "notes": []
   },
   "priceSource": "Sunny US Mastersheet V1"
  },

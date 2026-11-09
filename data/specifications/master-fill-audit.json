@@ -103,14 +103,6 @@
    "evidence": "ISV 4.0 / SHF / AS37"
   },
   {
-   "id": "sf-em01-bk",
-   "sku": "SF-EM01-BK",
-   "field": "keyDimensions",
-   "value": "24.4L x 24.4W x 0.5H",
-   "source": "ISV 4.0",
-   "evidence": "ISV 4.0 / SHF / AS478"
-  },
-  {
    "id": "sf-gl02-s",
    "sku": "SF-GL02-S",
    "field": "productWeight",
@@ -127,12 +119,28 @@
    "evidence": "ISV 4.0 / SHF / AA502"
   },
   {
-   "id": "sf-t724012",
-   "sku": "SF-T724012",
-   "field": "stepOnHeight",
-   "value": "160 mm/6.3 INCHES",
+   "id": "sf-b024041",
+   "sku": "SF-B024041",
+   "field": "flywheelWeight",
+   "value": "Not applicable",
    "source": "spec sheet",
-   "evidence": "SF-T724012 draft spec sheet 11112024.xlsx / Specs / B33"
+   "evidence": "SF-B024041 final spec sheet 20250424.xlsx / Specs / B16"
+  },
+  {
+   "id": "sf-b020029smart",
+   "sku": "SF-B020029SMART",
+   "field": "flywheelWeight",
+   "value": "Not applicable",
+   "source": "spec sheet",
+   "evidence": "SF-B020029 SMART SPEC SHEET 07122024 update.xlsx / Sheet1 / B11"
+  },
+  {
+   "id": "sf-b0960smart",
+   "sku": "SF-B0960SMART",
+   "field": "flywheelWeight",
+   "value": "Not applicable",
+   "source": "spec sheet",
+   "evidence": "SF-B0960SMART SPEC SHEET 20240522.xlsx / Sheet1 / B11"
   },
   {
    "id": "sf-bh6996",
@@ -373,14 +381,6 @@
    "value": "184mm",
    "source": "ISV 4.0",
    "evidence": "ISV 4.0 / SHF / DB249"
-  },
-  {
-   "id": "off-sunny-sf-b224027",
-   "sku": "SF-B224027",
-   "field": "inseam",
-   "value": "MIN: 672mm/26.4inches MAX: 975mm/38.3inches",
-   "source": "spec sheet",
-   "evidence": "SF-B224027 Bike  draft Spec dated 9.2.2025.xlsx / Specs / B43"
   },
   {
    "id": "off-sunny-sf-b901-smart",
@@ -2375,14 +2375,6 @@
    "evidence": "No. 087 Specification.xlsx / Specification / B5"
   },
   {
-   "id": "off-sunny-no-087",
-   "sku": "NO. 087",
-   "field": "keyDimensions",
-   "value": "17L x 8.5W x 8.5H",
-   "source": "ISV 4.0",
-   "evidence": "ISV 4.0 / SHF / AS85"
-  },
-  {
    "id": "off-sunny-sdsn-20",
    "sku": "SDSN-20",
    "field": "productWeight",
@@ -2530,49 +2522,41 @@
    "id": "off-sunny-sf-b2952",
    "sku": "SF-B2952",
    "field": "productWeight",
-   "value": "56 lb",
-   "source": "spec sheet",
-   "evidence": "Specification sheet for SF-B2952 09292019.xlsx / Sheet1 / B4"
+   "value": "56",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO283"
   },
   {
    "id": "off-sunny-sf-b2952",
    "sku": "SF-B2952",
    "field": "shippingWeight",
    "value": "64 lb",
-   "source": "spec sheet",
-   "evidence": "Specification sheet for SF-B2952 09292019.xlsx / Sheet1 / B6"
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA283"
   },
   {
    "id": "off-sunny-sf-b2952",
    "sku": "SF-B2952",
    "field": "keyDimensions",
-   "value": "41.7*20.9*50.8 in",
-   "source": "spec sheet",
-   "evidence": "Specification sheet for SF-B2952 09292019.xlsx / Sheet1 / B5"
+   "value": "40.5L x 21W x 51H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS283"
   },
   {
    "id": "off-sunny-sf-b2952",
    "sku": "SF-B2952",
    "field": "shippingDimensions",
-   "value": "33.9*11*24.8 in",
-   "source": "spec sheet",
-   "evidence": "Specification sheet for SF-B2952 09292019.xlsx / Sheet1 / B7"
-  },
-  {
-   "id": "off-sunny-sf-b2952",
-   "sku": "SF-B2952",
-   "field": "flywheelWeight",
-   "value": "6.6 lb",
-   "source": "spec sheet",
-   "evidence": "Specification sheet for SF-B2952 09292019.xlsx / Sheet1 / B13"
+   "value": "33.9L x 11W x 24.8H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AG283"
   },
   {
    "id": "off-sunny-sf-b2952",
    "sku": "SF-B2952",
    "field": "inseam",
-   "value": "24",
-   "source": "spec sheet",
-   "evidence": "Specification sheet for SF-B2952 09292019.xlsx / Sheet1 / B17"
+   "value": "Min 24 in in /Max 36.5 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DA283"
   },
   {
    "id": "off-sunny-sf-b2969",
@@ -2666,49 +2650,41 @@
    "id": "off-sunny-sf-rb4616s",
    "sku": "SF-RB4616S",
    "field": "productWeight",
-   "value": "26.8 kgs/59LBS",
-   "source": "spec sheet",
-   "evidence": "RB4616S spec sheet 20240605.xlsx / 6KG / B10"
+   "value": "59",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO549"
   },
   {
    "id": "off-sunny-sf-rb4616s",
    "sku": "SF-RB4616S",
    "field": "shippingWeight",
-   "value": "31.3 kgs/69LBS",
-   "source": "spec sheet",
-   "evidence": "RB4616S spec sheet 20240605.xlsx / 6KG / B9"
+   "value": "69 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA549"
   },
   {
    "id": "off-sunny-sf-rb4616s",
    "sku": "SF-RB4616S",
    "field": "keyDimensions",
-   "value": "1430*668*1090 mm/ 56.3*26.3*42.9 inches",
-   "source": "spec sheet",
-   "evidence": "RB4616S spec sheet 20240605.xlsx / 6KG / B12"
+   "value": "56.3L x 26.3W x 42.9H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS549"
   },
   {
    "id": "off-sunny-sf-rb4616s",
    "sku": "SF-RB4616S",
    "field": "shippingDimensions",
-   "value": "1320*250*585 mm/ 52*9.8*23inches",
-   "source": "spec sheet",
-   "evidence": "RB4616S spec sheet 20240605.xlsx / 6KG / B14"
-  },
-  {
-   "id": "off-sunny-sf-rb4616s",
-   "sku": "SF-RB4616S",
-   "field": "flywheelWeight",
-   "value": "3 kgs/6.6LBS",
-   "source": "spec sheet",
-   "evidence": "RB4616S spec sheet 20240605.xlsx / 6KG / B11"
+   "value": "52L x 9.8W x 23H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AG549"
   },
   {
    "id": "off-sunny-sf-rb4616s",
    "sku": "SF-RB4616S",
    "field": "inseam",
-   "value": "780MM/30.7inches",
-   "source": "spec sheet",
-   "evidence": "RB4616S spec sheet 20240605.xlsx / 6KG / B62"
+   "value": "Min 30.7 in/Max 40.2 in",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / DA549"
   },
   {
    "id": "off-sunny-sf-rb4631",
@@ -2754,41 +2730,33 @@
    "id": "off-sunny-sf-rb4708",
    "sku": "SF-RB4708",
    "field": "productWeight",
-   "value": "41.3KGS/91.07LBS",
-   "source": "spec sheet",
-   "evidence": "SF-RB4708 Specification.docx / document / 3:2"
+   "value": "95.8",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AO553"
   },
   {
    "id": "off-sunny-sf-rb4708",
    "sku": "SF-RB4708",
    "field": "shippingWeight",
-   "value": "46.3KGS/102.1LBS",
-   "source": "spec sheet",
-   "evidence": "SF-RB4708 Specification.docx / document / 5:2"
+   "value": "110 lb",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AA553"
   },
   {
    "id": "off-sunny-sf-rb4708",
    "sku": "SF-RB4708",
    "field": "keyDimensions",
-   "value": "159*63*138CM/62.60*24.80*54.33INCHES",
-   "source": "spec sheet",
-   "evidence": "SF-RB4708 Specification.docx / document / 4:2"
+   "value": "60L x 25.5W x 52H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AS553"
   },
   {
    "id": "off-sunny-sf-rb4708",
    "sku": "SF-RB4708",
    "field": "shippingDimensions",
-   "value": "157*25*88CM/61.81*9.84*34.65 INCHES",
-   "source": "spec sheet",
-   "evidence": "SF-RB4708 Specification.docx / document / 6:2"
-  },
-  {
-   "id": "off-sunny-sf-rb4708",
-   "sku": "SF-RB4708",
-   "field": "flywheelWeight",
-   "value": "11 LBS",
-   "source": "spec sheet",
-   "evidence": "SF-RB4708 Specification.docx / document / 8:2"
+   "value": "61L x 9.8W x 34.6H",
+   "source": "ISV 4.0",
+   "evidence": "ISV 4.0 / SHF / AG553"
   },
   {
    "id": "off-sunny-sf-rb4708",
@@ -2996,7 +2964,7 @@
    "field": "productWeight",
    "value": "74 lb",
    "source": "spec sheet",
-   "evidence": "Specification sheet for SF-RB4953 09292019.xlsx / Sheet1 / B4"
+   "evidence": "SF-RB4953 Recumbent Bike - Spec Sheet - 11.11.xlsx / Sheet1 / B4"
   },
   {
    "id": "off-sunny-sf-rb4953",
@@ -3004,23 +2972,23 @@
    "field": "shippingWeight",
    "value": "85 lb",
    "source": "spec sheet",
-   "evidence": "Specification sheet for SF-RB4953 09292019.xlsx / Sheet1 / B6"
+   "evidence": "SF-RB4953 Recumbent Bike - Spec Sheet - 11.11.xlsx / Sheet1 / B6"
   },
   {
    "id": "off-sunny-sf-rb4953",
    "sku": "SF-RB4953",
    "field": "keyDimensions",
-   "value": "57.5*24.8*45.3 in",
+   "value": "57 x 25 x 45.5 (in.) in",
    "source": "spec sheet",
-   "evidence": "Specification sheet for SF-RB4953 09292019.xlsx / Sheet1 / B5"
+   "evidence": "SF-RB4953 Recumbent Bike - Spec Sheet - 11.11.xlsx / Sheet1 / B5"
   },
   {
    "id": "off-sunny-sf-rb4953",
    "sku": "SF-RB4953",
    "field": "shippingDimensions",
-   "value": "54.5*10.8*26.8 in",
+   "value": "54.5 x 11 x 27 (in.) in",
    "source": "spec sheet",
-   "evidence": "Specification sheet for SF-RB4953 09292019.xlsx / Sheet1 / B7"
+   "evidence": "SF-RB4953 Recumbent Bike - Spec Sheet - 11.11.xlsx / Sheet1 / B7"
   },
   {
    "id": "off-sunny-sf-rb4953",
@@ -3028,15 +2996,15 @@
    "field": "flywheelWeight",
    "value": "6.6 lb",
    "source": "spec sheet",
-   "evidence": "Specification sheet for SF-RB4953 09292019.xlsx / Sheet1 / B12"
+   "evidence": "SF-RB4953 Recumbent Bike - Spec Sheet - 11.11.xlsx / Sheet1 / B12"
   },
   {
    "id": "off-sunny-sf-rb4953",
    "sku": "SF-RB4953",
    "field": "inseam",
-   "value": "27.5 in",
+   "value": "30 in",
    "source": "spec sheet",
-   "evidence": "Specification sheet for SF-RB4953 09292019.xlsx / Sheet1 / B18"
+   "evidence": "SF-RB4953 Recumbent Bike - Spec Sheet - 11.11.xlsx / Sheet1 / B18"
   },
   {
    "id": "off-sunny-sf-rbd4703",
@@ -3125,6 +3093,14 @@
    "value": "186mm/7.3inch",
    "source": "spec sheet",
    "evidence": "SF-B020029  spec sheet 08.22.2022.xlsx / Sheet1 / B43"
+  },
+  {
+   "id": "off-sunny-sf-b020029",
+   "sku": "SF-B020029",
+   "field": "flywheelWeight",
+   "value": "Not applicable",
+   "source": "spec sheet",
+   "evidence": "SF-B020029  spec sheet 08.22.2022.xlsx / Sheet1 / B8"
   },
   {
    "id": "off-sunny-sf-b2729",
@@ -5177,15 +5153,6 @@
  ],
  "conflicts": [
   {
-   "id": "sf-xf920021",
-   "sku": "SF-XF920021",
-   "category": "Racks",
-   "field": "productWeight",
-   "app": "99.7KG/219.8LBS",
-   "specSheet": "105LBS/47.6KG",
-   "evidence": "SF-XF920021 SPEC SHEET 20241204 final.xlsx / FINAL / B12"
-  },
-  {
    "id": "sf-rw525023",
    "sku": "SF-RW525023",
    "category": "Rowers",
@@ -5211,24 +5178,6 @@
    "app": "1414.78×739.14×574.04 mm/ 55.7*29.1*22.6inches",
    "specSheet": "1430×790/2030×755 mm/ 56.2*31.1/79.9*29.7inches",
    "evidence": "SF-RW523023 Final Spec 20260529.xlsx / Specs / B18"
-  },
-  {
-   "id": "off-sunny-sf-b2715",
-   "sku": "SF-B2715",
-   "category": "Indoor Bikes",
-   "field": "flywheelWeight",
-   "app": "No",
-   "specSheet": "2.2 lbs (1kg)",
-   "evidence": "SF-B2715 Specification.xlsx / Sheet1 / B11"
-  },
-  {
-   "id": "off-sunny-no-089-combo",
-   "sku": "NO. 089 COMBO",
-   "category": "Essentials",
-   "field": "keyDimensions",
-   "app": "Not applicable",
-   "specSheet": "130*50*3cm 51.2*19.7*1.2inches",
-   "evidence": "NO. 089 Spec Sheet 2022-10-10.xlsx / sheet  / B9"
   },
   {
    "id": "off-sunny-no-112",
@@ -5292,18 +5241,15 @@
    "app": "16 Ibs",
    "specSheet": "9.5KG/20.9lbs",
    "evidence": "OB-48 draft spec sheet 20241021.xlsx / OB-48 / B9"
-  },
-  {
-   "id": "off-sunny-sf-b224027",
-   "sku": "SF-B224027",
-   "category": "Indoor Bikes",
-   "field": "flywheelWeight",
-   "app": "Not applicable",
-   "specSheet": "5KG/11LBS",
-   "evidence": "SF-B224027 Bike  draft Spec dated 9.2.2025.xlsx / Specs / B17"
   }
  ],
  "unavailable": [
+  {
+   "sku": "SF-EM01-BK",
+   "category": "Essentials",
+   "field": "keyDimensions",
+   "specSheet": "Not applicable (SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B12)"
+  },
   {
    "sku": "SF-RBE4886SMART",
    "category": "Indoor Bikes",
@@ -5362,22 +5308,12 @@
   {
    "sku": "SF-B024041",
    "category": "Indoor Bikes",
-   "field": "flywheelWeight"
-  },
-  {
-   "sku": "SF-B024041",
-   "category": "Indoor Bikes",
    "field": "inseam"
   },
   {
    "sku": "SF-B020026SMART",
    "category": "Indoor Bikes",
    "field": "inseam"
-  },
-  {
-   "sku": "SF-B020029SMART",
-   "category": "Indoor Bikes",
-   "field": "flywheelWeight"
   },
   {
    "sku": "SF-B020029SMART",
@@ -5392,12 +5328,13 @@
   {
    "sku": "SF-B0960SMART",
    "category": "Indoor Bikes",
-   "field": "flywheelWeight"
+   "field": "inseam"
   },
   {
-   "sku": "SF-B0960SMART",
-   "category": "Indoor Bikes",
-   "field": "inseam"
+   "sku": "SF-T724012",
+   "category": "Treadmills",
+   "field": "stepOnHeight",
+   "specSheet": "see the right table (SF-T724012 final spec sheet 04142025.xlsx / Specs / B33)"
   },
   {
    "sku": "NO. 124-RD",
@@ -5496,6 +5433,11 @@
   },
   {
    "sku": "SF-B0891",
+   "category": "Indoor Bikes",
+   "field": "inseam"
+  },
+  {
+   "sku": "SF-B224027",
    "category": "Indoor Bikes",
    "field": "inseam"
   },
@@ -5647,7 +5589,8 @@
   {
    "sku": "OBC-86",
    "category": "Weights",
-   "field": "keyDimensions"
+   "field": "keyDimensions",
+   "specSheet": "86 L (OBC-86 Specification 06.22.2023.xlsx / Specification / B9)"
   },
   {
    "sku": "STBB-60",
@@ -5670,6 +5613,12 @@
    "field": "keyDimensions"
   },
   {
+   "sku": "NO. 087",
+   "category": "Weights",
+   "field": "keyDimensions",
+   "specSheet": "see below (No. 087 Specification.xlsx / Specification / B9)"
+  },
+  {
    "sku": "4200",
    "category": "Indoor Bikes",
    "field": "qFactor"
@@ -5683,6 +5632,11 @@
    "sku": "SF-B2952",
    "category": "Indoor Bikes",
    "field": "qFactor"
+  },
+  {
+   "sku": "SF-B2952",
+   "category": "Indoor Bikes",
+   "field": "flywheelWeight"
   },
   {
    "sku": "SF-B2969",
@@ -5705,6 +5659,11 @@
    "field": "qFactor"
   },
   {
+   "sku": "SF-RB4616S",
+   "category": "Indoor Bikes",
+   "field": "flywheelWeight"
+  },
+  {
    "sku": "SF-RB4631",
    "category": "Indoor Bikes",
    "field": "qFactor"
@@ -5718,6 +5677,11 @@
    "sku": "SF-RB4708",
    "category": "Indoor Bikes",
    "field": "qFactor"
+  },
+  {
+   "sku": "SF-RB4708",
+   "category": "Indoor Bikes",
+   "field": "flywheelWeight"
   },
   {
    "sku": "SF-RB4850",
@@ -5787,17 +5751,13 @@
   {
    "sku": "SF-B020029",
    "category": "Indoor Bikes",
-   "field": "flywheelWeight"
-  },
-  {
-   "sku": "SF-B020029",
-   "category": "Indoor Bikes",
    "field": "inseam"
   },
   {
    "sku": "SF-B2729",
    "category": "Indoor Bikes",
-   "field": "flywheelWeight"
+   "field": "flywheelWeight",
+   "specSheet": "NO (SF-B2729 Spec.docx / document / 9:2)"
   },
   {
    "sku": "SF-B2916",
@@ -5807,7 +5767,8 @@
   {
    "sku": "SF-B2916",
    "category": "Indoor Bikes",
-   "field": "flywheelWeight"
+   "field": "flywheelWeight",
+   "specSheet": "No flywheel (SF-B2916 Specification 04032025.xlsx / Sheet1 / B13)"
   },
   {
    "sku": "5150",
