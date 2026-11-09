@@ -2,6 +2,12 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-09 — Codex publishes the Mastersheet catalog import
+
+- Published public Site version 47 from `ffd99aa790c9ed9bb9c9e7ebcda1ff368dd2935d`. Saved version `appgprj_6ac574cb8a248191bf83b10b05b0a7df~appgver_a0b6b66d7ec88191bb513be48530ba3d` and successful deployment `appgdep_6af200a7f7408191a8e66be52f4113e2`.
+- All 31 suites passed after the batch-three fixture was scoped to its original import cohort. The build and 14 preview captures passed. The archive UI test verified all 470 Off Sunny web records and 463 ISV matches.
+- Live API returned 626 records. All 136 imported records match source and all 490 pre-existing records match the pre-deployment snapshot. Two new pinned image requests returned HTTP 200 JPEGs. [Off Sunny web catalog](https://sunny-product-finder.steven-peace.chatgpt.site/?source=off-sunny-web&category=All)
+
 ## 2026-11-09 — Codex adds the 136 Mastersheet gaps
 
 - Imported the 136 exact rows from `data/pricing/us-mastersheet-v1-audit.json` under Off Sunny web. The catalog now has 156 Current and 470 Off Sunny web records, 626 total. Preserved the Mastersheet row, status, category and B2B TP where available. `NO. 077-S` and `NO. 077S` remain separate models. The Site upgrade is insert-only and retains existing live edits and deletions.
