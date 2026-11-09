@@ -2,6 +2,15 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-09: Claude Code — requested spec fields from Master SPEC SHEET, then ISV 4.0; Artifact version 31
+- Changes: owner decisions — (1) only the fields from the 2026-10-28 feedback: product weight, shipping weight and product dimensions for every product; treadmills also deck-to-floor height, running belt and carton dimensions; indoor bikes also carton dimensions, Q-factor, flywheel weight and inseam; (2) fill only empty fields and list differences; (3) latest date in the file name wins; (4) "stepless" resistance shows as "micro-adjustable" in the Product Spec and ISV dialogs (display only; stored text unchanged). Filled 643 fields on 196 products: 305 from spec sheets (exact model cell), 338 from ISV 4.0. 111 fields have no value in either source and stay Unavailable; 14 spec-sheet values differ from the app and were not changed. All in data/specifications/master-fill-audit.json. Worker fills empty fields once on the Site (catalog_meta key master-spec-fill-20261109), keeping app edits.
+- Files: data/*.json; data/off-sunny-web/items.json; data/specifications/master-fill-audit.json; app/index.html; server/worker.js; scripts/fill-master-specs.py; tests/master-spec-fill.spec.cjs; tests/v2-spec-details.spec.cjs; HANDOFF.md
+- Tests: all 34 tests/*.spec.cjs passed with installed Chrome through a local preload. Worker gzip 9,357,017 bytes.
+- Claude Artifact: PUBLISHED version 31 (id 1794262728-2d9e) built from 31bb43f; the page differs from version 30 only by the wording lines. 196 item documents got the new specDetails (each checked unchanged from the repository first, pinned with if_version) and were read back equal; no other field changed. Not checked in the signed-in viewer.
+- Private Site: not published; Codex to publish.
+- Practice data: not exported (owner decision).
+- Remaining issues: owner to decide the 14 differences; two Excel lock files (~$FA-7966/7967) were skipped.
+- Next steps: Codex "git pull", then publish the Site.
 ## 2026-11-09 — Claude Code publishes Artifact version 30
 
 - Synced to `0f279cb` and reviewed Codex's commits since `1bdff3d`: 136 Mastersheet models imported (626 products in total), 113 verified pictures, side-by-side Product Spec/ISV comparison dialogs, verified and estimated measurement units. Test changes only exclude the new import cohort or accept unit-formatted display of the same numbers; no checks were removed.
