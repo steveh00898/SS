@@ -2,6 +2,11 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-09 — Codex publishes the comparison dialogs
+
+- Public Site version 48 deployed from `3666560c439933d59706da18b4ef3d0411124411`. Saved version `appgprj_6ac574cb8a248191bf83b10b05b0a7df~appgver_49c4e42405fc8191acfd3d86ea0db799` and deployment `appgdep_6af20bfd0268819192ff03cfed7bb8ad`.
+- All 32 suites passed, the Worker build passed, and desktop and phone captures passed. The live comparison for SF-E3875, SF-E3889SMART and SF-E321006 fit without horizontal scrolling in both dialogs at 1440 px and 390 px. The clicked model appeared first on each check. Claude Artifact version 29 is pending Claude Code sync.
+
 ## 2026-11-09 — Codex adds side-by-side Product Spec and ISV comparisons
 
 - Both dialogs use the applied Compare set in chart order, with the model whose link was clicked moved to the first column. They align shared fields, mark unavailable values, preserve per-product ISV discrepancy highlights and retain labeled Product Spec fallbacks. Headers and section navigation stay visible while scrolling. Three products fit without horizontal scrolling at 1440 px and 390 px, with field labels above the values on phones. Larger sets can scroll horizontally. The single-product dialog remains available outside a multi-product comparison.
