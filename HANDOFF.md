@@ -2,6 +2,11 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-09 — Codex publishes verified measurement labels
+
+- Public Site version 49 deployed from `122e6c3b25fdc18d83d5aa8f2d616c237f7e0fe2`, saved version `appgprj_6ac574cb8a248191bf83b10b05b0a7df~appgver_f550df896bb88191b71112f87924a0a0`, deployment `appgdep_6af212fe4f148191bf16413846960892`.
+- All 33 suites passed after updating the V2 source-display assertion for the intentional new formatting. Build and desktop and phone previews passed. The live ISV dialog showed `49 × 23 × 50 in (L × W × H)` for SF-T1407M. The three treadmill weights displayed with lb at 1440 px and 390 px, and all comparison columns fit. Claude Artifact version 29 awaits its own publication.
+
 ## 2026-11-09 — Codex labels Product Spec and ISV measurements
 
 - Weight, length and case-volume fields use a shared formatter in both single-product and comparison dialogs. It preserves explicit source units, formats simple tuples with labeled axis order, uses workbook header units and same-model corroboration for bare values, and labels unresolved entries `Unit unverified`. For known units, discrepancy checks compare corresponding values on a common scale and tolerate up to 1% rounding across different units. Raw values and catalog records are preserved.
