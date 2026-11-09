@@ -2,6 +2,11 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-09 — Codex publishes estimated measurement units
+
+- Public Site version 50 deployed from `8154980081ab2e19e46aa341edcc1f5ea9036f61`, saved version `appgprj_6ac574cb8a248191bf83b10b05b0a7df~appgver_2cf4794b2b2481919b3914a98b422811`, deployment `appgdep_6af21a44e1d4819188696fb285c83d6f`.
+- All 33 test suites and standard screenshots passed. The live single-product ISV dialog and the three-model comparison at 1440 px and 390 px showed the estimated SF-E905SMART value and the link to Sunny's 220 lb limit. All three columns fit. Claude Artifact version 29 awaits its own publication.
+
 ## 2026-11-09 — Codex infers measurement units from catalog evidence
 
 - Product Spec and ISV now label supported estimates separately from stated or corroborated units. Inference checks the corresponding same-model measurement, matching dimensions in a related tuple, and a strong convention in the same field and category. Estimates are display-only and excluded from verified discrepancy comparisons. Case dimensions are corroborated in inches when their computed volume matches the workbook's explicitly labeled cubic feet within rounding tolerance.
