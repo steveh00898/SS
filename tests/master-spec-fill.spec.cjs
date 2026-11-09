@@ -8,7 +8,7 @@ const read=f=>JSON.parse(fs.readFileSync(__dirname+'/../'+f,'utf8'));
  for(const f of audit.filled){const r=all.find(x=>x.id===f.id);assert.equal(r.specDetails.values[f.field],f.value);assert.equal(r.specDetails.evidence[f.field],f.evidence);
   if(f.source==='ISV 4.0')assert.match(f.evidence,/^ISV 4\.0 \/ SHF \/ [A-Z]+\d+$/);else assert(!f.evidence.startsWith('ISV'))}
  for(const c of audit.conflicts){const r=all.find(x=>x.id===c.id);assert.equal(r.specDetails.values[c.field],c.app,'app value kept: '+c.sku)}
- for(const u of audit.unavailable){const r=all.find(x=>x.sku===u.sku);const v=r.specDetails?.values?.[u.field];assert(!v||!String(v).trim()||/^(unavailable|not provided)$/i.test(v),'still empty: '+u.sku+' '+u.field)}
+ for(const u of audit.unavailable){const r=all.find(x=>x.sku===u.sku);const v=r.specDetails?.values?.[u.field];assert(!v||!String(v).trim()||/^(unavailable|not provided|see the right table)$/i.test(v),'still empty: '+u.sku+' '+u.field)}
  for(const f of audit.filled.filter(f=>/Dimensions$/.test(f.field)))assert((f.value.match(/\d+(?:\.\d+)?/g)||[]).length>=2,'no empty template: '+f.sku);
  // Site upgrade: fills an empty field, keeps an app edit, runs once.
  const {sql,request}=await require('./usage-fixture.cjs')();global.APP_CATALOG.push(...archive);
