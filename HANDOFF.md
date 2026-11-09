@@ -2,6 +2,11 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-09 — Codex publishes the owner photo import
+
+- Public Site version 53 deployed from `31ac5e910ec1b5741ade02a7946d65daada66283`, saved version `appgprj_6ac574cb8a248191bf83b10b05b0a7df~appgver_db888fd1a9ec819182dad526a0cc8f69`, deployment `appgdep_6af25db597b8819191725456de21ac2d`.
+- All 36 suites passed after the usage-chart test was corrected to wait for its resize redraw. The build passed. All 15 published image responses matched the source JPEGs, with desktop and phone thumbnail checks. The live comparison confirmed the existing SF-DB01 upload and all unrelated catalog data were preserved. Claude Artifact awaits its own image sync and publication.
+
 ## 2026-11-09 — Codex imports 15 owner-provided catalog photos
 
 - Exact filename-to-model matches after removing the trailing photo number: NO. 042, NO. 055, NO. 056, NO. 057, NO. 069, NO. 072, NO. 076, NO. 079, NO. 085, NO. 087, OBC-86, SDSN-20, STBB-60, STCB-47 and STW-001Y. The folder's dumbbell WebP was skipped because live SF-DB01 already had the upload.
