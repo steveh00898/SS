@@ -2,6 +2,11 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-09 — Codex publishes the uploaded-image fix
+
+- Public Site version 52 deployed from `46f13f9818121e2063e6c179ba41bf98ab120d11`, saved version `appgprj_6ac574cb8a248191bf83b10b05b0a7df~appgver_395670d926348191a44a693b6088f243`, deployment `appgdep_6af259b3949c8191a2d0da27663de0bd`.
+- All 35 suites, the build, and 14 preview captures passed. Live SF-DB01 thumbnail and picture viewer decoded the saved 750 × 750 WebP at 1440 px and 390 px. No upload replacement was needed. Claude Artifact remains on v31 pending its own publication.
+
 ## 2026-11-09 — Codex fixes the saved SF-DB01 upload display
 
 - The Site record `off-sunny-sf-db01` already had a valid WebP asset ID and an empty image URL. Its stored image returned HTTP 200 through the Site's asset endpoint. The browser had been requesting the Artifact-only blob path.
