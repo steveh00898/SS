@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-09 — Codex infers measurement units from catalog evidence
+
+- Product Spec and ISV now label supported estimates separately from stated or corroborated units. Inference checks the corresponding same-model measurement, matching dimensions in a related tuple, and a strong convention in the same field and category. Estimates are display-only and excluded from verified discrepancy comparisons. Case dimensions are corroborated in inches when their computed volume matches the workbook's explicitly labeled cubic feet within rounding tolerance.
+- All 626 records were audited through the display logic. ISV has 3,823 estimated readings and 249 still unverified. Product Spec has 538 estimated readings and 103 still unverified. The case-volume check corroborated 327 additional ISV readings. These counts include readings shown in both dialogs.
+- SF-E905SMART preserves the ISV source number 330, labels it `330 lb (estimated unit)`, and links a note to Sunny's published 220 lb maximum user weight. The catalog numbers were not modified. [Official SF-E905SMART product specifications](https://sunnyhealthfitness.com/products/smart-magnetic-elliptical-sf-e905smart)
+- Extended the measurement regression to verify the SF-E905SMART label, official limit link and exclusion from verified discrepancy colors. The V2 source-value test recognizes estimates appended to original values.
+
 ## 2026-11-09 — Codex publishes verified measurement labels
 
 - Public Site version 49 deployed from `122e6c3b25fdc18d83d5aa8f2d616c237f7e0fe2`, saved version `appgprj_6ac574cb8a248191bf83b10b05b0a7df~appgver_f550df896bb88191b71112f87924a0a0`, deployment `appgdep_6af212fe4f148191bf16413846960892`.

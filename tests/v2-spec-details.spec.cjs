@@ -80,8 +80,9 @@ const assert=require('assert'),fs=require('fs'),{chromium}=require('playwright')
    const raw=item.productSpecs||item.treadmillSpecs||{},comparison={...raw};if(category==='Treadmills'){delete comparison.keyDimensions;delete comparison.speedResistanceLevels;if(raw.keyDimensions)comparison.runningSurface=raw.keyDimensions;if(raw.speedResistanceLevels)comparison.speedRange=raw.speedResistanceLevels;}else if(/^Folded:/.test(raw.keyDimensions||'')){delete comparison.keyDimensions;comparison.foldedDimensions=raw.keyDimensions.slice(7).trim();}if(category==='Ellipticals'&&raw.strideLengthIn!=null)comparison.stride=raw.strideLengthIn+' in';
    const assertDisplayedSource=async(key,value)=>{
     const display=await page.locator('#productSpecBody [data-spec-field="'+key+'"] td').textContent();
-    const actual=display.replace(/ · Unit unverified$/,'');
+    const actual=display.replace(/ · Unit unverified$| \(estimated unit\)$/,'');
     if(actual===String(value))return;
+    if(display.endsWith(' (estimated unit)')&&actual.replace(/ (?:lb|kg|g|oz|in|cm|mm|ft|m)$/,'')===String(value))return;
     // A simple measurement may now use a common suffix and × instead of its source punctuation.
     assert.match(actual,/^[φØø]?[\d.]+(?: × [\d.]+)* (?:lb|kg|g|oz|in|cm|mm|ft|m)(?: \([LWHDT](?: × [LWHDT])+\))?$/,item.id+' '+key);
     const numbers=text=>(String(text).match(/\d+(?:\.\d+)?/g)||[]).map(Number);

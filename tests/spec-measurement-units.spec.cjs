@@ -51,6 +51,16 @@ const { chromium } = require('playwright');
       assert(await cell.evaluate(el => el.classList.contains('spec-compare-different')));
       await page.keyboard.press('Escape');
     }
+    const elliptical= require('../data/ellipticals.json').find(item => item.sku === 'SF-E905SMART');
+    const ellipsePage=await browser.newPage({viewport:{width:1440,height:900}});
+    ellipsePage.on('pageerror',error=>errors.push(error.message));
+    const ellipseMock=`window.fetch=async path=>Response.json(path==='/api/session'?{canWrite:true}:${JSON.stringify([{...elliptical,imageUrl:''}])});window.history.replaceState=()=>{};`;
+    await ellipsePage.setContent('<script>'+ellipseMock+'</script>'+fs.readFileSync(__dirname+'/../app/index.html','utf8'));
+    await ellipsePage.locator('#rows .isv-link').click();
+    const limit=ellipsePage.locator('#isvBody [data-isv-column=BV] .isv-value');
+    assert.match(await limit.innerText(),/^330 lb \(estimated unit\)/);
+    assert.equal(await limit.getByRole('link',{name:'220 lb max user weight'}).count(),1);
+    assert.equal(await limit.evaluate(el=>el.classList.contains('isv-different')),false);
     assert.deepEqual(errors, []);
     console.log('PASS: verified measurement units, equivalent conversions, real discrepancies, unknown units and comparison layouts.');
   } finally {

@@ -752,6 +752,13 @@ body.spec-view table.ptable{min-width:0}
     if(declared)return declared;
     if(!/^\s*[φØø]?\s*\d[\d.\sLWHDT×x*]*\s*$/i.test(String(value??'')))return null;
     const fields=isvItemFor(it)?.fields||{};
+    if(['AI','AJ','AK'].includes(key)){
+      const [length,width,height,volume]=['AI','AJ','AK','AL'].map(column=>Number(fields[column]));
+      if([length,width,height,volume].every(n=>n>0)){
+        const cubicFeet=length*width*height/1728;
+        if(Math.abs(cubicFeet-volume)<=Math.max(.005,volume*.01))return 'in';
+      }
+    }
     for(const [axes,tuple] of [['AB AC AD','AG'],['AP AQ AR','AS']]){
       const index=axes.split(' ').indexOf(key);
       if(index===-1)continue;
@@ -775,6 +782,83 @@ body.spec-view table.ptable{min-width:0}
     const productUnit=declaredProductUnit(key,value)||matchingSourceUnit(value,isvValue,kind,isvUnit);
     return {kind,isvUnit,productUnit};
   }
+  const typicalMeasurementUnits={weight:['lb','kg','g','oz'],length:['in','cm','mm','ft','m'],volume:['ft³']};
+  function bareMeasurement(value){
+    return /^\s*[φØø]?\s*\d[\d.\sLWHDT×x*–-]*\s*$/i.test(String(value??''));
+  }
+  function closestMeasurementUnit(value,kind,references){
+    if(!kind||!bareMeasurement(value))return null;
+    const numbers=numberList(value);
+    const candidates=typicalMeasurementUnits[kind].map(unit=>{
+      let distance=Infinity;
+      for(const {value:reference,unit:declared} of references){
+        for(const part of measurementParts(reference,kind,declared)){
+          if(part.numbers.length!==numbers.length||part.numbers.some(n=>n<=0)||numbers.some(n=>n<=0))continue;
+          const score=numbers.reduce((total,n,i)=>total+Math.abs(Math.log(n*unitScale[unit][1]/(part.numbers[i]*unitScale[part.units[i]][1]))),0)/numbers.length;
+          distance=Math.min(distance,score);
+        }
+      }
+      return {unit,distance};
+    }).sort((a,b)=>a.distance-b.distance);
+    const [first,second]=candidates;
+    return first.distance<=Math.log(3)&&(!second||second.distance-first.distance>=Math.log(1.35))?first.unit:null;
+  }
+  let unitPeerItems,unitPeerCache=new Map();
+  function peerMeasurementUnit(it,key,value,kind,isISV){
+    if(!kind||!bareMeasurement(value))return null;
+    if(unitPeerItems!==state.items){unitPeerItems=state.items;unitPeerCache=new Map();}
+    const cacheKey=JSON.stringify([isISV,key,it.category]);
+    if(!unitPeerCache.has(cacheKey)){
+      const samples=new Map();
+      for(const other of state.items){
+        if(other.category!==it.category)continue;
+        const comparison=dialogSpecs(other),values=other.specDetails?.values||{};
+        const field=isISV?isvItemFor(other)?.fields[key]:comparison[key]??values[key];
+        if(isMissing(field))continue;
+        const unit=isISV?isvMeasurementUnit(other,key,field,comparison,values):declaredProductUnit(key,field);
+        const parts=measurementParts(field,kind,unit);
+        const units=[...new Set(parts.flatMap(part=>part.units))];
+        if(units.length!==1)continue;
+        if(!samples.has(units[0]))samples.set(units[0],[]);
+        samples.get(units[0]).push(Math.max(...parts.flatMap(part=>part.numbers)));
+      }
+      unitPeerCache.set(cacheKey,[...samples].map(([unit,numbers])=>({unit,count:numbers.length,median:numbers.sort((a,b)=>a-b)[Math.floor(numbers.length/2)]})).sort((a,b)=>b.count-a.count));
+    }
+    const peers=unitPeerCache.get(cacheKey),first=peers[0],total=peers.reduce((sum,peer)=>sum+peer.count,0),size=Math.max(...numberList(value));
+    return first&&first.count>=3&&first.count/total>=.75&&size>=first.median/5&&size<=first.median*5?first.unit:null;
+  }
+  function estimatedISVUnit(it,key,value,comparison,values){
+    const kind=measurementKind(key,true);
+    if(!kind||!bareMeasurement(value))return null;
+    const references=Object.entries(isvSpecMap(it)).filter(([field,map])=>map.column===key&&measurementKind(field,false)===kind).map(([field])=>{
+      const product=comparison[field]??values[field];
+      const unit=declaredProductUnit(field,product);
+      return {value:product,unit};
+    });
+    const direct=closestMeasurementUnit(value,kind,references);
+    if(direct)return direct;
+    const fields=isvItemFor(it)?.fields||{};
+    for(const [axes,tuple] of [['AB AC AD','AG'],['AP AQ AR','AS']]){
+      const index=axes.split(' ').indexOf(key);
+      if(index===-1)continue;
+      const tupleValue=fields[tuple];
+      const tupleUnit=isvMeasurementUnit(it,tuple,tupleValue,comparison,values)||estimatedISVUnit(it,tuple,tupleValue,comparison,values);
+      const part=measurementParts(tupleValue,kind,tupleUnit).find(entry=>entry.axes.join('')==='LWH');
+      if(part&&numberList(value).length===1&&numberList(value)[0]===part.numbers[index])return part.units[index];
+    }
+    if(key==='AO'){
+      const fromShipping=closestMeasurementUnit(value,kind,[{value:fields.AA,unit:'lb'}]);
+      if(fromShipping)return fromShipping;
+    }
+    return peerMeasurementUnit(it,key,value,kind,true);
+  }
+  function estimatedSpecUnit(it,key,value,map,isvValue,pair,comparison,values){
+    const kind=measurementKind(key,false);
+    if(!kind||!bareMeasurement(value))return null;
+    const referenceUnit=map&&pair?(pair.isvUnit||estimatedISVUnit(it,map.column,isvValue,comparison,values)):null;
+    const reference=map&&pair?closestMeasurementUnit(value,kind,[{value:isvValue,unit:referenceUnit}]):null;
+    return reference||peerMeasurementUnit(it,key,value,kind,false);
+  }
   function equivalentMeasurements(value,isvValue,pair){
     const left=measurementParts(value,pair.kind,pair.productUnit),right=measurementParts(isvValue,pair.kind,pair.isvUnit);
     // Unverified units cannot establish a discrepancy.
@@ -786,16 +870,18 @@ body.spec-view table.ptable{min-width:0}
       return Math.abs(x-y)<=Math.max(Math.abs(x),Math.abs(y))*.01;
     })));
   }
-  function formatMeasurement(value,kind,unit){
+  function formatMeasurement(value,kind,unit,estimated){
     const text=String(value);
     if(!kind||!/[0-9]/.test(text))return text;
-    const parts=measurementParts(text,kind,unit);
+    const parts=measurementParts(text,kind,unit||estimated);
+    const estimateLabel=estimated?' (estimated unit)':'';
     if(parts.length===1&&!/[/;()\n]/.test(text)&&parts[0].units.every(unit=>unit===parts[0].units[0])){
       const {numbers,axes,units}=parts[0];
       const order=axes.every(Boolean)&&axes.length>1?' ('+axes.join(' × ')+')':'';
-      return (text.trim().match(/^[φØø]/)?.[0]||'')+numbers.join(' × ')+' '+units[0]+order;
+      return (text.trim().match(/^[φØø]/)?.[0]||'')+numbers.join(' × ')+' '+units[0]+order+estimateLabel;
     }
     if(parts.length||/\d\s*(?:["″′']|lbs?\b|kgs?\b|oz\b|mm\b|cm\b|in(?:ch(?:es)?)?\b|ft\b|pounds?\b|kilograms?\b)/i.test(text))return text;
+    if(estimated)return text+' '+estimated+estimateLabel;
     return text+' · Unit unverified';
   }
   function numberList(value){const text=String(value??'');return [...text.matchAll(/-?\d+(?:\.\d+)?/g)].map(match=>{let number=Number(match[0]);if(match[0][0]==='-'&&match.index>0&&/\d/.test(text[match.index-1]))number=Math.abs(number);return number;});}
@@ -807,16 +893,22 @@ body.spec-view table.ptable{min-width:0}
   function productSpecState(it,key,productValue,comparison,values){
     const item=isvItemFor(it),map=isvSpecMap(it)[key],kind=measurementKind(key,false);
     const unit=declaredProductUnit(key,productValue);
-    if(!item||!map||isMissing(item.fields[map.column]))return {value:productValue,missing:isMissing(productValue),different:false,fallback:false,kind,unit};
+    if(!item||!map||isMissing(item.fields[map.column]))return {value:productValue,missing:isMissing(productValue),different:false,fallback:false,kind,unit,estimated:!unit&&estimatedSpecUnit(it,key,productValue)};
     const isvValue=item.fields[map.column],valid=isValidISVValue(key,isvValue,map);
     const pair=measurementPair(it,key,productValue,map.column,isvValue,comparison,values);
-    if(isMissing(productValue)&&valid)return {value:isvValue,missing:false,different:false,fallback:true,column:map.column,kind:measurementKind(map.column,true)||kind,unit:pair?.isvUnit};
+    if(isMissing(productValue)&&valid)return {value:isvValue,missing:false,different:false,fallback:true,column:map.column,kind:measurementKind(map.column,true)||kind,unit:pair?.isvUnit,estimated:!pair?.isvUnit&&estimatedISVUnit(it,map.column,isvValue,comparison,values)};
     const different=valid&&!isMissing(productValue)&&!(pair?equivalentMeasurements(productValue,isvValue,pair):isEquivalentISV(productValue,isvValue,map.mode));
-    return {value:productValue,missing:isMissing(productValue),different,fallback:false,column:map.column,kind,unit:pair?.productUnit||unit};
+    return {value:productValue,missing:isMissing(productValue),different,fallback:false,column:map.column,kind,unit:pair?.productUnit||unit,estimated:!(pair?.productUnit||unit)&&estimatedSpecUnit(it,key,productValue,map,isvValue,pair,comparison,values)};
   }
   function displayISVMeasurement(it,key,value,comparison,values){
     const kind=measurementKind(key,true);
-    return isvValueHTML(formatMeasurement(value,kind,isvMeasurementUnit(it,key,value,comparison,values)));
+    const unit=isvMeasurementUnit(it,key,value,comparison,values);
+    const estimate=!unit&&estimatedISVUnit(it,key,value,comparison,values);
+    const display=isvValueHTML(formatMeasurement(value,kind,unit,estimate));
+    if(it.sku==='SF-E905SMART'&&key==='BV'&&String(value).trim()==='330'){
+      return display+'<span class="isv-warning">Sunny lists <a href="https://sunnyhealthfitness.com/products/smart-magnetic-elliptical-sf-e905smart" target="_blank" rel="noopener noreferrer">220 lb max user weight</a>.</span>';
+    }
+    return display;
   }
   function dialogSectionNav(entries,label){return '<nav class="dialog-section-nav" aria-label="'+esc(label)+'">'+entries.map((entry,index)=>'<button type="button" data-dialog-section="'+esc(entry.id)+'" aria-current="'+(index===0?'true':'false')+'"'+(entry.color?' style="--section-color:'+esc(entry.color)+'"':'')+'>'+esc(entry.title)+'</button>').join('')+'</nav>';}
   function setupDialogSectionNav(body){
@@ -881,7 +973,7 @@ body.spec-view table.ptable{min-width:0}
       const status=productSpecState(item,key,comparison[key]??values[key],comparison,values);
       different=status.different;
       missing=status.missing;
-      if(!missing)content=esc(formatMeasurement(status.value,status.kind,status.unit))+(status.fallback?'<span class="source-badge">From ISV</span>':'');
+      if(!missing)content=esc(formatMeasurement(status.value,status.kind,status.unit,status.estimated))+(status.fallback?'<span class="source-badge">From ISV</span>':'');
     }
     return '<div role="cell" class="spec-compare-cell'+(different?' spec-compare-different':'')+(missing?' spec-compare-missing':'')+'">'+content+'</div>';
   }
@@ -910,7 +1002,7 @@ body.spec-view table.ptable{min-width:0}
     }
     const details=it.specDetails||{},values=details.values||{},comparison=dialogSpecs(it),isvItem=isvItemFor(it);$('#productSpecTitle').textContent='Product Spec · '+it.sku;$('#productSpecName').textContent=it.name;const template=PRODUCT_SPEC_TEMPLATES[it.category]||PRODUCT_SPEC_TEMPLATES.Essentials;
     const help=isvItem?'Yellow means both sources contain different values. Unavailable Product Spec values use a labeled ISV display fallback.':'Missing values are not inferred.';
-    const sectionEntries=template.map((section,index)=>{const id='product-spec-section-'+index;return{id,title:section.title,html:'<section class="spec-section" id="'+id+'"><h3>'+esc(section.title)+'</h3><table class="spec-detail-table"><tbody>'+section.fields.map(([key,label])=>{const state=productSpecState(it,key,comparison[key]??values[key],comparison,values),classes=[state.missing?'spec-unavailable':'',state.different?'spec-different':''].filter(Boolean).join(' '),column=state.column?' data-isv-column="'+esc(state.column)+'"':'';const content=state.missing?'Unavailable':esc(formatMeasurement(state.value,state.kind,state.unit))+(state.fallback?'<span class="source-badge">From ISV</span>':'');return '<tr data-spec-field="'+esc(key)+'"'+column+'><th scope="row">'+esc(label)+'</th><td class="'+classes+'">'+content+'</td></tr>';}).join('')+'</tbody></table></section>'};});const sections=sectionEntries.map(entry=>entry.html).join('');
+    const sectionEntries=template.map((section,index)=>{const id='product-spec-section-'+index;return{id,title:section.title,html:'<section class="spec-section" id="'+id+'"><h3>'+esc(section.title)+'</h3><table class="spec-detail-table"><tbody>'+section.fields.map(([key,label])=>{const state=productSpecState(it,key,comparison[key]??values[key],comparison,values),classes=[state.missing?'spec-unavailable':'',state.different?'spec-different':''].filter(Boolean).join(' '),column=state.column?' data-isv-column="'+esc(state.column)+'"':'';const content=state.missing?'Unavailable':esc(formatMeasurement(state.value,state.kind,state.unit,state.estimated))+(state.fallback?'<span class="source-badge">From ISV</span>':'');return '<tr data-spec-field="'+esc(key)+'"'+column+'><th scope="row">'+esc(label)+'</th><td class="'+classes+'">'+content+'</td></tr>';}).join('')+'</tbody></table></section>'};});const sections=sectionEntries.map(entry=>entry.html).join('');
     const sources=details.sources?.length?[...details.sources]:[it.sourceFile||comparison.source||'Existing catalog specifications'];if(isvItem)sources.push(isvDataFor(it).source.file+' · '+isvDataFor(it).source.sheet+' · row '+isvItem.row);
     const body=$('#productSpecBody');body.innerHTML=dialogSectionNav(sectionEntries,'Product Spec categories')+'<p class="pv-help">'+esc(it.category)+' · '+(isOffSunny(it)?'off Sunny web':'Current website')+' · '+esc(help)+'</p>'+sections+(details.notes?.length?'<section class="spec-section"><h3>Source notes</h3><ul>'+details.notes.map(note=>'<li>'+esc(note)+'</li>').join('')+'</ul></section>':'')+'<section class="spec-section"><h3>Sources</h3><p>'+sources.map(source=>esc(source)).join('<br>')+'</p></section>';document.body.style.overflow='hidden';specDialog.showModal();body.scrollTop=0;setupDialogSectionNav(body);$('#closeProductSpec').focus();
   }
