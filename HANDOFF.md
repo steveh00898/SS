@@ -2,6 +2,11 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-09 — Codex publishes Claude Code’s master spec fill
+
+- Public Site version 51 deployed from `d54c2c84ca22c3b91bb8aa743d5eb7bfbc3bede6`, saved version `appgprj_6ac574cb8a248191bf83b10b05b0a7df~appgver_542b11c0acb88191b7a1619c148b9f62`, deployment `appgdep_6af24f6cf8ec81919aeef978110dd5e4`. Claude Artifact version 31 was previously published by Claude Code.
+- All 34 test suites, build and 14 preview captures passed. Live API verified all 640 fills and 10 owner-reviewed replacements across 626 products and preserved unrelated data. Live Product Spec displayed micro-adjustable wording. The older Artifact v30 documentation-only commit `9722f48` lacked an Agent trailer.
+
 ## 2026-11-09: Claude Code — owner chose spec sheet values for the 10 differences
 - Changes: SF-RW525023 (product weight, shipping weight, dimensions), NO. 112 and NO. 113 (product weight), OB-20 (product weight, shipping weight, dimensions) and OB-48 (product and shipping weight) now use the newest spec sheet value with cell evidence; each record's notes keep the replaced value. Audit moves them to appliedConflicts. Worker applies them once on the Site (catalog_meta key spec-sheet-decisions-20261109) only where the stored value is still the replaced one, so later edits stay.
 - Files: scripts/apply-spec-conflicts.py; data/rowers.json; data/off-sunny-web/items.json; data/specifications/master-fill-audit.json; server/worker.js; tests/master-spec-fill.spec.cjs; tests/v2-spec-details.spec.cjs; HANDOFF.md
