@@ -2,6 +2,12 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-09 — Codex labels Product Spec and ISV measurements
+
+- Weight, length and case-volume fields use a shared formatter in both single-product and comparison dialogs. It preserves explicit source units, formats simple tuples with labeled axis order, uses workbook header units and same-model corroboration for bare values, and labels unresolved entries `Unit unverified`. For known units, discrepancy checks compare corresponding values on a common scale and tolerate up to 1% rounding across different units. Raw values and catalog records are preserved.
+- Workbook headers declare `AA` (lb), `AL` (ft³), and `CQ` (in). The exact-model overrides are limited to matching ISV product weight and assembled dimensions for SF-T1407M, SF-T1407SMART and SF-T724064. Evidence: [Sunny SF-T1407M](https://sunnyhealthfitness.com/collections/all-products/products/manual-walking-treadmill), [SF-T1407SMART listing](https://www.cymax.com/Sunny-Health-Fitness-Smart-Manual-Walking-Treadmill-in-Black-Grey-SF-T1407SMART.htm), [SF-T724064 listing](https://www.cymax.com/Sunny-Health-Fitness-Treadpad-100-Smart-Walking-Treadmill-in-Black-Red-SF-T724064.htm). These references label the existing workbook values and do not replace them with different catalog values.
+- Added `tests/spec-measurement-units.spec.cjs` for verified and unverified values, same-model dimension evidence, equivalent kg/lb values, real discrepancies, and desktop and phone comparison views.
+
 ## 2026-11-09 — Codex publishes the comparison dialogs
 
 - Public Site version 48 deployed from `3666560c439933d59706da18b4ef3d0411124411`. Saved version `appgprj_6ac574cb8a248191bf83b10b05b0a7df~appgver_49c4e42405fc8191acfd3d86ea0db799` and deployment `appgdep_6af20bfd0268819192ff03cfed7bb8ad`.

@@ -78,9 +78,18 @@ const assert=require('assert'),fs=require('fs'),{chromium}=require('playwright')
   for(const item of picks){await page.locator('[data-product-spec="'+item.id+'"]').first().click();await page.locator('#productSpecDialog').waitFor({state:'visible'});
    const layout=await page.locator('#productSpecBody .spec-section').evaluateAll(s=>s.filter(x=>x.querySelector('table')).map(x=>[x.querySelector('h3').textContent,[...x.querySelectorAll('th')].map(th=>th.textContent)]));assert.deepEqual(layout,expected,category+' '+item.id);
    const raw=item.productSpecs||item.treadmillSpecs||{},comparison={...raw};if(category==='Treadmills'){delete comparison.keyDimensions;delete comparison.speedResistanceLevels;if(raw.keyDimensions)comparison.runningSurface=raw.keyDimensions;if(raw.speedResistanceLevels)comparison.speedRange=raw.speedResistanceLevels;}else if(/^Folded:/.test(raw.keyDimensions||'')){delete comparison.keyDimensions;comparison.foldedDimensions=raw.keyDimensions.slice(7).trim();}if(category==='Ellipticals'&&raw.strideLengthIn!=null)comparison.stride=raw.strideLengthIn+' in';
-   for(const [key,value] of Object.entries(item.specDetails?.values||{})){if(comparison[key]!=null)continue;assert.equal(await page.locator('#productSpecBody [data-spec-field="'+key+'"] td').textContent(),value,item.id+' '+key);}
-   for(const [key,value] of Object.entries(comparison))if(value!=null&&keysOf(category).includes(key)&&typeof value==='string')assert.equal(await page.locator('#productSpecBody [data-spec-field="'+key+'"] td').textContent(),value,'app value wins: '+item.id+' '+key);
-   if(item.id==='sf-t723030'){assert.equal(await page.locator('#productSpecBody [data-spec-field="runningSurface"] td').textContent(),'53.1" × 20.1"');assert.match(await page.locator('#productSpecBody [data-spec-field="keyDimensions"] td').textContent(),/63.8\*30.9\*45.7/);}
+   const assertDisplayedSource=async(key,value)=>{
+    const display=await page.locator('#productSpecBody [data-spec-field="'+key+'"] td').textContent();
+    const actual=display.replace(/ · Unit unverified$/,'');
+    if(actual===String(value))return;
+    // A simple measurement may now use a common suffix and × instead of its source punctuation.
+    assert.match(actual,/^[φØø]?[\d.]+(?: × [\d.]+)* (?:lb|kg|g|oz|in|cm|mm|ft|m)(?: \([LWHDT](?: × [LWHDT])+\))?$/,item.id+' '+key);
+    const numbers=text=>(String(text).match(/\d+(?:\.\d+)?/g)||[]).map(Number);
+    assert.deepEqual(numbers(actual),numbers(value),'app source numbers win: '+item.id+' '+key);
+   };
+   for(const [key,value] of Object.entries(item.specDetails?.values||{})){if(comparison[key]!=null)continue;await assertDisplayedSource(key,value);}
+   for(const [key,value] of Object.entries(comparison))if(value!=null&&keysOf(category).includes(key)&&typeof value==='string')await assertDisplayedSource(key,value);
+   if(item.id==='sf-t723030'){assert.equal(await page.locator('#productSpecBody [data-spec-field="runningSurface"] td').textContent(),'53.1 × 20.1 in');assert.match(await page.locator('#productSpecBody [data-spec-field="keyDimensions"] td').textContent(),/63.8(?:\*| × )30.9(?:\*| × )45.7/);}
    const gaps=await page.locator('#productSpecBody td.spec-unavailable').allTextContents();assert(gaps.length>0&&gaps.every(g=>g==='Unavailable'));
    if(item.specDetails)assert.match(await page.locator('#productSpecBody').innerText(),/V2 spec sheet: /);
    await page.keyboard.press('Escape');await page.locator('#productSpecDialog').waitFor({state:'hidden'});}}

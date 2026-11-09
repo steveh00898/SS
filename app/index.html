@@ -693,14 +693,131 @@ body.spec-view table.ptable{min-width:0}
   function dialogSpecs(it){const s={...specsOf(it)};if(it.category==='Treadmills'){if(s.dimensionOrder==='length × width'){s.runningSurface=s.keyDimensions;delete s.keyDimensions;}s.speedRange=s.speedResistanceLevels;}else if(/^Folded:/i.test(s.keyDimensions||'')){s.foldedDimensions=s.keyDimensions.replace(/^Folded:\s*/i,'');delete s.keyDimensions;}if(it.category==='Ellipticals'&&s.strideLengthIn!=null)s.stride=s.strideLengthIn+' in';return s;}
 
   const isMissing=value=>value==null||String(value).trim()==='';
+  const specWeightFields=new Set('shippingWeight productWeight flywheelWeight maxUserWeightLb frameCapacity capacityConditions pullUpUserWeight componentCapacities weightOptions weightTolerance'.split(' '));
+  const specLengthFields=new Set('keyDimensions foldedDimensions shippingDimensions footprint maxUserHeight beltDimensions runningSurface stepOnHeight rollerSize handlebarHeight screenSize powerCord inseam qFactor pedalThread seatHeight seatToHandlebar crankLength seatDimensions stride strideLengthIn stepHeight heightRange meterSize slideRail railInseam benchHeight backrestDimensions extendedDimensions dimensionsEach grip ropeLength trampolineHeight workoutAreaWidthIn workoutAreaLengthIn'.split(' '));
+  const isvWeightFields=new Set('AA AM AN AO BQ BV'.split(' '));
+  const isvLengthFields=new Set('AB AC AD AG AI AJ AK AP AQ AR AS AT BR BS BT CQ CS CT DA DB DH DJ DK DO DP DQ DS EG ES ET EU EV EW EY EZ FD FE FF FG FI FJ FK FL'.split(' '));
+  const unitScale={lb:['weight',.45359237],kg:['weight',1],g:['weight',.001],oz:['weight',.028349523125],in:['length',25.4],cm:['length',10],mm:['length',1],ft:['length',304.8],m:['length',1000],'ft³':['volume',1]};
+  const unitNames={lb:/^(?:lbs?\.?|pounds?)$/i,kg:/^(?:kgs?|kilograms?)$/i,g:/^(?:g|grams?)$/i,oz:/^(?:oz|ounces?)$/i,in:/^(?:in\.?|inch(?:es)?|["″])$/i,cm:/^(?:cm|centimeters?)$/i,mm:/^(?:mm|millimeters?)$/i,ft:/^(?:ft\.?|feet|foot|[′'])$/i,m:/^(?:m|meters?)$/i,'ft³':/^(?:ft[³3]|cu\.?\s*ft\.?|cubic feet)$/i};
+  const measurementUnit=token=>Object.keys(unitNames).find(unit=>unitNames[unit].test(token));
+  const measurementKind=(key,isISV)=>isISV&&key==='AL'?'volume':(isISV?isvWeightFields:specWeightFields).has(key)?'weight':(isISV?isvLengthFields:specLengthFields).has(key)?'length':null;
+  // These workbook fields explicitly declare their unit. The three model overrides
+  // refer to the matching published weight and assembled dimensions, not other fields.
+  const verifiedISVProductUnits={
+    'off-sunny-sf-t1407m':{weight:46.7,dimensions:[49,23,50]},
+    'sf-t1407smart':{weight:46.7,dimensions:[49,23,50]},
+    'sf-t724064':{weight:48.4,dimensions:[49,21.8,4.3]},
+  };
+  function measurementParts(value,kind,defaultUnit){
+    return String(value??'').split(/[/;()\n]+/).map(text=>{
+      const tokens=text.trim().split(/\s*[×*]\s*|\s*x\s*(?=[φØø+\d])/i).map(part=>part.trim().match(/^[φØø]?\s*([+-]?\d+(?:\.\d+)?|\.\d+)\s*([LWHDT](?![a-z]))?\s*(.*?)$/i));
+      if(tokens.some(token=>!token))return null;
+      const explicit=tokens.map(token=>measurementUnit(token[3]));
+      if(tokens.some((token,index)=>token[3]&&(!explicit[index]||unitScale[explicit[index]][0]!==kind)))return null;
+      const unique=[...new Set(explicit.filter(Boolean))],shared=unique.length===1?unique[0]:unique.length?null:defaultUnit;
+      const units=explicit.map(unit=>unit||shared);
+      if(units.some(unit=>!unit))return null;
+      return {numbers:tokens.map(token=>Number(token[1])),axes:tokens.map(token=>token[2]?.toUpperCase()),units};
+    }).filter(Boolean);
+  }
+  function matchingSourceUnit(value,other,kind,otherUnit){
+    if(!/^\s*[φØø]?\s*\d[\d.\sLWHDT×x*]*\s*$/i.test(String(value??'')))return null;
+    const numbers=numberList(value);
+    const matches=measurementParts(other,kind,otherUnit).filter(part=>part.numbers.length===numbers.length&&part.numbers.every((n,i)=>n===numbers[i])&&part.units.every(unit=>unit===part.units[0]));
+    const units=[...new Set(matches.map(part=>part.units[0]))];
+    return units.length===1?units[0]:null;
+  }
+  function declaredProductUnit(key,value){
+    if(typeof value!=='number')return null;
+    if(key==='maxUserWeightLb')return 'lb';
+    return ['workoutAreaWidthIn','workoutAreaLengthIn','strideLengthIn'].includes(key)?'in':null;
+  }
+  function declaredISVUnit(it,key,value){
+    if(key==='AA')return 'lb';
+    if(key==='AL')return 'ft³';
+    if(key==='CQ')return 'in';
+    const verified=verifiedISVProductUnits[it.id];
+    if(!verified)return null;
+    const numbers=numberList(value);
+    if(key==='AO'&&numbers.length===1&&numbers[0]===verified.weight)return 'lb';
+    if(key==='AS'&&numbers.length===3&&numbers.every((n,i)=>n===verified.dimensions[i]))return 'in';
+    const axis=['AP','AQ','AR'].indexOf(key);
+    if(axis!==-1&&numbers.length===1&&numbers[0]===verified.dimensions[axis])return 'in';
+    return null;
+  }
+  function isvMeasurementUnit(it,key,value,comparison,values){
+    const kind=measurementKind(key,true);
+    if(!kind)return null;
+    const declared=declaredISVUnit(it,key,value);
+    if(declared)return declared;
+    if(!/^\s*[φØø]?\s*\d[\d.\sLWHDT×x*]*\s*$/i.test(String(value??'')))return null;
+    const fields=isvItemFor(it)?.fields||{};
+    for(const [axes,tuple] of [['AB AC AD','AG'],['AP AQ AR','AS']]){
+      const index=axes.split(' ').indexOf(key);
+      if(index===-1)continue;
+      const tupleValue=fields[tuple],tupleUnit=isvMeasurementUnit(it,tuple,tupleValue,comparison,values);
+      const group=measurementParts(tupleValue,kind,tupleUnit).find(part=>part.numbers.length===3&&part.axes.join('')==='LWH');
+      if(group&&numberList(value).length===1&&numberList(value)[0]===group.numbers[index])return group.units[index];
+    }
+    const units=new Set();
+    for(const [field,map] of Object.entries(isvSpecMap(it))){
+      if(map.column!==key||measurementKind(field,false)!==kind)continue;
+      const product=comparison[field]??values[field];
+      const unit=matchingSourceUnit(value,product,kind,declaredProductUnit(field,product));
+      if(unit)units.add(unit);
+    }
+    return units.size===1?[...units][0]:null;
+  }
+  function measurementPair(it,key,value,column,isvValue,comparison,values){
+    const kind=measurementKind(key,false);
+    if(!kind||measurementKind(column,true)!==kind)return null;
+    const isvUnit=isvMeasurementUnit(it,column,isvValue,comparison,values);
+    const productUnit=declaredProductUnit(key,value)||matchingSourceUnit(value,isvValue,kind,isvUnit);
+    return {kind,isvUnit,productUnit};
+  }
+  function equivalentMeasurements(value,isvValue,pair){
+    const left=measurementParts(value,pair.kind,pair.productUnit),right=measurementParts(isvValue,pair.kind,pair.isvUnit);
+    // Unverified units cannot establish a discrepancy.
+    if(!left.length||!right.length)return true;
+    return left.some(a=>right.some(b=>a.numbers.length===b.numbers.length&&a.numbers.every((number,index)=>{
+      if(a.axes[index]&&b.axes[index]&&a.axes[index]!==b.axes[index])return false;
+      if(a.units[index]===b.units[index])return Math.abs(number-b.numbers[index])<=.05;
+      const x=number*unitScale[a.units[index]][1],y=b.numbers[index]*unitScale[b.units[index]][1];
+      return Math.abs(x-y)<=Math.max(Math.abs(x),Math.abs(y))*.01;
+    })));
+  }
+  function formatMeasurement(value,kind,unit){
+    const text=String(value);
+    if(!kind||!/[0-9]/.test(text))return text;
+    const parts=measurementParts(text,kind,unit);
+    if(parts.length===1&&!/[/;()\n]/.test(text)&&parts[0].units.every(unit=>unit===parts[0].units[0])){
+      const {numbers,axes,units}=parts[0];
+      const order=axes.every(Boolean)&&axes.length>1?' ('+axes.join(' × ')+')':'';
+      return (text.trim().match(/^[φØø]/)?.[0]||'')+numbers.join(' × ')+' '+units[0]+order;
+    }
+    if(parts.length||/\d\s*(?:["″′']|lbs?\b|kgs?\b|oz\b|mm\b|cm\b|in(?:ch(?:es)?)?\b|ft\b|pounds?\b|kilograms?\b)/i.test(text))return text;
+    return text+' · Unit unverified';
+  }
   function numberList(value){const text=String(value??'');return [...text.matchAll(/-?\d+(?:\.\d+)?/g)].map(match=>{let number=Number(match[0]);if(match[0][0]==='-'&&match.index>0&&/\d/.test(text[match.index-1]))number=Math.abs(number);return number;});}
   function wordSet(value){let text=String(value??'').toLowerCase().replace(/&/g,' and ').replace(/\bauto\b/g,'automatic').replace(/\bhrs?\b/g,'heart rate').replace(/\bcalories\b/g,'calorie').replace(/\bdistance\b/g,'dist');let words=text.match(/[a-z0-9]+/g)||[];if(words.includes('walking')&&words.includes('running'))words=['both'];return [...new Set(words.filter(word=>!['and','the','a','an'].includes(word)))].sort().join('|');}
   function materialSet(value){return wordSet(String(value??'').replace(/\b(q235|steel|iron)\b/gi,'metal').replace(/\bmaterial(s)?\b/gi,''));}
   function booleanValue(value){const text=String(value??'').trim().toLowerCase();if(/^(no|n|false|none|not\b)/.test(text))return'no';return /[a-z]/i.test(text)?'yes':null;}
   function isValidISVValue(key,value,map){if(isMissing(value))return false;const text=String(value).trim();if(/^(n\/?a|unknown|unavailable|-|\?)$/i.test(text)||/^\d{4}-\d{2}-\d{2}$/.test(text))return false;if(key==='plugType'&&!/(plug|adapter|none|no)/i.test(text))return false;if(map.mode==='first-number'&&/^\d+\s*-\s*$/.test(text))return false;if(map.mode==='boolean')return booleanValue(value)!==null;if(map.mode==='digits')return (text.match(/\d/g)||[]).length>=8;if(['numbers-contained','numbers-exact','max-number','first-number'].includes(map.mode))return numberList(value).length>0;return true;}
   function isEquivalentISV(productValue,isvValue,mode){if(isMissing(productValue)||isMissing(isvValue))return false;if(mode==='digits')return String(productValue).replace(/\D/g,'')===String(isvValue).replace(/\D/g,'');if(mode==='boolean')return booleanValue(productValue)===booleanValue(isvValue);if(mode==='material')return materialSet(productValue)===materialSet(isvValue);const productNumbers=numberList(productValue),isvNumbers=numberList(isvValue),near=(a,b)=>Math.abs(a-b)<=.05;if(mode==='max-number')return productNumbers.length>0&&isvNumbers.length>0&&near(Math.max(...productNumbers),Math.max(...isvNumbers));if(mode==='first-number')return productNumbers.length>0&&isvNumbers.length>0&&near(productNumbers[0],isvNumbers[0]);if(mode==='numbers-exact')return productNumbers.length===isvNumbers.length&&productNumbers.every((number,index)=>near(number,isvNumbers[index]));if(mode==='numbers-contained')return isvNumbers.length>0&&isvNumbers.every(number=>productNumbers.some(candidate=>near(number,candidate)));if(mode==='normalized')return booleanValue(productValue)===booleanValue(isvValue);return wordSet(productValue)===wordSet(isvValue);}
-  function productSpecState(it,key,productValue){const item=isvItemFor(it),map=isvSpecMap(it)[key];if(!item||!map||isMissing(item.fields[map.column]))return{value:productValue,missing:isMissing(productValue),different:false,fallback:false};const isvValue=item.fields[map.column],valid=isValidISVValue(key,isvValue,map);if(isMissing(productValue)&&valid)return{value:isvValue,missing:false,different:false,fallback:true,isvValue,column:map.column};return{value:productValue,missing:isMissing(productValue),different:valid&&!isMissing(productValue)&&!isEquivalentISV(productValue,isvValue,map.mode),fallback:false,isvValue,column:map.column,valid};}
-  function displaySpecValue(key,value){return typeof value==='number'?String(value)+(key==='maxUserWeightLb'?' lb':key.includes('Area')?' in':''):String(value);}
+  function productSpecState(it,key,productValue,comparison,values){
+    const item=isvItemFor(it),map=isvSpecMap(it)[key],kind=measurementKind(key,false);
+    const unit=declaredProductUnit(key,productValue);
+    if(!item||!map||isMissing(item.fields[map.column]))return {value:productValue,missing:isMissing(productValue),different:false,fallback:false,kind,unit};
+    const isvValue=item.fields[map.column],valid=isValidISVValue(key,isvValue,map);
+    const pair=measurementPair(it,key,productValue,map.column,isvValue,comparison,values);
+    if(isMissing(productValue)&&valid)return {value:isvValue,missing:false,different:false,fallback:true,column:map.column,kind:measurementKind(map.column,true)||kind,unit:pair?.isvUnit};
+    const different=valid&&!isMissing(productValue)&&!(pair?equivalentMeasurements(productValue,isvValue,pair):isEquivalentISV(productValue,isvValue,map.mode));
+    return {value:productValue,missing:isMissing(productValue),different,fallback:false,column:map.column,kind,unit:pair?.productUnit||unit};
+  }
+  function displayISVMeasurement(it,key,value,comparison,values){
+    const kind=measurementKind(key,true);
+    return isvValueHTML(formatMeasurement(value,kind,isvMeasurementUnit(it,key,value,comparison,values)));
+  }
   function dialogSectionNav(entries,label){return '<nav class="dialog-section-nav" aria-label="'+esc(label)+'">'+entries.map((entry,index)=>'<button type="button" data-dialog-section="'+esc(entry.id)+'" aria-current="'+(index===0?'true':'false')+'"'+(entry.color?' style="--section-color:'+esc(entry.color)+'"':'')+'>'+esc(entry.title)+'</button>').join('')+'</nav>';}
   function setupDialogSectionNav(body){
     body._sectionNavCleanup?.();const nav=body.querySelector('.dialog-section-nav');if(!nav)return;const buttons=[...nav.querySelectorAll('[data-dialog-section]')],sections=buttons.map(button=>body.querySelector('#'+CSS.escape(button.dataset.dialogSection))).filter(Boolean);let active='',programmaticJump=false;
@@ -742,7 +859,9 @@ body.spec-view table.ptable{min-width:0}
     return {
       different:mappings.some(([field,map])=>{
         const product=comparison[field]??values[field];
-        return isValidISVValue(field,value,map)&&!isMissing(product)&&!isEquivalentISV(product,value,map.mode);
+        if(!isValidISVValue(field,value,map)||isMissing(product))return false;
+        const pair=measurementPair(item,field,product,key,value,comparison,values);
+        return !(pair?equivalentMeasurements(product,value,pair):isEquivalentISV(product,value,map.mode));
       }),
       warning:mappings.length&&!isValidISVValue(mappings[0][0],value,mappings[0][1]),
     };
@@ -756,13 +875,13 @@ body.spec-view table.ptable{min-width:0}
         const status=isvComparisonState(item,key,value,comparison,values);
         different=status.different;
         missing=false;
-        content=isvValueHTML(value)+(status.warning?'<span class="isv-warning">Source value not used for Product Spec fallback</span>':'');
+        content=displayISVMeasurement(item,key,value,comparison,values)+(status.warning?'<span class="isv-warning">Source value not used for Product Spec fallback</span>':'');
       }
     }else{
-      const status=productSpecState(item,key,comparison[key]??values[key]);
+      const status=productSpecState(item,key,comparison[key]??values[key],comparison,values);
       different=status.different;
       missing=status.missing;
-      if(!missing)content=esc(displaySpecValue(key,status.value))+(status.fallback?'<span class="source-badge">From ISV</span>':'');
+      if(!missing)content=esc(formatMeasurement(status.value,status.kind,status.unit))+(status.fallback?'<span class="source-badge">From ISV</span>':'');
     }
     return '<div role="cell" class="spec-compare-cell'+(different?' spec-compare-different':'')+(missing?' spec-compare-missing':'')+'">'+content+'</div>';
   }
@@ -791,7 +910,7 @@ body.spec-view table.ptable{min-width:0}
     }
     const details=it.specDetails||{},values=details.values||{},comparison=dialogSpecs(it),isvItem=isvItemFor(it);$('#productSpecTitle').textContent='Product Spec · '+it.sku;$('#productSpecName').textContent=it.name;const template=PRODUCT_SPEC_TEMPLATES[it.category]||PRODUCT_SPEC_TEMPLATES.Essentials;
     const help=isvItem?'Yellow means both sources contain different values. Unavailable Product Spec values use a labeled ISV display fallback.':'Missing values are not inferred.';
-    const sectionEntries=template.map((section,index)=>{const id='product-spec-section-'+index;return{id,title:section.title,html:'<section class="spec-section" id="'+id+'"><h3>'+esc(section.title)+'</h3><table class="spec-detail-table"><tbody>'+section.fields.map(([key,label])=>{const state=productSpecState(it,key,comparison[key]??values[key]),classes=[state.missing?'spec-unavailable':'',state.different?'spec-different':''].filter(Boolean).join(' '),column=state.column?' data-isv-column="'+esc(state.column)+'"':'';const content=state.missing?'Unavailable':esc(displaySpecValue(key,state.value))+(state.fallback?'<span class="source-badge">From ISV</span>':'');return '<tr data-spec-field="'+esc(key)+'"'+column+'><th scope="row">'+esc(label)+'</th><td class="'+classes+'">'+content+'</td></tr>';}).join('')+'</tbody></table></section>'};});const sections=sectionEntries.map(entry=>entry.html).join('');
+    const sectionEntries=template.map((section,index)=>{const id='product-spec-section-'+index;return{id,title:section.title,html:'<section class="spec-section" id="'+id+'"><h3>'+esc(section.title)+'</h3><table class="spec-detail-table"><tbody>'+section.fields.map(([key,label])=>{const state=productSpecState(it,key,comparison[key]??values[key],comparison,values),classes=[state.missing?'spec-unavailable':'',state.different?'spec-different':''].filter(Boolean).join(' '),column=state.column?' data-isv-column="'+esc(state.column)+'"':'';const content=state.missing?'Unavailable':esc(formatMeasurement(state.value,state.kind,state.unit))+(state.fallback?'<span class="source-badge">From ISV</span>':'');return '<tr data-spec-field="'+esc(key)+'"'+column+'><th scope="row">'+esc(label)+'</th><td class="'+classes+'">'+content+'</td></tr>';}).join('')+'</tbody></table></section>'};});const sections=sectionEntries.map(entry=>entry.html).join('');
     const sources=details.sources?.length?[...details.sources]:[it.sourceFile||comparison.source||'Existing catalog specifications'];if(isvItem)sources.push(isvDataFor(it).source.file+' · '+isvDataFor(it).source.sheet+' · row '+isvItem.row);
     const body=$('#productSpecBody');body.innerHTML=dialogSectionNav(sectionEntries,'Product Spec categories')+'<p class="pv-help">'+esc(it.category)+' · '+(isOffSunny(it)?'off Sunny web':'Current website')+' · '+esc(help)+'</p>'+sections+(details.notes?.length?'<section class="spec-section"><h3>Source notes</h3><ul>'+details.notes.map(note=>'<li>'+esc(note)+'</li>').join('')+'</ul></section>':'')+'<section class="spec-section"><h3>Sources</h3><p>'+sources.map(source=>esc(source)).join('<br>')+'</p></section>';document.body.style.overflow='hidden';specDialog.showModal();body.scrollTop=0;setupDialogSectionNav(body);$('#closeProductSpec').focus();
   }
@@ -806,7 +925,7 @@ body.spec-view table.ptable{min-width:0}
       document.body.style.overflow='hidden';isvDialog.showModal();body.scrollTop=body.scrollLeft=0;setupDialogSectionNav(body);$('#closeISV').focus();return;
     }
     const item=it&&isvItemFor(it),data=it&&isvDataFor(it);if(!item)return;closeModals();if(specDialog.open)closeProductSpec();isvReturnFocus=trigger;isvOldOverflow=document.body.style.overflow;const details=it.specDetails||{},values=details.values||{},comparison=dialogSpecs(it);$('#isvTitle').textContent='ISV · '+it.sku;$('#isvName').textContent=it.name;
-const sectionEntries=data.sections.map(section=>{const start=columnNumber(section.start),end=columnNumber(section.end),fields=Object.entries(item.fields).filter(([column])=>{const number=columnNumber(column);return column!=='AV'&&number>=start&&number<=end;});if(!fields.length)return null;const rows=fields.map(([column,value])=>{const linked=Object.entries(isvSpecMap(it)).find(([,map])=>map.column===column),status=isvComparisonState(it,column,value,comparison,values),different=status.different,warning=status.warning?'<span class="isv-warning">Source value not used for Product Spec fallback</span>':'';return '<tr data-isv-column="'+esc(column)+'"'+(linked?' data-spec-field="'+esc(linked[0])+'"':'')+'><td class="isv-column">'+esc(column)+'</td><th scope="row">'+esc(data.headers[column]||column)+'</th><td class="isv-value '+(different?'isv-different':'')+'">'+isvValueHTML(value)+warning+'</td></tr>';}).join(''),id='isv-section-'+section.id;return{id,title:section.title,color:section.color,html:'<section class="spec-section isv-section" id="'+esc(id)+'" style="--isv-section-color:'+esc(section.color)+'"><h3>'+esc(section.title)+'</h3><table class="spec-detail-table isv-table"><tbody>'+rows+'</tbody></table></section>'};}).filter(Boolean),sections=sectionEntries.map(entry=>entry.html).join('');
+const sectionEntries=data.sections.map(section=>{const start=columnNumber(section.start),end=columnNumber(section.end),fields=Object.entries(item.fields).filter(([column])=>{const number=columnNumber(column);return column!=='AV'&&number>=start&&number<=end;});if(!fields.length)return null;const rows=fields.map(([column,value])=>{const linked=Object.entries(isvSpecMap(it)).find(([,map])=>map.column===column),status=isvComparisonState(it,column,value,comparison,values),different=status.different,warning=status.warning?'<span class="isv-warning">Source value not used for Product Spec fallback</span>':'';return '<tr data-isv-column="'+esc(column)+'"'+(linked?' data-spec-field="'+esc(linked[0])+'"':'')+'><td class="isv-column">'+esc(column)+'</td><th scope="row">'+esc(data.headers[column]||column)+'</th><td class="isv-value '+(different?'isv-different':'')+'">'+displayISVMeasurement(it,column,value,comparison,values)+warning+'</td></tr>';}).join(''),id='isv-section-'+section.id;return{id,title:section.title,color:section.color,html:'<section class="spec-section isv-section" id="'+esc(id)+'" style="--isv-section-color:'+esc(section.color)+'"><h3>'+esc(section.title)+'</h3><table class="spec-detail-table isv-table"><tbody>'+rows+'</tbody></table></section>'};}).filter(Boolean),sections=sectionEntries.map(entry=>entry.html).join('');
     const body=$('#isvBody');body.innerHTML=dialogSectionNav(sectionEntries,'ISV categories')+'<p class="pv-help">'+esc(data.source.file)+' · '+esc(data.source.sheet)+' · row '+item.row+' · columns '+esc(data.source.columns)+' · Blank cells are hidden.</p><div class="isv-legend"><span><i class="isv-swatch"></i>Different from Product Spec</span><span>Category colors follow the master workbook.</span></div>'+sections;document.body.style.overflow='hidden';isvDialog.showModal();body.scrollTop=0;setupDialogSectionNav(body);$('#closeISV').focus();
   }
   function restoreSpecFocus(){document.body.style.overflow=specOldOverflow;if(specReturnFocus?.isConnected)specReturnFocus.focus();specReturnFocus=null;}
