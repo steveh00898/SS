@@ -2,6 +2,11 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-09 — Codex adds side-by-side Product Spec and ISV comparisons
+
+- Both dialogs use the applied Compare set in chart order, with the model whose link was clicked moved to the first column. They align shared fields, mark unavailable values, preserve per-product ISV discrepancy highlights and retain labeled Product Spec fallbacks. Headers and section navigation stay visible while scrolling. Three products fit without horizontal scrolling at 1440 px and 390 px, with field labels above the values on phones. Larger sets can scroll horizontally. The single-product dialog remains available outside a multi-product comparison.
+- The new `tests/details-comparison.spec.cjs` uses SF-E3875, SF-E3889SMART and SF-E321006 to check both dialogs and viewport widths, applied versus pending selections, focus return and missing ISV. Both preview layouts were also checked in screenshots. No catalog or database migration was needed.
+
 ## 2026-11-09 — Codex publishes the Mastersheet catalog import
 
 - Published public Site version 47 from `ffd99aa790c9ed9bb9c9e7ebcda1ff368dd2935d`. Saved version `appgprj_6ac574cb8a248191bf83b10b05b0a7df~appgver_a0b6b66d7ec88191bb513be48530ba3d` and successful deployment `appgdep_6af200a7f7408191a8e66be52f4113e2`.
