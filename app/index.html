@@ -655,7 +655,8 @@ body.spec-view table.ptable{min-width:0}
   }
   const SITE_ORDER = ["Treadmills", "Ellipticals", "Rowers", "Indoor Bikes", "Steppers", "Row-N-Ride", "Pilates Reformers", "Racks", "Weight Benches", "Weights", "Essentials"];
   const docId = (sku) => sku.toLowerCase().replace(/[^a-z0-9-]+/g, "-").replace(/^-+|-+$/g, "") || "item-" + Date.now();
-  const imgSrc = (it) => it.imageUrl || (it.imageAssetId ? "/_blob/" + it.imageAssetId : "");
+  // Older Site uploads can have an asset ID without a saved image URL.
+  const imgSrc = (it) => it.imageUrl || (it.imageAssetId ? (state.artifactAssets ? "/_blob/" : "/api/assets/") + encodeURIComponent(it.imageAssetId) : "");
 
 
   const SPEC_COLUMNS=[['driveResistanceSystem','Drive / Resistance System'],['speedResistanceLevels','Speed / Resistance Levels'],['inclineStrideMotion','Incline / Stride / Motion'],['maxUserWeightLb','Max User Weight (lb)'],['keyDimensions','Key Dimensions'],['workoutAreaWidthIn','Workout Area Width (in)'],['workoutAreaLengthIn','Workout Area Length (in)']];
@@ -2063,6 +2064,7 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
       for (let i = 0; i < 60 && !(window.claude && typeof window.claude.use === "function"); i++) await new Promise((r) => setTimeout(r, 50));
       return window.claude && typeof window.claude.use === "function" ? window.claude : null;
     })();
+    state.artifactAssets = Boolean(artifactRuntime);
     const use = artifactRuntime ? (n => artifactRuntime.use(n).catch(() => null)) : (async n => catalog[n] || null);
     const [db, user, assets, downloads] = await Promise.all([use("db"), use("user"), use("assets"), use("downloads")]);
     state.db = db; state.assets = assets; state.downloads = downloads;

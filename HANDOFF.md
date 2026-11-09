@@ -2,6 +2,12 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-09 — Codex fixes the saved SF-DB01 upload display
+
+- The Site record `off-sunny-sf-db01` already had a valid WebP asset ID and an empty image URL. Its stored image returned HTTP 200 through the Site's asset endpoint. The browser had been requesting the Artifact-only blob path.
+- Image resolution now uses the active runtime for saved asset IDs. The thumbnail, picture viewer, editor, and other image consumers use the same resolver. Existing explicit image URLs retain their behavior. No catalog record or upload migration was needed.
+- Added `tests/uploaded-image-path.spec.cjs` to verify saved asset IDs in the catalog and picture viewer in both runtimes.
+
 ## 2026-11-09 — Codex publishes Claude Code’s master spec fill
 
 - Public Site version 51 deployed from `d54c2c84ca22c3b91bb8aa743d5eb7bfbc3bede6`, saved version `appgprj_6ac574cb8a248191bf83b10b05b0a7df~appgver_542b11c0acb88191b7a1619c148b9f62`, deployment `appgdep_6af24f6cf8ec81919aeef978110dd5e4`. Claude Artifact version 31 was previously published by Claude Code.
