@@ -32033,5 +32033,5309 @@
     "createdAt": "2026-11-06T00:00:00Z",
     "updatedAt": "2026-11-06T00:00:00Z",
     "imageAvailability": "official-website"
+  },
+  {
+    "id": "off-sunny-no-077-s",
+    "sku": "NO. 077-S",
+    "name": "Row-N-Ride® Squat Trainer with Adjustable Resistance",
+    "category": "Row-N-Ride",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 147,
+    "mastersheetStatus": "EOL",
+    "mastersheetCategory": "Row-N-Rides",
+    "price": 99.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/upright-row-n-ride-squat-assist-trainer-machine-for-abs-and-glute-workout-no-077-s?variant=52952108663148",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-077-s-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 147"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-rw520084s",
+    "sku": "SF-RW520084S",
+    "name": "Magnetic Rowing Machine w/ LCD Monitor",
+    "category": "Rowers",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 171,
+    "mastersheetStatus": "EOL",
+    "mastersheetCategory": "Rowing Machines - Magnetic",
+    "price": 239.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-sf-rw5515-magnetic-rowing-machine-rower-w-lcd-monitor?variant=39913314517082",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw520084s-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 171"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-8570",
+    "sku": "8570",
+    "name": "Windmill Air Magnetic Rower",
+    "category": "Rowers",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 187,
+    "mastersheetStatus": "EOL",
+    "mastersheetCategory": "Rowing Machines - Fan",
+    "price": 1399.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/windmill-air-magnetic-rower?variant=17033312993370",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-8570-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 187"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/8570_manual.pdf?v=1681151345",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/8570",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-8580",
+    "sku": "8580",
+    "name": "Ventus Air Magnetic Rower",
+    "category": "Rowers",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 188,
+    "mastersheetStatus": "EOL",
+    "mastersheetCategory": "Rowing Machines - Fan",
+    "price": null,
+    "priceChecked": false,
+    "priceSource": null,
+    "url": "https://sunnyhealthfitness.com/products/ventus-air-magnetic-rower?variant=17033445212250",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-8580-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 188"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/8580_manual.pdf?v=1681151422",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/8580",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-031-bk",
+    "sku": "NO. 031-BK",
+    "name": "Sunny Health & Fitness High-Density 4mm Yoga Mat",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 193,
+    "mastersheetStatus": "Priority",
+    "mastersheetCategory": "Mats - Yoga",
+    "price": 18.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-no-031-b-yoga-mat-blue?variant=51927863099756",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-031-bk-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 193"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-031-gr",
+    "sku": "NO. 031-GR",
+    "name": "Sunny Health & Fitness High-Density 4mm Yoga Mat",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 194,
+    "mastersheetStatus": "Priority",
+    "mastersheetCategory": "Mats - Yoga",
+    "price": 18.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-no-031-b-yoga-mat-blue?variant=51927863132524",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-031-gr-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 194"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-031-gy",
+    "sku": "NO. 031-GY",
+    "name": "Sunny Health & Fitness High-Density 4mm Yoga Mat",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 195,
+    "mastersheetStatus": "Priority",
+    "mastersheetCategory": "Mats - Yoga",
+    "price": 18.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-no-031-b-yoga-mat-blue?variant=51927863066988",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-031-gy-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 195"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-031-p",
+    "sku": "NO. 031-P",
+    "name": "Sunny Health & Fitness High-Density 4mm Yoga Mat",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 196,
+    "mastersheetStatus": "Priority",
+    "mastersheetCategory": "Mats - Yoga",
+    "price": 18.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-no-031-b-yoga-mat-blue?variant=16585462317146",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-031-p-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 196"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-031-pk",
+    "sku": "NO. 031-PK",
+    "name": "Sunny Health & Fitness High-Density 4mm Yoga Mat",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 197,
+    "mastersheetStatus": "Priority",
+    "mastersheetCategory": "Mats - Yoga",
+    "price": 18.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-no-031-b-yoga-mat-blue?variant=51927863165292",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-031-pk-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 197"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-em02-pk",
+    "sku": "SF-EM02-PK",
+    "name": "Anti-Slip Dual Color Exercise Yoga Mat",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 200,
+    "mastersheetStatus": "Priority",
+    "mastersheetCategory": "Mats - Yoga",
+    "price": 39.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/exercise-yoga-mat-anti-slip-dual-color-sf-em02?variant=41120711278682",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-em02-pk-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 200"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-048",
+    "sku": "NO. 048",
+    "name": "Tri Fold Exercise Mat",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 205,
+    "mastersheetStatus": "EOL",
+    "mastersheetCategory": "Mats - Tri",
+    "price": 42.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-no-048-tri-fold-exercise-mat?variant=16470574104666",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-048-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 205"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-066-15",
+    "sku": "NO. 066-15",
+    "name": "Sunny Strength® Vinyl Coated Kettle Bells 5 - 25 lbs",
+    "category": "Weights",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 219,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Free Weights - Kettlebells",
+    "price": 29.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/vinyl-coated-kettle-bells-10-25-lbs-no-066?variant=16513829306458",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-066-15-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 219"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-066-20",
+    "sku": "NO. 066-20",
+    "name": "Sunny Strength® Vinyl Coated Kettle Bells 5 - 25 lbs",
+    "category": "Weights",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 220,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Free Weights - Kettlebells",
+    "price": 39.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/vinyl-coated-kettle-bells-10-25-lbs-no-066?variant=16513829339226",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-066-20-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 220"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-066-25",
+    "sku": "NO. 066-25",
+    "name": "Sunny Strength® Vinyl Coated Kettle Bells 5 - 25 lbs",
+    "category": "Weights",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 221,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Free Weights - Kettlebells",
+    "price": 49.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/vinyl-coated-kettle-bells-10-25-lbs-no-066?variant=16513829371994",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-066-25-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 221"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-066-5",
+    "sku": "NO. 066-5",
+    "name": "Sunny Strength® Vinyl Coated Kettle Bells 5 - 25 lbs",
+    "category": "Weights",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 222,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Free Weights - Kettlebells",
+    "price": 17.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/vinyl-coated-kettle-bells-10-25-lbs-no-066?variant=16513829404762",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-066-5-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 222"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-t7945",
+    "sku": "SF-T7945",
+    "name": "Sunny Health & Fitness Walkstation Slim Flat Treadmill for Under Desk and Home - SF-T7945",
+    "category": "Treadmills",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 235,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Treadmills - Pad",
+    "price": 399.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7945-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 235"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-T7945_manual.pdf?v=1707328347",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7945",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-t4400",
+    "sku": "SF-T4400",
+    "name": "Sunny Health & Fitness Treadmill",
+    "category": "Treadmills",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 238,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Treadmills",
+    "price": 499.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t4400-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 238"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-T4400_manual.pdf?v=1696011397",
+      "assemblyUrl": "https://www.youtube.com/watch?v=Bad3bSf1XY4",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t4400",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t4400",
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-t7603",
+    "sku": "SF-T7603",
+    "name": "Sunny Health & Fitness SF-T7603 Motorized Treadmill",
+    "category": "Treadmills",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 240,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Treadmills",
+    "price": 449.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7603-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 240"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-T7603_manual.pdf?v=1709581551",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7603",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-t7603-cb",
+    "sku": "SF-T7603-CB",
+    "name": "SF-T7603-CB",
+    "category": "Treadmills",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 241,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Treadmills",
+    "price": 449.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 241"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-t7610",
+    "sku": "SF-T7610",
+    "name": "Sunny Health & Fitness SF-T7610 Easy Assembly Folding Treadmill",
+    "category": "Treadmills",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 242,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Treadmills",
+    "price": 429.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7610-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 242"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-T7610_manual.pdf?v=1726008825",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7610",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-t7632",
+    "sku": "SF-T7632",
+    "name": "Sunny Health & Fitness SF-T7632 Space Saving Folding Treadmill",
+    "category": "Treadmills",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 243,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Treadmills",
+    "price": 429.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7632-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 243"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-T7632_manual.pdf?v=1680799818",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7632",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-t7643",
+    "sku": "SF-T7643",
+    "name": "Sunny Health & Fitness Heavy Duty Walking Treadmill",
+    "category": "Treadmills",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 244,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Treadmills",
+    "price": 795.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7643-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 244"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-T7643_manual.pdf?v=1680801909",
+      "assemblyUrl": "https://www.youtube.com/watch?v=PsO5Z4BvXP0",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7643",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7643",
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-t7718",
+    "sku": "SF-T7718",
+    "name": "Pro Treadmill Wide Flat Folding & Low Deck",
+    "category": "Treadmills",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 245,
+    "mastersheetStatus": "EOL",
+    "mastersheetCategory": "Treadmills",
+    "price": 699.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-sf-t7718-motorized-folding-running-treadmill-20-wide-belt-flat-folding-low-profile-for-portability-with-speakers-for-usb-and-aux-audio-connection-strider?variant=16470606676058",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7718-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 245"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-T7718_manual.pdf?v=1680798304",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7718",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-t7718smart",
+    "sku": "SF-T7718SMART",
+    "name": "Sunny Health & Fitness Smart Strider Treadmill with 20\" Wide LoPro Deck - SF-T7718SMART",
+    "category": "Treadmills",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 246,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Treadmills",
+    "price": 899.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7718smart-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 246"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-T7718_SMART_manual.pdf?v=1684954610",
+      "assemblyUrl": "https://www.youtube.com/watch?v=lG7XITyUhP8",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7718smart",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7718smart",
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-t7724",
+    "sku": "SF-T7724",
+    "name": "Sunny Health & Fitness Energy Flex Motorized Treadmill",
+    "category": "Treadmills",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 247,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Treadmills",
+    "price": 699.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7724-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 247"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-T7724_manual.pdf?v=1684518535",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7724",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-t7857",
+    "sku": "SF-T7857",
+    "name": "Sunny Health & Fitness Walking Treadmill with Handrail",
+    "category": "Treadmills",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 248,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Treadmills",
+    "price": 798.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7857-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 248"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-T7857_manual.pdf?v=1705360450",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7857",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-t7909",
+    "sku": "SF-T7909",
+    "name": "Sunny Health & Fitness Incline Treadmill with Bluetooth Speakers and USB Charging Function - SF-T7909",
+    "category": "Treadmills",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 249,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Treadmills",
+    "price": 859.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7909-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 249"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-T7909_manual.pdf?v=1680797924",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7909",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-t7917",
+    "sku": "SF-T7917",
+    "name": "Sunny Health & Fitness Performance Treadmill",
+    "category": "Treadmills",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 250,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Treadmills",
+    "price": 1029.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7917-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 250"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-T7917_manual.pdf?v=1680799818",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7917",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-t7942",
+    "sku": "SF-T7942",
+    "name": "Sunny Health & Fitness Foldable Walking Treadmill",
+    "category": "Treadmills",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 251,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Treadmills",
+    "price": 399.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7942-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 251"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-T7942_manual.pdf?v=1681833270",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7942",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-t7971",
+    "sku": "SF-T7971",
+    "name": "Sunny Health & Fitness Slim Folding Treadmill Trekpad with Arm Exercisers - SF-T7971",
+    "category": "Treadmills",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 252,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Treadmills",
+    "price": 599.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7971-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 252"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-T7971_manual.pdf?v=1680801770",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7971",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-079",
+    "sku": "NO. 079",
+    "name": "Sunny Health & Fitness Hexagon Trampoline with Adjustable Handlebar",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 253,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Trampolines",
+    "price": 149.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 253"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-042",
+    "sku": "NO. 042",
+    "name": "Sunny Health & Fitness Pilates Bands",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 256,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Strength Training - Resistance Bands",
+    "price": 19.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 256"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-bh6507",
+    "sku": "SF-BH6507",
+    "name": "Sunny Health & Fitness SF-BH6507 Dip Station w/ Safety Connector",
+    "category": "Racks",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 258,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Strength Training - Dip Stations",
+    "price": null,
+    "priceChecked": false,
+    "priceSource": null,
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bh6507-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 258"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-BH6507_manual.pdf?v=1681238689",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-bh6507",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-obc-86",
+    "sku": "OBC-86",
+    "name": "Sunny Health & Fitness 86\" Olympic Bar 1500 lbs Capacity",
+    "category": "Weights",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 260,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Strength Training - Barbells",
+    "price": 289.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 260"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-stbb-60",
+    "sku": "STBB-60",
+    "name": "Sunny Health & Fitness 60\" Threaded Chrome Barbell Bar",
+    "category": "Weights",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 261,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Strength Training - Barbells",
+    "price": 69.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 261"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-stcb-47",
+    "sku": "STCB-47",
+    "name": "Sunny Health & Fitness 47\" Threaded Solid Chrome Curl Bar",
+    "category": "Weights",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 262,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Strength Training - Barbells",
+    "price": 39.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 262"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sttb-24",
+    "sku": "STTB-24",
+    "name": "24'' Triceps Bar Weight Solid Chrome w/ Star Lock Collars",
+    "category": "Weights",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 263,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Strength Training - Barbells",
+    "price": 39.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-sttb-24-24-in-threaded-solid-chrome-tricep-bar-with-ring-collars?variant=16470608904282",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sttb-24-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 263"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-xfa009",
+    "sku": "SF-XFA009",
+    "name": "Sunny Health & Fitness Belt Squat Attachment for Power Racks and Cages, Full Body Workout",
+    "category": "Racks",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 264,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Strength Training - Attachments",
+    "price": 69.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-xfa009-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 264"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-XFA009_manual.pdf?v=1692744276",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-xfa009",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-045",
+    "sku": "NO. 045",
+    "name": "Sunny Health & Fitness Twist Stepper",
+    "category": "Steppers",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 265,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Step Machine - Steppers",
+    "price": 99.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-045-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 265"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/NO._045_manual.pdf?v=1681152676",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-045",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-rw5809",
+    "sku": "SF-RW5809",
+    "name": "Sunny Health & Fitness Hydro+ Dual Resistance Magnetic Water Rowing Machine - SF-RW5809",
+    "category": "Rowers",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 267,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Rowing Machines - Water",
+    "price": 549.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw5809-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 267"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-RW5809_manual.pdf?v=1681145609",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5809",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-rw520084s-cb",
+    "sku": "SF-RW520084S-CB",
+    "name": "SF-RW520084S-CB",
+    "category": "Rowers",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 268,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Rowing Machines - Magnetic",
+    "price": null,
+    "priceChecked": false,
+    "priceSource": null,
+    "url": "",
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 268"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-rw5854",
+    "sku": "SF-RW5854",
+    "name": "Sunny Health & Fitness Programmable Magnetic Rower",
+    "category": "Rowers",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 270,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Rowing Machines - Magnetic",
+    "price": 659.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw5854-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 270"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-RW5854_manual.pdf?v=1681149471",
+      "assemblyUrl": "https://www.youtube.com/watch?v=yAJWLGrcMBQ",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5854",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5854",
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-rw5935",
+    "sku": "SF-RW5935",
+    "name": "Sunny Health & Fitness Dual Rower Rowing Machine - SF-RW5935",
+    "category": "Rowers",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 271,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Rowing Machines - Magnetic",
+    "price": 399.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw5935-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 271"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-RW5935_manual.pdf?v=1680910770",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5935",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-rw520050",
+    "sku": "SF-RW520050",
+    "name": "Sunny Health & Fitness Air Fan Rowing Machine Ergometer SF-RW520050",
+    "category": "Rowers",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 273,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Rowing Machines - Fan",
+    "price": 459.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw520050-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 273"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-RW520050_manual.pdf?v=1680910605",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw520050",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-rw5940",
+    "sku": "SF-RW5940",
+    "name": "Sunny Health & Fitness Magnetic Air Rower - SF-RW5940",
+    "category": "Rowers",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 274,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Rowing Machines - Fan",
+    "price": 599.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw5940-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 274"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-RW5940_manual.pdf?v=1681149602",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5940",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-rw5983",
+    "sku": "SF-RW5983",
+    "name": "Sunny Health & Fitness Carbon Premium Air Magnetic Rowing Machine - SF-RW5983",
+    "category": "Rowers",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 275,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Rowing Machines - Fan",
+    "price": 699.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw5983-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 275"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-RW5983_manual.pdf?v=1680910975",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5983",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-4500",
+    "sku": "4500",
+    "name": "ASUNA 4500 Commercial Folding Rowing Machine Rower w/ Heart Rate Monitor",
+    "category": "Rowers",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 276,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Rowing Machines",
+    "price": null,
+    "priceChecked": false,
+    "priceSource": null,
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-4500-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 276"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/4500_manual.pdf?v=1681151261",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/4500",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-071g",
+    "sku": "NO. 071G",
+    "name": "Sunny Health & Fitness TPE Exercise Yoga Mat ( Grey / Marsala)",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 277,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Mats - Yoga",
+    "price": 44.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 277"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-071p",
+    "sku": "NO. 071P",
+    "name": "Sunny Health & Fitness TPE Exercise Yoga Mat ( Pink / Marsala)",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 278,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Mats - Yoga",
+    "price": 44.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 278"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-067-60",
+    "sku": "NO. 067-60",
+    "name": "Sunny Health & Fitness Black Kettle Bell - 60Lbs",
+    "category": "Weights",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 279,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Free Weights - Kettle",
+    "price": 109.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 279"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-014",
+    "sku": "NO. 014",
+    "name": "33 lb Chrome Dumbbell Set w/ Carry Case",
+    "category": "Weights",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 280,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Free Weights - Dumbbells",
+    "price": 89.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-no-014-33lbs-dumbbell-chrome-set?variant=16470571679834",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-014-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 280"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-087",
+    "sku": "NO. 087",
+    "name": "Sunny Health & Fitness 40 lb, Vinyl Dumbbell Set",
+    "category": "Weights",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 281,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Free Weights - Dumbbells",
+    "price": 79.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 281"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sdsn-20",
+    "sku": "SDSN-20",
+    "name": "Sunny Health & Fitness 2, 3, 5Lb Neoprene Dumbbell Set w/ Case",
+    "category": "Weights",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 282,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Free Weights - Dumbbells",
+    "price": 69.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 282"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-db01-55",
+    "sku": "SF-DB01-55",
+    "name": "Sunny Health & Fitness Elite Adjustable Dumbbell 55-Pound - SF-DB01-55",
+    "category": "Weights",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 283,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Free Weights - Dumbbells",
+    "price": 249.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 283"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-DB01-55_manual.pdf?v=1698340756",
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-4200",
+    "sku": "4200",
+    "name": "ASUNA 4200 Upright Bike",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 284,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Upright",
+    "price": 499.0,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-4200-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 284"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/4200_manual.pdf?v=1679586208",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/4200",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-b2906",
+    "sku": "SF-B2906",
+    "name": "Sunny Health & Fitness Magnetic Resistance Upright Bike",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 285,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Upright",
+    "price": 229.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b2906-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 285"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B2906_manual.pdf?v=1680816643",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b2906",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-b2952",
+    "sku": "SF-B2952",
+    "name": "Sunny Health & Fitness Upright Bike",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 286,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Upright",
+    "price": 269.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b2952-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 286"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B2952_manual.pdf?v=1680808798",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b2952",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-b2969",
+    "sku": "SF-B2969",
+    "name": "Sunny Health & Fitness Evo-Fit Stationary Upright Bike with 24 Level Electro-Magnetic Resistance - SF-B2969",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 287,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Upright",
+    "price": 449.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b2969-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 287"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B2969_manual.pdf?v=1680806182",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b2969",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-p8400",
+    "sku": "P8400",
+    "name": "Sunny Health & Fitness Pink Magnetic Recumbent Bike",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 288,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Recumbent",
+    "price": 229.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-p8400-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 288"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/P8400_manual.pdf?v=1680889526",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/p8400",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-rb4616s",
+    "sku": "SF-RB4616S",
+    "name": "Sunny Health & Fitness Easy Adjustable Seat Recumbent Bike",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 289,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Recumbent",
+    "price": 249.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rb4616s-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 289"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RB4616S_Manual_EN_IT_ES_FR_DE_V3.1_10082025.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4616s",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-rb4631",
+    "sku": "SF-RB4631",
+    "name": "Sunny Health & Fitness Recumbent Bike with Arm Exerciser",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 290,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Recumbent",
+    "price": 399.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rb4631-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 290"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-RB4631_manual.pdf?v=1736207150",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4631",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-rb4708",
+    "sku": "SF-RB4708",
+    "name": "Sunny Health & Fitness Cross Training Magnetic Recumbent Bike",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 291,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Recumbent",
+    "price": 429.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rb4708-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 291"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-RB4708_manual.pdf?v=1721848747",
+      "assemblyUrl": "https://www.youtube.com/watch?v=jFbhXUme0P4",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4708",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4708",
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-rb4850",
+    "sku": "SF-RB4850",
+    "name": "Sunny Health & Fitness Programmable Recumbent Bike",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 292,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Recumbent",
+    "price": 369.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rb4850-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 292"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-RB4850_manual.pdf?v=1702671431",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4850",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-rb4876",
+    "sku": "SF-RB4876",
+    "name": "Sunny Health & Fitness Magnetic Recumbent Bike - SF-RB4876",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 293,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Recumbent",
+    "price": 239.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rb4876-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 293"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-RB4876_manual.pdf?v=1715363945",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4876",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-rb4905",
+    "sku": "SF-RB4905",
+    "name": "Sunny Health & Fitness Magnetic Recumbent Exercise Bike",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 294,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Recumbent",
+    "price": 299.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rb4905-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 294"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-RB4905_manual.pdf?v=1741904291",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4905",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-rb4936",
+    "sku": "SF-RB4936",
+    "name": "Sunny Health & Fitness Cross Trainer Magnetic Recumbent Bike with Arm Exercisers - SF-RB4936",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 295,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Recumbent",
+    "price": 369.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rb4936-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 295"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-RB4936_manual.pdf?v=1701116476",
+      "assemblyUrl": "https://www.youtube.com/watch?v=fADEZEBYdus",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4936",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4936",
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-rb4953",
+    "sku": "SF-RB4953",
+    "name": "Sunny Health & Fitness Magnetic Recumbent Exercise Bike with Silent Belt Drive, Performance Monitor - SF-RB4953",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 296,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Recumbent",
+    "price": 349.0,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rb4953-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 296"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-RB4953_manual.pdf?v=1680809182",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4953",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-rb4954-fba",
+    "sku": "SF-RB4954-FBA",
+    "name": "SF-RB4954-FBA",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 297,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Recumbent",
+    "price": 548.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 297"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-rbd4703",
+    "sku": "SF-RBD4703",
+    "name": "Sunny Health & Fitness SF-RBD4703 Convertible Recumbent Bike",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 298,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Recumbent",
+    "price": 399.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rbd4703-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 298"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-RBD4703_manual.pdf?v=1721848457",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rbd4703",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-b020029",
+    "sku": "SF-B020029",
+    "name": "Sunny Health & Fitness Electromagnetic Mini Exercise Bike - SF-B020029",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 300,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Mini",
+    "price": 209.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b020029-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 300"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-B020029%20manual%20V1.0%20%2007082022.pdf",
+      "assemblyUrl": "https://www.youtube.com/watch?v=JOxmfdpd3j0",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b020029",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b020029",
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-b2729",
+    "sku": "SF-B2729",
+    "name": "Sunny Health & Fitness Tornado LX Air Bike",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 303,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Fan",
+    "price": 659.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b2729-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 303"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B2729_manual.pdf?v=1680806334",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b2729",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-b2916",
+    "sku": "SF-B2916",
+    "name": "Sunny Health & Fitness Motion Air Bike",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 304,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Fan",
+    "price": 289.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b2916-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 304"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B2916_manual.pdf?v=1680816816",
+      "assemblyUrl": "https://www.youtube.com/watch?v=LhVuQ5fwzgI",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b2916",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b2916",
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-p8150",
+    "sku": "P8150",
+    "name": "Sunny Health & Fitness P8150 Pink Belt Drive Premium Indoor Cycling Bike",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 307,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Cycling",
+    "price": 649.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-p8150-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 307"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/P8150_manual.pdf?v=1680817178",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/p8150",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-b1203",
+    "sku": "SF-B1203",
+    "name": "Sunny Health & Fitness Indoor Cycling Bike",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 308,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Cycling",
+    "price": 249.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1203-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 308"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B1203_manual.pdf?v=1680817125",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1203",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-b121021",
+    "sku": "SF-B121021",
+    "name": "Sunny Health & Fitness Training Cycle Performance Bike - SF-B121021",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 309,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Cycling",
+    "price": 799.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b121021-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 309"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B121021_manual.pdf?v=1680808247",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b121021",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-b122055",
+    "sku": "SF-B122055",
+    "name": "Sunny Health & Fitness Essential Connected Magnetic Cycle Bike - SF-B122055",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 310,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Cycling",
+    "price": 499.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b122055-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 310"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B122055_manual.pdf?v=1680892320",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b122055",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-b1509c",
+    "sku": "SF-B1509C",
+    "name": "Sunny Health & Fitness SF-B1509C Chain Drive Premium Cycling Bike",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 311,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Cycling",
+    "price": 499.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1509c-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 311"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B1509C_manual.pdf?v=1680809056",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1509c",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-b1711",
+    "sku": "SF-B1711",
+    "name": "Sunny Health & Fitness AeroPro Indoor Cycling Bike - SF-B1711",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 312,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Cycling",
+    "price": 799.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1711-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 312"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B1711_manual.pdf?v=1680809421",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1711",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-b1852",
+    "sku": "SF-B1852",
+    "name": "Sunny Health & Fitness Premium Kinetic Flywheel Rear Drive Cycle - SF-B1852",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 314,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Cycling",
+    "price": 799.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1852-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 314"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B1852_manual.pdf?v=1680808153",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1852",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-b1877smart",
+    "sku": "SF-B1877SMART",
+    "name": "Sunny Health & Fitness Premium Magnetic Resistance Smart Indoor Cycling Bike with Quiet Belt Drive and Exclusive SunnyFit® App Enhanced Bluetooth Connectivity",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 317,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Cycling",
+    "price": 569.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1877smart-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 317"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B1877_SMART_manual.pdf?v=1680815572",
+      "assemblyUrl": "https://www.youtube.com/watch?v=pr97Yc8iqr0",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1877smart",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1877smart",
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-b1964",
+    "sku": "SF-B1964",
+    "name": "Sunny Health & Fitness Pro II Magnetic Indoor Cycling Bike - B1964",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 318,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Cycling",
+    "price": 699.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1964-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 318"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B1964_manual.pdf?v=1680810389",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1964",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-b1970",
+    "sku": "SF-B1970",
+    "name": "Sunny Health & Fitness Belt Drive Pro Lite Indoor Cycling Exercise Bike - SF-B1970",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 319,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Cycling",
+    "price": 399.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1970-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 319"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B1970_manual.pdf?v=1680805813",
+      "assemblyUrl": "https://www.youtube.com/watch?v=1mbI_qboOmo",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1970",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1970",
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-b901",
+    "sku": "SF-B901",
+    "name": "Sunny Health & Fitness Pro Indoor Cycling Bike",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 320,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Cycling",
+    "price": 299.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b901-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 320"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-B901_Multi_Language_Manual_V3.4.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b901",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-e3959",
+    "sku": "SF-E3959",
+    "name": "Sunny Health & Fitness SitFit Electric Motorized Under Desk Elliptical – SF-E3959",
+    "category": "Ellipticals",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 322,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Ellipticals - Mini",
+    "price": 299.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e3959-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 322"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-E3959_manual.pdf?v=1680902375",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3959",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-e3988",
+    "sku": "SF-E3988",
+    "name": "Sunny Health & Fitness Magnetic Standing Elliptical with Handlebars - SF-E3988",
+    "category": "Ellipticals",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 323,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Ellipticals - Mini",
+    "price": 199.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e3988-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 323"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-E3988_manual.pdf?v=1744070722",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3988",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-e3804",
+    "sku": "SF-E3804",
+    "name": "Sunny Health & Fitness Endurance Zone Magnetic Elliptical Trainer",
+    "category": "Ellipticals",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 326,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Ellipticals",
+    "price": 360.0,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e3804-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 326"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-E3804_english_manual_v1.4_07092020_384ae4dc-dad1-4dec-957d-18fc6c241fd3.pdf?v=1679586278",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3804",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-e3862",
+    "sku": "SF-E3862",
+    "name": "Sunny Health & Fitness Circuit Zone Elliptical",
+    "category": "Ellipticals",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 327,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Ellipticals",
+    "price": 529.98,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e3862-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 327"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-E3862_manual.pdf?v=1680905550",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3862",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-e3903",
+    "sku": "SF-E3903",
+    "name": "Sunny Health & Fitness 2 in 1 Magnetic Elliptical Upright Bike - SF-E3903",
+    "category": "Ellipticals",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 329,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Ellipticals",
+    "price": 319.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e3903-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 329"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-E3903_manual.pdf?v=1680816478",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3903",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-e3911",
+    "sku": "SF-E3911",
+    "name": "Sunny Health & Fitness Performance Cardio Climber - SF-E3911",
+    "category": "Ellipticals",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 330,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Ellipticals",
+    "price": 299.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e3911-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 330"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-E3911_manual.pdf?v=1680904713",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3911",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-e3914",
+    "sku": "SF-E3914",
+    "name": "Sunny Health & Fitness Pro Cardio Climber - SF-E3914",
+    "category": "Ellipticals",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 332,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Ellipticals",
+    "price": 399.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e3914-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 332"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-E3914_manual.pdf?v=1721848289",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3914",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-e3955",
+    "sku": "SF-E3955",
+    "name": "Sunny Health & Fitness Magnetic Elliptical Trainer - SF-E3955",
+    "category": "Ellipticals",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 333,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Ellipticals",
+    "price": 319.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e3955-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 333"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-E3955_manual.pdf?v=1680902024",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3955",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-e3982",
+    "sku": "SF-E3982",
+    "name": "Sunny Health & Fitness Carbon Premium Programmable Magnetic Elliptical - SF-E3982",
+    "category": "Ellipticals",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 334,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Ellipticals",
+    "price": 699.0,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e3982-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 334"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-E3982_manual.pdf?v=1680908908",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3982",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-e902",
+    "sku": "SF-E902",
+    "name": "Sunny Health & Fitness Air Walk Trainer",
+    "category": "Ellipticals",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 335,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Ellipticals",
+    "price": 129.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e902-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 335"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-E902_manual.pdf?v=1693000566",
+      "assemblyUrl": "https://www.youtube.com/watch?v=d7nVdXykQiU",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e902",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e902",
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-e905",
+    "sku": "SF-E905",
+    "name": "Elliptical Bike Magnetic Resistance Elliptical Machine Cross Trainer",
+    "category": "Ellipticals",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 336,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Ellipticals",
+    "price": 249.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-sf-e905-magnetic-elliptical-bike-elliptical-machine-w-lcd-monitor-and-heart-rate-monitoring?variant=16470600122458",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e905-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 336"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-E905_manual.pdf?v=1724882349",
+      "assemblyUrl": "https://www.youtube.com/watch?v=d4MaLKbsfGc",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e905",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e905",
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-029-b",
+    "sku": "NO. 029-B",
+    "name": "Sunny Health & Fitness Digital Jump Rope",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 340,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Accessories - Jump Ropes",
+    "price": 24.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-029-b-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 340"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/No.029B_MANUAL.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-029-b",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-069",
+    "sku": "NO. 069",
+    "name": "Sunny Health & Fitness No. 069 Speed Cable Jump Rope",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 341,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Accessories - Jump Ropes",
+    "price": 19.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 341"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-055",
+    "sku": "NO. 055",
+    "name": "Sunny Health & Fitness Anti-Burst Gym Ball w/ Pump - 55cm",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 342,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Accessories - Gym Balls",
+    "price": 15.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 342"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-056",
+    "sku": "NO. 056",
+    "name": "Sunny Health & Fitness Anti-Burst Gym Ball w/ Pump - 65cm",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 343,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Accessories - Gym Balls",
+    "price": null,
+    "priceChecked": false,
+    "priceSource": null,
+    "url": "",
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 343"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-057",
+    "sku": "NO. 057",
+    "name": "Sunny Health & Fitness Anti-Burst Gym Ball w/ Pump - 75mm",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 344,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Accessories - Gym Balls",
+    "price": 21.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 344"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-stw-001y",
+    "sku": "STW-001Y",
+    "name": "Sunny Health & Fitness Pro Time Tracker - STW-001Y",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 345,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Accessories - Fitness Trackers",
+    "price": 15.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 345"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-5150",
+    "sku": "5150",
+    "name": "Magnetic Chain Drive Turbo Commercial Indoor Cycling Trainer Exercise Bike",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 399,
+    "mastersheetStatus": "EOL",
+    "mastersheetCategory": "Exercise Bikes - Cycling",
+    "price": 799.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/asuna-5150-magnetic-chain-drive-turbo-commercial-indoor-cycling-trainer-exercise-bike?variant=16470568763482",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-5150-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 399"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/5150_manual.pdf?v=1680894161",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/5150",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-7130",
+    "sku": "7130",
+    "name": "Asuna Lancer Rear Flywheel Commercial Exercise Bike",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 400,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Exercise Bikes - Cycling",
+    "price": 998.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/asuna-7130-lancer-cycle-exercise-bike-magnetic-belt-rear-drive-commercial-indoor-cycling-bike?variant=16470568894554",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-7130-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 400"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/7130_manual.pdf?v=1680891260",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/7130",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-b1509",
+    "sku": "SF-B1509",
+    "name": "Premium Cycling Exercise Bike Indoor Fitness Belt Drive Clipless Pedal",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 404,
+    "mastersheetStatus": "EOL",
+    "mastersheetCategory": "Exercise Bikes - Cycling",
+    "price": 349.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-sf-b1509-belt-drive-premium-indoor-cycling-exercise-bike?variant=16470591602778",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1509-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 404"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-B1509_English_manual_Version_5.0_12242019.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1509",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-e320002",
+    "sku": "SF-E320002",
+    "name": "Magnetic Elliptical Machine Pre-Programmed Trainer",
+    "category": "Ellipticals",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 432,
+    "mastersheetStatus": "EOL",
+    "mastersheetCategory": "Ellipticals",
+    "price": 399.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/pre-programmed-elliptical-trainer-1-sf-e320002?variant=32895683985498",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e320002-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 432"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/E320002_manual_V1.3-2022-12-21.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e320002",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-e323050s",
+    "sku": "SF-E323050S",
+    "name": "Pro Smart Elliptical Trainer With 15 Levels of Magnetic Resistance",
+    "category": "Ellipticals",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 439,
+    "mastersheetStatus": "EOL",
+    "mastersheetCategory": "Ellipticals",
+    "price": 399.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/pro-smart-elliptical-trainer-with-15-levels-of-magnetic-resistance-sf-e323050?variant=41288296792154",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e323050s-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 439"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-E323050S_English_Manual_V2.0_10172024.pdf",
+      "assemblyUrl": "https://www.youtube.com/watch?v=i7w7tWeK7yo",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e323050s",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e323050s",
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-e323055s",
+    "sku": "SF-E323055S",
+    "name": "Smart Heavy-Duty Elliptical Training Machine",
+    "category": "Ellipticals",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 440,
+    "mastersheetStatus": "EOL",
+    "mastersheetCategory": "Ellipticals",
+    "price": 599.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/smart-heavy-duty-elliptical-training-machine-sf-e323055?variant=41368667226202",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e323055s-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 440"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-E323055_English_Manual_V2.0_09302024.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e323055s",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-e3890",
+    "sku": "SF-E3890",
+    "name": "Programmable Elliptical Magnetic Cardio Power Trainer",
+    "category": "Ellipticals",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 443,
+    "mastersheetStatus": "EOL",
+    "mastersheetCategory": "Ellipticals",
+    "price": 349.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/programmable-cardio-elliptical-trainer-sf-e3890?variant=32284863889498",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e3890-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 443"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-E3890_Multi_Language_Manual_V2.2.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3890",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-e3919",
+    "sku": "SF-E3919",
+    "name": "Elite Cardio Climber Machine",
+    "category": "Ellipticals",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 445,
+    "mastersheetStatus": "EOL",
+    "mastersheetCategory": "Ellipticals",
+    "price": 449.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/premium-cardio-climber-sf-e3919?variant=31123443810394",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e3919-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 445"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-E3919_manual_version_2.3_06.02.2023.pdf",
+      "assemblyUrl": "https://www.youtube.com/watch?v=QfRQvTHvdRs",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3919",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3919",
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-072",
+    "sku": "NO. 072",
+    "name": "Sunny Health & Fitness No. 072 3-in-1 Foam Plyo Box",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 471,
+    "mastersheetStatus": "Obsolete",
+    "mastersheetCategory": "Accessories - Plyo Boxes",
+    "price": 119.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 471"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-er01-bk-18",
+    "sku": "SF-ER01-BK-18",
+    "name": "Foam Roller",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 478,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Accessories - Foam Roller",
+    "price": 19.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/yoga-foam-roller-sf-er01?variant=52646680461676",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-er01-bk-18-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 478"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-er01-bk-24",
+    "sku": "SF-ER01-BK-24",
+    "name": "Foam Roller",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 479,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Accessories - Foam Roller",
+    "price": 22.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/yoga-foam-roller-sf-er01?variant=52646680494444",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-er01-bk-24-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 479"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-er01-bk-36",
+    "sku": "SF-ER01-BK-36",
+    "name": "Foam Roller",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 480,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Accessories - Foam Roller",
+    "price": 28.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/yoga-foam-roller-sf-er01?variant=52646680527212",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-er01-bk-36-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 480"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-er01-bu-12",
+    "sku": "SF-ER01-BU-12",
+    "name": "Foam Roller",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 481,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Accessories - Foam Roller",
+    "price": 14.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/yoga-foam-roller-sf-er01?variant=52646528516460",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-er01-bu-12-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 481"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-er01-bu-18",
+    "sku": "SF-ER01-BU-18",
+    "name": "Foam Roller",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 482,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Accessories - Foam Roller",
+    "price": 19.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/yoga-foam-roller-sf-er01?variant=52646680559980",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-er01-bu-18-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 482"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-er01-bu-24",
+    "sku": "SF-ER01-BU-24",
+    "name": "Foam Roller",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 483,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Accessories - Foam Roller",
+    "price": 22.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/yoga-foam-roller-sf-er01?variant=52646680592748",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-er01-bu-24-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 483"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-er01-bu-36",
+    "sku": "SF-ER01-BU-36",
+    "name": "Foam Roller",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 484,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Accessories - Foam Roller",
+    "price": 28.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/yoga-foam-roller-sf-er01?variant=52646680625516",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-er01-bu-36-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 484"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-er01-pk-12",
+    "sku": "SF-ER01-PK-12",
+    "name": "Foam Roller",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 485,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Accessories - Foam Roller",
+    "price": 14.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/yoga-foam-roller-sf-er01?variant=52646528549228",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-er01-pk-12-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 485"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-er01-pk-18",
+    "sku": "SF-ER01-PK-18",
+    "name": "Foam Roller",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 486,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Accessories - Foam Roller",
+    "price": 19.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/yoga-foam-roller-sf-er01?variant=52646680658284",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-er01-pk-18-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 486"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-er01-pk-24",
+    "sku": "SF-ER01-PK-24",
+    "name": "Foam Roller",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 487,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Accessories - Foam Roller",
+    "price": 22.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/yoga-foam-roller-sf-er01?variant=52646680691052",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-er01-pk-24-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 487"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-er01-pk-36",
+    "sku": "SF-ER01-PK-36",
+    "name": "Foam Roller",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 488,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Accessories - Foam Roller",
+    "price": 28.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/yoga-foam-roller-sf-er01?variant=52646680723820",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-er01-pk-36-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 488"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-003",
+    "sku": "NO. 003",
+    "name": "Ab Roller Exercise Wheel",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 498,
+    "mastersheetStatus": "EOL",
+    "mastersheetCategory": "Accessories - Ab Rollers",
+    "price": 14.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-no-003-ab-roller-exercise-wheel?variant=16470571384922",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-003-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 498"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/MANUAL_NO_003.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/no-003",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-bh621802",
+    "sku": "SF-BH621802",
+    "name": "Stretch Training Machine",
+    "category": "Weight Benches",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 502,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Benches - Stretch Machine",
+    "price": 299.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/stretch-training-machine-sf-bh621002?variant=53714038882668",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bh621802-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 502"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-BH621802EnglishManualVersion__v1.0__20240626._.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-bh621802",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-gl02-m",
+    "sku": "SF-GL02-M",
+    "name": "Weightlifting Gloves - Wrist Support",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 528,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Accessories - Gloves",
+    "price": 16.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/weightlifting-gloves-with-wrist-support-sf-gl02?variant=53944302666092",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-gl02-m-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 528"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-gl02-l",
+    "sku": "SF-GL02-L",
+    "name": "Weightlifting Gloves - Wrist Support",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 529,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Accessories - Gloves",
+    "price": 16.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/weightlifting-gloves-with-wrist-support-sf-gl02?variant=53944302698860",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-gl02-l-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 529"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-gl02-xl",
+    "sku": "SF-GL02-XL",
+    "name": "Weightlifting Gloves - Wrist Support",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 530,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Accessories - Gloves",
+    "price": 16.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/weightlifting-gloves-with-wrist-support-sf-gl02?variant=53944302731628",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-gl02-xl-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 530"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-wv01-a2",
+    "sku": "SF-WV01-A2",
+    "name": "Adjustable Weighted Vest",
+    "category": "Weights",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 540,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Free Weights - Wearable Weights",
+    "price": 69.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/adjustable-weighted-vest-sf-wv01?variant=54219934433644",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-wv01-a2-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 540"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-wv01-a3",
+    "sku": "SF-WV01-A3",
+    "name": "Adjustable Weighted Vest",
+    "category": "Weights",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 541,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Free Weights - Wearable Weights",
+    "price": 89.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/adjustable-weighted-vest-sf-wv01?variant=54219934466412",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-wv01-a3-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 541"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-120-pk",
+    "sku": "NO. 120-PK",
+    "name": "Balance Board & Wobble Board for Core Stability Training",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 556,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Accessories - Balance Boards",
+    "price": 34.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/balance-board-wobble-board-no-120?variant=54387041763692",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-no-120-pk-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 556"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-no-120-bu",
+    "sku": "NO. 120-BU",
+    "name": "Sunny Health & Fitness Balance Board - Blue",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 558,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Accessories - Balance Boards",
+    "price": 34.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 558"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-p2610",
+    "sku": "P2610",
+    "name": "Sunny Health & Fitness SMART Compact Full Motion Rowing Machine - Pink",
+    "category": "Rowers",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 568,
+    "mastersheetStatus": "Priority",
+    "mastersheetCategory": "Rowing Machines - Hydraulic",
+    "price": 199.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-p2610-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 568"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/P2610_EN_20260728_V1.0.pdf",
+      "assemblyUrl": "https://www.youtube.com/watch?v=zM7h6LeovUE",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/p2610",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/p2610",
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-rw5639smartgy",
+    "sku": "SF-RW5639SMARTGY",
+    "name": "Sunny Health & Fitness SMART Compact Full Motion Rowing Machine - Grey",
+    "category": "Rowers",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 569,
+    "mastersheetStatus": "Priority",
+    "mastersheetCategory": "Rowing Machines - Hydraulic",
+    "price": 199.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw5639smartgy-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 569"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-RW5639SMARTGY_EN_20260728_V1.0.pdf",
+      "assemblyUrl": "https://www.youtube.com/watch?v=j5aK_h0ZRiY",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5639smartgy",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5639smartgy",
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-a026006",
+    "sku": "SF-A026006",
+    "name": "Multi-Function Squat Assist Trainer for Home Workouts",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 575,
+    "mastersheetStatus": "Priority",
+    "mastersheetCategory": "Strength Training - Core Trainers",
+    "price": 129.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/multi-function-squat-assist-trainer-for-home-workouts-sf-a026006?variant=68029798875500",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-a026006-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 575"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-A026006_Manual_EN_V2.0_20261020.pdf",
+      "assemblyUrl": "https://www.youtube.com/watch?v=rH-IGSIsTpg",
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-a026006",
+      "assemblyPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-a026006",
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-b224804",
+    "sku": "SF-B224804",
+    "name": "Smart Magnetic Resistance Upright Bike",
+    "category": "Indoor Bikes",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 578,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Exercise Bikes - Upright",
+    "price": null,
+    "priceChecked": false,
+    "priceSource": null,
+    "url": "https://sunnyhealthfitness.com/products/smart-magnetic-resistance-upright-bike-sf-b224804?variant=54436917739884",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b224804-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 578"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": "https://share.sunnyfit.com/web_static/op/user_manual/SF-B224804_EN_version_1.1_20260323.pdf",
+      "assemblyUrl": null,
+      "manualPage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b224804",
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-vp824856",
+    "sku": "SF-VP824856",
+    "name": "SF-VP824856",
+    "category": "Essentials",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 579,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Vibration Plates",
+    "price": null,
+    "priceChecked": false,
+    "priceSource": null,
+    "url": "",
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 579"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-s8978smart",
+    "sku": "SF-S8978SMART",
+    "name": "Sunny Health & Fitness Total Body Smart Exercise Stepper",
+    "category": "Steppers",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 580,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Step Machine - Steppers",
+    "price": null,
+    "priceChecked": false,
+    "priceSource": null,
+    "url": "",
+    "imageUrl": "",
+    "imageAvailability": "unavailable",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 580"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
+  },
+  {
+    "id": "off-sunny-sf-t722876",
+    "sku": "SF-T722876",
+    "name": "2-in-1 Auto-Incline Walking & Running Treadmill",
+    "category": "Treadmills",
+    "catalogSource": "off-sunny-web",
+    "importBatch": "us-mastersheet-v1-missing",
+    "sourceFile": "Sunny US Mastersheet V1.xlsx",
+    "mastersheetRow": 581,
+    "mastersheetStatus": "Regular",
+    "mastersheetCategory": "Treadmills - Pad",
+    "price": 599.99,
+    "priceChecked": true,
+    "priceSource": "Sunny US Mastersheet V1",
+    "url": "https://sunnyhealthfitness.com/products/2-in-1-auto-incline-walking-and-running-treadmill-sf-t722876?variant=67701455028588",
+    "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t722876-mastersheet-v1.jpg",
+    "imageAvailability": "official-website",
+    "imageAssetId": null,
+    "photoChecked": false,
+    "photoMasks": null,
+    "specDetails": {
+      "version": 1,
+      "values": {},
+      "sources": [
+        "Sunny US Mastersheet V1.xlsx row 581"
+      ],
+      "evidence": {}
+    },
+    "resourceLinks": {
+      "manualUrl": null,
+      "assemblyUrl": null,
+      "manualPage": null,
+      "assemblyPage": null,
+      "checkedAt": "2026-11-09",
+      "verificationStatus": "verified"
+    },
+    "createdAt": "2026-11-09T00:00:00Z",
+    "updatedAt": "2026-11-09T00:00:00Z"
   }
 ]

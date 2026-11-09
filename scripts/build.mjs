@@ -3,7 +3,7 @@ let catalog=[];for(const path of (await readdir('data')).filter(p=>p.endsWith('.
 catalog.push(...JSON.parse(await readFile('data/off-sunny-web/items.json','utf8')));
 const guides={};for(const file of (await readdir('data/manuals')).filter(p=>p.endsWith('.json')))Object.assign(guides,JSON.parse(await readFile('data/manuals/'+file,'utf8')));
 const archiveResourceBaseline=JSON.parse(await readFile('data/off-sunny-web/batch-three-official-baseline.json','utf8'));
-const sheetImages={};for(const row of catalog.filter(r=>r.catalogSource==='off-sunny-web'&&r.imageUrl&&!['v3-batch-4','v3-batch-5'].includes(r.importBatch))){sheetImages[row.imageUrl]=(await readFile('data/images/off-sunny-web/'+row.imageUrl.split('/').pop())).toString('base64');}
+const sheetImages={};for(const row of catalog.filter(r=>r.catalogSource==='off-sunny-web'&&r.imageUrl&&!['v3-batch-4','v3-batch-5','us-mastersheet-v1-missing'].includes(r.importBatch))){sheetImages[row.imageUrl]=(await readFile('data/images/off-sunny-web/'+row.imageUrl.split('/').pop())).toString('base64');}
 const html=await readFile('app/index.html','utf8');const worker=await readFile('server/worker.js','utf8');
 await mkdir('dist/server',{recursive:true});await writeFile('dist/server/index.js','const APP_ARCHIVE_RESOURCE_BASELINE='+JSON.stringify(archiveResourceBaseline)+';\nconst APP_SHEET_IMAGES='+JSON.stringify(sheetImages)+';\nconst APP_HTML='+JSON.stringify(html)+';\nconst APP_CATALOG='+JSON.stringify(catalog)+';\nconst APP_GUIDES='+JSON.stringify(guides)+';\n'+worker);
 await cp('drizzle','dist/server/migrations',{recursive:true});

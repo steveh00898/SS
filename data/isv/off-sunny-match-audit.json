@@ -5,8 +5,8 @@
     "columns": "A:FN",
     "sha256": "66c0c25dee9c35fefe083cdc03918498405727529e6e2f072e76a8ff13c5fb5a"
   },
-  "catalogRecords": 334,
-  "matched": 330,
+  "catalogRecords": 470,
+  "matched": 463,
   "rules": "Exact text preferred; otherwise whitespace and NO./SF-prefix typography only. Internal hyphens, numeric digits and SMART/color/size suffixes are preserved. Only explicit NO. 089 COMBO / NO. 089-COMBO alias is allowed, verified against the V3 filename and resistance tube set identity. Ambiguous/missing models are not substituted.",
   "items": [
     {
@@ -4982,6 +4982,2019 @@
       "workbookModel": "SF-T722901",
       "matchMethod": "exact text",
       "evidence": "SHF!A708"
+    },
+    {
+      "id": "off-sunny-no-077-s",
+      "sku": "NO. 077-S",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 74,
+          "model": "NO. 077-S"
+        }
+      ],
+      "row": 74,
+      "workbookModel": "NO. 077-S",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A74"
+    },
+    {
+      "id": "off-sunny-sf-rw520084s",
+      "sku": "SF-RW520084S",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 584,
+          "model": "SF-RW520084S"
+        }
+      ],
+      "row": 584,
+      "workbookModel": "SF-RW520084S",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A584"
+    },
+    {
+      "id": "off-sunny-8570",
+      "sku": "8570",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 19,
+          "model": "8570"
+        }
+      ],
+      "row": 19,
+      "workbookModel": "8570",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A19"
+    },
+    {
+      "id": "off-sunny-8580",
+      "sku": "8580",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 20,
+          "model": "8580"
+        }
+      ],
+      "row": 20,
+      "workbookModel": "8580",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A20"
+    },
+    {
+      "id": "off-sunny-no-031-bk",
+      "sku": "NO. 031-BK",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 38,
+          "model": "NO. 031-BK"
+        }
+      ],
+      "row": 38,
+      "workbookModel": "NO. 031-BK",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A38"
+    },
+    {
+      "id": "off-sunny-no-031-gr",
+      "sku": "NO. 031-GR",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 39,
+          "model": "NO. 031-GR"
+        }
+      ],
+      "row": 39,
+      "workbookModel": "NO. 031-GR",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A39"
+    },
+    {
+      "id": "off-sunny-no-031-gy",
+      "sku": "NO. 031-GY",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 40,
+          "model": "NO. 031-GY"
+        }
+      ],
+      "row": 40,
+      "workbookModel": "NO. 031-GY",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A40"
+    },
+    {
+      "id": "off-sunny-no-031-p",
+      "sku": "NO. 031-P",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 41,
+          "model": "NO. 031-P"
+        }
+      ],
+      "row": 41,
+      "workbookModel": "NO. 031-P",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A41"
+    },
+    {
+      "id": "off-sunny-no-031-pk",
+      "sku": "NO. 031-PK",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 42,
+          "model": "NO. 031-PK"
+        }
+      ],
+      "row": 42,
+      "workbookModel": "NO. 031-PK",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A42"
+    },
+    {
+      "id": "off-sunny-sf-em02-pk",
+      "sku": "SF-EM02-PK",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 481,
+          "model": "SF-EM02-PK"
+        }
+      ],
+      "row": 481,
+      "workbookModel": "SF-EM02-PK",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A481"
+    },
+    {
+      "id": "off-sunny-no-048",
+      "sku": "NO. 048",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 45,
+          "model": "NO. 048"
+        }
+      ],
+      "row": 45,
+      "workbookModel": "NO. 048",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A45"
+    },
+    {
+      "id": "off-sunny-no-066-15",
+      "sku": "NO. 066-15",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 51,
+          "model": "NO. 066-15"
+        }
+      ],
+      "row": 51,
+      "workbookModel": "NO. 066-15",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A51"
+    },
+    {
+      "id": "off-sunny-no-066-20",
+      "sku": "NO. 066-20",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 52,
+          "model": "NO. 066-20"
+        }
+      ],
+      "row": 52,
+      "workbookModel": "NO. 066-20",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A52"
+    },
+    {
+      "id": "off-sunny-no-066-25",
+      "sku": "NO. 066-25",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 53,
+          "model": "NO. 066-25"
+        }
+      ],
+      "row": 53,
+      "workbookModel": "NO. 066-25",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A53"
+    },
+    {
+      "id": "off-sunny-no-066-5",
+      "sku": "NO. 066-5",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 54,
+          "model": "NO. 066-5"
+        }
+      ],
+      "row": 54,
+      "workbookModel": "NO. 066-5",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A54"
+    },
+    {
+      "id": "off-sunny-sf-t7945",
+      "sku": "SF-T7945",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 770,
+          "model": "SF-T7945"
+        }
+      ],
+      "row": 770,
+      "workbookModel": "SF-T7945",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A770"
+    },
+    {
+      "id": "off-sunny-sf-t4400",
+      "sku": "SF-T4400",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 696,
+          "model": "SF-T4400"
+        }
+      ],
+      "row": 696,
+      "workbookModel": "SF-T4400",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A696"
+    },
+    {
+      "id": "off-sunny-sf-t7603",
+      "sku": "SF-T7603",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 742,
+          "model": "SF-T7603"
+        }
+      ],
+      "row": 742,
+      "workbookModel": "SF-T7603",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A742"
+    },
+    {
+      "id": "off-sunny-sf-t7603-cb",
+      "sku": "SF-T7603-CB",
+      "status": "missing",
+      "candidates": []
+    },
+    {
+      "id": "off-sunny-sf-t7610",
+      "sku": "SF-T7610",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 744,
+          "model": "SF-T7610"
+        }
+      ],
+      "row": 744,
+      "workbookModel": "SF-T7610",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A744"
+    },
+    {
+      "id": "off-sunny-sf-t7632",
+      "sku": "SF-T7632",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 749,
+          "model": "SF-T7632"
+        }
+      ],
+      "row": 749,
+      "workbookModel": "SF-T7632",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A749"
+    },
+    {
+      "id": "off-sunny-sf-t7643",
+      "sku": "SF-T7643",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 751,
+          "model": "SF-T7643"
+        }
+      ],
+      "row": 751,
+      "workbookModel": "SF-T7643",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A751"
+    },
+    {
+      "id": "off-sunny-sf-t7718",
+      "sku": "SF-T7718",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 755,
+          "model": "SF-T7718"
+        }
+      ],
+      "row": 755,
+      "workbookModel": "SF-T7718",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A755"
+    },
+    {
+      "id": "off-sunny-sf-t7718smart",
+      "sku": "SF-T7718SMART",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 756,
+          "model": "SF-T7718SMART"
+        }
+      ],
+      "row": 756,
+      "workbookModel": "SF-T7718SMART",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A756"
+    },
+    {
+      "id": "off-sunny-sf-t7724",
+      "sku": "SF-T7724",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 758,
+          "model": "SF-T7724"
+        }
+      ],
+      "row": 758,
+      "workbookModel": "SF-T7724",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A758"
+    },
+    {
+      "id": "off-sunny-sf-t7857",
+      "sku": "SF-T7857",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 761,
+          "model": "SF-T7857"
+        }
+      ],
+      "row": 761,
+      "workbookModel": "SF-T7857",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A761"
+    },
+    {
+      "id": "off-sunny-sf-t7909",
+      "sku": "SF-T7909",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 767,
+          "model": "SF-T7909"
+        }
+      ],
+      "row": 767,
+      "workbookModel": "SF-T7909",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A767"
+    },
+    {
+      "id": "off-sunny-sf-t7917",
+      "sku": "SF-T7917",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 768,
+          "model": "SF-T7917"
+        }
+      ],
+      "row": 768,
+      "workbookModel": "SF-T7917",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A768"
+    },
+    {
+      "id": "off-sunny-sf-t7942",
+      "sku": "SF-T7942",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 769,
+          "model": "SF-T7942"
+        }
+      ],
+      "row": 769,
+      "workbookModel": "SF-T7942",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A769"
+    },
+    {
+      "id": "off-sunny-sf-t7971",
+      "sku": "SF-T7971",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 776,
+          "model": "SF-T7971"
+        }
+      ],
+      "row": 776,
+      "workbookModel": "SF-T7971",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A776"
+    },
+    {
+      "id": "off-sunny-no-079",
+      "sku": "NO. 079",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 77,
+          "model": "NO. 079"
+        }
+      ],
+      "row": 77,
+      "workbookModel": "NO. 079",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A77"
+    },
+    {
+      "id": "off-sunny-no-042",
+      "sku": "NO. 042",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 43,
+          "model": "NO. 042"
+        }
+      ],
+      "row": 43,
+      "workbookModel": "NO. 042",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A43"
+    },
+    {
+      "id": "off-sunny-sf-bh6507",
+      "sku": "SF-BH6507",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 317,
+          "model": "SF-BH6507"
+        }
+      ],
+      "row": 317,
+      "workbookModel": "SF-BH6507",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A317"
+    },
+    {
+      "id": "off-sunny-obc-86",
+      "sku": "OBC-86",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 125,
+          "model": "OBC-86"
+        }
+      ],
+      "row": 125,
+      "workbookModel": "OBC-86",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A125"
+    },
+    {
+      "id": "off-sunny-stbb-60",
+      "sku": "STBB-60",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 857,
+          "model": "STBB-60"
+        }
+      ],
+      "row": 857,
+      "workbookModel": "STBB-60",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A857"
+    },
+    {
+      "id": "off-sunny-stcb-47",
+      "sku": "STCB-47",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 858,
+          "model": "STCB-47"
+        }
+      ],
+      "row": 858,
+      "workbookModel": "STCB-47",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A858"
+    },
+    {
+      "id": "off-sunny-sttb-24",
+      "sku": "STTB-24",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 860,
+          "model": "STTB-24"
+        }
+      ],
+      "row": 860,
+      "workbookModel": "STTB-24",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A860"
+    },
+    {
+      "id": "off-sunny-sf-xfa009",
+      "sku": "SF-XFA009",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 842,
+          "model": "SF-XFA009"
+        }
+      ],
+      "row": 842,
+      "workbookModel": "SF-XFA009",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A842"
+    },
+    {
+      "id": "off-sunny-no-045",
+      "sku": "NO. 045",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 44,
+          "model": "NO. 045"
+        }
+      ],
+      "row": 44,
+      "workbookModel": "NO. 045",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A44"
+    },
+    {
+      "id": "off-sunny-sf-rw5809",
+      "sku": "SF-RW5809",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 627,
+          "model": "SF-RW5809"
+        }
+      ],
+      "row": 627,
+      "workbookModel": "SF-RW5809",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A627"
+    },
+    {
+      "id": "off-sunny-sf-rw520084s-cb",
+      "sku": "SF-RW520084S-CB",
+      "status": "missing",
+      "candidates": []
+    },
+    {
+      "id": "off-sunny-sf-rw5854",
+      "sku": "SF-RW5854",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 629,
+          "model": "SF-RW5854"
+        }
+      ],
+      "row": 629,
+      "workbookModel": "SF-RW5854",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A629"
+    },
+    {
+      "id": "off-sunny-sf-rw5935",
+      "sku": "SF-RW5935",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 638,
+          "model": "SF-RW5935"
+        }
+      ],
+      "row": 638,
+      "workbookModel": "SF-RW5935",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A638"
+    },
+    {
+      "id": "off-sunny-sf-rw520050",
+      "sku": "SF-RW520050",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 582,
+          "model": "SF-RW520050"
+        }
+      ],
+      "row": 582,
+      "workbookModel": "SF-RW520050",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A582"
+    },
+    {
+      "id": "off-sunny-sf-rw5940",
+      "sku": "SF-RW5940",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 639,
+          "model": "SF-RW5940"
+        }
+      ],
+      "row": 639,
+      "workbookModel": "SF-RW5940",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A639"
+    },
+    {
+      "id": "off-sunny-sf-rw5983",
+      "sku": "SF-RW5983",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 643,
+          "model": "SF-RW5983"
+        }
+      ],
+      "row": 643,
+      "workbookModel": "SF-RW5983",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A643"
+    },
+    {
+      "id": "off-sunny-4500",
+      "sku": "4500",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 9,
+          "model": "4500"
+        }
+      ],
+      "row": 9,
+      "workbookModel": "4500",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A9"
+    },
+    {
+      "id": "off-sunny-no-071g",
+      "sku": "NO. 071G",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 58,
+          "model": "NO. 071G"
+        }
+      ],
+      "row": 58,
+      "workbookModel": "NO. 071G",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A58"
+    },
+    {
+      "id": "off-sunny-no-071p",
+      "sku": "NO. 071P",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 59,
+          "model": "NO. 071P"
+        }
+      ],
+      "row": 59,
+      "workbookModel": "NO. 071P",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A59"
+    },
+    {
+      "id": "off-sunny-no-067-60",
+      "sku": "NO. 067-60",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 55,
+          "model": "NO. 067-60"
+        }
+      ],
+      "row": 55,
+      "workbookModel": "NO. 067-60",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A55"
+    },
+    {
+      "id": "off-sunny-no-014",
+      "sku": "NO. 014",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 30,
+          "model": "NO. 014"
+        }
+      ],
+      "row": 30,
+      "workbookModel": "NO. 014",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A30"
+    },
+    {
+      "id": "off-sunny-no-087",
+      "sku": "NO. 087",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 85,
+          "model": "NO. 087"
+        }
+      ],
+      "row": 85,
+      "workbookModel": "NO. 087",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A85"
+    },
+    {
+      "id": "off-sunny-sdsn-20",
+      "sku": "SDSN-20",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 153,
+          "model": "SDSN-20"
+        }
+      ],
+      "row": 153,
+      "workbookModel": "SDSN-20",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A153"
+    },
+    {
+      "id": "off-sunny-sf-db01-55",
+      "sku": "SF-DB01-55",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 344,
+          "model": "SF-DB01-55"
+        }
+      ],
+      "row": 344,
+      "workbookModel": "SF-DB01-55",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A344"
+    },
+    {
+      "id": "off-sunny-4200",
+      "sku": "4200",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 7,
+          "model": "4200"
+        }
+      ],
+      "row": 7,
+      "workbookModel": "4200",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A7"
+    },
+    {
+      "id": "off-sunny-sf-b2906",
+      "sku": "SF-B2906",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 281,
+          "model": "SF-B2906"
+        }
+      ],
+      "row": 281,
+      "workbookModel": "SF-B2906",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A281"
+    },
+    {
+      "id": "off-sunny-sf-b2952",
+      "sku": "SF-B2952",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 283,
+          "model": "SF-B2952"
+        }
+      ],
+      "row": 283,
+      "workbookModel": "SF-B2952",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A283"
+    },
+    {
+      "id": "off-sunny-sf-b2969",
+      "sku": "SF-B2969",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 285,
+          "model": "SF-B2969"
+        }
+      ],
+      "row": 285,
+      "workbookModel": "SF-B2969",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A285"
+    },
+    {
+      "id": "off-sunny-p8400",
+      "sku": "P8400",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 148,
+          "model": "P8400"
+        }
+      ],
+      "row": 148,
+      "workbookModel": "P8400",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A148"
+    },
+    {
+      "id": "off-sunny-sf-rb4616s",
+      "sku": "SF-RB4616S",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 549,
+          "model": "SF-RB4616S"
+        }
+      ],
+      "row": 549,
+      "workbookModel": "SF-RB4616S",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A549"
+    },
+    {
+      "id": "off-sunny-sf-rb4631",
+      "sku": "SF-RB4631",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 552,
+          "model": "SF-RB4631"
+        }
+      ],
+      "row": 552,
+      "workbookModel": "SF-RB4631",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A552"
+    },
+    {
+      "id": "off-sunny-sf-rb4708",
+      "sku": "SF-RB4708",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 553,
+          "model": "SF-RB4708"
+        }
+      ],
+      "row": 553,
+      "workbookModel": "SF-RB4708",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A553"
+    },
+    {
+      "id": "off-sunny-sf-rb4850",
+      "sku": "SF-RB4850",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 555,
+          "model": "SF-RB4850"
+        }
+      ],
+      "row": 555,
+      "workbookModel": "SF-RB4850",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A555"
+    },
+    {
+      "id": "off-sunny-sf-rb4876",
+      "sku": "SF-RB4876",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 557,
+          "model": "SF-RB4876"
+        }
+      ],
+      "row": 557,
+      "workbookModel": "SF-RB4876",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A557"
+    },
+    {
+      "id": "off-sunny-sf-rb4905",
+      "sku": "SF-RB4905",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 559,
+          "model": "SF-RB4905"
+        }
+      ],
+      "row": 559,
+      "workbookModel": "SF-RB4905",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A559"
+    },
+    {
+      "id": "off-sunny-sf-rb4936",
+      "sku": "SF-RB4936",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 561,
+          "model": "SF-RB4936"
+        }
+      ],
+      "row": 561,
+      "workbookModel": "SF-RB4936",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A561"
+    },
+    {
+      "id": "off-sunny-sf-rb4953",
+      "sku": "SF-RB4953",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 562,
+          "model": "SF-RB4953"
+        }
+      ],
+      "row": 562,
+      "workbookModel": "SF-RB4953",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A562"
+    },
+    {
+      "id": "off-sunny-sf-rb4954-fba",
+      "sku": "SF-RB4954-FBA",
+      "status": "missing",
+      "candidates": []
+    },
+    {
+      "id": "off-sunny-sf-rbd4703",
+      "sku": "SF-RBD4703",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 569,
+          "model": "SF-RBD4703"
+        }
+      ],
+      "row": 569,
+      "workbookModel": "SF-RBD4703",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A569"
+    },
+    {
+      "id": "off-sunny-sf-b020029",
+      "sku": "SF-B020029",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 183,
+          "model": "SF-B020029"
+        }
+      ],
+      "row": 183,
+      "workbookModel": "SF-B020029",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A183"
+    },
+    {
+      "id": "off-sunny-sf-b2729",
+      "sku": "SF-B2729",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 278,
+          "model": "SF-B2729"
+        }
+      ],
+      "row": 278,
+      "workbookModel": "SF-B2729",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A278"
+    },
+    {
+      "id": "off-sunny-sf-b2916",
+      "sku": "SF-B2916",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 282,
+          "model": "SF-B2916"
+        }
+      ],
+      "row": 282,
+      "workbookModel": "SF-B2916",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A282"
+    },
+    {
+      "id": "off-sunny-p8150",
+      "sku": "P8150",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 145,
+          "model": "P8150"
+        }
+      ],
+      "row": 145,
+      "workbookModel": "P8150",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A145"
+    },
+    {
+      "id": "off-sunny-sf-b1203",
+      "sku": "SF-B1203",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 210,
+          "model": "SF-B1203"
+        }
+      ],
+      "row": 210,
+      "workbookModel": "SF-B1203",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A210"
+    },
+    {
+      "id": "off-sunny-sf-b121021",
+      "sku": "SF-B121021",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 211,
+          "model": "SF-B121021"
+        }
+      ],
+      "row": 211,
+      "workbookModel": "SF-B121021",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A211"
+    },
+    {
+      "id": "off-sunny-sf-b122055",
+      "sku": "SF-B122055",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 214,
+          "model": "SF-B122055"
+        }
+      ],
+      "row": 214,
+      "workbookModel": "SF-B122055",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A214"
+    },
+    {
+      "id": "off-sunny-sf-b1509c",
+      "sku": "SF-B1509C",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 233,
+          "model": "SF-B1509C"
+        }
+      ],
+      "row": 233,
+      "workbookModel": "SF-B1509C",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A233"
+    },
+    {
+      "id": "off-sunny-sf-b1711",
+      "sku": "SF-B1711",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 236,
+          "model": "SF-B1711"
+        }
+      ],
+      "row": 236,
+      "workbookModel": "SF-B1711",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A236"
+    },
+    {
+      "id": "off-sunny-sf-b1852",
+      "sku": "SF-B1852",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 243,
+          "model": "SF-B1852"
+        }
+      ],
+      "row": 243,
+      "workbookModel": "SF-B1852",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A243"
+    },
+    {
+      "id": "off-sunny-sf-b1877smart",
+      "sku": "SF-B1877SMART",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 247,
+          "model": "SF-B1877SMART"
+        }
+      ],
+      "row": 247,
+      "workbookModel": "SF-B1877SMART",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A247"
+    },
+    {
+      "id": "off-sunny-sf-b1964",
+      "sku": "SF-B1964",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 251,
+          "model": "SF-B1964"
+        }
+      ],
+      "row": 251,
+      "workbookModel": "SF-B1964",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A251"
+    },
+    {
+      "id": "off-sunny-sf-b1970",
+      "sku": "SF-B1970",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 252,
+          "model": "SF-B1970"
+        }
+      ],
+      "row": 252,
+      "workbookModel": "SF-B1970",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A252"
+    },
+    {
+      "id": "off-sunny-sf-b901",
+      "sku": "SF-B901",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 287,
+          "model": "SF-B901"
+        }
+      ],
+      "row": 287,
+      "workbookModel": "SF-B901",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A287"
+    },
+    {
+      "id": "off-sunny-sf-e3959",
+      "sku": "SF-E3959",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 440,
+          "model": "SF-E3959"
+        }
+      ],
+      "row": 440,
+      "workbookModel": "SF-E3959",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A440"
+    },
+    {
+      "id": "off-sunny-sf-e3988",
+      "sku": "SF-E3988",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 445,
+          "model": "SF-E3988"
+        }
+      ],
+      "row": 445,
+      "workbookModel": "SF-E3988",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A445"
+    },
+    {
+      "id": "off-sunny-sf-e3804",
+      "sku": "SF-E3804",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 420,
+          "model": "SF-E3804"
+        }
+      ],
+      "row": 420,
+      "workbookModel": "SF-E3804",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A420"
+    },
+    {
+      "id": "off-sunny-sf-e3862",
+      "sku": "SF-E3862",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 422,
+          "model": "SF-E3862"
+        }
+      ],
+      "row": 422,
+      "workbookModel": "SF-E3862",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A422"
+    },
+    {
+      "id": "off-sunny-sf-e3903",
+      "sku": "SF-E3903",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 430,
+          "model": "SF-E3903"
+        }
+      ],
+      "row": 430,
+      "workbookModel": "SF-E3903",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A430"
+    },
+    {
+      "id": "off-sunny-sf-e3911",
+      "sku": "SF-E3911",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 432,
+          "model": "SF-E3911"
+        }
+      ],
+      "row": 432,
+      "workbookModel": "SF-E3911",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A432"
+    },
+    {
+      "id": "off-sunny-sf-e3914",
+      "sku": "SF-E3914",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 435,
+          "model": "SF-E3914"
+        }
+      ],
+      "row": 435,
+      "workbookModel": "SF-E3914",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A435"
+    },
+    {
+      "id": "off-sunny-sf-e3955",
+      "sku": "SF-E3955",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 438,
+          "model": "SF-E3955"
+        }
+      ],
+      "row": 438,
+      "workbookModel": "SF-E3955",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A438"
+    },
+    {
+      "id": "off-sunny-sf-e3982",
+      "sku": "SF-E3982",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 444,
+          "model": "SF-E3982"
+        }
+      ],
+      "row": 444,
+      "workbookModel": "SF-E3982",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A444"
+    },
+    {
+      "id": "off-sunny-sf-e902",
+      "sku": "SF-E902",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 446,
+          "model": "SF-E902"
+        }
+      ],
+      "row": 446,
+      "workbookModel": "SF-E902",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A446"
+    },
+    {
+      "id": "off-sunny-sf-e905",
+      "sku": "SF-E905",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 451,
+          "model": "SF-E905"
+        }
+      ],
+      "row": 451,
+      "workbookModel": "SF-E905",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A451"
+    },
+    {
+      "id": "off-sunny-no-029-b",
+      "sku": "NO. 029-B",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 36,
+          "model": "NO. 029-B"
+        }
+      ],
+      "row": 36,
+      "workbookModel": "NO. 029-B",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A36"
+    },
+    {
+      "id": "off-sunny-no-069",
+      "sku": "NO. 069",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 57,
+          "model": "NO. 069"
+        }
+      ],
+      "row": 57,
+      "workbookModel": "NO. 069",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A57"
+    },
+    {
+      "id": "off-sunny-no-055",
+      "sku": "NO. 055",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 46,
+          "model": "NO. 055"
+        }
+      ],
+      "row": 46,
+      "workbookModel": "NO. 055",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A46"
+    },
+    {
+      "id": "off-sunny-no-056",
+      "sku": "NO. 056",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 47,
+          "model": "NO. 056"
+        }
+      ],
+      "row": 47,
+      "workbookModel": "NO. 056",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A47"
+    },
+    {
+      "id": "off-sunny-no-057",
+      "sku": "NO. 057",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 48,
+          "model": "NO. 057"
+        }
+      ],
+      "row": 48,
+      "workbookModel": "NO. 057",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A48"
+    },
+    {
+      "id": "off-sunny-stw-001y",
+      "sku": "STW-001Y",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 861,
+          "model": "STW-001Y"
+        }
+      ],
+      "row": 861,
+      "workbookModel": "STW-001Y",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A861"
+    },
+    {
+      "id": "off-sunny-5150",
+      "sku": "5150",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 11,
+          "model": "5150"
+        }
+      ],
+      "row": 11,
+      "workbookModel": "5150",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A11"
+    },
+    {
+      "id": "off-sunny-7130",
+      "sku": "7130",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 14,
+          "model": "7130"
+        }
+      ],
+      "row": 14,
+      "workbookModel": "7130",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A14"
+    },
+    {
+      "id": "off-sunny-sf-b1509",
+      "sku": "SF-B1509",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 232,
+          "model": "SF-B1509"
+        }
+      ],
+      "row": 232,
+      "workbookModel": "SF-B1509",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A232"
+    },
+    {
+      "id": "off-sunny-sf-e320002",
+      "sku": "SF-E320002",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 380,
+          "model": "SF-E320002"
+        }
+      ],
+      "row": 380,
+      "workbookModel": "SF-E320002",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A380"
+    },
+    {
+      "id": "off-sunny-sf-e323050s",
+      "sku": "SF-E323050S",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 399,
+          "model": "SF-E323050S"
+        }
+      ],
+      "row": 399,
+      "workbookModel": "SF-E323050S",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A399"
+    },
+    {
+      "id": "off-sunny-sf-e323055s",
+      "sku": "SF-E323055S",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 402,
+          "model": "SF-E323055S"
+        }
+      ],
+      "row": 402,
+      "workbookModel": "SF-E323055S",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A402"
+    },
+    {
+      "id": "off-sunny-sf-e3890",
+      "sku": "SF-E3890",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 429,
+          "model": "SF-E3890"
+        }
+      ],
+      "row": 429,
+      "workbookModel": "SF-E3890",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A429"
+    },
+    {
+      "id": "off-sunny-sf-e3919",
+      "sku": "SF-E3919",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 436,
+          "model": "SF-E3919"
+        }
+      ],
+      "row": 436,
+      "workbookModel": "SF-E3919",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A436"
+    },
+    {
+      "id": "off-sunny-no-072",
+      "sku": "NO. 072",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 60,
+          "model": "NO. 072"
+        }
+      ],
+      "row": 60,
+      "workbookModel": "NO. 072",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A60"
+    },
+    {
+      "id": "off-sunny-sf-er01-bk-18",
+      "sku": "SF-ER01-BK-18",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 487,
+          "model": "SF-ER01-BK-18"
+        }
+      ],
+      "row": 487,
+      "workbookModel": "SF-ER01-BK-18",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A487"
+    },
+    {
+      "id": "off-sunny-sf-er01-bk-24",
+      "sku": "SF-ER01-BK-24",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 488,
+          "model": "SF-ER01-BK-24"
+        }
+      ],
+      "row": 488,
+      "workbookModel": "SF-ER01-BK-24",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A488"
+    },
+    {
+      "id": "off-sunny-sf-er01-bk-36",
+      "sku": "SF-ER01-BK-36",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 489,
+          "model": "SF-ER01-BK-36"
+        }
+      ],
+      "row": 489,
+      "workbookModel": "SF-ER01-BK-36",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A489"
+    },
+    {
+      "id": "off-sunny-sf-er01-bu-12",
+      "sku": "SF-ER01-BU-12",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 490,
+          "model": "SF-ER01-BU-12"
+        }
+      ],
+      "row": 490,
+      "workbookModel": "SF-ER01-BU-12",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A490"
+    },
+    {
+      "id": "off-sunny-sf-er01-bu-18",
+      "sku": "SF-ER01-BU-18",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 491,
+          "model": "SF-ER01-BU-18"
+        }
+      ],
+      "row": 491,
+      "workbookModel": "SF-ER01-BU-18",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A491"
+    },
+    {
+      "id": "off-sunny-sf-er01-bu-24",
+      "sku": "SF-ER01-BU-24",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 492,
+          "model": "SF-ER01-BU-24"
+        }
+      ],
+      "row": 492,
+      "workbookModel": "SF-ER01-BU-24",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A492"
+    },
+    {
+      "id": "off-sunny-sf-er01-bu-36",
+      "sku": "SF-ER01-BU-36",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 493,
+          "model": "SF-ER01-BU-36"
+        }
+      ],
+      "row": 493,
+      "workbookModel": "SF-ER01-BU-36",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A493"
+    },
+    {
+      "id": "off-sunny-sf-er01-pk-12",
+      "sku": "SF-ER01-PK-12",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 494,
+          "model": "SF-ER01-PK-12"
+        }
+      ],
+      "row": 494,
+      "workbookModel": "SF-ER01-PK-12",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A494"
+    },
+    {
+      "id": "off-sunny-sf-er01-pk-18",
+      "sku": "SF-ER01-PK-18",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 495,
+          "model": "SF-ER01-PK-18"
+        }
+      ],
+      "row": 495,
+      "workbookModel": "SF-ER01-PK-18",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A495"
+    },
+    {
+      "id": "off-sunny-sf-er01-pk-24",
+      "sku": "SF-ER01-PK-24",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 496,
+          "model": "SF-ER01-PK-24"
+        }
+      ],
+      "row": 496,
+      "workbookModel": "SF-ER01-PK-24",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A496"
+    },
+    {
+      "id": "off-sunny-sf-er01-pk-36",
+      "sku": "SF-ER01-PK-36",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 497,
+          "model": "SF-ER01-PK-36"
+        }
+      ],
+      "row": 497,
+      "workbookModel": "SF-ER01-PK-36",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A497"
+    },
+    {
+      "id": "off-sunny-no-003",
+      "sku": "NO. 003",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 27,
+          "model": "NO. 003"
+        }
+      ],
+      "row": 27,
+      "workbookModel": "NO. 003",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A27"
+    },
+    {
+      "id": "off-sunny-sf-bh621802",
+      "sku": "SF-BH621802",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 300,
+          "model": "SF-BH621802"
+        }
+      ],
+      "row": 300,
+      "workbookModel": "SF-BH621802",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A300"
+    },
+    {
+      "id": "off-sunny-sf-gl02-m",
+      "sku": "SF-GL02-M",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 503,
+          "model": "SF-GL02-M"
+        }
+      ],
+      "row": 503,
+      "workbookModel": "SF-GL02-M",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A503"
+    },
+    {
+      "id": "off-sunny-sf-gl02-l",
+      "sku": "SF-GL02-L",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 504,
+          "model": "SF-GL02-L"
+        }
+      ],
+      "row": 504,
+      "workbookModel": "SF-GL02-L",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A504"
+    },
+    {
+      "id": "off-sunny-sf-gl02-xl",
+      "sku": "SF-GL02-XL",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 505,
+          "model": "SF-GL02-XL"
+        }
+      ],
+      "row": 505,
+      "workbookModel": "SF-GL02-XL",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A505"
+    },
+    {
+      "id": "off-sunny-sf-wv01-a2",
+      "sku": "SF-WV01-A2",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 795,
+          "model": "SF-WV01-A2"
+        }
+      ],
+      "row": 795,
+      "workbookModel": "SF-WV01-A2",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A795"
+    },
+    {
+      "id": "off-sunny-sf-wv01-a3",
+      "sku": "SF-WV01-A3",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 796,
+          "model": "SF-WV01-A3"
+        }
+      ],
+      "row": 796,
+      "workbookModel": "SF-WV01-A3",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A796"
+    },
+    {
+      "id": "off-sunny-no-120-pk",
+      "sku": "NO. 120-PK",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 112,
+          "model": "NO. 120-PK"
+        }
+      ],
+      "row": 112,
+      "workbookModel": "NO. 120-PK",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A112"
+    },
+    {
+      "id": "off-sunny-no-120-bu",
+      "sku": "NO. 120-BU",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 113,
+          "model": "NO. 120-BU"
+        }
+      ],
+      "row": 113,
+      "workbookModel": "NO. 120-BU",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A113"
+    },
+    {
+      "id": "off-sunny-p2610",
+      "sku": "P2610",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 142,
+          "model": "P2610"
+        }
+      ],
+      "row": 142,
+      "workbookModel": "P2610",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A142"
+    },
+    {
+      "id": "off-sunny-sf-rw5639smartgy",
+      "sku": "SF-RW5639SMARTGY",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 617,
+          "model": "SF-RW5639SMARTGY"
+        }
+      ],
+      "row": 617,
+      "workbookModel": "SF-RW5639SMARTGY",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A617"
+    },
+    {
+      "id": "off-sunny-sf-a026006",
+      "sku": "SF-A026006",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 175,
+          "model": "SF-A026006"
+        }
+      ],
+      "row": 175,
+      "workbookModel": "SF-A026006",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A175"
+    },
+    {
+      "id": "off-sunny-sf-b224804",
+      "sku": "SF-B224804",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 266,
+          "model": "SF-B224804"
+        }
+      ],
+      "row": 266,
+      "workbookModel": "SF-B224804",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A266"
+    },
+    {
+      "id": "off-sunny-sf-vp824856",
+      "sku": "SF-VP824856",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 783,
+          "model": "SF-VP824856"
+        }
+      ],
+      "row": 783,
+      "workbookModel": "SF-VP824856",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A783"
+    },
+    {
+      "id": "off-sunny-sf-s8978smart",
+      "sku": "SF-S8978SMART",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 681,
+          "model": "SF-S8978SMART"
+        }
+      ],
+      "row": 681,
+      "workbookModel": "SF-S8978SMART",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A681"
+    },
+    {
+      "id": "off-sunny-sf-t722876",
+      "sku": "SF-T722876",
+      "status": "matched",
+      "candidates": [
+        {
+          "row": 707,
+          "model": "SF-T722876"
+        }
+      ],
+      "row": 707,
+      "workbookModel": "SF-T722876",
+      "matchMethod": "exact text",
+      "evidence": "SHF!A707"
     }
   ]
 }

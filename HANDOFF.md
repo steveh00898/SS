@@ -2,6 +2,14 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-09 — Codex adds the 136 Mastersheet gaps
+
+- Imported the 136 exact rows from `data/pricing/us-mastersheet-v1-audit.json` under Off Sunny web. The catalog now has 156 Current and 470 Off Sunny web records, 626 total. Preserved the Mastersheet row, status, category and B2B TP where available. `NO. 077-S` and `NO. 077S` remain separate models. The Site upgrade is insert-only and retains existing live edits and deletions.
+- Researched exact SKUs on Sunny's official product feed and search, with manual and video checks against its assembly guide pages. The batch has 49 official product pages, 81 verified PDFs, 17 assembly videos, and 113 official images. The resource audit in `data/off-sunny-web/mastersheet-missing-resources.json` records the per-model evidence and gaps. The `SF-DB01-55` PDF is the exact model link supplied by the owner. All 113 images were reviewed on contact sheets and are pinned to `dd04b1826022b0f72c4b996780d6ca206d1a8d45` for Worker retrieval and R2 caching. Photo masks remain unchecked.
+- Added 133 exact ISV records. Their verified values use the existing labeled display fallback in Product Spec. Independent spec values were unavailable for this import. `SF-T7603-CB`, `SF-RW520084S-CB`, `SF-RB4954-FBA`, and `SF-VP824856` use SKU display names. No ISV model matches were found for the first three. Missing URLs and images keep the app's existing unavailable states.
+- Verification: new insert-only regression passed and 14 desktop/phone screenshots generated. Worker build is 9,339,089 bytes gzip. Before deployment, the live Site had 490 items and no new ID conflicts.
+- Claude Artifact remains on version 29 pending Claude Code sync and publication. Practice data was not exported.
+
 ## 2026-11-06: Codex — publish batch five and Mastersheet prices to Site
 - Changes: synced clean main and published the already-pushed application/data commit `1bdff3d808f0a0fedea9eec1420d9a16518b2923`. No catalog or application source was changed in this follow-up. The insert-only batch-four and batch-five imports and guarded Mastersheet price upgrade run on the Site; current catalog edits remain preserved.
 - Tests: all 30 `tests/*.spec.cjs` passed with installed Chrome, build passed, and 14 standard desktop/phone screenshots were generated.

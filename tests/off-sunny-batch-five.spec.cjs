@@ -2,7 +2,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),{execFileSync}=
 const read=f=>JSON.parse(fs.readFileSync(__dirname+'/../'+f,'utf8'));
 const MODEL=s=>String(s).toUpperCase().replace(/[^A-Z0-9]/g,'');
 (async()=>{
- const archive=read('data/off-sunny-web/items.json'),batch=archive.filter(r=>r.importBatch==='v3-batch-5'),older=archive.filter(r=>r.importBatch!=='v3-batch-5');
+ const archive=read('data/off-sunny-web/items.json'),batch=archive.filter(r=>r.importBatch==='v3-batch-5'),older=archive.filter(r=>!['v3-batch-5','us-mastersheet-v1-missing'].includes(r.importBatch));
  assert.equal(batch.length,114);assert.equal(older.length,220);
  const current=fs.readdirSync(__dirname+'/../data').filter(f=>f.endsWith('.json')).flatMap(f=>read('data/'+f));assert.equal(current.length,156);
  const taken=new Set([...older,...current].map(r=>MODEL(r.sku)));assert.equal(new Set(batch.map(r=>MODEL(r.sku))).size,114,'distinct within the batch');for(const r of batch)assert(!taken.has(MODEL(r.sku)),'not already in the catalog: '+r.sku);
@@ -29,7 +29,7 @@ const MODEL=s=>String(s).toUpperCase().replace(/[^A-Z0-9]/g,'');
  }
  // Held back, with a reason, rather than given a guessed name or model.
  const held=['SF-A026006','SF-A026811','SF-E3919 SMART','SF-PM10-RB','SF-RW522816','SF-RW524087','SF-S026037','SF-T726031','SF-X7330','SF-T726024','UB202'];
- assert.deepEqual(deferred.map(d=>d.sku).sort(),[...held].sort());for(const d of deferred)assert(d.reason.length>10);for(const sku of held)assert(!archive.some(r=>MODEL(r.sku)===MODEL(sku)),'not imported: '+sku);
+ assert.deepEqual(deferred.map(d=>d.sku).sort(),[...held].sort());for(const d of deferred)assert(d.reason.length>10);for(const sku of held)assert(![...older,...batch].some(r=>MODEL(r.sku)===MODEL(sku)),'not imported: '+sku);
  // Source oddities stay visible on the record.
  assert.equal(batch.find(r=>r.sku==='SF-T726025').specDetails.notes.some(n=>n.includes('SF-726025')),true,'misprinted cell is noted');
  assert.equal(batch.find(r=>r.sku==='NO. 088-COMBO').name,'Strength Training Band Combo');
