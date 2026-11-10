@@ -2,6 +2,15 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-10: Codex — Fit the desktop catalog inside the window
+
+- Changes: Removed the sidebar scope note and visually hid the Catalog source label while keeping the picker accessible. The wide desktop catalog fits the viewport with independently scrollable table and category list. Bulk edit controls reserve their own space. Mobile and compact windows retain page scrolling.
+- Files: app/index.html, tests/header-stacking.spec.cjs and tests/feedback-performance-ui.spec.cjs.
+- Tests: Focused desktop height, internal scrolling, bulk controls and mobile scrolling checks passed.
+- Claude Artifact: awaiting Claude Code publication.
+- Public Site: release verification in progress.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-10: Codex — Publish Compare row highlighting
 
 - Public Site: version 57 deployed from `b34b699eff73be9012e9c5d405aaa1ac3cd92249`, deployment `appgdep_6af3876635b08191a974aa3e48ad7232`. Public access retained.
