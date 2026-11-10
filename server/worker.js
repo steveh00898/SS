@@ -1,4 +1,12 @@
 const json=(v,status=200)=>new Response(JSON.stringify(v),{status,headers:{'Content-Type':'application/json','Cache-Control':'no-store'}});
+const resourceKinds=['product','manual','assembly','spec','isv'];
+function resourceAvailable(item,id,kind){
+ if(kind==='spec')return true;
+ if(kind==='isv')return typeof APP_ISV_KEYS!=='undefined'&&(item.catalogSource==='off-sunny-web'?APP_ISV_KEYS.off.includes(id):APP_ISV_KEYS.current.includes(item.sku));
+ const guide=item.catalogSource==='off-sunny-web'?{url:item.resourceLinks?.manualUrl,assemblyUrl:item.resourceLinks?.assemblyUrl}:typeof APP_GUIDES!=='undefined'?APP_GUIDES[item.sku]:null;
+ const destination=kind==='product'?item.url:kind==='manual'?guide?.url:guide?.assemblyUrl;
+ return typeof destination==='string'&&destination.startsWith('https://');
+}
 const fail=(message,status=400)=>Object.assign(new Error(message),{status});
 function validate(v){if(!v||typeof v!=='object')throw fail('Invalid item');for(const k of ['name','sku','category'])if(typeof v[k]!=='string'||!v[k].trim())throw fail(k+' is required');if(v.sku.length>100||/[\/\x00-\x1f]/.test(v.sku))throw fail('SKU contains invalid characters');if(v.name.length>1000||v.category.length>150)throw fail('Item text is too long');if(v.price!==null&&(!Number.isFinite(v.price)||v.price<0))throw fail('Price must be a non-negative number');let url;if(!(v.catalogSource==='off-sunny-web'&&!v.url)){try{url=new URL(v.url)}catch{throw fail('Use a valid HTTPS link')}if(url.protocol!=='https:')throw fail('Use a valid HTTPS link');}if(v.imageAssetId&&!/^[a-f0-9-]+\.(png|jpg|webp)$/.test(v.imageAssetId))throw fail('Invalid picture ID');return {specDetails:keepDetails(v.specDetails),resourceLinks:keepResources(v.resourceLinks),importBatch:typeof v.importBatch==='string'?v.importBatch.slice(0,50):null,catalogSource:v.catalogSource==='off-sunny-web'?'off-sunny-web':'current',sourceFile:typeof v.sourceFile==='string'?v.sourceFile.slice(0,250):null,productSpecs:keepSpecs(v.productSpecs),treadmillSpecs:keepSpecs(v.treadmillSpecs),name:v.name.trim(),sku:v.sku.trim().toUpperCase(),category:v.category.trim(),price:v.price,priceChecked:!!v.priceChecked,url:url?.href||'',imageAssetId:v.imageAssetId||null,imageUrl:typeof v.imageUrl==='string'&&/^\/api\/catalog-images\/[a-z0-9-]+\/[a-z0-9-]+\.jpg$/.test(v.imageUrl)?v.imageUrl:'',photoChecked:v.photoChecked===true,photoMasks:keepMasks(v.photoMasks),createdAt:v.createdAt||new Date().toISOString(),updatedAt:new Date().toISOString()}}
 // Photo masks: boxes [x,y,w,h] as fractions of the picture that cover a printed SKU, name or price during SKU practice.
@@ -93,12 +101,11 @@ if(url.pathname==='/api/public-usage/click'&&request.method==='POST'){
  if(request.headers.get('origin')!==url.origin)throw fail('Invalid request origin',403);
  if(!request.headers.get('content-type')?.startsWith('application/json'))throw fail('Use JSON',415);
  const text=await request.text();if(text.length>512)throw fail('Click payload too large',413);let body;try{body=JSON.parse(text)}catch{throw fail('Invalid click')}
- if(!body||typeof body.itemId!=='string'||body.itemId.length>200||!['product','manual','assembly'].includes(body.kind)||Object.keys(body).some(k=>!['itemId','kind'].includes(k)))throw fail('Invalid click');
+ if(!body||typeof body.itemId!=='string'||body.itemId.length>200||!resourceKinds.includes(body.kind)||Object.keys(body).some(k=>!['itemId','kind'].includes(k)))throw fail('Invalid click');
  if(role.admin)return json({counted:false});
  const db=dbFor(env),row=await db.prepare('SELECT data FROM items WHERE id = ?').bind(body.itemId).first();if(!row)throw fail('Product not found',404);
- const item=JSON.parse(row.data),guide=item.catalogSource==='off-sunny-web'?{url:item.resourceLinks?.manualUrl,assemblyUrl:item.resourceLinks?.assemblyUrl}:typeof APP_GUIDES!=='undefined'?APP_GUIDES[item.sku]:null;
- const destination=body.kind==='product'?item.url:body.kind==='manual'?guide?.url:guide?.assemblyUrl;
- if(typeof destination!=='string'||!destination.startsWith('https://'))throw fail('Link unavailable',400);
+ const item=JSON.parse(row.data);
+ if(!resourceAvailable(item,body.itemId,body.kind))throw fail('Link unavailable',400);
  const now=new Date(),day=now.toISOString().slice(0,10),cutoff=new Date(now.getTime()-89*86400000).toISOString().slice(0,10);
  await db.batch([db.prepare('INSERT INTO public_link_clicks (day,item_id,kind,click_count) VALUES (?,?,?,1) ON CONFLICT(day,item_id,kind) DO UPDATE SET click_count = MIN(click_count + 1,100000)').bind(day,body.itemId,body.kind),db.prepare('DELETE FROM public_link_clicks WHERE day < ?').bind(cutoff)]);
  return json({counted:true},202);
@@ -108,10 +115,10 @@ if(url.pathname==='/api/public-usage/events'&&request.method==='POST'){
  const body=await boundedJson(request,16000),events=body?.events;if(!Array.isArray(events)||events.length<1||events.length>20||Object.keys(body).some(k=>k!=='events'))throw fail('Invalid events');
  const db=dbFor(env),day=new Date().toISOString().slice(0,10),cutoff=new Date(Date.now()-89*86400000).toISOString().slice(0,10),statements=[],discarded=[];
  for(const e of events){
-  if(!e||!validPublicId(e.eventId)||!['link_click','catalog_load','load_error','app_error','delivery_failure'].includes(e.type)||Object.keys(e).some(k=>!['eventId','type','itemId','kind','value'].includes(k)))throw fail('Invalid event');
+  if(!e||!validPublicId(e.eventId)||!['link_click','compare','catalog_load','load_error','app_error','delivery_failure'].includes(e.type)||Object.keys(e).some(k=>!['eventId','type','itemId','kind','value'].includes(k)))throw fail('Invalid event');
   if(e.type==='link_click'){
-   if(typeof e.itemId!=='string'||e.itemId.length>200||!['product','manual','assembly'].includes(e.kind)||(e.value!=null&&(!Number.isInteger(e.value)||e.value<0||e.value>1800000)))throw fail('Invalid timed click');
-   const row=await db.prepare('SELECT data FROM items WHERE id = ?').bind(e.itemId).first();if(!row){discarded.push(e.eventId);continue;}const item=JSON.parse(row.data),guide=item.catalogSource==='off-sunny-web'?{url:item.resourceLinks?.manualUrl,assemblyUrl:item.resourceLinks?.assemblyUrl}:typeof APP_GUIDES!=='undefined'?APP_GUIDES[item.sku]:null,destination=e.kind==='product'?item.url:e.kind==='manual'?guide?.url:guide?.assemblyUrl;if(typeof destination!=='string'||!destination.startsWith('https://')){discarded.push(e.eventId);continue;}
+   if(typeof e.itemId!=='string'||e.itemId.length>200||!resourceKinds.includes(e.kind)||(e.value!=null&&(!Number.isInteger(e.value)||e.value<0||e.value>1800000)))throw fail('Invalid timed click');
+   const row=await db.prepare('SELECT data FROM items WHERE id = ?').bind(e.itemId).first();if(!row){discarded.push(e.eventId);continue;}const item=JSON.parse(row.data);if(!resourceAvailable(item,e.itemId,e.kind)){discarded.push(e.eventId);continue;}
   }else if(e.itemId!=null||e.kind!=null||!Number.isInteger(e.value)||e.value<0||(e.type==='catalog_load'?e.value>180000:e.value!==1))throw fail('Invalid performance event');
   statements.push(db.prepare('INSERT OR IGNORE INTO public_telemetry_events (event_id,day,type,item_id,kind,value) VALUES (?,?,?,?,?,?)').bind(e.eventId,day,e.type,e.itemId||null,e.kind||null,e.value??null));
   if(e.type==='link_click')statements.push(db.prepare('INSERT INTO public_link_clicks (day,item_id,kind,click_count) SELECT ?,?,?,1 WHERE changes() = 1 ON CONFLICT(day,item_id,kind) DO UPDATE SET click_count = MIN(click_count + 1,100000)').bind(day,e.itemId,e.kind));
@@ -134,13 +141,14 @@ if(url.pathname==='/api/public-usage'&&request.method==='GET'){
  const where="FROM public_link_clicks c LEFT JOIN items i ON i.id=c.item_id WHERE c.day >= ? AND c.day <= ? AND (? = '' OR json_extract(i.data,'$.category') = ?)";
  const {results:rows}=await db.prepare("SELECT c.item_id AS itemId,COALESCE(json_extract(i.data,'$.sku'),c.item_id) AS sku,COALESCE(json_extract(i.data,'$.name'),'Removed product') AS name,COALESCE(json_extract(i.data,'$.category'),'Removed products') AS category,c.kind,SUM(c.click_count) AS clicks "+where+' GROUP BY c.item_id,c.kind ORDER BY clicks DESC,c.item_id,c.kind').bind(from,to,category,category).all();
  const {results:daily}=await db.prepare('SELECT c.day,c.kind,SUM(c.click_count) AS clicks '+where+' GROUP BY c.day,c.kind ORDER BY c.day DESC,c.kind').bind(from,to,category,category).all();
- const kind=url.searchParams.get('kind')||'all';if(!['all','product','manual','assembly'].includes(kind))throw fail('Invalid link type');
+ const kind=url.searchParams.get('kind')||'all';if(!['all',...resourceKinds].includes(kind))throw fail('Invalid link type');
  await db.batch([db.prepare('DELETE FROM public_telemetry_events WHERE day < ?').bind(new Date(Date.now()-89*86400000).toISOString().slice(0,10)),db.prepare('DELETE FROM public_feedback WHERE created_at < ?').bind(new Date(Date.now()-90*86400000).toISOString())]);
  const timing=await db.prepare("WITH ranked AS (SELECT t.value AS ms, ROW_NUMBER() OVER (ORDER BY t.value) AS rn,COUNT(*) OVER () AS n FROM public_telemetry_events t LEFT JOIN items i ON i.id=t.item_id WHERE t.day >= ? AND t.day <= ? AND t.type='link_click' AND t.value IS NOT NULL AND (? = '' OR json_extract(i.data,'$.category') = ?) AND (? = 'all' OR t.kind = ?)) SELECT COALESCE(MAX(n),0) AS samples,AVG(CASE WHEN rn=CAST((n+1)/2 AS INTEGER) OR rn=CAST((n+2)/2 AS INTEGER) THEN ms END) AS medianMs,MAX(CASE WHEN rn=CAST((n*9+9)/10 AS INTEGER) THEN ms END) AS p90Ms FROM ranked").bind(from,to,category,category,kind,kind).first();
  const {results:dailyTiming}=await db.prepare("WITH ranked AS (SELECT t.day,t.value AS ms,ROW_NUMBER() OVER (PARTITION BY t.day ORDER BY t.value) AS rn,COUNT(*) OVER (PARTITION BY t.day) AS n FROM public_telemetry_events t LEFT JOIN items i ON i.id=t.item_id WHERE t.day >= ? AND t.day <= ? AND t.type='link_click' AND t.value IS NOT NULL AND (? = '' OR json_extract(i.data,'$.category') = ?) AND (? = 'all' OR t.kind = ?)) SELECT day,MAX(n) AS samples,AVG(CASE WHEN rn=CAST((n+1)/2 AS INTEGER) OR rn=CAST((n+2)/2 AS INTEGER) THEN ms END) AS medianMs,MAX(CASE WHEN rn=CAST((n*9+9)/10 AS INTEGER) THEN ms END) AS p90Ms FROM ranked GROUP BY day ORDER BY day").bind(from,to,category,category,kind,kind).all();
  const {results:health}=await db.prepare("SELECT type,COUNT(*) AS events,SUM(value) AS value FROM public_telemetry_events WHERE day >= ? AND day <= ? AND type != 'link_click' GROUP BY type").bind(from,to).all();
  const {results:feedback}=await db.prepare('SELECT created_at AS at,comment FROM public_feedback WHERE created_at >= ? AND created_at <= ? ORDER BY created_at DESC,id DESC LIMIT 100').bind(from+'T00:00:00.000Z',to+'T23:59:59.999Z').all();
- return json({days,from,to,rows,daily,timing,dailyTiming,health,feedback});
+ const {results:comparisonDaily}=await db.prepare("SELECT day,COUNT(*) AS uses FROM public_telemetry_events WHERE day >= ? AND day <= ? AND type = 'compare' GROUP BY day ORDER BY day").bind(from,to).all();
+ return json({days,from,to,rows,daily,timing,dailyTiming,health,feedback,comparisons:{uses:comparisonDaily.reduce((sum,r)=>sum+Number(r.uses),0),daily:comparisonDaily}});
 }
 if(url.pathname==='/api/session')return json({canWrite:role.canWrite,practice:!!user,admin:role.admin,email:email||null});
 if(request.method!=='GET'&&(url.pathname==='/api/assets'||url.pathname.startsWith('/api/items'))&&!role.canWrite)throw fail('Only the catalog admin can change the catalog',403);

@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-10: Codex — Expand public resource and comparison analytics
+
+- Changes: Track Product Spec and ISV openings alongside product pages, manuals and assembly guides. Daily resource series now plot independent counts on a shared scale, replacing cumulative stacked areas. Each confirmed comparison or update records one site-wide use. Internal comparison dialogs count only the product whose link was clicked. New metrics start at publication.
+- Files: app/index.html, server/worker.js, scripts/build.mjs and analytics tests.
+- Tests: Focused tests passed for independent chart heights, new resource opens, comparison confirmation, admin exclusion, duplicate-safe retry and filtering. Full release verification is in progress.
+- Local preview: release checks in progress.
+- Claude Artifact: awaiting Claude Code publication; public usage remains Site-only.
+- Public Site: awaiting tested publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-10: Codex — Publish the fitted desktop catalog
 
 - Public Site: version 58 deployed from `6cb66d590a31f9d32df48d69485e2ea2f1523215`, deployment `appgdep_6af39619c670819184f7388c8696f967`. Public access retained.
