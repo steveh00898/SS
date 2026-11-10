@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-10: Codex — Publish Compare row highlighting
+
+- Public Site: version 57 deployed from `b34b699eff73be9012e9c5d405aaa1ac3cd92249`, deployment `appgdep_6af3876635b08191a974aa3e48ad7232`. Public access retained.
+- Tests: All 37 suites passed, including highlight coverage in both themes. Build and 14 desktop and phone captures passed.
+- Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-10: Codex — Highlight rows in Compare mode
 
 - Changes: Hover subtly highlights a comparison row. Selection keeps a stronger highlight across the row and frozen desktop columns in both themes. The checkbox controls the selected state.
