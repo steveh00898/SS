@@ -2,6 +2,11 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-09 — Codex fixes the sidebar overlapping the Sunny header
+
+- The desktop sidebar could paint over the sticky Sunny header at the bottom of the outer page scroll. The header now uses the same higher layer at all widths, so the logo, background and search area stay in front.
+- Added `tests/header-stacking.spec.cjs`. The test reproduces the outer scroll and verifies the header is on top at a point where the sidebar crosses behind it.
+
 ## 2026-11-09 — Codex publishes the owner photo import
 
 - Public Site version 53 deployed from `31ac5e910ec1b5741ade02a7946d65daada66283`, saved version `appgprj_6ac574cb8a248191bf83b10b05b0a7df~appgver_db888fd1a9ec819182dad526a0cc8f69`, deployment `appgdep_6af25db597b8819191725456de21ac2d`.
