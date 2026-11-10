@@ -2,6 +2,11 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-09 — Codex publishes the header stacking fix
+
+- Public Site version 54 deployed from `85aa189e44a001f7599f16515a86c84bc696e34e`, saved version `appgprj_6ac574cb8a248191bf83b10b05b0a7df~appgver_01c12702600c8191a9bd0308a5bfc435`, deployment `appgdep_6af2612628e88191807121e6db05452b`.
+- All 37 suites, the build, and 14 preview captures passed. On the live T7 search, the same 268 px outer scroll reproduced the panel crossing behind the header. Hit-testing confirmed the header was on top after deployment. Claude Artifact awaits its own publication.
+
 ## 2026-11-09 — Codex fixes the sidebar overlapping the Sunny header
 
 - The desktop sidebar could paint over the sticky Sunny header at the bottom of the outer page scroll. The header now uses the same higher layer at all widths, so the logo, background and search area stay in front.
