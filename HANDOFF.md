@@ -2,6 +2,15 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-10: Codex — Highlight rows in Compare mode
+
+- Changes: Hover subtly highlights a comparison row. Selection keeps a stronger highlight across the row and frozen desktop columns in both themes. The checkbox controls the selected state.
+- Files: app/index.html and tests/details-comparison.spec.cjs.
+- Tests: Regression coverage checks hover, selected state after moving the pointer away, matching frozen cells and clearing selection in both themes.
+- Claude Artifact: awaiting Claude Code publication.
+- Public Site: release verification in progress.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-10: Codex — Publish catalog controls and spec unit formatting
 
 - Public Site: version 56 deployed from `ea62bdd202f22eab1e757ab727543a391dffc1dc`, deployment `appgdep_6af3835fdd9481919c060fa392c8bbe9`. Public access retained.

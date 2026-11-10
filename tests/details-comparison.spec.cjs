@@ -31,6 +31,26 @@ const { chromium } = require('playwright');
     };
 
     await page.locator('#compareToggle').check();
+    const compareRow = page.locator('#rows tr').filter({ has: select(products[0]) });
+    const backgrounds = () => compareRow.evaluate(row => [row, ...row.querySelectorAll('.c-sku,.c-img,.c-price')].map(el => getComputedStyle(el).backgroundColor));
+    const moveAway = () => page.locator('#compareToggle').hover();
+    for (const colorScheme of ['light', 'dark']) {
+      await page.emulateMedia({ colorScheme });
+      await moveAway();
+      const normal = await backgrounds();
+      await compareRow.locator('.c-sku').hover();
+      const hovered = await backgrounds();
+      assert.notEqual(hovered[0], normal[0]);
+      assert.deepEqual(hovered, Array(4).fill(hovered[0]));
+      await select(products[0]).check();
+      await moveAway();
+      const selected = await backgrounds();
+      assert.notEqual(selected[0], hovered[0]);
+      assert.deepEqual(selected, Array(4).fill(selected[0]));
+      await select(products[0]).uncheck();
+      await moveAway();
+      assert.deepEqual(await backgrounds(), normal);
+    }
     for (const product of products) await select(product).check();
     await spec(products[0]).click();
     assert.equal(await page.locator('#productSpecTitle').innerText(), 'Product Spec · SF-E3875');
