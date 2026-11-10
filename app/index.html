@@ -881,14 +881,13 @@ body.spec-view table.ptable{min-width:0}
     const text=String(value);
     if(!kind||!/[0-9]/.test(text))return text;
     const parts=measurementParts(text,kind,unit||estimated);
-    const estimateLabel=estimated?' (estimated unit)':'';
     if(parts.length===1&&!/[/;()\n]/.test(text)&&parts[0].units.every(unit=>unit===parts[0].units[0])){
       const {numbers,axes,units}=parts[0];
       const order=axes.every(Boolean)&&axes.length>1?' ('+axes.join(' × ')+')':'';
-      return (text.trim().match(/^[φØø]/)?.[0]||'')+numbers.join(' × ')+' '+units[0]+order+estimateLabel;
+      return (text.trim().match(/^[φØø]/)?.[0]||'')+numbers.join(' × ')+' '+units[0]+order;
     }
     if(parts.length||/\d\s*(?:["″′']|lbs?\b|kgs?\b|oz\b|mm\b|cm\b|in(?:ch(?:es)?)?\b|ft\b|pounds?\b|kilograms?\b)/i.test(text))return text;
-    if(estimated)return text+' '+estimated+estimateLabel;
+    if(estimated)return text+' '+estimated;
     return text+' · Unit unverified';
   }
   function numberList(value){const text=String(value??'');return [...text.matchAll(/-?\d+(?:\.\d+)?/g)].map(match=>{let number=Number(match[0]);if(match[0][0]==='-'&&match.index>0&&/\d/.test(text[match.index-1]))number=Math.abs(number);return number;});}

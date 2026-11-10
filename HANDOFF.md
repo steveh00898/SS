@@ -2,6 +2,11 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-09 — Codex simplifies the measurement labels
+
+- Removed the inline "(estimated unit)" wording from the shared measurement formatter used by Product Spec and ISV, including comparisons. The units still display and source values and comparison logic are preserved. The existing unverified-unit message and the SF-E905SMART published-limit link remain available.
+- Updated the measurement and V2 source-display tests to check the simplified text and preserved values.
+
 ## 2026-11-09 — Codex publishes the header stacking fix
 
 - Public Site version 54 deployed from `85aa189e44a001f7599f16515a86c84bc696e34e`, saved version `appgprj_6ac574cb8a248191bf83b10b05b0a7df~appgver_01c12702600c8191a9bd0308a5bfc435`, deployment `appgdep_6af2612628e88191807121e6db05452b`.
