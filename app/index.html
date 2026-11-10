@@ -443,7 +443,7 @@ body.spec-view table.ptable{min-width:0}
 #usageView .usage-card strong{text-align:center}
 #usageView .usage-products td:nth-child(n+3){text-align:center}
 #usageView .usage-daily td:nth-child(2){text-align:center}
-.catalog-source{display:grid;gap:6px;margin:12px 0 18px;font-size:12px;color:var(--muted)}.catalog-source select{width:100%;max-width:100%;padding:9px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--fg);font:inherit}.off-sunny-note{display:block;margin-top:6px;color:var(--muted);font-size:11px;font-weight:400;line-height:1.4;background:none;border:0}@media(max-width:720px){.catalog-source{max-width:100%;margin-bottom:16px}.off-sunny-note{font-size:11px}}
+.catalog-source{display:grid;gap:6px;margin:12px 0 6px}.catalog-source>span{font-size:12px;color:var(--muted)}.catalog-source .compact-picker{margin:0}#rows tr:has([data-compare]){cursor:pointer}.off-sunny-note{display:block;margin-top:6px;color:var(--muted);font-size:11px;font-weight:400;line-height:1.4;background:none;border:0}
 .product-spec-link{border:0;padding:0;background:none;color:var(--fg);font:inherit;font-size:14px;text-decoration:underline;text-underline-offset:3px;cursor:pointer;text-align:left}.product-spec-link:hover{color:var(--accent)}.product-spec-link:focus-visible{outline:2px solid var(--accent);outline-offset:3px}.product-spec-dialog{width:min(820px,calc(100vw - 32px));max-height:88vh;max-height:88dvh;padding:0;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--fg);box-shadow:0 24px 80px #0006}.product-spec-dialog[open]{display:flex;flex-direction:column}.product-spec-dialog::backdrop{background:#0008}.product-spec-dialog>header{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding:20px;border-bottom:1px solid var(--line);flex-shrink:0}.product-spec-dialog h2{margin:0;font-size:20px}.product-spec-dialog header p{margin:6px 0 0;color:var(--muted);font-size:14px}.product-spec-body{padding:0 20px 20px;overflow:auto;overscroll-behavior:contain}.spec-section h3{font-size:16px;margin:22px 0 10px}.spec-detail-table{width:100%;min-width:0!important;border-collapse:collapse;table-layout:fixed}.spec-detail-table th,.spec-detail-table td{position:static!important;white-space:normal!important;overflow-wrap:anywhere;text-align:left;vertical-align:top;padding:10px 8px;border-bottom:1px solid var(--line);font:inherit;font-size:14px;background:transparent!important}.spec-detail-table th{width:39%;font-weight:600}.spec-detail-table td{color:var(--fg)}.spec-detail-table td.spec-unavailable{color:var(--muted);opacity:.7;font-size:12.5px}.spec-section p,.spec-section li{font-size:13px;overflow-wrap:anywhere}.spec-section li{margin:8px 0}@media(max-width:720px){.product-spec-dialog{width:calc(100vw - 20px);max-height:90dvh}.product-spec-dialog>header{padding:14px;gap:8px}.product-spec-dialog h2{font-size:18px}.product-spec-dialog header .btn{flex-shrink:0;font-size:12px;padding:6px}.product-spec-body{padding:0 12px 14px}.spec-detail-table,.spec-detail-table tbody{display:table!important}.spec-detail-table tbody{display:table-row-group!important}.spec-detail-table tr{display:table-row!important}.spec-detail-table th,.spec-detail-table td{display:table-cell!important;font-size:13px;padding:9px 5px}.spec-detail-table td::before{content:none!important}}
 :root{--difference-bg:#fff3a6;--difference-fg:#332b00}:root[data-theme="dark"]{--difference-bg:#5b4d00;--difference-fg:#fff6bd}@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--difference-bg:#5b4d00;--difference-fg:#fff6bd}}
 .isv-link{border:0;padding:0;background:none;color:var(--fg);font:inherit;font-size:14px;text-decoration:underline;text-underline-offset:3px;cursor:pointer;text-align:left}.isv-link:hover{color:var(--accent)}.isv-link:focus-visible{outline:2px solid var(--accent);outline-offset:3px}.spec-detail-table td.spec-different,.isv-table td.isv-different{background:var(--difference-bg)!important;color:var(--difference-fg)}.source-badge{display:inline-block;margin-left:7px;padding:2px 6px;border:1px solid currentColor;border-radius:999px;color:var(--muted);font-size:10px;font-weight:650;line-height:1.2;white-space:nowrap}.isv-dialog{width:min(960px,calc(100vw - 32px))}.isv-legend{display:flex;flex-wrap:wrap;gap:14px;margin:14px 0 0;color:var(--muted);font-size:12px}.isv-legend span{display:inline-flex;align-items:center;gap:6px}.isv-swatch{width:14px;height:14px;border:1px solid var(--line);border-radius:3px;background:var(--difference-bg)}.isv-section{--isv-section-color:var(--line)}.isv-section h3{display:flex;align-items:center;gap:9px;padding-left:10px;border-left:6px solid var(--isv-section-color)}.isv-table th{width:33%}.isv-table .isv-column{width:48px;color:var(--muted);font-size:11px;font-weight:600}.isv-table .isv-value{width:auto}.isv-warning{display:block;margin-top:5px;color:var(--muted);font-size:11px;font-style:italic}@media(max-width:720px){.isv-dialog{width:calc(100vw - 20px)}.isv-table .isv-column{width:38px}.isv-table th{width:36%}}
@@ -488,8 +488,19 @@ body.spec-view table.ptable{min-width:0}
 </header>
 
 <main class="wrap layout">
-  <aside class="side" aria-label="Sections and categories"><p class="catalog-scope catalog-only">Search products from <a href="https://sunnyhealthfitness.com/" target="_blank" rel="noopener">sunnyhealthfitness.com</a> only.</p><label class="catalog-source catalog-only">Catalog source<select id="catalogSource"><option value="current">Current website</option><option value="off-sunny-web">Off Sunny web</option><option value="all">All products</option></select></label>
+  <aside class="side" aria-label="Sections and categories"><p class="catalog-scope catalog-only">Search products from <a href="https://sunnyhealthfitness.com/" target="_blank" rel="noopener">sunnyhealthfitness.com</a> only.</p>
   <section class="hero"><div class="inner">
+    <div class="catalog-source catalog-only">
+      <span id="catalogSourceLabel">Catalog source</span>
+      <div class="compact-picker" id="sourcePicker">
+        <button type="button" class="picker-trigger" id="catalogSource" aria-expanded="false" aria-controls="sourceOptions" aria-labelledby="catalogSourceLabel catalogSourceValue"><span id="catalogSourceValue">Current website</span><span aria-hidden="true">›</span></button>
+        <nav class="views" id="sourceOptions" aria-label="Catalog source">
+          <button type="button" data-source="current">Current website</button>
+          <button type="button" data-source="off-sunny-web">Off Sunny web</button>
+          <button type="button" data-source="all">All products</button>
+        </nav>
+      </div>
+    </div>
     <div class="compact-picker" id="sectionPicker"><button type="button" class="picker-trigger" aria-expanded="false" aria-controls="views" id="sectionTrigger">Catalog <span aria-hidden="true">›</span></button><nav class="views" id="views" aria-label="Sections"><button type="button" data-view="catalog" aria-pressed="true">Catalog</button><button type="button" data-view="practice" aria-pressed="false">Model Practice</button><button type="button" data-view="progress" aria-pressed="false">Progress</button><button type="button" data-view="accounts" aria-pressed="false" hidden>Accounts</button><button type="button" data-view="usage" aria-pressed="false" hidden>Public Usage Analysis</button></nav></div>
     <div class="head">
     <div>
@@ -790,11 +801,12 @@ body.spec-view table.ptable{min-width:0}
     return {kind,isvUnit,productUnit};
   }
   const typicalMeasurementUnits={weight:['lb','kg','g','oz'],length:['in','cm','mm','ft','m'],volume:['ft³']};
+  const cleanMeasurementText=value=>String(value).replace(/\s*(?:[·–—-]\s*)?(?:\(\s*)?(?:unit unverified|estimated unit)(?:\s*\))?/gi,'').trim();
   function bareMeasurement(value){
     return /^\s*[φØø]?\s*\d[\d.\sLWHDT×x*–-]*\s*$/i.test(String(value??''));
   }
   function closestMeasurementUnit(value,kind,references){
-    if(!kind||!bareMeasurement(value))return null;
+    if(!kind||!bareMeasurement(cleanMeasurementText(value)))return null;
     const numbers=numberList(value);
     const candidates=typicalMeasurementUnits[kind].map(unit=>{
       let distance=Infinity;
@@ -812,7 +824,7 @@ body.spec-view table.ptable{min-width:0}
   }
   let unitPeerItems,unitPeerCache=new Map();
   function peerMeasurementUnit(it,key,value,kind,isISV){
-    if(!kind||!bareMeasurement(value))return null;
+    if(!kind||!bareMeasurement(cleanMeasurementText(value)))return null;
     if(unitPeerItems!==state.items){unitPeerItems=state.items;unitPeerCache=new Map();}
     const cacheKey=JSON.stringify([isISV,key,it.category]);
     if(!unitPeerCache.has(cacheKey)){
@@ -826,17 +838,16 @@ body.spec-view table.ptable{min-width:0}
         const parts=measurementParts(field,kind,unit);
         const units=[...new Set(parts.flatMap(part=>part.units))];
         if(units.length!==1)continue;
-        if(!samples.has(units[0]))samples.set(units[0],[]);
-        samples.get(units[0]).push(Math.max(...parts.flatMap(part=>part.numbers)));
+        samples.set(units[0],(samples.get(units[0])||0)+1);
       }
-      unitPeerCache.set(cacheKey,[...samples].map(([unit,numbers])=>({unit,count:numbers.length,median:numbers.sort((a,b)=>a-b)[Math.floor(numbers.length/2)]})).sort((a,b)=>b.count-a.count));
+      unitPeerCache.set(cacheKey,[...samples].map(([unit,count])=>({unit,count})).sort((a,b)=>b.count-a.count));
     }
-    const peers=unitPeerCache.get(cacheKey),first=peers[0],total=peers.reduce((sum,peer)=>sum+peer.count,0),size=Math.max(...numberList(value));
-    return first&&first.count>=3&&first.count/total>=.75&&size>=first.median/5&&size<=first.median*5?first.unit:null;
+    const peers=unitPeerCache.get(cacheKey),first=peers[0],total=peers.reduce((sum,peer)=>sum+peer.count,0);
+    return first&&first.count>total/2?first.unit:null;
   }
   function estimatedISVUnit(it,key,value,comparison,values){
     const kind=measurementKind(key,true);
-    if(!kind||!bareMeasurement(value))return null;
+    if(!kind||!bareMeasurement(cleanMeasurementText(value)))return null;
     const references=Object.entries(isvSpecMap(it)).filter(([field,map])=>map.column===key&&measurementKind(field,false)===kind).map(([field])=>{
       const product=comparison[field]??values[field];
       const unit=declaredProductUnit(field,product);
@@ -861,7 +872,7 @@ body.spec-view table.ptable{min-width:0}
   }
   function estimatedSpecUnit(it,key,value,map,isvValue,pair,comparison,values){
     const kind=measurementKind(key,false);
-    if(!kind||!bareMeasurement(value))return null;
+    if(!kind||!bareMeasurement(cleanMeasurementText(value)))return null;
     const referenceUnit=map&&pair?(pair.isvUnit||estimatedISVUnit(it,map.column,isvValue,comparison,values)):null;
     const reference=map&&pair?closestMeasurementUnit(value,kind,[{value:isvValue,unit:referenceUnit}]):null;
     return reference||peerMeasurementUnit(it,key,value,kind,false);
@@ -878,17 +889,17 @@ body.spec-view table.ptable{min-width:0}
     })));
   }
   function formatMeasurement(value,kind,unit,estimated){
-    const text=String(value);
+    const text=cleanMeasurementText(value);
     if(!kind||!/[0-9]/.test(text))return text;
-    const parts=measurementParts(text,kind,unit||estimated);
+    const fallbackUnit=unit||estimated||({length:'in',weight:'lb',volume:'ft³'}[kind]);
+    const parts=measurementParts(text,kind,fallbackUnit);
     if(parts.length===1&&!/[/;()\n]/.test(text)&&parts[0].units.every(unit=>unit===parts[0].units[0])){
       const {numbers,axes,units}=parts[0];
       const order=axes.every(Boolean)&&axes.length>1?' ('+axes.join(' × ')+')':'';
       return (text.trim().match(/^[φØø]/)?.[0]||'')+numbers.join(' × ')+' '+units[0]+order;
     }
     if(parts.length||/\d\s*(?:["″′']|lbs?\b|kgs?\b|oz\b|mm\b|cm\b|in(?:ch(?:es)?)?\b|ft\b|pounds?\b|kilograms?\b)/i.test(text))return text;
-    if(estimated)return text+' '+estimated;
-    return text+' · Unit unverified';
+    return text+' '+fallbackUnit;
   }
   function numberList(value){const text=String(value??'');return [...text.matchAll(/-?\d+(?:\.\d+)?/g)].map(match=>{let number=Number(match[0]);if(match[0][0]==='-'&&match.index>0&&/\d/.test(text[match.index-1]))number=Math.abs(number);return number;});}
   function wordSet(value){let text=String(value??'').toLowerCase().replace(/&/g,' and ').replace(/\bauto\b/g,'automatic').replace(/\bhrs?\b/g,'heart rate').replace(/\bcalories\b/g,'calorie').replace(/\bdistance\b/g,'dist');let words=text.match(/[a-z0-9]+/g)||[];if(words.includes('walking')&&words.includes('running'))words=['both'];return [...new Set(words.filter(word=>!['and','the','a','an'].includes(word)))].sort().join('|');}
@@ -1059,8 +1070,16 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
   }
 
   // ---------- rendering ----------
-  $('#catalogSource').value=state.source;
-  $('#catalogSource').addEventListener('change',e=>{if(state.saving){e.target.value=state.source;return;}if(state.editMode&&Object.keys(state.drafts).length&&!confirm('Discard unsaved bulk edits and switch catalog source?')){e.target.value=state.source;return;}state.source=e.target.value;state.editMode=false;state.drafts={};state.rowErr={};state.compareMode=false;state.compareConfirmed=false;state.compareSelected.clear();state.compareActive.clear();if(state.cat!=='All'&&!catalogItems().some(i=>i.category===state.cat))state.cat='All';try{const url=new URL(location.href);url.searchParams.set('source',state.source);history.replaceState(null,'',url);}catch{}render();renderSuggest();});
+  const sourceOptions=$('#sourceOptions');
+  function renderCatalogSource(){
+    for(const button of sourceOptions.querySelectorAll('[data-source]')){
+      const active=button.dataset.source===state.source;
+      button.setAttribute('aria-pressed',String(active));
+      if(active)$('#catalogSourceValue').textContent=button.textContent;
+    }
+  }
+  renderCatalogSource();
+  sourceOptions.addEventListener('click',e=>{const button=e.target.closest('[data-source]');if(!button||state.saving||button.dataset.source===state.source)return;if(state.editMode&&Object.keys(state.drafts).length&&!confirm('Discard unsaved bulk edits and switch catalog source?'))return;state.source=button.dataset.source;renderCatalogSource();state.editMode=false;state.drafts={};state.rowErr={};state.compareMode=false;state.compareConfirmed=false;state.compareSelected.clear();state.compareActive.clear();if(state.cat!=='All'&&!catalogItems().some(i=>i.category===state.cat))state.cat='All';try{const url=new URL(location.href);url.searchParams.set('source',state.source);history.replaceState(null,'',url);}catch{}render();renderSuggest();});
   function categories() {
     const counts = {}; catalogItems().forEach((it) => { counts[it.category] = (counts[it.category] || 0) + 1; });
     // same order as the category row on sunnyhealthfitness.com; anything new goes after, alphabetically
@@ -1300,6 +1319,11 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
 
   // ---------- table interactions ----------
   $('#compareToggle').addEventListener('change',e=>{state.compareMode=e.target.checked;state.compareConfirmed=false;state.compareSelected.clear();render();$('.tablebox').scrollLeft=0;});
+  $('#rows').addEventListener('click',e=>{
+    if(!state.compareMode||state.editMode||e.defaultPrevented||e.target.closest('a,button,input,label,select,textarea,[role="button"],[contenteditable]'))return;
+    if(!window.getSelection()?.isCollapsed)return;
+    e.target.closest('tr[data-id]')?.querySelector('[data-compare]')?.click();
+  });
   $('#rows').addEventListener('change',e=>{const id=e.target.dataset.compare;if(!id)return;if(e.target.checked)state.compareSelected.add(id);else state.compareSelected.delete(id);$('#compareConfirm').disabled=state.compareSelected.size===0;$('#compareStatus').textContent=state.compareSelected.size+' selected';});
   $('#compareConfirm').addEventListener('click',()=>{if(!state.compareSelected.size)return;state.compareConfirmed=true;state.compareActive=new Set(state.compareSelected);render();$('.tablebox').scrollTop=0;});
   $("#tabs").addEventListener("click", (e) => { const b = e.target.closest("[data-cat]"); if (!b) return; beginSearchTiming(); if(state.cat!==b.dataset.cat){state.compareMode=false;state.compareConfirmed=false;state.compareSelected.clear();state.compareActive.clear();}state.cat = b.dataset.cat; try { localStorage.setItem("spf.cat", state.cat); } catch (err) {} render(); });
@@ -1605,16 +1629,16 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
   let popupContent=null,popupMarker=null,popupTrigger=null;
   function closeMobilePopup(){if(!popupContent)return;popupMarker.replaceWith(popupContent);popupContent=null;mobilePopup.hidden=true;document.body.style.overflow='';popupTrigger?.setAttribute('aria-expanded','false');popupTrigger?.focus();}
   function openMobilePopup(trigger,content,title){closeMobilePopup();closePickers();popupTrigger=trigger;popupContent=content;popupMarker=document.createComment('popup-home');content.replaceWith(popupMarker);mobilePopup.querySelector('.mobile-popup-body').append(content);mobilePopup.querySelector('#mobilePopupTitle').textContent=title;mobilePopup.hidden=false;document.body.style.overflow='hidden';trigger.setAttribute('aria-expanded','true');mobilePopup.querySelector('button').focus();}
-  mobilePopup.addEventListener('click',e=>{if(e.target===mobilePopup||e.target.closest('[aria-label="Close options"]'))closeMobilePopup();else if(e.target.closest('[data-view],[data-cat],#exportBtn,#bulkBtn,#addBtn,#compareConfirm,#defaultColumnOrder'))closeMobilePopup()});
+  mobilePopup.addEventListener('click',e=>{if(e.target===mobilePopup||e.target.closest('[aria-label="Close options"]'))closeMobilePopup();else if(e.target.closest('[data-view],[data-source],[data-cat],#exportBtn,#bulkBtn,#addBtn,#compareConfirm,#defaultColumnOrder'))closeMobilePopup()});
   mobilePopup.addEventListener('keydown',e=>{if(e.key==='Escape'){e.stopPropagation();closeMobilePopup()}if(e.key==='Tab'){const nodes=[...mobilePopup.querySelectorAll('button,input,summary,[tabindex]')].filter(n=>!n.hidden&&n.getClientRects().length);const first=nodes[0],last=nodes.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}});
   matchMedia('(max-width:720px)').addEventListener('change',closeMobilePopup);
   function closePickers(){document.querySelectorAll('.compact-picker').forEach(p=>{p.classList.remove('open');p.querySelector('.picker-trigger').setAttribute('aria-expanded','false')})}
   document.querySelectorAll('.compact-picker').forEach(p=>{
     const trigger=p.querySelector('.picker-trigger');const show=()=>{closePickers();p.classList.add('open');trigger.setAttribute('aria-expanded','true')};
     p.addEventListener('mouseenter',()=>{if(matchMedia('(hover:hover)').matches)show()});p.addEventListener('mouseleave',()=>{if(!p.contains(document.activeElement))closePickers()});
-    trigger.addEventListener('click',()=>{if(matchMedia('(max-width:720px)').matches){openMobilePopup(trigger,p.querySelector('nav,.actions'),p.id==='sectionPicker'?'Choose section':'Catalog actions');return;}if(p.classList.contains('open')&&!matchMedia('(hover:hover)').matches)closePickers();else show()});
+    trigger.addEventListener('click',()=>{if(matchMedia('(max-width:720px)').matches){openMobilePopup(trigger,p.querySelector('nav,.actions'),p.id==='sourcePicker'?'Catalog source':p.id==='sectionPicker'?'Choose section':'Catalog actions');return;}if(p.classList.contains('open')&&!matchMedia('(hover:hover)').matches)closePickers();else show()});
     trigger.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='ArrowDown'){e.preventDefault();show();p.querySelector('nav button:not([hidden]),.actions button:not([hidden])')?.focus()}});
-    p.addEventListener('click',e=>{if(e.target.closest('nav button,.actions button'))closePickers()});
+    p.addEventListener('click',e=>{if(e.target.closest('nav button,.actions button')){trigger.focus();closePickers()}});
   });
   document.addEventListener('click',e=>{if(!e.target.closest('.compact-picker'))closePickers()});
   document.addEventListener('keydown',e=>{if(e.key==='Escape')closePickers()});

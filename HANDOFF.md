@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-10: Codex — Simplify spec units and comparison selection
+
+- Changes: Product Spec and ISV use the same-field majority unit within the category when direct evidence is unavailable, then fall back to in, lb or ft³. Explicit units and source records are preserved. The Catalog Source picker uses the Catalog control’s styling and interaction, with a 6 px gap. Clicking a non-interactive part of a product row toggles its selection in Compare mode.
+- Files: app/index.html and measurement and catalog-source UI tests.
+- Tests: Build and focused SF-E902, row-selection, desktop hover and mobile picker checks passed. Two ISV suites required localhost access after the default sandbox denied it.
+- Local preview: desktop and phone captures passed.
+- Claude Artifact: awaiting Claude Code publication.
+- Public Site: awaiting release verification.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-09 — Codex publishes simplified measurement wording
 
 - Public Site version 55 deployed from `4f768ca5f0fc5348863a570d18cd56644f748149`, deployment `appgdep_6af264aac6348191b8da2ebb6e4449cc`.
