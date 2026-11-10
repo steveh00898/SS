@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-10: Codex — Publish catalog controls and spec unit formatting
+
+- Public Site: version 56 deployed from `ea62bdd202f22eab1e757ab727543a391dffc1dc`, deployment `appgdep_6af3835fdd9481919c060fa392c8bbe9`. Public access retained.
+- Tests: All 37 suites passed. The two ISV suites passed with localhost access after the default sandbox denied their fixture connections. Build and 14 desktop and phone captures passed. SF-E902 Step Height displays 7.52 in.
+- Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-10: Codex — Simplify spec units and comparison selection
 
 - Changes: Product Spec and ISV use the same-field majority unit within the category when direct evidence is unavailable, then fall back to in, lb or ft³. Explicit units and source records are preserved. The Catalog Source picker uses the Catalog control’s styling and interaction, with a 6 px gap. Clicking a non-interactive part of a product row toggles its selection in Compare mode.
