@@ -2,6 +2,11 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-09 — Codex publishes simplified measurement wording
+
+- Public Site version 55 deployed from `4f768ca5f0fc5348863a570d18cd56644f748149`, deployment `appgdep_6af264aac6348191b8da2ebb6e4449cc`.
+- All 37 suites, the build and preview captures passed. Live dumbbell comparison and SF-E905SMART ISV retained units without the removed wording. The Sunny limit link remains visible.
+
 ## 2026-11-09 — Codex simplifies the measurement labels
 
 - Removed the inline "(estimated unit)" wording from the shared measurement formatter used by Product Spec and ISV, including comparisons. The units still display and source values and comparison logic are preserved. The existing unverified-unit message and the SF-E905SMART published-limit link remain available.
