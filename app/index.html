@@ -489,8 +489,6 @@ body.spec-view table.ptable{min-width:0}
   .spec-compare-head>div:nth-child(2){border-left:0}
   .spec-compare-head small{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
 }
-.usage-categories{width:100%;min-width:0!important;table-layout:fixed}
-.usage-categories th:last-child,.usage-categories td:last-child{width:110px;text-align:center}
 .usage-category-link{border:0;background:none;color:var(--fg);font:inherit;text-decoration:underline;text-underline-offset:3px;cursor:pointer;text-align:left;overflow-wrap:anywhere}
 .usage-ranking{display:grid;gap:10px;margin:18px 0}
 .usage-rank-row{display:grid;grid-template-columns:minmax(100px,180px) minmax(0,1fr) 45px;align-items:center;gap:12px}
@@ -1737,11 +1735,10 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
     return [...grouped.values()];
   }
   function usageCategoryPanel(){
-    const rows=categoryUsage().sort((a,b)=>b.total-a.total||a.name.localeCompare(b.name));
     const metric=usage.rank==='total'||usage.rank==='category'?usage.kind:usage.rank;
     const graph=categoryUsage(metric).sort((a,b)=>usage.rank==='category'?a.name.localeCompare(b.name):b.total-a.total||a.name.localeCompare(b.name));
     const max=Math.max(1,...graph.map(row=>row.total));
-    return '<section class="pv-panel" id="usageCategories"><h2>Most-used products by category</h2><p class="pv-help">Click a category to see its products. Counts follow the selected period and category. Choose a resource to rank the graph.</p><label>Graph order and resource<select data-usage-rank><option value="total" '+(usage.rank==='total'?'selected':'')+'>Total clicks</option><option value="category" '+(usage.rank==='category'?'selected':'')+'>Category name</option>'+Object.entries(usageLabels).map(([key,label])=>'<option value="'+key+'" '+(usage.rank===key?'selected':'')+'>'+label+'</option>').join('')+'</select></label><div class="usage-ranking" role="list" aria-label="Category resource counts">'+graph.map(row=>'<div class="usage-rank-row" role="listitem"><button type="button" class="usage-category-link" data-usage-metric="'+esc(metric)+'" data-usage-category="'+esc(row.name)+'">'+esc(row.name)+'</button><span class="usage-rank-track" aria-hidden="true"><i class="usage-rank-fill" style="width:'+Math.round(row.total/max*100)+'%"></i></span><strong>'+row.total.toLocaleString()+'</strong></div>').join('')+'</div><table class="ptable usage-categories"><thead><tr><th>Category</th><th>Total clicks</th></tr></thead><tbody>'+rows.map(row=>'<tr><td><button type="button" class="usage-category-link" data-usage-category="'+esc(row.name)+'">'+esc(row.name)+'</button></td><td>'+row.total.toLocaleString()+'</td></tr>').join('')+'</tbody></table></section>';
+    return '<section class="pv-panel" id="usageCategories"><h2>Most-used products by category</h2><p class="pv-help">Click a category to see its products. Counts follow the selected period and category. Choose a resource to rank the graph.</p><label>Graph order and resource<select data-usage-rank><option value="total" '+(usage.rank==='total'?'selected':'')+'>Total clicks</option><option value="category" '+(usage.rank==='category'?'selected':'')+'>Category name</option>'+Object.entries(usageLabels).map(([key,label])=>'<option value="'+key+'" '+(usage.rank===key?'selected':'')+'>'+label+'</option>').join('')+'</select></label><div class="usage-ranking" role="list" aria-label="Category resource counts">'+graph.map(row=>'<div class="usage-rank-row" role="listitem"><button type="button" class="usage-category-link" data-usage-metric="'+esc(metric)+'" data-usage-category="'+esc(row.name)+'">'+esc(row.name)+'</button><span class="usage-rank-track" aria-hidden="true"><i class="usage-rank-fill" style="width:'+Math.round(row.total/max*100)+'%"></i></span><strong>'+row.total.toLocaleString()+'</strong></div>').join('')+'</div><button type="button" class="btn" data-usage-all>View all clicks</button></section>';
   }
   function feedbackEntries(feedback){return '<div class="feedback-list">'+feedback.map(f=>'<article><time>'+esc(new Date(f.at).toLocaleString())+'</time><p>'+esc(f.comment).replace(/\n/g,'<br>')+'</p></article>').join('')+'</div>';}
   const usagePopup=document.createElement('dialog');usagePopup.className='product-spec-dialog';usagePopup.id='usagePopup';
@@ -1759,18 +1756,38 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
   usagePopup.addEventListener('click',e=>dialogBackdropClose(usagePopup,closeUsagePopup,e));
   usagePopup.addEventListener('keydown',e=>trapDialogFocus(usagePopup,e));
   $('#usageView').addEventListener('change',e=>{if(!e.target.matches('[data-usage-rank]'))return;usage.rank=e.target.value;$('#usageCategories').outerHTML=usageCategoryPanel();$('#usageView [data-usage-rank]').focus();});
+  let usageProductRows=[],usageProductKind='all';
+  const activityText=value=>!value?'Unavailable':value.length===10?value+' (day only)':new Date(value).toLocaleString()+' (received)';
+  function usageProductDetails(order='most'){
+    const value=(item,key)=>item[key]?Date.parse(item[key].length===10?item[key]+'T00:00:00Z':item[key]):null;
+    const items=[...usageProductRows].sort((a,b)=>{
+      if(order==='most'||order==='least')return (order==='most'?b.total-a.total:a.total-b.total)||a.sku.localeCompare(b.sku);
+      const key=order==='oldest'?'first':'last',x=value(a,key),y=value(b,key);
+      if(x===null||y===null)return x===y?a.sku.localeCompare(b.sku):x===null?1:-1;
+      return (order==='oldest'?x-y:y-x)||a.sku.localeCompare(b.sku);
+    });
+    return items.length?items.map(item=>'<article class="usage-product-detail" data-usage-product="'+esc(item.id)+'"><b>'+esc(item.sku)+'</b><p>'+esc(item.name)+' · '+esc(item.category)+'</p><p><b>Total clicks: '+item.total.toLocaleString()+'</b></p><p class="pv-help">First activity: '+esc(activityText(item.first))+'<br>Latest activity: '+esc(activityText(item.last))+'</p><div class="usage-resource-counts">'+Object.entries(usageLabels).filter(([key])=>usageProductKind==='all'||usageProductKind===key).map(([key,label])=>'<span>'+label+' <b>'+(item.counts[key]||0)+'</b></span>').join('')+'</div></article>').join(''):'<p>No clicks in this selection.</p>';
+  }
+  function showUsageProducts(category,kind,trigger){
+    const grouped=new Map();usageProductKind=kind;
+    for(const row of usage.data?.rows||[]){
+      if((category&&row.category!==category)||(kind!=='all'&&kind!==row.kind))continue;
+      if(!grouped.has(row.itemId))grouped.set(row.itemId,{id:row.itemId,sku:row.sku,name:row.name,category:row.category,total:0,counts:{},first:null,last:null});
+      const item=grouped.get(row.itemId),first=row.firstAt||row.firstDay,last=row.lastAt||row.lastDay;
+      item.total+=Number(row.clicks)||0;item.counts[row.kind]=Number(row.clicks)||0;
+      if(first&&(!item.first||first<item.first))item.first=first;
+      if(last&&(!item.last||last>item.last))item.last=last;
+    }
+    usageProductRows=[...grouped.values()];
+    showUsagePopup(category?category+' — Product usage':'All product clicks','<p class="pv-help">Last '+usage.days+' days · '+esc(kind==='all'?'All resources':usageLabels[kind])+'. Older activity has dates only. New activity shows received times.</p><label>Sort products<select data-usage-product-sort><option value="most">Most clicks first</option><option value="least">Fewest clicks first</option><option value="latest">Latest activity first</option><option value="oldest">Oldest activity first</option></select></label><div id="usageProductList">'+usageProductDetails()+'</div>',trigger);
+  }
+  usagePopup.addEventListener('change',e=>{if(e.target.matches('[data-usage-product-sort]'))$('#usageProductList').innerHTML=usageProductDetails(e.target.value);});
   $('#usageView').addEventListener('click',async e=>{
     if(!pr.admin)return;
-    const category=e.target.closest('[data-usage-category]');
-    if(category){
-      const grouped=new Map();
-      const kind=category.dataset.usageMetric||usage.kind;
-      for(const row of usage.data?.rows||[]){if(row.category!==category.dataset.usageCategory||(kind!=='all'&&kind!==row.kind))continue;
-        if(!grouped.has(row.itemId))grouped.set(row.itemId,{sku:row.sku,name:row.name,total:0,counts:{}});
-        const item=grouped.get(row.itemId);item.total+=Number(row.clicks)||0;item.counts[row.kind]=Number(row.clicks)||0;
-      }
-      const items=[...grouped.values()].sort((a,b)=>b.total-a.total||a.sku.localeCompare(b.sku));
-      showUsagePopup(category.dataset.usageCategory+' — Product usage','<p class="pv-help">Last '+usage.days+' days · '+esc(kind==='all'?'All resources':usageLabels[kind])+'</p>'+(!items.length?'<p>No clicks in this selection.</p>':items.map(item=>'<article class="usage-product-detail"><b>'+esc(item.sku)+'</b> · '+item.total.toLocaleString()+' clicks<p>'+esc(item.name)+'</p><div class="usage-resource-counts">'+Object.entries(usageLabels).filter(([key])=>kind==='all'||kind===key).map(([key,label])=>'<span>'+label+' <b>'+(item.counts[key]||0)+'</b></span>').join('')+'</div></article>').join('')),category);
+    const category=e.target.closest('[data-usage-category]'),all=e.target.closest('[data-usage-all]');
+    if(category||all){
+      const trigger=category||all,kind=category?.dataset.usageMetric||(usage.rank==='total'||usage.rank==='category'?usage.kind:usage.rank);
+      showUsageProducts(category?.dataset.usageCategory||'',kind,trigger);
     }
     const feedback=e.target.closest('[data-feedback-all]');
     if(feedback){

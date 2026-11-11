@@ -2,6 +2,16 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-10: Codex — Add sortable click detail popups
+
+- Changes: Removed the duplicate category table. View all clicks opens every matching product total in one popup. Category and all-product popups sort by most/fewest clicks or oldest/latest activity and show first/latest recorded activity.
+- Time precision: Migration 0005 adds received timestamps to new telemetry. Historical daily aggregates remain intact and show day-only dates when complete timestamps are unavailable. Received times reflect server delivery, not the exact instant a user clicked.
+- Files: app/index.html, server/worker.js, db/schema.ts, drizzle/0005_click_recorded_at.sql, migration journal and affected analytics tests.
+- Tests: Focused grouping, all-product popup, count sorting, time sorting, historical fallback and feedback coverage passed. Full release verification in progress.
+- Claude Artifact: awaiting Claude Code publication; analytics remain Site-only.
+- Public Site: awaiting tested publication with migration 0005.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-10: Codex — Publish category analytics and feedback popup
 
 - Public Site: version 60 deployed from `863d612eaca0c2184700c58801b67a4f09ac4c66`, deployment `appgdep_6af3c2b705748191b04e7e2ba09945fb`. Public access retained.

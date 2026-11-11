@@ -36,6 +36,13 @@
       "when": 1793137717498,
       "tag": "0004_usage_timing_feedback",
       "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1794360752994,
+      "tag": "0005_click_recorded_at",
+      "breakpoints": true
     }
   ]
 }

@@ -120,7 +120,7 @@ if(url.pathname==='/api/public-usage/events'&&request.method==='POST'){
    if(typeof e.itemId!=='string'||e.itemId.length>200||!resourceKinds.includes(e.kind)||(e.value!=null&&(!Number.isInteger(e.value)||e.value<0||e.value>1800000)))throw fail('Invalid timed click');
    const row=await db.prepare('SELECT data FROM items WHERE id = ?').bind(e.itemId).first();if(!row){discarded.push(e.eventId);continue;}const item=JSON.parse(row.data);if(!resourceAvailable(item,e.itemId,e.kind)){discarded.push(e.eventId);continue;}
   }else if(e.itemId!=null||e.kind!=null||!Number.isInteger(e.value)||e.value<0||(e.type==='catalog_load'?e.value>180000:e.value!==1))throw fail('Invalid performance event');
-  statements.push(db.prepare('INSERT OR IGNORE INTO public_telemetry_events (event_id,day,type,item_id,kind,value) VALUES (?,?,?,?,?,?)').bind(e.eventId,day,e.type,e.itemId||null,e.kind||null,e.value??null));
+  statements.push(db.prepare('INSERT OR IGNORE INTO public_telemetry_events (event_id,day,type,item_id,kind,value,recorded_at) VALUES (?,?,?,?,?,?,?)').bind(e.eventId,day,e.type,e.itemId||null,e.kind||null,e.value??null,new Date().toISOString()));
   if(e.type==='link_click')statements.push(db.prepare('INSERT INTO public_link_clicks (day,item_id,kind,click_count) SELECT ?,?,?,1 WHERE changes() = 1 ON CONFLICT(day,item_id,kind) DO UPDATE SET click_count = MIN(click_count + 1,100000)').bind(day,e.itemId,e.kind));
  }
  if(role.admin)return json({accepted:events.map(e=>e.eventId),counted:false});
@@ -146,7 +146,10 @@ if(url.pathname==='/api/public-usage'&&request.method==='GET'){
  const db=dbFor(env),to=new Date().toISOString().slice(0,10),from=new Date(Date.now()-(days-1)*86400000).toISOString().slice(0,10);
  await db.prepare('DELETE FROM public_link_clicks WHERE day < ?').bind(new Date(Date.now()-89*86400000).toISOString().slice(0,10)).run();
  const where="FROM public_link_clicks c LEFT JOIN items i ON i.id=c.item_id WHERE c.day >= ? AND c.day <= ? AND (? = '' OR json_extract(i.data,'$.category') = ?)";
- const {results:rows}=await db.prepare("SELECT c.item_id AS itemId,COALESCE(json_extract(i.data,'$.sku'),c.item_id) AS sku,COALESCE(json_extract(i.data,'$.name'),'Removed product') AS name,COALESCE(json_extract(i.data,'$.category'),'Removed products') AS category,c.kind,SUM(c.click_count) AS clicks "+where+' GROUP BY c.item_id,c.kind ORDER BY clicks DESC,c.item_id,c.kind').bind(from,to,category,category).all();
+ const {results:rows}=await db.prepare("SELECT c.item_id AS itemId,COALESCE(json_extract(i.data,'$.sku'),c.item_id) AS sku,COALESCE(json_extract(i.data,'$.name'),'Removed product') AS name,COALESCE(json_extract(i.data,'$.category'),'Removed products') AS category,c.kind,SUM(c.click_count) AS clicks,MIN(c.day) AS firstDay,MAX(c.day) AS lastDay "+where+' GROUP BY c.item_id,c.kind ORDER BY clicks DESC,c.item_id,c.kind').bind(from,to,category,category).all();
+ const {results:recorded}=await db.prepare("SELECT item_id AS itemId,kind,COUNT(recorded_at) AS timed,MIN(recorded_at) AS firstAt,MAX(recorded_at) AS lastAt FROM public_telemetry_events WHERE day >= ? AND day <= ? AND type='link_click' GROUP BY item_id,kind").bind(from,to).all();
+ const recordedByItem=new Map(recorded.map(row=>[row.itemId+':'+row.kind,row]));
+ for(const row of rows){const times=recordedByItem.get(row.itemId+':'+row.kind);if(times&&Number(times.timed)===Number(row.clicks)){row.firstAt=times.firstAt;row.lastAt=times.lastAt;}}
  const {results:daily}=await db.prepare('SELECT c.day,c.kind,SUM(c.click_count) AS clicks '+where+' GROUP BY c.day,c.kind ORDER BY c.day DESC,c.kind').bind(from,to,category,category).all();
  const kind=url.searchParams.get('kind')||'all';if(!['all',...resourceKinds].includes(kind))throw fail('Invalid link type');
  await db.batch([db.prepare('DELETE FROM public_telemetry_events WHERE day < ?').bind(new Date(Date.now()-89*86400000).toISOString().slice(0,10)),db.prepare('DELETE FROM public_feedback WHERE created_at < ?').bind(new Date(Date.now()-90*86400000).toISOString())]);
