@@ -6,7 +6,7 @@ const audit = require('../data/pricing/us-mastersheet-v1-audit.json');
   const { sql, request } = await require('./usage-fixture.cjs')();
   try {
     const batch = archive.filter(item => item.importBatch === 'us-mastersheet-v1-missing');
-    const older = archive.filter(item => item.importBatch !== 'us-mastersheet-v1-missing');
+    const older = archive.filter(item => !['us-mastersheet-v1-missing','isv-shf-gap-20261111'].includes(item.importBatch));
     assert.equal(batch.length, 136);
     assert.deepEqual(batch.map(item => [item.sku, item.mastersheetRow, item.mastersheetStatus]),
       audit.notInApp.map(row => [row.sku, row.row, row.status]));

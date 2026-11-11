@@ -2,7 +2,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),{execFileSync}=
 const read=f=>JSON.parse(fs.readFileSync(__dirname+'/../'+f,'utf8'));
 const MODEL=s=>String(s).toUpperCase().replace(/[^A-Z0-9]/g,'');
 (async()=>{
- const archive=read('data/off-sunny-web/items.json'),batch=archive.filter(r=>r.importBatch==='v3-batch-5'),older=archive.filter(r=>!['v3-batch-5','us-mastersheet-v1-missing'].includes(r.importBatch));
+ const archive=read('data/off-sunny-web/items.json'),batch=archive.filter(r=>r.importBatch==='v3-batch-5'),older=archive.filter(r=>!['v3-batch-5','us-mastersheet-v1-missing','isv-shf-gap-20261111'].includes(r.importBatch));
  assert.equal(batch.length,114);assert.equal(older.length,220);
  const current=fs.readdirSync(__dirname+'/../data').filter(f=>f.endsWith('.json')).flatMap(f=>read('data/'+f));assert.equal(current.length,156);
  const taken=new Set([...older,...current].map(r=>MODEL(r.sku)));assert.equal(new Set(batch.map(r=>MODEL(r.sku))).size,114,'distinct within the batch');for(const r of batch)assert(!taken.has(MODEL(r.sku)),'not already in the catalog: '+r.sku);

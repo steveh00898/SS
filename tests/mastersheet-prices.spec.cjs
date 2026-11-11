@@ -2,7 +2,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs');
 const read=f=>JSON.parse(fs.readFileSync(__dirname+'/../'+f,'utf8'));
 // Mastersheet prices are recorded with an audit and reach an existing Site database once, keeping other edits and deletions.
 (async()=>{
- const audit=read('data/pricing/us-mastersheet-v1-audit.json'),archive=read('data/off-sunny-web/items.json').filter(r=>r.importBatch!=='us-mastersheet-v1-missing');
+ const audit=read('data/pricing/us-mastersheet-v1-audit.json'),archive=read('data/off-sunny-web/items.json').filter(r=>!['us-mastersheet-v1-missing','isv-shf-gap-20261111'].includes(r.importBatch));
  const current=fs.readdirSync(__dirname+'/../data').filter(f=>f.endsWith('.json')).flatMap(f=>read('data/'+f)),all=[...current,...archive];
  assert.equal(audit.rows,582);assert.equal(all.length,490);
  assert.deepEqual(audit.discrepancies.map(d=>[d.sku,d.old,d.new]),[['NO. 077S',99.99,89.99],['NO. 066-10',17.99,24.99],['SF-BH6629',89.99,84.99]]);

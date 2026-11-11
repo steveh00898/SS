@@ -1,0 +1,6098 @@
+{
+  "source": {
+    "file": "ISV 4.0.xlsx",
+    "sheet": "SHF",
+    "columns": "A:FN",
+    "sha256": "66c0c25dee9c35fefe083cdc03918498405727529e6e2f072e76a8ff13c5fb5a"
+  },
+  "checkedAt": "2026-11-11",
+  "workbookModels": 881,
+  "appBaseline": 626,
+  "modelsAdded": 263,
+  "aliases": {
+    "NO077-PLUS": "NO.077 PLUS",
+    "SFE326015GY": "SF-E326015-GY"
+  },
+  "scope": "SHF tab, including Asuna models. Other tabs cover ZooVaa, Efitment and Aurora. Archive entries are reference records; workbook presence does not establish stock or product lifecycle.",
+  "resources": [
+    {
+      "sku": "4100",
+      "id": "off-sunny-4100",
+      "workbookRow": 4,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/4100",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/4100_manual.pdf?v=1680894089",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-4100-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-bikes-premium-chain-drive-commercial-indoor-cycling-trainer-4100-02_750x.jpg?v=1599541270",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/4100",
+        "match": "exact model manual heading",
+        "sha256": "849d3519a5b9354f4f61e1b6940cde06dc21c4668c786dc2385add038d1d2781"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "20530",
+      "id": "off-sunny-20530",
+      "workbookRow": 5,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "20740",
+      "id": "off-sunny-20740",
+      "workbookRow": 6,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/20740",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/20740_manual.pdf?v=1680803052",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-20740-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-treadmills-treadpad-walking-treadmill-20740-02_750x.jpg?v=1629243004",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/20740",
+        "match": "exact model manual heading",
+        "sha256": "187b1a531e228b6de677a46042e98164d0db2ebbfaba552fb8b80bf8fe352e4b"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "4300",
+      "id": "off-sunny-4300",
+      "workbookRow": 8,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "5100",
+      "id": "off-sunny-5100",
+      "workbookRow": 10,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/5100",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/5100_manual.pdf?v=1680895026",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-5100-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/5100_MainImage_750x.jpg?v=1607381663",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/5100",
+        "match": "exact model manual heading",
+        "sha256": "ae7e3a1d22b96b69f9cb09e14136fece34c16437c678234189a8fb8de157a58f"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "6100",
+      "id": "off-sunny-6100",
+      "workbookRow": 12,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/6100",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/6100_manual.pdf?v=1680900806",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-6100-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-bikes-sprinter-commercial-indoor-cycling-trainer-6100-01_750x.jpg?v=1594103251",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/6100",
+        "match": "exact model manual heading",
+        "sha256": "b169a023f06a80d5c4ee934155fea7cd126528e1bba00f86b96d45d6a86d2994"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "7100",
+      "id": "off-sunny-7100",
+      "workbookRow": 13,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/7100",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/7100_manual.pdf?v=1680894920",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-7100-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-bikes-sabre-cycle-exercise-bike-7100-01_750x.jpg?v=1594103646",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/7100",
+        "match": "exact model manual heading",
+        "sha256": "3e6de44fbf089f538d52b2400b01f93051ab96602508f9d9c50edb173e7e8d27"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "7700",
+      "id": "off-sunny-7700",
+      "workbookRow": 16,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/7700",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/7700_manual.pdf?v=1680803747",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-7700-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-treadmills-cardio-trainer-manual-treadmill-7700-product_750x.jpg?v=1640891959",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/7700",
+        "match": "exact model manual heading",
+        "sha256": "56161cee176e244ea1bd3dc84c6f90d11fb7abfc13dbfc8bf0da66da6ea22828"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "7750",
+      "id": "off-sunny-7750",
+      "workbookRow": 17,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/7750",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/7750_manual.pdf?v=1680800559",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-7750-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-treadmills-spaceflex-running-treadmill-auto-incline-foldable-wide-deck-7750-01_750x.jpg?v=1629306492",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/7750",
+        "match": "exact model manual heading",
+        "sha256": "b05676549c1f98096b165c733d850fccba71f90dcb855f05c2c84bb41fe90f9a"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "7750P",
+      "id": "off-sunny-7750p",
+      "workbookRow": 18,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/7750p",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/7750P_manual.pdf?v=1680804095",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-7750p-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-treadmills-spaceflex-running-treadmill-pink-7750P-product_750x.jpg?v=1640824678",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/7750p",
+        "match": "exact model manual heading",
+        "sha256": "d8ee4ec65bc4dfbda98c6d775f5a8cf8abf6b137736d8e7b49cef1e57cb240a5"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "9700",
+      "id": "off-sunny-9700",
+      "workbookRow": 23,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/9700",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/ASUNA_9700_Manual_v1.1_aee33ad3-198d-4141-9cff-fdb9dd50ab16.pdf?v=1679586250",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-9700-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-treadmills-treadmill-workstation-desk-auto-incline-at-40_-max-wide-treadmill-USB-charging-9700-01_750x.jpg?v=1605224967",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/9700",
+        "match": "exact model manual heading",
+        "sha256": "4ed8ec5747ef3c4abea8cf230883d5b499c842593ec2e1cf195bf1d811c06c45"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "NO. 075",
+      "id": "off-sunny-no-075",
+      "workbookRow": 64,
+      "category": "Essentials",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "NO. 077D",
+      "id": "off-sunny-no-077d",
+      "workbookRow": 66,
+      "category": "Row-N-Ride",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "NO. 077-DUP",
+      "id": "off-sunny-no-077-dup",
+      "workbookRow": 67,
+      "category": "Row-N-Ride",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "NO. 077G",
+      "id": "off-sunny-no-077g",
+      "workbookRow": 69,
+      "category": "Row-N-Ride",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "NO. 078",
+      "id": "off-sunny-no-078",
+      "workbookRow": 76,
+      "category": "Essentials",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "NO. 080",
+      "id": "off-sunny-no-080",
+      "workbookRow": 78,
+      "category": "Essentials",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "NO. 081",
+      "id": "off-sunny-no-081",
+      "workbookRow": 79,
+      "category": "Essentials",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "OB-34",
+      "id": "off-sunny-ob-34",
+      "workbookRow": 120,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "OB-47",
+      "id": "off-sunny-ob-47",
+      "workbookRow": 121,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "OB-60",
+      "id": "off-sunny-ob-60",
+      "workbookRow": 123,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-ob-60-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sku": "OB-60",
+        "sourceFile": "OB-60 draft spec sheet 20241021.xlsx",
+        "sheet": "OB-60",
+        "object": "xl/media/image6.jpeg",
+        "match": "exact model in worksheet",
+        "sha256": "f75b08f2e709dbaa08f08eca1773a552dc56dd24434be78e5d748f08a16bfdc9"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "OB-84",
+      "id": "off-sunny-ob-84",
+      "workbookRow": 124,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "OPR10",
+      "id": "off-sunny-opr10",
+      "workbookRow": 128,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "OPR25",
+      "id": "off-sunny-opr25",
+      "workbookRow": 129,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "OPR35",
+      "id": "off-sunny-opr35",
+      "workbookRow": 130,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "OPR45",
+      "id": "off-sunny-opr45",
+      "workbookRow": 131,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "P8000",
+      "id": "off-sunny-p8000",
+      "workbookRow": 143,
+      "category": "Steppers",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/p8000",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/P8000_manual.pdf?v=1681152737",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-p8000-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-steppers-pink-adjustable-twist-stepper-machine-LCD-monitor-P8000-01_750x.jpg?v=1585351793",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/p8000",
+        "match": "exact model manual heading",
+        "sha256": "18bf6dcfa07640a55b38580386e6d2503225a218cae6f414964dfe5234fc95ea"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "P8100",
+      "id": "off-sunny-p8100",
+      "workbookRow": 144,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/p8100",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/P8100_manual.pdf?v=1680894663",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-p8100-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-bikes-pink-chain-drive-indoor-cycling-trainer-P8100-product_750x.jpg?v=1645226047",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/p8100",
+        "match": "exact model manual heading",
+        "sha256": "d847ce66489996b92f8f651e2bde4c60b889077112cde348fd1c9ceb83704aef"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "P8200",
+      "id": "off-sunny-p8200",
+      "workbookRow": 146,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "P8300",
+      "id": "off-sunny-p8300",
+      "workbookRow": 147,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/p8300",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/P8300_manual.pdf?v=1746837018",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-p8300-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-bikes-pink-magnetic-elliptical-trainer-elliptical-machine-P8300-product_750x.jpg?v=1645226453",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/p8300",
+        "match": "exact model manual heading",
+        "sha256": "890749a6f6162b72fe6871f05663d7238332d488109da187808217d666ff5bd4"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "P8700",
+      "id": "off-sunny-p8700",
+      "workbookRow": 149,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/p8700",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/P8700_manual.pdf?v=1680803826",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-p8700-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-treadmills-pink-treadmill-P8700-09_750x.jpg?v=1606758941",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/p8700",
+        "match": "exact model manual heading",
+        "sha256": "79ecdb184f04ab8f3d26098288f8e043d6f27d3b32d39cf54c4655588cf5501f"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "PDM-002W",
+      "id": "off-sunny-pdm-002w",
+      "workbookRow": 150,
+      "category": "Essentials",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-pdm-002w-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sku": "PDM-002W",
+        "sourceFile": "Accessory Product Spec for PDM-002W(JS-221).xlsx",
+        "sheet": "Specification",
+        "object": "xl/media/image1.jpeg",
+        "match": "exact model in worksheet",
+        "sha256": "ceecc3f46cbdfcc08c202c488db430df7cac5b73f9c2f35e3a1c24cd652d32e7"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "PLW-003B",
+      "id": "off-sunny-plw-003b",
+      "workbookRow": 151,
+      "category": "Essentials",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/plw-003b",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/No.50158_PLW-003B_JS-728_manual_SUNNY_20190625_006.pdf?v=1679586227",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-plw-003b-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-accessories-pedometer-wrist-watch-PLW-003B-product_750x.jpg?v=1641859233",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/plw-003b",
+        "match": "exact model manual heading",
+        "sha256": "906329a21a3cee075232a58dab005f052531ab1d39d3f5cda93ab4bfd1cb8740"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "RW200",
+      "id": "off-sunny-rw200",
+      "workbookRow": 152,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-rw200-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sku": "RW200",
+        "sourceFile": "RW200 Spec Sheet 06102022.xlsx",
+        "sheet": "Sheet1",
+        "object": "xl/media/image5.png",
+        "match": "exact model in worksheet",
+        "sha256": "3c75af39492dd9b2f141fcbec87467a37da8198346925eea157658355a8ffa22"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SDSV-32",
+      "id": "off-sunny-sdsv-32",
+      "workbookRow": 154,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-1115",
+      "id": "off-sunny-sf-1115",
+      "workbookRow": 155,
+      "category": "Steppers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-1116",
+      "id": "off-sunny-sf-1116",
+      "workbookRow": 156,
+      "category": "Weight Benches",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-1118",
+      "id": "off-sunny-sf-1118",
+      "workbookRow": 157,
+      "category": "Weight Benches",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-1201",
+      "id": "off-sunny-sf-1201",
+      "workbookRow": 158,
+      "category": "Weight Benches",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-807",
+      "id": "off-sunny-sf-807",
+      "workbookRow": 159,
+      "category": "Weight Benches",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-A024015",
+      "id": "off-sunny-sf-a024015",
+      "workbookRow": 169,
+      "category": "Essentials",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-A025009",
+      "id": "off-sunny-sf-a025009",
+      "workbookRow": 172,
+      "category": "Essentials",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-a025009",
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-a025009-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/SF-A025009_750x.jpg?v=1768947481",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-a025009",
+        "match": "exact model manual heading",
+        "sha256": "d5603ec875e829c7eaa6f202f5020c68952af4ec751fd6ccf32f29ccd9c559e8"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-BB01-90",
+      "id": "off-sunny-sf-bb01-90",
+      "workbookRow": 178,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-BB01-45",
+      "id": "off-sunny-sf-bb01-45",
+      "workbookRow": 179,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B02",
+      "id": "off-sunny-sf-b02",
+      "workbookRow": 180,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B0418",
+      "id": "off-sunny-sf-b0418",
+      "workbookRow": 194,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b0418",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B0418_manual.pdf?v=1680895228",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b0418-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-bike-magnetic-mini-exercise-bike-SF-B0418-01_750x.jpg?v=1646442994",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b0418",
+        "match": "exact model manual heading",
+        "sha256": "0951dfcd6d982f07efe1248c55b5355b8657ffdeafaf57e10ec56a60983fc702"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B0419",
+      "id": "off-sunny-sf-b0419",
+      "workbookRow": 195,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B0638",
+      "id": "off-sunny-sf-b0638",
+      "workbookRow": 196,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B0717",
+      "id": "off-sunny-sf-b0717",
+      "workbookRow": 197,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B1001",
+      "id": "off-sunny-sf-b1001",
+      "workbookRow": 202,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1001",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B1001_manual.pdf?v=1680901299",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1001-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-bikes-indoor-cycling-bike-SF-B1001-product_750x.jpg?v=1645227997",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1001",
+        "match": "exact model manual heading",
+        "sha256": "ac832fc8c988dfe0bf05ae47f1723818e168e96244f811611f84fabadff9bb5c"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B1001S",
+      "id": "off-sunny-sf-b1001s",
+      "workbookRow": 203,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1001s",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B1001S_manual.pdf?v=1680893593",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1001s-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-bikes-chain-drive-indoor-cycling-trainer-silver-SF-B1001S-product_750x.jpg?v=1645228646",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1001s",
+        "match": "exact model manual heading",
+        "sha256": "7f5ebf3a98aaf1f826c73a7c12452d4dbafa471d54f077e4e8a68b7624ff4322"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B1002C",
+      "id": "off-sunny-sf-b1002c",
+      "workbookRow": 205,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1002c",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B1002C_manual.pdf?v=1680900883",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1002c-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-bikes-chain-drive-indoor-cycling-trainer-SF-B1002C-product_750x.jpg?v=1640715603",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1002c",
+        "match": "exact model manual heading",
+        "sha256": "88d2e7871ca1f71d8f31623c19f9c193c2810d7843d3a303034f7c8671be222f"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B1003",
+      "id": "off-sunny-sf-b1003",
+      "workbookRow": 206,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B1004",
+      "id": "off-sunny-sf-b1004",
+      "workbookRow": 207,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B1110",
+      "id": "off-sunny-sf-b1110",
+      "workbookRow": 208,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B1110S",
+      "id": "off-sunny-sf-b1110s",
+      "workbookRow": 209,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B123006",
+      "id": "off-sunny-sf-b123006",
+      "workbookRow": 217,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b123006-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sku": "SF-B123006",
+        "sourceFile": "SF-B123006 DRAFT SPEC SHEET 08032023.xlsx",
+        "sheet": "SF-B123006",
+        "object": "xl/media/image7.png",
+        "match": "exact model in worksheet",
+        "sha256": "2ba5c03ebccab4f02b84601551be06b20cc502334ab488f08dd6b7345c73134e"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B1401",
+      "id": "off-sunny-sf-b1401",
+      "workbookRow": 225,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B1411",
+      "id": "off-sunny-sf-b1411",
+      "workbookRow": 226,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B1412H",
+      "id": "off-sunny-sf-b1412h",
+      "workbookRow": 227,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B1421",
+      "id": "off-sunny-sf-b1421",
+      "workbookRow": 228,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B1421B",
+      "id": "off-sunny-sf-b1421b",
+      "workbookRow": 229,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B1423C",
+      "id": "off-sunny-sf-b1423c",
+      "workbookRow": 231,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1423c",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B1423C_manual.pdf?v=1680894851",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1423c-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-bikes-chain-drive-indoor-cycling-bike-SF-B1423C-01_750x.jpg?v=1608773627",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1423c",
+        "match": "exact model manual heading",
+        "sha256": "1617811e9800a3ab787180bc56adaa025228811c5ccb9bde1df8c46a6d775e0f"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B1516",
+      "id": "off-sunny-sf-b1516",
+      "workbookRow": 234,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1516",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B1516_manual.pdf?v=1680893796",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1516-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-bikes-commercial-indoor-cycling-bike-SF-B1516-product_10740fb4-d05d-400f-879d-03ecedbe0bed_750x.jpg?v=1646269058",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1516",
+        "match": "exact model manual heading",
+        "sha256": "9d7dba3c21bcc458ec2fcbfc4771e816ab3ca5d0c622c27205cf58ff0951a7d7"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B1712",
+      "id": "off-sunny-sf-b1712",
+      "workbookRow": 237,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1712-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sku": "SF-B1712",
+        "sourceFile": "SF-B1712 Specification.xlsx",
+        "sheet": "Sheet1",
+        "object": "xl/media/image1.png",
+        "match": "exact model in worksheet",
+        "sha256": "05687c050e41ae0ad532491ab8340a5b150eecf406c3cc1f9cbc64d6f36f5970"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B1735",
+      "id": "off-sunny-sf-b1735",
+      "workbookRow": 239,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1735",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B1735_manual.pdf?v=1680893692",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1735-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-bikes-belt-drive-commercial-indoor-cycling-bike-SF-B1735-product_750x.jpg?v=1640716826",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1735",
+        "match": "exact model manual heading",
+        "sha256": "f40f0c5b174f4ece44132a873da5195c4d15abdf61400616a500f9d34b2f3bbe"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B1863",
+      "id": "off-sunny-sf-b1863",
+      "workbookRow": 244,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B1918",
+      "id": "off-sunny-sf-b1918",
+      "workbookRow": 250,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1918",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B1918_manual.pdf?v=1680893197",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b1918-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-bikes-indoor-cycling-bike-magnetic-resistance-SF-B1918-08_750x.jpg?v=1594834151",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b1918",
+        "match": "exact model manual heading",
+        "sha256": "ae9ac9ffb79b1ad26fbbf6e068ff70b415549a6cf7bcf84ff5695af2e3f39506"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B1970G",
+      "id": "off-sunny-sf-b1970g",
+      "workbookRow": 253,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B1995-CB",
+      "id": "off-sunny-sf-b1995-cb",
+      "workbookRow": 256,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B2511H",
+      "id": "off-sunny-sf-b2511h",
+      "workbookRow": 267,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B2605",
+      "id": "off-sunny-sf-b2605",
+      "workbookRow": 268,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B2618",
+      "id": "off-sunny-sf-b2618",
+      "workbookRow": 269,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b2618",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B2618_manual.pdf?v=1680894001",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b2618-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-bikes-SF-B2618-01_750x.jpg?v=1590702481",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b2618",
+        "match": "exact model manual heading",
+        "sha256": "4134376494eb822002dcf1fe5e0436873cc06bf4c06fbb89f72620036afe8e22"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B2620",
+      "id": "off-sunny-sf-b2620",
+      "workbookRow": 270,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B2621",
+      "id": "off-sunny-sf-b2621",
+      "workbookRow": 271,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B2630",
+      "id": "off-sunny-sf-b2630",
+      "workbookRow": 272,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B2640",
+      "id": "off-sunny-sf-b2640",
+      "workbookRow": 273,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B2706",
+      "id": "off-sunny-sf-b2706",
+      "workbookRow": 274,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B2710",
+      "id": "off-sunny-sf-b2710",
+      "workbookRow": 275,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b2710",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B2710_manual.pdf?v=1680901199",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b2710-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-bike-total-body-bike-SF-B2710-01_750x.jpg?v=1646356763",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b2710",
+        "match": "exact model manual heading",
+        "sha256": "537a3bd7e7739b58dcf8c70ad6ac6f501d35b6e11cc1ac7a4a016e7c9fe38b33"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B2721",
+      "id": "off-sunny-sf-b2721",
+      "workbookRow": 277,
+      "category": "Indoor Bikes",
+      "productUrl": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-sf-b2721-folding-magnetic-semi-recumbent-upright-bike-comfort-xl-with-high-weight-capacity-and-pulse-rate-monitoring?variant=16470594879578",
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b2721",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B2721_manual.pdf?v=1680894591",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b2721-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/products/sunny-health-fitness-bikes-folding-magnetic-semi-recumbent-upright-bike-comfort-XL-high-weight-capacity-pulse-rate-SF-B2721-01.jpg?v=1595981391",
+        "page": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-sf-b2721-folding-magnetic-semi-recumbent-upright-bike-comfort-xl-with-high-weight-capacity-and-pulse-rate-monitoring?variant=16470594879578",
+        "match": "exact variant SKU",
+        "sha256": "5e33ff172506943cf615b2ae3271af5ae8daaacfd455fddf81663feb54cf9b4e"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B2956",
+      "id": "off-sunny-sf-b2956",
+      "workbookRow": 284,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b2956-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sku": "SF-B2956",
+        "sourceFile": "Specification sheet for SF-B2956 09292019.xlsx",
+        "sheet": "Sheet1",
+        "object": "xl/media/image1.png",
+        "match": "exact model in worksheet",
+        "sha256": "9c7866276bdfd391a2f5d5aa5a101c332f82f9f8d19394efaf6c9ce63d2c137e"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B901B",
+      "id": "off-sunny-sf-b901b",
+      "workbookRow": 288,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b901b",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-B901B_manual.pdf?v=1680894486",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-b901b-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-bikes-belt-drive-pro-indoor-cycling-exercise-bike-SF-B901B-product_750x.jpg?v=1640652812",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-b901b",
+        "match": "exact model manual heading",
+        "sha256": "2c3fcd040efb946f1e054f3faf16367bb3794b22fee77246a8ad7ebc6f125a1e"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B904",
+      "id": "off-sunny-sf-b904",
+      "workbookRow": 290,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B910",
+      "id": "off-sunny-sf-b910",
+      "workbookRow": 291,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-B915",
+      "id": "off-sunny-sf-b915",
+      "workbookRow": 292,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-BD2701",
+      "id": "off-sunny-sf-bd2701",
+      "workbookRow": 293,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-BH1009",
+      "id": "off-sunny-sf-bh1009",
+      "workbookRow": 294,
+      "category": "Weight Benches",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-BH1206",
+      "id": "off-sunny-sf-bh1206",
+      "workbookRow": 295,
+      "category": "Weight Benches",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-BH625099",
+      "id": "off-sunny-sf-bh625099",
+      "workbookRow": 308,
+      "category": "Weight Benches",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-BH625814",
+      "id": "off-sunny-sf-bh625814",
+      "workbookRow": 309,
+      "category": "Weight Benches",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-bh625814",
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bh625814-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/SF-BH625814_Strength_Bench_750x.png?v=1773178032",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-bh625814",
+        "match": "exact model manual heading",
+        "sha256": "d5c54113fe920bdf4161509353078f6cbb9bc97d2d2f87b4a5e1b454aff90504"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-BH6422",
+      "id": "off-sunny-sf-bh6422",
+      "workbookRow": 310,
+      "category": "Weight Benches",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-BH6501",
+      "id": "off-sunny-sf-bh6501",
+      "workbookRow": 311,
+      "category": "Weight Benches",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-BH6502",
+      "id": "off-sunny-sf-bh6502",
+      "workbookRow": 312,
+      "category": "Weight Benches",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-BH6503",
+      "id": "off-sunny-sf-bh6503",
+      "workbookRow": 313,
+      "category": "Weight Benches",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-BH6504",
+      "id": "off-sunny-sf-bh6504",
+      "workbookRow": 314,
+      "category": "Weight Benches",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-BH6505",
+      "id": "off-sunny-sf-bh6505",
+      "workbookRow": 315,
+      "category": "Weight Benches",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-BH6506",
+      "id": "off-sunny-sf-bh6506",
+      "workbookRow": 316,
+      "category": "Weight Benches",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-BH6510",
+      "id": "off-sunny-sf-bh6510",
+      "workbookRow": 318,
+      "category": "Weight Benches",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-BH6719",
+      "id": "off-sunny-sf-bh6719",
+      "workbookRow": 320,
+      "category": "Weight Benches",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-BH6811",
+      "id": "off-sunny-sf-bh6811",
+      "workbookRow": 322,
+      "category": "Weight Benches",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-bh6811",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-BH6811_manual.pdf?v=1681155879",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-bh6811-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-strength-weight-bench-SF-BH6811-05_750x.jpg?v=1596665410",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-bh6811",
+        "match": "exact model manual heading",
+        "sha256": "0437fbb6656f50d22f36e4f49243de77c096dbad9794242bdd503861cd3a2a87"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB01-12.5",
+      "id": "off-sunny-sf-db01-12-5",
+      "workbookRow": 342,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB01-25",
+      "id": "off-sunny-sf-db01-25",
+      "workbookRow": 343,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB05-2GY",
+      "id": "off-sunny-sf-db05-2gy",
+      "workbookRow": 365,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB05-3GY",
+      "id": "off-sunny-sf-db05-3gy",
+      "workbookRow": 366,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB05-5GY",
+      "id": "off-sunny-sf-db05-5gy",
+      "workbookRow": 367,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB05-8GY",
+      "id": "off-sunny-sf-db05-8gy",
+      "workbookRow": 368,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB05-10GY",
+      "id": "off-sunny-sf-db05-10gy",
+      "workbookRow": 369,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB05-12GY",
+      "id": "off-sunny-sf-db05-12gy",
+      "workbookRow": 370,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB05-15GY",
+      "id": "off-sunny-sf-db05-15gy",
+      "workbookRow": 371,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB05-20GY",
+      "id": "off-sunny-sf-db05-20gy",
+      "workbookRow": 372,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB05-25GY",
+      "id": "off-sunny-sf-db05-25gy",
+      "workbookRow": 373,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB05-30GY",
+      "id": "off-sunny-sf-db05-30gy",
+      "workbookRow": 374,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E1114",
+      "id": "off-sunny-sf-e1114",
+      "workbookRow": 375,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E1404",
+      "id": "off-sunny-sf-e1404",
+      "workbookRow": 376,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E1405",
+      "id": "off-sunny-sf-e1405",
+      "workbookRow": 377,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": "https://sunnyhealthfitness.com/blogs/products/best-elliptical-home-small-medium-large-spaces",
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E2310",
+      "id": "off-sunny-sf-e2310",
+      "workbookRow": 378,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E323024",
+      "id": "off-sunny-sf-e323024",
+      "workbookRow": 393,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E323025",
+      "id": "off-sunny-sf-e323025",
+      "workbookRow": 394,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E323026",
+      "id": "off-sunny-sf-e323026",
+      "workbookRow": 395,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E323027",
+      "id": "off-sunny-sf-e323027",
+      "workbookRow": 396,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E324829",
+      "id": "off-sunny-sf-e324829",
+      "workbookRow": 407,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E3416",
+      "id": "off-sunny-sf-e3416",
+      "workbookRow": 411,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E3416H",
+      "id": "off-sunny-sf-e3416h",
+      "workbookRow": 412,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E3607",
+      "id": "off-sunny-sf-e3607",
+      "workbookRow": 413,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3607",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-E3607_manual.pdf?v=1721848127",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e3607-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-ellipticals-magnetic-elliptical-trainer-SF-E3607-product_750x.jpg?v=1640730326",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3607",
+        "match": "exact model manual heading",
+        "sha256": "00c897ef50f4ba27748810a05210664ae6282073d90a2b691cb2f0d02d46f8a3"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E3608",
+      "id": "off-sunny-sf-e3608",
+      "workbookRow": 414,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E3609",
+      "id": "off-sunny-sf-e3609",
+      "workbookRow": 415,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E3617",
+      "id": "off-sunny-sf-e3617",
+      "workbookRow": 416,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E3626",
+      "id": "off-sunny-sf-e3626",
+      "workbookRow": 417,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E3628",
+      "id": "off-sunny-sf-e3628",
+      "workbookRow": 418,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E3803",
+      "id": "off-sunny-sf-e3803",
+      "workbookRow": 419,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E3862-DUP",
+      "id": "off-sunny-sf-e3862-dup",
+      "workbookRow": 423,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E3919SMART",
+      "id": "off-sunny-sf-e3919smart",
+      "workbookRow": 437,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E3957",
+      "id": "off-sunny-sf-e3957",
+      "workbookRow": 439,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e3957-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sku": "SF-E3957",
+        "sourceFile": "Spec Sheet for SF-E3957.xlsx",
+        "sheet": "Sheet1",
+        "object": "xl/media/image4.png",
+        "match": "exact model in worksheet",
+        "sha256": "62babfa1e9a76c836f36156cb4f55287f12c47c500a52c14b43d3ee0fcfa3331"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E3959SMARTW",
+      "id": "off-sunny-sf-e3959smartw",
+      "workbookRow": 442,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E3981",
+      "id": "off-sunny-sf-e3981",
+      "workbookRow": 443,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3981",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-E3981_manual.pdf?v=1680908835",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-e3981-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-elliptical-carbon-pro-magnetic-elliptical-SF-E3981-01_750x.jpg?v=1629308153",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-e3981",
+        "match": "exact model manual heading",
+        "sha256": "67104ce0d937424ffadfe3e898489228065dba8a1d66d3e9f7ed8883e95f2730"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E902B",
+      "id": "off-sunny-sf-e902b",
+      "workbookRow": 447,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E902RG",
+      "id": "off-sunny-sf-e902rg",
+      "workbookRow": 448,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-E906",
+      "id": "off-sunny-sf-e906",
+      "workbookRow": 453,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-EB802",
+      "id": "off-sunny-sf-eb802",
+      "workbookRow": 475,
+      "category": "Ellipticals",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-EBK2001",
+      "id": "off-sunny-sf-ebk2001",
+      "workbookRow": 476,
+      "category": "Essentials",
+      "productUrl": "https://sunnyhealthfitness.com/products/fit-and-toned-at-home-workout-program-e-book?variant=32909628473434",
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-ebk2001-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/products/e-book-get-fit-and-toned-at-home-workout-program-01.jpg?v=1702056006",
+        "page": "https://sunnyhealthfitness.com/products/fit-and-toned-at-home-workout-program-e-book?variant=32909628473434",
+        "match": "exact variant SKU",
+        "sha256": "a20e73289df2fad5c2c2f0e4e6f7d39ba4d3ec76e2a2cb18ac61961a714d43e7"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-EBK2002",
+      "id": "off-sunny-sf-ebk2002",
+      "workbookRow": 477,
+      "category": "Essentials",
+      "productUrl": "https://sunnyhealthfitness.com/products/the-row-n-ride-guide-to-sculpt-tone-a-complete-guide-12-week-workout-program-e-book?variant=39248469360730",
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-ebk2002-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/products/row-n-ride-guide-to-sculpt-tone-e-book-01-main.jpg?v=1702056158",
+        "page": "https://sunnyhealthfitness.com/products/the-row-n-ride-guide-to-sculpt-tone-a-complete-guide-12-week-workout-program-e-book?variant=39248469360730",
+        "match": "exact variant SKU",
+        "sha256": "8e7392bac2bd4de730bfbdacf1169c8e3e955269e96e33b72b9a2cc2fe40bf77"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-ebk2002"
+        }
+      ]
+    },
+    {
+      "sku": "SF-KB01-10PK",
+      "id": "off-sunny-sf-kb01-10pk",
+      "workbookRow": 510,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-KB01-15GN",
+      "id": "off-sunny-sf-kb01-15gn",
+      "workbookRow": 511,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-KB01-20BU",
+      "id": "off-sunny-sf-kb01-20bu",
+      "workbookRow": 512,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-kb01-20bu"
+        }
+      ]
+    },
+    {
+      "sku": "SF-KB01-25OR",
+      "id": "off-sunny-sf-kb01-25or",
+      "workbookRow": 513,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-kb01-25or"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RB1117",
+      "id": "off-sunny-sf-rb1117",
+      "workbookRow": 533,
+      "category": "Indoor Bikes",
+      "productUrl": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-sf-rb1117-magnetic-folding-recumbent-bike-exercise-bike-220lb-capacity?variant=16470600155226",
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb1117",
+      "manualUrl": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb1117",
+      "manualVerification": "Official manual directory link",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rb1117-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/products/sunny-health-fitness-bikes-magnetic-folding-recumbent-bike-exercise-bike-220lb-capacity-SF-RB1117-01.jpg?v=1585331369",
+        "page": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-sf-rb1117-magnetic-folding-recumbent-bike-exercise-bike-220lb-capacity?variant=16470600155226",
+        "match": "exact variant SKU",
+        "sha256": "84455bb596d501d7255bc2433d5b57632f4e7bb1081120e83b55676aa3f6f7ab"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb1117"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RB1202",
+      "id": "off-sunny-sf-rb1202",
+      "workbookRow": 534,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb1202"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RB4417",
+      "id": "off-sunny-sf-rb4417",
+      "workbookRow": 545,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4417"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RB4601",
+      "id": "off-sunny-sf-rb4601",
+      "workbookRow": 546,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4601"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RB4602",
+      "id": "off-sunny-sf-rb4602",
+      "workbookRow": 547,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rb4602-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sku": "SF-RB4602",
+        "sourceFile": "SF-RB4602 Spec sheet.xlsx",
+        "sheet": "Sheet1",
+        "object": "xl/media/image1.png",
+        "match": "exact model in worksheet",
+        "sha256": "763882099749f2fdf97aa9bb5b341c0aff5d818df7d466e1077b0d2bd9997d46"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4602"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RB4616",
+      "id": "off-sunny-sf-rb4616",
+      "workbookRow": 548,
+      "category": "Indoor Bikes",
+      "productUrl": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-sf-rb4616-magnetic-recumbent-bike-exercise-bike-300lb-capacity-easy-adjustable-seat-monitor-pulse-rate-monitoring?variant=16470600187994",
+      "guidePage": "https://support.sunnyhealthfitness.com/hc/en-us/articles/4409372945051-SF-RB4616-Assembly",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-RB4616_Multi_Language_Manual_V2.11_2020.8.5_80d627c9-dcba-426f-b164-3f88e887e09f.pdf?v=1603394588",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": "https://support.sunnyhealthfitness.com/hc/en-us/articles/4409372945051-SF-RB4616-Assembly",
+      "assemblyPage": "https://support.sunnyhealthfitness.com/hc/en-us/articles/4409372945051-SF-RB4616-Assembly",
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rb4616-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/products/sunny-health-fitness-bikes-magnetic-recumbent-exercise-bike-300lb-capacity-easy-adjustable-seat-SF-RB4616-01.jpg?v=1587756044",
+        "page": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-sf-rb4616-magnetic-recumbent-bike-exercise-bike-300lb-capacity-easy-adjustable-seat-monitor-pulse-rate-monitoring?variant=16470600187994",
+        "match": "exact variant SKU",
+        "sha256": "39af39be45dc4c4776f9939d43a42ee734b593b9faa81f8cafa0ebc35a0765b0"
+      },
+      "officialArticle": null,
+      "unavailable": [],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4616"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RB4616SB",
+      "id": "off-sunny-sf-rb4616sb",
+      "workbookRow": 550,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4616sb"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RB4806",
+      "id": "off-sunny-sf-rb4806",
+      "workbookRow": 554,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": "https://support.sunnyhealthfitness.com/hc/en-us/articles/4409464680347-SF-RB4806-Assembly",
+      "manualUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/SF-RB4806_English_Manual_Version_3.1_2020.12.15.pdf?v=1608336207",
+      "manualVerification": "PDF or support resource verified",
+      "assemblyUrl": "https://support.sunnyhealthfitness.com/hc/en-us/articles/4409464680347-SF-RB4806-Assembly",
+      "assemblyPage": "https://support.sunnyhealthfitness.com/hc/en-us/articles/4409464680347-SF-RB4806-Assembly",
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rb4806-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-bikes-magnetic-recumbent-exercise-bike-easy-adjustable-seat-tablet-holder-RPM-pulse-rate-SF-RB4806-01_750x.jpg?v=1629305745",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4806",
+        "match": "Exact model manual heading and SKU in image filename",
+        "sha256": "b9ecf576e166df5f4acc86cc0ebda8614ef4f7e4e42b57e97c984c03692084ba"
+      },
+      "officialArticle": null,
+      "unavailable": [],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4806"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RB4880",
+      "id": "off-sunny-sf-rb4880",
+      "workbookRow": 558,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4880",
+      "manualUrl": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4880",
+      "manualVerification": "Official manual directory link",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rb4880-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-bikes-stationary-recumbent-bike-exercise-bike-self-powered-cycling-USB-charging-function-SF-RB4880-01_750x.jpg?v=1590772580",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4880",
+        "match": "Exact model manual heading and SKU in image filename",
+        "sha256": "e326f3fcbfe503036f9167e856855fd4d799434e47afa0e669a0130ea81af708"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4880"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RB4907",
+      "id": "off-sunny-sf-rb4907",
+      "workbookRow": 560,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4907"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RB4954",
+      "id": "off-sunny-sf-rb4954",
+      "workbookRow": 563,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4954",
+      "manualUrl": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4954",
+      "manualVerification": "Official manual directory link",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rb4954-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-bikes-evo-fit-cardio-recumbent-bike-SF-RB4954-01_750x.jpg?v=1629307848",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4954",
+        "match": "Exact model manual heading and SKU in image filename",
+        "sha256": "0ca5d5bf166f5904746adb43948776d1e9dda586139fb4d9e634802d17252ff8"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4954"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RB4958",
+      "id": "off-sunny-sf-rb4958",
+      "workbookRow": 564,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rb4958-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sku": "SF-RB4958",
+        "sourceFile": "Specification sheet for SF-RB4958 10082019.xlsx",
+        "sheet": "Sheet1",
+        "object": "xl/media/image1.png",
+        "match": "exact model in worksheet",
+        "sha256": "e20a8fb94ad3d9b9f0817f008c4039cbf9cdf92916d50f936e3dabca4aa87c92"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb4958"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RB801",
+      "id": "off-sunny-sf-rb801",
+      "workbookRow": 565,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb801"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RB921",
+      "id": "off-sunny-sf-rb921",
+      "workbookRow": 566,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb921"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RB925",
+      "id": "off-sunny-sf-rb925",
+      "workbookRow": 567,
+      "category": "Indoor Bikes",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rb925"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RBE424835",
+      "id": "off-sunny-sf-rbe424835",
+      "workbookRow": 572,
+      "category": "Ellipticals",
+      "productUrl": "https://sunnyhealthfitness.com/products/smart-magnetic-dual-action-recumbent-elliptical-trainer-sf-rbe424835?variant=53409517830508",
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rbe424835-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0052/7043/7978/files/sunny-health-fitness-smart-magnetic-dual-action-elliptical-SF-RBE424835.jpg?v=1776461554",
+        "page": "https://sunnyhealthfitness.com/products/smart-magnetic-dual-action-recumbent-elliptical-trainer-sf-rbe424835?variant=53409517830508",
+        "match": "exact variant SKU",
+        "sha256": "d87dbf88832222a7345d06d64cb2c9a5e663741066ac12337d692aceb125e826"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rbe424835"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW1005",
+      "id": "off-sunny-sf-rw1005",
+      "workbookRow": 574,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw1005"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW1205SMARTGY",
+      "id": "off-sunny-sf-rw1205smartgy",
+      "workbookRow": 577,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw1205smartgy"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW1406",
+      "id": "off-sunny-sf-rw1406",
+      "workbookRow": 578,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw1406"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW1410",
+      "id": "off-sunny-sf-rw1410",
+      "workbookRow": 579,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw1410"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW522083K",
+      "id": "off-sunny-sf-rw522083k",
+      "workbookRow": 594,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw522083k"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW524087",
+      "id": "off-sunny-sf-rw524087",
+      "workbookRow": 599,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw524087"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW5508",
+      "id": "off-sunny-sf-rw5508",
+      "workbookRow": 604,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5508"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW5515B",
+      "id": "off-sunny-sf-rw5515b",
+      "workbookRow": 606,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5515b"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW5612",
+      "id": "off-sunny-sf-rw5612",
+      "workbookRow": 608,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5612"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW5619",
+      "id": "off-sunny-sf-rw5619",
+      "workbookRow": 609,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5619"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW5623",
+      "id": "off-sunny-sf-rw5623",
+      "workbookRow": 611,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5623"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW5624",
+      "id": "off-sunny-sf-rw5624",
+      "workbookRow": 612,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5624"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW5633",
+      "id": "off-sunny-sf-rw5633",
+      "workbookRow": 613,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5633"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW5634",
+      "id": "off-sunny-sf-rw5634",
+      "workbookRow": 614,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5634"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW5642",
+      "id": "off-sunny-sf-rw5642",
+      "workbookRow": 618,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5642"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW5720",
+      "id": "off-sunny-sf-rw5720",
+      "workbookRow": 621,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5720"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW5727",
+      "id": "off-sunny-sf-rw5727",
+      "workbookRow": 622,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5727"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW5728",
+      "id": "off-sunny-sf-rw5728",
+      "workbookRow": 623,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5728"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW5730",
+      "id": "off-sunny-sf-rw5730",
+      "workbookRow": 624,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5730"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW5730-DUP",
+      "id": "off-sunny-sf-rw5730-dup",
+      "workbookRow": 625,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5730-dup"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW5809-2",
+      "id": "off-sunny-sf-rw5809-2",
+      "workbookRow": 628,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5809-2"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW5864",
+      "id": "off-sunny-sf-rw5864",
+      "workbookRow": 631,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5864",
+      "manualUrl": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5864",
+      "manualVerification": "Official manual directory link",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw5864-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-rowers-full-motion-magnetic-rowing-machine-SF-RW5864-product_750x.jpg?v=1641339041",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5864",
+        "match": "Exact model manual heading and SKU in image filename",
+        "sha256": "4f66eef3fa1c5f3ee8abbfb58ed91a4bac3c94a91f91c41fe61927893ff3984a"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5864"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW5866",
+      "id": "off-sunny-sf-rw5866",
+      "workbookRow": 633,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5866",
+      "manualUrl": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5866",
+      "manualVerification": "Official manual directory link",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-rw5866-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sku": "SF-RW5866",
+        "sourceFile": "SF-RW5866 specification sheet.xlsx",
+        "sheet": "Sheet1",
+        "object": "xl/media/image1.jpeg",
+        "match": "exact model in worksheet",
+        "sha256": "db80c4f76d0604e11a495cc42d3202f30b5f99b197f934f6456e269deef04d32"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5866"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW5885",
+      "id": "off-sunny-sf-rw5885",
+      "workbookRow": 634,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5885"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW5892",
+      "id": "off-sunny-sf-rw5892",
+      "workbookRow": 635,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5892"
+        }
+      ]
+    },
+    {
+      "sku": "SF-RW5994",
+      "id": "off-sunny-sf-rw5994",
+      "workbookRow": 645,
+      "category": "Rowers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-rw5994"
+        }
+      ]
+    },
+    {
+      "sku": "SF-X7330",
+      "id": "off-sunny-sf-x7330",
+      "workbookRow": 646,
+      "category": "Steppers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-x7330"
+        }
+      ]
+    },
+    {
+      "sku": "SF-S026037",
+      "id": "off-sunny-sf-s026037",
+      "workbookRow": 651,
+      "category": "Steppers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-s026037-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sku": "SF-S026037",
+        "sourceFile": "SF-S026037 draft spec.xlsx",
+        "sheet": "Specs",
+        "object": "xl/media/image2.png",
+        "match": "exact model in worksheet",
+        "sha256": "d9715f663f05cdd4581ac324067d2216355eb7a7e2582a32391adbc8221e4064"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s026037"
+        }
+      ]
+    },
+    {
+      "sku": "SF-S021001WT",
+      "id": "off-sunny-sf-s021001wt",
+      "workbookRow": 653,
+      "category": "Steppers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s021001wt"
+        }
+      ]
+    },
+    {
+      "sku": "SF-S025006WT",
+      "id": "off-sunny-sf-s025006wt",
+      "workbookRow": 665,
+      "category": "Steppers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s025006wt"
+        }
+      ]
+    },
+    {
+      "sku": "SF-S0636",
+      "id": "off-sunny-sf-s0636",
+      "workbookRow": 672,
+      "category": "Steppers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s0636"
+        }
+      ]
+    },
+    {
+      "sku": "SF-S0637",
+      "id": "off-sunny-sf-s0637",
+      "workbookRow": 673,
+      "category": "Steppers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-S0855",
+      "id": "off-sunny-sf-s0855",
+      "workbookRow": 674,
+      "category": "Steppers",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s0855",
+      "manualUrl": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s0855",
+      "manualVerification": "Official manual directory link",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-s0855-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sku": "SF-S0855",
+        "sourceFile": "SF-S0855 specification sheet.xlsx",
+        "sheet": "Sheet1",
+        "object": "xl/media/image1.png",
+        "match": "exact model in worksheet",
+        "sha256": "6915f313890f7c9144a54109674d714161ebe24d0119e686048c2e33694afeb4"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s0855"
+        }
+      ]
+    },
+    {
+      "sku": "SF-S0870",
+      "id": "off-sunny-sf-s0870",
+      "workbookRow": 675,
+      "category": "Steppers",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s0870",
+      "manualUrl": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s0870",
+      "manualVerification": "Official manual directory link",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-s0870-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-steppers-versa-stepper-step-machine-wide-non-slip-pedals-resistance-bands-LCD-monitor-SF-S0870-01_750x.jpg?v=1619643354",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s0870",
+        "match": "Exact model manual heading and SKU in image filename",
+        "sha256": "ce24d4369e86a363022edd82ce95bf3be154608231c1cdbccd799a308dd5b586"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-s0870"
+        }
+      ]
+    },
+    {
+      "sku": "SF-S1402",
+      "id": "off-sunny-sf-s1402",
+      "workbookRow": 680,
+      "category": "Steppers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-S9978",
+      "id": "off-sunny-sf-s9978",
+      "workbookRow": 682,
+      "category": "Steppers",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-s9978-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sku": "SF-S9978",
+        "sourceFile": "SF-S9978 FINAL SPEC SHEET 10132023.xlsx",
+        "sheet": "SF-S021054",
+        "object": "xl/media/image6.jpeg",
+        "match": "exact model in worksheet",
+        "sha256": "5fcce433cb35b08bbbb7fb5066ae081b8ba46b6f7814739b564defbee8cfd22d"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T1408M",
+      "id": "off-sunny-sf-t1408m",
+      "workbookRow": 691,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T1409M",
+      "id": "off-sunny-sf-t1409m",
+      "workbookRow": 692,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T1413",
+      "id": "off-sunny-sf-t1413",
+      "workbookRow": 693,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T1414",
+      "id": "off-sunny-sf-t1414",
+      "workbookRow": 694,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T1415",
+      "id": "off-sunny-sf-t1415",
+      "workbookRow": 695,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T723830",
+      "id": "off-sunny-sf-t723830",
+      "workbookRow": 715,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T726014",
+      "id": "off-sunny-sf-t726014",
+      "workbookRow": 730,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T726020",
+      "id": "off-sunny-sf-t726020",
+      "workbookRow": 731,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T726024",
+      "id": "off-sunny-sf-t726024",
+      "workbookRow": 732,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T726524",
+      "id": "off-sunny-sf-t726524",
+      "workbookRow": 733,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T726031",
+      "id": "off-sunny-sf-t726031",
+      "workbookRow": 735,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t726031-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sku": "SF-T726031",
+        "sourceFile": "SF-T726031 Treadmill Spec Draft_20260717.xlsx",
+        "sheet": "Specs",
+        "object": "xl/media/image5.png",
+        "match": "exact model in worksheet",
+        "sha256": "09a333f19a89a85b389c19c28c1f93170b3ee3ea88fe986b5c7e248be15c166f"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T7420M",
+      "id": "off-sunny-sf-t7420m",
+      "workbookRow": 736,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T7512",
+      "id": "off-sunny-sf-t7512",
+      "workbookRow": 737,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T7513",
+      "id": "off-sunny-sf-t7513",
+      "workbookRow": 738,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T7514",
+      "id": "off-sunny-sf-t7514",
+      "workbookRow": 739,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T7604",
+      "id": "off-sunny-sf-t7604",
+      "workbookRow": 743,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7604",
+      "manualUrl": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7604",
+      "manualVerification": "Official manual directory link",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7604"
+        }
+      ]
+    },
+    {
+      "sku": "SF-T7613",
+      "id": "off-sunny-sf-t7613",
+      "workbookRow": 746,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T7614",
+      "id": "off-sunny-sf-t7614",
+      "workbookRow": 747,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T7615",
+      "id": "off-sunny-sf-t7615",
+      "workbookRow": 748,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T7635",
+      "id": "off-sunny-sf-t7635",
+      "workbookRow": 750,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T7705",
+      "id": "off-sunny-sf-t7705",
+      "workbookRow": 752,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7705-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sku": "SF-T7705",
+        "sourceFile": "SF-T7705 Specification.05.06.2022.xlsx",
+        "sheet": "Sheet1",
+        "object": "xl/media/image1.jpeg",
+        "match": "exact model in worksheet",
+        "sha256": "2649ea4360a089be066db655ebb1824045df79ebf372cce7890cc64c81fb5d61"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T7707",
+      "id": "off-sunny-sf-t7707",
+      "workbookRow": 754,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T7723",
+      "id": "off-sunny-sf-t7723",
+      "workbookRow": 757,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7723",
+      "manualUrl": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7723",
+      "manualVerification": "Official manual directory link",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7723-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-treadmills-force-fitmill-SF-T7723-product_750x.jpg?v=1640890815",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7723",
+        "match": "Exact model manual heading and SKU in image filename",
+        "sha256": "d4af13d01e1f5e5b210f7b9ae08c283a56d8b40e07b53b54c45e7737547739a1"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7723"
+        }
+      ]
+    },
+    {
+      "sku": "SF-T7820",
+      "id": "off-sunny-sf-t7820",
+      "workbookRow": 760,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7820-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sku": "SF-T7820",
+        "sourceFile": "SF-T7820 SPECIFICATION.xlsx",
+        "sheet": "Sheet1",
+        "object": "xl/media/image1.png",
+        "match": "exact model in worksheet",
+        "sha256": "ff8ff2a2e0b433b9b94810e1d1c7d0ebb23a880444171e55b538857745bc6feb"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T7860",
+      "id": "off-sunny-sf-t7860",
+      "workbookRow": 762,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7860-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sku": "SF-T7860",
+        "sourceFile": "SF-T7860 Specification.xlsx",
+        "sheet": "SF-T7860",
+        "object": "xl/media/image1.png",
+        "match": "exact model in worksheet",
+        "sha256": "f227c9179e6829bb00c3eb062fcd4a89f46d1188c0d11c66b081718c04819e1f"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T7861",
+      "id": "off-sunny-sf-t7861",
+      "workbookRow": 763,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7861-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sku": "SF-T7861",
+        "sourceFile": "SF-T7861 Specification.xlsx",
+        "sheet": "SF-T7861",
+        "object": "xl/media/image1.png",
+        "match": "exact model in worksheet",
+        "sha256": "8d4d63ec8ba7e52875fe4d32961e883805b0b2bf99a71bbc9026feb5841a35b4"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T7873",
+      "id": "off-sunny-sf-t7873",
+      "workbookRow": 764,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7873",
+      "manualUrl": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7873",
+      "manualVerification": "Official manual directory link",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7873-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-treadmills-auto-incline-treadmill-SF-T7873-product_750x.jpg?v=1640822114",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7873",
+        "match": "Exact model manual heading and SKU in image filename",
+        "sha256": "8dd69d4a0ee41d7de4fe03c86f519348cae74e561ed3e07c21976ee2971a3b48"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7873"
+        }
+      ]
+    },
+    {
+      "sku": "SF-T7874",
+      "id": "off-sunny-sf-t7874",
+      "workbookRow": 765,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7874",
+      "manualUrl": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7874",
+      "manualVerification": "Official manual directory link",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7874-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sku": "SF-T7874",
+        "sourceFile": "SF-T7874 SPEC 2020.11.5.xlsx",
+        "sheet": "Sheet1",
+        "object": "xl/media/image5.png",
+        "match": "exact model in worksheet",
+        "sha256": "0910e0037ae3f5175ccc0e8080f3f95760659e0a5bc2f58c27b962242cc4d45b"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7874"
+        }
+      ]
+    },
+    {
+      "sku": "SF-T7878",
+      "id": "off-sunny-sf-t7878",
+      "workbookRow": 766,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7878",
+      "manualUrl": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7878",
+      "manualVerification": "Official manual directory link",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7878-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-treadmills-sunny-health-fitness-cardio-trainer-manual-treadmill-adjustable-incline-300_-lbs-SF-T7878-01_750x.jpg?v=1629306552",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7878",
+        "match": "Exact model manual heading and SKU in image filename",
+        "sha256": "cd97411d4c533426bcc33db56c4732c00250f905ecdb3da7628ad82f9668a347"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7878"
+        }
+      ]
+    },
+    {
+      "sku": "SF-T7946",
+      "id": "off-sunny-sf-t7946",
+      "workbookRow": 772,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T7951",
+      "id": "off-sunny-sf-t7951",
+      "workbookRow": 773,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7951",
+      "manualUrl": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7951",
+      "manualVerification": "Official manual directory link",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7951"
+        }
+      ]
+    },
+    {
+      "sku": "SF-T7955",
+      "id": "off-sunny-sf-t7955",
+      "workbookRow": 774,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-T7970",
+      "id": "off-sunny-sf-t7970",
+      "workbookRow": 775,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7970",
+      "manualUrl": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7970",
+      "manualVerification": "Official manual directory link",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-sf-t7970-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sourceUrl": "https://sunnyhealthfitness.com/cdn/shop/products/sunny-health-fitness-treadmills-treadpad-flat-folding-treadmill-premium-sound-system-SF-T7970-01_750x.jpg?v=1593105816",
+        "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7970",
+        "match": "Exact model manual heading and SKU in image filename",
+        "sha256": "aaeaa963e3d0b0eb8f2d7bc4bc9d92e22e43580636cfbbb9ab50a2ffe63e8df0"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/sf-t7970"
+        }
+      ]
+    },
+    {
+      "sku": "SF-T808M",
+      "id": "off-sunny-sf-t808m",
+      "workbookRow": 777,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-V1007",
+      "id": "off-sunny-sf-v1007",
+      "workbookRow": 779,
+      "category": "Essentials",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SH-0601",
+      "id": "off-sunny-sh-0601",
+      "workbookRow": 849,
+      "category": "Essentials",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SH-0714",
+      "id": "off-sunny-sh-0714",
+      "workbookRow": 850,
+      "category": "Essentials",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SH-0715",
+      "id": "off-sunny-sh-0715",
+      "workbookRow": 851,
+      "category": "Essentials",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SH-0817",
+      "id": "off-sunny-sh-0817",
+      "workbookRow": 852,
+      "category": "Essentials",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SH-0818",
+      "id": "off-sunny-sh-0818",
+      "workbookRow": 853,
+      "category": "Essentials",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SH-1010",
+      "id": "off-sunny-sh-1010",
+      "workbookRow": 854,
+      "category": "Essentials",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SH-1011",
+      "id": "off-sunny-sh-1011",
+      "workbookRow": 855,
+      "category": "Essentials",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SMW-004B",
+      "id": "off-sunny-smw-004b",
+      "workbookRow": 856,
+      "category": "Essentials",
+      "productUrl": null,
+      "guidePage": "https://sunnyhealthfitness.com/blogs/assembly-guides/smw-004b",
+      "manualUrl": "https://sunnyhealthfitness.com/blogs/assembly-guides/smw-004b",
+      "manualVerification": "Official manual directory link",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-smw-004b-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sku": "SMW-004B",
+        "sourceFile": "Accessory Product Spec for SMW-004B(Ceefit-235).xlsx",
+        "sheet": "Specification",
+        "object": "xl/media/image1.jpeg",
+        "match": "exact model in worksheet",
+        "sha256": "3b9081c23d100ee11d73969806c82bdf23928866d0b3580dc3c59e0c7a561dd8"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Assembly guide"
+      ],
+      "lookupErrors": [
+        {
+          "guide": "HTTP Error 429: Too Many Requests",
+          "page": "https://sunnyhealthfitness.com/blogs/assembly-guides/smw-004b"
+        }
+      ]
+    },
+    {
+      "sku": "STDBH-14",
+      "id": "off-sunny-stdbh-14",
+      "workbookRow": 859,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "TM-1",
+      "id": "off-sunny-tm-1",
+      "workbookRow": 862,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "TM10",
+      "id": "off-sunny-tm10",
+      "workbookRow": 863,
+      "category": "Treadmills",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": "/api/catalog-images/off-sunny-web/off-sunny-tm10-isv-gap-v1.jpg",
+      "imageEvidence": {
+        "sku": "TM10",
+        "sourceFile": "TM10=SF-T7945 SMART Specification Sheet 08.16.2023.xlsx",
+        "sheet": "Sheet1",
+        "object": "xl/media/image3.png",
+        "match": "exact model in worksheet",
+        "sha256": "81dc150343c5ac6e90babc472e6f6b081f99f25f745102399e783d778764e554"
+      },
+      "officialArticle": null,
+      "unavailable": [
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "Y.08",
+      "id": "off-sunny-y-08",
+      "workbookRow": 865,
+      "category": "Essentials",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "Y.08 WHITE",
+      "id": "off-sunny-y-08-white",
+      "workbookRow": 866,
+      "category": "Essentials",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB76-20",
+      "id": "off-sunny-sf-db76-20",
+      "workbookRow": 867,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB75-2GY",
+      "id": "off-sunny-sf-db75-2gy",
+      "workbookRow": 868,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB76-32",
+      "id": "off-sunny-sf-db76-32",
+      "workbookRow": 869,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB77-100",
+      "id": "off-sunny-sf-db77-100",
+      "workbookRow": 870,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB75-5GY",
+      "id": "off-sunny-sf-db75-5gy",
+      "workbookRow": 871,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB75-12GY",
+      "id": "off-sunny-sf-db75-12gy",
+      "workbookRow": 872,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB75-25GY",
+      "id": "off-sunny-sf-db75-25gy",
+      "workbookRow": 873,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB75-8GY",
+      "id": "off-sunny-sf-db75-8gy",
+      "workbookRow": 874,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB75-15GY",
+      "id": "off-sunny-sf-db75-15gy",
+      "workbookRow": 875,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB75-3GY",
+      "id": "off-sunny-sf-db75-3gy",
+      "workbookRow": 876,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB75-30GY",
+      "id": "off-sunny-sf-db75-30gy",
+      "workbookRow": 877,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB75-10GY",
+      "id": "off-sunny-sf-db75-10gy",
+      "workbookRow": 878,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-DB75-20GY",
+      "id": "off-sunny-sf-db75-20gy",
+      "workbookRow": 879,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-KB71-10PK",
+      "id": "off-sunny-sf-kb71-10pk",
+      "workbookRow": 880,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-KB71-25OR",
+      "id": "off-sunny-sf-kb71-25or",
+      "workbookRow": 881,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-KB71-15GN",
+      "id": "off-sunny-sf-kb71-15gn",
+      "workbookRow": 882,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-KB72-30",
+      "id": "off-sunny-sf-kb72-30",
+      "workbookRow": 883,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    },
+    {
+      "sku": "SF-KB71-20BU",
+      "id": "off-sunny-sf-kb71-20bu",
+      "workbookRow": 884,
+      "category": "Weights",
+      "productUrl": null,
+      "guidePage": null,
+      "manualUrl": null,
+      "manualVerification": "No official manual verified",
+      "assemblyUrl": null,
+      "assemblyPage": null,
+      "imageUrl": null,
+      "imageEvidence": null,
+      "officialArticle": null,
+      "unavailable": [
+        "Image",
+        "Manual",
+        "Assembly guide"
+      ],
+      "lookupErrors": []
+    }
+  ]
+}
