@@ -2,9 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-11: Codex — Publish the ISV catalog reconciliation
+
+- Public Site: version 62 deployed from `78881a5bdd018e470e095686ff0bcccf3395610c`, deployment `appgdep_6af4a6f6d7b88191ba781f950d83263c`. Public access retained.
+- Verification: All 40 suites passed. Desktop and phone preview screenshots, both model searches and the production build passed. The live API returned all 263 new records, for 889 total, and all 626 existing records matched the prepublication snapshot. The live SF-B1001 image matched its verified asset hash.
+- Workbook scope: 881 model entries on the Sunny Health & Fitness tab, representing 880 model identities after merging the confirmed same-ASIN spelling duplicate. Exact model aliases and unavailable resources are recorded in the import audit.
+- Claude Artifact: awaiting Claude Code publication and catalog sync.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-11: Codex — Import Sunny models missing from the ISV catalog comparison
 
-- Changes: Compared 881 distinct models in ISV 4.0.xlsx SHF against the 626-model live Site. Added 263 missing models as Off Sunny web references, including SF-B1001 and SF-E1405. Two verified punctuation variants were already present. Other workbook tabs cover ZooVaa, Efitment and Aurora.
+- Changes: Compared 881 model entries in ISV 4.0.xlsx SHF against the 626-model live Site. Added 263 missing models as Off Sunny web references, including SF-B1001 and SF-E1405. Two verified punctuation variants were already present. Other workbook tabs cover ZooVaa, Efitment and Aurora.
 - Resources: 45 exact-model official images and 21 exact specification-sheet photos, 46 manual links including 15 official directory links, two standalone official assembly guides, and six exact product listings. Audit records source evidence, hashes, missing resources and rate-limited lookups. Public ISV fields are limited to identification and consumer specs. New images await practice-mode text review.
 - Catalog safety: Checked the live catalog before import. It contains the owner-edited SF-DB01 row corresponding to the repository SF-DB01-55 row. The new import only inserts missing IDs and skips an existing SKU, preserving live edits. Images use pinned commit 09ed2918888594ad0eb6042321866a5d6994bc0e.
 - Tests: Focused import and both-model search checks passed. Full release verification is in progress.
