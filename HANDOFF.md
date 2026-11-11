@@ -2,6 +2,14 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-10: Codex — Publish category analytics and feedback popup
+
+- Public Site: version 60 deployed from `863d612eaca0c2184700c58801b67a4f09ac4c66`, deployment `appgdep_6af3c2b705748191b04e7e2ba09945fb`. Public access retained.
+- Tests: All 39 suites passed. Build and desktop/phone preview captures passed, including category ranking, product detail and all-feedback popups.
+- Feedback: Default report returns ten comments; View all loads all retained comments in the selected 7, 30 or 90 day period.
+- Claude Artifact: awaiting Claude Code publication; analytics remain Site-only.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-10: Codex — Group public usage by category and compact feedback
 
 - Changes: Replaced the wide product table with one total-click row per catalog category. A horizontal bar graph sorts by category or ranks total and individual resource counts. Category buttons open a compact per-product detail popup. Feedback defaults to the latest ten; View all comments loads all retained comments in the selected period into a scrollable admin-only popup.
