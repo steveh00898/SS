@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-11: Claude Code — git pull: review Codex Site versions 51–62; Artifact version 32 with 889 products
+- Received: 26 Codex commits (f253933..2205c4d), all with Agent trailers and HANDOFF entries: uploaded-image path fix, 15 owner photos, header stacking, spec unit wording simplified (estimated-unit labels removed; tests updated to match), comparison row highlighting and click-to-compare, desktop fit, usage analytics (resources, categories, click popups, migration 0005), and the ISV gap import (263 Off Sunny web models, 66 images). Both runtime paths (/api and window.claude) intact. No weakened assertions beyond the documented wording change.
+- Tests: all 40 tests/*.spec.cjs passed with installed Chrome through a local preload; npm run screenshots passed (desktop and phone).
+- Claude Artifact: PUBLISHED version 32 (id 1794438226-99ea) from dist/artifact/index.html built at 2205c4d. Read all 626 items first: the only app-only differences are the four known owner edits (sf-t722021, sf-t722076, sf-t724011, sf-t725067), kept. Uploaded 81 pictures (66 ISV-gap images, 15 owner photos) to the Artifact assets; created 263 item documents; updated the 15 owner-photo items' picture fields (pinned). Replaced all 27 reference documents (data version 2452b4a66ad1bd8d, pinned). Read back: 889 items equal the repository apart from those four edits, the Artifact's own /_blob picture links and the Site-only priceSource label; 27 of 27 reference documents identical. Not checked in the signed-in viewer.
+- Private Site: PUBLIC version 62 from 78881a5 (Codex); main is 2205c4d plus this entry, no app changes since.
+- Practice data: not exported (owner decision).
+- Next steps: owner checks the Artifact while signed in; new images await practice-mode text review.
 ## 2026-11-11: Codex — Publish the ISV catalog reconciliation
 
 - Public Site: version 62 deployed from `78881a5bdd018e470e095686ff0bcccf3395610c`, deployment `appgdep_6af4a6f6d7b88191ba781f950d83263c`. Public access retained.
