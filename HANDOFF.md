@@ -2,6 +2,15 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-10: Codex — Group public usage by category and compact feedback
+
+- Changes: Replaced the wide product table with one total-click row per catalog category. A horizontal bar graph sorts by category or ranks total and individual resource counts. Category buttons open a compact per-product detail popup. Feedback defaults to the latest ten; View all comments loads all retained comments in the selected period into a scrollable admin-only popup.
+- Files: app/index.html, server/worker.js and usage UI/feedback tests.
+- Tests: Focused coverage passed for 11 rows, grouped totals, category details, resource ranking, default ten and all 105 comments, permission denial, escaped feedback, popup scrolling, focus restoration and mobile width. Full release verification is in progress.
+- Claude Artifact: awaiting Claude Code publication; analytics remain Site-only.
+- Public Site: awaiting tested publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-10: Codex — Publish expanded public usage analysis
 
 - Public Site: version 59 deployed from `de2d813ca389496672f6c8a1f19f8904f88c0a63`, deployment `appgdep_6af3a3643c108191979d9e5e69e9ca3f`. Public access retained.

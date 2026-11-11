@@ -489,6 +489,19 @@ body.spec-view table.ptable{min-width:0}
   .spec-compare-head>div:nth-child(2){border-left:0}
   .spec-compare-head small{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
 }
+.usage-categories{width:100%;min-width:0!important;table-layout:fixed}
+.usage-categories th:last-child,.usage-categories td:last-child{width:110px;text-align:center}
+.usage-category-link{border:0;background:none;color:var(--fg);font:inherit;text-decoration:underline;text-underline-offset:3px;cursor:pointer;text-align:left;overflow-wrap:anywhere}
+.usage-ranking{display:grid;gap:10px;margin:18px 0}
+.usage-rank-row{display:grid;grid-template-columns:minmax(100px,180px) minmax(0,1fr) 45px;align-items:center;gap:12px}
+.usage-rank-row strong{text-align:center}
+.usage-rank-track{height:14px;background:var(--surface-2);border-radius:3px;overflow:hidden}
+.usage-rank-fill{display:block;height:100%;background:var(--accent);border-radius:3px}
+.usage-product-detail{padding:14px 0;border-bottom:1px solid var(--line)}
+.usage-resource-counts{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:13px;margin-top:8px}
+.usage-resource-counts span{color:var(--muted)}
+.usage-resource-counts b{color:var(--fg)}
+@media(max-width:720px){.usage-rank-row{grid-template-columns:110px minmax(0,1fr) 32px;gap:6px;font-size:12px}}
 </style>
 
 </head><body><header class="top">
@@ -1711,8 +1724,61 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
     }
   }
   // Anonymous daily link totals. Tracking is best-effort and never delays opening a resource.
-  const usage = {days:'30',category:'',kind:'all',data:null,error:'',loading:false,sequence:0,showP90:false};
+  const usage = {days:'30',category:'',kind:'all',data:null,error:'',loading:false,sequence:0,showP90:false,rank:'total'};
   const usageLabels = {product:'Product page',manual:'User manual',assembly:'Assembly guide',spec:'Product Spec',isv:'ISV'};
+  function categoryUsage(kind=usage.kind){
+    const names=[...new Set(state.items.map(item=>item.category))];
+    const grouped=new Map(names.filter(name=>!usage.category||name===usage.category).map(name=>[name,{name,total:0}]));
+    for(const row of usage.data?.rows||[]){
+      if((usage.category&&row.category!==usage.category)||(kind!=='all'&&row.kind!==kind))continue;
+      if(!grouped.has(row.category))grouped.set(row.category,{name:row.category,total:0});
+      grouped.get(row.category).total+=Number(row.clicks)||0;
+    }
+    return [...grouped.values()];
+  }
+  function usageCategoryPanel(){
+    const rows=categoryUsage().sort((a,b)=>b.total-a.total||a.name.localeCompare(b.name));
+    const metric=usage.rank==='total'||usage.rank==='category'?usage.kind:usage.rank;
+    const graph=categoryUsage(metric).sort((a,b)=>usage.rank==='category'?a.name.localeCompare(b.name):b.total-a.total||a.name.localeCompare(b.name));
+    const max=Math.max(1,...graph.map(row=>row.total));
+    return '<section class="pv-panel" id="usageCategories"><h2>Most-used products by category</h2><p class="pv-help">Click a category to see its products. Counts follow the selected period and category. Choose a resource to rank the graph.</p><label>Graph order and resource<select data-usage-rank><option value="total" '+(usage.rank==='total'?'selected':'')+'>Total clicks</option><option value="category" '+(usage.rank==='category'?'selected':'')+'>Category name</option>'+Object.entries(usageLabels).map(([key,label])=>'<option value="'+key+'" '+(usage.rank===key?'selected':'')+'>'+label+'</option>').join('')+'</select></label><div class="usage-ranking" role="list" aria-label="Category resource counts">'+graph.map(row=>'<div class="usage-rank-row" role="listitem"><button type="button" class="usage-category-link" data-usage-metric="'+esc(metric)+'" data-usage-category="'+esc(row.name)+'">'+esc(row.name)+'</button><span class="usage-rank-track" aria-hidden="true"><i class="usage-rank-fill" style="width:'+Math.round(row.total/max*100)+'%"></i></span><strong>'+row.total.toLocaleString()+'</strong></div>').join('')+'</div><table class="ptable usage-categories"><thead><tr><th>Category</th><th>Total clicks</th></tr></thead><tbody>'+rows.map(row=>'<tr><td><button type="button" class="usage-category-link" data-usage-category="'+esc(row.name)+'">'+esc(row.name)+'</button></td><td>'+row.total.toLocaleString()+'</td></tr>').join('')+'</tbody></table></section>';
+  }
+  function feedbackEntries(feedback){return '<div class="feedback-list">'+feedback.map(f=>'<article><time>'+esc(new Date(f.at).toLocaleString())+'</time><p>'+esc(f.comment).replace(/\n/g,'<br>')+'</p></article>').join('')+'</div>';}
+  const usagePopup=document.createElement('dialog');usagePopup.className='product-spec-dialog';usagePopup.id='usagePopup';
+  usagePopup.innerHTML='<header><h2 id="usagePopupTitle"></h2><button type="button" class="btn" data-usage-close>Close ×</button></header><div class="product-spec-body" id="usagePopupBody"></div>';usagePopup.setAttribute('aria-labelledby','usagePopupTitle');document.body.append(usagePopup);
+  let usagePopupTrigger=null,usagePopupOverflow='';
+  function closeUsagePopup(){usagePopup.close();}
+  function showUsagePopup(title,html,trigger){
+    if(usagePopup.open)usagePopup.close();
+    usagePopupTrigger=trigger;usagePopupOverflow=document.body.style.overflow;
+    $('#usagePopupTitle').textContent=title;$('#usagePopupBody').innerHTML=html;
+    document.body.style.overflow='hidden';usagePopup.showModal();$('#usagePopupBody').scrollTop=0;usagePopup.querySelector('button').focus();
+  }
+  usagePopup.addEventListener('close',()=>{document.body.style.overflow=usagePopupOverflow;if(usagePopupTrigger?.isConnected)usagePopupTrigger.focus();});
+  usagePopup.querySelector('[data-usage-close]').addEventListener('click',closeUsagePopup);
+  usagePopup.addEventListener('click',e=>dialogBackdropClose(usagePopup,closeUsagePopup,e));
+  usagePopup.addEventListener('keydown',e=>trapDialogFocus(usagePopup,e));
+  $('#usageView').addEventListener('change',e=>{if(!e.target.matches('[data-usage-rank]'))return;usage.rank=e.target.value;$('#usageCategories').outerHTML=usageCategoryPanel();$('#usageView [data-usage-rank]').focus();});
+  $('#usageView').addEventListener('click',async e=>{
+    if(!pr.admin)return;
+    const category=e.target.closest('[data-usage-category]');
+    if(category){
+      const grouped=new Map();
+      const kind=category.dataset.usageMetric||usage.kind;
+      for(const row of usage.data?.rows||[]){if(row.category!==category.dataset.usageCategory||(kind!=='all'&&kind!==row.kind))continue;
+        if(!grouped.has(row.itemId))grouped.set(row.itemId,{sku:row.sku,name:row.name,total:0,counts:{}});
+        const item=grouped.get(row.itemId);item.total+=Number(row.clicks)||0;item.counts[row.kind]=Number(row.clicks)||0;
+      }
+      const items=[...grouped.values()].sort((a,b)=>b.total-a.total||a.sku.localeCompare(b.sku));
+      showUsagePopup(category.dataset.usageCategory+' — Product usage','<p class="pv-help">Last '+usage.days+' days · '+esc(kind==='all'?'All resources':usageLabels[kind])+'</p>'+(!items.length?'<p>No clicks in this selection.</p>':items.map(item=>'<article class="usage-product-detail"><b>'+esc(item.sku)+'</b> · '+item.total.toLocaleString()+' clicks<p>'+esc(item.name)+'</p><div class="usage-resource-counts">'+Object.entries(usageLabels).filter(([key])=>kind==='all'||kind===key).map(([key,label])=>'<span>'+label+' <b>'+(item.counts[key]||0)+'</b></span>').join('')+'</div></article>').join('')),category);
+    }
+    const feedback=e.target.closest('[data-feedback-all]');
+    if(feedback){
+      showUsagePopup('All feedback — Last '+usage.days+' days','<p role="status">Loading comments…</p>',feedback);
+      try{const data=await api('/api/public-usage/feedback?days='+usage.days);if(usagePopup.open&&usagePopupTrigger===feedback)$('#usagePopupBody').innerHTML=data.feedback.length?feedbackEntries(data.feedback):'<p>No feedback in this period.</p>';}
+      catch(error){if(usagePopup.open&&usagePopupTrigger===feedback){const message=document.createElement('p');message.setAttribute('role','alert');message.textContent=error.message||'Comments could not load. Close this window and try again.';$('#usagePopupBody').replaceChildren(message);}}
+    }
+  });
   async function loadUsage(){
     if(!pr.admin||usage.loading)return;usage.loading=true;usage.error='';const sequence=++usage.sequence;
     try{const data=await api('/api/public-usage?days='+usage.days+'&category='+encodeURIComponent(usage.category)+'&kind='+usage.kind);if(sequence===usage.sequence)usage.data=data;}
@@ -1726,14 +1792,14 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
     const note='<p class="pv-help">Anonymous daily totals for the last 90 days (UTC). Telemetry stores no names, emails, IP addresses or visitor identifiers. Feedback stores only the submitted comment. Counts include product pages, manuals, assembly guides, Product Spec and ISV openings. One opening is recorded for the clicked product, including when a comparison opens. Blocked requests may not be counted.</p>';
     if(usage.error)return controls+'<div role="alert" class="state"><h2>Usage could not load</h2><p>'+esc(usage.error)+'</p></div>';
     if(!usage.data)return controls+'<div class="state" role="status"><h2>Loading link usage</h2></div>';
-    const rows=usage.data.rows.filter(r=>usage.kind==='all'||usage.kind===r.kind),totals={product:0,manual:0,assembly:0,spec:0,isv:0},products=new Map(),days=new Map();
-    for(const r of rows){const n=Number(r.clicks)||0;totals[r.kind]+=n;if(!products.has(r.itemId))products.set(r.itemId,{...r,product:0,manual:0,assembly:0,spec:0,isv:0,total:0});const item=products.get(r.itemId);item[r.kind]+=n;item.total+=n;}
+    const rows=usage.data.rows.filter(r=>usage.kind==='all'||usage.kind===r.kind),totals={product:0,manual:0,assembly:0,spec:0,isv:0},days=new Map();
+    for(const r of rows)totals[r.kind]+=Number(r.clicks)||0;
     for(const r of usage.data.daily)if(usage.kind==='all'||usage.kind===r.kind)days.set(r.day,(days.get(r.day)||0)+Number(r.clicks));
     const total=Object.values(totals).reduce((a,b)=>a+b,0),cards=[['Total clicks',total],...Object.entries(usageLabels).map(([k,label])=>[label,totals[k]])].map(([label,n])=>'<div class="usage-card"><span>'+label+'</span><strong>'+n.toLocaleString()+'</strong></div>').join('');
     const insights=usageInsights();
-    if(!total)return controls+note+'<div class="usage-stats usage-click-stats">'+cards+'</div>'+insights+'<div class="state"><h2>No link clicks in this selection</h2><p>Tracking begins with this update. Try another period or category.</p></div>';
-    const ranked=[...products.values()].sort((a,b)=>b.total-a.total||a.sku.localeCompare(b.sku));const max=Math.max(...days.values(),1);
-    return controls+note+'<div class="usage-stats usage-click-stats">'+cards+'</div>'+insights+'<div class="pv-panel"><h2>Most-used products</h2><div class="pscroll"><table class="ptable usage-products"><thead><tr><th>Model / Item</th><th>Category</th><th>Product page</th><th>User manual</th><th>Assembly guide</th><th>Product Spec</th><th>ISV</th><th>Total clicks</th></tr></thead><tbody>'+ranked.map(r=>'<tr><td><b>'+esc(r.sku)+'</b><br>'+esc(r.name)+'</td><td>'+esc(r.category)+'</td><td>'+r.product+'</td><td>'+r.manual+'</td><td>'+r.assembly+'</td><td>'+r.spec+'</td><td>'+r.isv+'</td><td><b>'+r.total+'</b></td></tr>').join('')+'</tbody></table></div></div><div class="pv-panel"><h2>Daily clicks (UTC)</h2><div class="pscroll"><table class="ptable usage-daily"><thead><tr><th>Date</th><th>Clicks</th><th>Activity</th></tr></thead><tbody>'+[...days].sort((a,b)=>b[0].localeCompare(a[0])).map(([day,n])=>'<tr><td>'+esc(day)+'</td><td>'+n+'</td><td><span class="usage-bar" style="width:'+Math.round(n/max*100)+'%" aria-hidden="true"></span></td></tr>').join('')+'</tbody></table></div></div>';
+    if(!total)return controls+note+'<div class="usage-stats usage-click-stats">'+cards+'</div>'+insights+usageCategoryPanel()+'<div class="state"><h2>No link clicks in this selection</h2><p>Tracking begins with this update. Try another period or category.</p></div>';
+    const max=Math.max(...days.values(),1);
+    return controls+note+'<div class="usage-stats usage-click-stats">'+cards+'</div>'+insights+usageCategoryPanel()+'<div class="pv-panel"><h2>Daily clicks (UTC)</h2><div class="pscroll"><table class="ptable usage-daily"><thead><tr><th>Date</th><th>Clicks</th><th>Activity</th></tr></thead><tbody>'+[...days].sort((a,b)=>b[0].localeCompare(a[0])).map(([day,n])=>'<tr><td>'+esc(day)+'</td><td>'+n+'</td><td><span class="usage-bar" style="width:'+Math.round(n/max*100)+'%" aria-hidden="true"></span></td></tr>').join('')+'</tbody></table></div></div>';
   }
   $('#usageView').addEventListener('change',e=>{const key=e.target.dataset.usageFilter;if(!['days','category','kind'].includes(key))return;usage[key]=e.target.value;usage.sequence++;usage.loading=false;usage.data=null;usage.error='';renderPractice();});
   $('#usageView').addEventListener('click',e=>{if(e.target.closest('[data-usage-refresh]')){usage.sequence++;usage.loading=false;usage.data=null;usage.error='';renderPractice();}});
@@ -1767,7 +1833,7 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
     const loading=health.catalog_load,avg=loading&&loading.events?loading.value/loading.events:null;
     const cards=[['Completed timing samples',num(timing.samples)],['Median to resource',seconds(timing.medianMs)],['90% reached within',seconds(timing.p90Ms)],['Average catalog ready time',seconds(avg)],['Catalog load errors',num(health.load_error?.events)],['App errors',num(health.app_error?.events)],['Delivery failures reported',num(health.delivery_failure?.events)]];
     const feedback=data.feedback||[];
-    return '<div class="pv-panel"><h2>Finding information quickly</h2><p class="pv-help">Timing uses visible-tab time from the first search input or category choice to the next resource click. Refinements keep the original start; hidden tabs pause timing. No search text is stored. Untimed clicks are excluded; after five minutes without another search/category input, a new input starts a new attempt.</p><div class="usage-stats insight-stats">'+cards.slice(0,3).map(([label,value])=>'<div class="usage-card"><span>'+label+'</span><strong>'+value+'</strong></div>').join('')+'</div></div>'+usageCharts()+'<div class="pv-panel"><h2>Compare usage</h2><p class="pv-help">Each confirmed comparison or update counts as one use. Across all categories and resource types in the selected period. Admin activity is excluded. Tracking starts with this update.</p><div class="usage-stats"><div class="usage-card"><span>Comparison uses</span><strong>'+num(data.comparisons?.uses)+'</strong></div></div></div><div class="pv-panel"><h2>Site-wide health</h2><p class="pv-help">For the selected period, across all categories and link types. Load time ends when catalog data is ready. Delivery failures appear after reconnection; permanently blocked reporting cannot be measured.</p><div class="usage-stats">'+cards.slice(3).map(([label,value])=>'<div class="usage-card"><span>'+label+'</span><strong>'+value+'</strong></div>').join('')+'</div></div><div class="pv-panel"><h2>Feedback</h2><p class="pv-help">Latest 100 comments in the selected period. Visible only to admins.</p>'+(!feedback.length?'<p>No feedback yet.</p>':'<div class="feedback-list">'+feedback.map(f=>'<article><time>'+esc(new Date(f.at).toLocaleString())+'</time><p>'+esc(f.comment).replace(/\n/g,'<br>')+'</p></article>').join('')+'</div>')+'</div>';
+    return '<div class="pv-panel"><h2>Finding information quickly</h2><p class="pv-help">Timing uses visible-tab time from the first search input or category choice to the next resource click. Refinements keep the original start; hidden tabs pause timing. No search text is stored. Untimed clicks are excluded; after five minutes without another search/category input, a new input starts a new attempt.</p><div class="usage-stats insight-stats">'+cards.slice(0,3).map(([label,value])=>'<div class="usage-card"><span>'+label+'</span><strong>'+value+'</strong></div>').join('')+'</div></div>'+usageCharts()+'<div class="pv-panel"><h2>Compare usage</h2><p class="pv-help">Each confirmed comparison or update counts as one use. Across all categories and resource types in the selected period. Admin activity is excluded. Tracking starts with this update.</p><div class="usage-stats"><div class="usage-card"><span>Comparison uses</span><strong>'+num(data.comparisons?.uses)+'</strong></div></div></div><div class="pv-panel"><h2>Site-wide health</h2><p class="pv-help">For the selected period, across all categories and link types. Load time ends when catalog data is ready. Delivery failures appear after reconnection; permanently blocked reporting cannot be measured.</p><div class="usage-stats">'+cards.slice(3).map(([label,value])=>'<div class="usage-card"><span>'+label+'</span><strong>'+value+'</strong></div>').join('')+'</div></div><div class="pv-panel"><h2>Feedback</h2><p class="pv-help">Latest 10 comments in the selected period. Visible only to admins.</p>'+(!feedback.length?'<p>No feedback yet.</p>':feedbackEntries(feedback.slice(0,10)))+'<button type="button" class="btn" data-feedback-all>View all comments</button>'+'</div>';
   }
   const lastLinkClicks=new Map(),telemetryKey='spf.telemetry.outbox.v1';let outbox=[],deliveryTimer=null,deliveryBusy=false,retryDelay=1000;
   const publicEventId=()=>typeof crypto.randomUUID==='function'?crypto.randomUUID():Date.now().toString(36)+'-'+Math.random().toString(36).slice(2)+'-'+Math.random().toString(36).slice(2);

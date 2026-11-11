@@ -1,0 +1,50 @@
+const assert=require('node:assert/strict'),{chromium}=require('playwright');
+(async()=>{
+ const {sql,worker,env,request}=await require('./usage-fixture.cjs')();
+ const day=new Date().toISOString().slice(0,10);
+ for(const [id,kind,n] of [['sf-t724012','product',3],['sf-t724081','manual',2],['sf-rw5639smart','spec',4]])sql.prepare('INSERT INTO public_link_clicks VALUES (?,?,?,?)').run(day,id,kind,n);
+ for(let i=0;i<105;i++)sql.prepare('INSERT INTO public_feedback VALUES (?,?,?)').run('comment-'+i,new Date(Date.now()-i*1000).toISOString(),i===0?'<script>unsafe</script>':'Feedback '+i);
+ assert.equal((await request('/api/public-usage/feedback')).status,403);
+ assert.equal((await request('/api/public-usage/feedback?days=300',{user:'owner'})).status,400);
+ const brief=await(await request('/api/public-usage',{user:'owner'})).json();
+ assert.equal(brief.feedback.length,10);
+ const full=await(await request('/api/public-usage/feedback',{user:'owner'})).json();
+ assert.equal(full.feedback.length,105);
+ const browser=await chromium.launch({headless:true,executablePath:'/usr/bin/chromium'});
+ try{
+ const page=await browser.newPage({viewport:{width:1440,height:1000}});
+ await page.route('**/*',async route=>{
+  const r=route.request();if(new URL(r.url()).origin!=='https://usage.test')return route.abort();
+  const response=await worker.fetch(new Request(r.url(),{method:r.method(),headers:{...r.headers(),'oai-authenticated-user-id':'owner'},body:r.method()==='GET'?undefined:r.postData()}),env);
+  await route.fulfill({status:response.status,headers:Object.fromEntries(response.headers),body:Buffer.from(await response.arrayBuffer())});
+ });
+ await page.goto('https://usage.test/?view=usage');
+ const category=page.locator('.usage-categories tr').filter({has:page.getByRole('button',{name:'Treadmills',exact:true})});
+ await category.waitFor();
+ assert.equal(await page.locator('.usage-categories tbody tr').count(),11);
+ assert.equal(await category.locator('td').last().innerText(),'5');
+ await category.getByRole('button').click();
+ assert.match(await page.locator('#usagePopupBody').innerText(),/SF-T724012/);
+ assert.match(await page.locator('#usagePopupBody').innerText(),/SF-T724081/);
+ await page.keyboard.press('Escape');
+ await page.locator('[data-usage-rank]').selectOption('manual');
+ assert.equal(await page.locator('.usage-rank-row').first().locator('button').innerText(),'Treadmills');
+ assert.equal(await page.locator('.usage-rank-row').first().locator('strong').innerText(),'2');
+ await page.locator('[data-usage-rank]').selectOption('category');
+ const labels=await page.locator('.usage-rank-row button').allTextContents();
+ assert.deepEqual(labels,[...labels].sort((a,b)=>a.localeCompare(b)));
+ assert.equal(await page.locator('#usageView .feedback-list article').count(),10);
+ await page.locator('[data-feedback-all]').click();
+ await page.waitForFunction(()=>document.querySelectorAll('#usagePopupBody article').length===105);
+ assert.equal(await page.locator('#usagePopupBody script').count(),0);
+ assert(await page.locator('#usagePopupBody').evaluate(e=>e.scrollHeight>e.clientHeight));
+ await page.screenshot({path:'preview-screenshots/desktop-all-feedback.png'});
+ await page.keyboard.press('Escape');
+ assert(await page.locator('[data-feedback-all]').evaluate(e=>e===document.activeElement));
+ await page.locator('#usageCategories').screenshot({path:'preview-screenshots/desktop-category-usage.png'});
+ await page.setViewportSize({width:390,height:844});
+ assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ await page.locator('#usageCategories').screenshot({path:'preview-screenshots/phone-category-usage.png'});
+ console.log('PASS: eleven category rows, grouped totals, product detail popup, graph metrics and sorting, latest ten feedback, all 105 escaped comments, scrolling and focus restore.');
+ }finally{await browser.close();sql.close()}
+})().catch(e=>{console.error(e);process.exitCode=1});

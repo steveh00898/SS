@@ -133,6 +133,13 @@ if(url.pathname==='/api/feedback'&&request.method==='POST'){
  const db=dbFor(env),now=new Date().toISOString(),recent=new Date(Date.now()-60000).toISOString();const duplicate=await db.prepare('SELECT id FROM public_feedback WHERE id = ? OR (comment = ? AND created_at >= ?) LIMIT 1').bind(body.id,comment,recent).first();if(duplicate)return json({received:true});
  await db.batch([db.prepare('INSERT OR IGNORE INTO public_feedback (id,created_at,comment) VALUES (?,?,?)').bind(body.id,now,comment),db.prepare('DELETE FROM public_feedback WHERE created_at < ?').bind(new Date(Date.now()-90*86400000).toISOString())]);return json({received:true},201);
 }
+if(url.pathname==='/api/public-usage/feedback'&&request.method==='GET'){
+ if(!role.admin)throw fail('Only the admin can view feedback',403);
+ const days=Number(url.searchParams.get('days')||30);if(![7,30,90].includes(days))throw fail('Invalid feedback period');
+ const from=new Date(Date.now()-(days-1)*86400000).toISOString().slice(0,10)+'T00:00:00.000Z',to=new Date().toISOString().slice(0,10)+'T23:59:59.999Z';
+ const {results:feedback}=await dbFor(env).prepare('SELECT created_at AS at,comment FROM public_feedback WHERE created_at >= ? AND created_at <= ? ORDER BY created_at DESC,id DESC').bind(from,to).all();
+ return json({feedback});
+}
 if(url.pathname==='/api/public-usage'&&request.method==='GET'){
  if(!role.admin)throw fail('Only the admin can view public usage',403);
  const days=Number(url.searchParams.get('days')||30),category=url.searchParams.get('category')||'';if(![7,30,90].includes(days)||category.length>150)throw fail('Invalid usage filter');
@@ -146,7 +153,7 @@ if(url.pathname==='/api/public-usage'&&request.method==='GET'){
  const timing=await db.prepare("WITH ranked AS (SELECT t.value AS ms, ROW_NUMBER() OVER (ORDER BY t.value) AS rn,COUNT(*) OVER () AS n FROM public_telemetry_events t LEFT JOIN items i ON i.id=t.item_id WHERE t.day >= ? AND t.day <= ? AND t.type='link_click' AND t.value IS NOT NULL AND (? = '' OR json_extract(i.data,'$.category') = ?) AND (? = 'all' OR t.kind = ?)) SELECT COALESCE(MAX(n),0) AS samples,AVG(CASE WHEN rn=CAST((n+1)/2 AS INTEGER) OR rn=CAST((n+2)/2 AS INTEGER) THEN ms END) AS medianMs,MAX(CASE WHEN rn=CAST((n*9+9)/10 AS INTEGER) THEN ms END) AS p90Ms FROM ranked").bind(from,to,category,category,kind,kind).first();
  const {results:dailyTiming}=await db.prepare("WITH ranked AS (SELECT t.day,t.value AS ms,ROW_NUMBER() OVER (PARTITION BY t.day ORDER BY t.value) AS rn,COUNT(*) OVER (PARTITION BY t.day) AS n FROM public_telemetry_events t LEFT JOIN items i ON i.id=t.item_id WHERE t.day >= ? AND t.day <= ? AND t.type='link_click' AND t.value IS NOT NULL AND (? = '' OR json_extract(i.data,'$.category') = ?) AND (? = 'all' OR t.kind = ?)) SELECT day,MAX(n) AS samples,AVG(CASE WHEN rn=CAST((n+1)/2 AS INTEGER) OR rn=CAST((n+2)/2 AS INTEGER) THEN ms END) AS medianMs,MAX(CASE WHEN rn=CAST((n*9+9)/10 AS INTEGER) THEN ms END) AS p90Ms FROM ranked GROUP BY day ORDER BY day").bind(from,to,category,category,kind,kind).all();
  const {results:health}=await db.prepare("SELECT type,COUNT(*) AS events,SUM(value) AS value FROM public_telemetry_events WHERE day >= ? AND day <= ? AND type != 'link_click' GROUP BY type").bind(from,to).all();
- const {results:feedback}=await db.prepare('SELECT created_at AS at,comment FROM public_feedback WHERE created_at >= ? AND created_at <= ? ORDER BY created_at DESC,id DESC LIMIT 100').bind(from+'T00:00:00.000Z',to+'T23:59:59.999Z').all();
+ const {results:feedback}=await db.prepare('SELECT created_at AS at,comment FROM public_feedback WHERE created_at >= ? AND created_at <= ? ORDER BY created_at DESC,id DESC LIMIT 10').bind(from+'T00:00:00.000Z',to+'T23:59:59.999Z').all();
  const {results:comparisonDaily}=await db.prepare("SELECT day,COUNT(*) AS uses FROM public_telemetry_events WHERE day >= ? AND day <= ? AND type = 'compare' GROUP BY day ORDER BY day").bind(from,to).all();
  return json({days,from,to,rows,daily,timing,dailyTiming,health,feedback,comparisons:{uses:comparisonDaily.reduce((sum,r)=>sum+Number(r.uses),0),daily:comparisonDaily}});
 }
