@@ -2,6 +2,14 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-11: Codex — Publish sortable product click popups
+
+- Public Site: version 61 deployed from `7a27ae44c7751e9f10814abf12754262799c97e8`, deployment `appgdep_6af49afb5a108191b866f7533c76a67d`. Public access retained.
+- Tests: All 39 suites passed. Desktop and phone preview captures and production build passed. An upgrade check preserved older telemetry dates through migration 0005.
+- Click times: New telemetry captures receipt times. Existing daily records are displayed with date precision.
+- Claude Artifact: awaiting Claude Code publication. Analytics remain Site-only.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-10: Codex — Add sortable click detail popups
 
 - Changes: Removed the duplicate category table. View all clicks opens every matching product total in one popup. Category and all-product popups sort by most/fewest clicks or oldest/latest activity and show first/latest recorded activity.
