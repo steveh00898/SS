@@ -2,6 +2,8 @@ const assert=require('assert'),fs=require('fs'),{chromium}=require('playwright')
 (async()=>{
  const root=__dirname+'/..',templates=JSON.parse(fs.readFileSync(root+'/data/specifications/templates.json','utf8')),html=fs.readFileSync(root+'/app/index.html','utf8');
  assert.deepEqual(JSON.parse(html.match(/const PRODUCT_SPEC_TEMPLATES=(.*);\r?\n/)[1]),templates);
+ const gapAudit=JSON.parse(fs.readFileSync(root+'/data/specifications/master-spec-gaps-20261113.json','utf8'));
+ const gaps=new Map(gapAudit.updates.map(item=>[item.id,item.fields]));
  const catalog=fs.readdirSync(root+'/data').filter(f=>f.endsWith('.json')).flatMap(f=>JSON.parse(fs.readFileSync(root+'/data/'+f,'utf8')));
  assert.equal(catalog.length,156);
  // Every category keeps one template: unique keys, the shared sections in the same order, and the V2 fields added once.
@@ -25,7 +27,7 @@ const assert=require('assert'),fs=require('fs'),{chromium}=require('playwright')
  for(const item of filled){const d=v2View(item),keys=keysOf(item.category),vk=Object.keys(d.values);
   assert(templates[item.category],item.id);assert.equal(d.version,1);assert.equal(d.sources.length,1);assert.match(d.sources[0],/^V2 spec sheet: /);
   assert(vk.length>0,item.id);assert.deepEqual(vk,keys.filter(k=>vk.includes(k)),item.id+' values follow the category template order');assert.deepEqual(Object.keys(d.evidence),vk,item.id+' has evidence for every value');
-  const file=d.sources[0].slice('V2 spec sheet: '.length);for(const [k,v] of Object.entries(d.values)){assert.equal(typeof v,'string');assert(v.trim(),item.id+' '+k);assert(!banned.test(v.trim())||k==='features'&&!/PO#|pending|will update|[一-鿿]/i.test(v),item.id+' '+k+': '+v);assert(d.evidence[k].startsWith(file+' / '),item.id+' '+k);assert.match(d.evidence[k],/ \/ [A-Z]+\d+(, [A-Z]+\d+)*$/);}
+  const file=d.sources[0].slice('V2 spec sheet: '.length);for(const [k,v] of Object.entries(d.values)){assert.equal(typeof v,'string');assert(v.trim(),item.id+' '+k);assert(!banned.test(v.trim())||k==='features'&&!/PO#|pending|will update|[一-鿿]/i.test(v),item.id+' '+k+': '+v);const backfilled=gaps.get(item.id)?.[k];if(backfilled)assert.deepEqual([v,d.evidence[k]],backfilled,item.id+' '+k);else assert(d.evidence[k].startsWith(file+' / '),item.id+' '+k);assert.match(d.evidence[k],/ \/ [A-Z]+\d+(, [A-Z]+\d+)*$/);}
   for(const k of ['maxUserWeightLb','maxUserHeight'])assert(!/no\s*(height\s*)?limit|unlimited/i.test(d.values[k]||''),item.id);
   for(const k of ['peakHp','continuousHp'])if(d.values[k])assert.match(d.values[k],/^[0-9.]+ HP$/);}
  const byId=Object.fromEntries(catalog.map(i=>[i.id,i]));

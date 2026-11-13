@@ -2,6 +2,15 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-13: Codex — Fill catalog gaps from the Master SPEC SHEET folder
+
+- Changes: Audited 1,032 source files against the 886 live catalog records. Found exact model-cell matches for 614 matching live and canonical records and filled 894 blank Product Spec fields on 178 products, including 32 maximum-user-weight values. SF-A026006 uses 300 lb from the final sheet (Specs!B15). The catalog table reads the source-backed weight when its numeric column is blank.
+- Files: Catalog JSON and `data/specifications/master-spec-gaps-20261113.json` record accepted values and cell evidence. The Site Worker applies an idempotent, blank-only update to existing matching items. It preserves live edits and never inserts an item.
+- Verification: Built the Site Worker, checked all accepted fields against the repository and live snapshot, verified the backfill preserves owner edits, and confirmed SF-A026006 in the catalog table and Product Spec dialog locally.
+- Remaining: Draft-only, nonmatching and ambiguous values were left alone. The Claude Artifact needs a catalog sync and publication by Claude Code.
+- Public Site: Publication verification follows.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-11: Claude Code — git pull: review Codex Site versions 51–62; Artifact version 32 with 889 products
 - Received: 26 Codex commits (f253933..2205c4d), all with Agent trailers and HANDOFF entries: uploaded-image path fix, 15 owner photos, header stacking, spec unit wording simplified (estimated-unit labels removed; tests updated to match), comparison row highlighting and click-to-compare, desktop fit, usage analytics (resources, categories, click popups, migration 0005), and the ISV gap import (263 Off Sunny web models, 66 images). Both runtime paths (/api and window.claude) intact. No weakened assertions beyond the documented wording change.
 - Tests: all 40 tests/*.spec.cjs passed with installed Chrome through a local preload; npm run screenshots passed (desktop and phone).

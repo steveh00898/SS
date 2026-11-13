@@ -1342,6 +1342,7 @@
       "values": {
         "brand": "Sunny Health & Fitness",
         "materials": "Steel, plastic,FOAM",
+        "color": "deep grey+black+red",
         "productWeight": "20.87kgs/46LBS",
         "maxUserWeightLb": "180KGS/400LBS",
         "maxUserHeight": "2M",
@@ -1360,6 +1361,7 @@
         "magnets": "1PCS 800GS",
         "seatDimensions": "380*300*50mm/ 14.96*11.8*1.96INCHES",
         "display": "15*10CM 5.9*3.94INCHES",
+        "screenType": "LCD",
         "screenSize": "43*20mm/ 17*7.8INCHES",
         "battery": "AAA/2PCS",
         "bluetooth": "Yes",
@@ -1376,6 +1378,7 @@
       "evidence": {
         "brand": "SF-RW525023 Draft Spec 12.29.2025.xlsx / Specs / B7",
         "materials": "SF-RW525023 Draft Spec 12.29.2025.xlsx / Specs / B12",
+        "color": "SF-RW523023 Final Spec 20260529.xlsx / Specs / B11",
         "productWeight": "SF-RW523023 Final Spec 20260529.xlsx / Specs / B16",
         "maxUserWeightLb": "SF-RW525023 Draft Spec 12.29.2025.xlsx / Specs / B24",
         "maxUserHeight": "SF-RW525023 Draft Spec 12.29.2025.xlsx / Specs / B25",
@@ -1394,6 +1397,7 @@
         "magnets": "SF-RW525023 Draft Spec 12.29.2025.xlsx / Specs / B29",
         "seatDimensions": "SF-RW525023 Draft Spec 12.29.2025.xlsx / Specs / B22",
         "display": "SF-RW525023 Draft Spec 12.29.2025.xlsx / Specs / B52",
+        "screenType": "SF-RW523023 Final Spec 20260529.xlsx / Specs / B50",
         "screenSize": "SF-RW525023 Draft Spec 12.29.2025.xlsx / Specs / B51",
         "battery": "SF-RW525023 Draft Spec 12.29.2025.xlsx / Specs / B49",
         "bluetooth": "SF-RW525023 Draft Spec 12.29.2025.xlsx / Specs / B54",

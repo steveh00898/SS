@@ -26,7 +26,7 @@
    "driveResistanceSystem": null,
    "speedResistanceLevels": null,
    "inclineStrideMotion": null,
-   "maxUserWeightLb": 660.0,
+   "maxUserWeightLb": 660,
    "keyDimensions": "Diameter 45 - 75cm",
    "workoutAreaWidthIn": null,
    "workoutAreaLengthIn": null,
@@ -92,7 +92,7 @@
    "driveResistanceSystem": null,
    "speedResistanceLevels": null,
    "inclineStrideMotion": null,
-   "maxUserWeightLb": 330.0,
+   "maxUserWeightLb": 330,
    "keyDimensions": "Diameter 9 in",
    "workoutAreaWidthIn": null,
    "workoutAreaLengthIn": null,
@@ -254,7 +254,7 @@
    "driveResistanceSystem": null,
    "speedResistanceLevels": null,
    "inclineStrideMotion": null,
-   "maxUserWeightLb": 400.0,
+   "maxUserWeightLb": 400,
    "keyDimensions": "11L x 11W x 1H in",
    "workoutAreaWidthIn": null,
    "workoutAreaLengthIn": null,
@@ -276,6 +276,8 @@
     "shippingDimensions": "300*293*34mm/11.8*11.5*1.3INCHES",
     "battery": "3*AAA",
     "bluetooth": "SUNNY FIT",
+    "screenSize": "59*22mm/2.3*0.9 INCHES",
+    "screenType": "LED",
     "features": "● Bluetooth Version: BLE4.0, Works with iOS11.0 & Android6.0 OR Higher Version; ● High precision as Xiaomi scale ● 20 FUNCTIONS: WEIGHT, PROTEIN, METABOLIC AGE, IDEAL WEIGHT, BMI, BMR, VISCERAL FAT, BONE MASS, BODY FAT, BODY WATER, MUSCLE MASS, BODY TYPE, MUSCLE CONTROL, SKELETAL MUSCLE, FAT MASS, FAT-FREE BODY WEIGHT, FAT CONTROL, SUBCUTANEOUS FAT, HEART RATE, TARGET TRACKING ● Weigh small stuff from 100g-9.95KG; ● CNC large safe corner, Leather grain base design; ● HealthU+ APP smart function: Baby Weighing Mode, Water Daily Input Record, Body Dimension Record, Daily weight on scale reminder. ● AUTO Function: Step on, Auto-off; ● Smart Reminder:Low Battery Reminder, Overload Reminder. ● SDK provided available",
     "certification": "CE/REACH/ROHS/FDA/FCC/BQB"
    },
@@ -291,6 +293,8 @@
     "shippingDimensions": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B15",
     "battery": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / D25",
     "bluetooth": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / D31",
+    "screenSize": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B17",
+    "screenType": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B18",
     "features": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B41",
     "certification": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B40"
    },
@@ -466,7 +470,7 @@
    "driveResistanceSystem": null,
    "speedResistanceLevels": null,
    "inclineStrideMotion": null,
-   "maxUserWeightLb": 300.0,
+   "maxUserWeightLb": 300,
    "keyDimensions": "38.2 x 38.2",
    "workoutAreaWidthIn": null,
    "workoutAreaLengthIn": null,
@@ -492,6 +496,7 @@
     "compatibility": "No",
     "adjustments": "No",
     "trampolineHeight": "310mm/12.2 inches",
+    "adjustableAngles": "No",
     "features": "1. Uses elastic bands as a form of resistance. 2. The trampoline is equipped with a high-density breathable jumping surface for a more comfortable exercise experience; the frame features a wear-resistant coating to effectively prevent fading and paint peeling. 3. The high-stretch elastic bands can efficiently absorb 85% of impact vibrations, providing long-lasting and smoother rebound. 4. The trampoline uses a reinforced steel frame with 6 thickened support legs, supporting up to 300 lbs. 5. Easy to assemble. 6. The handrail height is adjustable in 5 levels, allowing users to adjust the trampoline handrail height according to their needs."
    },
    "evidence": {
@@ -510,6 +515,7 @@
     "compatibility": "SF-S025063 final spec 03202026 update.xlsx / Specs / B30",
     "adjustments": "SF-S025063 final spec 03202026 update.xlsx / Specs / B22",
     "trampolineHeight": "SF-S025063 final spec 03202026 update.xlsx / Specs / B27",
+    "adjustableAngles": "SF-S025063 final spec 03202026 update.xlsx / Specs / B28",
     "features": "SF-S025063 final spec 03202026 update.xlsx / Specs / B36"
    },
    "sources": [
@@ -538,7 +544,7 @@
    "driveResistanceSystem": null,
    "speedResistanceLevels": null,
    "inclineStrideMotion": null,
-   "maxUserWeightLb": 300.0,
+   "maxUserWeightLb": 300,
    "keyDimensions": "42.5 x 42.5 x 45.7–51.2 in",
    "workoutAreaWidthIn": null,
    "workoutAreaLengthIn": null,
@@ -564,6 +570,7 @@
     "compatibility": "No",
     "adjustments": "No",
     "trampolineHeight": "310mm/12.2 inches",
+    "adjustableAngles": "No",
     "features": "1. Uses elastic bands as a form of resistance. 2. The trampoline is equipped with a high-density breathable jumping surface for a more comfortable exercise experience; the frame features a wear-resistant coating to effectively prevent fading and paint peeling. 3. The high-stretch elastic bands can efficiently absorb 85% of impact vibrations, providing long-lasting and smoother rebound. 4. The trampoline uses a reinforced steel frame with 6 thickened support legs, supporting up to 300 lbs. 5. Easy to assemble. 6. The handrail height is adjustable in 5 levels, allowing users to adjust the trampoline handrail height according to their needs."
    },
    "evidence": {
@@ -582,6 +589,7 @@
     "compatibility": "SF-S025064 Final Spec 20260320.xlsx / Specs / B30",
     "adjustments": "SF-S025064 Final Spec 20260320.xlsx / Specs / B22",
     "trampolineHeight": "SF-S025064 Final Spec 20260320.xlsx / Specs / B27",
+    "adjustableAngles": "SF-S025064 Final Spec 20260320.xlsx / Specs / B28",
     "features": "SF-S025064 Final Spec 20260320.xlsx / Specs / B36"
    },
    "sources": [
@@ -610,7 +618,7 @@
    "driveResistanceSystem": null,
    "speedResistanceLevels": null,
    "inclineStrideMotion": null,
-   "maxUserWeightLb": 300.0,
+   "maxUserWeightLb": 300,
    "keyDimensions": "50.4 x 50.4 x 45.7–51.2 in",
    "workoutAreaWidthIn": null,
    "workoutAreaLengthIn": null,
@@ -636,6 +644,7 @@
     "compatibility": "No",
     "adjustments": "No",
     "trampolineHeight": "310mm/12.2inches",
+    "adjustableAngles": "No",
     "features": "1. Uses elastic bands as a form of resistance. 2. The trampoline is equipped with a high-density breathable jumping surface for a more comfortable exercise experience; the frame features a wear-resistant coating to effectively prevent fading and paint peeling. 3. The high-stretch elastic bands can efficiently absorb 85% of impact vibrations, providing long-lasting and smoother rebound. 4. The trampoline uses a reinforced steel frame with 6 thickened support legs, supporting up to 300 lbs. 5. Easy to assemble. 6. The handrail height is adjustable in 5 levels, allowing users to adjust the trampoline handrail height according to their needs."
    },
    "evidence": {
@@ -654,6 +663,7 @@
     "compatibility": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B30",
     "adjustments": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B22",
     "trampolineHeight": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B27",
+    "adjustableAngles": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B28",
     "features": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B36"
    },
    "sources": [
@@ -682,7 +692,7 @@
    "driveResistanceSystem": null,
    "speedResistanceLevels": null,
    "inclineStrideMotion": null,
-   "maxUserWeightLb": 285.0,
+   "maxUserWeightLb": 285,
    "keyDimensions": "42.5L x 42.5W x 13.4H In",
    "workoutAreaWidthIn": null,
    "workoutAreaLengthIn": null,
@@ -738,7 +748,7 @@
    "driveResistanceSystem": null,
    "speedResistanceLevels": null,
    "inclineStrideMotion": null,
-   "maxUserWeightLb": 285.0,
+   "maxUserWeightLb": 285,
    "keyDimensions": "39.4L x 39.4W x 13.4H In",
    "workoutAreaWidthIn": null,
    "workoutAreaLengthIn": null,
@@ -1276,7 +1286,7 @@
    "driveResistanceSystem": null,
    "speedResistanceLevels": null,
    "inclineStrideMotion": null,
-   "maxUserWeightLb": 300.0,
+   "maxUserWeightLb": 300,
    "keyDimensions": "16.34L × 3.74H in",
    "workoutAreaWidthIn": null,
    "workoutAreaLengthIn": null,

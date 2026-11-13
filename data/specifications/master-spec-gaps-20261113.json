@@ -1,0 +1,4832 @@
+{
+  "files": 1032,
+  "unreadable": {},
+  "liveRecords": 886,
+  "matched": 614,
+  "updates": [
+    {
+      "id": "sf-ws022063",
+      "sku": "SF-WS022063",
+      "category": "Essentials",
+      "fields": {
+        "screenSize": [
+          "59*22mm/2.3*0.9 INCHES",
+          "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B17"
+        ],
+        "screenType": [
+          "LED",
+          "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B18"
+        ]
+      }
+    },
+    {
+      "id": "sf-s025063",
+      "sku": "SF-S025063",
+      "category": "Essentials",
+      "fields": {
+        "adjustableAngles": [
+          "No",
+          "SF-S025063 final spec 03202026 update.xlsx / Specs / B28"
+        ]
+      }
+    },
+    {
+      "id": "sf-s025064",
+      "sku": "SF-S025064",
+      "category": "Essentials",
+      "fields": {
+        "adjustableAngles": [
+          "No",
+          "SF-S025064 Final Spec 20260320.xlsx / Specs / B28"
+        ]
+      }
+    },
+    {
+      "id": "sf-s025065",
+      "sku": "SF-S025065",
+      "category": "Essentials",
+      "fields": {
+        "adjustableAngles": [
+          "No",
+          "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B28"
+        ]
+      }
+    },
+    {
+      "id": "sf-b124067",
+      "sku": "SF-B124067",
+      "category": "Indoor Bikes",
+      "fields": {
+        "stride": [
+          "34CM /13.4inches",
+          "SF-B124067 Final Bike Spec dated 2025.06.03 update.xlsx / Specs / B38"
+        ],
+        "footStraps": [
+          "Yes",
+          "SF-B124067 Final Bike Spec dated 2025.06.03 update.xlsx / Specs / B37"
+        ],
+        "motorized": [
+          "No",
+          "SF-B124067 Final Bike Spec dated 2025.06.03 update.xlsx / Specs / B27"
+        ],
+        "controlOnHandlebar": [
+          "No",
+          "SF-B124067 Final Bike Spec dated 2025.06.03 update.xlsx / Specs / B48"
+        ],
+        "energySaver": [
+          "YES",
+          "SF-B124067 Final Bike Spec dated 2025.06.03 update.xlsx / Specs / B76"
+        ],
+        "meterSize": [
+          "155*105MM /6.1*4.1inches",
+          "SF-B124067 Final Bike Spec dated 2025.06.03 update.xlsx / Specs / B50"
+        ],
+        "remoteControl": [
+          "No",
+          "SF-B124067 Final Bike Spec dated 2025.06.03 update.xlsx / Specs / B77"
+        ]
+      }
+    },
+    {
+      "id": "sf-b124066",
+      "sku": "SF-B124066",
+      "category": "Indoor Bikes",
+      "fields": {
+        "stride": [
+          "33CM/13inches",
+          "SF-B124066 Bike Final Spec dated 2026.05.01 update.xlsx / Specs / B38"
+        ],
+        "footStraps": [
+          "Yes",
+          "SF-B124066 Bike Final Spec dated 2026.05.01 update.xlsx / Specs / B37"
+        ],
+        "motorized": [
+          "No",
+          "SF-B124066 Bike Final Spec dated 2026.05.01 update.xlsx / Specs / B27"
+        ],
+        "controlOnHandlebar": [
+          "No",
+          "SF-B124066 Bike Final Spec dated 2026.05.01 update.xlsx / Specs / B48"
+        ],
+        "energySaver": [
+          "Yes",
+          "SF-B124066 Bike Final Spec dated 2026.05.01 update.xlsx / Specs / B76"
+        ],
+        "meterSize": [
+          "155*105MM/6.1*4.1inches",
+          "SF-B124066 Bike Final Spec dated 2026.05.01 update.xlsx / Specs / B50"
+        ],
+        "remoteControl": [
+          "No",
+          "SF-B124066 Bike Final Spec dated 2026.05.01 update.xlsx / Specs / B77"
+        ]
+      }
+    },
+    {
+      "id": "sf-b124068",
+      "sku": "SF-B124068",
+      "category": "Indoor Bikes",
+      "fields": {
+        "footStraps": [
+          "Yes",
+          "SF-B124068 final spec sheet 20260430.xlsx / Specs / B38"
+        ],
+        "motorized": [
+          "No",
+          "SF-B124068 final spec sheet 20260430.xlsx / Specs / B28"
+        ],
+        "controlOnHandlebar": [
+          "No",
+          "SF-B124068 final spec sheet 20260430.xlsx / Specs / B49"
+        ],
+        "energySaver": [
+          "Yes",
+          "SF-B124068 final spec sheet 20260430.xlsx / Specs / B78"
+        ],
+        "remoteControl": [
+          "No",
+          "SF-B124068 final spec sheet 20260430.xlsx / Specs / B79"
+        ]
+      }
+    },
+    {
+      "id": "sf-b124069",
+      "sku": "SF-B124069",
+      "category": "Indoor Bikes",
+      "fields": {
+        "footStraps": [
+          "Yes",
+          "SF-B124069 final spec sheet 20260430.xlsx / Specs / B38"
+        ],
+        "motorized": [
+          "No",
+          "SF-B124069 final spec sheet 20260430.xlsx / Specs / B28"
+        ],
+        "controlOnHandlebar": [
+          "No",
+          "SF-B124069 final spec sheet 20260430.xlsx / Specs / B49"
+        ],
+        "energySaver": [
+          "Yes",
+          "SF-B124069 final spec sheet 20260430.xlsx / Specs / B78"
+        ],
+        "remoteControl": [
+          "No",
+          "SF-B124069 final spec sheet 20260430.xlsx / Specs / B79"
+        ]
+      }
+    },
+    {
+      "id": "sf-b224090",
+      "sku": "SF-B224090",
+      "category": "Indoor Bikes",
+      "fields": {
+        "footStraps": [
+          "Yes",
+          "SF-B224090 spec sheet 20250708.xlsx / Specs / B37"
+        ],
+        "motorized": [
+          "No",
+          "SF-B224090 spec sheet 20250708.xlsx / Specs / B27"
+        ],
+        "controlOnHandlebar": [
+          "No",
+          "SF-B224090 spec sheet 20250708.xlsx / Specs / B48"
+        ],
+        "energySaver": [
+          "Yes",
+          "SF-B224090 spec sheet 20250708.xlsx / Specs / B76"
+        ],
+        "meterSize": [
+          "155*105MM /6.1*4.1inches",
+          "SF-B224090 spec sheet 20250708.xlsx / Specs / B50"
+        ],
+        "remoteControl": [
+          "No",
+          "SF-B224090 spec sheet 20250708.xlsx / Specs / B77"
+        ]
+      }
+    },
+    {
+      "id": "sf-rb420032",
+      "sku": "SF-RB420032",
+      "category": "Indoor Bikes",
+      "fields": {
+        "stepHeight": [
+          "134.49MM/5.3 INCH",
+          "Spec Sheet for SF-RB420032 01172023.xlsx / SF-RB420032 / B64"
+        ]
+      }
+    },
+    {
+      "id": "sf-b023005dgy",
+      "sku": "SF-B023005DGY",
+      "category": "Indoor Bikes",
+      "fields": {
+        "stride": [
+          "210MM",
+          "SF-B023005DGY SPEC SHEET  08282023-FINAL.xlsx / Sheet1 / B61"
+        ],
+        "stepHeight": [
+          "80MM",
+          "SF-B023005DGY SPEC SHEET  08282023-FINAL.xlsx / Sheet1 / B62"
+        ]
+      }
+    },
+    {
+      "id": "sf-b024041",
+      "sku": "SF-B024041",
+      "category": "Indoor Bikes",
+      "fields": {
+        "stride": [
+          "101.6mm /4 inches",
+          "SF-B024041 final spec sheet 20250424.xlsx / Specs / B37"
+        ],
+        "pedalBothDirections": [
+          "Yes",
+          "SF-B024041 final spec sheet 20250424.xlsx / Specs / B34"
+        ],
+        "footStraps": [
+          "Yes",
+          "SF-B024041 final spec sheet 20250424.xlsx / Specs / B36"
+        ],
+        "motorized": [
+          "Yes",
+          "SF-B024041 final spec sheet 20250424.xlsx / Specs / B27"
+        ],
+        "controlOnHandlebar": [
+          "No",
+          "SF-B024041 final spec sheet 20250424.xlsx / Specs / B41"
+        ],
+        "energySaver": [
+          "Yes (The meter will automatically enter the sleep mode if not use for 10 mins.)",
+          "SF-B024041 final spec sheet 20250424.xlsx / Specs / B69"
+        ],
+        "meterSize": [
+          "107*91mm/4.2*3.6inches",
+          "SF-B024041 final spec sheet 20250424.xlsx / Specs / B43"
+        ],
+        "remoteControl": [
+          "Yes",
+          "SF-B024041 final spec sheet 20250424.xlsx / Specs / B70"
+        ]
+      }
+    },
+    {
+      "id": "sf-b020026smart",
+      "sku": "SF-B020026SMART",
+      "category": "Indoor Bikes",
+      "fields": {
+        "stride": [
+          "178mm/7.0inches",
+          "SF-B020026 SMART SPEC SHEET 20240902.xlsx / Sheet1 / B65"
+        ]
+      }
+    },
+    {
+      "id": "sf-b020029smart",
+      "sku": "SF-B020029SMART",
+      "category": "Indoor Bikes",
+      "fields": {
+        "stride": [
+          "17.8 CM/7 INCH",
+          "SF-B020029 SMART SPEC SHEET 07122024 update.xlsx / Sheet1 / B65"
+        ]
+      }
+    },
+    {
+      "id": "sf-b0891smart",
+      "sku": "SF-B0891SMART",
+      "category": "Indoor Bikes",
+      "fields": {
+        "stride": [
+          "18CM/7.1INCH",
+          "SF-B0891 SMART SPEC SHEET 04152024.xlsx / Sheet1 / B65"
+        ]
+      }
+    },
+    {
+      "id": "sf-b0960smart",
+      "sku": "SF-B0960SMART",
+      "category": "Indoor Bikes",
+      "fields": {
+        "stride": [
+          "18CM/7.1inch",
+          "SF-B0960SMART SPEC SHEET 20240522.xlsx / Sheet1 / B65"
+        ]
+      }
+    },
+    {
+      "id": "no-077s",
+      "sku": "NO. 077S",
+      "category": "Row-N-Ride",
+      "fields": {
+        "meterSize": [
+          "107*80*35mm / 4.2*3.1*1.4 inches",
+          "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B43"
+        ]
+      }
+    },
+    {
+      "id": "sf-rw525023",
+      "sku": "SF-RW525023",
+      "category": "Rowers",
+      "fields": {
+        "color": [
+          "deep grey+black+red",
+          "SF-RW523023 Final Spec 20260529.xlsx / Specs / B11"
+        ],
+        "screenType": [
+          "LCD",
+          "SF-RW523023 Final Spec 20260529.xlsx / Specs / B50"
+        ]
+      }
+    },
+    {
+      "id": "no-068smart",
+      "sku": "NO. 068SMART",
+      "category": "Steppers",
+      "fields": {
+        "meterSize": [
+          "53.8*50.8mm/2.12*2 inches",
+          "NO. 068 SMART Final Spec dated  04.30.2025.xlsx / Specs / B43"
+        ]
+      }
+    },
+    {
+      "id": "sf-s026007",
+      "sku": "SF-S026007",
+      "category": "Steppers",
+      "fields": {
+        "pedalBothDirections": [
+          "NO",
+          "SF-S026007 final spec sheet 20260608.xlsx / Specs / B35"
+        ],
+        "meterSize": [
+          "60*48MM/ 2.4*1.9 inches",
+          "SF-S026007 final spec sheet 20260608.xlsx / Specs / B44"
+        ]
+      }
+    },
+    {
+      "id": "sf-s026002",
+      "sku": "SF-S026002",
+      "category": "Steppers",
+      "fields": {
+        "pedalBothDirections": [
+          "Yes",
+          "SF-S026002 Final Spec dated 20260715.xlsx / Specs / B35"
+        ],
+        "meterSize": [
+          "93*47mm(3.7*1.8 inches)",
+          "SF-S026002 Final Spec dated 20260715.xlsx / Specs / B44"
+        ]
+      }
+    },
+    {
+      "id": "sf-s024072",
+      "sku": "SF-S024072",
+      "category": "Steppers",
+      "fields": {
+        "meterSize": [
+          "60*48mm/2.4*1.9in",
+          "SF-S024072 Final Spec dated 2026.7.29.xlsx / Specs / B44"
+        ]
+      }
+    },
+    {
+      "id": "sf-bh6921",
+      "sku": "SF-BH6921",
+      "category": "Weight Benches",
+      "fields": {
+        "battery": [
+          "2xAAA",
+          "SF-BH6921 Spec Sheet 2023.06.21.xlsx / Sheet1 / D20"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-cb110",
+      "sku": "CB110",
+      "category": "Essentials",
+      "fields": {
+        "battery": [
+          "CR2032",
+          "CB110 SPEC SHEET 2023-3-16.xlsx / Sheet1 / D27"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b122061",
+      "sku": "SF-B122061",
+      "category": "Indoor Bikes",
+      "fields": {
+        "battery": [
+          "2xAAA",
+          "Final Spec Sheet for SF-B122061 09262023.xlsx / Sheet1 / D25"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t7515",
+      "sku": "SF-T7515",
+      "category": "Treadmills",
+      "fields": {
+        "motorized": [
+          "yes",
+          "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / B41"
+        ],
+        "deckType": [
+          "double",
+          "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / B33"
+        ],
+        "rollerSize": [
+          "Front roller: φ42 MM/1.7 INCHES; rear roller:φ38 MM/1.5 INCHES",
+          "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / B40"
+        ],
+        "handlebarHeight": [
+          "1051 MM/41.4 INCHES",
+          "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / B24"
+        ],
+        "ftms": [
+          "Yes",
+          "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / B63"
+        ],
+        "wifi": [
+          "No",
+          "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / B64"
+        ],
+        "plugType": [
+          "Plug",
+          "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / B73"
+        ],
+        "remoteControl": [
+          "No",
+          "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / B80"
+        ],
+        "controlOnHandlebar": [
+          "yes（speed +/- & incline +/-）",
+          "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / B27"
+        ],
+        "fan": [
+          "No",
+          "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / B66"
+        ],
+        "energySaver": [
+          "Yes",
+          "Final spec sheet for SF-T7515 new version 04142025.xls / Specs / B78"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t7515smart",
+      "sku": "SF-T7515SMART",
+      "category": "Treadmills",
+      "fields": {
+        "motorized": [
+          "yes",
+          "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / B41"
+        ],
+        "deckType": [
+          "double",
+          "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / B33"
+        ],
+        "rollerSize": [
+          "Front roller: φ42 MM/1.7 INCHES; rear roller:φ38 MM/1.5 INCHES",
+          "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / B40"
+        ],
+        "handlebarHeight": [
+          "1051 MM/41.4 INCHES",
+          "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / B24"
+        ],
+        "ftms": [
+          "Yes",
+          "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / B63"
+        ],
+        "wifi": [
+          "No",
+          "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / B64"
+        ],
+        "plugType": [
+          "Plug",
+          "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / B73"
+        ],
+        "remoteControl": [
+          "No",
+          "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / B80"
+        ],
+        "controlOnHandlebar": [
+          "yes（speed +/- & incline +/-）",
+          "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / B27"
+        ],
+        "fan": [
+          "No",
+          "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / B66"
+        ],
+        "energySaver": [
+          "Yes",
+          "Final spec sheet for SF-T7515 SMART new version 04142025.xls / Specs / B78"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-no-077gr",
+      "sku": "NO. 077GR",
+      "category": "Row-N-Ride",
+      "fields": {
+        "ftms": [
+          "No",
+          "NO. 077GR final spec sheet 11.22.2024.xlsx / Specs / B53"
+        ],
+        "wifi": [
+          "No",
+          "NO. 077GR final spec sheet 11.22.2024.xlsx / Specs / B54"
+        ],
+        "meterSize": [
+          "107*80*35mm / 4.2*3.1*1.4 inches",
+          "NO. 077GR final spec sheet 11.22.2024.xlsx / Specs / B43"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-e320001",
+      "sku": "SF-E320001",
+      "category": "Ellipticals",
+      "fields": {
+        "plugType": [
+          "ADAPTER",
+          "SF-E320001 Spec Sheet 0925.xlsx / Sheet1 / D29"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-e326015-gy",
+      "sku": "SF-E326015-GY",
+      "category": "Ellipticals",
+      "fields": {
+        "screenSize": [
+          "10.8*9.5cm/4.3*3.7inches (Multi display windows)",
+          "SF-E326015GY final spec sheet 20260817.xlsx / Specs / B48"
+        ],
+        "plugType": [
+          "Yes,adapter",
+          "SF-E326015GY final spec sheet 20260817.xlsx / Specs / B67"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t722054",
+      "sku": "SF-T722054",
+      "category": "Treadmills",
+      "fields": {
+        "bluetooth": [
+          "SunnyFit APP",
+          "SF-T722054 Spec Sheet 07202023.xlsx / Sheet1 / D31"
+        ],
+        "plugType": [
+          "plug",
+          "SF-T722054 Spec Sheet 07202023.xlsx / Sheet1 / D35"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t724811",
+      "sku": "SF-T724811",
+      "category": "Treadmills",
+      "fields": {
+        "plugType": [
+          "Plug",
+          "SF-T724811 final spec sheet 05222025.xlsx / Specs / B72"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t724943",
+      "sku": "SF-T724943",
+      "category": "Treadmills",
+      "fields": {
+        "plugType": [
+          "Plug",
+          "SF-T724943 Treadmill final Spec 20250820.xlsx / Specs / B72"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t724964",
+      "sku": "SF-T724964",
+      "category": "Treadmills",
+      "fields": {
+        "plugType": [
+          "Plug",
+          "SF-T724964 final Treadmill Spec dated 20250806.xlsx / Specs / B72"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t724965",
+      "sku": "SF-T724965",
+      "category": "Treadmills",
+      "fields": {
+        "plugType": [
+          "Plug",
+          "SF-T724965 Treadmill final Spec dated 20250805 .xlsx / Specs / B72"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-e326015wt",
+      "sku": "SF-E326015WT",
+      "category": "Ellipticals",
+      "fields": {
+        "screenSize": [
+          "10.8*9.5cm/4.3*3.7inches (Multi display windows)",
+          "SF-E326015WT final spec sheet 20260817.xlsx / Specs / B48"
+        ],
+        "plugType": [
+          "Yes,adapter",
+          "SF-E326015WT final spec sheet 20260817.xlsx / Specs / B67"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t725880",
+      "sku": "SF-T725880",
+      "category": "Treadmills",
+      "fields": {
+        "plugType": [
+          "Plug",
+          "SF-T725880 Treadmill Final Spec dated 20260810.xlsx / Specs / B72"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t7705-smart",
+      "sku": "SF-T7705 SMART",
+      "category": "Treadmills",
+      "fields": {
+        "bluetooth": [
+          "SUNNY APP",
+          "SF-T7705SMART Spec Sheet 05.05.2022 updated.xlsx / Sheet1 / D25"
+        ],
+        "plugType": [
+          "PLUG",
+          "SF-T7705SMART Spec Sheet 05.05.2022 updated.xlsx / Sheet1 / D28"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-x7200",
+      "sku": "SF-X7200",
+      "category": "Treadmills",
+      "fields": {
+        "plugType": [
+          "plug",
+          "SF-X7200  FINAL SPEC SHEET 03062024.xls / Sheet1 / D35"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-xfa011",
+      "sku": "SF-XFA011",
+      "category": "Racks",
+      "fields": {
+        "frameCapacity": [
+          "330 lbs (150kgs)",
+          "SF-XFA011 final spec sheet 04152024.xlsx / Sheet1 / B19"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-xfa012",
+      "sku": "SF-XFA012",
+      "category": "Racks",
+      "fields": {
+        "frameCapacity": [
+          "330 lbs (150kgs)",
+          "SF-XFA012 final spec sheet 04302024.xlsx / Sheet1 / B19"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-xfa013",
+      "sku": "SF-XFA013",
+      "category": "Racks",
+      "fields": {
+        "frameCapacity": [
+          "330 lbs (150kgs)",
+          "SF-XFA013 final spec sheets 05242024.xlsx / Sheet1 / B19"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-td7884",
+      "sku": "SF-TD7884",
+      "category": "Treadmills",
+      "fields": {
+        "bluetooth": [
+          "music and phone call function",
+          "spec. sheet of  SF-TD7884.xlsx / Sheet1 / D25"
+        ],
+        "plugType": [
+          "plug",
+          "spec. sheet of  SF-TD7884.xlsx / Sheet1 / D29"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-tm100",
+      "sku": "TM100",
+      "category": "Treadmills",
+      "fields": {
+        "bluetooth": [
+          "SUNNY APP",
+          "TM100 spec sheet.xlsx / Sheet1 / D25"
+        ],
+        "plugType": [
+          "PLUG",
+          "TM100 spec sheet.xlsx / Sheet1 / D28"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t722901",
+      "sku": "SF-T722901",
+      "category": "Treadmills",
+      "fields": {
+        "bottleHolder": [
+          "yes",
+          "Treadmill Spec Sheet Template SF-T722901 06282023.xlsx / Treadmill / B49"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-no-077-s",
+      "sku": "NO. 077-S",
+      "category": "Row-N-Ride",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B7"
+        ],
+        "materials": [
+          "Q235，PP, PVC，PE，ABS",
+          "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B12"
+        ],
+        "color": [
+          "White/RED 485C/Black/gray",
+          "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B11"
+        ],
+        "maxUserWeightLb": [
+          "330 lb",
+          "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B22"
+        ],
+        "maxUserHeight": [
+          "1900mm",
+          "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B23"
+        ],
+        "latex": [
+          "Yes (exercise bands)",
+          "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B13"
+        ],
+        "resistanceType": [
+          "Exercise Band",
+          "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B24"
+        ],
+        "transportWheels": [
+          "No",
+          "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B40"
+        ],
+        "display": [
+          "TIME/CNT/CAL/TOT.CNT/SCAN/PULSE(when connect with the matching Bluetooth heart rate monitor)",
+          "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B48"
+        ],
+        "screenType": [
+          "LCD",
+          "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B46"
+        ],
+        "screenSize": [
+          "32*20 mm/1.3*0.8 inches",
+          "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B47"
+        ],
+        "battery": [
+          "2*AA",
+          "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B45"
+        ],
+        "bluetooth": [
+          "YES",
+          "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B50"
+        ],
+        "heartRate": [
+          "No",
+          "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B58"
+        ],
+        "wirelessHeartRate": [
+          "Yes",
+          "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B59"
+        ],
+        "deviceHolder": [
+          "No",
+          "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B61"
+        ],
+        "speakers": [
+          "No",
+          "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B56"
+        ],
+        "ftms": [
+          "No",
+          "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B53"
+        ],
+        "wifi": [
+          "No",
+          "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B54"
+        ],
+        "meterSize": [
+          "107*80*35mm / 4.2*3.1*1.4 inches",
+          "NO. 077S final spec sheet 11.22.2024 .xlsx / Specs / B43"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rw520084s",
+      "sku": "SF-RW520084S",
+      "category": "Rowers",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-RW520084S Spec.sheet 2023-8-2.xlsx / Sheet1 / B3"
+        ],
+        "maxUserWeightLb": [
+          "110KGS",
+          "SF-RW520084S Spec.sheet 2023-8-2.xlsx / Sheet1 / B14"
+        ],
+        "speedResistanceLevels": [
+          "8LEVELS",
+          "SF-RW520084S Spec.sheet 2023-8-2.xlsx / Sheet1 / B16"
+        ],
+        "railInseam": [
+          "1230mm/48.4INCH",
+          "SF-RW520084S Spec.sheet 2023-8-2.xlsx / Sheet1 / B76"
+        ],
+        "resistanceType": [
+          "Magnetic",
+          "SF-RW520084S Spec.sheet 2023-8-2.xlsx / Sheet1 / B15"
+        ],
+        "flywheelWeight": [
+          "2.2KGS",
+          "SF-RW520084S Spec.sheet 2023-8-2.xlsx / Sheet1 / B8"
+        ],
+        "display": [
+          "SCAN,TIME,COUNT,TOTAL COUNT,CAL",
+          "SF-RW520084S Spec.sheet 2023-8-2.xlsx / Sheet1 / B34"
+        ],
+        "screenSize": [
+          "46*22MM",
+          "SF-RW520084S Spec.sheet 2023-8-2.xlsx / Sheet1 / B13"
+        ],
+        "battery": [
+          "2xAAA",
+          "SF-RW520084S Spec.sheet 2023-8-2.xlsx / Sheet1 / D20"
+        ],
+        "programs": [
+          "NO",
+          "SF-RW520084S Spec.sheet 2023-8-2.xlsx / Sheet1 / B17"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-8570",
+      "sku": "8570",
+      "category": "Rowers",
+      "fields": {
+        "brand": [
+          "Asuna",
+          "8570 - Specification.xlsx / Sheet1 / B1"
+        ],
+        "resistanceType": [
+          "Self-generator + Fan",
+          "8570 - Specification.xlsx / Sheet1 / B9"
+        ],
+        "deviceHolder": [
+          "No",
+          "8570 - Specification.xlsx / Sheet1 / B14"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-8580",
+      "sku": "8580",
+      "category": "Rowers",
+      "fields": {
+        "brand": [
+          "Asuna",
+          "8580 - Specification.xlsx / Sheet1 / B1"
+        ],
+        "resistanceType": [
+          "Manual + Air",
+          "8580 - Specification.xlsx / Sheet1 / B9"
+        ],
+        "deviceHolder": [
+          "No",
+          "8580 - Specification.xlsx / Sheet1 / B14"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-no-031-bk",
+      "sku": "NO. 031-BK",
+      "category": "Essentials",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-BK / B3"
+        ],
+        "materials": [
+          "PVC",
+          "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-BK / B7"
+        ],
+        "color": [
+          "BLACK",
+          "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-BK / B6"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-no-031-gr",
+      "sku": "NO. 031-GR",
+      "category": "Essentials",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-GR / B3"
+        ],
+        "materials": [
+          "PVC",
+          "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-GR / B7"
+        ],
+        "color": [
+          "GREEN",
+          "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-GR / B6"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-no-031-gy",
+      "sku": "NO. 031-GY",
+      "category": "Essentials",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-GY / B3"
+        ],
+        "materials": [
+          "PVC",
+          "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-GY / B7"
+        ],
+        "color": [
+          "GREY",
+          "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-GY / B6"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-no-031-pk",
+      "sku": "NO. 031-PK",
+      "category": "Essentials",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-PK / B3"
+        ],
+        "materials": [
+          "PVC",
+          "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-PK / B7"
+        ],
+        "color": [
+          "PINK",
+          "NO. 031GR&GY&BK&PK final spec sheet 20250326.xlsx / NO. 031-PK / B6"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-em02-pk",
+      "sku": "SF-EM02-PK",
+      "category": "Essentials",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-PK / B3"
+        ],
+        "materials": [
+          "PVC+SCRIM",
+          "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-PK / B7"
+        ],
+        "color": [
+          "PINK 516U+425U DAR GREY",
+          "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-PK / B6"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t7945",
+      "sku": "SF-T7945",
+      "category": "Treadmills",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-T7945 Specification sheet 12122019.xlsx / Sheet1 / B2"
+        ],
+        "maxUserWeightLb": [
+          "220 lb",
+          "SF-T7945 Specification sheet 12122019.xlsx / Sheet1 / B13"
+        ],
+        "speedRange": [
+          "0.5-3.75MPH",
+          "SF-T7945 Specification sheet 12122019.xlsx / Sheet1 / B53"
+        ],
+        "amps": [
+          "8A",
+          "SF-T7945 Specification sheet 12122019.xlsx / Sheet1 / B59"
+        ],
+        "shockAbsorption": [
+          "High quality 80 - hardness rubber foot pad",
+          "SF-T7945 Specification sheet 12122019.xlsx / Sheet1 / B64"
+        ],
+        "screenSize": [
+          "36*13CM/14.2*5.1INCH",
+          "SF-T7945 Specification sheet 12122019.xlsx / Sheet1 / B12"
+        ],
+        "battery": [
+          "1 pcs 2032 lithium battery",
+          "SF-T7945 Specification sheet 12122019.xlsx / Sheet1 / D19"
+        ],
+        "plugType": [
+          "PLUG",
+          "SF-T7945 Specification sheet 12122019.xlsx / Sheet1 / D28"
+        ],
+        "display": [
+          "time, speed, calories, steps, distance",
+          "SF-T7945 Specification sheet 12122019.xlsx / Sheet1 / B30"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t7610",
+      "sku": "SF-T7610",
+      "category": "Treadmills",
+      "fields": {
+        "transportWheels": [
+          "YES",
+          "T7610 spec sheet.docx / document / 27:2"
+        ],
+        "treadmillType": [
+          "WALKING TREADMILL",
+          "T7610 spec sheet.docx / document / 11:2"
+        ],
+        "runningSurface": [
+          "39.5*14 INCHES",
+          "T7610 spec sheet.docx / document / 14:2"
+        ],
+        "foldable": [
+          "YES",
+          "T7610 spec sheet.docx / document / 31:2"
+        ],
+        "deviceHolder": [
+          "YES",
+          "T7610 spec sheet.docx / document / 29:2"
+        ],
+        "bottleHolder": [
+          "NO",
+          "T7610 spec sheet.docx / document / 28:2"
+        ],
+        "heartRate": [
+          "NO",
+          "T7610 spec sheet.docx / document / 23:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t7632",
+      "sku": "SF-T7632",
+      "category": "Treadmills",
+      "fields": {
+        "transportWheels": [
+          "YES",
+          "SF-T7632 spec sheet.docx / document / 27:2"
+        ],
+        "treadmillType": [
+          "WALKING TREADMILL",
+          "SF-T7632 spec sheet.docx / document / 11:2"
+        ],
+        "runningSurface": [
+          "43.3*14 INCHES",
+          "SF-T7632 spec sheet.docx / document / 14:2"
+        ],
+        "foldable": [
+          "YES",
+          "SF-T7632 spec sheet.docx / document / 31:2"
+        ],
+        "deviceHolder": [
+          "YES",
+          "SF-T7632 spec sheet.docx / document / 29:2"
+        ],
+        "bottleHolder": [
+          "NO",
+          "SF-T7632 spec sheet.docx / document / 28:2"
+        ],
+        "heartRate": [
+          "NO",
+          "SF-T7632 spec sheet.docx / document / 23:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t7643",
+      "sku": "SF-T7643",
+      "category": "Treadmills",
+      "fields": {
+        "transportWheels": [
+          "YES",
+          "T7643 Specification.docx / document / 27:2"
+        ],
+        "treadmillType": [
+          "WALKING TREADMILL",
+          "T7643 Specification.docx / document / 11:2"
+        ],
+        "runningSurface": [
+          "43.3*19.5INCHES",
+          "T7643 Specification.docx / document / 14:2"
+        ],
+        "foldable": [
+          "YES",
+          "T7643 Specification.docx / document / 31:2"
+        ],
+        "deviceHolder": [
+          "YES",
+          "T7643 Specification.docx / document / 29:2"
+        ],
+        "bottleHolder": [
+          "YES",
+          "T7643 Specification.docx / document / 28:2"
+        ],
+        "heartRate": [
+          "NO",
+          "T7643 Specification.docx / document / 23:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t7718",
+      "sku": "SF-T7718",
+      "category": "Treadmills",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-T7718 Spec Sheet 01.07.2020.xlsx / Sheet1 / B2"
+        ],
+        "speedRange": [
+          "0.6-9.0MPH",
+          "SF-T7718 Spec Sheet 01.07.2020.xlsx / Sheet1 / B53"
+        ],
+        "watts": [
+          "1865W",
+          "SF-T7718 Spec Sheet 01.07.2020.xlsx / Sheet1 / B58"
+        ],
+        "amps": [
+          "10A",
+          "SF-T7718 Spec Sheet 01.07.2020.xlsx / Sheet1 / B59"
+        ],
+        "screenSize": [
+          "1.5*0.7 & 1.9*0.7 & 1.5*0.7 INCH",
+          "SF-T7718 Spec Sheet 01.07.2020.xlsx / Sheet1 / B12"
+        ],
+        "programs": [
+          "9",
+          "SF-T7718 Spec Sheet 01.07.2020.xlsx / Sheet1 / B16"
+        ],
+        "bluetooth": [
+          "both music and APP",
+          "SF-T7718 Spec Sheet 01.07.2020.xlsx / Sheet1 / D25"
+        ],
+        "plugType": [
+          "PLUG",
+          "SF-T7718 Spec Sheet 01.07.2020.xlsx / Sheet1 / D28"
+        ],
+        "display": [
+          "SPEED, TIME, DISTANCE, CALORIES,PULSE, STEPS",
+          "SF-T7718 Spec Sheet 01.07.2020.xlsx / Sheet1 / B30"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t7718smart",
+      "sku": "SF-T7718SMART",
+      "category": "Treadmills",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-T7718 SMART Spec Sheet 02.10.2022 updated.xlsx / Sheet1 / B2"
+        ],
+        "speedRange": [
+          "0.6-9.0MPH",
+          "SF-T7718 SMART Spec Sheet 02.10.2022 updated.xlsx / Sheet1 / B53"
+        ],
+        "watts": [
+          "1865W",
+          "SF-T7718 SMART Spec Sheet 02.10.2022 updated.xlsx / Sheet1 / B61"
+        ],
+        "amps": [
+          "10A",
+          "SF-T7718 SMART Spec Sheet 02.10.2022 updated.xlsx / Sheet1 / B62"
+        ],
+        "screenSize": [
+          "1.5*0.7 & 1.9*0.7 & 1.5*0.7 INCH",
+          "SF-T7718 SMART Spec Sheet 02.10.2022 updated.xlsx / Sheet1 / B12"
+        ],
+        "programs": [
+          "9",
+          "SF-T7718 SMART Spec Sheet 02.10.2022 updated.xlsx / Sheet1 / B16"
+        ],
+        "bluetooth": [
+          "SUNNY APP",
+          "SF-T7718 SMART Spec Sheet 02.10.2022 updated.xlsx / Sheet1 / D25"
+        ],
+        "plugType": [
+          "PLUG",
+          "SF-T7718 SMART Spec Sheet 02.10.2022 updated.xlsx / Sheet1 / D28"
+        ],
+        "display": [
+          "SPEED, TIME, DISTANCE, CALORIES,PULSE, STEPS",
+          "SF-T7718 SMART Spec Sheet 02.10.2022 updated.xlsx / Sheet1 / B30"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t7909",
+      "sku": "SF-T7909",
+      "category": "Treadmills",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-T7909 Spec.sheet 1.14.2020.xlsx / Sheet1 / B2"
+        ],
+        "speedRange": [
+          "0.6-7.5 MI/H",
+          "SF-T7909 Spec.sheet 1.14.2020.xlsx / Sheet1 / B53"
+        ],
+        "inclineLevels": [
+          "12",
+          "SF-T7909 Spec.sheet 1.14.2020.xlsx / Sheet1 / B55"
+        ],
+        "amps": [
+          "10A",
+          "SF-T7909 Spec.sheet 1.14.2020.xlsx / Sheet1 / B60"
+        ],
+        "screenSize": [
+          "1.5*0.6INCH 4PCS / 3.9*1.6CM 4PCS",
+          "SF-T7909 Spec.sheet 1.14.2020.xlsx / Sheet1 / B12"
+        ],
+        "programs": [
+          "12",
+          "SF-T7909 Spec.sheet 1.14.2020.xlsx / Sheet1 / B16"
+        ],
+        "bluetooth": [
+          "Music only",
+          "SF-T7909 Spec.sheet 1.14.2020.xlsx / Sheet1 / D25"
+        ],
+        "plugType": [
+          "PLUG",
+          "SF-T7909 Spec.sheet 1.14.2020.xlsx / Sheet1 / D28"
+        ],
+        "display": [
+          "Time，Speed，Distance，Calories，Pulse，BMI calculator , Incline , Steps",
+          "SF-T7909 Spec.sheet 1.14.2020.xlsx / Sheet1 / B30"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t7971",
+      "sku": "SF-T7971",
+      "category": "Treadmills",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-T7971 Spec Sheet 06132020.xlsx / Sheet1 / B2"
+        ],
+        "maxUserWeightLb": [
+          "220 lb",
+          "SF-T7971 Spec Sheet 06132020.xlsx / Sheet1 / B13"
+        ],
+        "speedRange": [
+          "0.5-4MPH",
+          "SF-T7971 Spec Sheet 06132020.xlsx / Sheet1 / B53"
+        ],
+        "watts": [
+          "1470W ( 2*735)",
+          "SF-T7971 Spec Sheet 06132020.xlsx / Sheet1 / B58"
+        ],
+        "shockAbsorption": [
+          "High quality 80 - hardness rubber foot pad",
+          "SF-T7971 Spec Sheet 06132020.xlsx / Sheet1 / B64"
+        ],
+        "foldable": [
+          "both handrials and treadmill have foldable",
+          "SF-T7971 Spec Sheet 06132020.xlsx / Sheet1 / B66"
+        ],
+        "screenSize": [
+          "13.6*1.7 CM/ 5.4*0.7 INCH",
+          "SF-T7971 Spec Sheet 06132020.xlsx / Sheet1 / B12"
+        ],
+        "battery": [
+          "1 pcs 2032 lithium battery in remote control",
+          "SF-T7971 Spec Sheet 06132020.xlsx / Sheet1 / D19"
+        ],
+        "plugType": [
+          "PLUG",
+          "SF-T7971 Spec Sheet 06132020.xlsx / Sheet1 / D28"
+        ],
+        "display": [
+          "SPEED,TIME,DISTANCE,CALORIES,STEPS",
+          "SF-T7971 Spec Sheet 06132020.xlsx / Sheet1 / B30"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-obc-86",
+      "sku": "OBC-86",
+      "category": "Weights",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "OBC-86 Specification 06.22.2023.xlsx / Specification / B1"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-stcb-47",
+      "sku": "STCB-47",
+      "category": "Weights",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "STCB-47 Specification.xlsx / Specification / B1"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-xfa009",
+      "sku": "SF-XFA009",
+      "category": "Racks",
+      "fields": {
+        "brand": [
+          "SUNNY HEALTH & FITNESS",
+          "final SPEC SHEET- SF-XFA009 update 06132023 .xlsx / Sheet1 / B3"
+        ],
+        "materials": [
+          "STEEL TUBE/PLASTIC",
+          "final SPEC SHEET- SF-XFA009 update 06132023 .xlsx / Sheet1 / B7"
+        ],
+        "color": [
+          "BLACK",
+          "final SPEC SHEET- SF-XFA009 update 06132023 .xlsx / Sheet1 / B6"
+        ],
+        "maxUserWeightLb": [
+          "125 lb",
+          "final SPEC SHEET- SF-XFA009 update 06132023 .xlsx / Sheet1 / B21"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rw5809",
+      "sku": "SF-RW5809",
+      "category": "Rowers",
+      "fields": {
+        "brand": [
+          "SUNNY",
+          "SF-RW5809 Specification Sheet 2021.4.2 Max Weight Updated.xlsx / Sheet1 / B3"
+        ],
+        "maxUserWeightLb": [
+          "275 lb",
+          "SF-RW5809 Specification Sheet 2021.4.2 Max Weight Updated.xlsx / Sheet1 / B14"
+        ],
+        "speedResistanceLevels": [
+          "16 levels for adjustable magnetic resistance",
+          "SF-RW5809 Specification Sheet 2021.4.2 Max Weight Updated.xlsx / Sheet1 / B16"
+        ],
+        "railInseam": [
+          "105CM / 41.3 INCH",
+          "SF-RW5809 Specification Sheet 2021.4.2 Max Weight Updated.xlsx / Sheet1 / B76"
+        ],
+        "resistanceType": [
+          "Water",
+          "SF-RW5809 Specification Sheet 2021.4.2 Max Weight Updated.xlsx / Sheet1 / B15"
+        ],
+        "display": [
+          "TIME,TIEM/500M,SPM,DISTANCE,STROKES,TOTAL STROKES,CALORIES,PULSE,CALENDAR,TEMPERATURE,CLOCK",
+          "SF-RW5809 Specification Sheet 2021.4.2 Max Weight Updated.xlsx / Sheet1 / B34"
+        ],
+        "screenSize": [
+          "19*11.5*3.5 CM / 7.5*4.5*1.4 INCH",
+          "SF-RW5809 Specification Sheet 2021.4.2 Max Weight Updated.xlsx / Sheet1 / B13"
+        ],
+        "battery": [
+          "2AA",
+          "SF-RW5809 Specification Sheet 2021.4.2 Max Weight Updated.xlsx / Sheet1 / D20"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rw5854",
+      "sku": "SF-RW5854",
+      "category": "Rowers",
+      "fields": {
+        "foldable": [
+          "YES",
+          "SF-RW5854 specification sheet.docx / document / 19:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rw5935",
+      "sku": "SF-RW5935",
+      "category": "Rowers",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-RW5935_Spec_Sheet 12.14.2020.xlsx / Sheet1 / B2"
+        ],
+        "maxUserWeightLb": [
+          "285 lb",
+          "SF-RW5935_Spec_Sheet 12.14.2020.xlsx / Sheet1 / B13"
+        ],
+        "speedResistanceLevels": [
+          "16LEVELS",
+          "SF-RW5935_Spec_Sheet 12.14.2020.xlsx / Sheet1 / B15"
+        ],
+        "railInseam": [
+          "1099mm/43.27INCH",
+          "SF-RW5935_Spec_Sheet 12.14.2020.xlsx / Sheet1 / B73"
+        ],
+        "resistanceType": [
+          "Magnetic",
+          "SF-RW5935_Spec_Sheet 12.14.2020.xlsx / Sheet1 / B14"
+        ],
+        "flywheelWeight": [
+          "2.5KGS/5.5 LBS",
+          "SF-RW5935_Spec_Sheet 12.14.2020.xlsx / Sheet1 / B7"
+        ],
+        "display": [
+          "AUTO ON/OFF,SCAN,TIME,COUNT,TOTAL COUNT, CAL",
+          "SF-RW5935_Spec_Sheet 12.14.2020.xlsx / Sheet1 / B31"
+        ],
+        "screenSize": [
+          "46*22MM/1.8*0.9INCH",
+          "SF-RW5935_Spec_Sheet 12.14.2020.xlsx / Sheet1 / B12"
+        ],
+        "battery": [
+          "2xAAA",
+          "SF-RW5935_Spec_Sheet 12.14.2020.xlsx / Sheet1 / D19"
+        ],
+        "programs": [
+          "NO",
+          "SF-RW5935_Spec_Sheet 12.14.2020.xlsx / Sheet1 / B16"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rw520050",
+      "sku": "SF-RW520050",
+      "category": "Rowers",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-RW520050 Spec.sheet 12.082020.xlsx / Sheet1 / B3"
+        ],
+        "maxUserWeightLb": [
+          "245 lb",
+          "SF-RW520050 Spec.sheet 12.082020.xlsx / Sheet1 / B14"
+        ],
+        "railInseam": [
+          "1135MM/44.7INCH",
+          "SF-RW520050 Spec.sheet 12.082020.xlsx / Sheet1 / B76"
+        ],
+        "resistanceType": [
+          "AIR",
+          "SF-RW520050 Spec.sheet 12.082020.xlsx / Sheet1 / B15"
+        ],
+        "display": [
+          "TIME、COUNT、CALORIE、REPS/MIN、SCAN",
+          "SF-RW520050 Spec.sheet 12.082020.xlsx / Sheet1 / B34"
+        ],
+        "screenSize": [
+          "31*25MM/1.22*0.98INCH",
+          "SF-RW520050 Spec.sheet 12.082020.xlsx / Sheet1 / B13"
+        ],
+        "battery": [
+          "1xAAA",
+          "SF-RW520050 Spec.sheet 12.082020.xlsx / Sheet1 / D20"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rw5940",
+      "sku": "SF-RW5940",
+      "category": "Rowers",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-RW5940 Spec Sheet 03232022.xlsx / Sheet1 / B2"
+        ],
+        "maxUserWeightLb": [
+          "300 lb",
+          "SF-RW5940 Spec Sheet 03232022.xlsx / Sheet1 / B13"
+        ],
+        "speedResistanceLevels": [
+          "16LEVELS",
+          "SF-RW5940 Spec Sheet 03232022.xlsx / Sheet1 / B15"
+        ],
+        "railInseam": [
+          "1090mm/42.9inch",
+          "SF-RW5940 Spec Sheet 03232022.xlsx / Sheet1 / B73"
+        ],
+        "seatHeight": [
+          "385mm/15.2inch",
+          "SF-RW5940 Spec Sheet 03232022.xlsx / Sheet1 / B75"
+        ],
+        "resistanceType": [
+          "AIR/Magnetic",
+          "SF-RW5940 Spec Sheet 03232022.xlsx / Sheet1 / B14"
+        ],
+        "display": [
+          "TIME, TIME/500M, SPM, DISTANCE, STROKES, TOTAL STROKES, CALORISE, HRC/PULSE, CALENDAR, TEMPERATURE, CLOCK",
+          "SF-RW5940 Spec Sheet 03232022.xlsx / Sheet1 / B31"
+        ],
+        "screenSize": [
+          "12.6*5.7CM 5.0*2.2INCH",
+          "SF-RW5940 Spec Sheet 03232022.xlsx / Sheet1 / B12"
+        ],
+        "programs": [
+          "NO",
+          "SF-RW5940 Spec Sheet 03232022.xlsx / Sheet1 / B16"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rw5983",
+      "sku": "SF-RW5983",
+      "category": "Rowers",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-RW5983 Spec Sheet 2020.06.12.xlsx / Sheet1 / B2"
+        ],
+        "maxUserWeightLb": [
+          "265 lb",
+          "SF-RW5983 Spec Sheet 2020.06.12.xlsx / Sheet1 / B13"
+        ],
+        "speedResistanceLevels": [
+          "16LEVELS",
+          "SF-RW5983 Spec Sheet 2020.06.12.xlsx / Sheet1 / B15"
+        ],
+        "railInseam": [
+          "112CM 44.1 INCH",
+          "SF-RW5983 Spec Sheet 2020.06.12.xlsx / Sheet1 / B70"
+        ],
+        "resistanceType": [
+          "AIR + MAGNETIC",
+          "SF-RW5983 Spec Sheet 2020.06.12.xlsx / Sheet1 / B14"
+        ],
+        "display": [
+          "TIME,PULSE CALORIE,DISTANCE,SPM,STROKES,",
+          "SF-RW5983 Spec Sheet 2020.06.12.xlsx / Sheet1 / B31"
+        ],
+        "screenSize": [
+          "125*55MM/4.92*2.17INCH",
+          "SF-RW5983 Spec Sheet 2020.06.12.xlsx / Sheet1 / B12"
+        ],
+        "battery": [
+          "2xAAA",
+          "SF-RW5983 Spec Sheet 2020.06.12.xlsx / Sheet1 / D19"
+        ],
+        "programs": [
+          "22",
+          "SF-RW5983 Spec Sheet 2020.06.12.xlsx / Sheet1 / B16"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-no-067-60",
+      "sku": "NO. 067-60",
+      "category": "Weights",
+      "fields": {
+        "brand": [
+          "Sunny",
+          "NO.067-60 SPEC.xlsx / Specification / B1"
+        ],
+        "materials": [
+          "iron",
+          "NO.067-60 SPEC.xlsx / Specification / B13"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-no-087",
+      "sku": "NO. 087",
+      "category": "Weights",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "No. 087 Specification.xlsx / Specification / B1"
+        ],
+        "materials": [
+          "Bar:PP, steel; Plate:PE",
+          "No. 087 Specification.xlsx / Specification / B18"
+        ],
+        "shippingDimensions": [
+          "18.1*9*6.7inches(46*23*17cm)",
+          "No. 087 Specification.xlsx / Specification / B6"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b2906",
+      "sku": "SF-B2906",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-B2906 Bike - Spec Sheet - 09.22.2020.xlsx / Sheet1 / B1"
+        ],
+        "resistanceType": [
+          "Magnetic control",
+          "SF-B2906 Bike - Spec Sheet - 09.22.2020.xlsx / Sheet1 / B13"
+        ],
+        "speedResistanceLevels": [
+          "8",
+          "SF-B2906 Bike - Spec Sheet - 09.22.2020.xlsx / Sheet1 / B14"
+        ],
+        "deviceHolder": [
+          "Console",
+          "SF-B2906 Bike - Spec Sheet - 09.22.2020.xlsx / Sheet1 / B9"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b2969",
+      "sku": "SF-B2969",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "SUNNY",
+          "B2969 SpecSheet2019.1.6.xlsx / B2969 / B2"
+        ],
+        "maxUserWeightLb": [
+          "300 lb",
+          "B2969 SpecSheet2019.1.6.xlsx / B2969 / B12"
+        ],
+        "resistanceType": [
+          "Magnetic",
+          "B2969 SpecSheet2019.1.6.xlsx / B2969 / B13"
+        ],
+        "speedResistanceLevels": [
+          "24",
+          "B2969 SpecSheet2019.1.6.xlsx / B2969 / B14"
+        ],
+        "display": [
+          "STOP/TIME/SPEED/RPM/WATT/DISTANCE/CALORIES/TEMPERATURE/PULSE/WEIGHT/HEIGHT/AGE/SEX/HEART SYMBOL/PROGRAM/FITNESS/WATT/PERSONAL",
+          "B2969 SpecSheet2019.1.6.xlsx / B2969 / B30"
+        ],
+        "screenSize": [
+          "12.7*5.9CM/5*2.3INCH",
+          "B2969 SpecSheet2019.1.6.xlsx / B2969 / B11"
+        ],
+        "programs": [
+          "P1-12",
+          "B2969 SpecSheet2019.1.6.xlsx / B2969 / B15"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rb4850",
+      "sku": "SF-RB4850",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-RB4850 SPEC SHEET 06082023.xlsx / Sheet1 / B3"
+        ],
+        "materials": [
+          "Q235+HIPS",
+          "SF-RB4850 SPEC SHEET 06082023.xlsx / Sheet1 / B7"
+        ],
+        "color": [
+          "BLACK+SILVER+RED485C",
+          "SF-RB4850 SPEC SHEET 06082023.xlsx / Sheet1 / B6"
+        ],
+        "maxUserWeightLb": [
+          "300 lb",
+          "SF-RB4850 SPEC SHEET 06082023.xlsx / Sheet1 / B19"
+        ],
+        "resistanceType": [
+          "Magnetic",
+          "SF-RB4850 SPEC SHEET 06082023.xlsx / Sheet1 / B20"
+        ],
+        "speedResistanceLevels": [
+          "16LEVELS",
+          "SF-RB4850 SPEC SHEET 06082023.xlsx / Sheet1 / B21"
+        ],
+        "display": [
+          "SPEED, RPM, TIME, DIST, ODO, CAL, WATT, HEART RATE, TARGET HR, PROGRAM, LEVEL",
+          "SF-RB4850 SPEC SHEET 06082023.xlsx / Sheet1 / B41"
+        ],
+        "screenType": [
+          "LCD",
+          "SF-RB4850 SPEC SHEET 06082023.xlsx / Sheet1 / B18"
+        ],
+        "screenSize": [
+          "127*58MM/5*2.3 INCHES",
+          "SF-RB4850 SPEC SHEET 06082023.xlsx / Sheet1 / B17"
+        ],
+        "programs": [
+          "12P+Watt Control Program+BODY FAT Program+TARGET HEART RATE Program+4 HEART RATE CONTROL Program+4 User Program",
+          "SF-RB4850 SPEC SHEET 06082023.xlsx / Sheet1 / B23"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rb4876",
+      "sku": "SF-RB4876",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "SUNNY HEALTH & FITNESS",
+          "Spec Sheet for SF-RB4876.xlsx / Sheet1 / B2"
+        ],
+        "maxUserWeightLb": [
+          "220 lb",
+          "Spec Sheet for SF-RB4876.xlsx / Sheet1 / B12"
+        ],
+        "resistanceType": [
+          "Manual/Magnetic",
+          "Spec Sheet for SF-RB4876.xlsx / Sheet1 / B13"
+        ],
+        "speedResistanceLevels": [
+          "8 LEVELS",
+          "Spec Sheet for SF-RB4876.xlsx / Sheet1 / B14"
+        ],
+        "display": [
+          "SCAN/SPEED/DISTANCE/TIME/CALORIES/ODOMETER/PULSE",
+          "Spec Sheet for SF-RB4876.xlsx / Sheet1 / B29"
+        ],
+        "screenSize": [
+          "2.1*0.9INCHES（53*23mm）",
+          "Spec Sheet for SF-RB4876.xlsx / Sheet1 / B11"
+        ],
+        "battery": [
+          "2xAAA",
+          "Spec Sheet for SF-RB4876.xlsx / Sheet1 / D18"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rb4905",
+      "sku": "SF-RB4905",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-RB4905 Recumbent Bike - Spec Sheet - 9.23.2020  Update N.W, G.W and Carton size.xlsx / Sheet1 / B1"
+        ],
+        "resistanceType": [
+          "Magnetic control",
+          "SF-RB4905 Recumbent Bike - Spec Sheet - 9.23.2020  Update N.W, G.W and Carton size.xlsx / Sheet1 / B13"
+        ],
+        "speedResistanceLevels": [
+          "8",
+          "SF-RB4905 Recumbent Bike - Spec Sheet - 9.23.2020  Update N.W, G.W and Carton size.xlsx / Sheet1 / B14"
+        ],
+        "deviceHolder": [
+          "Console",
+          "SF-RB4905 Recumbent Bike - Spec Sheet - 9.23.2020  Update N.W, G.W and Carton size.xlsx / Sheet1 / B9"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rb4936",
+      "sku": "SF-RB4936",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-RB4936 Spec Sheet 1.8.2020.xlsx / Sheet1 / B2"
+        ],
+        "maxUserWeightLb": [
+          "265 lb",
+          "SF-RB4936 Spec Sheet 1.8.2020.xlsx / Sheet1 / B12"
+        ],
+        "resistanceType": [
+          "Magnetic",
+          "SF-RB4936 Spec Sheet 1.8.2020.xlsx / Sheet1 / B13"
+        ],
+        "speedResistanceLevels": [
+          "1-8 levels",
+          "SF-RB4936 Spec Sheet 1.8.2020.xlsx / Sheet1 / B14"
+        ],
+        "display": [
+          "TIME/SPEED/DISTANCE/CALORIES/ODO/PULSE",
+          "SF-RB4936 Spec Sheet 1.8.2020.xlsx / Sheet1 / B29"
+        ],
+        "battery": [
+          "2xAAA",
+          "SF-RB4936 Spec Sheet 1.8.2020.xlsx / Sheet1 / D18"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rb4953",
+      "sku": "SF-RB4953",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-RB4953 Recumbent Bike - Spec Sheet - 11.11.xlsx / Sheet1 / B1"
+        ],
+        "resistanceType": [
+          "Magnetic",
+          "SF-RB4953 Recumbent Bike - Spec Sheet - 11.11.xlsx / Sheet1 / B15"
+        ],
+        "speedResistanceLevels": [
+          "8 Levels",
+          "SF-RB4953 Recumbent Bike - Spec Sheet - 11.11.xlsx / Sheet1 / B16"
+        ],
+        "stride": [
+          "5.5 INCHES",
+          "SF-RB4953 Recumbent Bike - Spec Sheet - 11.11.xlsx / Sheet1 / B17"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rbd4703",
+      "sku": "SF-RBD4703",
+      "category": "Indoor Bikes",
+      "fields": {
+        "resistanceType": [
+          "MAGNETIC",
+          "SF-RBD4703 Specification.docx / document / 10:2"
+        ],
+        "speedResistanceLevels": [
+          "8 LEVELS",
+          "SF-RBD4703 Specification.docx / document / 11:2"
+        ],
+        "heartRate": [
+          "No",
+          "SF-RBD4703 Specification.docx / document / 15:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b020029",
+      "sku": "SF-B020029",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-B020029  spec sheet 08.22.2022.xlsx / Sheet1 / B3"
+        ],
+        "footprint": [
+          "550*475MM（21.7*18.7 inches）",
+          "SF-B020029  spec sheet 08.22.2022.xlsx / Sheet1 / B19"
+        ],
+        "resistanceType": [
+          "ELECTRIC",
+          "SF-B020029  spec sheet 08.22.2022.xlsx / Sheet1 / B15"
+        ],
+        "speedResistanceLevels": [
+          "18 LEVELS",
+          "SF-B020029  spec sheet 08.22.2022.xlsx / Sheet1 / B16"
+        ],
+        "stride": [
+          "178MM( 7 inches)",
+          "SF-B020029  spec sheet 08.22.2022.xlsx / Sheet1 / B52"
+        ],
+        "display": [
+          "Time/Speed/level",
+          "SF-B020029  spec sheet 08.22.2022.xlsx / Sheet1 / B35"
+        ],
+        "screenSize": [
+          "31*15mm/1.2*0.6 inches",
+          "SF-B020029  spec sheet 08.22.2022.xlsx / Sheet1 / B13"
+        ],
+        "battery": [
+          "1xCR-2025 3V",
+          "SF-B020029  spec sheet 08.22.2022.xlsx / Sheet1 / D21"
+        ],
+        "programs": [
+          "3，P1 P2 P3",
+          "SF-B020029  spec sheet 08.22.2022.xlsx / Sheet1 / B17"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b2729",
+      "sku": "SF-B2729",
+      "category": "Indoor Bikes",
+      "fields": {
+        "display": [
+          "ST3921: RPM, SPEED, TIME, DISTANCE, CALORIES, WATT, PULSE",
+          "SF-B2729 Spec.docx / document / 14:2"
+        ],
+        "heartRate": [
+          "NO",
+          "SF-B2729 Spec.docx / document / 21:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b2916",
+      "sku": "SF-B2916",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "SUNNY",
+          "SF-B2916 Specification 04032025.xlsx / Sheet1 / B1"
+        ],
+        "speedResistanceLevels": [
+          "Air Bike with fan wheel,no adjustable resistance",
+          "SF-B2916 Specification 04032025.xlsx / Sheet1 / B18"
+        ],
+        "crankType": [
+          "1PC",
+          "SF-B2916 Specification 04032025.xlsx / Sheet1 / B27"
+        ],
+        "foldable": [
+          "NO",
+          "SF-B2916 Specification 04032025.xlsx / Sheet1 / B29"
+        ],
+        "stride": [
+          "25cm/10inch",
+          "SF-B2916 Specification 04032025.xlsx / Sheet1 / B30"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b1203",
+      "sku": "SF-B1203",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-B1203 updated spec sheet 03152023.xlsx / Sheet1 / B3"
+        ],
+        "materials": [
+          "Steel+Plastic+Rubber+Foam",
+          "SF-B1203 updated spec sheet 03152023.xlsx / Sheet1 / B7"
+        ],
+        "color": [
+          "Silver+Black+Red 186C",
+          "SF-B1203 updated spec sheet 03152023.xlsx / Sheet1 / B6"
+        ],
+        "maxUserWeightLb": [
+          "220 lb",
+          "SF-B1203 updated spec sheet 03152023.xlsx / Sheet1 / B19"
+        ],
+        "resistanceType": [
+          "Felt Pad",
+          "SF-B1203 updated spec sheet 03152023.xlsx / Sheet1 / B20"
+        ],
+        "speedResistanceLevels": [
+          "Stepless",
+          "SF-B1203 updated spec sheet 03152023.xlsx / Sheet1 / B21"
+        ],
+        "pedalThread": [
+          "1/2\"",
+          "SF-B1203 updated spec sheet 03152023.xlsx / Sheet1 / B53"
+        ],
+        "display": [
+          "SPEED,TIME,DISTANCE,CALORISES",
+          "SF-B1203 updated spec sheet 03152023.xlsx / Sheet1 / B40"
+        ],
+        "screenType": [
+          "LCD",
+          "SF-B1203 updated spec sheet 03152023.xlsx / Sheet1 / B18"
+        ],
+        "screenSize": [
+          "30*22 MM/1.2*0.9 INCH",
+          "SF-B1203 updated spec sheet 03152023.xlsx / Sheet1 / B17"
+        ],
+        "battery": [
+          "2xAA",
+          "SF-B1203 updated spec sheet 03152023.xlsx / Sheet1 / D25"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b121021",
+      "sku": "SF-B121021",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-B121021 SpecSheet 2021.10.14.xlsx / Sheet1 / B3"
+        ],
+        "maxUserWeightLb": [
+          "300 lb",
+          "SF-B121021 SpecSheet 2021.10.14.xlsx / Sheet1 / B14"
+        ],
+        "resistanceType": [
+          "MAGNETIC",
+          "SF-B121021 SpecSheet 2021.10.14.xlsx / Sheet1 / B15"
+        ],
+        "speedResistanceLevels": [
+          "friction",
+          "SF-B121021 SpecSheet 2021.10.14.xlsx / Sheet1 / B16"
+        ],
+        "display": [
+          "SPEED，AVG/MAX SPEED，AVG/MAX CADENCE，DISTANCE，TARGET DISTANCE，CALORIES，RACE，TIME，TARGET TIME，PULSE",
+          "SF-B121021 SpecSheet 2021.10.14.xlsx / Sheet1 / B35"
+        ],
+        "screenSize": [
+          "43*77mm/1.7*3 INCHES",
+          "SF-B121021 SpecSheet 2021.10.14.xlsx / Sheet1 / B13"
+        ],
+        "battery": [
+          "2xAAA",
+          "SF-B121021 SpecSheet 2021.10.14.xlsx / Sheet1 / D20"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b122055",
+      "sku": "SF-B122055",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "Spec Sheet for SF-B122055.xlsx / Sheet1 / B3"
+        ],
+        "maxUserWeightLb": [
+          "220 lb",
+          "Spec Sheet for SF-B122055.xlsx / Sheet1 / B15"
+        ],
+        "resistanceType": [
+          "Magnetic",
+          "Spec Sheet for SF-B122055.xlsx / Sheet1 / B16"
+        ],
+        "speedResistanceLevels": [
+          "stepless",
+          "Spec Sheet for SF-B122055.xlsx / Sheet1 / B17"
+        ],
+        "display": [
+          "TIME/SPEED/DIST/CAL/ODO/PULSE/RPM",
+          "Spec Sheet for SF-B122055.xlsx / Sheet1 / B35"
+        ],
+        "screenSize": [
+          "42*22MM/1.7*0.9INCH",
+          "Spec Sheet for SF-B122055.xlsx / Sheet1 / B14"
+        ],
+        "battery": [
+          "2xAAA",
+          "Spec Sheet for SF-B122055.xlsx / Sheet1 / D21"
+        ],
+        "programs": [
+          "NO",
+          "Spec Sheet for SF-B122055.xlsx / Sheet1 / B18"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b1711",
+      "sku": "SF-B1711",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "B1711 BIKE SPEC 20191018.xlsx / Sheet1 / B1"
+        ],
+        "speedResistanceLevels": [
+          "Stepless",
+          "B1711 BIKE SPEC 20191018.xlsx / Sheet1 / B18"
+        ],
+        "foldable": [
+          "NO",
+          "B1711 BIKE SPEC 20191018.xlsx / Sheet1 / B28"
+        ],
+        "stride": [
+          "13.4inch",
+          "B1711 BIKE SPEC 20191018.xlsx / Sheet1 / B29"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b1852",
+      "sku": "SF-B1852",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "B1852 Spec Sheet 2021.6.7 update.xlsx / Sheet1 / B3"
+        ],
+        "maxUserWeightLb": [
+          "350 lb",
+          "B1852 Spec Sheet 2021.6.7 update.xlsx / Sheet1 / B14"
+        ],
+        "resistanceType": [
+          "Magnetic+manual",
+          "B1852 Spec Sheet 2021.6.7 update.xlsx / Sheet1 / B15"
+        ],
+        "speedResistanceLevels": [
+          "7",
+          "B1852 Spec Sheet 2021.6.7 update.xlsx / Sheet1 / B16"
+        ],
+        "display": [
+          "SPEED/AVG SPEED/MAX SPEED/CADENCE/AVG CADENCE /MAX CADENCE/DISTANCE /TARGET DISTANCE/CALORIES /RACE/TIME/TARGET TIME/PULSE",
+          "B1852 Spec Sheet 2021.6.7 update.xlsx / Sheet1 / B34"
+        ],
+        "screenSize": [
+          "43*77mm/1.7*3 INCHES",
+          "B1852 Spec Sheet 2021.6.7 update.xlsx / Sheet1 / B13"
+        ],
+        "battery": [
+          "2xAAA",
+          "B1852 Spec Sheet 2021.6.7 update.xlsx / Sheet1 / D20"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b1877smart",
+      "sku": "SF-B1877SMART",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-B1877 SMART Spec Sheet 2022.04.08.xlsx / SF-B1877 SMART / B3"
+        ],
+        "maxUserWeightLb": [
+          "265 lb",
+          "SF-B1877 SMART Spec Sheet 2022.04.08.xlsx / SF-B1877 SMART / B14"
+        ],
+        "resistanceType": [
+          "Magnetic",
+          "SF-B1877 SMART Spec Sheet 2022.04.08.xlsx / SF-B1877 SMART / B15"
+        ],
+        "speedResistanceLevels": [
+          "Stepless",
+          "SF-B1877 SMART Spec Sheet 2022.04.08.xlsx / SF-B1877 SMART / B16"
+        ],
+        "display": [
+          "SCAN/TIME/DIST/CAL/ODO/SPD/RPM",
+          "SF-B1877 SMART Spec Sheet 2022.04.08.xlsx / SF-B1877 SMART / B34"
+        ],
+        "screenSize": [
+          "49.5*28*1.1MM/1.9*1.1*0.04INCHES",
+          "SF-B1877 SMART Spec Sheet 2022.04.08.xlsx / SF-B1877 SMART / B13"
+        ],
+        "battery": [
+          "2xAAA",
+          "SF-B1877 SMART Spec Sheet 2022.04.08.xlsx / SF-B1877 SMART / D20"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b1964",
+      "sku": "SF-B1964",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "SUNNY",
+          "B1964 SpecSheet 2021.6.7 updated.xlsx / Sheet1 / B3"
+        ],
+        "maxUserWeightLb": [
+          "275 lb",
+          "B1964 SpecSheet 2021.6.7 updated.xlsx / Sheet1 / B14"
+        ],
+        "resistanceType": [
+          "Magnetic + MANUAL",
+          "B1964 SpecSheet 2021.6.7 updated.xlsx / Sheet1 / B15"
+        ],
+        "speedResistanceLevels": [
+          "friction",
+          "B1964 SpecSheet 2021.6.7 updated.xlsx / Sheet1 / B16"
+        ],
+        "display": [
+          "scan,time,speed,distance,calories,odomete,RPM,pulse",
+          "B1964 SpecSheet 2021.6.7 updated.xlsx / Sheet1 / B34"
+        ],
+        "screenSize": [
+          "49.5*28mm/1.9*1.1 INCH",
+          "B1964 SpecSheet 2021.6.7 updated.xlsx / Sheet1 / B13"
+        ],
+        "battery": [
+          "2xAAA",
+          "B1964 SpecSheet 2021.6.7 updated.xlsx / Sheet1 / D20"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b1970",
+      "sku": "SF-B1970",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-B1970 Spec.sheet 2021.3.24 update.xlsx / Sheet1 / B3"
+        ],
+        "maxUserWeightLb": [
+          "245 lb",
+          "SF-B1970 Spec.sheet 2021.3.24 update.xlsx / Sheet1 / B14"
+        ],
+        "resistanceType": [
+          "Magnetic",
+          "SF-B1970 Spec.sheet 2021.3.24 update.xlsx / Sheet1 / B15"
+        ],
+        "speedResistanceLevels": [
+          "7 LEVELS",
+          "SF-B1970 Spec.sheet 2021.3.24 update.xlsx / Sheet1 / B16"
+        ],
+        "display": [
+          "SCAN/ DISTANCE/ TIME / CALORIES/ ODOMETER / RPM /PULSE",
+          "SF-B1970 Spec.sheet 2021.3.24 update.xlsx / Sheet1 / B34"
+        ],
+        "screenSize": [
+          "49.5*28.1 MM/2.0*1.1 INCH",
+          "SF-B1970 Spec.sheet 2021.3.24 update.xlsx / Sheet1 / B13"
+        ],
+        "battery": [
+          "2xAAA",
+          "SF-B1970 Spec.sheet 2021.3.24 update.xlsx / Sheet1 / D20"
+        ],
+        "programs": [
+          "NO",
+          "SF-B1970 Spec.sheet 2021.3.24 update.xlsx / Sheet1 / B17"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-e3959",
+      "sku": "SF-E3959",
+      "category": "Ellipticals",
+      "fields": {
+        "brand": [
+          "Sunny health & fitness",
+          "sf-e3959 spec sheet  update 20211117.xlsx / Sheet1 / B3"
+        ],
+        "resistanceType": [
+          "ELECTRIC",
+          "sf-e3959 spec sheet  update 20211117.xlsx / Sheet1 / B15"
+        ],
+        "stride": [
+          "6.9inch 17.5CM",
+          "sf-e3959 spec sheet  update 20211117.xlsx / Sheet1 / B51"
+        ],
+        "battery": [
+          "1*CR2025 3v",
+          "sf-e3959 spec sheet  update 20211117.xlsx / Sheet1 / D20"
+        ],
+        "screenSize": [
+          "1.17 * 0.54 INCHES(2.97 * 1.37cm)",
+          "sf-e3959 spec sheet  update 20211117.xlsx / Sheet1 / B13"
+        ],
+        "display": [
+          "TIME/SPEED/MODE",
+          "sf-e3959 spec sheet  update 20211117.xlsx / Sheet1 / B34"
+        ],
+        "programs": [
+          "3，P1 P2 P3",
+          "sf-e3959 spec sheet  update 20211117.xlsx / Sheet1 / B17"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-e3988",
+      "sku": "SF-E3988",
+      "category": "Ellipticals",
+      "fields": {
+        "brand": [
+          "SUNNY HEALTH & FINESS",
+          "SF-E3988 Spec Sheet - 05282020.xlsx / Sheet1 / B2"
+        ],
+        "flywheelWeight": [
+          "1.5KGS/3.3LBS",
+          "SF-E3988 Spec Sheet - 05282020.xlsx / Sheet1 / B7"
+        ],
+        "maxUserWeightLb": [
+          "220 lb",
+          "SF-E3988 Spec Sheet - 05282020.xlsx / Sheet1 / B12"
+        ],
+        "resistanceType": [
+          "Manual，Magnetic",
+          "SF-E3988 Spec Sheet - 05282020.xlsx / Sheet1 / B13"
+        ],
+        "speedResistanceLevels": [
+          "8 levels",
+          "SF-E3988 Spec Sheet - 05282020.xlsx / Sheet1 / B14"
+        ],
+        "stride": [
+          "7 INCHES",
+          "SF-E3988 Spec Sheet - 05282020.xlsx / Sheet1 / B46"
+        ],
+        "battery": [
+          "1*LR44",
+          "SF-E3988 Spec Sheet - 05282020.xlsx / Sheet1 / D18"
+        ],
+        "screenSize": [
+          "3.2*2.5CM/1.3*1.0INCHES",
+          "SF-E3988 Spec Sheet - 05282020.xlsx / Sheet1 / B11"
+        ],
+        "display": [
+          "SCAN，DISTANCE，SPEED，TIME，CALORIES",
+          "SF-E3988 Spec Sheet - 05282020.xlsx / Sheet1 / B29"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-e3862",
+      "sku": "SF-E3862",
+      "category": "Ellipticals",
+      "fields": {
+        "brand": [
+          "SUNNY FITNESS",
+          "SF-E3862 specification sheet.xlsx / Sheet1 / B2"
+        ],
+        "resistanceType": [
+          "Motorized",
+          "SF-E3862 specification sheet.xlsx / Sheet1 / B11"
+        ],
+        "speedResistanceLevels": [
+          "16",
+          "SF-E3862 specification sheet.xlsx / Sheet1 / B10"
+        ],
+        "stride": [
+          "15.75 INCHES",
+          "SF-E3862 specification sheet.xlsx / Sheet1 / B23"
+        ],
+        "display": [
+          "LCD",
+          "SF-E3862 specification sheet.xlsx / Sheet1 / B15"
+        ],
+        "deviceHolder": [
+          "YES",
+          "SF-E3862 specification sheet.xlsx / Sheet1 / B13"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-e3903",
+      "sku": "SF-E3903",
+      "category": "Ellipticals",
+      "fields": {
+        "brand": [
+          "SUNNY HEALTH & FITNESS",
+          "SF-E3903 Spec Sheet 10.10.2020.xlsx / Sheet1 / B2"
+        ],
+        "flywheelWeight": [
+          "6.6LBS/3kg",
+          "SF-E3903 Spec Sheet 10.10.2020.xlsx / Sheet1 / B7"
+        ],
+        "maxUserWeightLb": [
+          "240 lb",
+          "SF-E3903 Spec Sheet 10.10.2020.xlsx / Sheet1 / B11"
+        ],
+        "resistanceType": [
+          "manual,Magnetic control",
+          "SF-E3903 Spec Sheet 10.10.2020.xlsx / Sheet1 / B12"
+        ],
+        "speedResistanceLevels": [
+          "8 Levels",
+          "SF-E3903 Spec Sheet 10.10.2020.xlsx / Sheet1 / B13"
+        ],
+        "stride": [
+          "32cm/12.6INCH",
+          "SF-E3903 Spec Sheet 10.10.2020.xlsx / Sheet1 / B46"
+        ],
+        "battery": [
+          "2xAAA",
+          "SF-E3903 Spec Sheet 10.10.2020.xlsx / Sheet1 / D17"
+        ],
+        "display": [
+          "SCAN/TIME/SPEED/DIST/ODO/CAL/PULSE/time，distance，calorie countdown",
+          "SF-E3903 Spec Sheet 10.10.2020.xlsx / Sheet1 / B28"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-e3911",
+      "sku": "SF-E3911",
+      "category": "Ellipticals",
+      "fields": {
+        "brand": [
+          "Sunny health & fitness",
+          "SF-E3911-Spec Sheet 05132020.xlsx / Sheet1 / B2"
+        ],
+        "flywheelWeight": [
+          "4KG(8.8LBS)",
+          "SF-E3911-Spec Sheet 05132020.xlsx / Sheet1 / B7"
+        ],
+        "maxUserWeightLb": [
+          "220 lb",
+          "SF-E3911-Spec Sheet 05132020.xlsx / Sheet1 / B12"
+        ],
+        "resistanceType": [
+          "Magnetic",
+          "SF-E3911-Spec Sheet 05132020.xlsx / Sheet1 / B13"
+        ],
+        "speedResistanceLevels": [
+          "8 levels",
+          "SF-E3911-Spec Sheet 05132020.xlsx / Sheet1 / B14"
+        ],
+        "stride": [
+          "22.5CM/8.9IINCH",
+          "SF-E3911-Spec Sheet 05132020.xlsx / Sheet1 / B47"
+        ],
+        "battery": [
+          "2xAAA",
+          "SF-E3911-Spec Sheet 05132020.xlsx / Sheet1 / D18"
+        ],
+        "screenSize": [
+          "5.3x2.4cm(2.1x0.9inch)",
+          "SF-E3911-Spec Sheet 05132020.xlsx / Sheet1 / B11"
+        ],
+        "display": [
+          "TIME;SPEED;DISTANCE;CALORIES;ODOMETER",
+          "SF-E3911-Spec Sheet 05132020.xlsx / Sheet1 / B30"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-e3914",
+      "sku": "SF-E3914",
+      "category": "Ellipticals",
+      "fields": {
+        "brand": [
+          "SUNNY HEALTH&FITNESS",
+          "SF-E3914 Spec. Sheet 02052021.xls / Sheet1 / B2"
+        ],
+        "flywheelWeight": [
+          "4KG/8.82LBS",
+          "SF-E3914 Spec. Sheet 02052021.xls / Sheet1 / B7"
+        ],
+        "maxUserWeightLb": [
+          "230 lb",
+          "SF-E3914 Spec. Sheet 02052021.xls / Sheet1 / B12"
+        ],
+        "resistanceType": [
+          "Magnetic",
+          "SF-E3914 Spec. Sheet 02052021.xls / Sheet1 / B13"
+        ],
+        "speedResistanceLevels": [
+          "8.0",
+          "SF-E3914 Spec. Sheet 02052021.xls / Sheet1 / B14"
+        ],
+        "stride": [
+          "24.6CM/9.7INCH",
+          "SF-E3914 Spec. Sheet 02052021.xls / Sheet1 / B47"
+        ],
+        "battery": [
+          "2PCS AAA",
+          "SF-E3914 Spec. Sheet 02052021.xls / Sheet1 / D18"
+        ],
+        "screenSize": [
+          "5.3*2.4CM/2.1*0.9INCH",
+          "SF-E3914 Spec. Sheet 02052021.xls / Sheet1 / B11"
+        ],
+        "display": [
+          "TIME-SPEED-DISTANCE-CALORIES-ODOMETER-PULSE",
+          "SF-E3914 Spec. Sheet 02052021.xls / Sheet1 / B30"
+        ],
+        "programs": [
+          "NO",
+          "SF-E3914 Spec. Sheet 02052021.xls / Sheet1 / B15"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-e3955",
+      "sku": "SF-E3955",
+      "category": "Ellipticals",
+      "fields": {
+        "brand": [
+          "SUNNY",
+          "SF-E3955 Spec sheet  7.20.2021.xlsx / Sheet1 / B3"
+        ],
+        "flywheelWeight": [
+          "6.6LBS/3KGS",
+          "SF-E3955 Spec sheet  7.20.2021.xlsx / Sheet1 / B8"
+        ],
+        "maxUserWeightLb": [
+          "240 lb",
+          "SF-E3955 Spec sheet  7.20.2021.xlsx / Sheet1 / B14"
+        ],
+        "resistanceType": [
+          "Magnetic",
+          "SF-E3955 Spec sheet  7.20.2021.xlsx / Sheet1 / B15"
+        ],
+        "speedResistanceLevels": [
+          "8LEVELS",
+          "SF-E3955 Spec sheet  7.20.2021.xlsx / Sheet1 / B16"
+        ],
+        "stride": [
+          "320mm/12.6inch",
+          "SF-E3955 Spec sheet  7.20.2021.xlsx / Sheet1 / B51"
+        ],
+        "battery": [
+          "2xAAA",
+          "SF-E3955 Spec sheet  7.20.2021.xlsx / Sheet1 / D20"
+        ],
+        "screenSize": [
+          "53*24MM/2.09*0.94INCH",
+          "SF-E3955 Spec sheet  7.20.2021.xlsx / Sheet1 / B13"
+        ],
+        "display": [
+          "SCAN/TIME/SPEED/DIST/ODO/CAL/PULSE/time，distance，calorie countdown",
+          "SF-E3955 Spec sheet  7.20.2021.xlsx / Sheet1 / B34"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-e3982",
+      "sku": "SF-E3982",
+      "category": "Ellipticals",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "Spec Sheet for SF-E3982.xlsx / Sheet1 / B2"
+        ],
+        "flywheelWeight": [
+          "13.2 LBS (6KG)",
+          "Spec Sheet for SF-E3982.xlsx / Sheet1 / B7"
+        ],
+        "maxUserWeightLb": [
+          "265 lb",
+          "Spec Sheet for SF-E3982.xlsx / Sheet1 / B12"
+        ],
+        "resistanceType": [
+          "Magnetic",
+          "Spec Sheet for SF-E3982.xlsx / Sheet1 / B13"
+        ],
+        "speedResistanceLevels": [
+          "16 levels",
+          "Spec Sheet for SF-E3982.xlsx / Sheet1 / B14"
+        ],
+        "stride": [
+          "15 INCHES (38 CM)",
+          "Spec Sheet for SF-E3982.xlsx / Sheet1 / B46"
+        ],
+        "screenSize": [
+          "4.9*2.2 INCHES (125*56mm)",
+          "Spec Sheet for SF-E3982.xlsx / Sheet1 / B11"
+        ],
+        "display": [
+          "Time, Distance, Calorie, Pulse, Speed,RPM,WATT,SCAN,BODY FAT,BMR,BMI",
+          "Spec Sheet for SF-E3982.xlsx / Sheet1 / B29"
+        ],
+        "programs": [
+          "21",
+          "Spec Sheet for SF-E3982.xlsx / Sheet1 / B15"
+        ],
+        "plugType": [
+          "Adapter",
+          "Spec Sheet for SF-E3982.xlsx / Sheet1 / D27"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-e902",
+      "sku": "SF-E902",
+      "category": "Ellipticals",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-E902 spec sheet .xlsx / Sheet1 / B3"
+        ],
+        "maxUserWeightLb": [
+          "220 lb",
+          "SF-E902 spec sheet .xlsx / Sheet1 / B14"
+        ],
+        "stride": [
+          "45 inches (114 .2 cm)",
+          "SF-E902 spec sheet .xlsx / Sheet1 / B51"
+        ],
+        "battery": [
+          "1xAAA",
+          "SF-E902 spec sheet .xlsx / Sheet1 / D20"
+        ],
+        "display": [
+          "SCAN, TIME, COUNT, TOTAL COUNT, CAL.",
+          "SF-E902 spec sheet .xlsx / Sheet1 / B34"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-stw-001y",
+      "sku": "STW-001Y",
+      "category": "Essentials",
+      "fields": {
+        "brand": [
+          "SUNNY",
+          "Accessory Product Spec for STW-001Y(JS-322) .xlsx / Specification / B1"
+        ],
+        "materials": [
+          "ABS",
+          "Accessory Product Spec for STW-001Y(JS-322) .xlsx / Specification / B17"
+        ],
+        "color": [
+          "yellow",
+          "Accessory Product Spec for STW-001Y(JS-322) .xlsx / Specification / B18"
+        ],
+        "shippingDimensions": [
+          "15.4x13.4x12.2 INCH",
+          "Accessory Product Spec for STW-001Y(JS-322) .xlsx / Specification / B6"
+        ],
+        "battery": [
+          "LR44",
+          "Accessory Product Spec for STW-001Y(JS-322) .xlsx / Specification / B14"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-7130",
+      "sku": "7130",
+      "category": "Indoor Bikes",
+      "fields": {
+        "speedResistanceLevels": [
+          "16 Levels",
+          "7130 Specification.docx / document / 13:2"
+        ],
+        "heartRate": [
+          "No",
+          "7130 Specification.docx / document / 22:2"
+        ],
+        "bottleHolder": [
+          "Yes",
+          "7130 Specification.docx / document / 20:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-er01-bk-18",
+      "sku": "SF-ER01-BK-18",
+      "category": "Essentials",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-18 / B3"
+        ],
+        "materials": [
+          "EPP Foam",
+          "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-18 / B7"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-er01-bk-24",
+      "sku": "SF-ER01-BK-24",
+      "category": "Essentials",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-24 / B3"
+        ],
+        "materials": [
+          "EPP Foam",
+          "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-24 / B7"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-er01-bk-36",
+      "sku": "SF-ER01-BK-36",
+      "category": "Essentials",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-36 / B3"
+        ],
+        "materials": [
+          "EPP Foam",
+          "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-36 / B7"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-gl02-m",
+      "sku": "SF-GL02-M",
+      "category": "Essentials",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-M / B3"
+        ],
+        "color": [
+          "BLACK",
+          "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-M / B7"
+        ],
+        "latex": [
+          "NO",
+          "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-M / B10"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-gl02-l",
+      "sku": "SF-GL02-L",
+      "category": "Essentials",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-L / B3"
+        ],
+        "color": [
+          "BLACK",
+          "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-L / B7"
+        ],
+        "latex": [
+          "NO",
+          "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-L / B10"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-gl02-xl",
+      "sku": "SF-GL02-XL",
+      "category": "Essentials",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-XL / B3"
+        ],
+        "color": [
+          "BLACK",
+          "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-XL / B7"
+        ],
+        "latex": [
+          "NO",
+          "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-XL / B10"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-wv01-a2",
+      "sku": "SF-WV01-A2",
+      "category": "Weights",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A2 / B7"
+        ],
+        "materials": [
+          "Polyester/Imitation N Fabric, Neoprene‌, Iron Sand",
+          "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A2 / B12"
+        ],
+        "color": [
+          "BLACK",
+          "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A2 / B11"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-wv01-a3",
+      "sku": "SF-WV01-A3",
+      "category": "Weights",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A3 / B7"
+        ],
+        "materials": [
+          "Polyester/Imitation N Fabric, Neoprene‌, Iron Sand",
+          "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A3 / B12"
+        ],
+        "color": [
+          "BLACK",
+          "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A3 / B11"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-no-120-pk",
+      "sku": "NO. 120-PK",
+      "category": "Essentials",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-PK / B7"
+        ],
+        "materials": [
+          "PP/TPE Plastic",
+          "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-PK / B12"
+        ],
+        "color": [
+          "Pink",
+          "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-PK / B11"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-no-120-bu",
+      "sku": "NO. 120-BU",
+      "category": "Essentials",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-BU / B7"
+        ],
+        "materials": [
+          "PP/TPE Plastic",
+          "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-BU / B12"
+        ],
+        "color": [
+          "Blue",
+          "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-BU / B11"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-a026006",
+      "sku": "SF-A026006",
+      "category": "Essentials",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-A026006 Strength Final Spec dated 08132026.xlsx / Specs / B7"
+        ],
+        "materials": [
+          "Steel+EPP",
+          "SF-A026006 Strength Final Spec dated 08132026.xlsx / Specs / B12"
+        ],
+        "color": [
+          "Deepslate Sand+Black + Red 485C",
+          "SF-A026006 Strength Final Spec dated 08132026.xlsx / Specs / B11"
+        ],
+        "maxUserWeightLb": [
+          "300 lb",
+          "SF-A026006 Strength Final Spec dated 08132026.xlsx / Specs / B15"
+        ],
+        "maxUserHeight": [
+          "74 inches/1900mm",
+          "SF-A026006 Strength Final Spec dated 08132026.xlsx / Specs / B14"
+        ],
+        "latex": [
+          "Yes",
+          "SF-A026006 Strength Final Spec dated 08132026.xlsx / Specs / B17"
+        ],
+        "adjustableAngles": [
+          "No",
+          "SF-A026006 Strength Final Spec dated 08132026.xlsx / Specs / B28"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-20740",
+      "sku": "20740",
+      "category": "Treadmills",
+      "fields": {
+        "brand": [
+          "ASUNA",
+          "spec sheet-ASUNA 20740 M6 walking - 06.07.2021 final.xlsx / M6 WALKING / B3"
+        ],
+        "shippingWeight": [
+          "34.6KGS/76.3 LBS",
+          "spec sheet-ASUNA 20740 M6 walking - 06.07.2021 final.xlsx / M6 WALKING / B6"
+        ],
+        "productWeight": [
+          "30.06KGS/66.3 LBS",
+          "spec sheet-ASUNA 20740 M6 walking - 06.07.2021 final.xlsx / M6 WALKING / B7"
+        ],
+        "speedRange": [
+          "0.5-6KM/H ，0.3-4MPH",
+          "spec sheet-ASUNA 20740 M6 walking - 06.07.2021 final.xlsx / M6 WALKING / B57"
+        ],
+        "watts": [
+          "560W",
+          "spec sheet-ASUNA 20740 M6 walking - 06.07.2021 final.xlsx / M6 WALKING / B62"
+        ],
+        "amps": [
+          "10A",
+          "spec sheet-ASUNA 20740 M6 walking - 06.07.2021 final.xlsx / M6 WALKING / B63"
+        ],
+        "beltDimensions": [
+          "T 0.15*44.5*251.0CM T 0.06*17.5*98.8INCH",
+          "spec sheet-ASUNA 20740 M6 walking - 06.07.2021 final.xlsx / M6 WALKING / B65"
+        ],
+        "battery": [
+          "1xAAA",
+          "spec sheet-ASUNA 20740 M6 walking - 06.07.2021 final.xlsx / M6 WALKING / D20"
+        ],
+        "display": [
+          "Distance, Time, Calorie, Speed, Steps",
+          "spec sheet-ASUNA 20740 M6 walking - 06.07.2021 final.xlsx / M6 WALKING / B34"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-6100",
+      "sku": "6100",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "ASUNA",
+          "Asuna 6100 Specification.xlsx / Sheet1 / B1"
+        ],
+        "crankType": [
+          "ISIS",
+          "Asuna 6100 Specification.xlsx / Sheet1 / B25"
+        ],
+        "deviceHolder": [
+          "Pad Holder",
+          "Asuna 6100 Specification.xlsx / Sheet1 / B9"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-7100",
+      "sku": "7100",
+      "category": "Indoor Bikes",
+      "fields": {
+        "heartRate": [
+          "No",
+          "7100 Specification.docx / document / 22:2"
+        ],
+        "bottleHolder": [
+          "Yes",
+          "7100 Specification.docx / document / 20:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-7700",
+      "sku": "7700",
+      "category": "Treadmills",
+      "fields": {
+        "productWeight": [
+          "166.67 lbs (75kgs)",
+          "Asuna 7700 Specification.docx / document / 3:2"
+        ],
+        "flywheelWeight": [
+          "7.5kg(16.67lbs), 2 pcs of flywheels (15kg, 33.33lbs) in one treadmill",
+          "Asuna 7700 Specification.docx / document / 35:2"
+        ],
+        "transportWheels": [
+          "yes",
+          "Asuna 7700 Specification.docx / document / 27:2"
+        ],
+        "treadmillType": [
+          "walking treadmill",
+          "Asuna 7700 Specification.docx / document / 11:2"
+        ],
+        "inclineDegrees": [
+          "4 degrees",
+          "Asuna 7700 Specification.docx / document / 13:2"
+        ],
+        "runningSurface": [
+          "17.7*49 inch 450mm*1250mm",
+          "Asuna 7700 Specification.docx / document / 14:2"
+        ],
+        "shockAbsorption": [
+          "yes",
+          "Asuna 7700 Specification.docx / document / 25:2"
+        ],
+        "foldable": [
+          "yes",
+          "Asuna 7700 Specification.docx / document / 31:2"
+        ],
+        "deviceHolder": [
+          "Tablet bracket",
+          "Asuna 7700 Specification.docx / document / 29:2"
+        ],
+        "bottleHolder": [
+          "Not included",
+          "Asuna 7700 Specification.docx / document / 28:2"
+        ],
+        "heartRate": [
+          "No",
+          "Asuna 7700 Specification.docx / document / 23:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-7750",
+      "sku": "7750",
+      "category": "Treadmills",
+      "fields": {
+        "productWeight": [
+          "126.67lbs (57kgs)",
+          "Asuna 7750 Specification.docx / document / 3:2"
+        ],
+        "transportWheels": [
+          "yes",
+          "Asuna 7750 Specification.docx / document / 27:2"
+        ],
+        "treadmillType": [
+          "walking treadmill",
+          "Asuna 7750 Specification.docx / document / 11:2"
+        ],
+        "inclineDegrees": [
+          "3 degrees",
+          "Asuna 7750 Specification.docx / document / 13:2"
+        ],
+        "runningSurface": [
+          "19*51.2 inch 480mm*1300mm",
+          "Asuna 7750 Specification.docx / document / 14:2"
+        ],
+        "shockAbsorption": [
+          "yes",
+          "Asuna 7750 Specification.docx / document / 25:2"
+        ],
+        "foldable": [
+          "yes",
+          "Asuna 7750 Specification.docx / document / 31:2"
+        ],
+        "deviceHolder": [
+          "IPAD bracket",
+          "Asuna 7750 Specification.docx / document / 29:2"
+        ],
+        "bottleHolder": [
+          "No",
+          "Asuna 7750 Specification.docx / document / 28:2"
+        ],
+        "heartRate": [
+          "yes",
+          "Asuna 7750 Specification.docx / document / 23:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-7750p",
+      "sku": "7750P",
+      "category": "Treadmills",
+      "fields": {
+        "productWeight": [
+          "126.67lbs (57kgs)",
+          "Asuna 7750P Specification.docx / document / 3:2"
+        ],
+        "transportWheels": [
+          "yes",
+          "Asuna 7750P Specification.docx / document / 27:2"
+        ],
+        "treadmillType": [
+          "walking treadmill",
+          "Asuna 7750P Specification.docx / document / 11:2"
+        ],
+        "inclineDegrees": [
+          "3 degrees",
+          "Asuna 7750P Specification.docx / document / 13:2"
+        ],
+        "runningSurface": [
+          "19*51.2 inch 480mm*1300mm",
+          "Asuna 7750P Specification.docx / document / 14:2"
+        ],
+        "shockAbsorption": [
+          "yes",
+          "Asuna 7750P Specification.docx / document / 25:2"
+        ],
+        "foldable": [
+          "yes",
+          "Asuna 7750P Specification.docx / document / 31:2"
+        ],
+        "deviceHolder": [
+          "IPAD bracket",
+          "Asuna 7750P Specification.docx / document / 29:2"
+        ],
+        "bottleHolder": [
+          "No",
+          "Asuna 7750P Specification.docx / document / 28:2"
+        ],
+        "heartRate": [
+          "yes",
+          "Asuna 7750P Specification.docx / document / 23:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-no-077g",
+      "sku": "NO. 077G",
+      "category": "Row-N-Ride",
+      "fields": {
+        "brand": [
+          "SUNNY HEALTHY & FITNESS",
+          "NO.077G  spec sheet  07.27.2022.xlsx / Sheet1 / B3"
+        ],
+        "productWeight": [
+          "27.3 LBS (12.4KG)",
+          "NO.077G  spec sheet  07.27.2022.xlsx / Sheet1 / B7"
+        ],
+        "footprint": [
+          "940 * 422 MM(37 * 16.61 INCH)",
+          "NO.077G  spec sheet  07.27.2022.xlsx / Sheet1 / B19"
+        ],
+        "shippingWeight": [
+          "31.3 LBS（14.2KG）",
+          "NO.077G  spec sheet  07.27.2022.xlsx / Sheet1 / B6"
+        ],
+        "resistanceType": [
+          "Resistance Bands",
+          "NO.077G  spec sheet  07.27.2022.xlsx / Sheet1 / B15"
+        ],
+        "display": [
+          "TIME, COUNT, CALORIES, TOTAL COUNT, SCAN",
+          "NO.077G  spec sheet  07.27.2022.xlsx / Sheet1 / B35"
+        ],
+        "screenSize": [
+          "32 * 20MM (1.25 * 0.78 inch)",
+          "NO.077G  spec sheet  07.27.2022.xlsx / Sheet1 / B13"
+        ],
+        "battery": [
+          "1xAA",
+          "NO.077G  spec sheet  07.27.2022.xlsx / Sheet1 / D21"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-pdm-002w",
+      "sku": "PDM-002W",
+      "category": "Essentials",
+      "fields": {
+        "brand": [
+          "SUNNY",
+          "Accessory Product Spec for PDM-002W(JS-221).xlsx / Specification / B1"
+        ],
+        "materials": [
+          "ABS",
+          "Accessory Product Spec for PDM-002W(JS-221).xlsx / Specification / B17"
+        ],
+        "color": [
+          "white",
+          "Accessory Product Spec for PDM-002W(JS-221).xlsx / Specification / B18"
+        ],
+        "keyDimensions": [
+          "2.6x1.2x0.48 INCH",
+          "Accessory Product Spec for PDM-002W(JS-221).xlsx / Specification / B9"
+        ],
+        "shippingDimensions": [
+          "25x16.9x8.1 INCH",
+          "Accessory Product Spec for PDM-002W(JS-221).xlsx / Specification / B6"
+        ],
+        "battery": [
+          "CR2025",
+          "Accessory Product Spec for PDM-002W(JS-221).xlsx / Specification / B14"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-plw-003b",
+      "sku": "PLW-003B",
+      "category": "Essentials",
+      "fields": {
+        "brand": [
+          "SUNNY",
+          "PLW-003B SpecSheet 2020.04.17.xlsx / Sheet1 / B2"
+        ],
+        "productWeight": [
+          "0.11LBS",
+          "PLW-003B SpecSheet 2020.04.17.xlsx / Sheet1 / B6"
+        ],
+        "shippingWeight": [
+          "0.18LBS with inner box",
+          "PLW-003B SpecSheet 2020.04.17.xlsx / Sheet1 / B5"
+        ],
+        "battery": [
+          "1pcs CR2450",
+          "PLW-003B SpecSheet 2020.04.17.xlsx / Sheet1 / D18"
+        ],
+        "screenSize": [
+          "D=1.73INCH",
+          "PLW-003B SpecSheet 2020.04.17.xlsx / Sheet1 / B11"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-rw200",
+      "sku": "RW200",
+      "category": "Rowers",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "RW200 Spec Sheet 06102022.xlsx / Sheet1 / B2"
+        ],
+        "productWeight": [
+          "37.0KGS/81.6LBS",
+          "RW200 Spec Sheet 06102022.xlsx / Sheet1 / B6"
+        ],
+        "shippingWeight": [
+          "43.5KGS/95.9LBS",
+          "RW200 Spec Sheet 06102022.xlsx / Sheet1 / B5"
+        ],
+        "speedResistanceLevels": [
+          "16LEVELS",
+          "RW200 Spec Sheet 06102022.xlsx / Sheet1 / B15"
+        ],
+        "railInseam": [
+          "230mm/9.1inch",
+          "RW200 Spec Sheet 06102022.xlsx / Sheet1 / B73"
+        ],
+        "seatHeight": [
+          "385mm/15.2inch",
+          "RW200 Spec Sheet 06102022.xlsx / Sheet1 / B75"
+        ],
+        "resistanceType": [
+          "AIR/Magnetic",
+          "RW200 Spec Sheet 06102022.xlsx / Sheet1 / B14"
+        ],
+        "display": [
+          "TIME, TIME/500M, SPM, DISTANCE, STROKES, TOTAL STROKES, CALORISE, HRC/PULSE, CALENDAR, TEMPERATURE, CLOCK",
+          "RW200 Spec Sheet 06102022.xlsx / Sheet1 / B31"
+        ],
+        "screenSize": [
+          "12.6*5.7CM 5.0*2.2INCH",
+          "RW200 Spec Sheet 06102022.xlsx / Sheet1 / B12"
+        ],
+        "battery": [
+          "2xAA",
+          "RW200 Spec Sheet 06102022.xlsx / Sheet1 / D19"
+        ],
+        "programs": [
+          "NO",
+          "RW200 Spec Sheet 06102022.xlsx / Sheet1 / B16"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b0638",
+      "sku": "SF-B0638",
+      "category": "Indoor Bikes",
+      "fields": {
+        "speedResistanceLevels": [
+          "Micro tension",
+          "SF-B0638 Spec Sheet.docx / document / 9:2"
+        ],
+        "display": [
+          "SCAN, Time, Count, Cal, Total Count",
+          "SF-B0638 Spec Sheet.docx / document / 12:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b1001s",
+      "sku": "SF-B1001S",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "Sunny",
+          "SF-B1001S Spec sheet 1.21.2021.xlsx / Sheet1 / B3"
+        ],
+        "productWeight": [
+          "80.1 LBS/ 36.4 KG",
+          "SF-B1001S Spec sheet 1.21.2021.xlsx / Sheet1 / B7"
+        ],
+        "shippingWeight": [
+          "87.5 LBS/39.7 KG",
+          "SF-B1001S Spec sheet 1.21.2021.xlsx / Sheet1 / B6"
+        ],
+        "resistanceType": [
+          "By Wool Felt",
+          "SF-B1001S Spec sheet 1.21.2021.xlsx / Sheet1 / B15"
+        ],
+        "flywheelWeight": [
+          "30 LBS / 13KG",
+          "SF-B1001S Spec sheet 1.21.2021.xlsx / Sheet1 / B8"
+        ],
+        "inseam": [
+          "76CM/29.92 INCH",
+          "SF-B1001S Spec sheet 1.21.2021.xlsx / Sheet1 / B41"
+        ],
+        "qFactor": [
+          "210mm / 8.27 INCH",
+          "SF-B1001S Spec sheet 1.21.2021.xlsx / Sheet1 / B42"
+        ],
+        "battery": [
+          "2xAAA",
+          "SF-B1001S Spec sheet 1.21.2021.xlsx / Sheet1 / D20"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b1516",
+      "sku": "SF-B1516",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "Spec Sheet SF-B1516 08.21.2020.xlsx / Sheet1 / B2"
+        ],
+        "productWeight": [
+          "58.6KG/129LBS",
+          "Spec Sheet SF-B1516 08.21.2020.xlsx / Sheet1 / B6"
+        ],
+        "shippingWeight": [
+          "66.5KG/146.6LBS",
+          "Spec Sheet SF-B1516 08.21.2020.xlsx / Sheet1 / B5"
+        ],
+        "resistanceType": [
+          "Friction(Cow Leather Pad)",
+          "Spec Sheet SF-B1516 08.21.2020.xlsx / Sheet1 / B13"
+        ],
+        "speedResistanceLevels": [
+          "NO",
+          "Spec Sheet SF-B1516 08.21.2020.xlsx / Sheet1 / B14"
+        ],
+        "flywheelWeight": [
+          "21.5KG/47.4LBS",
+          "Spec Sheet SF-B1516 08.21.2020.xlsx / Sheet1 / B7"
+        ],
+        "inseam": [
+          "75CM/29.5INCH",
+          "Spec Sheet SF-B1516 08.21.2020.xlsx / Sheet1 / B37"
+        ],
+        "qFactor": [
+          "21CM/8.27INCH",
+          "Spec Sheet SF-B1516 08.21.2020.xlsx / Sheet1 / B38"
+        ],
+        "programs": [
+          "NO",
+          "Spec Sheet SF-B1516 08.21.2020.xlsx / Sheet1 / B15"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b1712",
+      "sku": "SF-B1712",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "SUNNY HEALTH & FITNESS",
+          "SF-B1712 Specification.xlsx / Sheet1 / B1"
+        ],
+        "speedResistanceLevels": [
+          "stepless",
+          "SF-B1712 Specification.xlsx / Sheet1 / B16"
+        ],
+        "crankType": [
+          "3PCS",
+          "SF-B1712 Specification.xlsx / Sheet1 / B25"
+        ],
+        "foldable": [
+          "no",
+          "SF-B1712 Specification.xlsx / Sheet1 / B27"
+        ],
+        "deviceHolder": [
+          "NO",
+          "SF-B1712 Specification.xlsx / Sheet1 / B9"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b1735",
+      "sku": "SF-B1735",
+      "category": "Indoor Bikes",
+      "fields": {
+        "speedResistanceLevels": [
+          "Stepless",
+          "SF-B1735 specification sheet.xlsx / Sheet1 / B15"
+        ],
+        "crankType": [
+          "3PCS Crank",
+          "SF-B1735 specification sheet.xlsx / Sheet1 / B24"
+        ],
+        "foldable": [
+          "NO",
+          "SF-B1735 specification sheet.xlsx / Sheet1 / B26"
+        ],
+        "deviceHolder": [
+          "NO",
+          "SF-B1735 specification sheet.xlsx / Sheet1 / B8"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b1918",
+      "sku": "SF-B1918",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-B1918 BIKE Spec.xlsx / SF-B1918 / B1"
+        ],
+        "speedResistanceLevels": [
+          "Stepless",
+          "SF-B1918 BIKE Spec.xlsx / SF-B1918 / B18"
+        ],
+        "crankType": [
+          "3PCS Crank",
+          "SF-B1918 BIKE Spec.xlsx / SF-B1918 / B26"
+        ],
+        "foldable": [
+          "NO",
+          "SF-B1918 BIKE Spec.xlsx / SF-B1918 / B28"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b1970g",
+      "sku": "SF-B1970G",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-B1970G Spec.sheet 2021.3.24 Updated.xlsx / Sheet1 / B3"
+        ],
+        "productWeight": [
+          "30.6KGS/67.5LBS",
+          "SF-B1970G Spec.sheet 2021.3.24 Updated.xlsx / Sheet1 / B7"
+        ],
+        "shippingWeight": [
+          "36.3KGS/80.1LBS",
+          "SF-B1970G Spec.sheet 2021.3.24 Updated.xlsx / Sheet1 / B6"
+        ],
+        "resistanceType": [
+          "Magnetic",
+          "SF-B1970G Spec.sheet 2021.3.24 Updated.xlsx / Sheet1 / B15"
+        ],
+        "flywheelWeight": [
+          "8KG，Φ420*36mm",
+          "SF-B1970G Spec.sheet 2021.3.24 Updated.xlsx / Sheet1 / B8"
+        ],
+        "qFactor": [
+          "190mm",
+          "SF-B1970G Spec.sheet 2021.3.24 Updated.xlsx / Sheet1 / B42"
+        ],
+        "display": [
+          "SCAN/ DISTANCE/ TIME / CALORIES/ ODOMETER / RPM /PULSE",
+          "SF-B1970G Spec.sheet 2021.3.24 Updated.xlsx / Sheet1 / B34"
+        ],
+        "screenSize": [
+          "49.5*28.1 MM/2.0*1.1 INCH",
+          "SF-B1970G Spec.sheet 2021.3.24 Updated.xlsx / Sheet1 / B13"
+        ],
+        "battery": [
+          "2xAAA",
+          "SF-B1970G Spec.sheet 2021.3.24 Updated.xlsx / Sheet1 / D20"
+        ],
+        "programs": [
+          "NO",
+          "SF-B1970G Spec.sheet 2021.3.24 Updated.xlsx / Sheet1 / B17"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b2620",
+      "sku": "SF-B2620",
+      "category": "Indoor Bikes",
+      "fields": {
+        "productWeight": [
+          "44.4 lbs",
+          "SF-B2620 spec sheet.docx / document / 3:2"
+        ],
+        "flywheelWeight": [
+          "1.8KG/4 lbs",
+          "SF-B2620 spec sheet.docx / document / 9:2"
+        ],
+        "display": [
+          "TIME、SCAN、SPEED 、DISTANCE、 CAL",
+          "SF-B2620 spec sheet.docx / document / 15:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b2621",
+      "sku": "SF-B2621",
+      "category": "Indoor Bikes",
+      "fields": {
+        "productWeight": [
+          "16.8KG (37 LBS)",
+          "SF-B2621 SPEC SHEET.docx / document / 3:2"
+        ],
+        "speedResistanceLevels": [
+          "KNOB",
+          "SF-B2621 SPEC SHEET.docx / document / 8:2"
+        ],
+        "stride": [
+          "280MM (11 INCHES)",
+          "SF-B2621 SPEC SHEET.docx / document / 18:2"
+        ],
+        "display": [
+          "JS-12431：TIME、SCAN、SPEED 、DISTANCE、 CAL",
+          "SF-B2621 SPEC SHEET.docx / document / 11:2"
+        ],
+        "heartRate": [
+          "NO",
+          "SF-B2621 SPEC SHEET.docx / document / 13:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b2640",
+      "sku": "SF-B2640",
+      "category": "Indoor Bikes",
+      "fields": {
+        "productWeight": [
+          "71 lbs",
+          "SF-B2640 SPECIFICATION.docx / document / 3:2"
+        ],
+        "resistanceType": [
+          "Fan",
+          "SF-B2640 SPECIFICATION.docx / document / 10:2"
+        ],
+        "speedResistanceLevels": [
+          "1-8",
+          "SF-B2640 SPECIFICATION.docx / document / 11:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b2706",
+      "sku": "SF-B2706",
+      "category": "Indoor Bikes",
+      "fields": {
+        "productWeight": [
+          "42.5KGS/93.71LBS",
+          "SF-B2706 Specification.docx / document / 3:2"
+        ],
+        "display": [
+          "ST3921: RPM, SPEED, TIME, DISTANCE, CALORIES, WATT, PULSE",
+          "SF-B2706 Specification.docx / document / 14:2"
+        ],
+        "heartRate": [
+          "NO",
+          "SF-B2706 Specification.docx / document / 21:2"
+        ],
+        "bottleHolder": [
+          "NO",
+          "SF-B2706 Specification.docx / document / 19:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b2710",
+      "sku": "SF-B2710",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "SUNNY HEALTH & FITNESS",
+          "SF-B2710 Specification.xlsx / Sheet1 / B1"
+        ],
+        "crankType": [
+          "3PC crank",
+          "SF-B2710 Specification.xlsx / Sheet1 / B25"
+        ],
+        "foldable": [
+          "YES",
+          "SF-B2710 Specification.xlsx / Sheet1 / B27"
+        ],
+        "deviceHolder": [
+          "YES, shelf on meter for phone",
+          "SF-B2710 Specification.xlsx / Sheet1 / B9"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-b2956",
+      "sku": "SF-B2956",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "Specification sheet for SF-B2956 09292019.xlsx / Sheet1 / B1"
+        ],
+        "crankType": [
+          "3PCS Crank",
+          "Specification sheet for SF-B2956 09292019.xlsx / Sheet1 / B26"
+        ],
+        "stride": [
+          "330mm",
+          "Specification sheet for SF-B2956 09292019.xlsx / Sheet1 / B29"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-bd2701",
+      "sku": "SF-BD2701",
+      "category": "Indoor Bikes",
+      "fields": {
+        "productWeight": [
+          "37.26 LBS",
+          "SF-BD2701 Specification.docx / document / 3:2"
+        ],
+        "flywheelWeight": [
+          "1.2KGS",
+          "SF-BD2701 Specification.docx / document / 9:2"
+        ],
+        "heartRate": [
+          "NO",
+          "SF-BD2701 Specification.docx / document / 22:2"
+        ],
+        "bottleHolder": [
+          "NO",
+          "SF-BD2701 Specification.docx / document / 20:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-bh6811",
+      "sku": "SF-BH6811",
+      "category": "Weight Benches",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-BH6811 Specification.xlsx / Specification / B1"
+        ],
+        "materials": [
+          "steel tube,foam,",
+          "SF-BH6811 Specification.xlsx / Specification / B18"
+        ],
+        "productWeight": [
+          "47 lb",
+          "SF-BH6811 Specification.xlsx / Specification / B4"
+        ],
+        "maxUserWeightLb": [
+          "250 lb",
+          "SF-BH6811 Specification.xlsx / Specification / B17"
+        ],
+        "keyDimensions": [
+          "65*28.7*45.3 inches",
+          "SF-BH6811 Specification.xlsx / Specification / B9"
+        ],
+        "shippingWeight": [
+          "42 lb",
+          "SF-BH6811 Specification.xlsx / Specification / B5"
+        ],
+        "shippingDimensions": [
+          "46.9 x 17 x 6.3 in",
+          "SF-BH6811 Specification.xlsx / Specification / B6"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-db01-12-5",
+      "sku": "SF-DB01-12.5",
+      "category": "Weights",
+      "fields": {
+        "brand": [
+          "Sunny",
+          "SF-DB01-55 SPEC Sheet 2023-8-8-FINAL - Copy.xlsx / SF-DB01-12.5 / B2"
+        ],
+        "materials": [
+          "Holder ：Nylon Plates : Carbon Steel with powder coating Base :PP",
+          "SF-DB01-55 SPEC Sheet 2023-8-8-FINAL - Copy.xlsx / SF-DB01-12.5 / B6"
+        ],
+        "color": [
+          "COLOR TO BE DEVELOPED.",
+          "SF-DB01-55 SPEC Sheet 2023-8-8-FINAL - Copy.xlsx / SF-DB01-12.5 / B5"
+        ],
+        "productWeight": [
+          "25.57 LBS / 11.6 KGS",
+          "SF-DB01-55 SPEC Sheet 2023-8-8-FINAL - Copy.xlsx / SF-DB01-12.5 / B11"
+        ],
+        "shippingWeight": [
+          "28.44 LBS / 12.9 KGS",
+          "SF-DB01-55 SPEC Sheet 2023-8-8-FINAL - Copy.xlsx / SF-DB01-12.5 / B10"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-db01-25",
+      "sku": "SF-DB01-25",
+      "category": "Weights",
+      "fields": {
+        "brand": [
+          "Sunny",
+          "SF-DB01-55 SPEC Sheet 2023-8-8-FINAL - Copy.xlsx / SF-DB01-25 / B2"
+        ],
+        "materials": [
+          "Holder ：Nylon Plates : Carbon Steel with powder coating Base :PP",
+          "SF-DB01-55 SPEC Sheet 2023-8-8-FINAL - Copy.xlsx / SF-DB01-25 / B6"
+        ],
+        "color": [
+          "COLOR TO BE DEVELOPED.",
+          "SF-DB01-55 SPEC Sheet 2023-8-8-FINAL - Copy.xlsx / SF-DB01-25 / B5"
+        ],
+        "productWeight": [
+          "50.71 LBS / 23 KGS",
+          "SF-DB01-55 SPEC Sheet 2023-8-8-FINAL - Copy.xlsx / SF-DB01-25 / B11"
+        ],
+        "shippingWeight": [
+          "54.01 LBS / 24.5 KGS",
+          "SF-DB01-55 SPEC Sheet 2023-8-8-FINAL - Copy.xlsx / SF-DB01-25 / B10"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-e3617",
+      "sku": "SF-E3617",
+      "category": "Ellipticals",
+      "fields": {
+        "productWeight": [
+          "53KG (117 LBS)",
+          "E3617_spec_sheet.docx / document / 3:2"
+        ],
+        "stride": [
+          "460mm , 17 inches or 18 inches",
+          "E3617_spec_sheet.docx / document / 18:2"
+        ],
+        "heartRate": [
+          "YES",
+          "E3617_spec_sheet.docx / document / 13:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-e3626",
+      "sku": "SF-E3626",
+      "category": "Ellipticals",
+      "fields": {
+        "productWeight": [
+          "16.2 lbs",
+          "SF-E3626 SPEC SHEET.docx / document / 3:2"
+        ],
+        "stride": [
+          "6 in",
+          "SF-E3626 SPEC SHEET.docx / document / 13:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-e3628",
+      "sku": "SF-E3628",
+      "category": "Ellipticals",
+      "fields": {
+        "stride": [
+          "280mm",
+          "SF-E3628 SPEC SHEET.docx / document / 18:2"
+        ],
+        "heartRate": [
+          "YES",
+          "SF-E3628 SPEC SHEET.docx / document / 13:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-e3919smart",
+      "sku": "SF-E3919SMART",
+      "category": "Ellipticals",
+      "fields": {
+        "brand": [
+          "Sunny",
+          "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / B3"
+        ],
+        "color": [
+          "Dark gray+Black",
+          "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / B6"
+        ],
+        "materials": [
+          "metal+plastic",
+          "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / B7"
+        ],
+        "latex": [
+          "No",
+          "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / B8"
+        ],
+        "shippingWeight": [
+          "50kgs/110.2lbs",
+          "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / B9"
+        ],
+        "productWeight": [
+          "43kgs/94.8lbs",
+          "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / B10"
+        ],
+        "flywheelWeight": [
+          "6KGS",
+          "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / B11"
+        ],
+        "maxUserWeightLb": [
+          "260 lb",
+          "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / B19"
+        ],
+        "resistanceType": [
+          "magnetic",
+          "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / B20"
+        ],
+        "speedResistanceLevels": [
+          "8",
+          "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / B21"
+        ],
+        "stride": [
+          "219.5 mm / 8.6 inch",
+          "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / B60"
+        ],
+        "stepHeight": [
+          "280mm/11 inch",
+          "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / B61"
+        ],
+        "battery": [
+          "2个 LR6 AA UM-3 1.5V",
+          "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / D25"
+        ],
+        "screenType": [
+          "LCD",
+          "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / B18"
+        ],
+        "screenSize": [
+          "82*44 mm/ 3.2*1.7 inch",
+          "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / B17"
+        ],
+        "display": [
+          "SPEED,TIME,DISTANCE,CALORISES,PULSE",
+          "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / B40"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-e3957",
+      "sku": "SF-E3957",
+      "category": "Ellipticals",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "Spec Sheet for SF-E3957.xlsx / Sheet1 / B2"
+        ],
+        "shippingWeight": [
+          "124.6 LBS (56.5 KG)",
+          "Spec Sheet for SF-E3957.xlsx / Sheet1 / B5"
+        ],
+        "productWeight": [
+          "106.5 LBS (48.3 KG)",
+          "Spec Sheet for SF-E3957.xlsx / Sheet1 / B6"
+        ],
+        "flywheelWeight": [
+          "11LBS (5KG)",
+          "Spec Sheet for SF-E3957.xlsx / Sheet1 / B7"
+        ],
+        "resistanceType": [
+          "Magnetic, Manual",
+          "Spec Sheet for SF-E3957.xlsx / Sheet1 / B13"
+        ],
+        "stride": [
+          "15.7 INCHES (400mm)",
+          "Spec Sheet for SF-E3957.xlsx / Sheet1 / B46"
+        ],
+        "battery": [
+          "2xAA",
+          "Spec Sheet for SF-E3957.xlsx / Sheet1 / D18"
+        ],
+        "display": [
+          "SCAN,TIME,RPM,SPEED,DISTANCE,CALORIES,PULSE,BODY FAT,RECOVERY, CALENDAR, CLOCK, TEMPERATURE",
+          "Spec Sheet for SF-E3957.xlsx / Sheet1 / B29"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-e3981",
+      "sku": "SF-E3981",
+      "category": "Ellipticals",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "Spec Sheet for SF-E3981.xlsx / Sheet1 / B2"
+        ],
+        "shippingWeight": [
+          "112.4 LBS (51KG)",
+          "Spec Sheet for SF-E3981.xlsx / Sheet1 / B5"
+        ],
+        "productWeight": [
+          "95.5 LBS (43.3 KG)",
+          "Spec Sheet for SF-E3981.xlsx / Sheet1 / B6"
+        ],
+        "flywheelWeight": [
+          "13.2 LBS (6KG)",
+          "Spec Sheet for SF-E3981.xlsx / Sheet1 / B7"
+        ],
+        "resistanceType": [
+          "Magnetic, Manual",
+          "Spec Sheet for SF-E3981.xlsx / Sheet1 / B13"
+        ],
+        "stride": [
+          "15.8 INCHES (40CM)",
+          "Spec Sheet for SF-E3981.xlsx / Sheet1 / B46"
+        ],
+        "battery": [
+          "2xAAA",
+          "Spec Sheet for SF-E3981.xlsx / Sheet1 / D18"
+        ],
+        "screenSize": [
+          "4.9*2.2 INCHES (125*56mm)",
+          "Spec Sheet for SF-E3981.xlsx / Sheet1 / B11"
+        ],
+        "display": [
+          "Time, Distance, Calorie, Pulse, Speed,RPM",
+          "Spec Sheet for SF-E3981.xlsx / Sheet1 / B29"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rb4602",
+      "sku": "SF-RB4602",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-RB4602 Spec sheet.xlsx / Sheet1 / B1"
+        ],
+        "foldable": [
+          "No",
+          "SF-RB4602 Spec sheet.xlsx / Sheet1 / B28"
+        ],
+        "display": [
+          "LCD monitor displays: Time, Speed, Distance, Calories, Pulse. The display include Up, Reset, Recovery, Mode, Down.",
+          "SF-RB4602 Spec sheet.xlsx / Sheet1 / B19"
+        ],
+        "deviceHolder": [
+          "No",
+          "SF-RB4602 Spec sheet.xlsx / Sheet1 / B9"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rb4616",
+      "sku": "SF-RB4616",
+      "category": "Indoor Bikes",
+      "fields": {
+        "productWeight": [
+          "58.7lb",
+          "SF-RB4616 SPEC SHEET.docx / document / 3:2"
+        ],
+        "resistanceType": [
+          "Magnetic resistance",
+          "SF-RB4616 SPEC SHEET.docx / document / 10:2"
+        ],
+        "flywheelWeight": [
+          "3KG /6.7lb",
+          "SF-RB4616 SPEC SHEET.docx / document / 8:2"
+        ],
+        "heartRate": [
+          "Yes",
+          "SF-RB4616 SPEC SHEET.docx / document / 15:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rb4806",
+      "sku": "SF-RB4806",
+      "category": "Indoor Bikes",
+      "fields": {
+        "resistanceType": [
+          "MANUAL",
+          "SF-RB4806 specification sheet.xlsx / Sheet1 / B12"
+        ],
+        "deviceHolder": [
+          "iPad Holder",
+          "SF-RB4806 specification sheet.xlsx / Sheet1 / B8"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rb4880",
+      "sku": "SF-RB4880",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "SUNNY",
+          "SF-RB4880 Specification 20190807.xlsx / Sheet1 / B1"
+        ],
+        "resistanceType": [
+          "Inner Magnetic",
+          "SF-RB4880 Specification 20190807.xlsx / Sheet1 / B15"
+        ],
+        "stride": [
+          "12inch",
+          "SF-RB4880 Specification 20190807.xlsx / Sheet1 / B17"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rb4954",
+      "sku": "SF-RB4954",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "SUNNY",
+          "RB4954 SpecSheet2019.1.6.xlsx / RB4954 / B2"
+        ],
+        "productWeight": [
+          "45.3KG/100LBS",
+          "RB4954 SpecSheet2019.1.6.xlsx / RB4954 / B6"
+        ],
+        "shippingWeight": [
+          "53.5KG/118LBS",
+          "RB4954 SpecSheet2019.1.6.xlsx / RB4954 / B5"
+        ],
+        "resistanceType": [
+          "Magnetic",
+          "RB4954 SpecSheet2019.1.6.xlsx / RB4954 / B13"
+        ],
+        "flywheelWeight": [
+          "3.5KG/7.7LBS",
+          "RB4954 SpecSheet2019.1.6.xlsx / RB4954 / B7"
+        ],
+        "inseam": [
+          "66.04CM/26INCH",
+          "RB4954 SpecSheet2019.1.6.xlsx / RB4954 / B49"
+        ],
+        "display": [
+          "STOP/TIME/SPEED/RPM/WATT/DISTANCE/CALORIES/TEMPERATURE/PULSE/WEIGHT/HEIGHT/AGE/SEX/HEART SYMBOL/PROGRAM/FITNESS/WATT/PERSONAL",
+          "RB4954 SpecSheet2019.1.6.xlsx / RB4954 / B30"
+        ],
+        "screenSize": [
+          "12.7*5.9CM/5*2.3INCH",
+          "RB4954 SpecSheet2019.1.6.xlsx / RB4954 / B11"
+        ],
+        "programs": [
+          "P1-12",
+          "RB4954 SpecSheet2019.1.6.xlsx / RB4954 / B15"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rb4958",
+      "sku": "SF-RB4958",
+      "category": "Indoor Bikes",
+      "fields": {
+        "brand": [
+          "SUNNY",
+          "Specification sheet for SF-RB4958 10082019.xlsx / Sheet1 / B1"
+        ],
+        "resistanceType": [
+          "Manual，Magnetic",
+          "Specification sheet for SF-RB4958 10082019.xlsx / Sheet1 / B15"
+        ],
+        "inseam": [
+          "29 in",
+          "Specification sheet for SF-RB4958 10082019.xlsx / Sheet1 / B18"
+        ],
+        "stride": [
+          "12.99 inches",
+          "Specification sheet for SF-RB4958 10082019.xlsx / Sheet1 / B17"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rw5612",
+      "sku": "SF-RW5612",
+      "category": "Rowers",
+      "fields": {
+        "foldable": [
+          "No",
+          "RW5612 spec sheet.docx / document / 18:2"
+        ],
+        "display": [
+          "SCAN,TIME,COUNT,CALORIE,TOTAL COUNT,AUTO ON/OFF & AUTO START/STOP",
+          "RW5612 spec sheet.docx / document / 12:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rw5619",
+      "sku": "SF-RW5619",
+      "category": "Rowers",
+      "fields": {
+        "productWeight": [
+          "16KG (35.5 LBS)",
+          "SF-RW5619 SPEC SHEET.docx / document / 3:2"
+        ],
+        "heartRate": [
+          "NO",
+          "SF-RW5619 SPEC SHEET.docx / document / 13:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rw5623",
+      "sku": "SF-RW5623",
+      "category": "Rowers",
+      "fields": {
+        "resistanceType": [
+          "Magnetic resistance and wind resistance",
+          "RW5623 Spec. Sheet.xlsx / Sheet1 / B8"
+        ],
+        "display": [
+          "SCAN,TIME,CNT,TOTAL CNT,CAL",
+          "RW5623 Spec. Sheet.xlsx / Sheet1 / B12"
+        ],
+        "deviceHolder": [
+          "Yes",
+          "RW5623 Spec. Sheet.xlsx / Sheet1 / B13"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rw5633",
+      "sku": "SF-RW5633",
+      "category": "Rowers",
+      "fields": {
+        "foldable": [
+          "Yes",
+          "SF-RW5633 SPEC SHEET.docx / document / 18:2"
+        ],
+        "display": [
+          "TIME,COUNT,CALORIES,REPS/MIN(STROKES/MIN)",
+          "SF-RW5633 SPEC SHEET.docx / document / 12:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rw5634",
+      "sku": "SF-RW5634",
+      "category": "Rowers",
+      "fields": {
+        "foldable": [
+          "Yes",
+          "SF-RW5634 SPEC SHEET.docx / document / 18:2"
+        ],
+        "display": [
+          "TIME,COUNT,CALORIES,REPS/MIN(STROKES/MIN)",
+          "SF-RW5634 SPEC SHEET.docx / document / 12:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rw5727",
+      "sku": "SF-RW5727",
+      "category": "Rowers",
+      "fields": {
+        "resistanceType": [
+          "Hydraulic adjustable resistance",
+          "RW5727 specification .xlsx / HJ101B / B8"
+        ],
+        "display": [
+          "count, total count, calories",
+          "RW5727 specification .xlsx / HJ101B / B12"
+        ],
+        "deviceHolder": [
+          "meter holds phone/tablet",
+          "RW5727 specification .xlsx / HJ101B / B13"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rw5864",
+      "sku": "SF-RW5864",
+      "category": "Rowers",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-RW5864 Spec.sheet.xlsx / Sheet1 / B3"
+        ],
+        "productWeight": [
+          "43KG/94.8LBS",
+          "SF-RW5864 Spec.sheet.xlsx / Sheet1 / B7"
+        ],
+        "shippingWeight": [
+          "48.5 KG/106.9 LBS",
+          "SF-RW5864 Spec.sheet.xlsx / Sheet1 / B6"
+        ],
+        "railInseam": [
+          "1162.25mm/45.76inch",
+          "SF-RW5864 Spec.sheet.xlsx / Sheet1 / B77"
+        ],
+        "resistanceType": [
+          "Magnetic",
+          "SF-RW5864 Spec.sheet.xlsx / Sheet1 / B15"
+        ],
+        "display": [
+          "SCAN/COUNT/TIME/CALORIES/TOTAL COUNT/AUTO ON/OFF & AUTO START/STOP",
+          "SF-RW5864 Spec.sheet.xlsx / Sheet1 / B35"
+        ],
+        "battery": [
+          "2xAAA",
+          "SF-RW5864 Spec.sheet.xlsx / Sheet1 / D20"
+        ],
+        "programs": [
+          "NO",
+          "SF-RW5864 Spec.sheet.xlsx / Sheet1 / B17"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rw5866",
+      "sku": "SF-RW5866",
+      "category": "Rowers",
+      "fields": {
+        "resistanceType": [
+          "WATER RESISTANCE",
+          "SF-RW5866 specification sheet.xlsx / Sheet1 / B8"
+        ],
+        "display": [
+          "Time, Count, Calories,Distance, Total distance",
+          "SF-RW5866 specification sheet.xlsx / Sheet1 / B12"
+        ],
+        "deviceHolder": [
+          "NO",
+          "SF-RW5866 specification sheet.xlsx / Sheet1 / B13"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-rw5885",
+      "sku": "SF-RW5885",
+      "category": "Rowers",
+      "fields": {
+        "resistanceType": [
+          "Magnetic",
+          "RW5885 specification sheet.xlsx / Sheet1 / B8"
+        ],
+        "display": [
+          "TIME,COUNT,TOTAL COUNT,CALORIES,DISTANCE,RPM(CN/M)",
+          "RW5885 specification sheet.xlsx / Sheet1 / B12"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-s0636",
+      "sku": "SF-S0636",
+      "category": "Steppers",
+      "fields": {
+        "display": [
+          "Strides/Min, SCAN, Count, Cal",
+          "SF-S0636 Spec Sheet.docx / document / 12:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-s0637",
+      "sku": "SF-S0637",
+      "category": "Steppers",
+      "fields": {
+        "display": [
+          "Strides/Min, SCAN, Count, Time, Cal",
+          "SF-S0637 Spec Sheet.docx / document / 12:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-s0855",
+      "sku": "SF-S0855",
+      "category": "Steppers",
+      "fields": {
+        "display": [
+          "Flat",
+          "SF-S0855 specification sheet.xlsx / Sheet1 / B12"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-s0870",
+      "sku": "SF-S0870",
+      "category": "Steppers",
+      "fields": {
+        "brand": [
+          "SUNNY HEALTH & FITNESS",
+          "Versa Stepper SF-S0870 specification sheet.xlsx / Sheet1 / C2"
+        ],
+        "speedResistanceLevels": [
+          "NO",
+          "Versa Stepper SF-S0870 specification sheet.xlsx / Sheet1 / C11"
+        ],
+        "display": [
+          "SCAN, TIME, SPEED, DISTANCE",
+          "Versa Stepper SF-S0870 specification sheet.xlsx / Sheet1 / C14"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-s9978",
+      "sku": "SF-S9978",
+      "category": "Steppers",
+      "fields": {
+        "brand": [
+          "SUNNY HEALTHY & FITNESS",
+          "SF-S9978 FINAL SPEC SHEET 10132023.xlsx / SF-S021054 / B3"
+        ],
+        "materials": [
+          "Q235, PP",
+          "SF-S9978 FINAL SPEC SHEET 10132023.xlsx / SF-S021054 / B7"
+        ],
+        "color": [
+          "Silver",
+          "SF-S9978 FINAL SPEC SHEET 10132023.xlsx / SF-S021054 / B6"
+        ],
+        "productWeight": [
+          "16.2LBS (7.4KG)",
+          "SF-S9978 FINAL SPEC SHEET 10132023.xlsx / SF-S021054 / B12"
+        ],
+        "shippingWeight": [
+          "18.4 LBS (8.4KG)",
+          "SF-S9978 FINAL SPEC SHEET 10132023.xlsx / SF-S021054 / B11"
+        ],
+        "stepHeight": [
+          "110mm/4.3 inch",
+          "SF-S9978 FINAL SPEC SHEET 10132023.xlsx / SF-S021054 / B63"
+        ],
+        "resistanceType": [
+          "hydraulic cylinder",
+          "SF-S9978 FINAL SPEC SHEET 10132023.xlsx / SF-S021054 / B22"
+        ],
+        "stride": [
+          "155 mm/6.1 inch",
+          "SF-S9978 FINAL SPEC SHEET 10132023.xlsx / SF-S021054 / B62"
+        ],
+        "display": [
+          "CNT、TMR、CAL、TOT. CNT",
+          "SF-S9978 FINAL SPEC SHEET 10132023.xlsx / SF-S021054 / B42"
+        ],
+        "screenType": [
+          "LCD",
+          "SF-S9978 FINAL SPEC SHEET 10132023.xlsx / SF-S021054 / B20"
+        ],
+        "screenSize": [
+          "1.2*0.7 INCHES (31*18 mm)",
+          "SF-S9978 FINAL SPEC SHEET 10132023.xlsx / SF-S021054 / B19"
+        ],
+        "battery": [
+          "1*LR44H",
+          "SF-S9978 FINAL SPEC SHEET 10132023.xlsx / SF-S021054 / D27"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t7614",
+      "sku": "SF-T7614",
+      "category": "Treadmills",
+      "fields": {
+        "productWeight": [
+          "65.26 LBS",
+          "SF-T7614 SPEC SHEET.docx / document / 3:2"
+        ],
+        "transportWheels": [
+          "YES",
+          "SF-T7614 SPEC SHEET.docx / document / 27:2"
+        ],
+        "treadmillType": [
+          "WALKING TREADMILL",
+          "SF-T7614 SPEC SHEET.docx / document / 11:2"
+        ],
+        "foldable": [
+          "YES",
+          "SF-T7614 SPEC SHEET.docx / document / 31:2"
+        ],
+        "heartRate": [
+          "YES",
+          "SF-T7614 SPEC SHEET.docx / document / 23:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t7615",
+      "sku": "SF-T7615",
+      "category": "Treadmills",
+      "fields": {
+        "productWeight": [
+          "69.45LBS",
+          "SF-T7615 SPEC SHEET.docx / document / 3:2"
+        ],
+        "transportWheels": [
+          "YES",
+          "SF-T7615 SPEC SHEET.docx / document / 27:2"
+        ],
+        "treadmillType": [
+          "WALKING TREADMILL",
+          "SF-T7615 SPEC SHEET.docx / document / 11:2"
+        ],
+        "foldable": [
+          "YES",
+          "SF-T7615 SPEC SHEET.docx / document / 31:2"
+        ],
+        "heartRate": [
+          "YES",
+          "SF-T7615 SPEC SHEET.docx / document / 23:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t7635",
+      "sku": "SF-T7635",
+      "category": "Treadmills",
+      "fields": {
+        "transportWheels": [
+          "YES",
+          "SF-T7635 spec sheet.docx / document / 27:2"
+        ],
+        "treadmillType": [
+          "RUNNING TREADMILL",
+          "SF-T7635 spec sheet.docx / document / 11:2"
+        ],
+        "runningSurface": [
+          "17.3*51 INCHES",
+          "SF-T7635 spec sheet.docx / document / 14:2"
+        ],
+        "shockAbsorption": [
+          "YES",
+          "SF-T7635 spec sheet.docx / document / 25:2"
+        ],
+        "foldable": [
+          "YES",
+          "SF-T7635 spec sheet.docx / document / 31:2"
+        ],
+        "deviceHolder": [
+          "YES",
+          "SF-T7635 spec sheet.docx / document / 29:2"
+        ],
+        "bottleHolder": [
+          "NO",
+          "SF-T7635 spec sheet.docx / document / 28:2"
+        ],
+        "heartRate": [
+          "YES",
+          "SF-T7635 spec sheet.docx / document / 23:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t7723",
+      "sku": "SF-T7723",
+      "category": "Treadmills",
+      "fields": {
+        "productWeight": [
+          "50KGS/110LBS",
+          "SF-T7723 Spec sheet.docx / document / 3:2"
+        ],
+        "transportWheels": [
+          "YES",
+          "SF-T7723 Spec sheet.docx / document / 27:2"
+        ],
+        "treadmillType": [
+          "WALKING TREADMILL",
+          "SF-T7723 Spec sheet.docx / document / 11:2"
+        ],
+        "runningSurface": [
+          "1350*410MM/53.15*16.14INCHES",
+          "SF-T7723 Spec sheet.docx / document / 14:2"
+        ],
+        "foldable": [
+          "YES",
+          "SF-T7723 Spec sheet.docx / document / 31:2"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t7873",
+      "sku": "SF-T7873",
+      "category": "Treadmills",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-T7873 Spec 2020.11.5.xlsx / Sheet3 / B2"
+        ],
+        "shippingWeight": [
+          "67KG/147.7 LBS",
+          "SF-T7873 Spec 2020.11.5.xlsx / Sheet3 / B5"
+        ],
+        "productWeight": [
+          "57KG/125.7 LBS",
+          "SF-T7873 Spec 2020.11.5.xlsx / Sheet3 / B6"
+        ],
+        "resistanceType": [
+          "ELECTRIC",
+          "SF-T7873 Spec 2020.11.5.xlsx / Sheet3 / B14"
+        ],
+        "speedRange": [
+          "0.6 – 11.0 (MPH)",
+          "SF-T7873 Spec 2020.11.5.xlsx / Sheet3 / B56"
+        ],
+        "watts": [
+          "745*1.25=931.25W",
+          "SF-T7873 Spec 2020.11.5.xlsx / Sheet3 / B61"
+        ],
+        "amps": [
+          "10A",
+          "SF-T7873 Spec 2020.11.5.xlsx / Sheet3 / B62"
+        ],
+        "beltDimensions": [
+          "1300*400mm/51.2*15.8 inches",
+          "SF-T7873 Spec 2020.11.5.xlsx / Sheet3 / B64"
+        ],
+        "screenSize": [
+          "5 INCH",
+          "SF-T7873 Spec 2020.11.5.xlsx / Sheet3 / B12"
+        ],
+        "programs": [
+          "P1-P9",
+          "SF-T7873 Spec 2020.11.5.xlsx / Sheet3 / B16"
+        ],
+        "battery": [
+          "2xAAA",
+          "SF-T7873 Spec 2020.11.5.xlsx / Sheet3 / D19"
+        ],
+        "display": [
+          "Speed,Time,Heart Rate,Distance,Calorie,Incline",
+          "SF-T7873 Spec 2020.11.5.xlsx / Sheet3 / B33"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t7874",
+      "sku": "SF-T7874",
+      "category": "Treadmills",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "SF-T7874 SPEC 2020.11.5.xlsx / Sheet1 / B2"
+        ],
+        "shippingWeight": [
+          "78.5KG/173.1 LBS",
+          "SF-T7874 SPEC 2020.11.5.xlsx / Sheet1 / B5"
+        ],
+        "productWeight": [
+          "69.5KG/153.2 LBS",
+          "SF-T7874 SPEC 2020.11.5.xlsx / Sheet1 / B6"
+        ],
+        "resistanceType": [
+          "ELLICTRIC",
+          "SF-T7874 SPEC 2020.11.5.xlsx / Sheet1 / B14"
+        ],
+        "speedRange": [
+          "0.6-11.0 mph",
+          "SF-T7874 SPEC 2020.11.5.xlsx / Sheet1 / B56"
+        ],
+        "watts": [
+          "745*1.5=1117.5W",
+          "SF-T7874 SPEC 2020.11.5.xlsx / Sheet1 / B61"
+        ],
+        "amps": [
+          "12A",
+          "SF-T7874 SPEC 2020.11.5.xlsx / Sheet1 / B62"
+        ],
+        "beltDimensions": [
+          "1380*460mm/54.3*18.1 inches",
+          "SF-T7874 SPEC 2020.11.5.xlsx / Sheet1 / B64"
+        ],
+        "screenSize": [
+          "7 INCH",
+          "SF-T7874 SPEC 2020.11.5.xlsx / Sheet1 / B12"
+        ],
+        "programs": [
+          "P1-14",
+          "SF-T7874 SPEC 2020.11.5.xlsx / Sheet1 / B16"
+        ],
+        "battery": [
+          "2xAAA",
+          "SF-T7874 SPEC 2020.11.5.xlsx / Sheet1 / D19"
+        ],
+        "display": [
+          "Speed,Time,Heart Rate,Distance,Calorie,Incline",
+          "SF-T7874 SPEC 2020.11.5.xlsx / Sheet1 / B33"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t7951",
+      "sku": "SF-T7951",
+      "category": "Treadmills",
+      "fields": {
+        "brand": [
+          "SUNNY HEALTH &FITNESS",
+          "Spec Sheet for SF-T7951 12.16.19.xlsx / Sheet1 / B2"
+        ],
+        "shippingWeight": [
+          "149.8LBS (67.9 KG)",
+          "Spec Sheet for SF-T7951 12.16.19.xlsx / Sheet1 / B5"
+        ],
+        "productWeight": [
+          "127.4LBS (57.8 KG)",
+          "Spec Sheet for SF-T7951 12.16.19.xlsx / Sheet1 / B6"
+        ],
+        "speedRange": [
+          "0.6-10MPH",
+          "Spec Sheet for SF-T7951 12.16.19.xlsx / Sheet1 / B53"
+        ],
+        "amps": [
+          "15A",
+          "Spec Sheet for SF-T7951 12.16.19.xlsx / Sheet1 / B59"
+        ],
+        "beltDimensions": [
+          "49.6*19.7INCHES (1260*500mm)",
+          "Spec Sheet for SF-T7951 12.16.19.xlsx / Sheet1 / B61"
+        ],
+        "screenSize": [
+          "2.0*0.8INCHES （50*20mm for middle window）；1.6*0.8INCHES（40*20mm for other 4 windows）",
+          "Spec Sheet for SF-T7951 12.16.19.xlsx / Sheet1 / B12"
+        ],
+        "programs": [
+          "15 （P1-P15）",
+          "Spec Sheet for SF-T7951 12.16.19.xlsx / Sheet1 / B16"
+        ],
+        "bluetooth": [
+          "music only",
+          "Spec Sheet for SF-T7951 12.16.19.xlsx / Sheet1 / D25"
+        ],
+        "display": [
+          "Calorie, Incline, Time，Distance，Speed",
+          "Spec Sheet for SF-T7951 12.16.19.xlsx / Sheet1 / B30"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t7955",
+      "sku": "SF-T7955",
+      "category": "Treadmills",
+      "fields": {
+        "brand": [
+          "SUNNY",
+          "T7955 SpecSheet2019.1.6.xlsx / T7955 / B2"
+        ],
+        "shippingWeight": [
+          "85.7KG/189LBS",
+          "T7955 SpecSheet2019.1.6.xlsx / T7955 / B5"
+        ],
+        "productWeight": [
+          "75.5KG/166.4LBS",
+          "T7955 SpecSheet2019.1.6.xlsx / T7955 / B6"
+        ],
+        "speedRange": [
+          "1.0—11.5 MPH",
+          "T7955 SpecSheet2019.1.6.xlsx / T7955 / B53"
+        ],
+        "watts": [
+          "1100W",
+          "T7955 SpecSheet2019.1.6.xlsx / T7955 / B59"
+        ],
+        "amps": [
+          "10.5A",
+          "T7955 SpecSheet2019.1.6.xlsx / T7955 / B60"
+        ],
+        "beltDimensions": [
+          "137*50CM/54x19.75 INCH",
+          "T7955 SpecSheet2019.1.6.xlsx / T7955 / B62"
+        ],
+        "shockAbsorption": [
+          "专门减震块",
+          "T7955 SpecSheet2019.1.6.xlsx / T7955 / B65"
+        ],
+        "screenSize": [
+          "11.7*5.9CM/4.6*2.3INCH",
+          "T7955 SpecSheet2019.1.6.xlsx / T7955 / B11"
+        ],
+        "programs": [
+          "P1-P12, HEART RATE MODE",
+          "T7955 SpecSheet2019.1.6.xlsx / T7955 / B15"
+        ],
+        "bluetooth": [
+          "music only",
+          "T7955 SpecSheet2019.1.6.xlsx / T7955 / D24"
+        ],
+        "plugType": [
+          "PLUG",
+          "T7955 SpecSheet2019.1.6.xlsx / T7955 / D28"
+        ],
+        "display": [
+          "TIME/INCLINE/SPEED/DISTANCE/CALORIES/HEIGHT/WEIGHT/AGE/MANUAL/HEART RATE/GOALS/WEIGHT LOSS(P1-P6)/INTERVAL(P7-P12)",
+          "T7955 SpecSheet2019.1.6.xlsx / T7955 / B30"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-sf-t7970",
+      "sku": "SF-T7970",
+      "category": "Treadmills",
+      "fields": {
+        "brand": [
+          "SUNNY HEALTH & FITNESS",
+          "Spec Sheet for SF-T7970 01022020.xlsx / Sheet1 / B2"
+        ],
+        "shippingWeight": [
+          "89 LBS （40.4KG）",
+          "Spec Sheet for SF-T7970 01022020.xlsx / Sheet1 / B5"
+        ],
+        "productWeight": [
+          "77 LBS （34.9KG）",
+          "Spec Sheet for SF-T7970 01022020.xlsx / Sheet1 / B6"
+        ],
+        "speedRange": [
+          "0.5-3.75 MPH for walking treadmill; 0.5-7.5 MPH for running treadmill",
+          "Spec Sheet for SF-T7970 01022020.xlsx / Sheet1 / B53"
+        ],
+        "watts": [
+          "700W",
+          "Spec Sheet for SF-T7970 01022020.xlsx / Sheet1 / B58"
+        ],
+        "amps": [
+          "15A",
+          "Spec Sheet for SF-T7970 01022020.xlsx / Sheet1 / B59"
+        ],
+        "beltDimensions": [
+          "47.6*18.9 INCHES (1210*480mm)",
+          "Spec Sheet for SF-T7970 01022020.xlsx / Sheet1 / B61"
+        ],
+        "shockAbsorption": [
+          "Aluminium alloy main frame will be deformed during exercise to achieve shock absorption effect",
+          "Spec Sheet for SF-T7970 01022020.xlsx / Sheet1 / B64"
+        ],
+        "screenSize": [
+          "1*0.8 INCHES （25.9*20.5mm）screen size for the screen on the remote control",
+          "Spec Sheet for SF-T7970 01022020.xlsx / Sheet1 / B12"
+        ],
+        "programs": [
+          "Standby Mode,Constant Speed Mode,Automatic Mode",
+          "Spec Sheet for SF-T7970 01022020.xlsx / Sheet1 / B16"
+        ],
+        "battery": [
+          "2xAAA for remote control",
+          "Spec Sheet for SF-T7970 01022020.xlsx / Sheet1 / D19"
+        ],
+        "bluetooth": [
+          "music and APP",
+          "Spec Sheet for SF-T7970 01022020.xlsx / Sheet1 / D25"
+        ],
+        "plugType": [
+          "PLUG",
+          "Spec Sheet for SF-T7970 01022020.xlsx / Sheet1 / D28"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-smw-004b",
+      "sku": "SMW-004B",
+      "category": "Essentials",
+      "fields": {
+        "brand": [
+          "SUNNY",
+          "Accessory Product Spec for SMW-004B(Ceefit-235).xlsx / Specification / B1"
+        ],
+        "materials": [
+          "strap:silicone,frame: zinc alloy ,case:PC",
+          "Accessory Product Spec for SMW-004B(Ceefit-235).xlsx / Specification / B17"
+        ],
+        "color": [
+          "black",
+          "Accessory Product Spec for SMW-004B(Ceefit-235).xlsx / Specification / B18"
+        ],
+        "keyDimensions": [
+          "9.8x1.4x0.48 INCH",
+          "Accessory Product Spec for SMW-004B(Ceefit-235).xlsx / Specification / B9"
+        ],
+        "shippingDimensions": [
+          "22.2x9.1x16.9 INCH",
+          "Accessory Product Spec for SMW-004B(Ceefit-235).xlsx / Specification / B6"
+        ],
+        "battery": [
+          "Lithium polymer battery",
+          "Accessory Product Spec for SMW-004B(Ceefit-235).xlsx / Specification / B14"
+        ]
+      }
+    },
+    {
+      "id": "off-sunny-tm10",
+      "sku": "TM10",
+      "category": "Treadmills",
+      "fields": {
+        "brand": [
+          "Sunny Health & Fitness",
+          "TM10=SF-T7945 SMART Specification Sheet 08.16.2023.xlsx / Sheet1 / B2"
+        ],
+        "color": [
+          "BLACK",
+          "TM10=SF-T7945 SMART Specification Sheet 08.16.2023.xlsx / Sheet1 / B5"
+        ],
+        "materials": [
+          "STEEL",
+          "TM10=SF-T7945 SMART Specification Sheet 08.16.2023.xlsx / Sheet1 / B6"
+        ],
+        "shippingWeight": [
+          "30 KG/66.1 LBS",
+          "TM10=SF-T7945 SMART Specification Sheet 08.16.2023.xlsx / Sheet1 / B9"
+        ],
+        "productWeight": [
+          "25 KG/55.1 LBS",
+          "TM10=SF-T7945 SMART Specification Sheet 08.16.2023.xlsx / Sheet1 / B10"
+        ],
+        "maxUserWeightLb": [
+          "245 lb",
+          "TM10=SF-T7945 SMART Specification Sheet 08.16.2023.xlsx / Sheet1 / B18"
+        ],
+        "speedRange": [
+          "0.5-3.7MPH(0.8-6KM/H)",
+          "TM10=SF-T7945 SMART Specification Sheet 08.16.2023.xlsx / Sheet1 / B66"
+        ],
+        "watts": [
+          "560W",
+          "TM10=SF-T7945 SMART Specification Sheet 08.16.2023.xlsx / Sheet1 / B72"
+        ],
+        "amps": [
+          "10A",
+          "TM10=SF-T7945 SMART Specification Sheet 08.16.2023.xlsx / Sheet1 / B73"
+        ],
+        "motorType": [
+          "DC motor",
+          "TM10=SF-T7945 SMART Specification Sheet 08.16.2023.xlsx / Sheet1 / B74"
+        ],
+        "beltDimensions": [
+          "1000*360MM/39.3*14.2INCH",
+          "TM10=SF-T7945 SMART Specification Sheet 08.16.2023.xlsx / Sheet1 / B76"
+        ],
+        "deckType": [
+          "SINGLE",
+          "TM10=SF-T7945 SMART Specification Sheet 08.16.2023.xlsx / Sheet1 / B86"
+        ],
+        "stepOnHeight": [
+          "80-104MM/3.15-4.09INCH",
+          "TM10=SF-T7945 SMART Specification Sheet 08.16.2023.xlsx / Sheet1 / B87"
+        ],
+        "screenSize": [
+          "156*60MM/6.1*2.4 INCH",
+          "TM10=SF-T7945 SMART Specification Sheet 08.16.2023.xlsx / Sheet1 / B16"
+        ],
+        "screenType": [
+          "LED",
+          "TM10=SF-T7945 SMART Specification Sheet 08.16.2023.xlsx / Sheet1 / B17"
+        ],
+        "display": [
+          "speed，time，distance，calories，steps",
+          "TM10=SF-T7945 SMART Specification Sheet 08.16.2023.xlsx / Sheet1 / B39"
+        ]
+      }
+    }
+  ],
+  "folder": "Master SPEC SHEET",
+  "selection": "Exact visible model-cell matches; newest dated non-draft file; existing canonical and live values retained. Only unambiguous public template fields with usable source values."
+}
