@@ -2,6 +2,12 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-13: Claude Code — git pull: Codex spec gap fill (Site 63); Artifact version 33
+- Received: b4f0af1 and 07925d7 (Codex, trailers and HANDOFF entries present): 894 blank Product Spec fields filled on 178 products from the Master SPEC SHEET folder with cell evidence (audit data/specifications/master-spec-gaps-20261113.json); catalog table reads the source-backed max user weight when the numeric column is blank; Site Worker blank-only backfill. Test change in v2-spec-details only accounts for the backfilled fields. Both runtime paths intact.
+- Tests: all 40 tests/*.spec.cjs passed with installed Chrome through a local preload; npm run screenshots passed.
+- Claude Artifact: PUBLISHED version 33 (id 1794613969-b47f) from dist/artifact/index.html built at 07925d7. Read all 889 items first; the 178 changed records' specDetails in the Artifact equalled the previous repository version, so they were updated with pinned writes (only specDetails changed; no keys removed). Reference data unchanged (27 documents identical). Read back: 889 items equal the repository apart from the four known owner edits, the Artifact's /_blob picture links and the Site-only priceSource label. Not checked in the signed-in viewer.
+- Private Site: PUBLIC version 63 from b4f0af1 (Codex); nothing to publish.
+- Practice data: not exported (owner decision).
 ## 2026-11-13: Codex — Publish catalog specification gap fill
 
 - Public Site: version 63 from `b4f0af175660780791c76cde2ebe06ff9883cf53`, deployment `appgdep_6af79ea083ac8191b4547f5ce4d0fa51`. Public access retained.
