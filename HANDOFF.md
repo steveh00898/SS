@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-13: Codex — Publish Spec Search and Excel export
+
+- Public Site: version 65 from `5532ffd2f8bb10a056420c39d54e68ff72cfa070`, deployment `appgdep_6af7b834ab108191b747c6d495daae99`. Public access retained.
+- Verification: All 41 suites passed after fixes for Artifact build size and Catalog header scoping. Desktop and phone previews passed. Live Chrome narrowed 78 treadmills to two using deck width at least 14 in plus manual incline. The live Excel file read back with both matching rows and both confirmed filters.
+- Claude Artifact: awaiting Claude Code publication. Reference data version unchanged.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-13: Codex — Add live Spec Search and Excel export
 
 - Changes: Added the third sidebar control, Spec Search. Search is live across all 11 category templates with optional catalog-source scope, keyboard suggestions, AND filters, matching values, labeled ISV fallbacks and side-by-side Product Spec comparison. Category changes clear the active filters.
