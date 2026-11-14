@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-13: Codex — Publish the unified Spec Search layout
+
+- Public Site: version 66 from `8dca4dd373c2367930b8dab24903bb38ce6104ac`, deployment `appgdep_6af7bd9c16f0819198b085c7d20b8064`. Public access retained.
+- Verification: All 41 suites and desktop and phone preview flows passed. Production Chrome confirmed matching Catalog headers, the 6 px sidebar gap, side-by-side Category and search on both widths, three live Wi-Fi and 20-inch-deck matches, and an Excel download.
+- Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-13: Codex — Align Spec Search with the Catalog layout
 
 - Changes: Catalog and Spec Search controls now have a consistent gap. Category and the spec input sit on one row. Spec Search covers all product sources with no separate source dropdown.
