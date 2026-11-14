@@ -1,6 +1,7 @@
 // Builds the smaller Claude Artifact page from app/index.html without changing that file or the Site.
 // Output: dist/artifact/index.html, plus dist/artifact/reference/*.json for the Artifact's `reference` collection.
 // Embedded fonts become a Google Fonts link. ISV rows and manuals load from the database at start-up.
+import {transform} from 'esbuild';
 import {createHash} from 'node:crypto';
 import {mkdir,readFile,rm,writeFile} from 'node:fs/promises';
 
@@ -56,6 +57,11 @@ once('  async function boot() {',`  // Artifact build only: reference rows too l
   }
   async function boot() {`);
 once('    initPractice(artifactRuntime, db, user);','    await loadReference(db);\n    initPractice(artifactRuntime, db, user);');
+
+const script=html.match(/<script>\r?\n([\s\S]*?)<\/script>/);
+if(!script)throw Error('Artifact script not found');
+const compiled=await transform(script[1],{loader:'js',minifyWhitespace:true,lineLimit:120,legalComments:'inline'});
+html=html.replace(script[0],()=>'<script>\n'+compiled.code.replace(/<\/script/gi,'<\\/script')+'</script>');
 
 await rm('dist/artifact',{recursive:true,force:true});
 await mkdir('dist/artifact/reference',{recursive:true});

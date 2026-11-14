@@ -500,6 +500,50 @@ body.spec-view table.ptable{min-width:0}
 .usage-resource-counts span{color:var(--muted)}
 .usage-resource-counts b{color:var(--fg)}
 @media(max-width:720px){.usage-rank-row{grid-template-columns:110px minmax(0,1fr) 32px;gap:6px;font-size:12px}}
+
+#specSearchToggle{width:100%;margin-top:6px;text-align:left}
+#specSearchToggle[aria-pressed=true]{border-color:var(--accent)}
+body[data-view="spec-search"] .catalog-source{display:none}
+body[data-view="spec-search"] .tablebox.catalog-only{display:none}
+.spec-search-panel{min-width:0}
+.ss-controls{background:var(--panel,var(--card));border:1px solid var(--line);border-radius:10px;padding:16px}
+.ss-scope{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:14px}
+.ss-controls label{display:grid;gap:5px;color:var(--fg);font-size:13px;font-weight:600}
+.ss-controls select,.ss-controls input[type=search]{color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:9px 12px;font:inherit;max-width:100%;min-width:0}
+.ss-controls select{min-width:146px}
+.ss-entry{position:relative}
+#specOptions{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:4px;margin:4px 0 0;max-height:236px;overflow:auto;list-style:none;box-shadow:0 8px 20px #0003}
+#specOptions li{cursor:pointer;padding:9px 10px;color:var(--fg);font-size:14px}
+#specOptions li:hover,#specOptions [aria-selected=true]{background:var(--accent);color:#161616}
+#specChips{display:flex;gap:6px;flex-wrap:wrap}
+#specChips:not(:empty){margin-top:12px}
+#specChips button{text-transform:none;white-space:normal;text-align:left}
+.ss-toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:14px 0}
+#specSearchStatus{flex:1 1 220px;color:var(--muted);margin:0;font-size:14px}
+.ss-results{max-height:68vh;overflow:auto;border:1px solid var(--line);border-radius:8px}
+.ss-results table{border-collapse:separate;border-spacing:0;width:100%;min-width:0;background:var(--bg)}
+.ss-results thead th{background:var(--bg);position:sticky;top:0;z-index:1;text-align:left}
+.ss-results th,.ss-results td{padding:10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:middle}
+.ss-results th button{white-space:normal;text-align:left}
+.ss-item{min-width:170px}
+.ss-results td img{width:92px;max-width:none;aspect-ratio:4/3;object-fit:contain;background:white;border-radius:4px}
+.ss-results td small{display:block;color:var(--muted)}
+.ss-select input{width:17px;height:17px;accent-color:var(--accent)}
+@media(max-width:720px){
+ .ss-controls{padding:12px}
+ .ss-scope label{flex:1}
+ .ss-controls select{min-width:0;width:100%}
+ .ss-results{max-height:none;border:none}
+ .ss-results table,.ss-results tbody{display:block}
+ .ss-results thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+ .ss-results tbody tr{display:grid;grid-template-columns:30px 1fr 85px;grid-template-areas:none;gap:0;border:1px solid var(--line);border-radius:8px;margin-bottom:8px;padding:8px}
+ .ss-results tbody td{display:block;grid-area:auto;border:0;padding:5px}
+ .ss-results td:not(.ss-select):not(.ss-item):not(.ss-image){grid-column:2 / -1}
+ .ss-results td:not(.ss-select):not(.ss-item):not(.ss-image)::before{content:attr(data-label) " · ";color:var(--muted)}
+ .ss-results td.ss-image{grid-column:3;grid-row:1 / span 2}
+ .ss-results td img{width:76px}
+ .ss-item{min-width:0}
+}
 </style>
 
 </head><body><header class="top">
@@ -531,6 +575,7 @@ body.spec-view table.ptable{min-width:0}
       </div>
     </div>
     <div class="compact-picker" id="sectionPicker"><button type="button" class="picker-trigger" aria-expanded="false" aria-controls="views" id="sectionTrigger">Catalog <span aria-hidden="true">›</span></button><nav class="views" id="views" aria-label="Sections"><button type="button" data-view="catalog" aria-pressed="true">Catalog</button><button type="button" data-view="practice" aria-pressed="false">Model Practice</button><button type="button" data-view="progress" aria-pressed="false">Progress</button><button type="button" data-view="accounts" aria-pressed="false" hidden>Accounts</button><button type="button" data-view="usage" aria-pressed="false" hidden>Public Usage Analysis</button></nav></div>
+    <button class="picker-trigger" id="specSearchToggle" type="button" aria-pressed="false">Spec Search <span aria-hidden="true">›</span></button>
     <div class="head">
     <div>
       <h1 id="title">Product Catalog</h1>
@@ -550,10 +595,32 @@ body.spec-view table.ptable{min-width:0}
   <section class="practice" id="practiceView" hidden aria-live="polite"></section>
   <section class="progress" id="progressView" hidden></section>
   <section class="accounts" id="accountsView" hidden></section><section class="accounts" id="usageView" hidden></section>
+  <section class="spec-search-panel" id="specSearchView" aria-label="Spec Search" hidden>
+    <div class="ss-controls">
+      <div class="ss-scope">
+        <label>Category<select id="specCategory"><option value="">All categories</option></select></label>
+        <label>Catalog source<select id="specSource"><option value="all">All products</option><option value="current">Current website</option><option value="off-sunny-web">Off Sunny web</option></select></label>
+      </div>
+      <div class="ss-entry">
+        <label>Find a specification<input id="specQuery" type="search" role="combobox" autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-controls="specOptions" placeholder='Try Wi-Fi, 18" deck, or 8 lb flywheel'></label>
+        <ul id="specOptions" role="listbox" aria-label="Suggested filters" hidden></ul>
+      </div>
+      <div id="specChips" aria-label="Confirmed filters"></div>
+    </div>
+    <div class="ss-toolbar">
+      <p id="specSearchStatus" role="status"></p>
+      <select id="specSort" aria-label="Sort results" class="btn"><option value="price:1">Price low to high</option><option value="price:-1">Price high to low</option><option value="sku:1">Model number A–Z</option><option value="sku:-1">Model number Z–A</option><option value="category:1">Category A–Z</option><option value="category:-1">Category Z–A</option></select>
+      <button id="specCompare" type="button" class="btn" disabled>Compare specs</button>
+      <button id="specExport" type="button" class="btn primary" disabled>Export to Excel</button>
+    </div>
+    <div id="specResultBox" class="ss-results" hidden>
+      <table aria-label="Spec Search results"><thead id="specResultHead"></thead><tbody id="specResultRows"></tbody></table>
+    </div>
+  </section>
   <input id="practiceImport" type="file" accept=".json,application/json" hidden>
   <button class="mobile-expand catalog-only" id="toolsExpand" type="button" aria-expanded="false" aria-controls="specLegend">Tiers &amp; Compare <span aria-hidden="true">⌄</span></button><div class="spec-legend catalog-only" id="specLegend" hidden aria-label="Specification highlights"><span><i class="spec-key high" aria-hidden="true"></i>Highest tier</span><span><i class="spec-key" aria-hidden="true"></i>Mid tier / unranked</span><span><i class="spec-key low" aria-hidden="true"></i>Lowest tier</span><label class="compare-toggle"><input type="checkbox" id="compareToggle"> Compare</label><span id="compareStatus" hidden aria-live="polite"></span><button class="btn primary" id="compareConfirm" type="button" hidden>Confirm comparison</button><button class="column-reset" id="defaultColumnOrder" type="button" title="Restore the original column order">Default columns order</button></div><div class="tablebox catalog-only">
     <table>
-      <thead>
+      <thead id="catalogHead">
         <tr>
           <th data-key="category"><button type="button">Category</button></th>
           <th id="compareHead" class="compare-cell" hidden>Select</th>
@@ -1045,9 +1112,9 @@ body.spec-view table.ptable{min-width:0}
     }).join('');
     body.innerHTML='<div role="table" aria-label="'+(isISV?'ISV':'Product Spec')+' comparison" class="spec-compare-grid" style="--compare-count:'+items.length+';--compare-min:'+Math.max(0,(items.length>3?items.length*100:0))+'px"><div class="spec-compare-sticky"><div role="row" class="spec-compare-row spec-compare-head"><div role="columnheader">Field</div>'+heading+'</div>'+dialogSectionNav(sections,'Comparison sections')+'</div><p class="pv-help">Yellow marks differences between a product’s own Product Spec and ISV.</p>'+groups+row('Sources',sources)+'</div>';
   }
-  function openProductSpec(it,trigger){
+  function openProductSpec(it,trigger,selected){
     if(!it)return;closeModals();if(isvDialog.open)closeISV();specReturnFocus=trigger;specOldOverflow=document.body.style.overflow;
-    const compared=comparedProducts(it),isComparison=compared.length>1;
+    const compared=selected??comparedProducts(it),isComparison=compared.length>1;
     specDialog.classList.toggle('spec-compare-dialog',isComparison);
     if(isComparison){
       $('#productSpecTitle').textContent='Compare Product Specs';$('#productSpecName').textContent=compared.length+' products';
@@ -1091,7 +1158,7 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
   const eyeIcon=closed=>'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/>'+(closed?'<path d="m3 3 18 18"/>':'')+'</svg>';
   function saveColumnLayout(){try{localStorage.setItem('spf.columns.v1',JSON.stringify({order:columnOrder,hidden:[...hiddenColumns]}));}catch(e){}}
   function eyeButton(id){const closed=hiddenColumns.has(id);return `<button class="column-eye" type="button" data-eye="${id}" aria-label="${closed?'Show':'Hide'} ${esc(COLUMN_NAMES[id])}" aria-pressed="${!closed}" title="${closed?'Show':'Hide'} ${esc(COLUMN_NAMES[id])}">${eyeIcon(closed)}</button>`;}
-  [...document.querySelectorAll('thead th')].forEach((head,i)=>{const id=COLUMN_IDS[i];head.dataset.col=id;head.innerHTML='<span class="header-label">'+head.innerHTML+'</span><span class="header-controls">'+(!['compare','actions'].includes(id)?`<span class="column-grip" draggable="true" tabindex="0" role="button" aria-label="Move ${esc(COLUMN_NAMES[id])}; use Alt and arrow keys" title="Drag to reorder · Alt + ← / →">⠿</span>`:'')+(SPEC_COLUMNS.some(([key])=>key===id)?eyeButton(id):'')+'</span>';});
+  [...document.querySelectorAll('#catalogHead th')].forEach((head,i)=>{const id=COLUMN_IDS[i];head.dataset.col=id;head.innerHTML='<span class="header-label">'+head.innerHTML+'</span><span class="header-controls">'+(!['compare','actions'].includes(id)?`<span class="column-grip" draggable="true" tabindex="0" role="button" aria-label="Move ${esc(COLUMN_NAMES[id])}; use Alt and arrow keys" title="Drag to reorder · Alt + ← / →">⠿</span>`:'')+(SPEC_COLUMNS.some(([key])=>key===id)?eyeButton(id):'')+'</span>';});
   function cellColumn(cell){return cell.dataset.spec||(cell.classList.contains('c-cat')?'category':cell.classList.contains('compare-cell')?'compare':cell.classList.contains('c-sku')?'sku':cell.classList.contains('c-img')?'picture':cell.classList.contains('c-price')?'price':cell.classList.contains('c-link')?'manual':'actions');}
   function applyColumnLayout(){const headRow=$('.tablebox thead tr');for(const id of columnOrder){const head=headRow.querySelector('[data-col="'+id+'"]');head.classList.toggle('column-hidden',hiddenColumns.has(id));const eye=head.querySelector('[data-eye]');if(eye){eye.outerHTML=eyeButton(id);}headRow.appendChild(head);}for(const row of document.querySelectorAll('#rows tr')){const cells=new Map([...row.children].map(cell=>{const id=cellColumn(cell);cell.dataset.col=id;cell.classList.toggle('column-hidden',hiddenColumns.has(id));cell.setAttribute('aria-hidden',hiddenColumns.has(id)?'true':'false');return[id,cell];}));for(const id of columnOrder)if(cells.has(id))row.appendChild(cells.get(id));}
     $('.tablebox').style.setProperty('--table-min',(2220-hiddenColumns.size*135)+'px');
@@ -1155,7 +1222,7 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
     renderTabs();
     const showSpecs=true;document.body.classList.toggle('spec-view',showSpecs);$('#specLegend').hidden=!showSpecs;document.querySelectorAll('[data-spec-head]').forEach(th=>th.hidden=!showSpecs);
     $('#title').textContent = state.compareMode && state.compareConfirmed ? "Product comparison" : state.q ? "Search results" : state.cat === "All" ? "Product Catalog" : state.cat;
-    document.querySelectorAll("th[data-key]").forEach((th) => th.setAttribute("aria-sort", th.dataset.key === state.sort.key ? (state.sort.dir > 0 ? "ascending" : "descending") : "none"));
+    document.querySelectorAll("#catalogHead th[data-key]").forEach((th) => th.setAttribute("aria-sort", th.dataset.key === state.sort.key ? (state.sort.dir > 0 ? "ascending" : "descending") : "none"));
     if(!showSpecs){state.compareMode=false;state.compareConfirmed=false;state.compareSelected.clear();}
     $('#compareToggle').checked=state.compareMode;
     $('#compareHead').hidden=!state.compareMode;
@@ -1191,7 +1258,7 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
   }
 
   function compareCell(it){return state.compareMode?`<td class="compare-cell"><input type="checkbox" data-compare="${esc(it.id)}" aria-label="Compare ${esc(it.sku)}" ${state.compareSelected.has(it.id)?'checked':''}></td>`:'';}
-  function updateFrozenWidths(){let left=0;for(const head of document.querySelectorAll('thead th[data-col]')){if(!['sku','picture','price'].includes(head.dataset.col))continue;const value=left+'px';head.style.setProperty('--pin-left',value);document.querySelectorAll('#rows [data-col="'+head.dataset.col+'"]').forEach(cell=>cell.style.setProperty('--pin-left',value));left+=head.getBoundingClientRect().width;}}
+  function updateFrozenWidths(){let left=0;for(const head of document.querySelectorAll('#catalogHead th[data-col]')){if(!['sku','picture','price'].includes(head.dataset.col))continue;const value=left+'px';head.style.setProperty('--pin-left',value);document.querySelectorAll('#rows [data-col="'+head.dataset.col+'"]').forEach(cell=>cell.style.setProperty('--pin-left',value));left+=head.getBoundingClientRect().width;}}
   new ResizeObserver(updateFrozenWidths).observe($('.tablebox'));
   // ---------- bulk edit ----------
   const FIELDS = ["name", "sku", "price", "category", "url"];
@@ -1341,7 +1408,7 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
     const row = document.querySelector(`tr[data-id="${CSS.escape(it.id)}"]`);
     if (row) { row.scrollIntoView({ block: "center", behavior: "smooth" }); row.classList.add("flash"); setTimeout(() => row.classList.remove("flash"), 1400); }
   }
-  q.addEventListener("input", () => { if(q.value.trim())beginSearchTiming(); state.q = q.value.trim(); state.compareConfirmed = false; sugIdx = -1; renderSuggest(); render(); });
+  q.addEventListener("input", () => { if(q.value.trim())beginSearchTiming(); state.q = q.value.trim(); if(state.q&&pr.view==="spec-search")setView("catalog"); state.compareConfirmed = false; sugIdx = -1; renderSuggest(); render(); });
   q.addEventListener("focus", renderSuggest);
   q.addEventListener("keydown", (e) => {
     if (sug.hidden && e.key !== "Escape") return;
@@ -1364,7 +1431,7 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
   $('#rows').addEventListener('change',e=>{const id=e.target.dataset.compare;if(!id)return;if(e.target.checked)state.compareSelected.add(id);else state.compareSelected.delete(id);$('#compareConfirm').disabled=state.compareSelected.size===0;$('#compareStatus').textContent=state.compareSelected.size+' selected';});
   $('#compareConfirm').addEventListener('click',()=>{if(!state.compareSelected.size)return;queueTelemetry({type:'compare',value:1});state.compareConfirmed=true;state.compareActive=new Set(state.compareSelected);render();$('.tablebox').scrollTop=0;});
   $("#tabs").addEventListener("click", (e) => { const b = e.target.closest("[data-cat]"); if (!b) return; beginSearchTiming(); if(state.cat!==b.dataset.cat){state.compareMode=false;state.compareConfirmed=false;state.compareSelected.clear();state.compareActive.clear();}state.cat = b.dataset.cat; try { localStorage.setItem("spf.cat", state.cat); } catch (err) {} render(); });
-  document.querySelector("thead").addEventListener("click", (e) => {
+  $("#catalogHead").addEventListener("click", (e) => {
     if(e.target.closest(".header-controls"))return;const th = e.target.closest("th[data-key]"); if (!th) return; const k = th.dataset.key;
     state.sort = { key: k, dir: state.sort.key === k ? -state.sort.dir : 1 }; render();
   });
@@ -1508,6 +1575,303 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
     catch (err) { if (err?.code !== "declined") toast("Couldn't export the file."); }
   });
 
+  // Spec Search uses the public template and the same source precedence as Product Spec.
+  const ss = {category:'',source:'all',filters:[],suggestions:[],index:-1,sort:'price',dir:1,selected:new Set(),cache:null};
+  const specInput = $('#specQuery'), specOptions = $('#specOptions');
+  const filterNames = {wifi:'Wi-Fi',inclineType:'Incline type',deckWidth:'Running deck width',flywheelWeight:'Flywheel weight'};
+  const filterTerms = {
+    wifi:'wifi wi-fi wireless internet', inclineType:'incline manual incline auto incline electric incline fixed incline',
+    deckWidth:'running deck width belt width deck running surface width', flywheelWeight:'flywheel fly wheel',
+    maxUserWeightLb:'user weight weight capacity maximum user weight', stride:'stride length'
+  };
+  const filterKinds = {deckWidth:'length',maxUserWeightLb:'weight',flywheelWeight:'weight',productWeight:'weight',
+    shippingWeight:'weight',maxUserHeight:'length',stride:'length',stepHeight:'length',stepOnHeight:'length',qFactor:'length'};
+  const filterLabels = new Map();
+  for(const template of Object.values(PRODUCT_SPEC_TEMPLATES)) {
+    for(const section of template) for(const [key,label] of section.fields) if(!filterLabels.has(key))filterLabels.set(key,filterNames[key]||label);
+  }
+  filterLabels.set('deckWidth',filterNames.deckWidth);
+  const excludedSpecFields = new Set(['upc','features','certification','brand','electrical']);
+  function specFields(category) {
+    const sections = category ? PRODUCT_SPEC_TEMPLATES[category]||[] : Object.values(PRODUCT_SPEC_TEMPLATES).flat();
+    const keys = new Set(sections.flatMap(section=>section.fields.map(([key])=>key)));
+    if(!category||category==='Treadmills')keys.add('deckWidth');
+    return [...keys].filter(key=>!excludedSpecFields.has(key));
+  }
+  function searchSpecValue(item,key,values,comparison) {
+    if(key==='deckWidth') {
+      const width=specsOf(item).workoutAreaWidthIn;
+      if(typeof width==='number'&&width>0)return {value:width+' in',facet:width+' in',numbers:[width],fallback:false};
+      for(const field of ['runningSurface','beltDimensions']) {
+        const info=productSpecState(item,field,comparison[field]??values[field],comparison,values);
+        for(const part of measurementParts(info.value,'length',info.unit)) {
+          if(part.numbers.length!==2)continue;
+          const scaled=part.numbers.map((n,i)=>n*unitScale[part.units[i]][1]/25.4);
+          const index=part.axes.indexOf('W');
+          const width=index>=0?scaled[index]:part.axes.every(axis=>!axis)&&Math.min(...scaled)>=8&&Math.min(...scaled)<=35&&Math.max(...scaled)>1.4*Math.min(...scaled)?Math.min(...scaled):null;
+          if(width!=null){const value=Number(width.toFixed(2))+' in';return {value,facet:value,numbers:[width],fallback:!!info.fallback};}
+        }
+      }
+      return null;
+    }
+    let raw=comparison[key]??values[key];
+    if(key==='inclineType' && isMissing(raw)) {
+      const motion=String(comparison.inclineStrideMotion||'');
+      if(/\bincline\b/i.test(motion))raw=motion;
+    }
+    if(/^(?:n\/?a|not applicable|unavailable|not provided|unknown|[-—])$/i.test(String(raw??'').trim()))raw=null;
+    const info=productSpecState(item,key,raw,comparison,values);
+    const value=String(info.value??'').trim();
+    if(!value||/^(?:n\/?a|not applicable|unavailable|not provided|unknown|[-—])$/i.test(value))return null;
+    const kind=filterKinds[key];
+    const defaultUnit=info.unit||(key==='maxUserWeightLb'&&!info.fallback?'lb':null);
+    const numbers=kind?measurementParts(value,kind,defaultUnit).filter(p=>p.numbers.length===1)
+      .map(p=>p.numbers[0]*unitScale[p.units[0]][1]/(kind==='weight'?.45359237:25.4)):[];
+    let facet=value;
+    if(key==='wifi') {
+      if(/^(?:no\b|false\b|0$|not supported|without wi.?fi)/i.test(value))facet='No';
+      else if(/^(?:yes\b|true\b|1$|wi.?fi\b|2\.4\s*ghz\b|5\s*ghz\b)/i.test(value))facet='Yes';
+      else return null;
+    }
+    if(key==='inclineType') {
+      if(/\bmanual\b/i.test(value)&&!/\b(?:auto(?:matic)?|motorized|electric)\b/i.test(value))facet='Manual';
+      else if(/\b(?:auto(?:matic)?|motorized|electric)\b/i.test(value)&&!/\bmanual\b/i.test(value))facet='Automatic';
+      else if(/^(?:none|no|n)\b|\bfixed\b/i.test(value))facet='Fixed / none';
+      else return null;
+    }
+    const shown=kind&&numbers.length?formatMeasurement(value,kind,defaultUnit,null):value;
+    return {value:key==='wifi'||key==='inclineType'?facet:shown,facet,numbers,fallback:!!info.fallback};
+  }
+  function specIndex() {
+    if(ss.cache?.items===state.items && ss.cache.category===ss.category && ss.cache.source===ss.source)return ss.cache;
+    const fields=specFields(ss.category), facetCounts=new Map(fields.map(key=>[key,new Map()]));
+    const entries=state.items.filter(item=>(!ss.category||item.category===ss.category)&&(ss.source==='all'||(ss.source==='off-sunny-web')===isOffSunny(item))).map(item=>{
+      const values=item.specDetails?.values||{}, comparison=dialogSpecs(item), specs=new Map();
+      for(const key of specFields(item.category)) {
+        const counts=facetCounts.get(key);
+        if(!counts)continue;
+        const spec=searchSpecValue(item,key,values,comparison);
+        if(!spec)continue;
+        specs.set(key,spec);
+        if(!spec.facet || spec.facet.length>68 || (filterKinds[key] && !spec.numbers.length))continue;
+        const label=norm(spec.facet);
+        const entry=counts.get(label)||{value:spec.facet,count:0};
+        entry.count++;
+        counts.set(label,entry);
+      }
+      return {item,specs};
+    });
+    return ss.cache={items:state.items,category:ss.category,source:ss.source,entries,facetCounts};
+  }
+  const specWords = value => String(value).toLowerCase().match(/[a-z0-9]+/g)||[];
+  const opLabels = {eq:'Exactly',min:'At least',max:'At most'};
+  const numericFilterLabel = (key,n,unit,op) => filterLabels.get(key)+' · '+opLabels[op]+' '+n+' '+unit;
+  function getSpecSuggestions(query) {
+    if(!query)return [];
+    const {facetCounts}=specIndex();
+    const clean=query.toLowerCase().replace(/wi[\s-]fi/g,'wifi').replace(/≥|>=/g,'at least ').replace(/≤|<=/g,'at most ');
+    const measure=clean.match(/(\d+(?:\.\d+)?)\s*(kg\b|kgs\b|lbs?\b|pounds?\b|cm\b|mm\b|in(?:ch(?:es)?)?\b|["″])?/i);
+    const requestedOp=/\bat least\b|\b(?:minimum|min)\s+\d/.test(clean)?'min':/\bat most\b|\b(?:maximum|max)\s+\d/.test(clean)?'max':'eq';
+    const subject=specWords(measure ? clean.replace(measure[0],' ').replace(/\bat (?:least|most)\b|\b(?:minimum|maximum|min|max|exactly)\b/g,'') : clean);
+    const ranking=[];
+    for(const [key,facets] of facetCounts) {
+      if(!facets.size&&key!=='deckWidth'&&!filterKinds[key])continue;
+      const labels=specWords(filterLabels.get(key)+' '+(filterTerms[key]||''));
+      const matchesToken=(token,words)=>words.some(word=>word.startsWith(token));
+      const fieldHits=subject.filter(token=>matchesToken(token,labels)).length;
+      const kind=filterKinds[key];
+      const priority=(key==='deckWidth'&&subject.includes('deck')&&!subject.includes('height'))?12:0;
+      if(measure && kind && subject.length && fieldHits===subject.length) {
+        const unit=measure[2]?measurementUnit(measure[2]):kind==='weight'?'lb':'in';
+        if(!unit||unitScale[unit][0]!==kind)continue;
+        const n=Number(measure[1]), scale=kind==='weight'?.45359237:25.4;
+        for(const op of [requestedOp,...Object.keys(opLabels).filter(op=>op!==requestedOp)]) {
+          ranking.push({key,number:n*unitScale[unit][1]/scale,op,label:numericFilterLabel(key,n,unit,op),score:30+priority+fieldHits*5+(op===requestedOp?3:0)});
+        }
+        continue;
+      }
+      for(const {value,count} of facets.values()) {
+        const words=specWords(value);
+        const q=specWords(clean).filter(word=>!['has','with','a'].includes(word));
+        const valueHits=q.filter(word=>matchesToken(word,words)).length;
+        if(!q.length||!q.every(word=>matchesToken(word,[...labels,...words])))continue;
+        const affirmative=(key==='wifi'&&value==='Yes')||(key==='inclineType'&&value==='Manual');
+        ranking.push({key,value,label:filterLabels.get(key)+' · '+value,score:Math.min(5,q.filter(token=>matchesToken(token,labels)).length)*4+valueHits*5+(affirmative?2:0)+Math.min(count,99)/200});
+      }
+    }
+    return ranking.sort((a,b)=>b.score-a.score||a.label.localeCompare(b.label))
+      .filter(option=>!ss.filters.some(filter=>filter.label===option.label)).slice(0,8);
+  }
+  function matchesSpec(entry,filter) {
+    const value=entry.specs.get(filter.key);
+    if(!value)return false;
+    if(filter.number==null)return norm(value.facet)===norm(filter.value);
+    // Compare normalized reported measurements, allowing a small tolerance for rounded equivalent units on exact matches.
+    const epsilon=filter.op==='eq'?.05:.000001;
+    return value.numbers.some(n=>filter.op==='min'?n>=filter.number-epsilon:filter.op==='max'?n<=filter.number+epsilon:Math.abs(n-filter.number)<=epsilon);
+  }
+  function specResults(filters) {
+    const {entries}=specIndex();
+    return entries.filter(entry=>filters.every(filter=>matchesSpec(entry,filter))).sort((a,b)=>{
+      const x=a.item[ss.sort],y=b.item[ss.sort];
+      if(x==null||y==null)return x==null?(y==null?0:1):-1;
+      return ss.dir*(typeof x==='number'?x-y:String(x).localeCompare(String(y),undefined,{numeric:true}));
+    });
+  }
+  function matchColumns(filters) { return [...new Set(filters.map(f=>f.key))]; }
+  function renderSpecOptions(){
+    specOptions.hidden=!ss.suggestions.length;
+    specInput.setAttribute('aria-expanded',String(!specOptions.hidden));
+    if(!specOptions.hidden&&ss.index>=0)specInput.setAttribute('aria-activedescendant','spec-option-'+ss.index);
+    else specInput.removeAttribute('aria-activedescendant');
+    specOptions.innerHTML=ss.suggestions.map((opt,i)=>'<li id="spec-option-'+i+'" role="option" aria-selected="'+(i===ss.index)+'" data-spec-option="'+i+'">'+esc(opt.label)+'</li>').join('');
+  }
+  function renderSpecSearch(){
+    const category=$('#specCategory');
+    if(category.options.length===1) category.insertAdjacentHTML('beforeend',SITE_ORDER.map(name=>'<option>'+esc(name)+'</option>').join(''));
+    category.value=ss.category;
+    const value=specInput.value.trim();
+    ss.suggestions=getSpecSuggestions(value);
+    if(ss.index>=ss.suggestions.length)ss.index=-1;
+    renderSpecOptions();
+    const preview=value?ss.suggestions[Math.max(0,ss.index)]:null;
+    const active=preview?[...ss.filters,preview]:ss.filters;
+    const keys=matchColumns(active);
+    const shown=specResults(active);
+    const confirmedCount=preview?specResults(ss.filters).length:shown.length;
+    $('#specChips').innerHTML=ss.filters.map((filter,i)=>'<button type="button" class="btn" data-spec-remove="'+i+'" aria-label="Remove '+esc(filter.label)+'">'+esc(filter.label)+' ×</button>').join('');
+    $('#specSearchStatus').textContent=!state.loaded?'Loading products…':value&&!preview?'Choose a matching spec or refine your search.':shown.length+' matching product'+(shown.length===1?'':'s')+(preview?' · Previewing '+preview.label:'');
+    $('#specExport').disabled=!state.downloads||!ss.filters.length||!confirmedCount;
+    $('#specCompare').disabled=shown.filter(entry=>ss.selected.has(entry.item.id)).length<2;
+    const header=(key,label)=>'<th scope="col" aria-sort="'+(ss.sort===key?(ss.dir>0?'ascending':'descending'):'none')+'"><button type="button" data-spec-sort="'+key+'">'+label+'</button></th>';
+    const sortValue=ss.sort+':'+ss.dir;
+    if([...$('#specSort').options].some(opt=>opt.value===sortValue))$('#specSort').value=sortValue;
+    $('#specResultHead').innerHTML='<tr><th scope="col">Select</th>'+header('sku','Model / Item')+header('category','Category')+'<th scope="col">Image</th>'+header('price','Price')+keys.map(key=>'<th scope="col">'+esc(filterLabels.get(key))+'</th>').join('')+'<th scope="col">Product info</th></tr>';
+    $('#specResultRows').innerHTML=shown.map(({item,specs})=>{
+      const picture=imgSrc(item),guide=resourceFor(item);
+      const link=(url,label,className)=>/^https:\/\//i.test(url||'')?'<a class="'+className+'" href="'+esc(url)+'" target="_blank" rel="noopener">'+esc(label)+' ↗</a>':'';
+      const model=link(item.url,item.sku,'sku-product-link')||esc(item.sku);
+      return '<tr data-id="'+esc(item.id)+'" data-spec-result="'+esc(item.id)+'"><td class="ss-select"><input type="checkbox" data-spec-select="'+esc(item.id)+'" aria-label="Select '+esc(item.sku)+'"'+(ss.selected.has(item.id)?' checked':'')+'></td>'+
+        '<td class="ss-item" data-label="Model / Item"><strong>'+model+'</strong><br>'+esc(item.name)+'</td>'+
+        '<td data-label="Category">'+esc(item.category)+(isOffSunny(item)?'<small>Off Sunny web</small>':'')+'</td>'+
+        '<td class="ss-image" data-label="Image">'+(picture?'<img loading="lazy" src="'+esc(picture)+'" alt="'+esc(item.name)+'">':'Image unavailable')+'</td>'+
+        '<td data-label="Price">'+esc(money(item.price))+'</td>'+
+        keys.map(key=>'<td data-label="'+esc(filterLabels.get(key))+'">'+esc(specs.get(key)?.value??'—')+(specs.get(key)?.fallback?'<small>From ISV</small>':'')+'</td>').join('')+
+        '<td data-label="Product info"><div class="product-guides"><button type="button" class="product-spec-link" data-product-spec="'+esc(item.id)+'">Product Spec</button>'+link(guide?.url,'User manual','manual-link')+link(guide?.assemblyUrl,'Assembly guide','assembly-link')+'</div></td></tr>';
+    }).join('');
+    $('#specResultBox').hidden=!shown.length;
+  }
+  function confirmSpecOption(index){
+    const option=ss.suggestions[index];
+    if(!option)return;
+    ss.filters.push(option);
+    ss.selected.clear();
+    specInput.value='';
+    ss.index=-1;
+    renderSpecSearch();
+    specInput.focus();
+  }
+  $('#specSearchToggle').addEventListener('click',()=>setView(pr.view==='spec-search'?'catalog':'spec-search'));
+  specInput.addEventListener('input',()=>{ss.index=-1;renderSpecSearch();});
+  specInput.addEventListener('focus',renderSpecOptions);
+  specInput.addEventListener('keydown',e=>{
+    if(e.key==='Escape'){specOptions.hidden=true;specInput.setAttribute('aria-expanded','false');return;}
+    if(!ss.suggestions.length)return;
+    if(e.key==='Enter'){e.preventDefault();confirmSpecOption(Math.max(0,ss.index));}
+    if(e.key==='ArrowDown'||e.key==='ArrowUp'){
+      e.preventDefault();
+      ss.index=Math.max(0,Math.min(ss.suggestions.length-1,ss.index+(e.key==='ArrowDown'?1:-1)));
+      renderSpecSearch();
+      $('#spec-option-'+ss.index)?.scrollIntoView({block:'nearest'});
+    }
+  });
+  specOptions.addEventListener('pointerdown',e=>{if(e.target.closest('[data-spec-option]'))e.preventDefault();});
+  specOptions.addEventListener('click',e=>{const opt=e.target.closest('[data-spec-option]');if(opt)confirmSpecOption(Number(opt.dataset.specOption));});
+  for(const [selector,key] of [['#specCategory','category'],['#specSource','source']]) {
+    $(selector).addEventListener('change',e=>{
+      ss[key]=e.target.value;
+      ss.index=-1;
+      if(key==='category'){ss.filters=[];specInput.value='';}
+      ss.selected.clear();
+      renderSpecSearch();
+    });
+  }
+  $('#specChips').addEventListener('click',e=>{
+    const chip=e.target.closest('[data-spec-remove]');
+    if(chip){ss.filters.splice(Number(chip.dataset.specRemove),1);ss.selected.clear();renderSpecSearch();specInput.focus();}
+  });
+  $('#specSort').addEventListener('change',e=>{const [key,dir]=e.target.value.split(':');ss.sort=key;ss.dir=Number(dir);renderSpecSearch();});
+  $('#specResultHead').addEventListener('click',e=>{const b=e.target.closest('[data-spec-sort]');if(b){const key=b.dataset.specSort;ss.dir=ss.sort===key?-ss.dir:1;ss.sort=key;renderSpecSearch();$('#specResultHead [data-spec-sort="'+key+'"]').focus();}});
+  $('#specResultRows').addEventListener('change',e=>{
+    const id=e.target.dataset.specSelect;
+    if(!id)return;
+    if(e.target.checked)ss.selected.add(id);else ss.selected.delete(id);
+    $('#specCompare').disabled=document.querySelectorAll('#specResultRows input:checked').length<2;
+  });
+  $('#specCompare').addEventListener('click',()=>{
+    const rows=[...document.querySelectorAll('#specResultRows input:checked')].map(box=>byId(box.dataset.specSelect));
+    if(rows.length<2)return;
+    queueTelemetry({type:'compare',value:1});
+    openProductSpec(rows[0],$('#specCompare'),rows);
+  });
+  // Minimal XLSX package with inline strings. Keeping it browser-side also supports the Artifact.
+  function specWorkbook(sheets) {
+    const xml = value => String(value??'').replace(/[\x00-\x08\x0b\x0c\x0e-\x1f\ufffe\uffff]/g,'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
+    const main='http://schemas.openxmlformats.org/spreadsheetml/2006/main';
+    const rel='http://schemas.openxmlformats.org/officeDocument/2006/relationships';
+    const relationships=body=>'<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">'+body+'</Relationships>';
+    const relation=(id,type,target)=>'<Relationship Id="rId'+id+'" Type="'+rel+'/'+type+'" Target="'+target+'"/>';
+    const contentType=(path,type)=>'<Override PartName="/xl/'+path+'" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.'+type+'+xml"/>';
+    const files={
+      '[Content_Types].xml':'<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/>'+contentType('workbook.xml','sheet.main')+sheets.map((_,i)=>contentType('worksheets/sheet'+(i+1)+'.xml','worksheet')).join('')+'</Types>',
+      '_rels/.rels':relationships(relation(1,'officeDocument','xl/workbook.xml')),
+      'xl/workbook.xml':'<workbook xmlns="'+main+'" xmlns:r="'+rel+'"><sheets>'+sheets.map(({name},i)=>'<sheet name="'+xml(name)+'" sheetId="'+(i+1)+'" r:id="rId'+(i+1)+'"/>').join('')+'</sheets></workbook>',
+      'xl/_rels/workbook.xml.rels':relationships(sheets.map((_,i)=>relation(i+1,'worksheet','worksheets/sheet'+(i+1)+'.xml')).join(''))
+    };
+    sheets.forEach(({rows},i)=>{
+      const cells=rows.map((row,r)=>'<row r="'+(r+1)+'">'+row.map(value=>typeof value==='number'&&Number.isFinite(value)?'<c><v>'+value+'</v></c>':'<c t="inlineStr"><is><t xml:space="preserve">'+xml(value)+'</t></is></c>').join('')+'</row>').join('');
+      const widths=rows[0].map((label,c)=>'<col min="'+(c+1)+'" max="'+(c+1)+'" width="'+(label==='Model / Item'?48:Math.max(18,Math.min(44,label.length+4)))+'" customWidth="1"/>').join('');
+      files['xl/worksheets/sheet'+(i+1)+'.xml']='<worksheet xmlns="'+main+'"><sheetViews><sheetView workbookViewId="0"><pane ySplit="1" topLeftCell="A2" activePane="bottomLeft" state="frozen"/></sheetView></sheetViews><cols>'+widths+'</cols><sheetData>'+cells+'</sheetData></worksheet>';
+    });
+    const encoder=new TextEncoder(), parts=[], directory=[];
+    let offset=0, directorySize=0;
+    for(const [path,content] of Object.entries(files)){
+      const name=encoder.encode(path), data=encoder.encode('<?xml version="1.0" encoding="UTF-8"?>'+content);
+      let crc=-1;
+      for(const byte of data){crc^=byte;for(let bit=0;bit<8;bit++)crc=(crc>>>1)^((crc&1)?0xedb88320:0);}
+      const local=new DataView(new ArrayBuffer(30)), central=new DataView(new ArrayBuffer(46));
+      local.setUint32(0,0x04034b50,true);local.setUint16(4,20,true);local.setUint16(12,33,true);
+      local.setUint32(14,~crc,true);local.setUint32(18,data.length,true);local.setUint32(22,data.length,true);local.setUint16(26,name.length,true);
+      central.setUint32(0,0x02014b50,true);central.setUint16(4,20,true);
+      new Uint8Array(central.buffer).set(new Uint8Array(local.buffer,4,26),6);
+      central.setUint32(42,offset,true);
+      parts.push(local.buffer,name,data);directory.push(central.buffer,name);
+      offset+=local.byteLength+name.length+data.length;directorySize+=central.byteLength+name.length;
+    }
+    const end=new DataView(new ArrayBuffer(22)), count=Object.keys(files).length;
+    end.setUint32(0,0x06054b50,true);end.setUint16(8,count,true);end.setUint16(10,count,true);
+    end.setUint32(12,directorySize,true);end.setUint32(16,offset,true);
+    return new Blob([...parts,...directory,end.buffer],{type:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'});
+  }
+  $('#specExport').addEventListener('click',async()=>{
+    const entries=specResults(ss.filters);
+    if(!state.downloads||!ss.filters.length||!entries.length)return;
+    const keys=matchColumns(ss.filters);
+    const rows=[['Model / Item','Category','Image','Price',...keys.map(key=>filterLabels.get(key)),'Product info']];
+    for(const {item,specs} of entries){
+      const picture=imgSrc(item);
+      rows.push([item.sku+' · '+item.name,item.category+(isOffSunny(item)?' · Off Sunny web':''),picture?new URL(picture,location.href).href:'Image unavailable',
+        item.price,...keys.map(key=>{const spec=specs.get(key);return spec?spec.value+(spec.fallback?' · From ISV':''):'—';}),
+        [item.url,resourceFor(item)?.url,resourceFor(item)?.assemblyUrl].filter(Boolean).join('\n')]);
+    }
+    const criteria=[['Spec Search','Confirmed criteria'],['Category',ss.category||'All categories'],['Catalog source',$('#specSource').selectedOptions[0].textContent],
+      ...ss.filters.map(filter=>[filterLabels.get(filter.key),filter.label.split(' · ').slice(1).join(' · ')])];
+    try{
+      await state.downloads.save({filename:'sunny-spec-search.xlsx',data:specWorkbook([{name:'Results',rows},{name:'Filters',rows:criteria}])});
+      toast('Exported '+entries.length+' products');
+    }catch(error){if(error?.code!=='declined')toast("Couldn't export the Excel file.");}
+  });
+
   // ---------- model practice ----------
   // Study cards and an endless multiple-choice quiz on Model number, item name and price, plus a progress dashboard.
   // Results belong to the signed-in user: the private Site keeps them in D1 through /api/practice, the
@@ -1517,7 +1881,7 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
   const PLABEL = Object.fromEntries(PFIELDS);
   const pr = { enabled: null, view: "catalog", cats: null, fields: new Set(["sku"]), missedOnly: false, mode: "setup", records: [], loaded: false, store: null, source: "", saveNote: "", session: null, q: null, study: null, range: "30", draw: null, confirmReset: false, me: { name: "", email: "" }, admin: false, accounts: null, account: null };
   try {
-    const v = new URLSearchParams(location.search).get("view"); if (v === "practice" || v === "progress" || v === "accounts" || v === "usage") pr.view = v;
+    const v = new URLSearchParams(location.search).get("view"); if (v === "practice" || v === "progress" || v === "accounts" || v === "usage" || v === "spec-search") pr.view = v;
     const p = JSON.parse(localStorage.getItem("spf.practice.v1") || "null");
     if (p) { if (Array.isArray(p.cats)) pr.cats = new Set(p.cats); const f = Array.isArray(p.fields) ? p.fields.filter((x) => PLABEL[x]) : []; if (f.length) pr.fields = new Set(f); pr.missedOnly = !!p.missedOnly; }
   } catch (e) {}
@@ -1696,6 +2060,7 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
     if (["practice","progress"].includes(v) && pr.enabled !== true) v = "catalog";
     if (v === pr.view) return;
     if (state.editMode) { toast("Finish bulk edit first"); return; }
+    if(pr.view==="spec-search"){$("#specResultHead").replaceChildren();$("#specResultRows").replaceChildren();}
     pr.view = v; pr.confirmReset = false; closeModals(); sug.hidden = true;
     try { const u = new URL(location.href); if (v === "catalog") u.searchParams.delete("view"); else u.searchParams.set("view", v); history.replaceState(null, "", u); } catch (e) {}
     render(); window.scrollTo({ top: 0 });
@@ -1711,7 +2076,13 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
 
     document.querySelectorAll("#views [data-view]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === pr.view)));
     $("#practiceView").hidden = pr.view !== "practice"; $("#progressView").hidden = pr.view !== "progress"; $("#accountsView").hidden = pr.view !== "accounts";
-    if (pr.view === "practice") {
+    $("#specSearchToggle").setAttribute("aria-pressed",String(pr.view === "spec-search"));
+    $("#specSearchView").hidden = pr.view !== "spec-search";
+    if (pr.view === "spec-search") {
+      $("#title").textContent = "Spec Search";
+      $("#sub").textContent = "Choose a category and add specifications to narrow the results.";
+      renderSpecSearch();
+    } else if (pr.view === "practice") {
       $("#title").textContent = "Model Practice";
       $("#sub").textContent = "Learn the line-up with study cards and a quiz. Items you miss come back more often until you get them right 75% of the time.";
       $("#practiceView").innerHTML = !state.loaded ? `<div class="state"><h2>Loading products</h2></div>` : pr.mode === "study" ? studyHtml() : pr.mode === "quiz" && pr.q ? quizHtml() : pr.mode === "summary" ? summaryHtml() : setupHtml();

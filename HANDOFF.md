@@ -2,6 +2,15 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-13: Codex — Add live Spec Search and Excel export
+
+- Changes: Added the third sidebar control, Spec Search. Search is live across all 11 category templates with optional catalog-source scope, keyboard suggestions, AND filters, matching values, labeled ISV fallbacks and side-by-side Product Spec comparison. Category changes clear the active filters.
+- Excel: The browser exports confirmed matches in the displayed sort order, with Results and Filters tabs. Image and resource URLs are included as text. Verified an exported workbook with openpyxl.
+- Build: Artifact JavaScript whitespace is compacted with the esbuild version already present in the lockfile to stay under the existing 300,000-character test limit. The reference document version is unchanged.
+- Verification: Added focused Chrome coverage for deck width, manual incline, Wi-Fi, unit equivalence, source switching, comparison, phone layout and confirmed-only export. Desktop and phone preview flows passed.
+- Public Site: publication verification follows. Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-13: Codex — Publish global catalog search
 
 - Public Site: version 64 from `c2e32e37f6368b329bbedb72f9607d7f1d68030e`, deployment `appgdep_6af7a98710e481918bc423d7b06ed5a6`. Public access retained.
