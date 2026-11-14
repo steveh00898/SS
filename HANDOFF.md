@@ -2,6 +2,14 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-13: Codex — Align Spec Search with the Catalog layout
+
+- Changes: Catalog and Spec Search controls now have a consistent gap. Category and the spec input sit on one row. Spec Search covers all product sources with no separate source dropdown.
+- Results: Spec Search uses the existing catalog table, column order, image viewer, resource links, sorting and comparison. Matching values are shown inside Product info. Excel follows the shared row and column order and retains confirmed search criteria.
+- Verification: Focused Chrome test passed for both widths, shared table, combined filters, Compare and Excel export. Standard desktop and phone previews passed.
+- Public Site: publication verification follows. Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-13: Codex — Publish Spec Search and Excel export
 
 - Public Site: version 65 from `5532ffd2f8bb10a056420c39d54e68ff72cfa070`, deployment `appgdep_6af7b834ab108191b747c6d495daae99`. Public access retained.
