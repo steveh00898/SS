@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-13: Codex — Publish global catalog search
+
+- Public Site: version 64 from `c2e32e37f6368b329bbedb72f9607d7f1d68030e`, deployment `appgdep_6af7a98710e481918bc423d7b06ed5a6`. Public access retained.
+- Verification: all 40 suites passed, with desktop and phone previews. Production Chrome confirmed All products by default, SF-A026006 in suggestions and results from Current website / Treadmills, and restoration of the 23 treadmill rows on clear.
+- Claude Artifact: awaiting Claude Code sync.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-13: Codex — Default to All products and search across the catalog
 
 - All products is the default for the base URL. Explicit source URLs still work. Search suggestions and results use every loaded product across sources and categories. Clearing search restores the browsing filters; confirming Compare still shows all selected products.
