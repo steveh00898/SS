@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-13: Codex — Default to All products and search across the catalog
+
+- All products is the default for the base URL. Explicit source URLs still work. Search suggestions and results use every loaded product across sources and categories. Clearing search restores the browsing filters; confirming Compare still shows all selected products.
+- Regression coverage finds SF-A026006 from Current website / Treadmills and restores that view on clear. The Current website ISV test now explicitly selects its intended source. Both Site and Claude runtime paths are retained.
+- Public Site: publication verification follows. Claude Artifact: awaiting Claude Code sync.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-13: Claude Code — git pull: Codex spec gap fill (Site 63); Artifact version 33
 - Received: b4f0af1 and 07925d7 (Codex, trailers and HANDOFF entries present): 894 blank Product Spec fields filled on 178 products from the Master SPEC SHEET folder with cell evidence (audit data/specifications/master-spec-gaps-20261113.json); catalog table reads the source-backed max user weight when the numeric column is blank; Site Worker blank-only backfill. Test change in v2-spec-details only accounts for the backfilled fields. Both runtime paths intact.
 - Tests: all 40 tests/*.spec.cjs passed with installed Chrome through a local preload; npm run screenshots passed.

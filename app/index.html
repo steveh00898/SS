@@ -522,7 +522,7 @@ body.spec-view table.ptable{min-width:0}
     <div class="catalog-source catalog-only">
       <span id="catalogSourceLabel" hidden>Catalog source</span>
       <div class="compact-picker" id="sourcePicker">
-        <button type="button" class="picker-trigger" id="catalogSource" aria-expanded="false" aria-controls="sourceOptions" aria-labelledby="catalogSourceLabel catalogSourceValue"><span id="catalogSourceValue">Current website</span><span aria-hidden="true">›</span></button>
+        <button type="button" class="picker-trigger" id="catalogSource" aria-expanded="false" aria-controls="sourceOptions" aria-labelledby="catalogSourceLabel catalogSourceValue"><span id="catalogSourceValue">All products</span><span aria-hidden="true">›</span></button>
         <nav class="views" id="sourceOptions" aria-label="Catalog source">
           <button type="button" data-source="current">Current website</button>
           <button type="button" data-source="off-sunny-web">Off Sunny web</button>
@@ -661,7 +661,7 @@ body.spec-view table.ptable{min-width:0}
   const ICON_EDIT = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20h4L19 9l-4-4L4 16z"/></svg>';
   const ICON_DEL = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></svg>';
 
-  const state = { items: [], source: "current", loaded: false, cat: "All", sort: { key: "price", dir: 1 }, q: "", canWrite: false, db: null, assets: null, downloads: null, editMode: false, drafts: {}, rowErr: {}, saving: false, compareMode: false, compareConfirmed: false, compareSelected: new Set(), compareActive: new Set() };
+  const state = { items: [], source: "all", loaded: false, cat: "All", sort: { key: "price", dir: 1 }, q: "", canWrite: false, db: null, assets: null, downloads: null, editMode: false, drafts: {}, rowErr: {}, saving: false, compareMode: false, compareConfirmed: false, compareSelected: new Set(), compareActive: new Set() };
   try { const t = new URLSearchParams(location.search).get('category')||localStorage.getItem("spf.cat"); if (t) state.cat = t; } catch (e) {}
 
   try{const source=new URLSearchParams(location.search).get('source');if(['current','off-sunny-web','all'].includes(source))state.source=source;}catch{}
@@ -1129,9 +1129,11 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
   }
   function visible() {
     const { key, dir } = state.sort;
-    return catalogItems()
-      .filter((it) => state.cat === "All" || it.category === state.cat)
-      .filter((it) => state.compareMode && state.compareConfirmed ? state.compareActive.has(it.id) : matches(it, state.q))
+    let candidates;
+    if(state.compareMode && state.compareConfirmed) candidates = state.items.filter(it => state.compareActive.has(it.id));
+    else if(state.q) candidates = state.items.filter(it => matches(it, state.q));
+    else candidates = catalogItems().filter(it => state.cat === "All" || it.category === state.cat);
+    return candidates
       .sort((a, b) => {
         if(key.startsWith('tier:')){const field=key.slice(5),rank=item=>({high:0,low:2}[specTier(field,item)]??1);return (rank(a)-rank(b))*dir||a.sku.localeCompare(b.sku,undefined,{numeric:true});}
         let x = a[key], y = b[key];
@@ -1152,7 +1154,7 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
   function render() {
     renderTabs();
     const showSpecs=true;document.body.classList.toggle('spec-view',showSpecs);$('#specLegend').hidden=!showSpecs;document.querySelectorAll('[data-spec-head]').forEach(th=>th.hidden=!showSpecs);
-    $('#title').textContent = state.cat === "All" ? "Product Catalog" : state.cat;
+    $('#title').textContent = state.compareMode && state.compareConfirmed ? "Product comparison" : state.q ? "Search results" : state.cat === "All" ? "Product Catalog" : state.cat;
     document.querySelectorAll("th[data-key]").forEach((th) => th.setAttribute("aria-sort", th.dataset.key === state.sort.key ? (state.sort.dir > 0 ? "ascending" : "descending") : "none"));
     if(!showSpecs){state.compareMode=false;state.compareConfirmed=false;state.compareSelected.clear();}
     $('#compareToggle').checked=state.compareMode;
@@ -1164,7 +1166,7 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
     $('#compareStatus').textContent=state.compareSelected.size+' selected'+(state.compareConfirmed?' · Comparing selected items':'');
     const list = visible();
     const total = catalogItems().filter((it) => state.cat === "All" || it.category === state.cat).length;
-    $("#sub").textContent = !state.loaded ? "Loading the catalog…" : state.q ? `${list.length} of ${total} items match “${state.q}”` : `${total} item${total === 1 ? "" : "s"}${state.cat === "All" ? " across " + categories().length + " categor" + (categories().length === 1 ? "y" : "ies") : ""}`;
+    $("#sub").textContent = !state.loaded ? "Loading the catalog…" : state.q ? `${list.length} of ${state.items.length} items match “${state.q}”` : `${total} item${total === 1 ? "" : "s"}${state.cat === "All" ? " across " + categories().length + " categor" + (categories().length === 1 ? "y" : "ies") : ""}`;
     if(state.compareMode&&state.compareConfirmed)$('#sub').textContent=list.length+' items in comparison';
     const keep = captureFocus();
     document.body.classList.toggle("editing", state.editMode);
@@ -1183,7 +1185,7 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
     const st = $("#state");
     if (!state.loaded) { st.hidden = false; st.innerHTML = `<h2>Loading products</h2><p>Fetching the shared catalog.</p>`; }
     else if (!state.items.length) { st.hidden = false; st.innerHTML = `<h2>No products yet</h2><p>The catalog fills in with each item's category, Model number, picture, price and product link. Add the first one to get started.</p>${state.canWrite ? '<button class="btn primary" type="button" data-add>+ Add New Item</button>' : ""}`; }
-    else if (!list.length) { st.hidden = false; st.innerHTML = `<h2>No matches</h2><p>Nothing matches “${esc(state.q)}”${state.cat !== "All" ? " in " + esc(state.cat) : ""}. Try part of the model number, like 724081, or a word from the name.</p>`; }
+    else if (!list.length) { st.hidden = false; st.innerHTML = `<h2>No matches</h2><p>Nothing matches “${esc(state.q)}” in the catalog. Try part of the model number, like 724081, or a word from the name.</p>`; }
     else st.hidden = true;
     restoreFocus(keep); renderBulkBar(); applyColumnLayout(); renderPractice();
   }
@@ -1325,7 +1327,7 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
   function renderSuggest() {
     const v = q.value.trim(); $("#qclear").hidden = !q.value;
     if (!v) { sug.hidden = true; q.setAttribute("aria-expanded", "false"); return; }
-    sugList = catalogItems().filter((it) => matches(it, v)).slice(0, 8);
+    sugList = state.items.filter((it) => matches(it, v)).slice(0, 8);
     sug.innerHTML = sugList.length ? sugList.map((it, i) => {
       const src = imgSrc(it);
       return `<li role="option" id="opt-${i}" data-i="${i}" aria-selected="${i === sugIdx}">${src ? `<img src="${esc(src)}" alt="">` : '<span class="noimg"></span>'}<div style="min-width:0"><div class="nm">${hl(it.name, v)}</div><div class="sk">${hl(it.sku, v)} · ${esc(it.category)}</div></div><span class="pr">${money(it.price)}</span></li>`;
@@ -1335,12 +1337,11 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
   }
   function choose(it) {
     q.value = it.sku; state.q = it.sku; sugIdx = -1; sug.hidden = true;
-    if (state.cat !== "All" && state.cat !== it.category) state.cat = "All";
     render(); $("#qclear").hidden = false;
     const row = document.querySelector(`tr[data-id="${CSS.escape(it.id)}"]`);
     if (row) { row.scrollIntoView({ block: "center", behavior: "smooth" }); row.classList.add("flash"); setTimeout(() => row.classList.remove("flash"), 1400); }
   }
-  q.addEventListener("input", () => { if(q.value.trim())beginSearchTiming(); state.q = q.value.trim(); sugIdx = -1; renderSuggest(); render(); });
+  q.addEventListener("input", () => { if(q.value.trim())beginSearchTiming(); state.q = q.value.trim(); state.compareConfirmed = false; sugIdx = -1; renderSuggest(); render(); });
   q.addEventListener("focus", renderSuggest);
   q.addEventListener("keydown", (e) => {
     if (sug.hidden && e.key !== "Escape") return;
