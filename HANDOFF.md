@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-16: Codex — Publish expanded Spec Search
+
+- Public Site: version 77 from `b08a73fec978f90cf5624b8fb3f379d26b54e68e`, deployment `appgdep_6afb98c7b0f48191a4e0bffefe105bde`.
+- Verification: All 41 test suites passed. Chrome verified shipping suggestions in both sources, stable table rows while typing, and 38 treadmill matches at 26 in width ±10%.
+- Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-16: Codex — Expand Spec Search titles and dimensions
 
 - Changes: Find a field searches the displayed Product Spec and ISV headings and shows all matches. Mapped ISV fields use reconciled values, and ISV-only fields remain labeled ISV when switching sources. Dimensional fields accept optional Length, Width and Height values with shared units and tolerance.
