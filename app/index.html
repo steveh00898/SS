@@ -1688,7 +1688,9 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
     const entries=state.items.filter(item=>!ss.category||item.category===ss.category).map(item=>({
       item,comparison:dialogSpecs(item),values:item.specDetails?.values||{},specs:new Map()
     }));
-    return ss.cache={items:state.items,category:ss.category,entries};
+    const categories=new Set(entries.map(({item})=>item.category));
+    const isvFields=new Set([...categories].flatMap(category=>Object.keys(isvSpecMap({category}))));
+    return ss.cache={items:state.items,category:ss.category,entries,isvFields};
   }
   function indexedSpec(entry,field){
     const id=field.key;
@@ -1698,18 +1700,19 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
   function getSpecSuggestions(query){
     const subject=specWordList(query.replace(/\d+(?:\.\d+)?(?:\s*[×x*]\s*\d+(?:\.\d+)?)*(?:\s*(?:lbs?\b|kg\b|cm\b|mm\b|in(?:ch(?:es)?)?\b|ft\b|["″]))?/gi,' '));
     if(!subject.length)return [];
+    const terms=subject.filter(word=>!['yes','no','with','has','at','least','most','exactly'].includes(word));
+    if(!terms.length)return [];
     // Connectivity searches never surface unrelated fields with connectivity in their values.
     const connectivity=subject.find(word=>word.length>=3&&('bluetooth'.startsWith(word)||'wifi'.startsWith(word)));
     const keys=ss.category?[...(categoryFields.get(ss.category)||[])]:[...filterLabels.keys()];
     const candidates=[];
-    const items=specIndex().entries;
+    const isvFields=ss.source==='isv'?specIndex().isvFields:null;
     for(const key of keys){
       if(excludedSpecFields.has(key)||(connectivity&&key!==('wifi'.startsWith(connectivity)?'wifi':'bluetooth')))continue;
       const label=filterLabels.get(key);
       const words=specWordList(label+' '+(filterTerms[key]||''));
-      const terms=subject.filter(word=>!['yes','no','with','has','at','least','most','exactly'].includes(word));
-      if(!terms.length||!terms.every(word=>words.some(w=>w.startsWith(word))))continue;
-      if(ss.source==='isv'&&key!=='deckWidth'&&!items.some(({item})=>isvSpecMap(item)[key]))continue;
+      if(!terms.every(word=>words.some(w=>w.startsWith(word))))continue;
+      if(isvFields&&key!=='deckWidth'&&!isvFields.has(key))continue;
       const primary=(key==='deckWidth'&&terms.includes('deck')&&!terms.includes('height'))||(key==='inclineType'&&terms.join(' ')==='incline');
       candidates.push({key,source:ss.source,label,rank:primary?0:1});
     }
@@ -1751,13 +1754,16 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
     else specInput.removeAttribute('aria-activedescendant');
     specOptions.innerHTML=ss.suggestions.map((opt,i)=>'<li id="spec-option-'+i+'" role="option" aria-selected="'+(i===ss.index)+'" data-spec-option="'+i+'">'+esc(opt.label)+'</li>').join('');
   }
+  function renderSpecSuggestions(){
+    ss.suggestions=getSpecSuggestions(specInput.value.trim());
+    if(ss.index>=ss.suggestions.length)ss.index=-1;
+    renderSpecOptions();
+  }
   function renderSpecSearch(){
     const category=$('#specCategory');
     if(category.options.length===1)category.insertAdjacentHTML('beforeend',SITE_ORDER.map(name=>'<option>'+esc(name)+'</option>').join(''));
     category.value=ss.category;
-    ss.suggestions=getSpecSuggestions(specInput.value.trim());
-    if(ss.index>=ss.suggestions.length)ss.index=-1;
-    renderSpecOptions();
+    renderSpecSuggestions();
     const active=ss.draft?[...ss.filters,ss.draft]:ss.filters;
     ss.keys=matchColumns(active);
     const shown=specResults(active);
@@ -1827,7 +1833,13 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
     $('#specAddAnswer').disabled=!matches.length;
   }
   $('#specSearchToggle').addEventListener('click',()=>setView(pr.view==='spec-search'?'catalog':'spec-search'));
-  specInput.addEventListener('input',()=>{closeSpecField();ss.index=-1;updateSpecFilters();});
+  specInput.addEventListener('input',()=>{
+    const hadDraft=!!ss.draft;
+    closeSpecField();
+    ss.index=-1;
+    if(hadDraft)updateSpecFilters();
+    else renderSpecSuggestions();
+  });
   specInput.addEventListener('focus',renderSpecOptions);
   specInput.addEventListener('keydown',e=>{
     if(e.key==='Escape'){specOptions.hidden=true;specInput.setAttribute('aria-expanded','false');return;}

@@ -2,6 +2,14 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-16: Codex — Make Find a field typing responsive
+
+- Changes: Refresh suggestions independently of the results table, and reuse the category's ISV field lookup. Canceling a numeric preview still restores the committed results.
+- Files: `app/index.html`, `tests/spec-search.spec.cjs`.
+- Verification: Chrome with 889 products measured median synchronous input processing of 0.3 ms for Product Spec and 0.4 ms for ISV, down from 1,233.9 ms and 1,172.7 ms. The Spec Search regression and screenshots passed. Full suite and publication results follow.
+- Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-16: Codex — Publish reversed sidebar colors
 
 - Public Site: version 75 from `f23bee70d0b5eef83278e008d4c020c559eebc80`, deployment `appgdep_6afb8af200508191abee0c6957011015`.
