@@ -82,6 +82,34 @@ const {chromium}=require('playwright');
   assert.equal(await page.locator('#rows').isVisible(),true);
   assert(await sameRow());
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+  // Check the reported products and preserve the existing workbook value when one is present.
+  const models=['SF-T724064','SF-T725880','SF-T723007','SF-T7515'];
+  items.splice(0,items.length,...[
+   ...require('../data/treadmills.json'),...require('../data/off-sunny-web/items.json')
+  ].filter(item=>models.includes(item.sku)));
+  await page.setViewportSize({width:1440,height:900});
+  await page.goto('https://spec.test/?view=spec-search');
+  await query.fill('Bluetooth');
+  const bluetooth=page.locator('#specOptions li').filter({hasText:/Bluetooth compatible · Yes/i});
+  await bluetooth.click();
+  const matches=await resultIds();
+  assert(matches.includes('sf-t724064'));
+  assert(matches.includes('off-sunny-sf-t725880'));
+  const row=page.locator('#rows tr[data-id="sf-t724064"]');
+  await row.locator('.isv-link').click();
+  assert.match(await page.locator('#isvBody [data-isv-column="CI"] td.isv-value').innerText(),/^Yes\s*From Product Spec$/);
+  await page.locator('#closeISV').click();
+  await page.locator('#compareToggle').check();
+  for(const id of matches)await page.locator('[data-compare="'+id+'"]').check();
+  await page.locator('#compareConfirm').click();
+  const connectivity=page.locator('#isvBody [role=row]').filter({has:page.getByRole('rowheader',{name:'Bluetooth Connectivity',exact:true})});
+  await row.locator('.isv-link').click();
+  assert.equal(await connectivity.getByText('From Product Spec',{exact:true}).count(),2);
+  assert.match(await page.locator('#isvBody').innerText(),/Spec Search matches/);
+  await page.locator('#closeISV').click();
+  await row.locator('[data-product-spec]').click();
+  assert.match(await page.locator('#productSpecBody').innerText(),/Spec Search matches/);
+  await page.locator('#closeProductSpec').click();
  }finally{await browser.close();}
  console.log('PASS: category suggestions, live numeric and text matching, combined filters, shared Catalog table, compare, mobile layout and confirmed-only Excel export.');
 })().catch(e=>{console.error(e);process.exitCode=1;});

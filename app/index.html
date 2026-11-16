@@ -983,10 +983,18 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
   function booleanValue(value){const text=String(value??'').trim().toLowerCase();if(/^(no|n|false|none|not\b)/.test(text))return'no';return /[a-z]/i.test(text)?'yes':null;}
   function isValidISVValue(key,value,map){if(isMissing(value))return false;const text=String(value).trim();if(/^(n\/?a|unknown|unavailable|-|\?)$/i.test(text)||/^\d{4}-\d{2}-\d{2}$/.test(text))return false;if(key==='plugType'&&!/(plug|adapter|none|no)/i.test(text))return false;if(map.mode==='first-number'&&/^\d+\s*-\s*$/.test(text))return false;if(map.mode==='boolean')return booleanValue(value)!==null;if(map.mode==='digits')return (text.match(/\d/g)||[]).length>=8;if(['numbers-contained','numbers-exact','max-number','first-number'].includes(map.mode))return numberList(value).length>0;return true;}
   function isEquivalentISV(productValue,isvValue,mode){if(isMissing(productValue)||isMissing(isvValue))return false;if(mode==='digits')return String(productValue).replace(/\D/g,'')===String(isvValue).replace(/\D/g,'');if(mode==='boolean')return booleanValue(productValue)===booleanValue(isvValue);if(mode==='material')return materialSet(productValue)===materialSet(isvValue);const productNumbers=numberList(productValue),isvNumbers=numberList(isvValue),near=(a,b)=>Math.abs(a-b)<=.05;if(mode==='max-number')return productNumbers.length>0&&isvNumbers.length>0&&near(Math.max(...productNumbers),Math.max(...isvNumbers));if(mode==='first-number')return productNumbers.length>0&&isvNumbers.length>0&&near(productNumbers[0],isvNumbers[0]);if(mode==='numbers-exact')return productNumbers.length===isvNumbers.length&&productNumbers.every((number,index)=>near(number,isvNumbers[index]));if(mode==='numbers-contained')return isvNumbers.length>0&&isvNumbers.every(number=>productNumbers.some(candidate=>near(number,candidate)));if(mode==='normalized')return booleanValue(productValue)===booleanValue(isvValue);return wordSet(productValue)===wordSet(isvValue);}
-  function productSpecState(it,key,productValue,comparison,values){
+  const missingSpec = value => /^(?:|n\/?a|not applicable|unavailable|not provided|unknown|[-—])$/i.test(String(value??"").trim());
+  function productSpecValue(key,comparison,values){
+    const raw=comparison[key]??values[key];
+    if(!missingSpec(raw))return raw;
+    if(key==="inclineType"&&/\bincline\b/i.test(comparison.inclineStrideMotion||""))return comparison.inclineStrideMotion;
+    return null;
+  }
+  function productSpecState(it,key,comparison,values){
+    const productValue=productSpecValue(key,comparison,values);
     const item=isvItemFor(it),map=isvSpecMap(it)[key],kind=measurementKind(key,false);
     const unit=declaredProductUnit(key,productValue);
-    if(!item||!map||isMissing(item.fields[map.column]))return {value:productValue,missing:isMissing(productValue),different:false,fallback:false,kind,unit,estimated:!unit&&estimatedSpecUnit(it,key,productValue)};
+    if(!item||!map||missingSpec(item.fields[map.column]))return {value:productValue,missing:isMissing(productValue),different:false,fallback:false,kind,unit,estimated:!unit&&estimatedSpecUnit(it,key,productValue)};
     const isvValue=item.fields[map.column],valid=isValidISVValue(key,isvValue,map);
     const pair=measurementPair(it,key,productValue,map.column,isvValue,comparison,values);
     if(isMissing(productValue)&&valid)return {value:isvValue,missing:false,different:false,fallback:true,column:map.column,kind:measurementKind(map.column,true)||kind,unit:pair?.isvUnit,estimated:!pair?.isvUnit&&estimatedISVUnit(it,map.column,isvValue,comparison,values)};
@@ -1032,18 +1040,23 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
   }
   function comparedISVSections(products){
     const data=products[0].isvData;
-    const columns=[...new Set(products.flatMap(({isv})=>Object.keys(isv?.fields||{})))].filter(key=>key!=='AV');
+    const columns=[...new Set(products.flatMap(isvDisplayColumns))];
     columns.sort((a,b)=>columnNumber(a)-columnNumber(b));
     return data.sections.map(section=>({title:section.title,color:section.color,fields:columns.filter(key=>{
       const number=columnNumber(key);
       return number>=columnNumber(section.start)&&number<=columnNumber(section.end);
     }).map(key=>[key,data.headers[key]||key])})).filter(section=>section.fields.length);
   }
+  function isvDisplayColumns({item,isv,comparison,values}){
+    if(!isv)return [];
+    const columns=Object.entries(isvSpecMap(item)).filter(([field])=>!missingSpec(productSpecValue(field,comparison,values))).map(([,map])=>map.column);
+    return [...new Set([...Object.keys(isv.fields),...columns])].filter(key=>key!=="AV").sort((a,b)=>columnNumber(a)-columnNumber(b));
+  }
   function isvComparisonState(item,key,value,comparison,values){
     const mappings=Object.entries(isvSpecMap(item)).filter(([,map])=>map.column===key);
     return {
       different:mappings.some(([field,map])=>{
-        const product=comparison[field]??values[field];
+        const product=productSpecValue(field,comparison,values);
         if(!isValidISVValue(field,value,map)||isMissing(product))return false;
         const pair=measurementPair(item,field,product,key,value,comparison,values);
         return !(pair?equivalentMeasurements(product,value,pair):isEquivalentISV(product,value,map.mode));
@@ -1051,19 +1064,29 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
       warning:mappings.length&&!isValidISVValue(mappings[0][0],value,mappings[0][1]),
     };
   }
+  function isvCell({item,isv,comparison,values},column){
+    const value=isv?.fields[column];
+    if(!missingSpec(value)){
+      const status=isvComparisonState(item,column,value,comparison,values);
+      const warning=status.warning?'<span class="isv-warning">Source value not used for Product Spec fallback</span>':"";
+      return {content:displayISVMeasurement(item,column,value,comparison,values)+warning,different:status.different,missing:false};
+    }
+    if(isv){
+      const match=Object.entries(isvSpecMap(item)).find(([key,map])=>map.column===column&&!missingSpec(productSpecValue(key,comparison,values)));
+      if(match){
+        const [key]=match,status=productSpecState(item,key,comparison,values);
+        return {content:esc(formatMeasurement(status.value,status.kind,status.unit,status.estimated))+'<span class="source-badge">From Product Spec</span>',different:false,missing:false};
+      }
+    }
+    return {content:"Unavailable",different:false,missing:true};
+  }
   function compareDetailsCell(product,key,isISV){
-    const {item,isv,comparison,values}=product;
+    const {item,comparison,values}=product;
     let content='Unavailable',different=false,missing=true;
     if(isISV){
-      const value=isv?.fields[key];
-      if(!isMissing(value)){
-        const status=isvComparisonState(item,key,value,comparison,values);
-        different=status.different;
-        missing=false;
-        content=displayISVMeasurement(item,key,value,comparison,values)+(status.warning?'<span class="isv-warning">Source value not used for Product Spec fallback</span>':'');
-      }
+      ({content,different,missing}=isvCell(product,key));
     }else{
-      const status=productSpecState(item,key,comparison[key]??values[key],comparison,values);
+      const status=productSpecState(item,key,comparison,values);
       different=status.different;
       missing=status.missing;
       if(!missing)content=esc(formatMeasurement(status.value,status.kind,status.unit,status.estimated))+(status.fallback?'<span class="source-badge">From ISV</span>':'');
@@ -1075,6 +1098,7 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
     const sections=(isISV?comparedISVSections(products):comparedSpecSections(products)).map((section,index)=>({...section,id:'compare-details-'+index}));
     const heading=items.map((item,index)=>'<div role="columnheader"'+(index===0?' class="spec-compare-first"':'')+'>'+esc(item.sku)+'<small>'+esc(item.name)+'</small></div>').join('');
     const row=(label,cells)=>'<div role="row" class="spec-compare-row"><div role="rowheader">'+esc(label)+'</div>'+cells+'</div>';
+    const matches=pr.view==='spec-search'&&ss.keys.length?'<section class="spec-section"><h3>Spec Search matches</h3>'+ss.keys.map(key=>row(filterLabels.get(key),products.map(({item})=>'<div role="cell" class="spec-compare-cell">'+specMatchText(item,key)+'</div>').join(''))).join('')+'</section>':'';
     const groups=sections.map(section=>'<section class="spec-section'+(isISV?' isv-section':'')+'" id="'+section.id+'"'+(section.color?' style="--isv-section-color:'+esc(section.color)+'"':'')+'><h3>'+esc(section.title)+'</h3>'+section.fields.map(([key,label])=>row(label,products.map(product=>compareDetailsCell(product,key,isISV)).join(''))).join('')+'</section>').join('');
     const sources=products.map(({item,isv,isvData})=>{
       const isvSource=isv?isvData.source.file+' · '+isvData.source.sheet+' · row '+isv.row:'';
@@ -1082,7 +1106,7 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
       const lines=isISV?[isvSource||'ISV unavailable']:[...(details?.sources?.length?details.sources:[item.sourceFile||'Existing catalog specifications']),...(details?.notes||[]),isvSource].filter(Boolean);
       return '<div role="cell" class="spec-compare-cell">'+lines.map(esc).join('<br>')+'</div>';
     }).join('');
-    body.innerHTML='<div role="table" aria-label="'+(isISV?'ISV':'Product Spec')+' comparison" class="spec-compare-grid" style="--compare-count:'+items.length+';--compare-min:'+Math.max(0,(items.length>3?items.length*100:0))+'px"><div class="spec-compare-sticky"><div role="row" class="spec-compare-row spec-compare-head"><div role="columnheader">Field</div>'+heading+'</div>'+dialogSectionNav(sections,'Comparison sections')+'</div><p class="pv-help">Yellow marks differences between a product’s own Product Spec and ISV.</p>'+groups+row('Sources',sources)+'</div>';
+    body.innerHTML='<div role="table" aria-label="'+(isISV?'ISV':'Product Spec')+' comparison" class="spec-compare-grid" style="--compare-count:'+items.length+';--compare-min:'+Math.max(0,(items.length>3?items.length*100:0))+'px"><div class="spec-compare-sticky"><div role="row" class="spec-compare-row spec-compare-head"><div role="columnheader">Field</div>'+heading+'</div>'+dialogSectionNav(sections,'Comparison sections')+'</div><p class="pv-help">Yellow marks differences between Product Spec and ISV. Source badges identify values drawn from the other view.</p>'+matches+groups+row('Sources',sources)+'</div>';
   }
   function openProductSpec(it,trigger){
     if(!it)return;closeModals();if(isvDialog.open)closeISV();specReturnFocus=trigger;specOldOverflow=document.body.style.overflow;
@@ -1095,7 +1119,7 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
     }
     const details=it.specDetails||{},values=details.values||{},comparison=dialogSpecs(it),isvItem=isvItemFor(it);$('#productSpecTitle').textContent='Product Spec · '+it.sku;$('#productSpecName').textContent=it.name;const template=PRODUCT_SPEC_TEMPLATES[it.category]||PRODUCT_SPEC_TEMPLATES.Essentials;
     const help=isvItem?'Yellow means both sources contain different values. Unavailable Product Spec values use a labeled ISV display fallback.':'Missing values are not inferred.';
-    const sectionEntries=template.map((section,index)=>{const id='product-spec-section-'+index;return{id,title:section.title,html:'<section class="spec-section" id="'+id+'"><h3>'+esc(section.title)+'</h3><table class="spec-detail-table"><tbody>'+section.fields.map(([key,label])=>{const state=productSpecState(it,key,comparison[key]??values[key],comparison,values),classes=[state.missing?'spec-unavailable':'',state.different?'spec-different':''].filter(Boolean).join(' '),column=state.column?' data-isv-column="'+esc(state.column)+'"':'';const content=state.missing?'Unavailable':esc(formatMeasurement(state.value,state.kind,state.unit,state.estimated))+(state.fallback?'<span class="source-badge">From ISV</span>':'');return '<tr data-spec-field="'+esc(key)+'"'+column+'><th scope="row">'+esc(label)+'</th><td class="'+classes+'">'+content+'</td></tr>';}).join('')+'</tbody></table></section>'};});const sections=sectionEntries.map(entry=>entry.html).join('');
+    const sectionEntries=template.map((section,index)=>{const id='product-spec-section-'+index;return{id,title:section.title,html:'<section class="spec-section" id="'+id+'"><h3>'+esc(section.title)+'</h3><table class="spec-detail-table"><tbody>'+section.fields.map(([key,label])=>{const state=productSpecState(it,key,comparison,values),classes=[state.missing?'spec-unavailable':'',state.different?'spec-different':''].filter(Boolean).join(' '),column=state.column?' data-isv-column="'+esc(state.column)+'"':'';const content=state.missing?'Unavailable':esc(formatMeasurement(state.value,state.kind,state.unit,state.estimated))+(state.fallback?'<span class="source-badge">From ISV</span>':'');return '<tr data-spec-field="'+esc(key)+'"'+column+'><th scope="row">'+esc(label)+'</th><td class="'+classes+'">'+content+'</td></tr>';}).join('')+'</tbody></table></section>'};});const sections=sectionEntries.map(entry=>entry.html).join('');
     const sources=details.sources?.length?[...details.sources]:[it.sourceFile||comparison.source||'Existing catalog specifications'];if(isvItem)sources.push(isvDataFor(it).source.file+' · '+isvDataFor(it).source.sheet+' · row '+isvItem.row);
     const body=$('#productSpecBody');body.innerHTML=dialogSectionNav(sectionEntries,'Product Spec categories')+'<p class="pv-help">'+esc(it.category)+' · '+(isOffSunny(it)?'off Sunny web':'Current website')+' · '+esc(help)+'</p>'+sections+(details.notes?.length?'<section class="spec-section"><h3>Source notes</h3><ul>'+details.notes.map(note=>'<li>'+esc(note)+'</li>').join('')+'</ul></section>':'')+'<section class="spec-section"><h3>Sources</h3><p>'+sources.map(source=>esc(source)).join('<br>')+'</p></section>';document.body.style.overflow='hidden';specDialog.showModal();body.scrollTop=0;setupDialogSectionNav(body);$('#closeProductSpec').focus();
   }
@@ -1110,8 +1134,9 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
       document.body.style.overflow='hidden';isvDialog.showModal();body.scrollTop=body.scrollLeft=0;setupDialogSectionNav(body);$('#closeISV').focus();return;
     }
     const item=it&&isvItemFor(it),data=it&&isvDataFor(it);if(!item)return;closeModals();if(specDialog.open)closeProductSpec();isvReturnFocus=trigger;isvOldOverflow=document.body.style.overflow;const details=it.specDetails||{},values=details.values||{},comparison=dialogSpecs(it);$('#isvTitle').textContent='ISV · '+it.sku;$('#isvName').textContent=it.name;
-const sectionEntries=data.sections.map(section=>{const start=columnNumber(section.start),end=columnNumber(section.end),fields=Object.entries(item.fields).filter(([column])=>{const number=columnNumber(column);return column!=='AV'&&number>=start&&number<=end;});if(!fields.length)return null;const rows=fields.map(([column,value])=>{const linked=Object.entries(isvSpecMap(it)).find(([,map])=>map.column===column),status=isvComparisonState(it,column,value,comparison,values),different=status.different,warning=status.warning?'<span class="isv-warning">Source value not used for Product Spec fallback</span>':'';return '<tr data-isv-column="'+esc(column)+'"'+(linked?' data-spec-field="'+esc(linked[0])+'"':'')+'><td class="isv-column">'+esc(column)+'</td><th scope="row">'+esc(data.headers[column]||column)+'</th><td class="isv-value '+(different?'isv-different':'')+'">'+displayISVMeasurement(it,column,value,comparison,values)+warning+'</td></tr>';}).join(''),id='isv-section-'+section.id;return{id,title:section.title,color:section.color,html:'<section class="spec-section isv-section" id="'+esc(id)+'" style="--isv-section-color:'+esc(section.color)+'"><h3>'+esc(section.title)+'</h3><table class="spec-detail-table isv-table"><tbody>'+rows+'</tbody></table></section>'};}).filter(Boolean),sections=sectionEntries.map(entry=>entry.html).join('');
-    const body=$('#isvBody');body.innerHTML=dialogSectionNav(sectionEntries,'ISV categories')+'<p class="pv-help">'+esc(data.source.file)+' · '+esc(data.source.sheet)+' · row '+item.row+' · columns '+esc(data.source.columns)+' · Blank cells are hidden.</p><div class="isv-legend"><span><i class="isv-swatch"></i>Different from Product Spec</span><span>Category colors follow the master workbook.</span></div>'+sections;document.body.style.overflow='hidden';isvDialog.showModal();body.scrollTop=0;setupDialogSectionNav(body);$('#closeISV').focus();
+    const record={item:it,isv:item,comparison,values};
+    const sectionEntries=data.sections.map(section=>{const start=columnNumber(section.start),end=columnNumber(section.end),fields=isvDisplayColumns(record).filter(column=>{const number=columnNumber(column);return column!=='AV'&&number>=start&&number<=end;});if(!fields.length)return null;const rows=fields.map(column=>{const linked=Object.entries(isvSpecMap(it)).find(([,map])=>map.column===column),status=isvCell(record,column),different=status.different;return '<tr data-isv-column="'+esc(column)+'"'+(linked?' data-spec-field="'+esc(linked[0])+'"':'')+'><td class="isv-column">'+esc(column)+'</td><th scope="row">'+esc(data.headers[column]||column)+'</th><td class="isv-value '+(different?'isv-different':'')+'">'+status.content+'</td></tr>';}).join(''),id='isv-section-'+section.id;return{id,title:section.title,color:section.color,html:'<section class="spec-section isv-section" id="'+esc(id)+'" style="--isv-section-color:'+esc(section.color)+'"><h3>'+esc(section.title)+'</h3><table class="spec-detail-table isv-table"><tbody>'+rows+'</tbody></table></section>'};}).filter(Boolean),sections=sectionEntries.map(entry=>entry.html).join('');
+    const body=$('#isvBody');body.innerHTML=dialogSectionNav(sectionEntries,'ISV categories')+'<p class="pv-help">'+esc(data.source.file)+' · '+esc(data.source.sheet)+' · row '+item.row+' · columns '+esc(data.source.columns)+' · Blank ISV cells may show a labeled Product Spec value.</p><div class="isv-legend"><span><i class="isv-swatch"></i>Different from Product Spec</span><span>Category colors follow the master workbook.</span></div>'+sections;document.body.style.overflow='hidden';isvDialog.showModal();body.scrollTop=0;setupDialogSectionNav(body);$('#closeISV').focus();
   }
   function restoreSpecFocus(){document.body.style.overflow=specOldOverflow;if(specReturnFocus?.isConnected)specReturnFocus.focus();specReturnFocus=null;}
   function closeProductSpec(){if(specDialog.open){specDialog.close();restoreSpecFocus();}}
@@ -1581,7 +1606,7 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
       const width=specsOf(item).workoutAreaWidthIn;
       if(typeof width==='number'&&width>0)return {value:width+' in',facet:width+' in',numbers:[width],fallback:false};
       for(const field of ['runningSurface','beltDimensions']) {
-        const info=productSpecState(item,field,comparison[field]??values[field],comparison,values);
+        const info=productSpecState(item,field,comparison,values);
         for(const part of measurementParts(info.value,'length',info.unit)) {
           if(part.numbers.length!==2)continue;
           const scaled=part.numbers.map((n,i)=>n*unitScale[part.units[i]][1]/25.4);
@@ -1592,15 +1617,9 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
       }
       return null;
     }
-    let raw=comparison[key]??values[key];
-    if(key==='inclineType' && isMissing(raw)) {
-      const motion=String(comparison.inclineStrideMotion||'');
-      if(/\bincline\b/i.test(motion))raw=motion;
-    }
-    if(/^(?:n\/?a|not applicable|unavailable|not provided|unknown|[-—])$/i.test(String(raw??'').trim()))raw=null;
-    const info=productSpecState(item,key,raw,comparison,values);
+    const info=productSpecState(item,key,comparison,values);
     const value=String(info.value??'').trim();
-    if(!value||/^(?:n\/?a|not applicable|unavailable|not provided|unknown|[-—])$/i.test(value))return null;
+    if(missingSpec(value))return null;
     const kind=filterKinds[key];
     const defaultUnit=info.unit||(key==='maxUserWeightLb'&&!info.fallback?'lb':null);
     const numbers=kind?measurementParts(value,kind,defaultUnit).filter(p=>p.numbers.length===1)
@@ -1717,6 +1736,10 @@ const sectionEntries=data.sections.map(section=>{const start=columnNumber(sectio
     $('#specChips').innerHTML=ss.filters.map((filter,i)=>'<button type="button" class="btn" data-spec-remove="'+i+'" aria-label="Remove '+esc(filter.label)+'">'+esc(filter.label)+' ×</button>').join('');
     $('#specSearchStatus').textContent=!state.loaded?'Loading products…':value&&!preview?'Choose a matching spec or refine your search.':shown.length+' matching product'+(shown.length===1?'':'s')+(preview?' · Previewing '+preview.label:'');
     $('#specExport').disabled=!state.downloads||!ss.filters.length||!confirmedCount;
+  }
+  function specMatchText(item,key){
+    const spec=ss.shown.get(item.id)?.specs.get(key);
+    return spec?esc(spec.value)+(spec.fallback?' · From ISV':' · From Product Spec'):'—';
   }
   function specMatchDetails(item) {
     const specs=ss.shown.get(item.id)?.specs;

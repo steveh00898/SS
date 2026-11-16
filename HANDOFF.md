@@ -2,6 +2,14 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-16: Codex — Align Spec Search with Product Spec and ISV comparisons
+
+- Changes: Unified Product Spec value resolution across search and detail views, including blank placeholders and incline fallbacks. Single and compared ISV views display mapped Product Spec values in blank ISV cells with a source badge. Existing ISV values and discrepancy highlights are retained. Both comparison views show active Spec Search match evidence.
+- Audit: Checked 27,378 mapped product fields across all 11 categories. Found 2,686 eligible blank ISV cells across 424 products and 77 fields. Catalog and workbook data were not edited.
+- Verification: Chrome regression covers the reported Bluetooth models in single-item ISV and in both comparisons. The smaller Claude Artifact build remains within its size limit.
+- Public Site: publication verification follows. Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-13: Codex — Publish the unified Spec Search layout
 
 - Public Site: version 66 from `8dca4dd373c2367930b8dab24903bb38ce6104ac`, deployment `appgdep_6af7bd9c16f0819198b085c7d20b8064`. Public access retained.
