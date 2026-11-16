@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-16: Codex — Publish the Compare controls update
+
+- Public Site: version 73 from `a196236a77d7d1ea2fd9802f2689cee446ab27d5`, deployment `appgdep_6afb7fcb54e081919710c666464044f4`. Public access retained.
+- Verification: All 41 test suites passed. Chrome verified the live selector, keyboard behavior and confirmation states in both desktop color schemes.
+- Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-16: Codex — Update the Compare selector and confirmation styles
 
 - Changes: The full Compare box is interactive and shows the app's accent tint when selected. Confirm comparison uses a subdued surface, then Update comparison uses the existing primary button style.
