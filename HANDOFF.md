@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-16: Codex — Publish reversed sidebar colors
+
+- Public Site: version 75 from `f23bee70d0b5eef83278e008d4c020c559eebc80`, deployment `appgdep_6afb8af200508191abee0c6957011015`.
+- Verification: All 41 test suites passed. Live Chrome verified matching primary colors and view switching on desktop and phone.
+- Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-16: Codex — Match the active sidebar selector to Update comparison
 
 - Changes: The active sidebar view uses the same foreground, background and border colors as Update comparison.
