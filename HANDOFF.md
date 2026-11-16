@@ -2,6 +2,14 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-16: Codex — Match the active sidebar selector to Update comparison
+
+- Changes: The active sidebar view uses the same foreground, background and border colors as Update comparison.
+- Files: `app/index.html`.
+- Verification: Full test and publication results follow.
+- Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-16: Codex — Publish the active sidebar highlight
 
 - Public Site: version 74 from `1faddaaf42486666e1452c4dac5b47c45b0178dc`, deployment `appgdep_6afb864d69b481918c0021d8af0a18e4`. Public access retained.
