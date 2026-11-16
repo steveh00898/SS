@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-16: Codex — Publish ISV and Spec Search consistency fix
+
+- Public Site: version 67 from `26ccf61d6f1e01e2f7233b4b20a9fe8778bada80`, deployment `appgdep_6afb367db30c8191a752093b3d9aa9e2`. Public access retained.
+- Verification: All 41 suites passed. Desktop and phone previews passed. Live Chrome reproduced the four-model Bluetooth search and confirmed both missing entries now show Yes with From Product Spec; the two populated workbook values were preserved.
+- Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-16: Codex — Align Spec Search with Product Spec and ISV comparisons
 
 - Changes: Unified Product Spec value resolution across search and detail views, including blank placeholders and incline fallbacks. Single and compared ISV views display mapped Product Spec values in blank ISV cells with a source badge. Existing ISV values and discrepancy highlights are retained. Both comparison views show active Spec Search match evidence.
