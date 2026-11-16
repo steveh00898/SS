@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-16: Codex — Publish Find a field performance fix
+
+- Public Site: version 76 from `11961cf2663492814e8e9e13d22b168ed2f78de5`, deployment `appgdep_6afb90a15948819185ca21f1fa68acb7`.
+- Verification: All 41 suites passed. The archive suite used a free port after port 4187 was occupied. Live Chrome verified suggestions without rebuilding the 886 product rows and measured median input handler time of 0.3 ms for Product Spec and 0.2 ms for ISV.
+- Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-16: Codex — Make Find a field typing responsive
 
 - Changes: Refresh suggestions independently of the results table, and reuse the category's ISV field lookup. Canceling a numeric preview still restores the committed results.
