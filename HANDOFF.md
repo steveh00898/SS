@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-16: Codex — Publish Spec Search choice and match-section fixes
+
+- Public Site: version 70 from `c79787d305f9709f8ee3999b1e274a0d48f68ddd`, deployment `appgdep_6afb5e1462e481918470aecb297f3d2a`. Public access retained.
+- Verification: All 41 suites passed after correcting the focused test for alphabetical ordering and CSS capitalization. Desktop and phone previews passed. Live Chrome confirmed unique Device holder options, Bottle holder No only in Product Spec, and the shaded match section in single Product Spec, single ISV and comparison.
+- Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-16: Codex — Deduplicate Spec Search values and highlight match evidence
 
 - Changes: Spec Search groups equivalent answer labels and canonicalizes Yes/No casing. Both sources show only answers present in the selected category. The lightly shaded Spec Search matches section now also appears on single-item Product Spec and ISV dialogs.
