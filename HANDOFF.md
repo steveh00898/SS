@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-16: Codex — Publish the Spec Search sidebar update
+
+- Public Site: version 72 from `340c5563a718d7a64a4cd41a85c1ce6af92562cd`, deployment `appgdep_6afb6ba07e448191b2ee5f9d8a4ef185`. Public access retained.
+- Verification: All 41 suites passed. Desktop and phone screenshots rendered, and Chrome confirmed the updated button opens Spec Search on the public Site.
+- Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-16: Codex — Distinguish the Spec Search button from sidebar menus
 
 - Changes: Gave the Spec Search button a distinct background with a lighter shade in dark mode and removed its arrow. It still opens Spec Search directly.
