@@ -2,6 +2,14 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-16: Codex — Add source-specific, field-first Spec Search
+
+- Changes: Category, source and field search appear together on desktop. Each confirmed filter keeps its own Product Spec or ISV source. Field suggestions match titles, Bluetooth and Wi-Fi offer only Yes and No, and detail dialogs keep source wording.
+- Measurements preview as typed and support unit conversion with a default ±10% tolerance, adjustable to 5%, 10%, 15% or 20%. Search phrases can prefill measurements. Excel records the source and tolerance for confirmed filters and exports only their matches.
+- Verification: Focused Chrome regression passed for combined sources, source-only eligibility, connectivity normalization, units, tolerance, comparison, category persistence, mobile layout and Excel. The Artifact compacts syntax at build time to keep the existing size limit.
+- Public Site: publication verification follows. Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-16: Codex — Publish retained filters and muted source notes
 
 - Public Site: version 68 from `ffaede27ac03029ba6fdc0decd77fbcdcaf6e667`, deployment `appgdep_6afb3d108f008191a62e8b5eb7327a36`. Public access retained.

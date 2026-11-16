@@ -507,7 +507,7 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
 @media(min-width:721px){body[data-view="spec-search"] #specLegend{display:flex!important}}
 .spec-search-panel{min-width:0}
 .ss-controls{background:var(--panel,var(--card));border:1px solid var(--line);border-radius:10px;padding:16px}
-.ss-scope{display:grid;grid-template-columns:minmax(105px,180px) minmax(0,1fr);align-items:start;gap:12px}
+.ss-scope{display:grid;grid-template-columns:minmax(105px,180px) auto minmax(0,1fr);align-items:start;gap:12px}
 .ss-controls label{display:grid;gap:5px;color:var(--fg);font-size:13px;font-weight:600}
 .ss-controls select,.ss-controls input[type=search]{color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:9px 12px;font:inherit;max-width:100%;min-width:0}
 .ss-controls select{width:100%;min-width:0}
@@ -523,7 +523,17 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
 .ss-toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:14px 0}
 #specSearchStatus{flex:1 1 220px;color:var(--muted);margin:0;font-size:14px}
 .ss-match{display:block;color:var(--muted);font-size:12px}
-@media(max-width:720px){.ss-controls{padding:12px}.ss-scope{grid-template-columns:minmax(94px,32%) minmax(0,1fr);gap:8px}}
+#specSource{border:0;margin:0;padding:0;min-width:0;display:flex;gap:4px}
+#specSource legend{font-size:13px;font-weight:600;padding:0 0 5px}
+#specSource label{display:flex;align-items:center;gap:4px;white-space:nowrap;padding:9px;border:1px solid var(--line);border-radius:6px;cursor:pointer}
+#specSource label:has(:checked){border-color:var(--accent)}
+#specSource input{accent-color:var(--accent);margin:0}
+#specFieldPanel{margin-top:12px;padding:12px;border:1px solid var(--line);border-radius:6px}
+.ss-field-heading,#specFieldValues{display:flex;flex-wrap:wrap;align-items:end;gap:8px}
+.ss-field-heading{align-items:center;justify-content:space-between;margin-bottom:8px}
+#specFieldValues input{min-width:0;max-width:100%;padding:8px;border:1px solid var(--line);border-radius:6px;color:var(--fg);background:var(--bg)}
+#specFieldValues label{max-width:100%}
+@media(max-width:720px){.ss-controls{padding:12px}.ss-scope{grid-template-columns:minmax(94px,1fr) auto;gap:8px}.ss-entry{grid-column:1/-1}}
 </style>
 
 </head><body><header class="top">
@@ -579,11 +589,16 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
     <div class="ss-controls">
       <div class="ss-scope">
         <label>Category<select id="specCategory"><option value="">All categories</option></select></label>
+          <fieldset id="specSource"><legend>Source</legend><label><input type="radio" name="spec-source" value="product" checked> Product Spec</label><label><input type="radio" name="spec-source" value="isv"> ISV</label></fieldset>
         <div class="ss-entry">
-          <label>Find a specification<input id="specQuery" type="search" role="combobox" autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-controls="specOptions" placeholder='Try Wi-Fi, 18" deck, or 8 lb flywheel'></label>
+          <label>Find a field<input id="specQuery" type="search" role="combobox" autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-controls="specOptions" placeholder='Try Wi-Fi, 18" deck, or 8 lb flywheel'></label>
           <ul id="specOptions" role="listbox" aria-label="Suggested filters" hidden></ul>
         </div>
       </div>
+      <section id="specFieldPanel" aria-labelledby="specFieldTitle" hidden>
+        <div class="ss-field-heading"><strong id="specFieldTitle"></strong><button type="button" class="btn" id="specCancelField">Cancel</button></div>
+        <div id="specFieldValues"></div>
+      </section>
       <div id="specChips" aria-label="Confirmed filters"></div>
     </div>
     <div class="ss-toolbar">
@@ -1100,7 +1115,7 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
     const sections=(isISV?comparedISVSections(products):comparedSpecSections(products)).map((section,index)=>({...section,id:'compare-details-'+index}));
     const heading=items.map((item,index)=>'<div role="columnheader"'+(index===0?' class="spec-compare-first"':'')+'>'+esc(item.sku)+'<small>'+esc(item.name)+'</small></div>').join('');
     const row=(label,cells)=>'<div role="row" class="spec-compare-row"><div role="rowheader">'+esc(label)+'</div>'+cells+'</div>';
-    const matches=pr.view==='spec-search'&&ss.keys.length?'<section class="spec-section"><h3>Spec Search matches</h3>'+ss.keys.map(key=>row(filterLabels.get(key),products.map(({item})=>'<div role="cell" class="spec-compare-cell">'+specMatchText(item,key)+'</div>').join(''))).join('')+'</section>':'';
+    const matches=pr.view==='spec-search'&&ss.keys.length?'<section class="spec-section"><h3>Spec Search matches</h3>'+ss.keys.map(field=>row(fieldTitle(field),products.map(({item})=>'<div role="cell" class="spec-compare-cell">'+specMatchText(item,field)+'</div>').join(''))).join('')+'</section>':'';
     const groups=sections.map(section=>'<section class="spec-section'+(isISV?' isv-section':'')+'" id="'+section.id+'"'+(section.color?' style="--isv-section-color:'+esc(section.color)+'"':'')+'><h3>'+esc(section.title)+'</h3>'+section.fields.map(([key,label])=>row(label,products.map(product=>compareDetailsCell(product,key,isISV)).join(''))).join('')+'</section>').join('');
     const sources=products.map(({item,isv,isvData})=>{
       const isvSource=isv?isvData.source.file+' · '+isvData.source.sheet+' · row '+isv.row:'';
@@ -1580,140 +1595,142 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
     catch (err) { if (err?.code !== "declined") toast("Couldn't export the file."); }
   });
 
-  // Spec Search uses the public template and the same source precedence as Product Spec.
-  const ss = {category:'',filters:[],suggestions:[],index:-1,cache:null,shown:new Map(),keys:[]};
-  const specInput = $('#specQuery'), specOptions = $('#specOptions');
-  const filterNames = {wifi:'Wi-Fi',inclineType:'Incline type',deckWidth:'Running deck width',flywheelWeight:'Flywheel weight'};
-  const filterTerms = {
-    wifi:'wifi wi-fi wireless internet', inclineType:'incline manual incline auto incline electric incline fixed incline',
-    deckWidth:'running deck width belt width deck running surface width', flywheelWeight:'flywheel fly wheel',
-    maxUserWeightLb:'user weight weight capacity maximum user weight', stride:'stride length'
-  };
-  const filterKinds = {deckWidth:'length',maxUserWeightLb:'weight',flywheelWeight:'weight',productWeight:'weight',
-    shippingWeight:'weight',maxUserHeight:'length',stride:'length',stepHeight:'length',stepOnHeight:'length',qFactor:'length'};
-  const filterLabels = new Map();
-  for(const template of Object.values(PRODUCT_SPEC_TEMPLATES)) {
-    for(const section of template) for(const [key,label] of section.fields) if(!filterLabels.has(key))filterLabels.set(key,filterNames[key]||label);
-  }
+  // Each filter reads the chosen source directly; detail-view fallbacks do not qualify.
+  const ss={category:'',source:'product',filters:[],suggestions:[],index:-1,field:null,draft:null,shown:new Map(),keys:[],cache:null};
+  const specInput=$('#specQuery'),specOptions=$('#specOptions');
+  const specSources={product:'Product Spec',isv:'ISV'};
+  const filterNames={bluetooth:'Bluetooth compatibility',wifi:'Wi-Fi',inclineType:'Incline type',deckWidth:'Running deck width'};
+  const filterTerms={wifi:'wifi wireless internet',bluetooth:'bluetooth compatible',inclineType:'manual automatic electric fixed incline',
+    deckWidth:'deck belt width running surface',flywheelWeight:'flywheel fly wheel',maxUserWeightLb:'user weight weight capacity',stride:'stride length'};
+  const filterLabels=new Map();
+  const specTemplates=Object.entries(PRODUCT_SPEC_TEMPLATES);
+  const categoryFields=new Map(specTemplates.map(([category,sections])=>{
+    const keys=new Set();
+    for(const section of sections)for(const [key,label] of section.fields){
+      keys.add(key);
+      if(!filterLabels.has(key))filterLabels.set(key,filterNames[key]||label);
+    }
+    if(category==='Treadmills')keys.add('deckWidth');
+    return [category,keys];
+  }));
   filterLabels.set('deckWidth',filterNames.deckWidth);
-  const excludedSpecFields = new Set(['upc','features','certification','brand','electrical']);
-  function specFields(category) {
-    const sections = category ? PRODUCT_SPEC_TEMPLATES[category]||[] : Object.values(PRODUCT_SPEC_TEMPLATES).flat();
-    const keys = new Set(sections.flatMap(section=>section.fields.map(([key])=>key)));
-    if(!category||category==='Treadmills')keys.add('deckWidth');
-    return [...keys].filter(key=>!excludedSpecFields.has(key));
+  const specWordList=value=>String(value).toLowerCase().replace(/wi[ -]fi/g,'wifi').match(/[a-z0-9]+/g)||[];
+  const specKind=key=>key==='deckWidth'?'length':measurementKind(key,false);
+  const specScale=kind=>kind==='weight'?.45359237:25.4;
+  const specUnits=kind=>kind==='weight'?['lb','kg']:['in','cm','mm','ft','m'];
+  const excludedSpecFields=new Set(['upc','features','certification','brand','electrical']);
+  const filterId=({source,key})=>source+':'+key;
+  const fieldTitle=({source,key})=>filterLabels.get(key)+' ('+specSources[source]+')';
+  const filterLabel=filter=>fieldTitle(filter)+' · '+(filter.target?filter.text:filter.value);
+  function connectivityValue(key,value){
+    if(/^(?:no\b|false\b|0$|none\b|not supported|without\b)/i.test(value))return 'No';
+    if(/^(?:yes\b|true\b|1$)/i.test(value))return 'Yes';
+    if(key==='wifi')return /\b(?:wi[ -]?fi|[25](?:\.4)?\s*ghz)\b/i.test(value)?'Yes':null;
+    return /\bbluetooth\b|\b(?:sunny\s*fit|sunny\s*app|app|music)\b|speakers?\s*&\s*phone/i.test(value)?'Yes':null;
   }
-  function searchSpecValue(item,key,values,comparison) {
-    if(key==='deckWidth') {
+  function selectedSpecSource(item,key,source,comparison,values){
+    if(source==='product'){
+      const value=productSpecValue(key,comparison,values);
+      return {value,unit:declaredProductUnit(key,value)};
+    }
+    const column=isvSpecMap(item)[key]?.column;
+    const value=column?isvItemFor(item)?.fields[column]:null;
+    return {value,unit:column?declaredISVUnit(item,column,value):null};
+  }
+  function sourceSpec(item,{source,key},comparison,values){
+    if(!categoryFields.get(item.category)?.has(key))return null;
+    if(key==='deckWidth'){
       const width=specsOf(item).workoutAreaWidthIn;
-      if(typeof width==='number'&&width>0)return {value:width+' in',facet:width+' in',numbers:[width],fallback:false};
-      for(const field of ['runningSurface','beltDimensions']) {
-        const info=productSpecState(item,field,comparison,values);
-        for(const part of measurementParts(info.value,'length',info.unit)) {
+      if(source==='product'&&width>0)return {value:width+' in',measures:[[width]]};
+      for(const field of ['runningSurface','beltDimensions']){
+        const {value,unit}=selectedSpecSource(item,field,source,comparison,values);
+        for(const part of measurementParts(value,'length',unit)){
           if(part.numbers.length!==2)continue;
           const scaled=part.numbers.map((n,i)=>n*unitScale[part.units[i]][1]/25.4);
-          const index=part.axes.indexOf('W');
-          const width=index>=0?scaled[index]:part.axes.every(axis=>!axis)&&Math.min(...scaled)>=8&&Math.min(...scaled)<=35&&Math.max(...scaled)>1.4*Math.min(...scaled)?Math.min(...scaled):null;
-          if(width!=null){const value=Number(width.toFixed(2))+' in';return {value,facet:value,numbers:[width],fallback:!!info.fallback};}
+          const widthAxis=part.axes.indexOf('W'),small=Math.min(...scaled);
+          const width=widthAxis>=0?scaled[widthAxis]:part.axes.every(axis=>!axis)&&small>=8&&small<=35&&Math.max(...scaled)>1.4*small?small:null;
+          if(width!=null)return {value:Number(width.toFixed(2))+' in',measures:[[width]]};
         }
       }
       return null;
     }
-    const info=productSpecState(item,key,comparison,values);
-    const value=String(info.value??'').trim();
+    const raw=selectedSpecSource(item,key,source,comparison,values);
+    let value=String(raw.value??'').trim();
     if(missingSpec(value))return null;
-    const kind=filterKinds[key];
-    const defaultUnit=info.unit||(key==='maxUserWeightLb'&&!info.fallback?'lb':null);
-    const numbers=kind?measurementParts(value,kind,defaultUnit).filter(p=>p.numbers.length===1)
-      .map(p=>p.numbers[0]*unitScale[p.units[0]][1]/(kind==='weight'?.45359237:25.4)):[];
-    let facet=value;
-    if(key==='wifi') {
-      if(/^(?:no\b|false\b|0$|not supported|without wi.?fi)/i.test(value))facet='No';
-      else if(/^(?:yes\b|true\b|1$|wi.?fi\b|2\.4\s*ghz\b|5\s*ghz\b)/i.test(value))facet='Yes';
-      else return null;
+    if(key==='bluetooth'||key==='wifi'){
+      value=connectivityValue(key,value);
+      return value?{value}:null;
     }
-    if(key==='inclineType') {
-      if(/\bmanual\b/i.test(value)&&!/\b(?:auto(?:matic)?|motorized|electric)\b/i.test(value))facet='Manual';
-      else if(/\b(?:auto(?:matic)?|motorized|electric)\b/i.test(value)&&!/\bmanual\b/i.test(value))facet='Automatic';
-      else if(/^(?:none|no|n)\b|\bfixed\b/i.test(value))facet='Fixed / none';
-      else return null;
+    if(key==='inclineType'){
+      if(/\bmanual\b/i.test(value)&&!/\b(?:auto(?:matic)?|motorized|electric)\b/i.test(value))value='Manual';
+      else if(/\b(?:auto(?:matic)?|motorized|electric)\b/i.test(value)&&!/\bmanual\b/i.test(value))value='Automatic';
+      else if(/^(?:none|no|n)\b|\bfixed\b/i.test(value))value='Fixed / none';
     }
-    const shown=kind&&numbers.length?formatMeasurement(value,kind,defaultUnit,null):value;
-    return {value:key==='wifi'||key==='inclineType'?facet:shown,facet,numbers,fallback:!!info.fallback};
-  }
-  function specIndex() {
-    if(ss.cache?.items===state.items && ss.cache.category===ss.category)return ss.cache;
-    const fields=specFields(ss.category), facetCounts=new Map(fields.map(key=>[key,new Map()]));
-    const entries=state.items.filter(item=>(!ss.category||item.category===ss.category)).map(item=>{
-      const values=item.specDetails?.values||{}, comparison=dialogSpecs(item), specs=new Map();
-      for(const key of specFields(item.category)) {
-        const counts=facetCounts.get(key);
-        if(!counts)continue;
-        const spec=searchSpecValue(item,key,values,comparison);
-        if(!spec)continue;
-        specs.set(key,spec);
-        if(!spec.facet || spec.facet.length>68 || (filterKinds[key] && !spec.numbers.length))continue;
-        const label=norm(spec.facet);
-        const entry=counts.get(label)||{value:spec.facet,count:0};
-        entry.count++;
-        counts.set(label,entry);
-      }
-      return {item,specs};
+    const kind=specKind(key);
+    if(!kind)return {value};
+    const measures=measurementParts(value,kind,raw.unit).map(part=>{
+      const numbers=part.numbers.map((n,i)=>n*unitScale[part.units[i]][1]/specScale(kind));
+      return part.axes.join('')==='WLH'?[numbers[1],numbers[0],numbers[2]]:numbers;
     });
-    return ss.cache={items:state.items,category:ss.category,entries,facetCounts};
+    return measures.length?{value,measures}:null;
   }
-  const specWords = value => String(value).toLowerCase().match(/[a-z0-9]+/g)||[];
-  const opLabels = {eq:'Exactly',min:'At least',max:'At most'};
-  const numericFilterLabel = (key,n,unit,op) => filterLabels.get(key)+' · '+opLabels[op]+' '+n+' '+unit;
-  function getSpecSuggestions(query) {
-    if(!query)return [];
-    const {facetCounts}=specIndex();
-    const clean=query.toLowerCase().replace(/wi[\s-]fi/g,'wifi').replace(/≥|>=/g,'at least ').replace(/≤|<=/g,'at most ');
-    const measure=clean.match(/(\d+(?:\.\d+)?)\s*(kg\b|kgs\b|lbs?\b|pounds?\b|cm\b|mm\b|in(?:ch(?:es)?)?\b|["″])?/i);
-    const requestedOp=/\bat least\b|\b(?:minimum|min)\s+\d/.test(clean)?'min':/\bat most\b|\b(?:maximum|max)\s+\d/.test(clean)?'max':'eq';
-    const subject=specWords(measure ? clean.replace(measure[0],' ').replace(/\bat (?:least|most)\b|\b(?:minimum|maximum|min|max|exactly)\b/g,'') : clean);
-    const ranking=[];
-    for(const [key,facets] of facetCounts) {
-      if(!facets.size&&key!=='deckWidth'&&!filterKinds[key])continue;
-      const labels=specWords(filterLabels.get(key)+' '+(filterTerms[key]||''));
-      const matchesToken=(token,words)=>words.some(word=>word.startsWith(token));
-      const fieldHits=subject.filter(token=>matchesToken(token,labels)).length;
-      const kind=filterKinds[key];
-      const priority=(key==='deckWidth'&&subject.includes('deck')&&!subject.includes('height'))?12:0;
-      if(measure && kind && subject.length && fieldHits===subject.length) {
-        const unit=measure[2]?measurementUnit(measure[2]):kind==='weight'?'lb':'in';
-        if(!unit||unitScale[unit][0]!==kind)continue;
-        const n=Number(measure[1]), scale=kind==='weight'?.45359237:25.4;
-        for(const op of [requestedOp,...Object.keys(opLabels).filter(op=>op!==requestedOp)]) {
-          ranking.push({key,number:n*unitScale[unit][1]/scale,op,label:numericFilterLabel(key,n,unit,op),score:30+priority+fieldHits*5+(op===requestedOp?3:0)});
-        }
-        continue;
-      }
-      for(const {value,count} of facets.values()) {
-        const words=specWords(value);
-        const q=specWords(clean).filter(word=>!['has','with','a'].includes(word));
-        const valueHits=q.filter(word=>matchesToken(word,words)).length;
-        if(!q.length||!q.every(word=>matchesToken(word,[...labels,...words])))continue;
-        const affirmative=(key==='wifi'&&value==='Yes')||(key==='inclineType'&&value==='Manual');
-        ranking.push({key,value,label:filterLabels.get(key)+' · '+value,score:Math.min(5,q.filter(token=>matchesToken(token,labels)).length)*4+valueHits*5+(affirmative?2:0)+Math.min(count,99)/200});
-      }
+  function specIndex(){
+    if(ss.cache?.items===state.items&&ss.cache.category===ss.category)return ss.cache;
+    const entries=state.items.filter(item=>!ss.category||item.category===ss.category).map(item=>({
+      item,comparison:dialogSpecs(item),values:item.specDetails?.values||{},specs:new Map()
+    }));
+    return ss.cache={items:state.items,category:ss.category,entries};
+  }
+  function indexedSpec(entry,field){
+    const id=filterId(field);
+    if(!entry.specs.has(id))entry.specs.set(id,sourceSpec(entry.item,field,entry.comparison,entry.values));
+    return entry.specs.get(id);
+  }
+  function getSpecSuggestions(query){
+    const subject=specWordList(query.replace(/\d+(?:\.\d+)?(?:\s*[×x*]\s*\d+(?:\.\d+)?)*(?:\s*(?:lbs?\b|kg\b|cm\b|mm\b|in(?:ch(?:es)?)?\b|ft\b|["″]))?/gi,' '));
+    if(!subject.length)return [];
+    // Connectivity searches never surface unrelated fields with connectivity in their values.
+    const connectivity=subject.find(word=>word.length>=3&&('bluetooth'.startsWith(word)||'wifi'.startsWith(word)));
+    const keys=ss.category?[...(categoryFields.get(ss.category)||[])]:[...filterLabels.keys()];
+    const candidates=[];
+    const items=specIndex().entries;
+    for(const key of keys){
+      if(excludedSpecFields.has(key)||(connectivity&&key!==('wifi'.startsWith(connectivity)?'wifi':'bluetooth')))continue;
+      const label=filterLabels.get(key);
+      const words=specWordList(label+' '+(filterTerms[key]||''));
+      const terms=subject.filter(word=>!['yes','no','with','has','at','least','most','exactly'].includes(word));
+      if(!terms.length||!terms.every(word=>words.some(w=>w.startsWith(word))))continue;
+      if(ss.source==='isv'&&key!=='deckWidth'&&!items.some(({item})=>isvSpecMap(item)[key]))continue;
+      const primary=(key==='deckWidth'&&terms.includes('deck')&&!terms.includes('height'))||(key==='inclineType'&&terms.join(' ')==='incline');
+      candidates.push({key,source:ss.source,label,rank:primary?0:1});
     }
-    return ranking.sort((a,b)=>b.score-a.score||a.label.localeCompare(b.label))
-      .filter(option=>!ss.filters.some(filter=>filter.label===option.label)).slice(0,8);
+    return candidates.sort((a,b)=>a.rank-b.rank||a.label.localeCompare(b.label)).slice(0,8);
   }
-  function matchesSpec(entry,filter) {
-    const value=entry.specs.get(filter.key);
-    if(!value)return false;
-    if(filter.number==null)return norm(value.facet)===norm(filter.value);
-    // Compare normalized reported measurements, allowing a small tolerance for rounded equivalent units on exact matches.
-    const epsilon=filter.op==='eq'?.05:.000001;
-    return value.numbers.some(n=>filter.op==='min'?n>=filter.number-epsilon:filter.op==='max'?n<=filter.number+epsilon:Math.abs(n-filter.number)<=epsilon);
+  function fieldValues(field){
+    if(['wifi','bluetooth'].includes(field.key))return ['Yes','No'];
+    return [...new Set(specIndex().entries.map(entry=>indexedSpec(entry,field)?.value).filter(Boolean))].sort((a,b)=>a.localeCompare(b,undefined,{numeric:true}));
   }
-  function specResults(filters) {
-    const {entries}=specIndex();
-    return entries.filter(entry=>filters.every(filter=>matchesSpec(entry,filter)));
+  function numericDraft(){
+    const {key,source}=ss.field;
+    const kind=specKind(key),unit=$('#specUnit').value;
+    const input=$('#specAmount').value.trim();
+    if(!/^\d+(?:\.\d+)?(?:\s*[x×*]\s*\d+(?:\.\d+)?){0,2}$/i.test(input))return null;
+    const numbers=input.split(/[x×*]/i).map(Number);
+    if(numbers.some(n=>n<=0)||key==='deckWidth'&&numbers.length!==1)return null;
+    const percent=Number($('#specTolerance').value);
+    const target=numbers.map(n=>n*unitScale[unit][1]/specScale(kind));
+    return {key,source,target,percent,text:numbers.join(' × ')+' '+unit+' ±'+percent+'%'};
   }
-  function matchColumns(filters) { return [...new Set(filters.map(f=>f.key))]; }
+  function matchesSpec(entry,filter){
+    const spec=indexedSpec(entry,filter);
+    if(!spec)return false;
+    if(!filter.target)return norm(spec.value)===norm(filter.value);
+    return spec.measures?.some(numbers=>numbers.length===filter.target.length&&numbers.every((n,i)=>Math.abs(n-filter.target[i])<=filter.target[i]*filter.percent/100+1e-8));
+  }
+  function specResults(filters){
+    return specIndex().entries.filter(entry=>filters.every(filter=>matchesSpec(entry,filter)));
+  }
+  function matchColumns(filters){return [...new Map(filters.map(filter=>[filterId(filter),filter])).values()];}
   function renderSpecOptions(){
     specOptions.hidden=!ss.suggestions.length;
     specInput.setAttribute('aria-expanded',String(!specOptions.hidden));
@@ -1723,67 +1740,111 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
   }
   function renderSpecSearch(){
     const category=$('#specCategory');
-    if(category.options.length===1) category.insertAdjacentHTML('beforeend',SITE_ORDER.map(name=>'<option>'+esc(name)+'</option>').join(''));
+    if(category.options.length===1)category.insertAdjacentHTML('beforeend',SITE_ORDER.map(name=>'<option>'+esc(name)+'</option>').join(''));
     category.value=ss.category;
-    const value=specInput.value.trim();
-    ss.suggestions=getSpecSuggestions(value);
+    ss.suggestions=getSpecSuggestions(specInput.value.trim());
     if(ss.index>=ss.suggestions.length)ss.index=-1;
     renderSpecOptions();
-    const preview=value?ss.suggestions[Math.max(0,ss.index)]:null;
-    const active=preview?[...ss.filters,preview]:ss.filters;
+    const active=ss.draft?[...ss.filters,ss.draft]:ss.filters;
     ss.keys=matchColumns(active);
     const shown=specResults(active);
     ss.shown=new Map(shown.map(entry=>[entry.item.id,entry]));
-    const confirmedCount=preview?specResults(ss.filters).length:shown.length;
-    $('#specChips').innerHTML=(ss.filters.length?'<button type="button" class="btn" data-spec-clear>Clear all</button>':'')+ss.filters.map((filter,i)=>'<button type="button" class="btn" data-spec-remove="'+i+'" aria-label="Remove '+esc(filter.label)+'">'+esc(filter.label)+' ×</button>').join('');
-    $('#specSearchStatus').textContent=!state.loaded?'Loading products…':value&&!preview?'Choose a matching spec or refine your search.':shown.length+' matching product'+(shown.length===1?'':'s')+(preview?' · Previewing '+preview.label:'');
-    $('#specExport').disabled=!state.downloads||!ss.filters.length||!confirmedCount;
+    $('#specChips').innerHTML=(ss.filters.length?'<button type="button" class="btn" data-spec-clear>Clear all</button>':'')+ss.filters.map((filter,i)=>'<button type="button" class="btn" data-spec-remove="'+i+'" aria-label="Remove '+esc(filterLabel(filter))+'">'+esc(filterLabel(filter))+' ×</button>').join('');
+    $('#specSearchStatus').textContent=!state.loaded?'Loading products…':shown.length+' matching product'+(shown.length===1?'':'s')+(ss.draft?' · Previewing '+filterLabel(ss.draft):'');
+    $('#specExport').disabled=!state.downloads||!ss.filters.length||!(ss.draft?specResults(ss.filters):shown).length;
   }
-  function specMatchText(item,key){
-    const spec=ss.shown.get(item.id)?.specs.get(key);
-    return spec?esc(spec.value)+(spec.fallback?' <span class="source-badge">(From ISV)</span>':' <span class="source-badge">(From Product Spec)</span>'):'—';
+  function specMatchText(item,field){
+    const entry=ss.shown.get(item.id),spec=entry&&indexedSpec(entry,field);
+    return spec?esc(spec.value)+' <span class="source-badge">(From '+specSources[field.source]+')</span>':'—';
   }
-  function specMatchDetails(item) {
-    const specs=ss.shown.get(item.id)?.specs;
-    return ss.keys.map(key=>{const spec=specs?.get(key);return spec?'<small class="ss-match">'+esc(filterLabels.get(key)+': '+spec.value)+(spec.fallback?' <span class="source-badge">(From ISV)</span>':'')+'</small>':'';}).join('');
+  function specMatchDetails(item){
+    return ss.keys.map(field=>'<small class="ss-match">'+esc(filterLabels.get(field.key)+': ')+specMatchText(item,field)+'</small>').join('');
   }
-  function updateSpecFilters() {
-    state.compareConfirmed=false;
-    render();
+  function updateSpecFilters(){state.compareConfirmed=false;render();}
+  function closeSpecField(){
+    ss.field=null;ss.draft=null;
+    $('#specFieldPanel').hidden=true;
   }
-  function confirmSpecOption(index){
-    const option=ss.suggestions[index];
-    if(!option)return;
-    ss.filters.push(option);
-    specInput.value='';
-    ss.index=-1;
+  function addSpecFilter(filter){
+    if(!filter)return;
+    if(!ss.filters.some(existing=>filterLabel(existing)===filterLabel(filter)))ss.filters.push(filter);
+    closeSpecField();updateSpecFilters();specInput.focus();
+  }
+  function openSpecField(index){
+    const field=ss.suggestions[index];
+    if(!field)return;
+    const query=specInput.value;
+    ss.field=field;ss.index=-1;ss.draft=null;specInput.value='';
+    const panel=$('#specFieldPanel'),body=$('#specFieldValues');
+    $('#specFieldTitle').textContent=fieldTitle(field);
+    panel.hidden=false;
+    const kind=specKind(field.key);
+    if(kind){
+      const prefill=query.match(/(\d+(?:\.\d+)?(?:\s*[x×*]\s*\d+(?:\.\d+)?){0,2})\s*(lbs?\b|kg\b|cm\b|mm\b|in(?:ch(?:es)?)?\b|ft\b|["″])?/i);
+      const units=specUnits(kind);
+      body.innerHTML='<label>Value<input id="specAmount" inputmode="decimal" autocomplete="off" placeholder="Enter a measurement"></label><label>Unit<select id="specUnit">'+units.map(unit=>'<option>'+unit+'</option>').join('')+'</select></label><label>Tolerance<select id="specTolerance">'+[5,10,15,20].map(n=>'<option value="'+n+'"'+(n===10?' selected':'')+'>±'+n+'%</option>').join('')+'</select></label><button type="button" class="btn" id="specAddNumeric" disabled>Add filter</button>';
+      $('#specAmount').value=prefill?.[1]||'';
+      const unit=prefill?.[2]&&measurementUnit(prefill[2]);
+      if(units.includes(unit))$('#specUnit').value=unit;
+      ss.draft=numericDraft();
+      $('#specAddNumeric').disabled=!ss.draft;
+      $('#specAmount').focus();
+    }else{
+      const answers=fieldValues(field);
+      if(!answers.length)body.textContent='No recorded values for this field in this category.';
+      else if(answers.length<5)body.innerHTML=answers.map(value=>'<button type="button" class="btn" data-spec-answer="'+esc(value)+'">'+esc(value)+'</button>').join('');
+      else body.innerHTML='<label>Find a value<input id="specAnswerQuery" type="search" autocomplete="off"></label><label>Value<select id="specAnswerSelect"></select></label><button type="button" class="btn" id="specAddAnswer">Add filter</button>';
+      if(answers.length>=5)renderSpecAnswers(answers);
+      (body.querySelector('input,button')||$('#specCancelField')).focus();
+    }
     updateSpecFilters();
-    specInput.focus();
+  }
+  function renderSpecAnswers(answers){
+    const query=$('#specAnswerQuery').value.trim().toLowerCase();
+    const matches=answers.filter(value=>value.toLowerCase().includes(query));
+    $('#specAnswerSelect').innerHTML=matches.map(value=>'<option>'+esc(value)+'</option>').join('');
+    $('#specAddAnswer').disabled=!matches.length;
   }
   $('#specSearchToggle').addEventListener('click',()=>setView(pr.view==='spec-search'?'catalog':'spec-search'));
-  specInput.addEventListener('input',()=>{ss.index=-1;updateSpecFilters();});
+  specInput.addEventListener('input',()=>{closeSpecField();ss.index=-1;updateSpecFilters();});
   specInput.addEventListener('focus',renderSpecOptions);
   specInput.addEventListener('keydown',e=>{
     if(e.key==='Escape'){specOptions.hidden=true;specInput.setAttribute('aria-expanded','false');return;}
     if(!ss.suggestions.length)return;
-    if(e.key==='Enter'){e.preventDefault();confirmSpecOption(Math.max(0,ss.index));}
+    if(e.key==='Enter'){e.preventDefault();openSpecField(Math.max(0,ss.index));}
     if(e.key==='ArrowDown'||e.key==='ArrowUp'){
       e.preventDefault();
       ss.index=Math.max(0,Math.min(ss.suggestions.length-1,ss.index+(e.key==='ArrowDown'?1:-1)));
-      updateSpecFilters();
+      renderSpecOptions();
       $('#spec-option-'+ss.index)?.scrollIntoView({block:'nearest'});
     }
   });
   specOptions.addEventListener('pointerdown',e=>{if(e.target.closest('[data-spec-option]'))e.preventDefault();});
-  specOptions.addEventListener('click',e=>{const opt=e.target.closest('[data-spec-option]');if(opt)confirmSpecOption(Number(opt.dataset.specOption));});
+  specOptions.addEventListener('click',e=>{const opt=e.target.closest('[data-spec-option]');if(opt)openSpecField(Number(opt.dataset.specOption));});
+  $('#specSource').addEventListener('change',e=>{ss.source=e.target.value;ss.index=-1;closeSpecField();updateSpecFilters();});
   $('#specCategory').addEventListener('change',e=>{
-    ss.category=e.target.value;ss.index=-1;specInput.value='';
-    state.compareSelected.clear();state.compareActive.clear();
-    updateSpecFilters();
+    ss.category=e.target.value;ss.index=-1;specInput.value='';closeSpecField();
+    state.compareSelected.clear();state.compareActive.clear();updateSpecFilters();
+  });
+  $('#specFieldPanel').addEventListener('click',e=>{
+    const button=e.target.closest('button');
+    if(!button)return;
+    if(button.id==='specCancelField'){closeSpecField();updateSpecFilters();specInput.focus();}
+    if(button.id==='specAddNumeric')addSpecFilter(ss.draft);
+    if(button.id==='specAddAnswer')addSpecFilter({...ss.field,value:$('#specAnswerSelect').value});
+    if(button.dataset.specAnswer)addSpecFilter({...ss.field,value:button.dataset.specAnswer});
+  });
+  $('#specFieldPanel').addEventListener('input',e=>{
+    if(e.target.id==='specAnswerQuery'){renderSpecAnswers(fieldValues(ss.field));return;}
+    if(!e.target.matches('#specAmount,#specUnit,#specTolerance'))return;
+    ss.draft=numericDraft();$('#specAddNumeric').disabled=!ss.draft;updateSpecFilters();
+  });
+  $('#specFieldPanel').addEventListener('keydown',e=>{
+    if(e.key==='Enter'&&e.target.id==='specAmount'){e.preventDefault();addSpecFilter(ss.draft);}
   });
   $('#specChips').addEventListener('click',e=>{
     const chip=e.target.closest('[data-spec-remove]');
-    if(e.target.closest('[data-spec-clear]')){ss.filters=[];ss.index=-1;specInput.value='';}
+    if(e.target.closest('[data-spec-clear]')){ss.filters=[];ss.index=-1;specInput.value='';closeSpecField();}
     else if(chip)ss.filters.splice(Number(chip.dataset.specRemove),1);
     else return;
     updateSpecFilters();specInput.focus();
@@ -1833,9 +1894,9 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
     if(!state.downloads||!ss.filters.length||!entries.length)return;
     const keys=matchColumns(ss.filters);
     const columns=columnOrder.filter(key=>!['actions','compare'].includes(key)&&!hiddenColumns.has(key));
-    const rows=[[...columns.map(key=>COLUMN_NAMES[key]),...keys.map(key=>filterLabels.get(key))]];
-    for(const {item,specs} of entries){
-      const picture=imgSrc(item);
+    const rows=[[...columns.map(key=>COLUMN_NAMES[key]),...keys.map(fieldTitle)]];
+    for(const entry of entries){
+      const {item}=entry,picture=imgSrc(item);
       const details={
         category:item.category+(isOffSunny(item)?' · Off Sunny web':''),
         sku:item.sku+' · '+item.name,
@@ -1845,10 +1906,10 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
       };
       const summary=catalogSpecs(item);
       rows.push([...columns.map(key=>details[key]??summary[key]),
-        ...keys.map(key=>{const spec=specs.get(key);return spec?spec.value+(spec.fallback?' · From ISV':''):'—';})]);
+        ...keys.map(field=>indexedSpec(entry,field)?.value??'—')]);
     }
     const criteria=[['Spec Search','Confirmed criteria'],['Category',ss.category||'All categories'],['Catalog source','All products'],
-      ...ss.filters.map(filter=>[filterLabels.get(filter.key),filter.label.split(' · ').slice(1).join(' · ')])];
+      ...ss.filters.map(filter=>[fieldTitle(filter),filter.target?filter.text:filter.value])];
     try{
       await state.downloads.save({filename:'sunny-spec-search.xlsx',data:specWorkbook([{name:'Results',rows},{name:'Filters',rows:criteria}])});
       toast('Exported '+entries.length+' products');
