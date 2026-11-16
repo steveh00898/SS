@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-16: Codex — Publish source-specific Spec Search
+
+- Public Site: version 69 from `ee2ffd191fc4276970f4ea35c7d3b6c60279cdff`, deployment `appgdep_6afb503473f481919311dabcaec909d0`. Public access retained.
+- Verification: All 41 suites and desktop and phone preview flows passed. Live Chrome combined Product Spec deck width at ±15% and ISV Bluetooth Yes, verified Yes/No choices for Bluetooth and Wi-Fi, and confirmed source and tolerance in the downloaded Excel workbook.
+- Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-16: Codex — Add source-specific, field-first Spec Search
 
 - Changes: Category, source and field search appear together on desktop. Each confirmed filter keeps its own Product Spec or ISV source. Field suggestions match titles, Bluetooth and Wi-Fi offer only Yes and No, and detail dialogs keep source wording.
