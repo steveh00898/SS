@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-16: Codex — Deduplicate Spec Search values and highlight match evidence
+
+- Changes: Spec Search groups equivalent answer labels and canonicalizes Yes/No casing. Both sources show only answers present in the selected category. The lightly shaded Spec Search matches section now also appears on single-item Product Spec and ISV dialogs.
+- Audit: Checked 528 category, source and field combinations and collapsed 231 duplicate labels. In Product Spec, Ellipticals Device holder has iPad Holder, No and Yes; Bottle holder has only No. The matching ISV fields retain their own observed values.
+- Public Site: publication verification follows. Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-16: Codex — Publish source-specific Spec Search
 
 - Public Site: version 69 from `ee2ffd191fc4276970f4ea35c7d3b6c60279cdff`, deployment `appgdep_6afb503473f481919311dabcaec909d0`. Public access retained.
