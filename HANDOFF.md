@@ -2,6 +2,14 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-16: Codex — Keep Spec Search filters across categories and soften source notes
+
+- Confirmed filters persist across category changes. Clear all appears at the start of the filter row and clears every filter and the search input.
+- ISV and Product Spec show their source notes in muted parentheses without outlines, including comparisons and filter-match evidence.
+- Verification: Focused Chrome checks passed for repeated category changes, Clear all and source labels. The Artifact build stayed below its size limit.
+- Public Site: publication verification follows. Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-16: Codex — Publish ISV and Spec Search consistency fix
 
 - Public Site: version 67 from `26ccf61d6f1e01e2f7233b4b20a9fe8778bada80`, deployment `appgdep_6afb367db30c8191a752093b3d9aa9e2`. Public access retained.
