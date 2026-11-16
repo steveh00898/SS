@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-16: Codex — Publish the active sidebar highlight
+
+- Public Site: version 74 from `1faddaaf42486666e1452c4dac5b47c45b0178dc`, deployment `appgdep_6afb864d69b481918c0021d8af0a18e4`. Public access retained.
+- Verification: All 41 test suites passed. Live Chrome verified view selection and deep links on desktop in both color schemes and on phone.
+- Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-16: Codex — Highlight the active sidebar view
 
 - Changes: The section selector or Spec Search gets the accent tint only when it represents the current view. The catalog source button retains the neutral selector style and displays the chosen source.
