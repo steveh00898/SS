@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-16: Codex — Publish Product Spec precedence and immediate source switching
+
+- Public Site: version 71 from `0bfbee6350ae0ed82541ce05827897d00fbf3676`, deployment `appgdep_6afb65f3c92c81918e518efd520cee88`. Public access retained.
+- Verification: All 41 suites and desktop and phone previews passed. Live Chrome returned the same 23 Wi-Fi Yes products after switching to ISV and starting a fresh ISV search. Rowers Device holder offers No in ISV mode. The Excel workbook confirms the ISV selection and actual value provenance.
+- Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-16: Codex — Reconcile mapped ISV values with Product Spec
 
 - Changes: Changing the Spec Search source immediately reruns active filters with the selected source label and preserves choices, units and tolerances. Both modes use the reconciled value: Product Spec wins for available mapped values, with valid ISV values filling Product Spec gaps. Match notes and Excel identify the actual value source.
