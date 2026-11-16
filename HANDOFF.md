@@ -2,6 +2,14 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-16: Codex — Update the Compare selector and confirmation styles
+
+- Changes: The full Compare box is interactive and shows the app's accent tint when selected. Confirm comparison uses a subdued surface, then Update comparison uses the existing primary button style.
+- Files: `app/index.html`.
+- Verification: Checked both desktop color schemes in Chrome, including keyboard focus, selection and confirmation. Desktop and phone previews rendered successfully. Full test and publication results follow.
+- Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-16: Codex — Publish the Spec Search sidebar update
 
 - Public Site: version 72 from `340c5563a718d7a64a4cd41a85c1ce6af92562cd`, deployment `appgdep_6afb6ba07e448191b2ee5f9d8a4ef185`. Public access retained.

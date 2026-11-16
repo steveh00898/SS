@@ -259,8 +259,16 @@ td.c-img,th.c-imghead{min-width:120px;position:sticky;left:var(--pin-left,260px)
 td.c-price,th[data-key="price"]{min-width:140px;position:sticky;left:var(--pin-left,380px);background:var(--surface);z-index:2;box-shadow:3px 0 6px #00000015}
 th[data-key="sku"],th.c-imghead,th[data-key="price"]{z-index:5}
 }
-.compare-toggle{display:inline-flex;align-items:center;gap:8px;color:var(--fg);cursor:pointer}.compare-toggle input,.compare-cell input{width:18px;height:18px;accent-color:var(--accent)}
-#compareConfirm{margin-left:0}.compare-cell{min-width:80px;text-align:center}
+.compare-toggle.btn{position:relative;display:inline-flex;align-items:center;justify-content:center;height:34px;padding:0 14px;border-color:var(--line);color:var(--fg)}
+.compare-toggle input{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:pointer}
+.compare-toggle:has(input:checked){background:var(--accent-soft);border-color:var(--accent)}
+.compare-toggle:has(input:focus-visible){outline:2px solid var(--accent);outline-offset:2px}
+#compareConfirm{margin-left:0}
+#compareConfirm:not(.primary){background:var(--surface-2);border-color:color-mix(in srgb,var(--line) 65%,var(--muted));color:var(--fg)}
+#compareConfirm:not(.primary):hover:not(:disabled){background:color-mix(in srgb,var(--surface-2) 92%,var(--fg))}
+#compareConfirm:not(.primary):disabled{opacity:1;color:var(--muted)}
+.compare-cell{min-width:80px;text-align:center}
+.compare-cell input{width:18px;height:18px;accent-color:var(--accent)}
 #rows > tr:has([data-compare]){cursor:pointer}
 @media(hover:hover){#rows > tr:has([data-compare]):hover{--compare-row-bg:var(--surface-2)}}
 #rows > tr:has([data-compare]:checked){--compare-row-bg:color-mix(in srgb,var(--surface) 86%,var(--fg))}
@@ -609,7 +617,7 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
     </div>
   </section>
   <input id="practiceImport" type="file" accept=".json,application/json" hidden>
-  <button class="mobile-expand catalog-only" id="toolsExpand" type="button" aria-expanded="false" aria-controls="specLegend">Tiers &amp; Compare <span aria-hidden="true">⌄</span></button><div class="spec-legend catalog-only" id="specLegend" hidden aria-label="Specification highlights"><span><i class="spec-key high" aria-hidden="true"></i>Highest tier</span><span><i class="spec-key" aria-hidden="true"></i>Mid tier / unranked</span><span><i class="spec-key low" aria-hidden="true"></i>Lowest tier</span><label class="compare-toggle"><input type="checkbox" id="compareToggle"> Compare</label><span id="compareStatus" hidden aria-live="polite"></span><button class="btn primary" id="compareConfirm" type="button" hidden>Confirm comparison</button><button class="column-reset" id="defaultColumnOrder" type="button" title="Restore the original column order">Default columns order</button></div><div class="tablebox catalog-only">
+  <button class="mobile-expand catalog-only" id="toolsExpand" type="button" aria-expanded="false" aria-controls="specLegend">Tiers &amp; Compare <span aria-hidden="true">⌄</span></button><div class="spec-legend catalog-only" id="specLegend" hidden aria-label="Specification highlights"><span><i class="spec-key high" aria-hidden="true"></i>Highest tier</span><span><i class="spec-key" aria-hidden="true"></i>Mid tier / unranked</span><span><i class="spec-key low" aria-hidden="true"></i>Lowest tier</span><label class="btn compare-toggle"><input type="checkbox" id="compareToggle">Compare</label><span id="compareStatus" hidden aria-live="polite"></span><button class="btn" id="compareConfirm" type="button" hidden>Confirm comparison</button><button class="column-reset" id="defaultColumnOrder" type="button" title="Restore the original column order">Default columns order</button></div><div class="tablebox catalog-only">
     <table>
       <thead id="catalogHead">
         <tr>
@@ -1249,6 +1257,7 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
     $('#compareConfirm').hidden=!state.compareMode;
     $('#compareConfirm').disabled=state.compareSelected.size===0;
     $('#compareConfirm').textContent=state.compareConfirmed?'Update comparison':'Confirm comparison';
+    $('#compareConfirm').classList.toggle('primary',state.compareConfirmed);
     $('#compareStatus').hidden=!state.compareMode;
     $('#compareStatus').textContent=state.compareSelected.size+' selected'+(state.compareConfirmed?' · Comparing selected items':'');
     const list = visible();
