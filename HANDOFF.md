@@ -2,6 +2,12 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-16: Claude Code — git pull: Codex Site versions 64–75; Artifact version 34
+- Received: 24 Codex commits (c2e32e3..3647eb4), all with Agent trailers and HANDOFF entries: catalog search across all products, live Spec Search with Excel export and per-filter sources, ISV values reconciled to Product Spec values (shown with "(From Product Spec)"), Compare and sidebar style updates. build-artifact.mjs now minifies the page script with esbuild (devDependency). No catalog data changed. Test changes match the documented behavior (ISV/Product Spec reconciliation, deep-link source filter); new tests/spec-search.spec.cjs. Both runtime paths intact.
+- Tests: all 41 tests/*.spec.cjs passed with installed Chrome through a local preload; npm run screenshots passed.
+- Claude Artifact: PUBLISHED version 34 (id 1794871503-b293) from dist/artifact/index.html built at 3647eb4. No catalog data changed since version 33, so no item writes; reference data unchanged (27 documents identical). Not checked in the signed-in viewer.
+- Private Site: PUBLIC version 75 from f23bee7 (Codex); nothing to publish.
+- Practice data: not exported (owner decision).
 ## 2026-11-16: Codex — Publish Find a field performance fix
 
 - Public Site: version 76 from `11961cf2663492814e8e9e13d22b168ed2f78de5`, deployment `appgdep_6afb90a15948819185ca21f1fa68acb7`.
