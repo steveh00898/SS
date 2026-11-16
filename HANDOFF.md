@@ -2,6 +2,14 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-16: Codex — Reconcile mapped ISV values with Product Spec
+
+- Changes: Changing the Spec Search source immediately reruns active filters with the selected source label and preserves choices, units and tolerances. Both modes use the reconciled value: Product Spec wins for available mapped values, with valid ISV values filling Product Spec gaps. Match notes and Excel identify the actual value source.
+- ISV: Single and comparison views use Product Spec to fill blanks and correct discrepancies, with provenance and the original discrepancy highlight. The workbook snapshots were preserved. Unknown data remains unknown.
+- Audit: Checked 27,378 mapped fields across all 11 categories. Rowers Device holder offers No through explicit Product Spec data. Wi-Fi Yes produces consistent results across source switches.
+- Verification: Focused Chrome checks passed for source switching, Excel provenance and corrected measurement displays. Public Site publication verification follows. Claude Artifact is awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-16: Codex — Publish Spec Search choice and match-section fixes
 
 - Public Site: version 70 from `c79787d305f9709f8ee3999b1e274a0d48f68ddd`, deployment `appgdep_6afb5e1462e481918470aecb297f3d2a`. Public access retained.

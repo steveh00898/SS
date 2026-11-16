@@ -1000,12 +1000,12 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
   function wordSet(value){let text=String(value??'').toLowerCase().replace(/&/g,' and ').replace(/\bauto\b/g,'automatic').replace(/\bhrs?\b/g,'heart rate').replace(/\bcalories\b/g,'calorie').replace(/\bdistance\b/g,'dist');let words=text.match(/[a-z0-9]+/g)||[];if(words.includes('walking')&&words.includes('running'))words=['both'];return [...new Set(words.filter(word=>!['and','the','a','an'].includes(word)))].sort().join('|');}
   function materialSet(value){return wordSet(String(value??'').replace(/\b(q235|steel|iron)\b/gi,'metal').replace(/\bmaterial(s)?\b/gi,''));}
   function booleanValue(value){const text=String(value??'').trim().toLowerCase();if(/^(no|n|false|none|not\b)/.test(text))return'no';return /[a-z]/i.test(text)?'yes':null;}
-  function isValidISVValue(key,value,map){if(isMissing(value))return false;const text=String(value).trim();if(/^(n\/?a|unknown|unavailable|-|\?)$/i.test(text)||/^\d{4}-\d{2}-\d{2}$/.test(text))return false;if(key==='plugType'&&!/(plug|adapter|none|no)/i.test(text))return false;if(map.mode==='first-number'&&/^\d+\s*-\s*$/.test(text))return false;if(map.mode==='boolean')return booleanValue(value)!==null;if(map.mode==='digits')return (text.match(/\d/g)||[]).length>=8;if(['numbers-contained','numbers-exact','max-number','first-number'].includes(map.mode))return numberList(value).length>0;return true;}
+  function isValidISVValue(key,value,map){if(missingSpec(value))return false;const text=String(value).trim();if(/^(n\/?a|unknown|unavailable|-|\?)$/i.test(text)||/^\d{4}-\d{2}-\d{2}$/.test(text))return false;if(key==='plugType'&&!/(plug|adapter|none|no)/i.test(text))return false;if(map.mode==='first-number'&&/^\d+\s*-\s*$/.test(text))return false;if(map.mode==='boolean')return booleanValue(value)!==null;if(map.mode==='digits')return (text.match(/\d/g)||[]).length>=8;if(['numbers-contained','numbers-exact','max-number','first-number'].includes(map.mode))return numberList(value).length>0;return true;}
   function isEquivalentISV(productValue,isvValue,mode){if(isMissing(productValue)||isMissing(isvValue))return false;if(mode==='digits')return String(productValue).replace(/\D/g,'')===String(isvValue).replace(/\D/g,'');if(mode==='boolean')return booleanValue(productValue)===booleanValue(isvValue);if(mode==='material')return materialSet(productValue)===materialSet(isvValue);const productNumbers=numberList(productValue),isvNumbers=numberList(isvValue),near=(a,b)=>Math.abs(a-b)<=.05;if(mode==='max-number')return productNumbers.length>0&&isvNumbers.length>0&&near(Math.max(...productNumbers),Math.max(...isvNumbers));if(mode==='first-number')return productNumbers.length>0&&isvNumbers.length>0&&near(productNumbers[0],isvNumbers[0]);if(mode==='numbers-exact')return productNumbers.length===isvNumbers.length&&productNumbers.every((number,index)=>near(number,isvNumbers[index]));if(mode==='numbers-contained')return isvNumbers.length>0&&isvNumbers.every(number=>productNumbers.some(candidate=>near(number,candidate)));if(mode==='normalized')return booleanValue(productValue)===booleanValue(isvValue);return wordSet(productValue)===wordSet(isvValue);}
-  const missingSpec = value => /^(?:|n\/?a|not applicable|unavailable|not provided|unknown|[-—])$/i.test(String(value??"").trim());
+  const missingSpec = value => /^(?:|n\/?a|not applicable|unavailable|not provided|unknown|[-—?])$/i.test(String(value??"").trim());
   function productSpecValue(key,comparison,values){
-    const raw=comparison[key]??values[key];
-    if(!missingSpec(raw))return raw;
+    const raw=[comparison[key],values[key]].find(value=>!missingSpec(value));
+    if(raw!=null)return raw;
     if(key==="inclineType"&&/\bincline\b/i.test(comparison.inclineStrideMotion||""))return comparison.inclineStrideMotion;
     return null;
   }
@@ -1085,19 +1085,18 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
   }
   function isvCell({item,isv,comparison,values},column){
     const value=isv?.fields[column];
-    if(!missingSpec(value)){
-      const status=isvComparisonState(item,column,value,comparison,values);
-      const warning=status.warning?'<span class="isv-warning">Source value not used for Product Spec fallback</span>':"";
-      return {content:displayISVMeasurement(item,column,value,comparison,values)+warning,different:status.different,missing:false};
+    if(!isv)return {content:"Unavailable",different:false,missing:true};
+    const status=isvComparisonState(item,column,value,comparison,values);
+    const match=Object.entries(isvSpecMap(item)).find(([key,map])=>map.column===column&&!missingSpec(productSpecValue(key,comparison,values)));
+    if(match){
+      const [key]=match,spec=productSpecState(item,key,comparison,values);
+      const pair=!status.different&&!status.warning&&bareMeasurement(value)?measurementPair(item,key,spec.value,column,value,comparison,values):null;
+      const lacksUnit=pair&&!pair.isvUnit&&bareMeasurement(value)&&measurementParts(spec.value,pair.kind,pair.productUnit).length;
+      if(missingSpec(value)||status.different||status.warning||lacksUnit)return {content:esc(formatMeasurement(spec.value,spec.kind,spec.unit,spec.estimated))+'<span class="source-badge">(From Product Spec)</span>',different:status.different,missing:false};
     }
-    if(isv){
-      const match=Object.entries(isvSpecMap(item)).find(([key,map])=>map.column===column&&!missingSpec(productSpecValue(key,comparison,values)));
-      if(match){
-        const [key]=match,status=productSpecState(item,key,comparison,values);
-        return {content:esc(formatMeasurement(status.value,status.kind,status.unit,status.estimated))+'<span class="source-badge">(From Product Spec)</span>',different:false,missing:false};
-      }
-    }
-    return {content:"Unavailable",different:false,missing:true};
+    if(missingSpec(value))return {content:"Unavailable",different:false,missing:true};
+    const warning=status.warning?'<span class="isv-warning">Source value not used for Product Spec fallback</span>':"";
+    return {content:displayISVMeasurement(item,column,value,comparison,values)+warning,different:status.different,missing:false};
   }
   function compareDetailsCell(product,key,isISV){
     const {item,comparison,values}=product;
@@ -1125,7 +1124,7 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
       const lines=isISV?[isvSource||'ISV unavailable']:[...(details?.sources?.length?details.sources:[item.sourceFile||'Existing catalog specifications']),...(details?.notes||[]),isvSource].filter(Boolean);
       return '<div role="cell" class="spec-compare-cell">'+lines.map(esc).join('<br>')+'</div>';
     }).join('');
-    body.innerHTML='<div role="table" aria-label="'+(isISV?'ISV':'Product Spec')+' comparison" class="spec-compare-grid" style="--compare-count:'+items.length+';--compare-min:'+Math.max(0,(items.length>3?items.length*100:0))+'px"><div class="spec-compare-sticky"><div role="row" class="spec-compare-row spec-compare-head"><div role="columnheader">Field</div>'+heading+'</div>'+dialogSectionNav(sections,'Comparison sections')+'</div><p class="pv-help">Yellow marks differences between Product Spec and ISV. Source badges identify values drawn from the other view.</p>'+matches+groups+row('Sources',sources)+'</div>';
+    body.innerHTML='<div role="table" aria-label="'+(isISV?'ISV':'Product Spec')+' comparison" class="spec-compare-grid" style="--compare-count:'+items.length+';--compare-min:'+Math.max(0,(items.length>3?items.length*100:0))+'px"><div class="spec-compare-sticky"><div role="row" class="spec-compare-row spec-compare-head"><div role="columnheader">Field</div>'+heading+'</div>'+dialogSectionNav(sections,'Comparison sections')+'</div><p class="pv-help">Yellow marks differences in the original sources. Source notes identify the value shown.</p>'+matches+groups+row('Sources',sources)+'</div>';
   }
   function openProductSpec(it,trigger){
     if(!it)return;closeModals();if(isvDialog.open)closeISV();specReturnFocus=trigger;specOldOverflow=document.body.style.overflow;
@@ -1155,7 +1154,7 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
     const item=it&&isvItemFor(it),data=it&&isvDataFor(it);if(!item)return;closeModals();if(specDialog.open)closeProductSpec();isvReturnFocus=trigger;isvOldOverflow=document.body.style.overflow;const details=it.specDetails||{},values=details.values||{},comparison=dialogSpecs(it);$('#isvTitle').textContent='ISV · '+it.sku;$('#isvName').textContent=it.name;
     const record={item:it,isv:item,comparison,values};
     const sectionEntries=data.sections.map(section=>{const start=columnNumber(section.start),end=columnNumber(section.end),fields=isvDisplayColumns(record).filter(column=>{const number=columnNumber(column);return column!=='AV'&&number>=start&&number<=end;});if(!fields.length)return null;const rows=fields.map(column=>{const linked=Object.entries(isvSpecMap(it)).find(([,map])=>map.column===column),status=isvCell(record,column),different=status.different;return '<tr data-isv-column="'+esc(column)+'"'+(linked?' data-spec-field="'+esc(linked[0])+'"':'')+'><td class="isv-column">'+esc(column)+'</td><th scope="row">'+esc(data.headers[column]||column)+'</th><td class="isv-value '+(different?'isv-different':'')+'">'+status.content+'</td></tr>';}).join(''),id='isv-section-'+section.id;return{id,title:section.title,color:section.color,html:'<section class="spec-section isv-section" id="'+esc(id)+'" style="--isv-section-color:'+esc(section.color)+'"><h3>'+esc(section.title)+'</h3><table class="spec-detail-table isv-table"><tbody>'+rows+'</tbody></table></section>'};}).filter(Boolean),sections=sectionEntries.map(entry=>entry.html).join('');
-    const body=$('#isvBody');body.innerHTML=dialogSectionNav(sectionEntries,'ISV categories')+'<p class="pv-help">'+esc(data.source.file)+' · '+esc(data.source.sheet)+' · row '+item.row+' · columns '+esc(data.source.columns)+' · Blank ISV cells may show a labeled Product Spec value.</p><div class="isv-legend"><span><i class="isv-swatch"></i>Different from Product Spec</span><span>Category colors follow the master workbook.</span></div>'+singleSpecMatches(it)+sections;document.body.style.overflow='hidden';isvDialog.showModal();body.scrollTop=0;setupDialogSectionNav(body);$('#closeISV').focus();
+    const body=$('#isvBody');body.innerHTML=dialogSectionNav(sectionEntries,'ISV categories')+'<p class="pv-help">'+esc(data.source.file)+' · '+esc(data.source.sheet)+' · row '+item.row+' · columns '+esc(data.source.columns)+' · Product Spec takes precedence for mapped fields.</p><div class="isv-legend"><span><i class="isv-swatch"></i>Different from Product Spec</span><span>Category colors follow the master workbook.</span></div>'+singleSpecMatches(it)+sections;document.body.style.overflow='hidden';isvDialog.showModal();body.scrollTop=0;setupDialogSectionNav(body);$('#closeISV').focus();
   }
   function restoreSpecFocus(){document.body.style.overflow=specOldOverflow;if(specReturnFocus?.isConnected)specReturnFocus.focus();specReturnFocus=null;}
   function closeProductSpec(){if(specDialog.open){specDialog.close();restoreSpecFocus();}}
@@ -1597,7 +1596,7 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
     catch (err) { if (err?.code !== "declined") toast("Couldn't export the file."); }
   });
 
-  // Each filter reads the chosen source directly; detail-view fallbacks do not qualify.
+  // Search uses the reconciled value and records its actual source.
   const ss={category:'',source:'product',filters:[],suggestions:[],index:-1,field:null,draft:null,shown:new Map(),keys:[],cache:null};
   const specInput=$('#specQuery'),specOptions=$('#specOptions');
   const specSources={product:'Product Spec',isv:'ISV'};
@@ -1630,38 +1629,37 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
     if(key==='wifi')return /\b(?:wi[ -]?fi|[25](?:\.4)?\s*ghz)\b/i.test(value)?'Yes':null;
     return /\bbluetooth\b|\b(?:sunny\s*fit|sunny\s*app|app|music)\b|speakers?\s*&\s*phone/i.test(value)?'Yes':null;
   }
-  function selectedSpecSource(item,key,source,comparison,values){
-    if(source==='product'){
-      const value=productSpecValue(key,comparison,values);
-      return {value,unit:declaredProductUnit(key,value)};
+  function selectedSpecSource(item,key,comparison,values){
+    const product=productSpecValue(key,comparison,values);
+    if(!missingSpec(product)){
+      return {value:product,unit:declaredProductUnit(key,product),origin:'product'};
     }
-    const column=isvSpecMap(item)[key]?.column;
-    const value=column?isvItemFor(item)?.fields[column]:null;
-    return {value,unit:column?declaredISVUnit(item,column,value):null};
+    const map=isvSpecMap(item)[key],value=map?isvItemFor(item)?.fields[map.column]:null;
+    return map&&isValidISVValue(key,value,map)?{value,unit:declaredISVUnit(item,map.column,value),origin:'isv'}:{value:null};
   }
-  function sourceSpec(item,{source,key},comparison,values){
+  function sourceSpec(item,{key},comparison,values){
     if(!categoryFields.get(item.category)?.has(key))return null;
     if(key==='deckWidth'){
       const width=specsOf(item).workoutAreaWidthIn;
-      if(source==='product'&&width>0)return {value:width+' in',measures:[[width]]};
+      if(width>0)return {value:width+' in',measures:[[width]],origin:'product'};
       for(const field of ['runningSurface','beltDimensions']){
-        const {value,unit}=selectedSpecSource(item,field,source,comparison,values);
+        const {value,unit,origin}=selectedSpecSource(item,field,comparison,values);
         for(const part of measurementParts(value,'length',unit)){
           if(part.numbers.length!==2)continue;
           const scaled=part.numbers.map((n,i)=>n*unitScale[part.units[i]][1]/25.4);
           const widthAxis=part.axes.indexOf('W'),small=Math.min(...scaled);
           const width=widthAxis>=0?scaled[widthAxis]:part.axes.every(axis=>!axis)&&small>=8&&small<=35&&Math.max(...scaled)>1.4*small?small:null;
-          if(width!=null)return {value:Number(width.toFixed(2))+' in',measures:[[width]]};
+          if(width!=null)return {value:Number(width.toFixed(2))+' in',measures:[[width]],origin};
         }
       }
       return null;
     }
-    const raw=selectedSpecSource(item,key,source,comparison,values);
+    const raw=selectedSpecSource(item,key,comparison,values),origin=raw.origin;
     let value=String(raw.value??'').trim();
     if(missingSpec(value))return null;
     if(key==='bluetooth'||key==='wifi'){
       value=connectivityValue(key,value);
-      return value?{value}:null;
+      return value?{value,origin}:null;
     }
     if(key==='inclineType'){
       if(/\bmanual\b/i.test(value)&&!/\b(?:auto(?:matic)?|motorized|electric)\b/i.test(value))value='Manual';
@@ -1669,12 +1667,12 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
       else if(/^(?:none|no|n)\b|\bfixed\b/i.test(value))value='Fixed / none';
     }
     const kind=specKind(key);
-    if(!kind)return {value:/^yes$/i.test(value)?'Yes':/^no$/i.test(value)?'No':value};
+    if(!kind)return {value:/^yes$/i.test(value)?'Yes':/^no$/i.test(value)?'No':value,origin};
     const measures=measurementParts(value,kind,raw.unit).map(part=>{
       const numbers=part.numbers.map((n,i)=>n*unitScale[part.units[i]][1]/specScale(kind));
       return part.axes.join('')==='WLH'?[numbers[1],numbers[0],numbers[2]]:numbers;
     });
-    return measures.length?{value,measures}:null;
+    return measures.length?{value,measures,origin}:null;
   }
   function specIndex(){
     if(ss.cache?.items===state.items&&ss.cache.category===ss.category)return ss.cache;
@@ -1684,7 +1682,7 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
     return ss.cache={items:state.items,category:ss.category,entries};
   }
   function indexedSpec(entry,field){
-    const id=filterId(field);
+    const id=field.key;
     if(!entry.specs.has(id))entry.specs.set(id,sourceSpec(entry.item,field,entry.comparison,entry.values));
     return entry.specs.get(id);
   }
@@ -1769,7 +1767,7 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
   }
   function specMatchText(item,field){
     const entry=ss.shown.get(item.id),spec=entry&&indexedSpec(entry,field);
-    return spec?esc(spec.value)+' <span class="source-badge">(From '+specSources[field.source]+')</span>':'—';
+    return spec?esc(spec.value)+' <span class="source-badge">(From '+specSources[spec.origin]+')</span>':'—';
   }
   function specMatchDetails(item){
     return ss.keys.map(field=>'<small class="ss-match">'+esc(filterLabels.get(field.key)+': ')+specMatchText(item,field)+'</small>').join('');
@@ -1835,7 +1833,13 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
   });
   specOptions.addEventListener('pointerdown',e=>{if(e.target.closest('[data-spec-option]'))e.preventDefault();});
   specOptions.addEventListener('click',e=>{const opt=e.target.closest('[data-spec-option]');if(opt)openSpecField(Number(opt.dataset.specOption));});
-  $('#specSource').addEventListener('change',e=>{ss.source=e.target.value;ss.index=-1;closeSpecField();updateSpecFilters();});
+  $('#specSource').addEventListener('change',e=>{
+    ss.source=e.target.value;
+    ss.filters=ss.filters.map(filter=>({...filter,source:ss.source}));
+    if(ss.field){ss.field={...ss.field,source:ss.source};$('#specFieldTitle').textContent=fieldTitle(ss.field);}
+    if(ss.draft)ss.draft={...ss.draft,source:ss.source};
+    ss.index=-1;updateSpecFilters();
+  });
   $('#specCategory').addEventListener('change',e=>{
     ss.category=e.target.value;ss.index=-1;specInput.value='';closeSpecField();
     state.compareSelected.clear();state.compareActive.clear();updateSpecFilters();
@@ -1920,7 +1924,7 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
       };
       const summary=catalogSpecs(item);
       rows.push([...columns.map(key=>details[key]??summary[key]),
-        ...keys.map(field=>indexedSpec(entry,field)?.value??'—')]);
+        ...keys.map(field=>{const spec=indexedSpec(entry,field);return spec?spec.value+' (From '+specSources[spec.origin]+')':'—';})]);
     }
     const criteria=[['Spec Search','Confirmed criteria'],['Category',ss.category||'All categories'],['Catalog source','All products'],
       ...ss.filters.map(filter=>[fieldTitle(filter),filter.target?filter.text:filter.value])];
