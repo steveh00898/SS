@@ -503,7 +503,7 @@ body.spec-view table.ptable{min-width:0}
 .usage-resource-counts b{color:var(--fg)}
 @media(max-width:720px){.usage-rank-row{grid-template-columns:110px minmax(0,1fr) 32px;gap:6px;font-size:12px}}
 
-#specSearchToggle{width:100%;text-align:left}
+#specSearchToggle{background:color-mix(in srgb,var(--surface) 88%,var(--fg));text-align:left}
 #specSearchToggle[aria-pressed=true]{border-color:var(--accent)}
 body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
 @media(min-width:721px){body[data-view="spec-search"] #specLegend{display:flex!important}}
@@ -567,7 +567,7 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
       </div>
     </div>
     <div class="compact-picker" id="sectionPicker"><button type="button" class="picker-trigger" aria-expanded="false" aria-controls="views" id="sectionTrigger">Catalog <span aria-hidden="true">›</span></button><nav class="views" id="views" aria-label="Sections"><button type="button" data-view="catalog" aria-pressed="true">Catalog</button><button type="button" data-view="practice" aria-pressed="false">Model Practice</button><button type="button" data-view="progress" aria-pressed="false">Progress</button><button type="button" data-view="accounts" aria-pressed="false" hidden>Accounts</button><button type="button" data-view="usage" aria-pressed="false" hidden>Public Usage Analysis</button></nav></div>
-    <button class="picker-trigger" id="specSearchToggle" type="button" aria-pressed="false">Spec Search <span aria-hidden="true">›</span></button>
+    <button class="picker-trigger" id="specSearchToggle" type="button" aria-pressed="false">Spec Search</button>
     <div class="head">
     <div>
       <h1 id="title">Product Catalog</h1>
