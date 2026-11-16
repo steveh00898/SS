@@ -2,6 +2,14 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-16: Codex — Expand Spec Search titles and dimensions
+
+- Changes: Find a field searches the displayed Product Spec and ISV headings and shows all matches. Mapped ISV fields use reconciled values, and ISV-only fields remain labeled ISV when switching sources. Dimensional fields accept optional Length, Width and Height values with shared units and tolerance.
+- Files: `app/index.html`, `tests/spec-search.spec.cjs`, `scripts/build-artifact.mjs`. Artifact CSS whitespace is minified to retain the existing page size limit.
+- Verification: Focused title, dimension, comparison and Artifact build checks passed. Full suite and publication results follow.
+- Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-16: Claude Code — git pull: Codex Site versions 64–75; Artifact version 34
 - Received: 24 Codex commits (c2e32e3..3647eb4), all with Agent trailers and HANDOFF entries: catalog search across all products, live Spec Search with Excel export and per-filter sources, ISV values reconciled to Product Spec values (shown with "(From Product Spec)"), Compare and sidebar style updates. build-artifact.mjs now minifies the page script with esbuild (devDependency). No catalog data changed. Test changes match the documented behavior (ISV/Product Spec reconciliation, deep-link source filter); new tests/spec-search.spec.cjs. Both runtime paths intact.
 - Tests: all 41 tests/*.spec.cjs passed with installed Chrome through a local preload; npm run screenshots passed.

@@ -61,6 +61,11 @@ once('    initPractice(artifactRuntime, db, user);','    await loadReference(db)
 const script=html.match(/<script>\r?\n([\s\S]*?)<\/script>/);
 if(!script)throw Error('Artifact script not found');
 const compiled=await transform(script[1],{loader:'js',minifyWhitespace:true,minifySyntax:true,lineLimit:120,legalComments:'inline'});
+const style=html.match(/<style>([\s\S]*?)<\/style>/i);
+if(style){
+  const css=await transform(style[1],{loader:'css',minifyWhitespace:true,legalComments:'inline'});
+  html=html.replace(style[0],()=>'<style>'+css.code.trim()+'</style>');
+}
 html=html.replace(script[0],()=>'<script>\n'+compiled.code.replace(/<\/script/gi,'<\\/script')+'</script>');
 
 await rm('dist/artifact',{recursive:true,force:true});
