@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-16: Codex — Publish retained filters and muted source notes
+
+- Public Site: version 68 from `ffaede27ac03029ba6fdc0decd77fbcdcaf6e667`, deployment `appgdep_6afb3d108f008191a62e8b5eb7327a36`. Public access retained.
+- Verification: All 41 suites and desktop and phone previews passed. Live Chrome confirmed repeated category changes retain the Bluetooth filter, Clear all appears first and clears it, and the ISV note is parenthetical and borderless.
+- Claude Artifact: awaiting Claude Code publication.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-16: Codex — Keep Spec Search filters across categories and soften source notes
 
 - Confirmed filters persist across category changes. Clear all appears at the start of the filter row and clears every filter and the search input.
