@@ -32,11 +32,18 @@ const read=f=>JSON.parse(fs.readFileSync(__dirname+'/../'+f,'utf8'));
  // Older forms: HORSEPOWER row split into peak/continuous; inline remote battery.
  const t723030=treadmills.find(r=>r.id==='sf-t723030').specDetails.values;assert.equal(t723030.peakHp,'2.5HP');assert.equal(t723030.continuousHp,'1.25HP');
  assert.equal(treadmills.find(r=>r.id==='sf-t722069').specDetails.values.remoteBattery,'CR2032/3V');
+ // Older forms answer YES/NO rows with checkbox controls (owner check 2026-11-17: SF-T7945 Bluetooth row 25 has NO ticked).
+ const bySku=s=>treadmills.find(r=>r.sku===s).specDetails;
+ assert.equal(bySku('SF-T7945').values.bluetooth,'No');assert.match(bySku('SF-T7945').evidence.bluetooth,/ \/ B25 \(checkbox\)$/);
+ assert.equal(bySku('SF-T7945').values.transportWheels,'Yes, Front');assert.equal(bySku('SF-T7945').values.deviceHolder,'No');
+ assert.equal(bySku('SF-T722051').values.bluetoothType,'SUNNY APP');assert.equal(bySku('SF-T722051').values.plugType,'Yes (plug)');
+ assert.equal(bySku('SF-T1407SMART').values.plugType,'No','an If-YES answer is dropped for No');
+ for(const r of treadmills)for(const v of Object.values(r.specDetails.values))assert(!/(Yes|No), /.test(v),'no repeated ticks: '+r.sku+' '+v);
  // Site: replaced once, other categories untouched.
  const {sql,request}=await require('./usage-fixture.cjs')();global.APP_CATALOG.push(...read('data/off-sunny-web/items.json'));
  await request('/api/items');
  const id='sf-t723030',other='sf-e322004';
- sql.prepare("DELETE FROM catalog_meta WHERE key='treadmill-master-template-20261116'").run();
+ sql.prepare("DELETE FROM catalog_meta WHERE key='treadmill-master-template-20261117'").run();
  sql.prepare("UPDATE items SET data=json_set(data,'$.specDetails',json(?)) WHERE id=?").run(JSON.stringify({version:1,values:{brand:'old'}}),id);
  const before=sql.prepare('SELECT data FROM items WHERE id=?').get(other).data;
  let rows=await(await request('/api/items')).json();

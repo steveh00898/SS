@@ -14,6 +14,8 @@ spec = importlib.util.spec_from_file_location('fill', ROOT / 'scripts/fill-maste
 fill = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(fill)
 b3, MODEL, N = fill.b3, fill.MODEL, fill.N
+import sys; sys.path.insert(0, str(ROOT / 'scripts'))
+from sheet_checkboxes import checkboxes
 MASTER = 'SF-T725095 Treadmill draft Spec dated 9.28.2026.xlsx'
 NOTE = 'Treadmill Product Spec rebuilt on 2026-11-16 on the SF-T725095 template: newest spec sheet first, then ISV 4.0, otherwise Unavailable.'
 
@@ -65,12 +67,12 @@ SECTIONS = [
   ('meterModel', 'Meter model (manual treadmills)', ['meter model']),
   ('battery', 'Meter battery (manual treadmills)', ['meter battery used', 'type of battery', 'battery type']),
   ('display', 'Console features', ['console feature', 'meter displays', 'meter display', 'specific meter display']),
-  ('bluetooth', 'Bluetooth', ['bluetooth connectivity']), ('bluetoothSpec', 'Bluetooth spec', ['bluetooth spec']),
+  ('bluetooth', 'Bluetooth', ['bluetooth connectivity', 'bluetooth compatible']), ('bluetoothSpec', 'Bluetooth spec', ['bluetooth spec']),
   ('bluetoothType', 'Bluetooth type', ['bluetooth type', 'bluetooth compatible: app']), ('ftms', 'FTMS', ['ftms']), ('wifi', 'Wi-Fi', ['wifi', 'wi-fi']),
   ('programs', 'Programs', ['program', 'programs', 'number of pre-programs']),
   ('fan', 'Fan / cooling', ['fan/cooling', 'fan']), ('speakers', 'Speakers / audio', ['speakers/audio', 'speaker']),
   ('usb', 'Mobile charging', ['mobile charging', 'usb charging']),
-  ('heartRate', 'Heart rate / pulse sensors', ['heart monitor/ pulse sensors', 'heart monitor/pulse sensors', 'hand pulse sensors']),
+  ('heartRate', 'Heart rate / pulse sensors', ['heart monitor/ pulse sensors', 'heart monitor/pulse sensors', 'hand pulse sensors', 'heart rate sensors']),
   ('wirelessHeartRate', 'Wireless heart rate', ['heart monitor/ pulse wireless', 'heart monitor/pulse wireless', 'wireless heart rate function']),
   ('bottleHolder', 'Water bottle holder', ['hydration', 'water bottle holder', 'bottle holder']),
   ('bottleHolderSize', 'Water bottle holder size', ['water/bottle holder size']),
@@ -115,6 +117,22 @@ def cell_text(text):
     return b3.clean(text)
 
 
+def checked_answer(boxes, cells):
+    """'No', 'Yes, Front', 'Yes (1 pcs 2032 lithium battery)': the ticked checkbox labels plus any detail text."""
+    ticked = list(dict.fromkeys(label.strip().capitalize() for label, on in boxes if on and label.strip()))  # stacked duplicate boxes
+    if not ticked or {'Yes', 'No'} <= set(ticked):  # nothing ticked, or both: no answer
+        return None
+    labels = {N(label) for label, _ in boxes}
+    detail = []
+    for _, text in cells:
+        if ticked == ['No'] and re.match(r'^\s*if\s+yes\b', str(text), re.I):
+            continue  # an "If YES, ..." answer does not apply to a No
+        t = re.sub(r'^\s*(?:detail\s*[:：]|if\s+yes\s*[,，:：]?)\s*', '', str(text).strip(), flags=re.I).strip()
+        if t and N(t) not in labels and N(t) not in ('na', 'n/a', 'none', 'detail') and cell_text(t):
+            detail.append(cell_text(t))
+    return ', '.join(ticked) + (' (' + '; '.join(detail) + ')' if detail else '')
+
+
 def rows_of(sheet):
     """(normalized label, label, value, cell) per row. New-layout sheets (an 'Item#' row) read column B only;
     older forms read columns B-E, join MIN/MAX cells, and split HORSEPOWER (Peak/Continuous) and
@@ -125,9 +143,12 @@ def rows_of(sheet):
     new_layout = any(first(r[0]) and N(r[0][1]) in ('item', 'itemno') for r in rows)
     out = []
     for r in rows:
-        if not first(r[0]) or len(r) < 2:
+        if not first(r[0]):
             continue
         label = r[0][1]; key = N(label)
+        rownum = re.search(r'\d+$', r[0][0]); boxes = (sheet.get('checks') or {}).get(int(rownum.group(0))) if rownum and not table else None
+        if len(r) < 2 and not boxes:  # a checkbox-only answer has no value cell
+            continue
         if table:
             cells = r[1:]
         elif new_layout:
@@ -150,7 +171,13 @@ def rows_of(sheet):
                     out.append(('batteryusedforremotecontrol', 'Battery used for remote control', cell_text(cells[i + 1][1]), cells[i + 1][0]))
                 elif i == 0 and cell_text(text):
                     lead = (addr, cell_text(text))
+            answer = boxes and checked_answer(boxes, [c for c in cells if not N(c[1]).startswith('batt')])
+            if answer: lead = (cells[0][0] + ' (checkbox)' if cells else r[0][0].replace('A', 'B', 1) + ' (checkbox)', answer)
             if lead: out.append((key, label, lead[1], lead[0]))
+            continue
+        answer = boxes and checked_answer(boxes, cells)
+        if answer:  # A ticked checkbox is the sheet's answer for the row.
+            out.append((key, label, answer, re.sub(r'^A', 'B', r[0][0]) + ' (checkbox)'))
             continue
         values = [(addr, cell_text(text)) for addr, text in cells]
         values = [(a, v) for a, v in values if v]
@@ -261,6 +288,9 @@ def main():
             entries = sorted(index.get(MODEL(r['sku']), []), key=lambda e: mtime.get(e[0], 0), reverse=True)
             latest = entries[0][0] if entries else None
             sheets = [s for rel, s in entries if rel == latest]
+            if latest and latest.lower().endswith('.xlsx'):
+                boxes = checkboxes(a.folder / latest)
+                for sheet in sheets: sheet['checks'] = boxes.get(sheet['name'], {})
             old = (r.get('specDetails') or {}).get('values', {})
             values, evidence, sources, row = {}, {}, [], {'id': r['id'], 'sku': r['sku'], 'sheet': latest,
                     'sheetModified': datetime.datetime.fromtimestamp(mtime[latest]).isoformat(timespec='minutes') if latest else None,
@@ -270,6 +300,8 @@ def main():
                 for sheet in sheets:
                     pair = find(rows_of(sheet), aliases)
                     v = tidy(key, pair[2], pair[1]) if pair and pair[2] else ''
+                    if key == 'bluetoothType' and pair and pair[3].endswith('(checkbox)'):  # the app named next to the Yes box
+                        m = re.fullmatch(r'Yes \((.+)\)', v); v = m.group(1) if m else ''
                     if v and usable(key, v):
                         found = (fill.with_units(key, v, pair[1]), latest + ' / ' + sheet['name'] + ' / ' + pair[3], latest, 'fromSheet'); break
                 if not found:
