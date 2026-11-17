@@ -4,7 +4,7 @@ const assert=require('node:assert/strict'),{chromium}=require('playwright');
  const day=new Date().toISOString().slice(0,10);
  for(const [id,kind,n] of [['sf-t724012','product',3],['sf-t724081','manual',2],['sf-rw5639smart','spec',4]])sql.prepare('INSERT INTO public_link_clicks VALUES (?,?,?,?)').run(day,id,kind,n);
  for(const [id,kind,hours] of [['sf-t724012','product',[12,13,14]],['sf-t724081','manual',[9,10]]])for(const hour of hours)sql.prepare('INSERT INTO public_telemetry_events (event_id,day,type,item_id,kind,value,recorded_at) VALUES (?,?,?,?,?,?,?)').run(id+hour,day,'link_click',id,kind,null,day+'T'+String(hour).padStart(2,'0')+':00:00.000Z');
- for(let i=0;i<105;i++)sql.prepare('INSERT INTO public_feedback VALUES (?,?,?)').run('comment-'+i,new Date(Date.now()-i*1000).toISOString(),i===0?'<script>unsafe</script>':'Feedback '+i);
+ for(let i=0;i<105;i++)sql.prepare('INSERT INTO public_feedback (id,created_at,comment) VALUES (?,?,?)').run('comment-'+i,new Date(Date.now()-i*1000).toISOString(),i===0?'<script>unsafe</script>':'Feedback '+i);
  assert.equal((await request('/api/public-usage/feedback')).status,403);
  assert.equal((await request('/api/public-usage/feedback?days=300',{user:'owner'})).status,400);
  const brief=await(await request('/api/public-usage',{user:'owner'})).json();

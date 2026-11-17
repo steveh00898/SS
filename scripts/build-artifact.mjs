@@ -4,9 +4,10 @@
 import {transform} from 'esbuild';
 import {createHash} from 'node:crypto';
 import {mkdir,readFile,rm,writeFile} from 'node:fs/promises';
+import {stampVersion} from './version.mjs';
 
 const CHUNK=200000; // Each database document must stay under the 256 KiB limit once serialized.
-let html=await readFile('app/index.html','utf8');
+let html=stampVersion(await readFile('app/index.html','utf8'));
 const take=name=>{
   const re=new RegExp('^  const '+name+'=(.*);(\\r?)$','m');
   const found=html.match(re);
