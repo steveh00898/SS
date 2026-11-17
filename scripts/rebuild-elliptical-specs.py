@@ -41,7 +41,7 @@ aliases = {
     'resistanceType':['resistance type','type of resistance','tension resistance type'],
     'driveResistanceSystem':['drive mechanism','chain belt','drive system'],
     'latex':['contained latex rubber','contain latex','contained latex','latex'],
-    'pedalBothDirections':['can be pedaled both directions','dual action can pedal both forward and backward','can pedal both forward and backward','dual action'],
+    'pedalBothDirections':['can be pedaled both directions','dual action can pedal both forward and backward','can pedal both forward and backward'],
     'footStraps':['adjustable foot straps','adjustable pedal straps'],
     'stride':['stride length','stride'],
     'stepHeightMax':['step height step to floor max','max step height','step height max'],
@@ -123,7 +123,7 @@ def usable(field,value,label=''):
         value+=' lb'
     return t.fill.with_units(field,value,label)
 
-def cell_rows(entry, conflicts, unmapped):
+def cell_rows(entry, conflicts, unmapped, recumbent=False):
     section = 'general'
     best = {}
     new_layout=any(normalized(r[0][1]) in {'item','itemno'} for r in entry['rows'] if r[0][0].startswith('A'))
@@ -134,7 +134,9 @@ def cell_rows(entry, conflicts, unmapped):
         lower=normalized(label)
         if lower.startswith(('ellipticalstepperminicycle','ellipticalstepper')) or lower=='elliptical':
             section='elliptical'
-        elif lower in ('recumbentbike','treadmill','rower','bike','spinbike','strength','weightbench'):
+        elif lower=='recumbentbike':
+            section='recumbent'
+        elif lower in ('treadmill','rower','bike','spinbike','strength','weightbench'):
             section='other'
         key=field_for(label)
         boxes=entry['checks'].get(address[1:],[]) if address.startswith('A') else []
@@ -158,7 +160,10 @@ def cell_rows(entry, conflicts, unmapped):
         if polarity=={'no'}:
             source_row=[row[0]]
         else:
-            source_row=[row[0],*((a,x) for a,x in row[1:] if not boxes or not re.match(r'^\s*(?:detail\s*[:：]\s*)?e\.g\.',x,re.I))]
+            # Rejected detail text does not invalidate a legible ticked answer.
+            source_row=[row[0],*((a,x) for a,x in row[1:] if not boxes or
+                        (not re.match(r'^\s*(?:detail\s*[:：]\s*)?e\.g\.',x,re.I) and
+                         not t.CJK.search(unicodedata.normalize('NFKC',x))))]
         parsed=t.rows_of({'rows':([marker] if marker else [])+[source_row],
                           'checks':{int(address[1:]):boxes} if address.startswith('A') else {}})
         if key=='features' and len(source_row)>1 and not boxes:
@@ -166,7 +171,7 @@ def cell_rows(entry, conflicts, unmapped):
             # "can be placed under the desk ...", so read the dedicated feature cell as prose.
             cell,text=source_row[1]
             parsed=[(lower,label,text,cell)]
-        if key=='stepHeightRange' and section!='other':
+        if key=='stepHeightRange' and section in ('general','elliptical'):
             pending=None
             for cell,text in row[1:]:
                 axis=re.match(r'^\s*(min|max)\s*[:：]\s*(.*)$',text,re.I)
@@ -182,7 +187,9 @@ def cell_rows(entry, conflicts, unmapped):
             continue
         for _, actual_label,value,cell in parsed:
             actual_key=field_for(actual_label) or key
-            if not actual_key or section=='other' and actual_key not in {'features','certification','loadingQty'}:
+            recumbent_motor=recumbent and section=='recumbent' and actual_key=='motorized'
+            if not actual_key or (section in ('recumbent','other') and
+                                  not recumbent_motor and actual_key not in {'features','certification','loadingQty'}):
                 if normalized(actual_label) not in ignored:
                     unmapped.append({'field':actual_label,'cell':cell,'value':value,'section':section})
                 continue
@@ -194,7 +201,8 @@ def cell_rows(entry, conflicts, unmapped):
                 v=match[1] if match else v if identity(v)=='No' else None
             if not v:
                 continue
-            score=(5 if actual_key=='productWeight' and lower.startswith('productweight') else
+            score=(1 if recumbent_motor else
+                   5 if actual_key=='productWeight' and lower.startswith('productweight') else
                    4 if actual_key=='motorized' and section=='elliptical' else
                    3 if lower==normalized(fields[actual_key][1]) else 2)
             if actual_key not in best or score>best[actual_key][0]:
@@ -216,7 +224,8 @@ for item in d['catalog']:
            'contradictions':[],'unmapped':[],'excludedChangeNotices':[x['file'] for x in d['files'].get(model,[]) if x['file'].lower().startswith('ecn')]}
     values,evidence,selected={},{},{}
     for s in sheets:
-        for field,(_,value,cell) in cell_rows(s,audit['contradictions'],audit['unmapped']).items():
+        for field,(_,value,cell) in cell_rows(s,audit['contradictions'],audit['unmapped'],
+                                            bool(re.search(r'\brecumbent\b',item['name'],re.I))).items():
             selected.setdefault(field,(value,s['file']+' / '+s['name']+' / '+cell))
     shf=isv_by_model.get(model,[])
     if len(shf)>1:

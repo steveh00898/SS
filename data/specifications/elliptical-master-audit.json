@@ -841,7 +841,7 @@
      "field": "CAN BE PEDALED BOTH DIRECTIONS:",
      "cell": "B69 (checkbox)",
      "value": "No",
-     "section": "other"
+     "section": "recumbent"
     }
    ],
    "excludedChangeNotices": [],
@@ -1289,7 +1289,7 @@
      "field": "MOTORIZED:",
      "cell": "B55 (checkbox)",
      "value": "No",
-     "section": "other"
+     "section": "recumbent"
     }
    ],
    "excludedChangeNotices": [],
@@ -1486,7 +1486,7 @@
      "field": "MOTORIZED:",
      "cell": "B63 (checkbox)",
      "value": "No",
-     "section": "other"
+     "section": "recumbent"
     },
     {
      "field": "SLIDE RAIL LENGTH:",
@@ -1919,7 +1919,7 @@
      "field": "MOTORIZED:",
      "cell": "B66 (checkbox)",
      "value": "No",
-     "section": "other"
+     "section": "recumbent"
     },
     {
      "field": "SLIDE RAIL LENGTH:",
@@ -2593,13 +2593,7 @@
      "field": "INSEAM:",
      "cell": "B64",
      "value": "760mm/29.9 inch",
-     "section": "other"
-    },
-    {
-     "field": "MOTORIZED:",
-     "cell": "B65 (checkbox)",
-     "value": "No",
-     "section": "other"
+     "section": "recumbent"
     },
     {
      "field": "SLIDE RAIL LENGTH:",
@@ -2730,6 +2724,7 @@
     "resistanceType",
     "speedResistanceLevels",
     "magnets",
+    "motorized",
     "driveResistanceSystem",
     "beltDimensions",
     "bearingSize",
@@ -2757,7 +2752,6 @@
    "unavailable": [
     "pfas",
     "maxUserHeight",
-    "motorized",
     "crankPullerSize",
     "crankLength",
     "plateDiameter",
@@ -2850,25 +2844,19 @@
      "field": "INSEAM:",
      "cell": "B62",
      "value": "740MM/29.1 INCH",
-     "section": "other"
-    },
-    {
-     "field": "MOTORIZED:",
-     "cell": "B63 (checkbox)",
-     "value": "No",
-     "section": "other"
+     "section": "recumbent"
     },
     {
      "field": "STEP HEIGHT(STEP TO FLOOR):",
      "cell": "B64",
      "value": "209.25MM/8.2 INCH",
-     "section": "other"
+     "section": "recumbent"
     },
     {
      "field": "SEAT HEIGHT:",
      "cell": "B65",
      "value": "510MM/20.1 INCH",
-     "section": "other"
+     "section": "recumbent"
     }
    ],
    "excludedChangeNotices": [],
@@ -2894,6 +2882,7 @@
     "resistanceType": "Magnetic",
     "speedResistanceLevels": "8LEVELS",
     "magnets": "4PCS/ 1300 Gauss",
+    "motorized": "No",
     "driveResistanceSystem": "Belt",
     "beltDimensions": "350 PJ6",
     "bearingSize": "6001",
@@ -2933,6 +2922,7 @@
     "resistanceType": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B20",
     "speedResistanceLevels": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B21",
     "magnets": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B23",
+    "motorized": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B63 (checkbox)",
     "driveResistanceSystem": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B32 (checkbox)",
     "beltDimensions": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B38",
     "bearingSize": "Spec Sheet for SF-RBE420035 01172023.xlsx / SF-RBE420035 / B37",
@@ -3061,25 +3051,19 @@
      "field": "INSEAM:",
      "cell": "B62",
      "value": "765MM/30.1 INCH",
-     "section": "other"
-    },
-    {
-     "field": "MOTORIZED:",
-     "cell": "B63 (checkbox)",
-     "value": "Yes",
-     "section": "other"
+     "section": "recumbent"
     },
     {
      "field": "STEP HEIGHT(STEP TO FLOOR):",
      "cell": "B64",
      "value": "249.64MM/9.8 INCH",
-     "section": "other"
+     "section": "recumbent"
     },
     {
      "field": "SEAT HEIGHT:",
      "cell": "B65",
      "value": "570MM/22.4 INCH",
-     "section": "other"
+     "section": "recumbent"
     }
    ],
    "excludedChangeNotices": [],
@@ -3521,7 +3505,7 @@
      "field": "RECUMBENT BIKE:",
      "cell": "B64 (checkbox)",
      "value": "No",
-     "section": "other"
+     "section": "recumbent"
     },
     {
      "field": "SLIDE RAIL LENGTH:",
@@ -3971,7 +3955,7 @@
      "field": "MOTORIZED:",
      "cell": "B69 (checkbox)",
      "value": "Yes",
-     "section": "other"
+     "section": "recumbent"
     }
    ],
    "excludedChangeNotices": [],
@@ -4619,6 +4603,12 @@
      "cell": "B10 (checkbox)",
      "value": "Yes",
      "section": "general"
+    },
+    {
+     "field": "DUAL ACTION?",
+     "cell": "B19 (checkbox)",
+     "value": "Yes",
+     "section": "general"
     }
    ],
    "excludedChangeNotices": [],
@@ -4662,7 +4652,7 @@
     "maxUserWeightLb": "E3875 ELLIPTICAL Specification.xlsx / Sheet1 / B14",
     "resistanceType": "E3875 ELLIPTICAL Specification.xlsx / Sheet1 / B9",
     "speedResistanceLevels": "E3875 ELLIPTICAL Specification.xlsx / Sheet1 / B8",
-    "pedalBothDirections": "E3875 ELLIPTICAL Specification.xlsx / Sheet1 / B19 (checkbox)",
+    "pedalBothDirections": "E3875 ELLIPTICAL Specification.xlsx / Sheet1 / B20 (checkbox)",
     "stride": "E3875 ELLIPTICAL Specification.xlsx / Sheet1 / B21",
     "transportWheels": "E3875 ELLIPTICAL Specification.xlsx / Sheet1 / B16 (checkbox)",
     "battery": "E3875 ELLIPTICAL Specification.xlsx / Sheet1 / B12",
@@ -7370,6 +7360,12 @@
      "cell": "B10 (checkbox)",
      "value": "Yes",
      "section": "general"
+    },
+    {
+     "field": "DUAL ACTION?",
+     "cell": "B19 (checkbox)",
+     "value": "No",
+     "section": "general"
     }
    ],
    "excludedChangeNotices": [
@@ -7416,7 +7412,7 @@
     "resistanceType": "SF-E3810 specification sheet.xlsx / Sheet1 / B9",
     "speedResistanceLevels": "SF-E3810 specification sheet.xlsx / Sheet1 / B8",
     "driveResistanceSystem": "SF-E3810 specification sheet.xlsx / Sheet1 / B18 (checkbox)",
-    "pedalBothDirections": "SF-E3810 specification sheet.xlsx / Sheet1 / B19 (checkbox)",
+    "pedalBothDirections": "SF-E3810 specification sheet.xlsx / Sheet1 / B20 (checkbox)",
     "stride": "SF-E3810 specification sheet.xlsx / Sheet1 / B21",
     "transportWheels": "SF-E3810 specification sheet.xlsx / Sheet1 / B16 (checkbox)",
     "battery": "SF-E3810 specification sheet.xlsx / Sheet1 / B12",
@@ -7535,6 +7531,12 @@
      "cell": "B12 (checkbox)",
      "value": "Yes",
      "section": "general"
+    },
+    {
+     "field": "DUAL ACTION?",
+     "cell": "B21 (checkbox)",
+     "value": "No",
+     "section": "general"
     }
    ],
    "excludedChangeNotices": [],
@@ -7582,7 +7584,7 @@
     "resistanceType": "SF-E3865 specification sheet.xlsx / Sheet1 / B11",
     "speedResistanceLevels": "SF-E3865 specification sheet.xlsx / Sheet1 / B10",
     "driveResistanceSystem": "SF-E3865 specification sheet.xlsx / Sheet1 / B20 (checkbox)",
-    "pedalBothDirections": "SF-E3865 specification sheet.xlsx / Sheet1 / B21 (checkbox)",
+    "pedalBothDirections": "SF-E3865 specification sheet.xlsx / Sheet1 / B22 (checkbox)",
     "stride": "SF-E3865 specification sheet.xlsx / Sheet1 / B23",
     "transportWheels": "SF-E3865 specification sheet.xlsx / Sheet1 / B18 (checkbox)",
     "battery": "SF-E3865 specification sheet.xlsx / Sheet1 / B14",
@@ -9418,6 +9420,12 @@
      "section": "general"
     },
     {
+     "field": "DUAL ACTION?",
+     "cell": "B21 (checkbox)",
+     "value": "No",
+     "section": "general"
+    },
+    {
      "field": "VERTICAL CLIMB:",
      "cell": "B24",
      "value": "7 IN",
@@ -9473,7 +9481,7 @@
     "resistanceType": "SF-E3862 specification sheet.xlsx / Sheet1 / B11",
     "speedResistanceLevels": "SF-E3862 specification sheet.xlsx / Sheet1 / B10",
     "driveResistanceSystem": "SF-E3862 specification sheet.xlsx / Sheet1 / B20 (checkbox)",
-    "pedalBothDirections": "SF-E3862 specification sheet.xlsx / Sheet1 / B21 (checkbox)",
+    "pedalBothDirections": "SF-E3862 specification sheet.xlsx / Sheet1 / B22 (checkbox)",
     "stride": "SF-E3862 specification sheet.xlsx / Sheet1 / B23",
     "transportWheels": "SF-E3862 specification sheet.xlsx / Sheet1 / B18 (checkbox)",
     "battery": "SF-E3862 specification sheet.xlsx / Sheet1 / B14",
@@ -9825,7 +9833,7 @@
      "field": "MOTORIZED:",
      "cell": "B52 (checkbox)",
      "value": "No",
-     "section": "other"
+     "section": "recumbent"
     }
    ],
    "excludedChangeNotices": [],
@@ -10179,7 +10187,7 @@
      "field": "MOTORIZED:",
      "cell": "B54 (checkbox)",
      "value": "No",
-     "section": "other"
+     "section": "recumbent"
     }
    ],
    "excludedChangeNotices": [],
@@ -14022,6 +14030,7 @@
     "stride",
     "transportWheels",
     "meterModel",
+    "battery",
     "screenType",
     "screenSize",
     "display",
@@ -14048,7 +14057,6 @@
     "stepHeightMin",
     "controlOnHandlebar",
     "meterSize",
-    "battery",
     "bluetoothSpec",
     "appMetrics",
     "appControls",
@@ -14079,8 +14087,8 @@
     {
      "field": "battery",
      "old": "2个 LR6 AA UM-3 1.5V",
-     "new": null,
-     "evidence": null
+     "new": "Yes",
+     "evidence": "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / B25 (checkbox)"
     }
    ],
    "flips": [],
@@ -14165,6 +14173,7 @@
     "stride": "219.5 mm / 8.6 inch",
     "transportWheels": "Yes, Front",
     "meterModel": "SF-E3919 SMART",
+    "battery": "Yes",
     "screenType": "LCD",
     "screenSize": "82*44 mm/ 3.2*1.7 inch",
     "display": "SPEED,TIME,DISTANCE,CALORISES,PULSE",
@@ -14206,6 +14215,7 @@
     "stride": "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / B60",
     "transportWheels": "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / B30 (checkbox)",
     "meterModel": "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / B34",
+    "battery": "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / B25 (checkbox)",
     "screenType": "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / B18",
     "screenSize": "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / B17",
     "display": "SF-E3919 SMART UPDATE SPEC 05.11.2023.xlsx / Sheet1 / B40",

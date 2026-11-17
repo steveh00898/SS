@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-17: Codex — Correct missed elliptical checkbox answers
+
+- The workbook in the screenshot explicitly names SF-E3919 SMART. That exact model already records Yes for Bluetooth, from Sheet1 B31. SF-E3919 is a separate record with no matching sheet and a blank SHF Bluetooth field.
+- Audited the checked rows in the newest spec sheets for all 87 ellipticals. Filled SF-E3919SMART Meter battery with Yes (B25) and SF-RBE420035 Motorized with No (B63). Pointed four pedal-direction answers to the actual forward/backward checkbox instead of the separate Dual Action row. Both-ticked answers stay Unavailable.
+- The rebuild retains a readable checkbox answer when its detail must be excluded and handles the recumbent checkbox section for an explicitly recumbent model. Final audit totals are 1,929 sheet values, 666 ISV, 3,321 Unavailable. The one-time Worker patch updates only the six affected fields and preserves later edits.
+- Claude Artifact: awaiting Claude Code sync. Practice data: not exported (owner decision).
+
 ## 2026-11-17: Codex — Publish the elliptical master rebuild
 
 - Site: version 79 from GitHub commit `58c2dc0f3ccd6cdca564dffa939d736b05dac1f8`, deployment `appgdep_6afca5005c6c8191b14789ebf5ab3c9b`. Existing public access retained. This release also delivers the previously pending treadmill and version-stamp changes.
