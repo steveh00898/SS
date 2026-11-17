@@ -5,14 +5,16 @@ const read=f=>JSON.parse(fs.readFileSync(__dirname+'/../'+f,'utf8'));
  const audit=read('data/specifications/master-fill-audit.json'),archive=read('data/off-sunny-web/items.json');
  const current=fs.readdirSync(__dirname+'/../data').filter(f=>f.endsWith('.json')).flatMap(f=>read('data/'+f)),all=[...current,...archive];
  assert(audit.filled.length>600,'filled '+audit.filled.length);
- for(const f of audit.filled){const r=all.find(x=>x.id===f.id);assert.equal(r.specDetails.values[f.field],f.value);assert.equal(r.specDetails.evidence[f.field],f.evidence);
+ // Treadmills were rebuilt on the SF-T725095 template on 2026-11-16 (tests/treadmill-master.spec.cjs); this fill is checked for the other categories.
+ const rebuilt=id=>all.find(x=>x.id===id)?.category==='Treadmills';
+ for(const f of audit.filled){if(rebuilt(f.id))continue;const r=all.find(x=>x.id===f.id);assert.equal(r.specDetails.values[f.field],f.value);assert.equal(r.specDetails.evidence[f.field],f.evidence);
   if(f.source==='ISV 4.0')assert.match(f.evidence,/^ISV 4\.0 \/ SHF \/ [A-Z]+\d+$/);else assert(!f.evidence.startsWith('ISV'))}
- for(const c of audit.conflicts){const r=all.find(x=>x.id===c.id);assert.equal(r.specDetails.values[c.field],c.app,'app value kept: '+c.sku)}
- for(const u of audit.unavailable){const r=all.find(x=>x.sku===u.sku);const v=r.specDetails?.values?.[u.field];assert(!v||!String(v).trim()||/^(unavailable|not provided|see the right table)$/i.test(v),'still empty: '+u.sku+' '+u.field)}
+ for(const c of audit.conflicts){if(rebuilt(c.id))continue;const r=all.find(x=>x.id===c.id);assert.equal(r.specDetails.values[c.field],c.app,'app value kept: '+c.sku)}
+ for(const u of audit.unavailable){const r=all.find(x=>x.sku===u.sku);if(r.category==='Treadmills')continue;const v=r.specDetails?.values?.[u.field];assert(!v||!String(v).trim()||/^(unavailable|not provided|see the right table)$/i.test(v),'still empty: '+u.sku+' '+u.field)}
  for(const f of audit.filled.filter(f=>/Dimensions$/.test(f.field)))assert((f.value.match(/\d+(?:\.\d+)?/g)||[]).length>=2,'no empty template: '+f.sku);
  // Site upgrade: fills an empty field, keeps an app edit, runs once.
  const {sql,request}=await require('./usage-fixture.cjs')();global.APP_CATALOG.push(...archive);
- const target=audit.filled.find(f=>f.source==='spec sheet'&&all.find(x=>x.id===f.id).catalogSource==='off-sunny-web'),kept=audit.filled.find(f=>f.id!==target.id&&all.find(x=>x.id===f.id).catalogSource==='off-sunny-web');
+ const target=audit.filled.find(f=>f.source==='spec sheet'&&!rebuilt(f.id)&&all.find(x=>x.id===f.id).catalogSource==='off-sunny-web'),kept=audit.filled.find(f=>f.id!==target.id&&!rebuilt(f.id)&&all.find(x=>x.id===f.id).catalogSource==='off-sunny-web');
  await request('/api/items');
  sql.prepare("DELETE FROM catalog_meta WHERE key='master-spec-fill-20261109'").run();
  sql.prepare('UPDATE items SET data=json_remove(data,?) WHERE id=?').run('$.specDetails.values.'+target.field,target.id);

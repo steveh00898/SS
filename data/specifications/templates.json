@@ -24,16 +24,16 @@
           "Contains latex / rubber"
         ],
         [
+          "pfas",
+          "Contains PFAS chemicals"
+        ],
+        [
           "shippingWeight",
           "Gross weight (shipping)"
         ],
         [
           "productWeight",
           "Net weight (product)"
-        ],
-        [
-          "flywheelWeight",
-          "Flywheel weight"
         ],
         [
           "keyDimensions",
@@ -52,12 +52,36 @@
           "Floor footprint (L × W)"
         ],
         [
-          "maxUserWeightLb",
-          "Max. user weight"
+          "treadmillType",
+          "Treadmill type"
         ],
         [
-          "maxUserHeight",
-          "Max. user height"
+          "frontSupportFrame",
+          "Front support frame"
+        ],
+        [
+          "baseFrame",
+          "Base frame"
+        ],
+        [
+          "handlebarHeight",
+          "Height from ground to top of handlebar"
+        ],
+        [
+          "foldable",
+          "Folding"
+        ],
+        [
+          "storage",
+          "Storage type"
+        ],
+        [
+          "controlOnHandlebar",
+          "Control on handlebar"
+        ],
+        [
+          "consoleWidth",
+          "Console width"
         ],
         [
           "transportWheels",
@@ -69,92 +93,16 @@
       "title": "Performance and adjustments",
       "fields": [
         [
-          "resistanceType",
-          "Resistance type"
+          "beltThickness",
+          "Belt thickness"
         ],
         [
-          "magnets",
-          "Number of magnets & pull force per magnet"
+          "deckRail",
+          "Deck rail"
         ],
         [
-          "treadmillType",
-          "Walking / running treadmill"
-        ],
-        [
-          "speedRange",
-          "Speed range"
-        ],
-        [
-          "inclineType",
-          "Incline type"
-        ],
-        [
-          "inclineLevels",
-          "Incline levels"
-        ],
-        [
-          "inclineDegrees",
-          "Incline degrees"
-        ],
-        [
-          "inclineRange",
-          "Incline %"
-        ],
-        [
-          "electrical",
-          "Voltage"
-        ],
-        [
-          "watts",
-          "Watts"
-        ],
-        [
-          "amps",
-          "Ampere (A)"
-        ],
-        [
-          "motorType",
-          "Motor type"
-        ],
-        [
-          "peakHp",
-          "Horsepower – peak"
-        ],
-        [
-          "continuousHp",
-          "Horsepower – continuous"
-        ],
-        [
-          "beltDimensions",
-          "Running belt measurement"
-        ],
-        [
-          "runningSurface",
-          "Running surface measurement"
-        ],
-        [
-          "quickButtons",
-          "Quick speed / incline buttons"
-        ],
-        [
-          "softDrop",
-          "Soft drop"
-        ],
-        [
-          "shockAbsorption",
-          "Shock absorption"
-        ],
-        [
-          "motorized",
-          "Motorized"
-        ],
-        [
-          "foldable",
-          "Foldable"
-        ],
-        [
-          "storage",
-          "Storage"
+          "deckThickness",
+          "Deck thickness"
         ],
         [
           "deckType",
@@ -162,15 +110,79 @@
         ],
         [
           "stepOnHeight",
-          "Deck to floor height"
+          "Step-on height"
+        ],
+        [
+          "softDrop",
+          "Soft drop"
+        ],
+        [
+          "cushionType",
+          "Cushion type"
+        ],
+        [
+          "shockAbsorption",
+          "Shock absorption"
+        ],
+        [
+          "runningSurface",
+          "Running space size (W × L)"
+        ],
+        [
+          "beltDimensions",
+          "Running belt size (W × L)"
         ],
         [
           "rollerSize",
           "Roller size"
         ],
         [
-          "handlebarHeight",
-          "Height from ground to top of handlebar"
+          "motorized",
+          "Motorized"
+        ],
+        [
+          "continuousHp",
+          "Horsepower – continuous"
+        ],
+        [
+          "peakHp",
+          "Horsepower – peak"
+        ],
+        [
+          "motorType",
+          "Motor type"
+        ],
+        [
+          "maxUserWeightLb",
+          "Weight capacity"
+        ],
+        [
+          "inclineType",
+          "Incline type"
+        ],
+        [
+          "inclineRange",
+          "Incline %"
+        ],
+        [
+          "inclineDegrees",
+          "Incline degrees"
+        ],
+        [
+          "inclineLevels",
+          "Incline levels"
+        ],
+        [
+          "quickInclineButtons",
+          "Instant incline buttons"
+        ],
+        [
+          "speedRange",
+          "Speed range"
+        ],
+        [
+          "quickSpeedButtons",
+          "Instant speed buttons"
         ]
       ]
     },
@@ -178,44 +190,36 @@
       "title": "Console and connectivity",
       "fields": [
         [
-          "screenSize",
-          "Screen size"
-        ],
-        [
           "screenType",
-          "Screen type"
+          "Screen / display"
         ],
         [
-          "programs",
-          "Number of pre-programs"
+          "screenSize",
+          "Screen / display size"
+        ],
+        [
+          "meterModel",
+          "Meter model (manual treadmills)"
         ],
         [
           "battery",
-          "Battery"
+          "Meter battery (manual treadmills)"
         ],
         [
-          "deviceHolder",
-          "Device holder"
-        ],
-        [
-          "bottleHolder",
-          "Bottle holder"
-        ],
-        [
-          "heartRate",
-          "Heart rate sensors"
-        ],
-        [
-          "wirelessHeartRate",
-          "Wireless heart rate function"
+          "display",
+          "Console features"
         ],
         [
           "bluetooth",
-          "Bluetooth compatible"
+          "Bluetooth"
         ],
         [
-          "bluetoothApp",
-          "Compatible with SUNNY app"
+          "bluetoothSpec",
+          "Bluetooth spec"
+        ],
+        [
+          "bluetoothType",
+          "Bluetooth type"
         ],
         [
           "ftms",
@@ -226,40 +230,72 @@
           "Wi-Fi"
         ],
         [
-          "plugType",
-          "Plug or adapter"
-        ],
-        [
-          "powerCord",
-          "Length of power cord"
-        ],
-        [
-          "display",
-          "Meter display"
-        ],
-        [
-          "speakers",
-          "Speaker"
-        ],
-        [
-          "usb",
-          "USB charging"
-        ],
-        [
-          "remoteControl",
-          "Remote control"
-        ],
-        [
-          "controlOnHandlebar",
-          "Control on handlebar"
+          "programs",
+          "Programs"
         ],
         [
           "fan",
           "Fan / cooling"
         ],
         [
+          "speakers",
+          "Speakers / audio"
+        ],
+        [
+          "usb",
+          "Mobile charging"
+        ],
+        [
+          "heartRate",
+          "Heart rate / pulse sensors"
+        ],
+        [
+          "wirelessHeartRate",
+          "Wireless heart rate"
+        ],
+        [
+          "bottleHolder",
+          "Water bottle holder"
+        ],
+        [
+          "bottleHolderSize",
+          "Water bottle holder size"
+        ],
+        [
+          "plugType",
+          "Plug or adapter"
+        ],
+        [
+          "powerCord",
+          "Power cord length"
+        ],
+        [
+          "electrical",
+          "Electrical requirement"
+        ],
+        [
+          "watts",
+          "Watts"
+        ],
+        [
+          "amps",
+          "Ampere (A)"
+        ],
+        [
           "energySaver",
           "Energy saver mode"
+        ],
+        [
+          "deviceHolder",
+          "Tablet holder / rack"
+        ],
+        [
+          "remoteControl",
+          "Remote control"
+        ],
+        [
+          "remoteBattery",
+          "Remote control battery"
         ]
       ]
     },
@@ -272,7 +308,7 @@
         ],
         [
           "certification",
-          "Tests done / certifications"
+          "Certification"
         ]
       ]
     }
