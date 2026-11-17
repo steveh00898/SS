@@ -2,6 +2,15 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-17: Claude Code — treadmills on the SF-T725095 master template; Spec Search answers add up; Artifact version 36
+- Received first: nothing new from Codex since b08a73f.
+- Owner request: (1) every treadmill's Product Spec follows "SF-T725095 Treadmill draft Spec dated 9.28.2026.xlsx" (73 fields, master order); each value from the model's newest-modified spec sheet, else ISV 4.0, else left empty (shown as Unavailable). (2) Spec Search answers must add up to the category total (Wi-Fi showed Yes 21 + No 3 of 109).
+- Changes: scripts/rebuild-treadmill-specs.py rebuilds the 109 treadmills (82 have a sheet; 3,262 values from sheets, 1,104 from ISV, 3,591 field slots Unavailable; 185 values replaced, 31 cleared — all listed in data/specifications/treadmill-master-audit.json). Template in data/specifications/templates.json and the app constant. Spec Search: a product with no value lands in an "Unavailable" answer and every answer shows its count (treadmill Wi-Fi: Yes 23 + No 3 + Unavailable 83 = 109); this applies to every field and category. 8730/8730G and 25 other models have no spec sheet, so only ISV values remain.
+- Site: server/worker.js rebuildTreadmillSpecs replaces stored treadmill specDetails once (catalog_meta key treadmill-master-template-20261116), after fillAuditedSpecGaps. Other categories untouched.
+- Tests: new tests/treadmill-master.spec.cjs and tests/spec-search-totals.spec.cjs; spec-search, treadmill-specifications, v2-spec-details and master-spec-fill updated for the rebuilt treadmills. All 44 tests/*.spec.cjs passed with installed Chrome through a local preload; screenshots checked at desktop and phone width.
+- Claude Artifact: 109 treadmill items rewritten (pinned writes) and read back equal to the repo; PUBLISHED version 36 (id 1794934752-f941) from dist/artifact/index.html built at de748e2; reference documents unchanged.
+- Private Site: not published. Codex to publish from de748e2 (the one-time treadmill replace runs on first load).
+- Practice data: not exported (owner decision).
 ## 2026-11-16: Claude Code — version stamp in the sidebar and feedback; Artifact version 35
 - Received first: b08a73f and d0f049f (Codex: expanded Spec Search fields and separate dimension inputs; Site version 77), with trailers and HANDOFF entries.
 - Changes (owner decision, brief agreed with the owner): the sidebar bottom shows "v<commit date> · <short commit> · Site|Artifact", e.g. "v2026.11.16 · 4ff3ce5 · Artifact". scripts/version.mjs reads `git log -1` at build time; scripts/build.mjs and scripts/build-artifact.mjs stamp the APP_VERSION constant in app/index.html (empty in the source, shown as "v dev" in previews). Tooltip shows the commit time in the viewer's local time; clicking copies the stamp ("Version copied"). New feedback sends the stamp; migration 0006 adds public_feedback.version (nullable, max 80 characters checked in the Worker); the admin feedback lists show it under the time. On phones the stamp sits below the Categories button.
