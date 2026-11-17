@@ -2,6 +2,14 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-17: Codex — Publish the elliptical master rebuild
+
+- Site: version 79 from GitHub commit `58c2dc0f3ccd6cdca564dffa939d736b05dac1f8`, deployment `appgdep_6afca5005c6c8191b14789ebf5ab3c9b`. Existing public access retained. This release also delivers the previously pending treadmill and version-stamp changes.
+- Verification: All 45 suites passed, including the revised legacy heading expectation, all 68 elliptical answer partitions, checkbox evidence and the one-time Worker migration. Screenshots rendered on desktop and phone. Live verification matched all 87 Product Spec blocks byte-for-value and confirmed that other fields on those records stayed intact.
+- Packaging: The Sites helper included two pre-existing local exports in a Sites-only commit. Restored the mirror to the approved commit, kept the local copies, and published the clean version. Version 78 was never deployed. The exports were outside the deployment archive and GitHub main.
+- Claude Artifact: version 37 remains the previous release. Claude Code is responsible for synchronizing the 87 rebuilt elliptical spec blocks and republishing.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-17: Codex — Rebuild all elliptical Product Specs on the SF-E326015WT template
 
 - Pulled and verified `5dae080` (Claude Artifact version 37) before reading the treadmill rebuild and audit.
