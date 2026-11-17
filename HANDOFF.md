@@ -2,6 +2,14 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-16: Claude Code — version stamp in the sidebar and feedback; Artifact version 35
+- Received first: b08a73f and d0f049f (Codex: expanded Spec Search fields and separate dimension inputs; Site version 77), with trailers and HANDOFF entries.
+- Changes (owner decision, brief agreed with the owner): the sidebar bottom shows "v<commit date> · <short commit> · Site|Artifact", e.g. "v2026.11.16 · 4ff3ce5 · Artifact". scripts/version.mjs reads `git log -1` at build time; scripts/build.mjs and scripts/build-artifact.mjs stamp the APP_VERSION constant in app/index.html (empty in the source, shown as "v dev" in previews). Tooltip shows the commit time in the viewer's local time; clicking copies the stamp ("Version copied"). New feedback sends the stamp; migration 0006 adds public_feedback.version (nullable, max 80 characters checked in the Worker); the admin feedback lists show it under the time. On phones the stamp sits below the Categories button.
+- Builds need git on PATH to stamp; without it they show "v dev".
+- Tests: new tests/version-stamp.spec.cjs; two feedback tests now name their insert columns because the table has a fourth column. All 42 tests/*.spec.cjs passed with installed Chrome through a local preload; header-stacking first failed by 1px at 480px height, fixed by tightening the stamp's spacing. Screenshots checked at 1440px and 390px.
+- Claude Artifact: PUBLISHED version 35 (id 1794876477-69b2) from dist/artifact/index.html built at 4ff3ce5; no data changes.
+- Private Site: not published; PUBLIC version 77 from b08a73f. Codex to publish with migration 0006 (the Site stamp will show the commit Codex builds from).
+- Practice data: not exported (owner decision).
 ## 2026-11-16: Codex — Publish expanded Spec Search
 
 - Public Site: version 77 from `b08a73fec978f90cf5624b8fb3f379d26b54e68e`, deployment `appgdep_6afb98c7b0f48191a4e0bffefe105bde`.
