@@ -2,6 +2,14 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-17: Claude Code — treadmill checkbox answers; Artifact version 37
+- Owner found SF-T7945 Bluetooth shown as Unavailable although its newest sheet has NO ticked (row 25). Cause: older spec-sheet forms answer YES/NO rows with Excel checkbox controls stored in the sheet's VML drawing, not in cells, so the rebuild never read them; "BLUETOOTH COMPATIBLE" and "HEART RATE SENSORS" labels were also unmapped.
+- Changes: new scripts/sheet_checkboxes.py; scripts/rebuild-treadmill-specs.py takes the ticked box (plus detail text, e.g. "Yes (SUNNY APP)", "Yes, Front") as the sheet answer, ignores rows with both YES and NO ticked, drops "If YES, ..." text on a No, keeps only the app name for Bluetooth type. Rebuilt from the pre-rebuild data so the audit keeps the full history (3,746 values from sheets, 898 from ISV, 3,313 Unavailable; 207 replaced, 24 cleared vs the original data). Versus 8a3fb5e's parent: 382 values in 42 treadmills changed, 278 newly filled. Six Yes/No answers flipped to the sheet's tick (checked by hand): SF-T7945 SMART and SF-T7909 shock absorption → No, SF-T7945 soft drop → Yes, 20740 foldable/soft drop → No, SF-T7705 transport wheels → No. .xls and .docx sheets have no checkbox controls read (none needed so far).
+- Site: worker one-time key renamed to treadmill-master-template-20261117, so the Site replaces treadmill specDetails once with these values whether or not the 20261116 replace already ran.
+- Tests: tests/treadmill-master.spec.cjs checks the checkbox answers. All 44 tests/*.spec.cjs passed with installed Chrome through a local preload (off-sunny-isv takes about 16 minutes on this PC); screenshots regenerated.
+- Claude Artifact: 42 treadmill items rewritten (pinned writes), all 109 read back equal to the repo; PUBLISHED version 37 (id 1794938395-c82a) built at 8a3fb5e; reference documents unchanged.
+- Private Site: not published. Codex to publish from 8a3fb5e or later.
+- Practice data: not exported (owner decision).
 ## 2026-11-17: Claude Code — treadmills on the SF-T725095 master template; Spec Search answers add up; Artifact version 36
 - Received first: nothing new from Codex since b08a73f.
 - Owner request: (1) every treadmill's Product Spec follows "SF-T725095 Treadmill draft Spec dated 9.28.2026.xlsx" (73 fields, master order); each value from the model's newest-modified spec sheet, else ISV 4.0, else left empty (shown as Unavailable). (2) Spec Search answers must add up to the category total (Wi-Fi showed Yes 21 + No 3 of 109).
