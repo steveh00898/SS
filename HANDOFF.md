@@ -2,6 +2,13 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-17: Claude Code — git pull: elliptical master template; Artifact version 38
+- Received: 58c2dc0, db1531c, 54b8d60, 935488a (Codex: ellipticals rebuilt on the 68-field SF-E326015WT template, checkbox corrections, Site versions 79–80), all with Agent trailers and HANDOFF entries. Data changes are limited to the 87 elliptical specDetails; no other category or field changed.
+- Claude Artifact: the 87 elliptical items read first (all equal to the repo at 5dae080, so no app edits were lost), specDetails replaced with pinned writes, all 87 read back equal to the repo. PUBLISHED version 38 (id 1794946529-d808) from dist/artifact/index.html built at 935488a (266,681 characters); reference documents unchanged.
+- Tests: tests/artifact-build.spec.cjs passed on the new build. The full suite was not rerun here; Codex reported all 45 suites passing at 54b8d60.
+- Owner workbook (not committed): exports/Master Spec Template - Treadmills & Ellipticals.xlsx, one tab per category with SKU, name and every template field as columns (Unavailable where empty).
+- Private Site: PUBLIC version 80 from 54b8d60 (Codex); nothing to publish.
+- Practice data: not exported (owner decision).
 ## 2026-11-17: Codex — Publish the elliptical checkbox corrections
 
 - Site: version 80 from `54b8d60ca0d7a9f778f6fb3412ba2a82e336845d`, deployment `appgdep_6afcab0954848191bc65f678d3fcc82b`. Existing public access retained.
