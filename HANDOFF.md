@@ -2,6 +2,12 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-17: Codex — Publish the elliptical checkbox corrections
+
+- Site: version 80 from `54b8d60ca0d7a9f778f6fb3412ba2a82e336845d`, deployment `appgdep_6afcab0954848191bc65f678d3fcc82b`. Existing public access retained.
+- Verification: All 45 suites passed and the desktop and phone screenshots rendered. The live API matched all 87 elliptical spec blocks. Chrome confirmed Bluetooth Yes for SF-E3919SMART, Unavailable for SF-E3919, the recovered battery and motorized values, and Unavailable for the two conflicting checkbox answers.
+- Claude Artifact: awaiting Claude Code sync. Practice data: not exported (owner decision).
+
 ## 2026-11-17: Codex — Correct missed elliptical checkbox answers
 
 - The workbook in the screenshot explicitly names SF-E3919 SMART. That exact model already records Yes for Bluetooth, from Sheet1 B31. SF-E3919 is a separate record with no matching sheet and a blank SHF Bluetooth field.
