@@ -593,7 +593,7 @@
         ],
         [
           "upc",
-          "UPC"
+          "UPC#"
         ],
         [
           "color",
@@ -605,47 +605,51 @@
         ],
         [
           "latex",
-          "Contains latex"
+          "Contained Latex/Rubber"
+        ],
+        [
+          "pfas",
+          "Contained chemical PFAS"
         ],
         [
           "shippingWeight",
-          "Gross weight (shipping)"
+          "Gross Weight (Ship Weight)"
         ],
         [
           "productWeight",
-          "Net weight"
+          "Net Weight"
         ],
         [
           "flywheelWeight",
-          "Flywheel weight"
+          "Flywheel Weight"
         ],
         [
           "keyDimensions",
-          "Assembled dimensions (L × W × H)"
+          "Assembled Dimensions (LxWxH)"
         ],
         [
           "foldedDimensions",
-          "Folded dimensions (L × W × H)"
+          "Folded Dimensions (LxWxH)"
         ],
         [
           "shippingDimensions",
-          "Shipping dimensions (L × W × H)"
+          "Shipping Dimensions (LxWxH)"
         ],
         [
           "seatDimensions",
-          "Seat dimensions (L × W × H)"
+          "Seat Dimensions (LxWxH)"
         ],
         [
           "footprint",
-          "Floor footprint coverage (L × W)"
+          "Floor Footprint Coverage (LxW)"
         ],
         [
           "maxUserWeightLb",
-          "Max. user weight"
+          "Max User Weight"
         ],
         [
           "maxUserHeight",
-          "Max. user height"
+          "Max User Height"
         ]
       ]
     },
@@ -654,15 +658,15 @@
       "fields": [
         [
           "resistanceType",
-          "Resistance type"
+          "Resistance Type"
         ],
         [
           "speedResistanceLevels",
-          "Resistance level"
+          "Speed Level"
         ],
         [
           "magnets",
-          "Number of magnets & pull force per magnet"
+          "Number of Magnets & Pull Force Per Magnet (if applicable)"
         ],
         [
           "motorized",
@@ -670,47 +674,59 @@
         ],
         [
           "driveResistanceSystem",
-          "Drive mechanism"
+          "Drive Mechanism"
+        ],
+        [
+          "beltDimensions",
+          "Belt Size (if applicable)"
+        ],
+        [
+          "bearingSize",
+          "Bearing Size"
+        ],
+        [
+          "crankPullerSize",
+          "Crank Puller Size"
         ],
         [
           "crankLength",
-          "Crank length"
+          "Crank Length"
         ],
         [
-          "crankType",
-          "Crank type"
+          "plateDiameter",
+          "Plate Diameter"
         ],
         [
           "pedalBothDirections",
-          "Can be pedaled both directions"
+          "Can be Pedaled Both Directions"
         ],
         [
           "selfLevelingPedals",
-          "Self-leveling pedals"
+          "Self Leveling Pedals"
         ],
         [
           "footStraps",
-          "Adjustable foot straps"
+          "Adjustable Foot Straps"
         ],
         [
           "stride",
-          "Stride length"
+          "Stride Length"
         ],
         [
-          "stepHeight",
-          "Step height (step to floor)"
+          "stepHeightMax",
+          "Step Height (Step To Floor) MAX"
+        ],
+        [
+          "stepHeightMin",
+          "Step Height (Step To Floor) MIN"
         ],
         [
           "transportWheels",
-          "Transportation wheel"
-        ],
-        [
-          "foldable",
-          "Foldable"
+          "Transportation Wheel"
         ],
         [
           "controlOnHandlebar",
-          "Control on handlebar"
+          "Control on Handlebar"
         ]
       ]
     },
@@ -719,35 +735,51 @@
       "fields": [
         [
           "meterSize",
-          "Meter size"
+          "Meter Size"
+        ],
+        [
+          "meterModel",
+          "Meter Model"
         ],
         [
           "battery",
-          "Meter battery used"
+          "Meter Battery Used"
         ],
         [
           "screenType",
-          "Meter screen / display type"
+          "Meter Screen / Display Type"
         ],
         [
           "screenSize",
-          "Meter screen / display size"
+          "Meter Screen/Display Size"
         ],
         [
           "display",
-          "Meter features"
+          "Meter Feature"
         ],
         [
           "programs",
-          "Number of pre-programs"
+          "Number of Pre-Programs"
         ],
         [
           "bluetooth",
-          "Bluetooth connectivity"
+          "Bluetooth Connectivity"
         ],
         [
-          "bluetoothApp",
-          "Bluetooth type / app"
+          "bluetoothSpec",
+          "Bluetooth Spec"
+        ],
+        [
+          "bluetoothType",
+          "Bluetooth Type"
+        ],
+        [
+          "appMetrics",
+          "Metrics can be viewed"
+        ],
+        [
+          "appControls",
+          "Functions can be controlled through the app"
         ],
         [
           "ftms",
@@ -755,47 +787,55 @@
         ],
         [
           "wifi",
-          "Wi-Fi"
+          "Wifi"
         ],
         [
           "fan",
-          "Fan / cooling"
+          "Fan/Cooling"
         ],
         [
           "speakers",
-          "Speakers / audio"
+          "Speakers/Audio"
         ],
         [
           "usb",
-          "Mobile charging (USB or wireless)"
+          "Mobile Charging (USB or wireless?)"
         ],
         [
           "heartRate",
-          "Heart monitor / pulse sensors"
+          "Heart Monitor / Pulse Sensors"
         ],
         [
           "wirelessHeartRate",
-          "Heart monitor / pulse wireless"
+          "Heart Monitor / Pulse Wireless"
+        ],
+        [
+          "dumbbellRack",
+          "Dumbbell Rack"
         ],
         [
           "deviceHolder",
-          "Device / tablet holder"
+          "Device/Tablet Holder"
         ],
         [
           "bottleHolder",
-          "Hydration (water / bottle holder)"
+          "Hydration (Water/Bottle Holder)"
+        ],
+        [
+          "bottleHolderSize",
+          "Water/Bottle Holder Size"
         ],
         [
           "plugType",
-          "Plug or adapter"
+          "Plug or Adapter"
         ],
         [
           "powerCord",
-          "Plug or adapter cord length"
+          "Plug or Adapter Cord Length"
         ],
         [
           "electrical",
-          "Electrical requirement"
+          "Electrical Requirement"
         ],
         [
           "watts",
@@ -807,11 +847,19 @@
         ],
         [
           "energySaver",
-          "Energy saver mode"
+          "Energy Saver Mode"
         ],
         [
           "remoteControl",
-          "Remote control"
+          "Remote Control"
+        ],
+        [
+          "remoteBattery",
+          "Battery used for Remote Control"
+        ],
+        [
+          "loadingQty",
+          "Loading QTY"
         ]
       ]
     },
@@ -820,11 +868,11 @@
       "fields": [
         [
           "features",
-          "Features / functions / selling points"
+          "Features/Funtions/Selling Points of this Product"
         ],
         [
           "certification",
-          "Tests done / certifications"
+          "Certification"
         ]
       ]
     }

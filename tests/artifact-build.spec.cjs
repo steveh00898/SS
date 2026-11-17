@@ -6,7 +6,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),{execFileSync}=
  assert.equal(fs.readFileSync(root+'/app/index.html','utf8'),before,'build leaves the Site page unchanged');
  assert(out.pageChars<300000,'page stays small: '+out.pageChars);
  const html=fs.readFileSync(root+'/dist/artifact/index.html','utf8');
- for(const required of ['/api/session','window.claude','loadReference'])assert(html.includes(required),required);
+ for(const required of ['/api/session','window.claude','Some ISV and manual references'])assert(html.replace(/\\\r?\n/g,'').includes(required),required);
  assert(!html.includes('data:font/woff2'),'no embedded fonts');
  const refs=fs.readdirSync(root+'/dist/artifact/reference').sort((a,b)=>a.localeCompare(b,undefined,{numeric:true})).map(f=>[f.replace('.json',''),JSON.parse(fs.readFileSync(root+'/dist/artifact/reference/'+f,'utf8'))]);
  for(const [,d] of refs)assert(Buffer.byteLength(JSON.stringify(d))<262144,'each document fits the 256 KiB database limit');

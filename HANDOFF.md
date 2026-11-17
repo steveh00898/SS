@@ -2,6 +2,15 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-17: Codex — Rebuild all elliptical Product Specs on the SF-E326015WT template
+
+- Pulled and verified `5dae080` (Claude Artifact version 37) before reading the treadmill rebuild and audit.
+- Rebuilt 87 ellipticals on the 68-field master. 55 have a matching spec sheet. The final audit records 1,927 sheet values, 666 SHF fallbacks, 3,323 Unavailable, 105 replacements, 2 clears, no Yes/No flips, 2 ambiguous checkbox rows, 36 old values for fields retired by the template and 145 unmapped row occurrences. Three certification placeholders were excluded after the preview. Steps with no identified minimum or maximum remain Unavailable.
+- The Worker replaces matching elliptical blocks once after all prior fills, retaining non-spec fields. Product Spec and Spec Search use the audited values, and all 68 fields partition the category across their answer counts. The Artifact build minifies local script identifiers to stay within its page limit.
+- Verification: The fresh workbook extraction reproduced the committed audit. Focused tests and app screenshots passed. Full test and Site results follow.
+- Claude Artifact: awaiting Claude Code sync after version 37.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-17: Claude Code — treadmill checkbox answers; Artifact version 37
 - Owner found SF-T7945 Bluetooth shown as Unavailable although its newest sheet has NO ticked (row 25). Cause: older spec-sheet forms answer YES/NO rows with Excel checkbox controls stored in the sheet's VML drawing, not in cells, so the rebuild never read them; "BLUETOOTH COMPATIBLE" and "HEART RATE SENSORS" labels were also unmapped.
 - Changes: new scripts/sheet_checkboxes.py; scripts/rebuild-treadmill-specs.py takes the ticked box (plus detail text, e.g. "Yes (SUNNY APP)", "Yes, Front") as the sheet answer, ignores rows with both YES and NO ticked, drops "If YES, ..." text on a No, keeps only the app name for Bluetooth type. Rebuilt from the pre-rebuild data so the audit keeps the full history (3,746 values from sheets, 898 from ISV, 3,313 Unavailable; 207 replaced, 24 cleared vs the original data). Versus 8a3fb5e's parent: 382 values in 42 treadmills changed, 278 newly filled. Six Yes/No answers flipped to the sheet's tick (checked by hand): SF-T7945 SMART and SF-T7909 shock absorption → No, SF-T7945 soft drop → Yes, 20740 foldable/soft drop → No, SF-T7705 transport wheels → No. .xls and .docx sheets have no checkbox controls read (none needed so far).

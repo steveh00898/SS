@@ -64,7 +64,7 @@ const { chromium } = require('playwright');
     await ellipsePage.setContent('<script>'+ellipseMock+'</script>'+fs.readFileSync(__dirname+'/../app/index.html','utf8'));
     await ellipsePage.locator('#rows .isv-link').click();
     const limit=ellipsePage.locator('#isvBody [data-isv-column=BV] .isv-value');
-    assert.match(await limit.innerText(), /^220 lb\s*\(From Product Spec\)$/i);
+    assert.match(await limit.innerText(), /^220 lbs\s*\/\s*100 kgs\s*\(From Product Spec\)$/i);
     assert.doesNotMatch(await limit.innerText(), /estimated unit/i);
     assert.equal(await limit.locator('.source-badge').innerText(), '(From Product Spec)');
     assert.equal(await limit.evaluate(el=>el.classList.contains('isv-different')),false);

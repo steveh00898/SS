@@ -6,11 +6,11 @@ const read=f=>JSON.parse(fs.readFileSync(__dirname+'/../'+f,'utf8'));
  const current=fs.readdirSync(__dirname+'/../data').filter(f=>f.endsWith('.json')).flatMap(f=>read('data/'+f)),all=[...current,...archive];
  assert(audit.filled.length>600,'filled '+audit.filled.length);
  // Treadmills were rebuilt on the SF-T725095 template on 2026-11-16 (tests/treadmill-master.spec.cjs); this fill is checked for the other categories.
- const rebuilt=id=>all.find(x=>x.id===id)?.category==='Treadmills';
+ const rebuilt=id=>['Treadmills','Ellipticals'].includes(all.find(x=>x.id===id)?.category);
  for(const f of audit.filled){if(rebuilt(f.id))continue;const r=all.find(x=>x.id===f.id);assert.equal(r.specDetails.values[f.field],f.value);assert.equal(r.specDetails.evidence[f.field],f.evidence);
   if(f.source==='ISV 4.0')assert.match(f.evidence,/^ISV 4\.0 \/ SHF \/ [A-Z]+\d+$/);else assert(!f.evidence.startsWith('ISV'))}
  for(const c of audit.conflicts){if(rebuilt(c.id))continue;const r=all.find(x=>x.id===c.id);assert.equal(r.specDetails.values[c.field],c.app,'app value kept: '+c.sku)}
- for(const u of audit.unavailable){const r=all.find(x=>x.sku===u.sku);if(r.category==='Treadmills')continue;const v=r.specDetails?.values?.[u.field];assert(!v||!String(v).trim()||/^(unavailable|not provided|see the right table)$/i.test(v),'still empty: '+u.sku+' '+u.field)}
+ for(const u of audit.unavailable){const r=all.find(x=>x.sku===u.sku);if(rebuilt(r.id))continue;const v=r.specDetails?.values?.[u.field];assert(!v||!String(v).trim()||/^(unavailable|not provided|see the right table)$/i.test(v),'still empty: '+u.sku+' '+u.field)}
  for(const f of audit.filled.filter(f=>/Dimensions$/.test(f.field)))assert((f.value.match(/\d+(?:\.\d+)?/g)||[]).length>=2,'no empty template: '+f.sku);
  // Site upgrade: fills an empty field, keeps an app edit, runs once.
  const {sql,request}=await require('./usage-fixture.cjs')();global.APP_CATALOG.push(...archive);
@@ -26,7 +26,7 @@ const read=f=>JSON.parse(fs.readFileSync(__dirname+'/../'+f,'utf8'));
  rows=await(await request('/api/items')).json();assert.equal(rows.find(r=>r.id===target.id).specDetails.values[target.field],undefined,'runs once');sql.close();
  // Owner decision: differing values now use the spec sheet; the Site replaces them once, only where unchanged.
  const applied=audit.appliedConflicts;assert.equal(applied.length,10);assert.equal(audit.conflicts.length,0);
- for(const c of applied){const r=all.find(x=>x.id===c.id);assert.equal(r.specDetails.values[c.field],c.specSheet);assert.equal(r.specDetails.evidence[c.field],c.evidence)}
+ for(const c of applied){if(rebuilt(c.id))continue;const r=all.find(x=>x.id===c.id);assert.equal(r.specDetails.values[c.field],c.specSheet);assert.equal(r.specDetails.evidence[c.field],c.evidence)}
  {const f2=await require('./usage-fixture.cjs')();global.APP_CATALOG.push(...archive);await f2.request('/api/items');
   const [x,y]=[applied.find(c=>c.sku==='NO. 112'),applied.find(c=>c.sku==='OB-48'&&c.field==='productWeight')];
   f2.sql.prepare("DELETE FROM catalog_meta WHERE key='spec-sheet-decisions-20261109'").run();
