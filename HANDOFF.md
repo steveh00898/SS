@@ -2,6 +2,12 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-17: Codex — Publish the Product Spec and ISV dialog update
+
+- Site: version 84 from commit `4f973ef2dd8ce703ea4a15521082e8b4a59d4e3a`, deployment `appgdep_6afcff3234748191835739747a26ece7`.
+- Verification: all 46 suites passed and desktop and phone screenshots rendered. Live Chrome confirmed both single-product and both comparison dialogs dismiss from the backdrop and via Escape, with focus restored.
+- Claude Artifact: version 38 awaits Claude Code sync. Practice data: not exported (owner decision).
+
 ## 2026-11-17: Codex — Dismiss Product Spec and ISV from the backdrop
 
 - Removed the header Close buttons from the single-product and comparison dialogs. Backdrop clicks and Escape dismiss both dialogs and restore focus to the original product link. Opening a dialog puts keyboard focus on its scrollable content.
