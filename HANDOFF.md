@@ -2,6 +2,11 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-17: Codex — Dismiss Product Spec and ISV from the backdrop
+
+- Removed the header Close buttons from the single-product and comparison dialogs. Backdrop clicks and Escape dismiss both dialogs and restore focus to the original product link. Opening a dialog puts keyboard focus on its scrollable content.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-17: Codex — Publish the catalog header scrollbar
 
 - Site: version 83 from GitHub commit `d640c87ada72dcd2da0f0bf7316fdc4078756e68`, deployment `appgdep_6afcf4febed88191b43a825dd6754265`.

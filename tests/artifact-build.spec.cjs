@@ -24,8 +24,8 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),{execFileSync}=
  assert.equal(await page.locator('#banner').isVisible(),false);
  assert.equal(await page.locator('#rows .isv-link').count(),rowsOf('isv-current').length+rowsOf('isv-off').length);
  const product=archive.find(r=>r.sku==='SF-T724964');const row=page.locator('tr[data-id="'+product.id+'"]');
- await row.locator('[data-product-spec]').click();const spec=await page.locator('#productSpecBody tr:has(.spec-different)').evaluateAll(t=>[...new Set(t.map(r=>r.dataset.isvColumn))].sort());assert(spec.length>0);await page.locator('#closeProductSpec').click();
- await row.locator('.isv-link').click();const isv=await page.locator('#isvBody tr:has(.isv-different)').evaluateAll(t=>[...new Set(t.map(r=>r.dataset.isvColumn))].sort());assert.deepEqual(isv,spec,'same highlights in both dialogs');await page.locator('#closeISV').click();
+ await row.locator('[data-product-spec]').click();const spec=await page.locator('#productSpecBody tr:has(.spec-different)').evaluateAll(t=>[...new Set(t.map(r=>r.dataset.isvColumn))].sort());assert(spec.length>0);await page.keyboard.press('Escape');
+ await row.locator('.isv-link').click();const isv=await page.locator('#isvBody tr:has(.isv-different)').evaluateAll(t=>[...new Set(t.map(r=>r.dataset.isvColumn))].sort());assert.deepEqual(isv,spec,'same highlights in both dialogs');await page.keyboard.press('Escape');
  const guided=current.find(r=>rowsOf('manuals').some(([sku,g])=>sku===String(r.sku).toUpperCase()&&g.url));if(guided)assert.equal(await page.locator('tr[data-id="'+guided.id+'"] .manual-link').count(),1,'manual from the database');
  await page.setViewportSize({width:390,height:844});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);assert.deepEqual(errors,[]);await page.close();
  for(const docs of [null,refs.slice(1)]){const failed=await open(docs);assert.equal(await failed.page.locator('#banner').isVisible(),true,'missing reference data is reported');assert.match(await failed.page.locator('#banner').innerText(),/couldn't load/);assert.deepEqual(failed.errors,[]);await failed.page.close();}

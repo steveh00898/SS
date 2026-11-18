@@ -87,7 +87,7 @@ const read=path=>JSON.parse(fs.readFileSync(__dirname+'/../'+path,'utf8'));
   await page.locator('[data-product-spec="'+treadmill.id+'"]').click();
   assert.equal(await page.locator('#productSpecBody [data-spec-field=latex] td').innerText(),'Yes (rubber and silicone)');
   assert.equal(await page.locator('#productSpecBody [data-spec-field=pfas] td').innerText(),'Unavailable');
-  await page.locator('#closeProductSpec').click();
+  await page.keyboard.press('Escape');
   await page.locator('[data-product-spec="'+fallbackItem.id+'"]').click();
   assert.equal(await page.locator('#productSpecBody [data-spec-field='+fallbackField+'] .source-badge').innerText(),'(From ISV)');
   await page.goto('https://workbook.test/?category=Racks');
