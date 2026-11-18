@@ -2,6 +2,12 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-17: Codex — Publish the 11-category Product Spec update
+
+- Site: version 81 from GitHub commit `0f179d1343e837aad9042b155fbb00cda3d18a98`, deployment `appgdep_6afced972cdc8191a158d2d46a6907b4`. Existing access settings retained.
+- Verification: all 46 suites passed and 14 desktop and phone screenshots rendered. The live API matched all 885 imported Product Specs and retained all 886 catalog models. Chrome confirmed field order and From ISV notes in Essentials, Weights, Racks, and Weight Benches.
+- Claude Artifact: version 38 awaits Claude Code sync. Practice data: not exported (owner decision).
+
 ## 2026-11-17: Codex — Apply the 11-category Product Spec workbook
 
 - Workbook: verified the original seven tabs are identical to the earlier workbook. Added Essentials (171 models), Weights (138), Racks (36), and Weight Benches (34). The Product Spec dialog and Spec Search read the workbook templates and values.
