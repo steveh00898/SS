@@ -1,5 +1,6 @@
 const assert=require('node:assert/strict'),fs=require('node:fs');
-const read=f=>JSON.parse(fs.readFileSync(__dirname+'/../'+f,'utf8'));
+const readText=require('./pre-workbook-fixture.cjs');
+const read=file=>JSON.parse(readText(file));
 // Requested spec fields: filled from spec sheets, then ISV 4.0, only where empty; reach the Site once; wording shown to customers.
 (async()=>{
  const audit=read('data/specifications/master-fill-audit.json'),archive=read('data/off-sunny-web/items.json');
@@ -13,7 +14,7 @@ const read=f=>JSON.parse(fs.readFileSync(__dirname+'/../'+f,'utf8'));
  for(const u of audit.unavailable){const r=all.find(x=>x.sku===u.sku);if(rebuilt(r.id))continue;const v=r.specDetails?.values?.[u.field];assert(!v||!String(v).trim()||/^(unavailable|not provided|see the right table)$/i.test(v),'still empty: '+u.sku+' '+u.field)}
  for(const f of audit.filled.filter(f=>/Dimensions$/.test(f.field)))assert((f.value.match(/\d+(?:\.\d+)?/g)||[]).length>=2,'no empty template: '+f.sku);
  // Site upgrade: fills an empty field, keeps an app edit, runs once.
- const {sql,request}=await require('./usage-fixture.cjs')();global.APP_CATALOG.push(...archive);
+ const {sql,request}=await require('./usage-fixture.cjs')(readText);global.APP_CATALOG.push(...archive);
  const target=audit.filled.find(f=>f.source==='spec sheet'&&!rebuilt(f.id)&&all.find(x=>x.id===f.id).catalogSource==='off-sunny-web'),kept=audit.filled.find(f=>f.id!==target.id&&!rebuilt(f.id)&&all.find(x=>x.id===f.id).catalogSource==='off-sunny-web');
  await request('/api/items');
  sql.prepare("DELETE FROM catalog_meta WHERE key='master-spec-fill-20261109'").run();
@@ -27,7 +28,7 @@ const read=f=>JSON.parse(fs.readFileSync(__dirname+'/../'+f,'utf8'));
  // Owner decision: differing values now use the spec sheet; the Site replaces them once, only where unchanged.
  const applied=audit.appliedConflicts;assert.equal(applied.length,10);assert.equal(audit.conflicts.length,0);
  for(const c of applied){if(rebuilt(c.id))continue;const r=all.find(x=>x.id===c.id);assert.equal(r.specDetails.values[c.field],c.specSheet);assert.equal(r.specDetails.evidence[c.field],c.evidence)}
- {const f2=await require('./usage-fixture.cjs')();global.APP_CATALOG.push(...archive);await f2.request('/api/items');
+ {const f2=await require('./usage-fixture.cjs')(readText);global.APP_CATALOG.push(...archive);await f2.request('/api/items');
   const [x,y]=[applied.find(c=>c.sku==='NO. 112'),applied.find(c=>c.sku==='OB-48'&&c.field==='productWeight')];
   f2.sql.prepare("DELETE FROM catalog_meta WHERE key='spec-sheet-decisions-20261109'").run();
   f2.sql.prepare('UPDATE items SET data=json_set(data,?,?) WHERE id=?').run('$.specDetails.values.'+x.field,x.app,x.id);
@@ -36,7 +37,7 @@ const read=f=>JSON.parse(fs.readFileSync(__dirname+'/../'+f,'utf8'));
   assert.equal(got.find(r=>r.id===x.id).specDetails.values[x.field],x.specSheet,'old value replaced');
   assert.equal(got.find(r=>r.id===y.id).specDetails.values[y.field],'Owner edit','later edit kept');f2.sql.close();}
  // Display wording.
- const html=fs.readFileSync(__dirname+'/../app/index.html','utf8');const src=html.match(/const sameCase = [^\n]+\n\s*const plainWording = [^\n]+/)[0];const plainWording=new Function(src+';return plainWording')();
+ const html=readText('app/index.html');const src=html.match(/const sameCase = [^\n]+\n\s*const plainWording = [^\n]+/)[0];const plainWording=new Function(src+';return plainWording')();
  assert.equal(plainWording('STEPLESS RESISTANCE: Enjoy'),'MICRO-ADJUSTABLE RESISTANCE: Enjoy');
  assert.equal(plainWording('Stepless magnetic resistance'),'Micro-adjustable magnetic resistance');
  assert.equal(plainWording('the stepless micro-adjustment feature'),'the micro-adjustment feature');

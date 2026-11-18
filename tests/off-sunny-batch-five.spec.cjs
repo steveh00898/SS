@@ -1,5 +1,6 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),{execFileSync}=require('node:child_process');
-const read=f=>JSON.parse(fs.readFileSync(__dirname+'/../'+f,'utf8'));
+const readText=require('./pre-workbook-fixture.cjs');
+const read=f=>JSON.parse(readText(f));
 const MODEL=s=>String(s).toUpperCase().replace(/[^A-Z0-9]/g,'');
 (async()=>{
  const archive=read('data/off-sunny-web/items.json'),batch=archive.filter(r=>r.importBatch==='v3-batch-5'),older=archive.filter(r=>!['v3-batch-5','us-mastersheet-v1-missing','isv-shf-gap-20261111'].includes(r.importBatch));
@@ -40,7 +41,7 @@ const MODEL=s=>String(s).toUpperCase().replace(/[^A-Z0-9]/g,'');
  const unmatched=audit.items.filter(a=>a.status!=='matched'&&batch.some(r=>r.id===a.id)).map(a=>a.sku);assert.deepEqual(unmatched,['SF-XF926805'],'only this model has no ISV row');
  assert(fs.readFileSync(__dirname+'/../app/index.html','utf8').includes('"id":"'+batch.find(r=>r.sku==='SF-T726025').id+'"'),'ISV reference embedded in the app');
  // Upgrade: insert-only, once, keeps edits and deletions.
- const {sql,env,worker,request}=await require('./usage-fixture.cjs')();
+ const {sql,env,worker,request}=await require('./usage-fixture.cjs')(readText);
  global.APP_CATALOG.push(...older);assert.equal((await(await request('/api/items')).json()).length,376);
  sql.prepare("UPDATE items SET data=json_set(data,'$.name','Keep my title') WHERE id=?").run(older[210].id);
  const before=sql.prepare('SELECT id,data FROM items').all();global.APP_CATALOG.push(...batch);

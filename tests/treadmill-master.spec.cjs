@@ -1,5 +1,6 @@
 const assert=require('node:assert/strict'),fs=require('node:fs');
-const read=f=>JSON.parse(fs.readFileSync(__dirname+'/../'+f,'utf8'));
+const readText=require('./pre-workbook-fixture.cjs');
+const read=file=>JSON.parse(readText(file));
 // Owner decision 2026-11-16: every treadmill follows the SF-T725095 template; each value comes from the model's newest
 // spec sheet, else ISV 4.0, else it is left empty (Unavailable). The Site replaces the stored block once.
 (async()=>{
@@ -10,7 +11,7 @@ const read=f=>JSON.parse(fs.readFileSync(__dirname+'/../'+f,'utf8'));
  assert.equal(keys.length,73);assert.deepEqual(new Set(keys).size,73);
  for(const k of ['pfas','frontSupportFrame','baseFrame','consoleWidth','beltThickness','deckRail','deckThickness','cushionType','quickInclineButtons','quickSpeedButtons','bluetoothSpec','bluetoothType','bottleHolderSize','remoteBattery'])assert(keys.includes(k),'master field '+k);
  assert(keys.indexOf('continuousHp')<keys.indexOf('peakHp'),'sheet order: continuous before peak');
- const html=fs.readFileSync(__dirname+'/../app/index.html','utf8');assert(html.includes('PRODUCT_SPEC_TEMPLATES='+JSON.stringify(templates)+';'),'page carries the same template');
+ const html=readText('app/index.html');assert(html.includes('PRODUCT_SPEC_TEMPLATES='+JSON.stringify(templates)+';'),'page carries the same template');
  const all=[...fs.readdirSync(__dirname+'/../data').filter(f=>f.endsWith('.json')).flatMap(f=>read('data/'+f)),...read('data/off-sunny-web/items.json')];
  const treadmills=all.filter(r=>r.category==='Treadmills');assert.equal(treadmills.length,109);assert.equal(audit.products.length,109);
  for(const r of treadmills){
@@ -40,7 +41,7 @@ const read=f=>JSON.parse(fs.readFileSync(__dirname+'/../'+f,'utf8'));
  assert.equal(bySku('SF-T1407SMART').values.plugType,'No','an If-YES answer is dropped for No');
  for(const r of treadmills)for(const v of Object.values(r.specDetails.values))assert(!/(Yes|No), /.test(v),'no repeated ticks: '+r.sku+' '+v);
  // Site: replaced once, other categories untouched.
- const {sql,request}=await require('./usage-fixture.cjs')();global.APP_CATALOG.push(...read('data/off-sunny-web/items.json'));
+ const {sql,request}=await require('./usage-fixture.cjs')(readText);global.APP_CATALOG.push(...read('data/off-sunny-web/items.json'));
  await request('/api/items');
  const id='sf-t723030',other='sf-e322004';
  sql.prepare("DELETE FROM catalog_meta WHERE key='treadmill-master-template-20261117'").run();

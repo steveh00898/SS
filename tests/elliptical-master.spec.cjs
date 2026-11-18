@@ -1,7 +1,7 @@
 const assert=require('node:assert/strict');
-const fs=require('node:fs');
 const {chromium}=require('playwright');
-const read=file=>JSON.parse(fs.readFileSync(__dirname+'/../'+file,'utf8'));
+const readText=require('./pre-workbook-fixture.cjs');
+const read=file=>JSON.parse(readText(file));
 
 (async()=>{
  const templates=read('data/specifications/templates.json');
@@ -43,7 +43,7 @@ const read=file=>JSON.parse(fs.readFileSync(__dirname+'/../'+file,'utf8'));
  assert.equal(spec('SF-E3919SMART').values.bottleHolder,undefined);
  assert.equal(spec('SF-E3875').values.driveResistanceSystem,undefined);
 
- const {sql,request}=await require('./usage-fixture.cjs')();
+ const {sql,request}=await require('./usage-fixture.cjs')(readText);
  global.APP_CATALOG.push(...archive);
  await request('/api/items');
  const id='sf-e905smart',other='sf-t723030',marker='elliptical-master-template-20261117';
@@ -72,7 +72,7 @@ const read=file=>JSON.parse(fs.readFileSync(__dirname+'/../'+file,'utf8'));
  assert.equal(rows.find(row=>row.id===smart).specDetails.values.battery,undefined,'checkbox migration runs once');
  sql.close();
 
- const html=fs.readFileSync(__dirname+'/../app/index.html','utf8');
+ const html=readText('app/index.html');
  assert(html.includes('PRODUCT_SPEC_TEMPLATES='+JSON.stringify(templates)+';'));
  const testHtml=html.replace('  function fieldValues(field){',
   '  window.testSpecPartitions=(keys,source)=>keys.map(key=>{const field={key,source};const entries=specIndex().entries;const answers=fieldValues(field);return {key,count:entries.length,answers:answers.map(value=>answerCounts.get(norm(value))),hits:entries.map(entry=>answers.filter(value=>matchesSpec(entry,{...field,value})).length)};});\n  function fieldValues(field){');

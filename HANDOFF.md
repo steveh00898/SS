@@ -2,6 +2,14 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-17: Codex — Apply the 11-category Product Spec workbook
+
+- Workbook: verified the original seven tabs are identical to the earlier workbook. Added Essentials (171 models), Weights (138), Racks (36), and Weight Benches (34). The Product Spec dialog and Spec Search read the workbook templates and values.
+- Audit: 885 records, 23,054 workbook values, 590 labeled ISV fills, and 28,942 fields left Unavailable. Every imported value has a workbook or SHF cell reference. Three double-listed models stay under Ellipticals. SF-T7603-CB keeps its original specs. The workbook SF-DB01-55 row maps to the existing live SF-DB01 55-pound model by exact product title.
+- Site: one-time guarded replacement of specDetails after previous catalog fills. The migration keeps existing catalog identities, photos, prices, and resource links.
+- Claude Artifact: version 38 awaits Claude Code sync. Apply only the imported specDetails to matching item IDs, preserving other fields and mapping SF-DB01-55 if the Artifact uses the live alias. Use the generated Artifact build.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-17: Claude Code — git pull: elliptical master template; Artifact version 38
 - Received: 58c2dc0, db1531c, 54b8d60, 935488a (Codex: ellipticals rebuilt on the 68-field SF-E326015WT template, checkbox corrections, Site versions 79–80), all with Agent trailers and HANDOFF entries. Data changes are limited to the 87 elliptical specDetails; no other category or field changed.
 - Claude Artifact: the 87 elliptical items read first (all equal to the repo at 5dae080, so no app edits were lost), specDetails replaced with pinned writes, all 87 read back equal to the repo. PUBLISHED version 38 (id 1794946529-d808) from dist/artifact/index.html built at 935488a (266,681 characters); reference documents unchanged.

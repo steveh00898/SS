@@ -48,7 +48,10 @@ const {chromium}=require('playwright');
   assert.equal(await page.locator('#rows tr [data-product-spec]').count(),items.length);
   await query.fill('shipping');
   const productShipping=await page.locator('#specOptions li').allTextContents();
-  for(const title of ['Gross weight (shipping)','Shipping weight','Shipping dimensions'])assert.ok(productShipping.includes(title));
+  for(const title of ['Gross weight (shipping)','Estimated Shipping Weight','Shipping Dimensions (Carton Dimensions)',
+   'Shipping Dimensions (Carton Dimensions) (LxWxH)','Shipping Dimensions (LxWxH)','Shipping Dimensions LxWxH (CM/INCHES)']){
+   assert.ok(productShipping.includes(title),title+' appears in the shipping results');
+  }
   await page.locator('#specSource input[value=isv]').check();
   const isvShipping=await page.locator('#specOptions li').allTextContents();
   for(const title of ['Shipping Port','Actual Ship Weight - lbs.','Carton Dimensions'])assert.ok(isvShipping.includes(title));
@@ -137,7 +140,7 @@ const {chromium}=require('playwright');
   await page.goto('https://spec.test/?view=spec-search');
   await query.fill('Bluetooth');
   const bluetoothTitles=(await page.locator('#specOptions li').allTextContents()).map(title=>title.toLowerCase());
-  assert.deepEqual([...new Set(bluetoothTitles)].sort(),['bluetooth','bluetooth connectivity','bluetooth spec','bluetooth type']);
+  assert.deepEqual([...new Set(bluetoothTitles)].sort(),['bluetooth','bluetooth compatible: app','bluetooth connectivity','bluetooth spec','bluetooth type']);
   await query.press('Enter');
   assert.deepEqual(await page.locator('[data-spec-answer]').allTextContents(),['Yes (4)']);
   await page.locator('[data-spec-answer=Yes]').click();

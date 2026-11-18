@@ -1,10 +1,11 @@
 const assert=require('assert'),fs=require('fs'),{chromium}=require('playwright');
+const readText=require('./pre-workbook-fixture.cjs');
 (async()=>{
- const root=__dirname+'/..',templates=JSON.parse(fs.readFileSync(root+'/data/specifications/templates.json','utf8')),html=fs.readFileSync(root+'/app/index.html','utf8');
+ const root=__dirname+'/..',templates=JSON.parse(readText('data/specifications/templates.json')),html=readText('app/index.html');
  assert.deepEqual(JSON.parse(html.match(/const PRODUCT_SPEC_TEMPLATES=(.*);\r?\n/)[1]),templates);
- const gapAudit=JSON.parse(fs.readFileSync(root+'/data/specifications/master-spec-gaps-20261113.json','utf8'));
+ const gapAudit=JSON.parse(readText('data/specifications/master-spec-gaps-20261113.json'));
  const gaps=new Map(gapAudit.updates.map(item=>[item.id,item.fields]));
- const catalog=fs.readdirSync(root+'/data').filter(f=>f.endsWith('.json')).flatMap(f=>JSON.parse(fs.readFileSync(root+'/data/'+f,'utf8')));
+ const catalog=fs.readdirSync(root+'/data').filter(f=>f.endsWith('.json')).flatMap(f=>JSON.parse(readText('data/'+f)));
  assert.equal(catalog.length,156);
  // Every category keeps one template: unique keys, the shared sections in the same order, and the V2 fields added once.
  const keysOf=c=>templates[c].flatMap(s=>s.fields.map(f=>f[0]));
@@ -20,7 +21,7 @@ const assert=require('assert'),fs=require('fs'),{chromium}=require('playwright')
  // The five unmatched records later received only the 2026-11-09 requested-field fill (tests/master-spec-fill.spec.cjs).
  const FILL=['productWeight','shippingWeight','keyDimensions','shippingDimensions','qFactor','flywheelWeight','inseam','stepOnHeight','beltDimensions'],masterOnly=i=>i.specDetails?.notes?.some(n=>n.startsWith('Requested fields filled on 2026-11-09'))&&Object.keys(i.specDetails.values).every(k=>FILL.includes(k));
  // The V2 checks below look at V2 values only; fields added by the 2026-11-09 fill carry their own evidence.
- const fillAudit=JSON.parse(fs.readFileSync(root+'/data/specifications/master-fill-audit.json','utf8')),added=[...fillAudit.filled,...(fillAudit.appliedConflicts||[])];
+ const fillAudit=JSON.parse(readText('data/specifications/master-fill-audit.json')),added=[...fillAudit.filled,...(fillAudit.appliedConflicts||[])];
  const v2View=i=>{const d=JSON.parse(JSON.stringify(i.specDetails));for(const f of added.filter(f=>f.id===i.id)){delete d.values[f.field];delete d.evidence[f.field];}d.sources=d.sources.filter(s=>s.startsWith('V2 spec sheet: '));d.notes=(d.notes||[]).filter(n=>!n.startsWith('Requested fields filled on 2026-11-09')&&!n.startsWith('2026-11-09 owner decision:'));return d};
  const filled=catalog.filter(i=>i.specDetails&&!masterOnly(i));assert.equal(filled.length,151);assert.deepEqual(catalog.filter(i=>!i.specDetails||masterOnly(i)).map(i=>i.id).sort(),[...unmatched].sort());
  const banned=/\b(PO#|supplier|created by|e\.g\.|if yes|if no|or others|this should be|check the data|pending|will update|will add)\b|^(flip|n\/?a|na|none|no limit)$|[一-鿿]/i;
@@ -44,16 +45,16 @@ const assert=require('assert'),fs=require('fs'),{chromium}=require('playwright')
  assert.match(byId['sf-rw5713smart'].specDetails.sources[0],/RW5713SMART/);assert.match(byId['sf-em02-gy'].specDetails.evidence.color,/ \/ SF-EM02-GY \/ /);
  const both=catalog.filter(i=>i.sku==='SF-RBE420049');assert.equal(both.length,2);assert.notDeepEqual(Object.keys(both[0].specDetails.values),Object.keys(both[1].specDetails.values));
  // Audit file and conflict report: hashes and model evidence only, no workbook binaries.
- const audit=JSON.parse(fs.readFileSync(root+'/data/specifications/v2-sources.json','utf8'));assert.equal(audit.matched.length,150);assert.equal(audit.filesReadTotal,456);
+ const audit=JSON.parse(readText('data/specifications/v2-sources.json'));assert.equal(audit.matched.length,150);assert.equal(audit.filesReadTotal,456);
  for(const m of audit.matched){assert.match(m.sha256,/^[a-f0-9]{64}$/);assert.equal(m.modelEvidence.text.replace(/[\s.\-_‐‑]/g,'').toUpperCase(),m.sku.replace(/[\s.\-_]/g,'').toUpperCase());if(!['Treadmills','Ellipticals'].includes(byId[m.id].category))assert.equal(byId[m.id].specDetails.sources[0],'V2 spec sheet: '+m.file);}
  assert.deepEqual(audit.unmatchedProducts.flatMap(u=>u.ids).sort(),[...unmatched,'sf-e322004'].sort());
- const conflictRows=fs.readFileSync(root+'/data/specifications/v2-conflicts.md','utf8').split(/\r?\n/).filter(l=>/^\| \d+ \|/.test(l));assert.equal(conflictRows.length,audit.conflicts);
+ const conflictRows=readText('data/specifications/v2-conflicts.md').split(/\r?\n/).filter(l=>/^\| \d+ \|/.test(l));assert.equal(conflictRows.length,audit.conflicts);
  assert(!/\b(created by|supplier contact|FOB|unit cost)\b/i.test(JSON.stringify(audit)));
  for(const f of fs.readdirSync(root+'/data/specifications'))assert(!/\.(xlsx?|docx|pdf)$/i.test(f));
 
  // One-time backfill on an existing private-Site database: fills only empty specDetails, keeps app edits and every other field.
- const {sql,worker,env,request}=await require('./usage-fixture.cjs')();
- global.APP_CATALOG.push(...JSON.parse(fs.readFileSync(root+'/data/off-sunny-web/items.json','utf8')));await request('/api/items');
+ const {sql,worker,env,request}=await require('./usage-fixture.cjs')(readText);
+ global.APP_CATALOG.push(...JSON.parse(readText('data/off-sunny-web/items.json')));await request('/api/items');
  sql.prepare("DELETE FROM catalog_meta WHERE key='current-v2-spec-details-20261101'").run();
  sql.prepare("UPDATE items SET data=json_remove(data,'$.specDetails') WHERE COALESCE(json_extract(data,'$.catalogSource'),'current')<>'off-sunny-web'").run();
  const custom={version:1,values:{brand:'Owner edit'},evidence:{},sources:['Edited in the app'],notes:[]};
@@ -62,7 +63,7 @@ const assert=require('assert'),fs=require('fs'),{chromium}=require('playwright')
  sql.prepare("UPDATE items SET data=json_set(data,'$.specDetails',json('{\"version\":1,\"values\":{}}')) WHERE id='sf-t724081'").run();
  sql.prepare("UPDATE items SET data=json_set(data,'$.sku','SF-X7100-EDIT','$.name','Renamed in app') WHERE id='sf-x7100'").run();
  const before=Object.fromEntries(sql.prepare('SELECT id,data FROM items').all().map(r=>[r.id,JSON.parse(r.data)]));
- const rows=await(await request('/api/items')).json();assert.equal(rows.length,156+JSON.parse(fs.readFileSync(root+'/data/off-sunny-web/items.json','utf8')).length);
+ const rows=await(await request('/api/items')).json();assert.equal(rows.length,156+JSON.parse(readText('data/off-sunny-web/items.json')).length);
  for(const row of rows){const old=before[row.id];const {specDetails,...rest}=row,{specDetails:oldDetails,...oldRest}=old;assert.deepEqual(rest,{...oldRest,id:row.id},row.id+' other fields unchanged');
   const master=byId[row.id];
   if(row.catalogSource==='off-sunny-web')assert.deepEqual(specDetails,oldDetails);

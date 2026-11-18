@@ -25,21 +25,45 @@
   "priceSource": "Sunny US Mastersheet V1",
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
-    "productWeight": "55",
+    "brand": "Sunny Health & Fitness",
+    "upc": "810153801566",
+    "color": "Black",
+    "materials": "Carbon Steel",
+    "maxUserWeightLb": "250",
+    "transportWheels": "Yes",
+    "battery": "No",
+    "features": "• SECOND WEIGHT ADJUSTMENTS: Easily change weight from 15, 25, 35, 45, 55 LB by simply twisting the handle. Rapidly increase or decrease weight between exercises or as you gain strength.\n• SPACE-SAVING DESIGN: Replaces an entire dumbbell set with one compact adjustable dumbbell to maximize workout area. Small footprints take up minimal room in your home gym.\n• SECURE PLATE LOCKING: Plates lock firmly into place at each weight setting to prevent shifting or wobbling during exercises. The dial system ensures weights are securely fastened for each rep.\n• DURABLE CONSTRUCTION: Plates and handle made of solid carbon steel and coated in powder coating for extra protection and corrosion resistance. Provides a sturdy feel during any exercise routine.\n• SECURE DUMBBELL HOLDER: Dumbbell rests on wide, flat polypropylene base that provides stability when not in use. Only adjust weight settings when dumbbell is safely housed in base tray. Do not attempt to change weight while holding dumbbell.\n• FREE TRAINING RESOURCES: Access SunnyFit App weight training courses and videos for guidance on proper form and technique. Low-impact exercises protect joints while sculpting and toning.\n• FULL BODY TRAINING: Adjustable weight allows you to work on different muscle groups for a complete workout. Build strength in arms, shoulders, back, core, and legs with a single dumbbell.\n• TRUSTED BRAND: Sunny Health & Fitness, a leading fitness brand for 20+ years, offers quality products backed by dedicated customer service and expert guidance.",
     "shippingWeight": "59 lb",
-    "keyDimensions": "19.1L x 8.5W x 8H"
+    "productWeight": "55",
+    "keyDimensions": "19.1L x 8.5W x 8H",
+    "shippingDimensions": "19.9L x 11.8W x 11.4H",
+    "workbookColorBoxOrBrownBox": "Brown",
+    "workbookPiecesPerCartonIfApplicable": "1"
+   },
+   "evidence": {
+    "brand": "Master Spec Template - 11 Categories.xlsx / Weights / G35",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Weights / H35",
+    "color": "Master Spec Template - 11 Categories.xlsx / Weights / I35",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Weights / J35",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Weights / M35",
+    "transportWheels": "Master Spec Template - 11 Categories.xlsx / Weights / O35",
+    "battery": "Master Spec Template - 11 Categories.xlsx / Weights / P35",
+    "features": "Master Spec Template - 11 Categories.xlsx / Weights / S35",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Weights / U35",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Weights / V35",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Weights / W35",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Weights / X35",
+    "workbookColorBoxOrBrownBox": "ISV 4.0 / SHF / T341",
+    "workbookPiecesPerCartonIfApplicable": "ISV 4.0 / SHF / AF341"
    },
    "sources": [
+    "Master Spec Template - 11 Categories.xlsx",
     "ISV 4.0"
    ],
-   "evidence": {
-    "productWeight": "ISV 4.0 / SHF / AO341",
-    "shippingWeight": "ISV 4.0 / SHF / AA341",
-    "keyDimensions": "ISV 4.0 / SHF / AS341"
-   },
    "notes": [
-    "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
+    "Product Spec follows the category tab in the master workbook."
    ]
   }
  },
@@ -68,30 +92,48 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny",
-    "materials": "POLYURETHANE",
+    "upc": "815749017406",
     "color": "BLACK (STATED THE MAIN COLOR)",
+    "materials": "POLYURETHANE",
+    "maxUserWeightLb": "Not applicable",
+    "latex": "Not applicable",
+    "transportWheels": "No",
+    "battery": "N/A",
+    "features": "This dumbbell is made of TPU material, High temperature and wear resistant material, and has no bad smell. The unique colored rings break the dullness of strength training. Hard chrome handle is easy to hold and non-slip. This model has a variety of weights, many options",
+    "shippingWeight": "11.48LBS/5.21KGS",
     "productWeight": "10LBS/4.54KGS",
     "keyDimensions": "20*12.8*12.8CM/7.87*5.04*5.04INCHES for 1PC",
-    "shippingWeight": "11.48LBS/5.21KGS",
     "shippingDimensions": "31.5*23.2*17.3CM/12.40*9.13*6.81INCHES",
-    "features": "This dumbbell is made of TPU material, High temperature and wear resistant material, and has no bad smell. The unique colored rings break the dullness of strength training. Hard chrome handle is easy to hold and non-slip. This model has a variety of weights, many options"
+    "workbookColorBoxOrBrownBox": "104*104*99CM/40.94*40.94*38.98INCHES",
+    "workbookPiecesPerCartonIfApplicable": "2"
    },
    "evidence": {
-    "brand": "SF‐DB02‐5 UPDATE SPEC 2023-04-18.xlsx / Sheet1 / B3",
-    "materials": "SF‐DB02‐5 UPDATE SPEC 2023-04-18.xlsx / Sheet1 / B7",
-    "color": "SF‐DB02‐5 UPDATE SPEC 2023-04-18.xlsx / Sheet1 / B6",
-    "productWeight": "SF‐DB02‐5 UPDATE SPEC 2023-04-18.xlsx / Sheet1 / B12",
-    "keyDimensions": "SF‐DB02‐5 UPDATE SPEC 2023-04-18.xlsx / Sheet1 / B14",
-    "shippingWeight": "SF‐DB02‐5 UPDATE SPEC 2023-04-18.xlsx / Sheet1 / B11",
-    "shippingDimensions": "SF‐DB02‐5 UPDATE SPEC 2023-04-18.xlsx / Sheet1 / B16",
-    "features": "SF‐DB02‐5 UPDATE SPEC 2023-04-18.xlsx / Sheet1 / B43"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Weights / G47",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Weights / H47",
+    "color": "Master Spec Template - 11 Categories.xlsx / Weights / I47",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Weights / J47",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Weights / M47",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Weights / N47",
+    "transportWheels": "Master Spec Template - 11 Categories.xlsx / Weights / O47",
+    "battery": "Master Spec Template - 11 Categories.xlsx / Weights / P47",
+    "features": "Master Spec Template - 11 Categories.xlsx / Weights / S47",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Weights / U47",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Weights / V47",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Weights / W47",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Weights / X47",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Weights / Y47",
+    "workbookPiecesPerCartonIfApplicable": "ISV 4.0 / SHF / AF353"
    },
    "sources": [
-    "V2 spec sheet: SF‐DB02‐5 UPDATE SPEC 2023-04-18.xlsx"
+    "Master Spec Template - 11 Categories.xlsx",
+    "ISV 4.0"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -132,34 +174,48 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "Nature Rubber +SBR+Stainless steel (smooth surface)",
+    "upc": "815749018298",
     "color": "WHITE( PANTONE P1-1C )",
+    "materials": "Nature Rubber +SBR+Stainless steel (smooth surface)",
+    "maxUserWeightLb": "Not applicable",
+    "latex": "Not applicable",
+    "transportWheels": "No",
+    "battery": "No",
+    "features": "high-grade color competition film scratches, falls, environmental protection, easy to clean, low elasticity and high safety",
+    "shippingWeight": "21.4LBS/9.7KGS",
     "productWeight": "20.3LBS/9.2KGS",
     "keyDimensions": "450*450*24MM 17.8\"*17.8\"*0.9\" INCHES",
-    "shippingWeight": "21.4LBS/9.7KGS",
     "shippingDimensions": "465X460X53MM 18.3\"x18.1\"x2.1INCHES",
-    "weightTolerance": "±1%",
-    "features": "high-grade color competition film scratches, falls, environmental protection, easy to clean, low elasticity and high safety",
-    "certification": "REACH CA65 UV TEST , 304 stainless steel sleeve salt spray test 1.8m drop test"
+    "workbookColorBoxOrBrownBox": "BROWN BOX",
+    "workbookPiecesPerCartonIfApplicable": "2"
    },
    "evidence": {
-    "brand": "SF-OP01-10 BUMPER PLATE SPEC SHEET 2023-12-22.xlsx / 10LB / B3",
-    "materials": "SF-OP01-10 BUMPER PLATE SPEC SHEET 2023-12-22.xlsx / 10LB / B7",
-    "color": "SF-OP01-10 BUMPER PLATE SPEC SHEET 2023-12-22.xlsx / 10LB / B6",
-    "productWeight": "SF-OP01-10 BUMPER PLATE SPEC SHEET 2023-12-22.xlsx / 10LB / B12",
-    "keyDimensions": "SF-OP01-10 BUMPER PLATE SPEC SHEET 2023-12-22.xlsx / 10LB / B14",
-    "shippingWeight": "SF-OP01-10 BUMPER PLATE SPEC SHEET 2023-12-22.xlsx / 10LB / B11",
-    "shippingDimensions": "SF-OP01-10 BUMPER PLATE SPEC SHEET 2023-12-22.xlsx / 10LB / B16",
-    "weightTolerance": "SF-OP01-10 BUMPER PLATE SPEC SHEET 2023-12-22.xlsx / 10LB / B13",
-    "features": "SF-OP01-10 BUMPER PLATE SPEC SHEET 2023-12-22.xlsx / 10LB / B43",
-    "certification": "SF-OP01-10 BUMPER PLATE SPEC SHEET 2023-12-22.xlsx / 10LB / B42"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Weights / G118",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Weights / H118",
+    "color": "Master Spec Template - 11 Categories.xlsx / Weights / I118",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Weights / J118",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Weights / M118",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Weights / N118",
+    "transportWheels": "Master Spec Template - 11 Categories.xlsx / Weights / O118",
+    "battery": "Master Spec Template - 11 Categories.xlsx / Weights / P118",
+    "features": "Master Spec Template - 11 Categories.xlsx / Weights / S118",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Weights / U118",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Weights / V118",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Weights / W118",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Weights / X118",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Weights / Y118",
+    "workbookPiecesPerCartonIfApplicable": "ISV 4.0 / SHF / AF525"
    },
    "sources": [
-    "V2 spec sheet: SF-OP01-10 BUMPER PLATE SPEC SHEET 2023-12-22.xlsx"
+    "Master Spec Template - 11 Categories.xlsx",
+    "ISV 4.0"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -206,32 +262,46 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny",
-    "materials": "PVC",
+    "upc": "815749017536",
     "color": "BLACK (STATED THE MAIN COLOR)",
+    "materials": "PVC",
+    "maxUserWeightLb": "Not applicable",
+    "latex": "Not applicable",
+    "battery": "N/A",
+    "features": "This dumbbell is made of PVC material. High temperature and wear resistant material, and has no Bad Odor/Smell. The trademark has a unique color and is more eye-catching. Decorative chrome plated handles are easy to hold and slip resistant. This model has a variety of weights, many options.",
+    "shippingWeight": "11.06LBS/5KG",
     "productWeight": "10LBS/4.5KG",
     "keyDimensions": "23.7*8*7CM/1pcs 9.3*3.2*2.8INCHES/1pcs",
-    "shippingWeight": "11.06LBS/5KG",
     "shippingDimensions": "26.3*20.2*10.5CM/ 10.35* 7.95 * 4.13 INCHES",
-    "grip": "28mm (1.1 in)",
-    "features": "This dumbbell is made of PVC material. High temperature and wear resistant material, and has no Bad Odor/Smell. The trademark has a unique color and is more eye-catching. Decorative chrome plated handles are easy to hold and slip resistant. This model has a variety of weights, many options."
+    "workbookColorBoxOrBrownBox": "113.6*86.8*96CM/44.72*34.17*37.80INCH",
+    "workbookPiecesPerCartonIfApplicable": "2"
    },
    "evidence": {
-    "brand": "SF‐DB03‐5 UPDATE SPEC-5 11.02.2023.xlsx / Sheet1 / B3",
-    "materials": "SF‐DB03‐5 UPDATE SPEC-5 11.02.2023.xlsx / Sheet1 / B7",
-    "color": "SF‐DB03‐5 UPDATE SPEC-5 11.02.2023.xlsx / Sheet1 / B6",
-    "productWeight": "SF‐DB03‐5 UPDATE SPEC-5 11.02.2023.xlsx / Sheet1 / B12",
-    "keyDimensions": "SF‐DB03‐5 UPDATE SPEC-5 11.02.2023.xlsx / Sheet1 / B14",
-    "shippingWeight": "SF‐DB03‐5 UPDATE SPEC-5 11.02.2023.xlsx / Sheet1 / B11",
-    "shippingDimensions": "SF‐DB03‐5 UPDATE SPEC-5 11.02.2023.xlsx / Sheet1 / B16",
-    "grip": "SF‐DB03‐5 UPDATE SPEC-5 11.02.2023.xlsx / Sheet1 / B19",
-    "features": "SF‐DB03‐5 UPDATE SPEC-5 11.02.2023.xlsx / Sheet1 / B43"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Weights / G57",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Weights / H57",
+    "color": "Master Spec Template - 11 Categories.xlsx / Weights / I57",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Weights / J57",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Weights / M57",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Weights / N57",
+    "battery": "Master Spec Template - 11 Categories.xlsx / Weights / P57",
+    "features": "Master Spec Template - 11 Categories.xlsx / Weights / S57",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Weights / U57",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Weights / V57",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Weights / W57",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Weights / X57",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Weights / Y57",
+    "workbookPiecesPerCartonIfApplicable": "ISV 4.0 / SHF / AF363"
    },
    "sources": [
-    "V2 spec sheet: SF‐DB03‐5 UPDATE SPEC-5 11.02.2023.xlsx"
+    "Master Spec Template - 11 Categories.xlsx",
+    "ISV 4.0"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -250,28 +320,43 @@
   "photoChecked": true,
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny",
-    "materials": "Iron",
+    "upc": "815749013835",
     "color": "pink",
-    "productWeight": "4LBS",
+    "materials": "Iron",
+    "transportWheels": "Yes",
+    "battery": "No",
+    "features": "• DURABLE CAST IRON: Constructed from durable materials that increase toughness and stability as you train. Strong build will not break after vigorous workouts\n• NON-SLIP NEOPRENE COATING: Ideal training for toning and sculpting arms, shoulders, back while you build stamina and improve metabolic rate. The malleable handle on this weight dumbbell makes it easy to grip\n• EXCELLENT FOR TRAINING: These workout dumbbells are excellent for resistance training. The easy-grip handles give you control for bicep curls and other arm exercises\n• MULTIPLE WEIGHTS: The Sunny Health and Fitness dumbbells come in multiple weights and colors. Clear printed weights allow you to distinguish different weights from others. Available in 2Lbs, 5 Lbs, 8Lbs, 10 Lbs\n• COMPACT AND ERGONOMIC: Designed for complete control during your workout and small and compact enough for fitness training on the go. Perfect for home workouts or walking exercise\n• HEX SHAPE: Hexagonal shape prevents the dumbbell from rolling away and reduces the risk of accidents.",
     "shippingWeight": "5LBS",
-    "keyDimensions": "5.5L x 2.5W x 2.5H"
+    "productWeight": "4LBS",
+    "keyDimensions": "5.5L x 2.5W x 2.5H",
+    "shippingDimensions": "5.6L x 2.9W x 6.57H",
+    "workbookColorBoxOrBrownBox": "Brown",
+    "workbookPiecesPerCartonIfApplicable": "2"
    },
    "evidence": {
-    "brand": "NO.021-2-PAIR SPEC.xlsx / Specification / B1",
-    "materials": "NO.021-2-PAIR SPEC.xlsx / Specification / B13",
-    "color": "NO.021-2-PAIR SPEC.xlsx / Specification / B15",
-    "productWeight": "NO.021-2-PAIR SPEC.xlsx / Specification / B4",
-    "shippingWeight": "NO.021-2-PAIR SPEC.xlsx / Specification / B5",
-    "keyDimensions": "ISV 4.0 / SHF / AS32"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Weights / G4",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Weights / H4",
+    "color": "Master Spec Template - 11 Categories.xlsx / Weights / I4",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Weights / J4",
+    "transportWheels": "Master Spec Template - 11 Categories.xlsx / Weights / O4",
+    "battery": "Master Spec Template - 11 Categories.xlsx / Weights / P4",
+    "features": "Master Spec Template - 11 Categories.xlsx / Weights / S4",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Weights / U4",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Weights / V4",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Weights / W4",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Weights / X4",
+    "workbookColorBoxOrBrownBox": "ISV 4.0 / SHF / T32",
+    "workbookPiecesPerCartonIfApplicable": "ISV 4.0 / SHF / AF32"
    },
    "sources": [
-    "V2 spec sheet: NO.021-2-PAIR SPEC.xlsx",
+    "Master Spec Template - 11 Categories.xlsx",
     "ISV 4.0"
    ],
    "notes": [
-    "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
+    "Product Spec follows the category tab in the master workbook."
    ]
   },
   "priceSource": "Sunny US Mastersheet V1"
@@ -303,32 +388,48 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "Metal / Silicon /Velcro strap",
+    "upc": "815749018380",
     "color": "BLACK U +RED 485C + BLACK",
+    "materials": "Metal / Silicon /Velcro strap",
+    "maxUserWeightLb": "Not applicable",
+    "latex": "Not applicable",
+    "transportWheels": "No",
+    "battery": "No",
+    "features": "1- Silicone coated iron with hand feel oil spray, the product feels silky and comfortable in contact with the skin, 2- Not prone to dirt and dust, easy to clean, Velcro structure for easy wearing, simple and beautiful appearance",
+    "shippingWeight": "4.3LBS/1.95KG",
     "productWeight": "4.2LBS/1.9KG",
     "keyDimensions": "33.5*9.2*1.6cm 13.2*3.6*0.6inch",
-    "foldedDimensions": "200mm/7.9inch",
-    "shippingWeight": "4.3LBS/1.95KG",
     "shippingDimensions": "23.8*10.2*4.5CM 9.4*4*1.8inch",
-    "features": "1- Silicone coated iron with hand feel oil spray, the product feels silky and comfortable in contact with the skin, 2- Not prone to dirt and dust, easy to clean, Velcro structure for easy wearing, simple and beautiful appearance"
+    "workbookColorBoxOrBrownBox": "BROWN BOX",
+    "workbookPiecesPerCartonIfApplicable": "2"
    },
    "evidence": {
-    "brand": "NO. 103-2 final spec sheet 06072024.xlsx / NO. 103-2 / B3",
-    "materials": "NO. 103-2 final spec sheet 06072024.xlsx / NO. 103-2 / B7",
-    "color": "NO. 103-2 final spec sheet 06072024.xlsx / NO. 103-2 / B6",
-    "productWeight": "NO. 103-2 final spec sheet 06072024.xlsx / NO. 103-2 / B10",
-    "keyDimensions": "NO. 103-2 final spec sheet 06072024.xlsx / NO. 103-2 / B12",
-    "foldedDimensions": "NO. 103-2 final spec sheet 06072024.xlsx / NO. 103-2 / B13",
-    "shippingWeight": "NO. 103-2 final spec sheet 06072024.xlsx / NO. 103-2 / B9",
-    "shippingDimensions": "NO. 103-2 final spec sheet 06072024.xlsx / NO. 103-2 / B14",
-    "features": "NO. 103-2 final spec sheet 06072024.xlsx / NO. 103-2 / B42"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Weights / G14",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Weights / H14",
+    "color": "Master Spec Template - 11 Categories.xlsx / Weights / I14",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Weights / J14",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Weights / M14",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Weights / N14",
+    "transportWheels": "Master Spec Template - 11 Categories.xlsx / Weights / O14",
+    "battery": "Master Spec Template - 11 Categories.xlsx / Weights / P14",
+    "features": "Master Spec Template - 11 Categories.xlsx / Weights / S14",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Weights / U14",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Weights / V14",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Weights / W14",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Weights / X14",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Weights / Y14",
+    "workbookPiecesPerCartonIfApplicable": "ISV 4.0 / SHF / AF95"
    },
    "sources": [
-    "V2 spec sheet: NO. 103-2 final spec sheet 06072024.xlsx"
+    "Master Spec Template - 11 Categories.xlsx",
+    "ISV 4.0"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -359,32 +460,48 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "Metal / Silicon /Velcro strap",
+    "upc": "815749018373",
     "color": "Grey 649C+RED 485C+Black",
+    "materials": "Metal / Silicon /Velcro strap",
+    "maxUserWeightLb": "Not applicable",
+    "latex": "Not applicable",
+    "transportWheels": "No",
+    "battery": "No",
+    "features": "1- Silicone coated iron with hand feel oil spray, the product feels silky and comfortable in contact with the skin, 2- Not prone to dirt and dust, easy to clean, Velcro structure for easy wearing, simple and beautiful appearance",
+    "shippingWeight": "2.2LBS/0.99KG",
     "productWeight": "2.1LBS/0.92KG",
     "keyDimensions": "29x7.2x1.4cm 11.4*2.8*0.55inch",
-    "foldedDimensions": "179mm/7 inches",
-    "shippingWeight": "2.2LBS/0.99KG",
     "shippingDimensions": "22*8.8*4.3CM 8.7*3.5*1.7inch",
-    "features": "1- Silicone coated iron with hand feel oil spray, the product feels silky and comfortable in contact with the skin, 2- Not prone to dirt and dust, easy to clean, Velcro structure for easy wearing, simple and beautiful appearance"
+    "workbookColorBoxOrBrownBox": "COLOR BOX",
+    "workbookPiecesPerCartonIfApplicable": "2"
    },
    "evidence": {
-    "brand": "NO. 103-1 final spec sheet 06072024.xlsx / NO. 103-1 / B3",
-    "materials": "NO. 103-1 final spec sheet 06072024.xlsx / NO. 103-1 / B7",
-    "color": "NO. 103-1 final spec sheet 06072024.xlsx / NO. 103-1 / B6",
-    "productWeight": "NO. 103-1 final spec sheet 06072024.xlsx / NO. 103-1 / B10",
-    "keyDimensions": "NO. 103-1 final spec sheet 06072024.xlsx / NO. 103-1 / B12",
-    "foldedDimensions": "NO. 103-1 final spec sheet 06072024.xlsx / NO. 103-1 / B13",
-    "shippingWeight": "NO. 103-1 final spec sheet 06072024.xlsx / NO. 103-1 / B9",
-    "shippingDimensions": "NO. 103-1 final spec sheet 06072024.xlsx / NO. 103-1 / B14",
-    "features": "NO. 103-1 final spec sheet 06072024.xlsx / NO. 103-1 / B42"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Weights / G13",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Weights / H13",
+    "color": "Master Spec Template - 11 Categories.xlsx / Weights / I13",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Weights / J13",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Weights / M13",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Weights / N13",
+    "transportWheels": "Master Spec Template - 11 Categories.xlsx / Weights / O13",
+    "battery": "Master Spec Template - 11 Categories.xlsx / Weights / P13",
+    "features": "Master Spec Template - 11 Categories.xlsx / Weights / S13",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Weights / U13",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Weights / V13",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Weights / W13",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Weights / X13",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Weights / Y13",
+    "workbookPiecesPerCartonIfApplicable": "ISV 4.0 / SHF / AF94"
    },
    "sources": [
-    "V2 spec sheet: NO. 103-1 final spec sheet 06072024.xlsx"
+    "Master Spec Template - 11 Categories.xlsx",
+    "ISV 4.0"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -415,32 +532,48 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "NEOPRENE",
+    "upc": "810153800361",
     "color": "BLACK",
+    "materials": "NEOPRENE",
+    "maxUserWeightLb": "Not applicable",
+    "latex": "Not applicable",
+    "transportWheels": "No",
+    "battery": "No",
+    "features": "1- The fabric is soft and skin-friendly, fits the ankle, and will not be uncomfortable for a long time. 2- High-strength velcro straps ensures that the ankle weight will not loose during the exercise process. 3- The lengthened wings at both ends of the ankle weight can be well wrapped to protect the ankle skin, and will not be worn to the velcro strap. 4-The extended strap can be adapted to different calf sizes. 5-The weight is adjustable.",
+    "shippingWeight": "10.2 lbs/ 4.6 kgs",
     "productWeight": "10 lbs/ 4.5 kgs",
     "keyDimensions": "17.7*5.9*1.4 INCHES/ 45*15*3.5 CM",
-    "shippingWeight": "10.2 lbs/ 4.6 kgs",
     "shippingDimensions": "5.6*2.8*13.4 INCHES/ 14.3*7*34 CM",
-    "upc": "810153800361",
-    "features": "1- The fabric is soft and skin-friendly, fits the ankle, and will not be uncomfortable for a long time. 2- High-strength velcro straps ensures that the ankle weight will not loose during the exercise process. 3- The lengthened wings at both ends of the ankle weight can be well wrapped to protect the ankle skin, and will not be worn to the velcro strap. 4-The extended strap can be adapted to different calf sizes. 5-The weight is adjustable."
+    "workbookColorBoxOrBrownBox": "COLOR BOX",
+    "workbookPiecesPerCartonIfApplicable": "2"
    },
    "evidence": {
-    "brand": "SF-WA02-BK final Spec Sheet 20251118.xlsx / Sheet1 / B3",
-    "materials": "SF-WA02-BK final Spec Sheet 20251118.xlsx / Sheet1 / B8",
-    "color": "SF-WA02-BK final Spec Sheet 20251118.xlsx / Sheet1 / B7",
-    "productWeight": "SF-WA02-BK final Spec Sheet 20251118.xlsx / Sheet1 / B11",
-    "keyDimensions": "SF-WA02-BK final Spec Sheet 20251118.xlsx / Sheet1 / B13",
-    "shippingWeight": "SF-WA02-BK final Spec Sheet 20251118.xlsx / Sheet1 / B10",
-    "shippingDimensions": "SF-WA02-BK final Spec Sheet 20251118.xlsx / Sheet1 / B15",
-    "upc": "SF-WA02-BK final Spec Sheet 20251118.xlsx / Sheet1 / B6",
-    "features": "SF-WA02-BK final Spec Sheet 20251118.xlsx / Sheet1 / B45"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Weights / G134",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Weights / H134",
+    "color": "Master Spec Template - 11 Categories.xlsx / Weights / I134",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Weights / J134",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Weights / M134",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Weights / N134",
+    "transportWheels": "Master Spec Template - 11 Categories.xlsx / Weights / O134",
+    "battery": "Master Spec Template - 11 Categories.xlsx / Weights / P134",
+    "features": "Master Spec Template - 11 Categories.xlsx / Weights / S134",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Weights / U134",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Weights / V134",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Weights / W134",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Weights / X134",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Weights / Y134",
+    "workbookPiecesPerCartonIfApplicable": "ISV 4.0 / SHF / AF793"
    },
    "sources": [
-    "V2 spec sheet: SF-WA02-BK final Spec Sheet 20251118.xlsx"
+    "Master Spec Template - 11 Categories.xlsx",
+    "ISV 4.0"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -470,21 +603,43 @@
   "priceSource": "Sunny US Mastersheet V1",
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
-    "productWeight": "10",
+    "brand": "Sunny Health & Fitness",
+    "upc": "853227001721",
+    "color": "Yellow",
+    "materials": "Iron, Others",
+    "transportWheels": "Yes",
+    "battery": "No",
+    "features": "• HIGH-QUALITY VINYL COAT FINISH: Durable cast iron encased with color-coded vinyl prevents corrosion, increases durability, and protects flooring. Featured in multiple weights varying from 5 to 25 lb.\n• WIDE HANDLES: Smooth, high-quality textured handle provides a comfortable & secure grip for high reps and slow controlled movements. you can also do a multitude of ballistic and grind exercises.\n• FLAT BOTTOM: Flat base allows upright storage. It also makes it easier to hold in the push-up position, renegade rows, mounted pistol squats & other exercises requiring a kettlebell with a flat bottom.\n• FOR ALL FITNESS ENTHUSIASTS: Kettlebells can be used by cross-fitters, strength trainers, sports performance, HIIT workouts, etc. Build up your cardio and muscular endurance with the all-in-one fitness equipment. Used for swings, deadlifts, squats.\n• ERGONOMIC: Compact kettlebell size allows you to take your weights to the park, gym, or on the go. Use these cannonball-shaped workout tools to get a leaner and tighter figure.\n• CAST IRON: Made from high-grade cast iron for durability and high-performance strength training.",
     "shippingWeight": "11 lb",
-    "keyDimensions": "6.5L x 3.5W x 7H"
+    "productWeight": "10",
+    "keyDimensions": "6.5L x 3.5W x 7H",
+    "shippingDimensions": "7L x 4W x 7.5H",
+    "workbookColorBoxOrBrownBox": "Brown",
+    "workbookPiecesPerCartonIfApplicable": "1"
+   },
+   "evidence": {
+    "brand": "Master Spec Template - 11 Categories.xlsx / Weights / G5",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Weights / H5",
+    "color": "Master Spec Template - 11 Categories.xlsx / Weights / I5",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Weights / J5",
+    "transportWheels": "Master Spec Template - 11 Categories.xlsx / Weights / O5",
+    "battery": "Master Spec Template - 11 Categories.xlsx / Weights / P5",
+    "features": "Master Spec Template - 11 Categories.xlsx / Weights / S5",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Weights / U5",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Weights / V5",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Weights / W5",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Weights / X5",
+    "workbookColorBoxOrBrownBox": "ISV 4.0 / SHF / T50",
+    "workbookPiecesPerCartonIfApplicable": "ISV 4.0 / SHF / AF50"
    },
    "sources": [
+    "Master Spec Template - 11 Categories.xlsx",
     "ISV 4.0"
    ],
-   "evidence": {
-    "productWeight": "ISV 4.0 / SHF / AO50",
-    "shippingWeight": "ISV 4.0 / SHF / AA50",
-    "keyDimensions": "ISV 4.0 / SHF / AS50"
-   },
    "notes": [
-    "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
+    "Product Spec follows the category tab in the master workbook."
    ]
   }
  },
@@ -525,32 +680,48 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "NEOPRENE",
+    "upc": "810153800316",
     "color": "BLACK",
+    "materials": "NEOPRENE",
+    "maxUserWeightLb": "Not applicable",
+    "latex": "Not applicable",
+    "transportWheels": "No",
+    "battery": "No",
+    "features": "1- The fabric is soft and skin-friendly, fits the ankle, and will not be uncomfortable for a long time. 2- High-strength velcro straps ensures that the ankle weight will not loose during the exercise process. 3- The lengthened wings at both ends of the ankle weight can be well wrapped to protect the ankle skin, and will not be worn to the velcro strap. 4-The extended strap can be adapted to different calf sizes.",
+    "shippingWeight": "2.2 lbs/1 kgs",
     "productWeight": "2 lbs/0.9 kgs",
     "keyDimensions": "13.4*3.7*0.6 INCHES/ 34*9.5*1.5 CM",
-    "shippingWeight": "2.2 lbs/1 kgs",
     "shippingDimensions": "3.7*2*9.6 INCHES/ 9.5*5*24.5 CM",
-    "upc": "810153800316",
-    "features": "1- The fabric is soft and skin-friendly, fits the ankle, and will not be uncomfortable for a long time. 2- High-strength velcro straps ensures that the ankle weight will not loose during the exercise process. 3- The lengthened wings at both ends of the ankle weight can be well wrapped to protect the ankle skin, and will not be worn to the velcro strap. 4-The extended strap can be adapted to different calf sizes."
+    "workbookColorBoxOrBrownBox": "COLOR BOX",
+    "workbookPiecesPerCartonIfApplicable": "2"
    },
    "evidence": {
-    "brand": "SF-WA01-1 final Spec Sheet 20251118.xlsx / Sheet1 / B3",
-    "materials": "SF-WA01-1 final Spec Sheet 20251118.xlsx / Sheet1 / B8",
-    "color": "SF-WA01-1 final Spec Sheet 20251118.xlsx / Sheet1 / B7",
-    "productWeight": "SF-WA01-1 final Spec Sheet 20251118.xlsx / Sheet1 / B11",
-    "keyDimensions": "SF-WA01-1 final Spec Sheet 20251118.xlsx / Sheet1 / B13",
-    "shippingWeight": "SF-WA01-1 final Spec Sheet 20251118.xlsx / Sheet1 / B10",
-    "shippingDimensions": "SF-WA01-1 final Spec Sheet 20251118.xlsx / Sheet1 / B15",
-    "upc": "SF-WA01-1 final Spec Sheet 20251118.xlsx / Sheet1 / B6",
-    "features": "SF-WA01-1 final Spec Sheet 20251118.xlsx / Sheet1 / B45"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Weights / G129",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Weights / H129",
+    "color": "Master Spec Template - 11 Categories.xlsx / Weights / I129",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Weights / J129",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Weights / M129",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Weights / N129",
+    "transportWheels": "Master Spec Template - 11 Categories.xlsx / Weights / O129",
+    "battery": "Master Spec Template - 11 Categories.xlsx / Weights / P129",
+    "features": "Master Spec Template - 11 Categories.xlsx / Weights / S129",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Weights / U129",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Weights / V129",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Weights / W129",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Weights / X129",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Weights / Y129",
+    "workbookPiecesPerCartonIfApplicable": "ISV 4.0 / SHF / AF788"
    },
    "sources": [
-    "V2 spec sheet: SF-WA01-1 final Spec Sheet 20251118.xlsx"
+    "Master Spec Template - 11 Categories.xlsx",
+    "ISV 4.0"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  }

@@ -36,32 +36,43 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "PVC",
+    "upc": "815749019998",
     "color": "Light White 2U",
-    "productWeight": "750G/1.7lbs",
+    "materials": "PVC",
     "maxUserWeightLb": "300KG/660lbs",
-    "keyDimensions": "dia.45CM/ diameter 17.7inches",
+    "latex": "Not applicable",
+    "remoteControl": "No",
+    "features": "Workout,exercise,increase balance and stability Made of extra thick, durable,anti-slip pvc material Weight capacity 660 LBS, anti-burst 265LBS Air pump and instructions included",
     "shippingWeight": "998G/2.2lbs",
+    "productWeight": "750G/1.7lbs",
+    "keyDimensions": "dia.45CM/ diameter 17.7inches",
     "shippingDimensions": "16x12x24CM/6.3x4.7x9.4inches",
-    "features": "Workout,exercise,increase balance and stability Made of extra thick, durable,anti-slip pvc material Weight capacity 660 LBS, anti-burst 265LBS Air pump and instructions included"
+    "workbookColorBoxOrBrownBox": "COLOR BOX"
    },
    "evidence": {
-    "brand": "SF-EB02-XS Final spec sheet 10182024.xlsx / Sheet1 / B3",
-    "materials": "SF-EB02-XS Final spec sheet 10182024.xlsx / Sheet1 / B7",
-    "color": "SF-EB02-XS Final spec sheet 10182024.xlsx / Sheet1 / B6",
-    "productWeight": "SF-EB02-XS Final spec sheet 10182024.xlsx / Sheet1 / B10",
-    "maxUserWeightLb": "SF-EB02-XS Final spec sheet 10182024.xlsx / Sheet1 / B19",
-    "keyDimensions": "SF-EB02-XS Final spec sheet 10182024.xlsx / Sheet1 / B12",
-    "shippingWeight": "SF-EB02-XS Final spec sheet 10182024.xlsx / Sheet1 / B9",
-    "shippingDimensions": "SF-EB02-XS Final spec sheet 10182024.xlsx / Sheet1 / B14",
-    "features": "SF-EB02-XS Final spec sheet 10182024.xlsx / Sheet1 / B43"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G101",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H101",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I101",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J101",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Essentials / M101",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Essentials / N101",
+    "remoteControl": "Master Spec Template - 11 Categories.xlsx / Essentials / AR101",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY101",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA101",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB101",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC101",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD101",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Essentials / BE101"
    },
    "sources": [
-    "V2 spec sheet: SF-EB02-XS Final spec sheet 10182024.xlsx"
+    "Master Spec Template - 11 Categories.xlsx"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -102,32 +113,43 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "PVC",
+    "upc": "815749019981",
     "color": "Red 485C",
-    "productWeight": "318G/0.7lbs",
+    "materials": "PVC",
     "maxUserWeightLb": "150KG/330lbs",
-    "keyDimensions": "dia.23CM/diameter 9inches",
+    "latex": "Not applicable",
+    "remoteControl": "No",
+    "features": "Intensify balance and stability workout. lmprove posture and form Made of extra thick, durable,anti-slip pvc material Weight capacity 330 LBS Air pump and instructions included",
     "shippingWeight": "499G/1.1lbs",
+    "productWeight": "318G/0.7lbs",
+    "keyDimensions": "dia.23CM/diameter 9inches",
     "shippingDimensions": "20x7x18CM/7.9x2.8x7.1inches",
-    "features": "Intensify balance and stability workout. lmprove posture and form Made of extra thick, durable,anti-slip pvc material Weight capacity 330 LBS Air pump and instructions included"
+    "workbookColorBoxOrBrownBox": "COLOR BOX"
    },
    "evidence": {
-    "brand": "SF-EB01-RD Final spec sheet 10182024.xlsx / EB01-RD / B3",
-    "materials": "SF-EB01-RD Final spec sheet 10182024.xlsx / EB01-RD / B7",
-    "color": "SF-EB01-RD Final spec sheet 10182024.xlsx / EB01-RD / B6",
-    "productWeight": "SF-EB01-RD Final spec sheet 10182024.xlsx / EB01-RD / B10",
-    "maxUserWeightLb": "SF-EB01-RD Final spec sheet 10182024.xlsx / EB01-RD / B19",
-    "keyDimensions": "SF-EB01-RD Final spec sheet 10182024.xlsx / EB01-RD / B12",
-    "shippingWeight": "SF-EB01-RD Final spec sheet 10182024.xlsx / EB01-RD / B9",
-    "shippingDimensions": "SF-EB01-RD Final spec sheet 10182024.xlsx / EB01-RD / B14",
-    "features": "SF-EB01-RD Final spec sheet 10182024.xlsx / EB01-RD / B43"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G97",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H97",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I97",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J97",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Essentials / M97",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Essentials / N97",
+    "remoteControl": "Master Spec Template - 11 Categories.xlsx / Essentials / AR97",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY97",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA97",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB97",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC97",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD97",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Essentials / BE97"
    },
    "sources": [
-    "V2 spec sheet: SF-EB01-RD Final spec sheet 10182024.xlsx"
+    "Master Spec Template - 11 Categories.xlsx"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -158,36 +180,43 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "Plastic+ABS",
+    "upc": "815749017833",
     "color": "Black",
+    "materials": "Plastic+ABS",
+    "maxUserWeightLb": "Not applicable",
+    "latex": "Not applicable",
+    "remoteControl": "No",
+    "features": "Measures heart rate and steps Heart Rate Zones Display and Alert",
+    "shippingWeight": "0.055KGS/0.1LBS",
     "productWeight": "0.032KGS/0.07LBS",
     "keyDimensions": "46.5x36x14 mm 1.83*1.41*0.55inch",
-    "shippingWeight": "0.055KGS/0.1LBS",
     "shippingDimensions": "120*80*22mm/4.7*3.1*0.8inch",
-    "battery": "Rechargeable 90mAh lithium battery",
-    "bluetooth": "SUNNY APP/ Wahoo/Polar Beat/Strava/Zwift/Peloton",
-    "features": "Measures heart rate and steps Heart Rate Zones Display and Alert",
-    "certification": "FCC/REACH/ROSH/IC/CE-RED/UN38.3/ANT"
+    "workbookColorBoxOrBrownBox": "42*38*35CM/ 16.5x14.8x13.4 INCHES"
    },
    "evidence": {
-    "brand": "HR200 FINAL SPEC SHEET 2023-10-31.xlsx / Sheet1 / B3",
-    "materials": "HR200 FINAL SPEC SHEET 2023-10-31.xlsx / Sheet1 / B7",
-    "color": "HR200 FINAL SPEC SHEET 2023-10-31.xlsx / Sheet1 / B6",
-    "productWeight": "HR200 FINAL SPEC SHEET 2023-10-31.xlsx / Sheet1 / B12",
-    "keyDimensions": "HR200 FINAL SPEC SHEET 2023-10-31.xlsx / Sheet1 / B14",
-    "shippingWeight": "HR200 FINAL SPEC SHEET 2023-10-31.xlsx / Sheet1 / B11",
-    "shippingDimensions": "HR200 FINAL SPEC SHEET 2023-10-31.xlsx / Sheet1 / B16",
-    "battery": "HR200 FINAL SPEC SHEET 2023-10-31.xlsx / Sheet1 / D27",
-    "bluetooth": "HR200 FINAL SPEC SHEET 2023-10-31.xlsx / Sheet1 / D36",
-    "features": "HR200 FINAL SPEC SHEET 2023-10-31.xlsx / Sheet1 / B47",
-    "certification": "HR200 FINAL SPEC SHEET 2023-10-31.xlsx / Sheet1 / B46"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G5",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H5",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I5",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J5",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Essentials / M5",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Essentials / N5",
+    "remoteControl": "Master Spec Template - 11 Categories.xlsx / Essentials / AR5",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY5",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA5",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB5",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC5",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD5",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Essentials / BE5"
    },
    "sources": [
-    "V2 spec sheet: HR200 FINAL SPEC SHEET 2023-10-31.xlsx"
+    "Master Spec Template - 11 Categories.xlsx"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -219,21 +248,37 @@
   "priceSource": "Sunny US Mastersheet V1",
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
-    "productWeight": "0.02",
+    "brand": "Sunny Health & Fitness",
+    "upc": "815749015389",
+    "color": "Black/Red",
+    "materials": "Plastic, Others",
+    "features": "• 【Connected Fitness Experience】With Bluetooth connectivity, the Sunny Bike Cadence CB110 allows you to connect your bike to the Free SunnyFit App to track real-time workout metrics such as time, RPM, speed, and calories, and get access to 1000+ training videos from world-class certified trainers. Customize your workout plans, explore the world with 10000+ world tours videos, and access exclusive in-app social communities, leaderboards, and other exciting features.\n• 【2 in 1 Cadence Sensor】The Sunny bike cadence can be used for both your indoor cycle and outdoor bike. With one simple click in the app, you can switch between different modes and enjoy the full benefits of SunnyFit.\n• 【REAL-TIME Metrics】Track and view your workout status such as time, speed, RPM, distance, and calories (based on your age, gender, and weight) in real-time by connecting with the SunnyFit App, and get more accurate and useful data that will help you reach your fitness goals.\n• 【EASY INSTALLATION】Simply place the sensor onto the protective, rubberized mat, then wrap and secure it around the bike's crank with the taut elastic bands or cable ties provided for a snug and secure attachment.\n• 【Easy to Use】Two LED lights indicate the sensor's device connection and mode, with the blue light signifying cadence mode and the red light representing speed mode. Lights flash to show the sensor's status: power on, wake up, broadcast, and connect. Please refer to the user manual for full details.\n• 【EASY Maintenance and Long Duration】The Sunny Bike Cadence sensor is very energy-efficient, and the battery can last very long. The user-friendly, unique design makes it very easy to replace the battery, and the sensor is also water-resistant, allowing for peace of mind while riding outdoors.\n• 【WHAT'S INCLUDED】1 Sensor, 2 Rubber Mats, 2 Large Rubber Bands, 2 Small Rubber Bands, 6 Plastic Cable Ties, and an easy-to-follow Instruction Manual. Product dimensions: 3.4 x 3 x 1 inches. \n\n• 【About SUNNY】For over 20 years, Sunny Health & Fitness has been a premier brand of high-quality fitness products, recognized for our commitment to excellence. Our dedicated customer service reps and fitness instructors stand behind every product to ensure you have the best fitness experience possible.",
     "shippingWeight": "0.1 lb",
-    "keyDimensions": "3.4L x 3W x 1H"
+    "productWeight": "0.02",
+    "keyDimensions": "3.4L x 3W x 1H",
+    "shippingDimensions": "1L x 3W x 3.4H",
+    "workbookColorBoxOrBrownBox": "Color"
+   },
+   "evidence": {
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G4",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H4",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I4",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J4",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY4",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA4",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB4",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC4",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD4",
+    "workbookColorBoxOrBrownBox": "ISV 4.0 / SHF / T25"
    },
    "sources": [
+    "Master Spec Template - 11 Categories.xlsx",
     "ISV 4.0"
    ],
-   "evidence": {
-    "productWeight": "ISV 4.0 / SHF / AO25",
-    "shippingWeight": "ISV 4.0 / SHF / AA25",
-    "keyDimensions": "ISV 4.0 / SHF / AS25"
-   },
    "notes": [
-    "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
+    "Product Spec follows the category tab in the master workbook."
    ]
   }
  },
@@ -264,44 +309,41 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "Tempered glass+HIPS",
+    "upc": "815749016652",
     "color": "Black",
-    "productWeight": "1.25KG/2.8LBS",
+    "materials": "Tempered glass+HIPS",
     "maxUserWeightLb": "180KG/400LBS",
-    "keyDimensions": "280*280*25mm/11*11*1INCHES",
-    "footprint": "280*280mm/11*11 INCHES",
-    "shippingWeight": "1.5KG/3.3LBS",
-    "shippingDimensions": "300*293*34mm/11.8*11.5*1.3INCHES",
-    "battery": "3*AAA",
-    "bluetooth": "SUNNY FIT",
-    "screenSize": "59*22mm/2.3*0.9 INCHES",
-    "screenType": "LED",
+    "latex": "Not applicable",
     "features": "● Bluetooth Version: BLE4.0, Works with iOS11.0 & Android6.0 OR Higher Version; ● High precision as Xiaomi scale ● 20 FUNCTIONS: WEIGHT, PROTEIN, METABOLIC AGE, IDEAL WEIGHT, BMI, BMR, VISCERAL FAT, BONE MASS, BODY FAT, BODY WATER, MUSCLE MASS, BODY TYPE, MUSCLE CONTROL, SKELETAL MUSCLE, FAT MASS, FAT-FREE BODY WEIGHT, FAT CONTROL, SUBCUTANEOUS FAT, HEART RATE, TARGET TRACKING ● Weigh small stuff from 100g-9.95KG; ● CNC large safe corner, Leather grain base design; ● HealthU+ APP smart function: Baby Weighing Mode, Water Daily Input Record, Body Dimension Record, Daily weight on scale reminder. ● AUTO Function: Step on, Auto-off; ● Smart Reminder:Low Battery Reminder, Overload Reminder. ● SDK provided available",
-    "certification": "CE/REACH/ROHS/FDA/FCC/BQB"
+    "shippingWeight": "1.5KG/3.3LBS",
+    "productWeight": "1.25KG/2.8LBS",
+    "keyDimensions": "280*280*25mm/11*11*1INCHES",
+    "shippingDimensions": "300*293*34mm/11.8*11.5*1.3INCHES",
+    "workbookColorBoxOrBrownBox": "COLOR BOX"
    },
    "evidence": {
-    "brand": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B3",
-    "materials": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B7",
-    "color": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B6",
-    "productWeight": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B10",
-    "maxUserWeightLb": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B19",
-    "keyDimensions": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B12",
-    "footprint": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B14",
-    "shippingWeight": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B9",
-    "shippingDimensions": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B15",
-    "battery": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / D25",
-    "bluetooth": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / D31",
-    "screenSize": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B17",
-    "screenType": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B18",
-    "features": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B41",
-    "certification": "Spec Sheet for SF-WS022063 01292023.xlsx / Sheet1 / B40"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G151",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H151",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I151",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J151",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Essentials / M151",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Essentials / N151",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY151",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA151",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB151",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC151",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD151",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Essentials / BE151"
    },
    "sources": [
-    "V2 spec sheet: Spec Sheet for SF-WS022063 01292023.xlsx"
+    "Master Spec Template - 11 Categories.xlsx"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -320,36 +362,45 @@
   "photoChecked": true,
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "ABS HANDLE, PVC ROPE",
+    "upc": "815749019950",
     "color": "Black handle / Black Rope",
-    "productWeight": "0.13KGS/0.28LBS",
+    "materials": "ABS HANDLE, PVC ROPE",
     "maxUserHeight": "195CM/76.8INCHES",
-    "keyDimensions": "14cm (5.51in.) handle length 1.5cm (0.59in.) handle diameter (top) 2.5cm (0.98in.) handle diameter (bottom)",
-    "shippingWeight": "0.19KGS/0.43LBS",
-    "shippingDimensions": "140*180*35mm/ 5.5*7.1*1.4inches",
-    "ropeLength": "3 M/118 inches",
+    "maxUserWeightLb": "Not applicable",
+    "latex": "Not applicable",
+    "remoteControl": "No",
     "features": "1. Add silicone into PVC rope which make the rope more resistant to wear , low temperature environment still has excellent durability. 2.5.50mm thick PVC rope, strong jump; 3. The appearance of the handle is simple and generous, and the grip is comfortable; 4. The buckle is easy to disassemble, adjust the rope length in 1 second.",
-    "certification": "No"
+    "shippingWeight": "0.19KGS/0.43LBS",
+    "productWeight": "0.13KGS/0.28LBS",
+    "keyDimensions": "14cm (5.51in.) handle length 1.5cm (0.59in.) handle diameter (top) 2.5cm (0.98in.) handle diameter (bottom)",
+    "shippingDimensions": "140*180*35mm/ 5.5*7.1*1.4inches",
+    "workbookColorBoxOrBrownBox": "COLOR BOX"
    },
    "evidence": {
-    "brand": "SF-JR01-BK final spec sheet 01082025.xlsx / JR01 / B3",
-    "materials": "SF-JR01-BK final spec sheet 01082025.xlsx / JR01 / B7",
-    "color": "SF-JR01-BK final spec sheet 01082025.xlsx / JR01 / B6",
-    "productWeight": "SF-JR01-BK final spec sheet 01082025.xlsx / JR01 / B10",
-    "maxUserHeight": "SF-JR01-BK final spec sheet 01082025.xlsx / JR01 / B20",
-    "keyDimensions": "SF-JR01-BK final spec sheet 01082025.xlsx / JR01 / B12",
-    "shippingWeight": "SF-JR01-BK final spec sheet 01082025.xlsx / JR01 / B9",
-    "shippingDimensions": "SF-JR01-BK final spec sheet 01082025.xlsx / JR01 / B14",
-    "ropeLength": "SF-JR01-BK final spec sheet 01082025.xlsx / JR01 / B21",
-    "features": "SF-JR01-BK final spec sheet 01082025.xlsx / JR01 / B45",
-    "certification": "SF-JR01-BK final spec sheet 01082025.xlsx / JR01 / B44"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G132",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H132",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I132",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J132",
+    "maxUserHeight": "Master Spec Template - 11 Categories.xlsx / Essentials / L132",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Essentials / M132",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Essentials / N132",
+    "remoteControl": "Master Spec Template - 11 Categories.xlsx / Essentials / AR132",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY132",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA132",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB132",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC132",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD132",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Essentials / BE132"
    },
    "sources": [
-    "V2 spec sheet: SF-JR01-BK final spec sheet 01082025.xlsx"
+    "Master Spec Template - 11 Categories.xlsx"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -368,38 +419,45 @@
   "photoChecked": true,
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "ALUMINUM ALLOY+SILICONE HANDLE, PVC ROPE",
+    "upc": "815749019974",
     "color": "Black+Silver",
-    "productWeight": "470g/1.04lbs",
+    "materials": "ALUMINUM ALLOY+SILICONE HANDLE, PVC ROPE",
     "maxUserHeight": "195CM/76.8INCHES",
-    "keyDimensions": "14.7cm (5.79in.) handle length 2.2cm (0.87in.) handle diameter",
-    "shippingWeight": "544g /1.2lbs",
-    "shippingDimensions": "140*180*40mm/5.5*7.1*1.6inches",
+    "maxUserWeightLb": "Not applicable",
     "latex": "The silicone case on the handle contain Latex",
-    "ropeLength": "3 M/118 inches",
-    "features": "1.7mm thick PVC rope body, sweat burning fat; 2. High speed oil bearing, smooth and durable; 3. Aluminum alloy anodized surface, high quality; 4. Food contact grade silicone is used in the hand grip, which is safe, reliable and comfortable to hold; 5. Can add 2*100g removable load, the whole rope can reach 470g, burning fat and sweat easily advance",
-    "certification": "NO"
+    "remoteControl": "No",
+    "features": "1.7mm thick PVC rope body, sweat burning fat; 2. High speed oil bearing, smooth and durable; 3. Aluminum alloy anodized surface, high quality; 4. Food contact grade silicone is used in the hand grip, which is safe, reliable and comfortable to hold; 5. Can add 2*100g removable load, the whole rope can reach 470g, burning fat and sweat easily advance;",
+    "shippingWeight": "544g /1.2lbs",
+    "productWeight": "470g/1.04lbs",
+    "keyDimensions": "14.7cm (5.79in.) handle length 2.2cm (0.87in.) handle diameter",
+    "shippingDimensions": "140*180*40mm/5.5*7.1*1.6inches",
+    "workbookColorBoxOrBrownBox": "COLOR BOX"
    },
    "evidence": {
-    "brand": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B3",
-    "materials": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B7",
-    "color": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B6",
-    "productWeight": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B10",
-    "maxUserHeight": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B20",
-    "keyDimensions": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B12",
-    "shippingWeight": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B9",
-    "shippingDimensions": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B14",
-    "latex": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B8",
-    "ropeLength": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B21",
-    "features": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B45",
-    "certification": "SF-JR03-BK final spec sheet 01082025.xlsx / JR03 / B44"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G134",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H134",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I134",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J134",
+    "maxUserHeight": "Master Spec Template - 11 Categories.xlsx / Essentials / L134",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Essentials / M134",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Essentials / N134",
+    "remoteControl": "Master Spec Template - 11 Categories.xlsx / Essentials / AR134",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY134",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA134",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB134",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC134",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD134",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Essentials / BE134"
    },
    "sources": [
-    "V2 spec sheet: SF-JR03-BK final spec sheet 01082025.xlsx"
+    "Master Spec Template - 11 Categories.xlsx"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -418,38 +476,45 @@
   "photoChecked": true,
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "ALUMINUM ALLOY+SILICONE HANDLE, PU+STEEL WIRE ROPE",
+    "upc": "815749019967",
     "color": "Black+Silver",
-    "productWeight": "163g/0.36lbs",
+    "materials": "ALUMINUM ALLOY+SILICONE HANDLE, PU+STEEL WIRE ROPE",
     "maxUserHeight": "195CM/76.8INCHES",
-    "keyDimensions": "17.3cm (6.81in.) handle length 1.5cm (0.59in.) handle diameter (top) 1.7cm (0.67in.) handle diamter (bottom)",
-    "shippingWeight": "230g/0.51lbs",
-    "shippingDimensions": "200*130*30mm/7.9*5.1*1.2inches",
+    "maxUserWeightLb": "Not applicable",
     "latex": "The silicone case on the handle contain Latex",
-    "ropeLength": "3 M/118 inches",
+    "remoteControl": "No",
     "features": "1. Self-locking patent structure, one press one loose, 1 second easy to adjust the length of the rope; 2. Single lock head contains 2 high speed bearings, running smoothly; 3. Aluminum alloy anodized surface, high quality; 4. Food contact grade silicone is used in the hand grip, which is safe, reliable and comfortable to hold; 5. 2.50mm wear-resistant PU wire rope, crossfit racing necessary.",
-    "certification": "NO"
+    "shippingWeight": "230g/0.51lbs",
+    "productWeight": "163g/0.36lbs",
+    "keyDimensions": "17.3cm (6.81in.) handle length 1.5cm (0.59in.) handle diameter (top) 1.7cm (0.67in.) handle diamter (bottom)",
+    "shippingDimensions": "200*130*30mm/7.9*5.1*1.2inches",
+    "workbookColorBoxOrBrownBox": "COLOR BOX"
    },
    "evidence": {
-    "brand": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B3",
-    "materials": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B7",
-    "color": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B6",
-    "productWeight": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B10",
-    "maxUserHeight": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B20",
-    "keyDimensions": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B12",
-    "shippingWeight": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B9",
-    "shippingDimensions": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B14",
-    "latex": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B8",
-    "ropeLength": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B21",
-    "features": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B45",
-    "certification": "SF-JR02-BK final spec sheet 01082025.xlsx / JR02 / B44"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G133",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H133",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I133",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J133",
+    "maxUserHeight": "Master Spec Template - 11 Categories.xlsx / Essentials / L133",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Essentials / M133",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Essentials / N133",
+    "remoteControl": "Master Spec Template - 11 Categories.xlsx / Essentials / AR133",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY133",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA133",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB133",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC133",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD133",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Essentials / BE133"
    },
    "sources": [
-    "V2 spec sheet: SF-JR02-BK final spec sheet 01082025.xlsx"
+    "Master Spec Template - 11 Categories.xlsx"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -480,49 +545,41 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "Steel+Plastic(PP/PE/PA/PVC)+elastic webbing",
-    "color": "Black+Middle Grey 426U+middle grey with silvery",
-    "productWeight": "20.2Lbs/9.2kg",
-    "maxUserWeightLb": "300lbs/135kg",
-    "keyDimensions": "38.2 x 38.2 x 51.2 inches/970x970x1300mm(MAX) 38.2 x 38.2 x 45.7 inches/970x970x1160mm(MIN)",
-    "foldedDimensions": "28x13x4.5 inches /710x330x115mm",
-    "footprint": "38.2*38.2inches/970*970mm",
-    "shippingWeight": "23.8Lbs/10.8kg",
-    "shippingDimensions": "32.5 x 16.1 x 4.7 inches/825x410x120mm",
     "upc": "810153801801",
+    "color": "Black+Middle Grey 426U+middle grey with silvery",
+    "materials": "Steel+Plastic(PP/PE/PA/PVC)+elastic webbing",
+    "maxUserWeightLb": "300lbs/135kg",
     "latex": "Yes",
-    "compatibility": "No",
-    "adjustments": "No",
-    "trampolineHeight": "310mm/12.2 inches",
-    "adjustableAngles": "No",
-    "features": "1. Uses elastic bands as a form of resistance. 2. The trampoline is equipped with a high-density breathable jumping surface for a more comfortable exercise experience; the frame features a wear-resistant coating to effectively prevent fading and paint peeling. 3. The high-stretch elastic bands can efficiently absorb 85% of impact vibrations, providing long-lasting and smoother rebound. 4. The trampoline uses a reinforced steel frame with 6 thickened support legs, supporting up to 300 lbs. 5. Easy to assemble. 6. The handrail height is adjustable in 5 levels, allowing users to adjust the trampoline handrail height according to their needs."
+    "features": "1. Uses elastic bands as a form of resistance. 2. The trampoline is equipped with a high-density breathable jumping surface for a more comfortable exercise experience; the frame features a wear-resistant coating to effectively prevent fading and paint peeling. 3. The high-stretch elastic bands can efficiently absorb 85% of impact vibrations, providing long-lasting and smoother rebound. 4. The trampoline uses a reinforced steel frame with 6 thickened support legs, supporting up to 300 lbs. 5. Easy to assemble. 6. The handrail height is adjustable in 5 levels, allowing users to adjust the trampoline handrail height according to their needs.",
+    "shippingWeight": "23.8Lbs/10.8kg",
+    "productWeight": "20.2Lbs/9.2kg",
+    "keyDimensions": "38.2 x 38.2 x 51.2 inches/970x970x1300mm(MAX) 38.2 x 38.2 x 45.7 inches/970x970x1160mm(MIN)",
+    "shippingDimensions": "32.5 x 16.1 x 4.7 inches/825x410x120mm",
+    "workbookColorBoxOrBrownBox": "Brown"
    },
    "evidence": {
-    "brand": "SF-S025063 final spec 03202026 update.xlsx / Specs / B7",
-    "materials": "SF-S025063 final spec 03202026 update.xlsx / Specs / B12",
-    "color": "SF-S025063 final spec 03202026 update.xlsx / Specs / B11",
-    "productWeight": "SF-S025063 final spec 03202026 update.xlsx / Specs / B31",
-    "maxUserWeightLb": "SF-S025063 final spec 03202026 update.xlsx / Specs / B15",
-    "keyDimensions": "SF-S025063 final spec 03202026 update.xlsx / Specs / B32",
-    "foldedDimensions": "SF-S025063 final spec 03202026 update.xlsx / Specs / B29",
-    "footprint": "SF-S025063 final spec 03202026 update.xlsx / Specs / B19",
-    "shippingWeight": "SF-S025063 final spec 03202026 update.xlsx / Specs / B34",
-    "shippingDimensions": "SF-S025063 final spec 03202026 update.xlsx / Specs / B33",
-    "upc": "SF-S025063 final spec 03202026 update.xlsx / Specs / B10",
-    "latex": "SF-S025063 final spec 03202026 update.xlsx / Specs / B17",
-    "compatibility": "SF-S025063 final spec 03202026 update.xlsx / Specs / B30",
-    "adjustments": "SF-S025063 final spec 03202026 update.xlsx / Specs / B22",
-    "trampolineHeight": "SF-S025063 final spec 03202026 update.xlsx / Specs / B27",
-    "adjustableAngles": "SF-S025063 final spec 03202026 update.xlsx / Specs / B28",
-    "features": "SF-S025063 final spec 03202026 update.xlsx / Specs / B36"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G137",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H137",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I137",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J137",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Essentials / M137",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Essentials / N137",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY137",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA137",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB137",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC137",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD137",
+    "workbookColorBoxOrBrownBox": "ISV 4.0 / SHF / T668"
    },
    "sources": [
-    "V2 spec sheet: SF-S025063 final spec 03202026 update.xlsx"
+    "Master Spec Template - 11 Categories.xlsx",
+    "ISV 4.0"
    ],
    "notes": [
-    "Maximum user height reads \"NO height limit\" (B14); not shown as a limit. \"No limit\" is not an unlimited capacity."
+    "Product Spec follows the category tab in the master workbook."
    ]
   },
   "priceSource": "Sunny US Mastersheet V1"
@@ -554,49 +611,41 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "Steel+Plastic(PP/PE/PA/PVC)+elastic webbing",
-    "color": "Black+(dark grey with silvery)",
-    "productWeight": "22.0Lbs/10kg",
-    "maxUserWeightLb": "300 lbs/135kg",
-    "keyDimensions": "42.5 x 42.5 x 51.2 inches/1080x1080x1300mm(MAX) 42.5 x 42.5 x 45.7 inches/970x970x1160mm(MIN)",
-    "foldedDimensions": "30.7 x 14.4 x 4.5 inches/780x365x115mm",
-    "footprint": "42.5 x 42.5 inches/1080*1080mm",
-    "shippingWeight": "26Lbs/15.6kg",
-    "shippingDimensions": "33.1 x 16.7 x 4.7 inches/840x425x120mm",
     "upc": "810153801818",
+    "color": "Black+ dark grey with silvery)",
+    "materials": "Steel+Plastic(PP/PE/PA/PVC)+elastic webbing",
+    "maxUserWeightLb": "300 lbs/135kg",
     "latex": "YES",
-    "compatibility": "No",
-    "adjustments": "No",
-    "trampolineHeight": "310mm/12.2 inches",
-    "adjustableAngles": "No",
-    "features": "1. Uses elastic bands as a form of resistance. 2. The trampoline is equipped with a high-density breathable jumping surface for a more comfortable exercise experience; the frame features a wear-resistant coating to effectively prevent fading and paint peeling. 3. The high-stretch elastic bands can efficiently absorb 85% of impact vibrations, providing long-lasting and smoother rebound. 4. The trampoline uses a reinforced steel frame with 6 thickened support legs, supporting up to 300 lbs. 5. Easy to assemble. 6. The handrail height is adjustable in 5 levels, allowing users to adjust the trampoline handrail height according to their needs."
+    "features": "1. Uses elastic bands as a form of resistance. 2. The trampoline is equipped with a high-density breathable jumping surface for a more comfortable exercise experience; the frame features a wear-resistant coating to effectively prevent fading and paint peeling. 3. The high-stretch elastic bands can efficiently absorb 85% of impact vibrations, providing long-lasting and smoother rebound. 4. The trampoline uses a reinforced steel frame with 6 thickened support legs, supporting up to 300 lbs. 5. Easy to assemble. 6. The handrail height is adjustable in 5 levels, allowing users to adjust the trampoline handrail height according to their needs.",
+    "shippingWeight": "26Lbs/15.6kg",
+    "productWeight": "22.0Lbs/10kg",
+    "keyDimensions": "42.5 x 42.5 x 51.2 inches/1080x1080x1300mm(MAX) 42.5 x 42.5 x 45.7 inches/970x970x1160mm(MIN)",
+    "shippingDimensions": "33.1 x 16.7 x 4.7 inches/840x425x120mm",
+    "workbookColorBoxOrBrownBox": "Brown"
    },
    "evidence": {
-    "brand": "SF-S025064 Final Spec 20260320.xlsx / Specs / B7",
-    "materials": "SF-S025064 Final Spec 20260320.xlsx / Specs / B12",
-    "color": "SF-S025064 Final Spec 20260320.xlsx / Specs / B11",
-    "productWeight": "SF-S025064 Final Spec 20260320.xlsx / Specs / B31",
-    "maxUserWeightLb": "SF-S025064 Final Spec 20260320.xlsx / Specs / B15",
-    "keyDimensions": "SF-S025064 Final Spec 20260320.xlsx / Specs / B32",
-    "foldedDimensions": "SF-S025064 Final Spec 20260320.xlsx / Specs / B29",
-    "footprint": "SF-S025064 Final Spec 20260320.xlsx / Specs / B19",
-    "shippingWeight": "SF-S025064 Final Spec 20260320.xlsx / Specs / B34",
-    "shippingDimensions": "SF-S025064 Final Spec 20260320.xlsx / Specs / B33",
-    "upc": "SF-S025064 Final Spec 20260320.xlsx / Specs / B10",
-    "latex": "SF-S025064 Final Spec 20260320.xlsx / Specs / B17",
-    "compatibility": "SF-S025064 Final Spec 20260320.xlsx / Specs / B30",
-    "adjustments": "SF-S025064 Final Spec 20260320.xlsx / Specs / B22",
-    "trampolineHeight": "SF-S025064 Final Spec 20260320.xlsx / Specs / B27",
-    "adjustableAngles": "SF-S025064 Final Spec 20260320.xlsx / Specs / B28",
-    "features": "SF-S025064 Final Spec 20260320.xlsx / Specs / B36"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G138",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H138",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I138",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J138",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Essentials / M138",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Essentials / N138",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY138",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA138",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB138",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC138",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD138",
+    "workbookColorBoxOrBrownBox": "ISV 4.0 / SHF / T669"
    },
    "sources": [
-    "V2 spec sheet: SF-S025064 Final Spec 20260320.xlsx"
+    "Master Spec Template - 11 Categories.xlsx",
+    "ISV 4.0"
    ],
    "notes": [
-    "Maximum user height reads \"No height limit\" (B14); not shown as a limit. \"No limit\" is not an unlimited capacity."
+    "Product Spec follows the category tab in the master workbook."
    ]
   },
   "priceSource": "Sunny US Mastersheet V1"
@@ -628,49 +677,41 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "Steel+Plastic(PP/PE/PA/PVC)+Elastic webbing",
-    "color": "Black",
-    "productWeight": "23.80Lbs/10.8kg",
-    "maxUserWeightLb": "300 lbs/136kg",
-    "keyDimensions": "50.4 x 50.4 x 51.2inches/1280x1280x1300mm(MAX) 50.4 x 50.4 x 45.7 inches/1280x1280x1160mm(MIN)",
-    "foldedDimensions": "36.2*16.5*4.5inches/920*420*115mm",
-    "footprint": "50.4x50.4inches/1280x1280mm",
-    "shippingWeight": "28.6Lbs/13kg",
-    "shippingDimensions": "37.8x19.9x4.7inches/960x505x120mm",
     "upc": "810153801825",
+    "color": "Black",
+    "materials": "Steel+Plastic(PP/PE/PA/PVC)+Elastic webbing",
+    "maxUserWeightLb": "300 lbs/136kg",
     "latex": "Yes",
-    "compatibility": "No",
-    "adjustments": "No",
-    "trampolineHeight": "310mm/12.2inches",
-    "adjustableAngles": "No",
-    "features": "1. Uses elastic bands as a form of resistance. 2. The trampoline is equipped with a high-density breathable jumping surface for a more comfortable exercise experience; the frame features a wear-resistant coating to effectively prevent fading and paint peeling. 3. The high-stretch elastic bands can efficiently absorb 85% of impact vibrations, providing long-lasting and smoother rebound. 4. The trampoline uses a reinforced steel frame with 6 thickened support legs, supporting up to 300 lbs. 5. Easy to assemble. 6. The handrail height is adjustable in 5 levels, allowing users to adjust the trampoline handrail height according to their needs."
+    "features": "1. Uses elastic bands as a form of resistance. 2. The trampoline is equipped with a high-density breathable jumping surface for a more comfortable exercise experience; the frame features a wear-resistant coating to effectively prevent fading and paint peeling. 3. The high-stretch elastic bands can efficiently absorb 85% of impact vibrations, providing long-lasting and smoother rebound. 4. The trampoline uses a reinforced steel frame with 6 thickened support legs, supporting up to 300 lbs. 5. Easy to assemble. 6. The handrail height is adjustable in 5 levels, allowing users to adjust the trampoline handrail height according to their needs.",
+    "shippingWeight": "28.6Lbs/13kg",
+    "productWeight": "23.80Lbs/10.8kg",
+    "keyDimensions": "50.4 x 50.4 x 51.2inches/1280x1280x1300mm(MAX) 50.4 x 50.4 x 45.7 inches/1280x1280x1160mm(MIN)",
+    "shippingDimensions": "37.8x19.9x4.7inches/960x505x120mm",
+    "workbookColorBoxOrBrownBox": "Brown"
    },
    "evidence": {
-    "brand": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B7",
-    "materials": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B12",
-    "color": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B11",
-    "productWeight": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B31",
-    "maxUserWeightLb": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B15",
-    "keyDimensions": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B32",
-    "foldedDimensions": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B29",
-    "footprint": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B19",
-    "shippingWeight": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B34",
-    "shippingDimensions": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B33",
-    "upc": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B10",
-    "latex": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B17",
-    "compatibility": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B30",
-    "adjustments": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B22",
-    "trampolineHeight": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B27",
-    "adjustableAngles": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B28",
-    "features": "SF-S025065 Final spec 03.27.2026.xlsx / Specs / B36"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G139",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H139",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I139",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J139",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Essentials / M139",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Essentials / N139",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY139",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA139",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB139",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC139",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD139",
+    "workbookColorBoxOrBrownBox": "ISV 4.0 / SHF / T670"
    },
    "sources": [
-    "V2 spec sheet: SF-S025065 Final spec 03.27.2026.xlsx"
+    "Master Spec Template - 11 Categories.xlsx",
+    "ISV 4.0"
    ],
    "notes": [
-    "Maximum user height reads \"No height limit\" (B14); not shown as a limit. \"No limit\" is not an unlimited capacity."
+    "Product Spec follows the category tab in the master workbook."
    ]
   },
   "priceSource": "Sunny US Mastersheet V1"
@@ -702,32 +743,44 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "Q235+PP+Rubber",
+    "upc": "815749015303",
     "color": "Black",
-    "productWeight": "12KG/26.4 LBS",
+    "materials": "Q235+PP+Rubber",
     "maxUserWeightLb": "130KGS/285LBS",
-    "keyDimensions": "108*108*34CM 42.5*42.5*13.4INCH",
+    "latex": "Not applicable",
+    "remoteControl": "No",
+    "features": "1. The trampoline is a low-intensity full-body exercise equipment, which can effectively burn calories, lose weight quickly, make your body stronger, improve your physical condition, exercise all your muscles at the same time. It takes more fun than other exercise methods. 2. The trampoline is with variation of the quadrilateral design, so that users have greater jumping space than the round trampoline. Integral design of jumping cloth, jumping cloth and big skirt cloth integrated, so that users have a sense of security. 3. The trampoline is with good rebound effect, 36 wear-resistant elastic strings design, no noise when using. Elastic strings force value can be adjusted according to your preferences. 4. The trampoline is simple to assemble. The user only need to assemble four supporting tubes. Four supporting tubes is with drum shape, which make the trampoline more stable.",
     "shippingWeight": "15 kg/33 lbs",
+    "productWeight": "12KG/26.4 LBS",
+    "keyDimensions": "108*108*34CM 42.5*42.5*13.4INCH",
     "shippingDimensions": "108.5*108*9.5CM/ 42.7*42.5*3.7 INCH",
-    "features": "1. The trampoline is a low-intensity full-body exercise equipment, which can effectively burn calories, lose weight quickly, make your body stronger, improve your physical condition, exercise all your muscles at the same time. It takes more fun than other exercise methods. 2. The trampoline is with variation of the quadrilateral design, so that users have greater jumping space than the round trampoline. Integral design of jumping cloth, jumping cloth and big skirt cloth integrated, so that users have a sense of security. 3. The trampoline is with good rebound effect, 36 wear-resistant elastic strings design, no noise when using. Elastic strings force value can be adjusted according to your preferences. 4. The trampoline is simple to assemble. The user only need to assemble four supporting tubes. Four supporting tubes is with drum shape, which make the trampoline more stable."
+    "workbookColorBoxOrBrownBox": "Brown"
    },
    "evidence": {
-    "brand": "Spec Sheet for SF-S021048 01162023.xlsx / Sheet1 / B3",
-    "materials": "Spec Sheet for SF-S021048 01162023.xlsx / Sheet1 / B7",
-    "color": "Spec Sheet for SF-S021048 01162023.xlsx / Sheet1 / B6",
-    "productWeight": "Spec Sheet for SF-S021048 01162023.xlsx / Sheet1 / B10",
-    "maxUserWeightLb": "Spec Sheet for SF-S021048 01162023.xlsx / Sheet1 / B19",
-    "keyDimensions": "Spec Sheet for SF-S021048 01162023.xlsx / Sheet1 / B12",
-    "shippingWeight": "Spec Sheet for SF-S021048 01162023.xlsx / Sheet1 / B9",
-    "shippingDimensions": "Spec Sheet for SF-S021048 01162023.xlsx / Sheet1 / B14",
-    "features": "Spec Sheet for SF-S021048 01162023.xlsx / Sheet1 / B42"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G136",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H136",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I136",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J136",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Essentials / M136",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Essentials / N136",
+    "remoteControl": "Master Spec Template - 11 Categories.xlsx / Essentials / AR136",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY136",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA136",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB136",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC136",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD136",
+    "workbookColorBoxOrBrownBox": "ISV 4.0 / SHF / T655"
    },
    "sources": [
-    "V2 spec sheet: Spec Sheet for SF-S021048 01162023.xlsx"
+    "Master Spec Template - 11 Categories.xlsx",
+    "ISV 4.0"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -758,32 +811,44 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "Q235+PP+Rubber",
+    "upc": "815749015297",
     "color": "Black+Black U",
-    "productWeight": "11.2KG/24.6LBS",
+    "materials": "Q235+PP+Rubber",
     "maxUserWeightLb": "130KGS/285LBS",
-    "keyDimensions": "100*100*34CM 39.4*39.4*13.4INCH",
+    "latex": "Not applicable",
+    "remoteControl": "No",
+    "features": "1. The trampoline is a low-intensity full-body exercise equipment, which can effectively burn calories, lose weight quickly, make your body stronger, improve your physical condition, exercise all your muscles at the same time. It takes more fun than other exercise methods. 2. The trampoline is with variation of the quadrilateral design, so that users have greater jumping space than the round trampoline. Integral design of jumping cloth, jumping cloth and big skirt cloth integrated, so that users have a sense of security. 3. The trampoline is with good rebound effect, 32 wear-resistant elastic strings design, no noise when using. Elastic strings force value can be adjusted according to your preferences. 4. The trampoline is simple to assemble. The user only need to assemble four supporting tubes. Four supporting tubes is with drum shape, which make the trampoline more stable.",
     "shippingWeight": "13.8KG/30.4LBS",
+    "productWeight": "11.2KG/24.6LBS",
+    "keyDimensions": "100*100*34CM 39.4*39.4*13.4INCH",
     "shippingDimensions": "98.5*96.5*9.5CM/ 38.8*38.2*3.7 INCH",
-    "features": "1. The trampoline is a low-intensity full-body exercise equipment, which can effectively burn calories, lose weight quickly, make your body stronger, improve your physical condition, exercise all your muscles at the same time. It takes more fun than other exercise methods. 2. The trampoline is with variation of the quadrilateral design, so that users have greater jumping space than the round trampoline. Integral design of jumping cloth, jumping cloth and big skirt cloth integrated, so that users have a sense of security. 3. The trampoline is with good rebound effect, 32 wear-resistant elastic strings design, no noise when using. Elastic strings force value can be adjusted according to your preferences. 4. The trampoline is simple to assemble. The user only need to assemble four supporting tubes. Four supporting tubes is with drum shape, which make the trampoline more stable."
+    "workbookColorBoxOrBrownBox": "Brown"
    },
    "evidence": {
-    "brand": "Spec Sheet for SF-S021047 01162023.xlsx / Sheet1 / B3",
-    "materials": "Spec Sheet for SF-S021047 01162023.xlsx / Sheet1 / B7",
-    "color": "Spec Sheet for SF-S021047 01162023.xlsx / Sheet1 / B6",
-    "productWeight": "Spec Sheet for SF-S021047 01162023.xlsx / Sheet1 / B10",
-    "maxUserWeightLb": "Spec Sheet for SF-S021047 01162023.xlsx / Sheet1 / B19",
-    "keyDimensions": "Spec Sheet for SF-S021047 01162023.xlsx / Sheet1 / B12",
-    "shippingWeight": "Spec Sheet for SF-S021047 01162023.xlsx / Sheet1 / B9",
-    "shippingDimensions": "Spec Sheet for SF-S021047 01162023.xlsx / Sheet1 / B14",
-    "features": "Spec Sheet for SF-S021047 01162023.xlsx / Sheet1 / B42"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G135",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H135",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I135",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J135",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Essentials / M135",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Essentials / N135",
+    "remoteControl": "Master Spec Template - 11 Categories.xlsx / Essentials / AR135",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY135",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA135",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB135",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC135",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD135",
+    "workbookColorBoxOrBrownBox": "ISV 4.0 / SHF / T654"
    },
    "sources": [
-    "V2 spec sheet: Spec Sheet for SF-S021047 01162023.xlsx"
+    "Master Spec Template - 11 Categories.xlsx",
+    "ISV 4.0"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -814,32 +879,43 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "NBR",
+    "upc": "815749018571",
     "color": "BLUE 300U",
+    "materials": "NBR",
+    "maxUserWeightLb": "Not applicable",
+    "latex": "Not applicable",
+    "remoteControl": "No",
+    "features": "Only one side of the yoga mat is textured, the use surface (front) is vertical stripes, the back is smooth.",
+    "shippingWeight": "1.4KG/3.1LB",
     "productWeight": "1.1KG/2.5LB",
     "keyDimensions": "188*61*1.27CM 74*24*0.5INCH",
-    "foldedDimensions": "17*17*61CM 6.7*6.7*24INCH",
-    "shippingWeight": "1.4KG/3.1LB",
     "shippingDimensions": "18*18*64CM 7*7*25.2INCH",
-    "features": "Only one side of the yoga mat is textured, the use surface (front) is vertical stripes, the back is smooth."
+    "workbookColorBoxOrBrownBox": "BROWN BOX"
    },
    "evidence": {
-    "brand": "SF-EM03-BU final spec sheet 06242024.xlsx / SF-EM03-BU / B3",
-    "materials": "SF-EM03-BU final spec sheet 06242024.xlsx / SF-EM03-BU / B7",
-    "color": "SF-EM03-BU final spec sheet 06242024.xlsx / SF-EM03-BU / B6",
-    "productWeight": "SF-EM03-BU final spec sheet 06242024.xlsx / SF-EM03-BU / B10",
-    "keyDimensions": "SF-EM03-BU final spec sheet 06242024.xlsx / SF-EM03-BU / B12",
-    "foldedDimensions": "SF-EM03-BU final spec sheet 06242024.xlsx / SF-EM03-BU / B13",
-    "shippingWeight": "SF-EM03-BU final spec sheet 06242024.xlsx / SF-EM03-BU / B9",
-    "shippingDimensions": "SF-EM03-BU final spec sheet 06242024.xlsx / SF-EM03-BU / B14",
-    "features": "SF-EM03-BU final spec sheet 06242024.xlsx / SF-EM03-BU / B42"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G109",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H109",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I109",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J109",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Essentials / M109",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Essentials / N109",
+    "remoteControl": "Master Spec Template - 11 Categories.xlsx / Essentials / AR109",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY109",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA109",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB109",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC109",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD109",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Essentials / BE109"
    },
    "sources": [
-    "V2 spec sheet: SF-EM03-BU final spec sheet 06242024.xlsx"
+    "Master Spec Template - 11 Categories.xlsx"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -871,21 +947,37 @@
   "priceSource": "Sunny US Mastersheet V1",
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
-    "productWeight": "2.2",
+    "brand": "Sunny Health & Fitness",
+    "upc": "853227001318",
+    "color": "Blue",
+    "materials": "PVC",
+    "features": "【STUDIO-QUALITY DURABILITY】Built for daily practice, this high-density PVC yoga mat resists wear, stretching, and flaking. Like premium studio mats, this dense material is designed to last, so you can move with confidence class after class after class.\n【TEXTURED SURFACE FOR CONTROLLED MOVEMENT】 Feel secure and connected throughout your practice. The textured surface supports controlled movement and steady positioning during stretches and flows. The closed-cell PVC design resists moisture absorption and wipes clean easily after every session.\n【GROUNDED FEEL FOR BETTER BALANCE】 Measuring 68\" L x 24\" W with a slim 4mm (0.16\") profile, this is the ideal travel yoga mat. Many experienced yogis prefer thinner mats because they keep you closer to the floor, promoting stability, balance, and confident alignment in standing and balancing poses.\n【FIRM SUPPORT & JOINT PROTECTION】 Thick, overly cushioned mats can compress under weight and affect balance. This high-density foam delivers firm, responsive support—providing a protective barrier for knees and wrists on hard floors while maintaining a stable foundation.\n【VERSATILE FOR YOGA & PILATES】 Perfect for yoga, Pilates, meditation, and daily stretching. This lightweight mat rolls up easily so you can take it from your home gym to your favorite studio or a backyard workout.\n【FREE ACCESS TO SUNNYFIT APP】  Enhance your wellness journey with the SunnyFit App. Enjoy complimentary access to expert-led yoga flows, guided workouts, and personalized fitness programs—absolutely no subscription required.\n【EST. IN SUNNY CALIFORNIA SINCE 2002】 Sunny Health & Fitness delivers premium equipment with a commitment to quality. Backed by U.S.-based support and certified trainers, we offer a truly unmatched “Fit for Everyone” experience.",
     "shippingWeight": "2.6 lb",
-    "keyDimensions": "68L x 24W x 0.16H"
+    "productWeight": "2.2",
+    "keyDimensions": "68L x 24W x 0.16H",
+    "shippingDimensions": "24.4L x 3.94W x 3.94H",
+    "workbookColorBoxOrBrownBox": "Brown"
+   },
+   "evidence": {
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G9",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H9",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I9",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J9",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY9",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA9",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB9",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC9",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD9",
+    "workbookColorBoxOrBrownBox": "ISV 4.0 / SHF / T37"
    },
    "sources": [
+    "Master Spec Template - 11 Categories.xlsx",
     "ISV 4.0"
    ],
-   "evidence": {
-    "productWeight": "ISV 4.0 / SHF / AO37",
-    "shippingWeight": "ISV 4.0 / SHF / AA37",
-    "keyDimensions": "ISV 4.0 / SHF / AS37"
-   },
    "notes": [
-    "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
+    "Product Spec follows the category tab in the master workbook."
    ]
   }
  },
@@ -916,34 +1008,43 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "PVC+SCRIM",
+    "upc": "815749019356",
     "color": "425U+BLACK U",
+    "materials": "PVC+SCRIM",
+    "maxUserWeightLb": "Not applicable",
+    "latex": "Not applicable",
+    "remoteControl": "No",
+    "features": "Anti slip function is very good, surface material will not peel off, tackness is good. Sofe and confortable, it can give the user a good grip and cushion.",
+    "shippingWeight": "2.18KG/4.8LBS",
     "productWeight": "2KGS/4.4LBS",
     "keyDimensions": "FLAT: 180CMx61CMx0.6CM 70.87INx24INx0.24IN",
-    "foldedDimensions": "DIA. 13CM X 61CM 5.2IN x 24IN",
-    "shippingWeight": "2.18KG/4.8LBS",
     "shippingDimensions": "62X13X13.5CM 24.4*5.3*5.3 INCHES",
-    "features": "Anti slip function is very good, surface material will not peel off, tackness is good. Sofe and confortable, it can give the user a good grip and cushion.",
-    "certification": "6A"
+    "workbookColorBoxOrBrownBox": "brown box"
    },
    "evidence": {
-    "brand": "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-GY / B3",
-    "materials": "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-GY / B7",
-    "color": "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-GY / B6",
-    "productWeight": "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-GY / B10",
-    "keyDimensions": "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-GY / B12",
-    "foldedDimensions": "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-GY / B13",
-    "shippingWeight": "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-GY / B9",
-    "shippingDimensions": "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-GY / B14",
-    "features": "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-GY / B42",
-    "certification": "SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx / SF-EM02-GY / B41"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G106",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H106",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I106",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J106",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Essentials / M106",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Essentials / N106",
+    "remoteControl": "Master Spec Template - 11 Categories.xlsx / Essentials / AR106",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY106",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA106",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB106",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC106",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD106",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Essentials / BE106"
    },
    "sources": [
-    "V2 spec sheet: SF-EM02-GY,PK SPEC SHEET final 20240306.xlsx"
+    "Master Spec Template - 11 Categories.xlsx"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -974,32 +1075,43 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "POLYETHENE",
+    "upc": "815749018540",
     "color": "BLACK",
-    "productWeight": "2KGS/4.4LBS",
-    "foldedDimensions": "62*62*1.27CM 24.4*24.4*0.5INCH",
-    "footprint": "181*122CM 71.3*48INCH",
+    "materials": "POLYETHENE",
+    "maxUserWeightLb": "Not applicable",
+    "latex": "Not applicable",
+    "remoteControl": "No",
+    "features": "1SET (6PCS) for 1 carton",
     "shippingWeight": "2.6KGS/5.7LBS",
+    "productWeight": "2KGS/4.4LBS",
+    "keyDimensions": "Not applicable",
     "shippingDimensions": "63.4*66*9.1CM 25*26*3.6INCH",
-    "features": "1SET (6PCS) for 1 carton"
+    "workbookColorBoxOrBrownBox": "BROWN BOX"
    },
    "evidence": {
-    "brand": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B3",
-    "materials": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B7",
-    "color": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B6",
-    "productWeight": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B10",
-    "foldedDimensions": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B13",
-    "footprint": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B16",
-    "shippingWeight": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B9",
-    "shippingDimensions": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B14",
-    "features": "SF-EM01-BK Final Spec Sheet 06052024.xlsx / Sheet1 / B42"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G104",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H104",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I104",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J104",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Essentials / M104",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Essentials / N104",
+    "remoteControl": "Master Spec Template - 11 Categories.xlsx / Essentials / AR104",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY104",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA104",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB104",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC104",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD104",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Essentials / BE104"
    },
    "sources": [
-    "V2 spec sheet: SF-EM01-BK Final Spec Sheet 06052024.xlsx"
+    "Master Spec Template - 11 Categories.xlsx"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -1030,26 +1142,39 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
+    "upc": "815749016034",
+    "color": "Black",
+    "materials": "Foam, Others",
+    "maxUserWeightLb": "Not applicable",
+    "features": "*Protection Floor *High Density & Non-slip Surface *Lightweight, easy to clean *ECO-FRIENDLY material",
+    "shippingWeight": "0.64KG/1.4LBS",
     "productWeight": "0.47KG/1LBS",
     "keyDimensions": "76.2*50.8*0.4CM/30 x 20 x 0.16 inches",
-    "shippingWeight": "0.64KG/1.4LBS",
     "shippingDimensions": "53*7*7CM/20.7*2.8*2.8INCH",
-    "features": "*Protection Floor *High Density & Non-slip Surface *Lightweight, easy to clean *ECO-FRIENDLY material"
+    "workbookColorBoxOrBrownBox": "BROWN BOX"
    },
    "evidence": {
-    "brand": "Spec Sheet for NO. 074-XS 7.11.2022.xlsx / NO. 074-XS / B3",
-    "productWeight": "Spec Sheet for NO. 074-XS 7.11.2022.xlsx / NO. 074-XS / B7",
-    "keyDimensions": "Spec Sheet for NO. 074-XS 7.11.2022.xlsx / NO. 074-XS / B9",
-    "shippingWeight": "Spec Sheet for NO. 074-XS 7.11.2022.xlsx / NO. 074-XS / B6",
-    "shippingDimensions": "Spec Sheet for NO. 074-XS 7.11.2022.xlsx / NO. 074-XS / B11",
-    "features": "Spec Sheet for NO. 074-XS 7.11.2022.xlsx / NO. 074-XS / B36"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G27",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H27",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I27",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J27",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Essentials / M27",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY27",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA27",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB27",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC27",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD27",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Essentials / BE27"
    },
    "sources": [
-    "V2 spec sheet: Spec Sheet for NO. 074-XS 7.11.2022.xlsx"
+    "Master Spec Template - 11 Categories.xlsx"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -1080,30 +1205,43 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "100%polyester",
+    "upc": "810153800699",
     "color": "BLACK U+485C",
+    "materials": "100%polyester",
+    "maxUserWeightLb": "Not applicable",
+    "latex": "Not applicable",
+    "remoteControl": "No",
+    "features": "1.High Quality and Durable Polyester strap with 8 individual grip points, precision stitched to allow you to use it for a long for time and provide continuous stability for your safe workout. 2.Multiple hand-holds allow for progressive degrees of stretch, It can be used in exercise, stretching, yoga, pilates and joint. 3.Full Body Exercise:Increase flexibility and range of motion, strengthen the core and back and improve posture",
+    "shippingWeight": "0.19KG/0.42lbs",
     "productWeight": "0.13KG/0.29lbs",
     "keyDimensions": "190.5*3.81cm/75X1.5INCHES",
-    "shippingWeight": "0.19KG/0.42lbs",
     "shippingDimensions": "11*5*17.5cm/4.3*2*6.9INCHES",
-    "features": "1.High Quality and Durable Polyester strap with 8 individual grip points, precision stitched to allow you to use it for a long for time and provide continuous stability for your safe workout. 2.Multiple hand-holds allow for progressive degrees of stretch, It can be used in exercise, stretching, yoga, pilates and joint. 3.Full Body Exercise:Increase flexibility and range of motion, strengthen the core and back and improve posture"
+    "workbookColorBoxOrBrownBox": "COLOR BOX"
    },
    "evidence": {
-    "brand": "NO. 107 final spec sheet 20250205.xlsx / Sheet1 / B3",
-    "materials": "NO. 107 final spec sheet 20250205.xlsx / Sheet1 / B7",
-    "color": "NO. 107 final spec sheet 20250205.xlsx / Sheet1 / B6",
-    "productWeight": "NO. 107 final spec sheet 20250205.xlsx / Sheet1 / B10",
-    "keyDimensions": "NO. 107 final spec sheet 20250205.xlsx / Sheet1 / B12",
-    "shippingWeight": "NO. 107 final spec sheet 20250205.xlsx / Sheet1 / B9",
-    "shippingDimensions": "NO. 107 final spec sheet 20250205.xlsx / Sheet1 / B14",
-    "features": "NO. 107 final spec sheet 20250205.xlsx / Sheet1 / B43"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G48",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H48",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I48",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J48",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Essentials / M48",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Essentials / N48",
+    "remoteControl": "Master Spec Template - 11 Categories.xlsx / Essentials / AR48",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY48",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA48",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB48",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC48",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD48",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Essentials / BE48"
    },
    "sources": [
-    "V2 spec sheet: NO. 107 final spec sheet 20250205.xlsx"
+    "Master Spec Template - 11 Categories.xlsx"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -1134,30 +1272,43 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "EPP Foam",
+    "upc": "810153801252",
     "color": "BLACK/BLUE/PINK",
+    "materials": "EPP Foam",
+    "maxUserWeightLb": "Not applicable",
+    "latex": "Not applicable",
+    "remoteControl": "No",
+    "features": "-The High Density EPP Foam Provides Firm Support & Won't Lose Its Shape. -Sturdy Design Provides Quality Pressure For Getting Rid Of Troublesome Knots. -The High Density Creates Pressure To Reduce Tension In Muscles Using Just Your Body Weight.",
+    "shippingWeight": "0.33KG/0.7 lbs",
     "productWeight": "0.17KG/0.4 lbs",
     "keyDimensions": "30CM (L) x 15CM dia. (+-0.5CM)/ 12\" x 6\" diameter",
-    "shippingWeight": "0.33KG/0.7 lbs",
     "shippingDimensions": "16*16*31m/ 6.3*6.3*12.2 INCHES",
-    "features": "-The High Density EPP Foam Provides Firm Support & Won't Lose Its Shape. -Sturdy Design Provides Quality Pressure For Getting Rid Of Troublesome Knots. -The High Density Creates Pressure To Reduce Tension In Muscles Using Just Your Body Weight."
+    "workbookColorBoxOrBrownBox": "Brown BOX"
    },
    "evidence": {
-    "brand": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-12 / B3",
-    "materials": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-12 / B7",
-    "color": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-12 / B6",
-    "productWeight": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-12 / B10",
-    "keyDimensions": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-12 / B12",
-    "shippingWeight": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-12 / B9",
-    "shippingDimensions": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-12 / B14",
-    "features": "SF-ER01 final spec sheet 20250923.xlsx / SF-ER01-12 / B43"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G112",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H112",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I112",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J112",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Essentials / M112",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Essentials / N112",
+    "remoteControl": "Master Spec Template - 11 Categories.xlsx / Essentials / AR112",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY112",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA112",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB112",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC112",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD112",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Essentials / BE112"
    },
    "sources": [
-    "V2 spec sheet: SF-ER01 final spec sheet 20250923.xlsx"
+    "Master Spec Template - 11 Categories.xlsx"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -1188,30 +1339,43 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "ABS+NBR",
+    "upc": "815749019387",
     "color": "Black+Red 485C",
+    "materials": "ABS+NBR",
+    "maxUserWeightLb": "Not applicable",
+    "latex": "Not applicable",
+    "remoteControl": "No",
+    "features": "This product is made of ABS and NBR material. High-quality double sided sliders for Use on any floor type. Perfect for cardio, strength, toning, stability and core workouts. Portable and convenient our sliders can be used almost anywhere. For Use with hands or feet and provides low impact workouts.",
+    "shippingWeight": "265g/0.6lbs",
     "productWeight": "192g/0.4lbs",
     "keyDimensions": "17.8*17.8*0.9CM/ 7*7*0.4 INCHES for 1 PC 17.8*17.8*1.8CM/ 7*7*0.7 INCHES for 2 PCS",
-    "shippingWeight": "265g/0.6lbs",
     "shippingDimensions": "18.4*18.3*2.2CM/7.2*7.2*0.9 INCHES",
-    "features": "This product is made of ABS and NBR material. High-quality double sided sliders for Use on any floor type. Perfect for cardio, strength, toning, stability and core workouts. Portable and convenient our sliders can be used almost anywhere. For Use with hands or feet and provides low impact workouts."
+    "workbookColorBoxOrBrownBox": "38.8*20.4*25CM/15.3*8*9.8 INCHES"
    },
    "evidence": {
-    "brand": "SPEC SHEET for NO. 104.xlsx / Sheet1 / B3",
-    "materials": "SPEC SHEET for NO. 104.xlsx / Sheet1 / B7",
-    "color": "SPEC SHEET for NO. 104.xlsx / Sheet1 / B6",
-    "productWeight": "SPEC SHEET for NO. 104.xlsx / Sheet1 / B10",
-    "keyDimensions": "SPEC SHEET for NO. 104.xlsx / Sheet1 / B12",
-    "shippingWeight": "SPEC SHEET for NO. 104.xlsx / Sheet1 / B9",
-    "shippingDimensions": "SPEC SHEET for NO. 104.xlsx / Sheet1 / B14",
-    "features": "SPEC SHEET for NO. 104.xlsx / Sheet1 / B42"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G46",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H46",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I46",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J46",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Essentials / M46",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Essentials / N46",
+    "remoteControl": "Master Spec Template - 11 Categories.xlsx / Essentials / AR46",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY46",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA46",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB46",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC46",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD46",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Essentials / BE46"
    },
    "sources": [
-    "V2 spec sheet: SPEC SHEET for NO. 104.xlsx"
+    "Master Spec Template - 11 Categories.xlsx"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -1242,30 +1406,43 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "PP+EVA+NBR+FIBER GLASS",
+    "upc": "810153800491",
     "color": "RED 485C & BLACK",
+    "materials": "PP+EVA+NBR+FIBER GLASS",
+    "maxUserWeightLb": "Not applicable",
+    "latex": "Not applicable",
+    "remoteControl": "No",
+    "features": "Glass Fiber Resistance: A rank glass fiber fleet, supply stable and moderate resistance perfect for women. Anti crack, fast rebounce. Outstanding resistance performance and lasting. Soft Padding: Human body friendly handle design, soft NBR sleeve and firm PP handle. Non slip holding or attaching to your knee, leg. Body Building: Exercise by pushing, pulling or pressing the yoga circle, strengthen and tone your upper body, lower body, core. Also popular pelvic floor strengthen prop. Magic ring to your workout! Easy Store and Carry: Small size for backpack, and lightweight for carry outside! Multi Body Exercise: Different body part training!",
+    "shippingWeight": "0.6KG/1.32lbs",
     "productWeight": "0.38KG/0.84lbs",
     "keyDimensions": "38cm /15 INCH",
-    "foldedDimensions": "37.5*4.5*37.5cm/14.76*1.77*14.76INCHES",
-    "shippingWeight": "0.6KG/1.32lbs",
-    "features": "Glass Fiber Resistance: A rank glass fiber fleet, supply stable and moderate resistance perfect for women. Anti crack, fast rebounce. Outstanding resistance performance and lasting. Soft Padding: Human body friendly handle design, soft NBR sleeve and firm PP handle. Non slip holding or attaching to your knee, leg. Body Building: Exercise by pushing, pulling or pressing the yoga circle, strengthen and tone your upper body, lower body, core. Also popular pelvic floor strengthen prop. Magic ring to your workout! Easy Store and Carry: Small size for backpack, and lightweight for carry outside! Multi Body Exercise: Different body part training!"
+    "shippingDimensions": "15.2L x 2.2W x 15.2H",
+    "workbookColorBoxOrBrownBox": "COLOR BOX"
    },
    "evidence": {
-    "brand": "NO. 106 final spec sheet 20250205.xlsx / Sheet1 / B3",
-    "materials": "NO. 106 final spec sheet 20250205.xlsx / Sheet1 / B7",
-    "color": "NO. 106 final spec sheet 20250205.xlsx / Sheet1 / B6",
-    "productWeight": "NO. 106 final spec sheet 20250205.xlsx / Sheet1 / B10",
-    "keyDimensions": "NO. 106 final spec sheet 20250205.xlsx / Sheet1 / B13",
-    "foldedDimensions": "NO. 106 final spec sheet 20250205.xlsx / Sheet1 / B14",
-    "shippingWeight": "NO. 106 final spec sheet 20250205.xlsx / Sheet1 / B9",
-    "features": "NO. 106 final spec sheet 20250205.xlsx / Sheet1 / B44"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G47",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H47",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I47",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J47",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Essentials / M47",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Essentials / N47",
+    "remoteControl": "Master Spec Template - 11 Categories.xlsx / Essentials / AR47",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY47",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA47",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB47",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC47",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD47",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Essentials / BE47"
    },
    "sources": [
-    "V2 spec sheet: NO. 106 final spec sheet 20250205.xlsx"
+    "Master Spec Template - 11 Categories.xlsx"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -1296,36 +1473,49 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "PP/TPE Plastic",
-    "color": "Grey",
-    "productWeight": "1.3KG/2.8LBS",
-    "maxUserWeightLb": "300 Ibs (135 kg)",
-    "keyDimensions": "41.5*9cm/16.34\"L * 3.74\"H",
-    "shippingWeight": "1.7KG/3.7LBS",
-    "shippingDimensions": "43*10*43CM/16.9*3.9*16.9INCHES",
     "upc": "810153803553",
-    "accessories": "PE bag/pc/inner box&Manual",
-    "features": "Large size with 16.3” /41.5 cm diameter, larger space for both feet; Made of high grade heavy duty TPE plastic, wobble board is durability item with 300 lb weight capacity; Upscale ankle balance board with massage spikes surface provides grip & stability; Comfortable barefoot or with shoes, while delivering a gentle massage effect during exercise while doing exercise;Plastic wobble board helps to develop core strength, improve balance & coordination through hundreds of exercises like pushup, plank, mountain climber, burpee, squat, tree pose and more;With lightweight & portable design with handles, this balance workout board is easy to carry and practice anywhere; Ideal for home gym, outdoors, fitness club & office;Suitable for all levels, this balance board for adults helps strengthen lower legs, thighs, hips, and core through simple 360° weight shifts"
+    "color": "Grey",
+    "materials": "PP/TPE Plastic",
+    "workbookProductCategory": "Accessories",
+    "maxUserHeight": "Not applicable",
+    "maxUserWeightLb": "300 Ibs (135 kg)",
+    "latex": "Not applicable",
+    "workbookWhatSIncludedInTheBox": "PE bag/pc/inner box&Manual",
+    "features": "Large size with 16.3” /41.5 cm diameter, larger space for both feet; Made of high grade heavy duty TPE plastic, wobble board is durability item with 300 lb weight capacity; Upscale ankle balance board with massage spikes surface provides grip & stability; Comfortable barefoot or with shoes, while delivering a gentle massage effect during exercise while doing exercise;Plastic wobble board helps to develop core strength, improve balance & coordination through hundreds of exercises like pushup, plank, mountain climber, burpee, squat, tree pose and more;With lightweight & portable design with handles, this balance workout board is easy to carry and practice anywhere; Ideal for home gym, outdoors, fitness club & office;Suitable for all levels, this balance board for adults helps strengthen lower legs, thighs, hips, and core through simple 360° weight shifts",
+    "shippingWeight": "1.7KG/3.7LBS",
+    "productWeight": "1.3KG/2.8LBS",
+    "keyDimensions": "41.5*9cm/16.34\"L * 3.74\"H",
+    "shippingDimensions": "43*10*43CM/16.9*3.9*16.9INCHES",
+    "workbookColorBoxOrBrownBox": "Brown Box",
+    "workbookContainerLoadingQty": "3120"
    },
    "evidence": {
-    "brand": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-GY / B7",
-    "materials": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-GY / B12",
-    "color": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-GY / B11",
-    "productWeight": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-GY / B24",
-    "maxUserWeightLb": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-GY / B15",
-    "keyDimensions": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-GY / B25",
-    "shippingWeight": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-GY / B23",
-    "shippingDimensions": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-GY / B26",
-    "upc": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-GY / B10",
-    "accessories": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-GY / B20",
-    "features": "NO. 120 Final Spec Template dated 20260723.xlsx / NO. 120-GY / B21"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G63",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H63",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I63",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J63",
+    "workbookProductCategory": "Master Spec Template - 11 Categories.xlsx / Essentials / K63",
+    "maxUserHeight": "Master Spec Template - 11 Categories.xlsx / Essentials / L63",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Essentials / M63",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Essentials / N63",
+    "workbookWhatSIncludedInTheBox": "Master Spec Template - 11 Categories.xlsx / Essentials / AX63",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY63",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA63",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB63",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC63",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD63",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Essentials / BE63",
+    "workbookContainerLoadingQty": "Master Spec Template - 11 Categories.xlsx / Essentials / BF63"
    },
    "sources": [
-    "V2 spec sheet: NO. 120 Final Spec Template dated 20260723.xlsx"
+    "Master Spec Template - 11 Categories.xlsx"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -1356,36 +1546,43 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "NEOPRENE, NYLON, METAL D-RING",
+    "upc": "815749018229",
     "color": "BLACK",
+    "materials": "NEOPRENE, NYLON, METAL D-RING",
+    "maxUserWeightLb": "Not applicable",
+    "latex": "1pair/innerbox, 54pairs/outbox",
+    "remoteControl": "No",
+    "features": "[Multi-purpose] Body shaping and fat loss,Butt lift and leg exercises, strength training. - Hand wash with cold water only and lay flat to dry - Compatible with Power Racks SF-XF9931 & XF9925",
+    "shippingWeight": "0.4KGS/0.8LBS",
     "productWeight": "0.2KG/0.5LBS",
     "keyDimensions": "52.5*20.4*3CM/20.7*4.0*0.35 INCHES",
-    "foldedDimensions": "26.5*10.2*3CM/10.4*4.0*0.41 INCHES",
-    "shippingWeight": "0.4KGS/0.8LBS",
     "shippingDimensions": "29.5*12.5*3.5CM/ 11.6*5.0*1.4 INCHES",
-    "latex": "1pair/innerbox, 54pairs/outbox",
-    "features": "[Multi-purpose] Body shaping and fat loss,Butt lift and leg exercises, strength training. - Hand wash with cold water only and lay flat to dry - Compatible with Power Racks SF-XF9931 & XF9925",
-    "certification": "the fabric and vecro pass the REACH ROHS CA65 test"
+    "workbookColorBoxOrBrownBox": "15.8× 23.6× 13.8INCHES/40*60*35CM"
    },
    "evidence": {
-    "brand": "NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx / Sheet1 / B3",
-    "materials": "NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx / Sheet1 / B7",
-    "color": "NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx / Sheet1 / B6",
-    "productWeight": "NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx / Sheet1 / B10",
-    "keyDimensions": "NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx / Sheet1 / B12",
-    "foldedDimensions": "NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx / Sheet1 / B13",
-    "shippingWeight": "NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx / Sheet1 / B9",
-    "shippingDimensions": "NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx / Sheet1 / B14",
-    "latex": "NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx / Sheet1 / B8",
-    "features": "NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx / Sheet1 / B42",
-    "certification": "NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx / Sheet1 / B41"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G45",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H45",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I45",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J45",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Essentials / M45",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Essentials / N45",
+    "remoteControl": "Master Spec Template - 11 Categories.xlsx / Essentials / AR45",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY45",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA45",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB45",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC45",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD45",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Essentials / BE45"
    },
    "sources": [
-    "V2 spec sheet: NO. 091 FINAL SPEC SHEET 2023-10-19.xlsx"
+    "Master Spec Template - 11 Categories.xlsx"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -1416,34 +1613,49 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "Polyester/Imitation N Fabric, Neoprene‌, Iron Sand",
+    "upc": "810153803355",
     "color": "BLACK",
+    "materials": "Polyester/Imitation N Fabric, Neoprene‌, Iron Sand",
+    "workbookProductCategory": "Accessories",
+    "maxUserHeight": "Not applicable",
+    "maxUserWeightLb": "Not applicable",
+    "latex": "Not applicable",
+    "workbookWhatSIncludedInTheBox": "PE bag/pc&Manual",
+    "features": "X-Balance Design lron Sand Filling:Crafted from soft, high-quality neoprene upper material, and filled with high-density iron sand, our adjustable weighted vest combines long-lasting durability with comfort. Weight Adjustable: our weight training starts at 4 pounds, and adds up to 10 pounds of resistance with six 1-pound iron sand weight bag. Adjustable Straps: Our weight vest features double-line stitching for enhanced durability, eliminating any concerns of leakage. The adjustable side straps come with loops to tuck in the excess ends, keeping things tidy and preventing distraction while running. Made from breathable neoprene, it dries quickly. Zipper Pouch: Carry your essentials in the convenient front zipper pouch—perfect for keeping your keys, wallet, or phone on the go. Plus, stay visible and safe during outdoor training thanks to the reflective strips on the front, shoulders, and back, ensuring you’re easy to spot in low light conditions.",
+    "shippingWeight": "4.9kg/11lbs",
     "productWeight": "4.5kg/10lbs",
     "keyDimensions": "38x23x13/42cm/15x9x5.1/16.5inches",
-    "shippingWeight": "4.9kg/11lbs",
     "shippingDimensions": "25*23*11cm/9.8*9.1*4.3 inches",
-    "upc": "810153803355",
-    "accessories": "PE bag/pc&Manual",
-    "features": "X-Balance Design lron Sand Filling:Crafted from soft, high-quality neoprene upper material, and filled with high-density iron sand, our adjustable weighted vest combines long-lasting durability with comfort. Weight Adjustable:our weight training starts at 4 pounds, and adds up to 10 pounds of resistance with six 1-pound iron sand weight bag. Adjustable Straps: Our weight vest features double-line stitching for enhanced durability, eliminating any concerns of leakage. The adjustable side straps come with loops to tuck in the excess ends, keeping things tidy and preventing distraction while running. Made from breathable neoprene, it dries quickly. Zipper Pouch: Carry your essentials in the convenient front zipper pouch—perfect for keeping your keys, wallet, or phone on the go. Plus, stay visible and safe during outdoor training thanks to the reflective strips on the front, shoulders, and back, ensuring you’re easy to spot in low light conditions."
+    "workbookColorBoxOrBrownBox": "Brown Box",
+    "workbookContainerLoadingQty": "6600/40HQ"
    },
    "evidence": {
-    "brand": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A1 / B7",
-    "materials": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A1 / B12",
-    "color": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A1 / B11",
-    "productWeight": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A1 / B24",
-    "keyDimensions": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A1 / B25",
-    "shippingWeight": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A1 / B23",
-    "shippingDimensions": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A1 / B26",
-    "upc": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A1 / B10",
-    "accessories": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A1 / B20",
-    "features": "SF-WV01 final Spec Template dated 20260701.xlsx / SF-WV01-A1 / B21"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G153",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H153",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I153",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J153",
+    "workbookProductCategory": "Master Spec Template - 11 Categories.xlsx / Essentials / K153",
+    "maxUserHeight": "Master Spec Template - 11 Categories.xlsx / Essentials / L153",
+    "maxUserWeightLb": "Master Spec Template - 11 Categories.xlsx / Essentials / M153",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Essentials / N153",
+    "workbookWhatSIncludedInTheBox": "Master Spec Template - 11 Categories.xlsx / Essentials / AX153",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY153",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA153",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB153",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC153",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD153",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Essentials / BE153",
+    "workbookContainerLoadingQty": "Master Spec Template - 11 Categories.xlsx / Essentials / BF153"
    },
    "sources": [
-    "V2 spec sheet: SF-WV01 final Spec Template dated 20260701.xlsx"
+    "Master Spec Template - 11 Categories.xlsx"
    ],
-   "notes": []
+   "notes": [
+    "Product Spec follows the category tab in the master workbook."
+   ]
   },
   "priceSource": "Sunny US Mastersheet V1"
  },
@@ -1474,34 +1686,38 @@
   },
   "specDetails": {
    "version": 1,
+   "masterTemplate": "master-spec-workbook-v2",
    "values": {
     "brand": "Sunny Health & Fitness",
-    "materials": "Palm: Non-Leather Material (Ammara) Back: Fourway Polyester Fabric & Genuine Goatskin Leather Back Design: Neoprene Material Palm Padding: Foam Padded Palm Fourchettes: Lycra Stretch Fabric Binding: Polyester Cloth Fabric Binding at Cuff and Strap Strap: 2-inch DD Elastic Strap with Silicon Printed Logo with Velcro Hook & Loop Closure",
-    "color": "BLACK",
-    "keyDimensions": "S: (L: 7.3\" x W: 4\" x H: 0.8\" /INCHES",
     "upc": "810153802341",
+    "color": "BLACK",
+    "materials": "Palm: Non-Leather Material (Ammara) Back: Fourway Polyester Fabric & Genuine Goatskin Leather Back Design: Neoprene Material Palm Padding: Foam Padded Palm Fourchettes: Lycra Stretch Fabric Binding: Polyester Cloth Fabric Binding at Cuff and Strap Strap: 2-inch DD Elastic Strap with Silicon Printed Logo with Velcro Hook & Loop Closure",
     "latex": "NO",
     "features": "Protects hands from abrasions, calluses, and fatigue Improves lifting control and grip confidence Provides wrist support to help reduce strain Enhances comfort during extended training sessions Ideal for weightlifting, strength training, CrossFit, cycling, and gym workouts",
+    "shippingWeight": "0.23 lb",
     "productWeight": "0.18",
-    "shippingWeight": "0.23 lb"
+    "keyDimensions": "S: (L: 7.3\" x W: 4\" x H: 0.8\" /INCHES",
+    "shippingDimensions": "10L x 6W x 2H",
+    "workbookColorBoxOrBrownBox": "01 pair pack in Recycled plastic bag (no tag) + Poly mailer without bubbles (with label on the outside shows item#, item name, and UPC) + 1page of instruction. 24 pairs packed in master carton corrugated Box with Recycled plastic bag (no tag) + Poly mailer without bubbles (with label on the outside shows item#, item name, and UPC) + 1page of instruction. Master Carton Printed as per Approved Artwork"
    },
    "evidence": {
-    "brand": "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-S / B3",
-    "materials": "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-S / B8",
-    "color": "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-S / B7",
-    "keyDimensions": "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-S / B14",
-    "upc": "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-S / B6",
-    "latex": "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-S / B10",
-    "features": "SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx / SF-GL02-S / B16",
-    "productWeight": "ISV 4.0 / SHF / AO502",
-    "shippingWeight": "ISV 4.0 / SHF / AA502"
+    "brand": "Master Spec Template - 11 Categories.xlsx / Essentials / G130",
+    "upc": "Master Spec Template - 11 Categories.xlsx / Essentials / H130",
+    "color": "Master Spec Template - 11 Categories.xlsx / Essentials / I130",
+    "materials": "Master Spec Template - 11 Categories.xlsx / Essentials / J130",
+    "latex": "Master Spec Template - 11 Categories.xlsx / Essentials / N130",
+    "features": "Master Spec Template - 11 Categories.xlsx / Essentials / AY130",
+    "shippingWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BA130",
+    "productWeight": "Master Spec Template - 11 Categories.xlsx / Essentials / BB130",
+    "keyDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BC130",
+    "shippingDimensions": "Master Spec Template - 11 Categories.xlsx / Essentials / BD130",
+    "workbookColorBoxOrBrownBox": "Master Spec Template - 11 Categories.xlsx / Essentials / BE130"
    },
    "sources": [
-    "V2 spec sheet: SF-GL02-S,ML,L,XL Spec Sheet Updated Final.xlsx",
-    "ISV 4.0"
+    "Master Spec Template - 11 Categories.xlsx"
    ],
    "notes": [
-    "Requested fields filled on 2026-11-09: Master SPEC SHEET first (latest dated file), then ISV 4.0."
+    "Product Spec follows the category tab in the master workbook."
    ]
   },
   "priceSource": "Sunny US Mastersheet V1"
