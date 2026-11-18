@@ -2,6 +2,12 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-17: Codex — Publish the catalog header scrollbar
+
+- Site: version 83 from GitHub commit `d640c87ada72dcd2da0f0bf7316fdc4078756e68`, deployment `appgdep_6afcf4febed88191b43a825dd6754265`.
+- Verification: all 46 suites passed after making the missing Product Spec test fixture explicit. Desktop and phone screenshots rendered. Chrome confirmed live keyboard scrolling, synchronization in both directions, and sticky placement in Spec Search.
+- Claude Artifact: version 38 awaits Claude Code sync. Practice data: not exported (owner decision).
+
 ## 2026-11-17: Codex — Add a scrollbar below the catalog headers
 
 - Catalog and Spec Search share a desktop horizontal scrollbar just below the sticky column headers. It tracks the original table scrollbar in both directions, stays in view during vertical scrolling, and appears when the chart has horizontal overflow.
