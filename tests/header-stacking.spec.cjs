@@ -11,6 +11,22 @@ const { chromium } = require('playwright');
     const mock = `window.fetch=async path=>Response.json(path==='/api/session'?{canWrite:true}:${JSON.stringify(rows)});`;
     await page.setContent('<script>'+mock+'</script>'+fs.readFileSync(__dirname+'/../app/index.html','utf8'));
     await page.waitForFunction(()=>document.querySelectorAll('#rows tr').length===156);
+    const scrollbar=page.locator('#catalogScroll');
+    await scrollbar.waitFor({state:'visible'});
+    await scrollbar.evaluate(bar=>{bar.scrollLeft=bar.scrollWidth;});
+    await page.waitForFunction(()=>{
+      const box=document.querySelector('.tablebox');
+      return box.scrollLeft>0&&box.scrollLeft===box.scrollWidth-box.clientWidth;
+    });
+    assert(await scrollbar.evaluate(bar=>Math.abs(bar.getBoundingClientRect().left-
+      document.querySelector('.tablebox').getBoundingClientRect().left)<=2),'the full scrollbar stays in view at the far right');
+    await page.locator('.tablebox').evaluate(box=>{box.scrollLeft=0;box.scrollTop=150;});
+    await page.waitForFunction(()=>document.querySelector('#catalogScroll').scrollLeft===0);
+    const placement=await scrollbar.evaluate(bar=>{
+      const head=document.querySelector('#catalogHead tr:first-child th[data-col="sku"]');
+      return Math.abs(head.getBoundingClientRect().bottom-bar.getBoundingClientRect().top);
+    });
+    assert(placement<=1,'the scrollbar remains just below the sticky headers');
     for (const height of [898, 650, 480]) {
       await page.setViewportSize({ width: 1440, height });
       const layout = await page.evaluate(() => {
@@ -32,6 +48,7 @@ const { chromium } = require('playwright');
     await page.locator("#bulkBtn").click();
     assert(await page.evaluate(() => document.querySelector(".tablebox").getBoundingClientRect().bottom <= document.querySelector("#bulkbar").getBoundingClientRect().top));
     await page.setViewportSize({ width: 390, height: 844 });
+    await scrollbar.waitFor({state:'hidden'});
     assert(await page.evaluate(() => document.documentElement.scrollHeight > innerHeight), "mobile keeps page scrolling");
     console.log("PASS: desktop catalog fits the viewport, with internal table scrolling, visible bulk controls and mobile page scrolling.");
   } finally {

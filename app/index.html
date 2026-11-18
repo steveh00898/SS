@@ -104,6 +104,19 @@ h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(30px, 
 /* Table */
 @media(min-width:721px){.tablebox{max-height:70vh;overflow:auto}thead th{position:sticky;top:0;z-index:4;box-shadow:0 1px 0 var(--line)}body.spec-view th[data-key="sku"]{z-index:5}}
 .tablebox { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; overflow-x: auto; }
+#catalogScrollRow{display:none}
+@media(min-width:721px){
+  #catalogScrollRow:not([hidden]){display:table-row}
+  #catalogScrollRow td{position:sticky;top:var(--catalog-header-height,0px);z-index:6;padding:0;border:0;background:var(--surface)}
+  #catalogScroll{position:sticky;left:0;overflow-x:scroll;overflow-y:hidden}
+  #catalogScroll>div{height:1px}
+  #catalogScroll::-webkit-scrollbar{height:12px}
+  #catalogScroll::-webkit-scrollbar-track{background:var(--line)}
+  #catalogScroll::-webkit-scrollbar-thumb{background:var(--muted);border:2px solid var(--line);border-radius:6px}
+  @supports not selector(::-webkit-scrollbar){
+    #catalogScroll{scrollbar-width:thin;scrollbar-color:var(--muted) var(--line)}
+  }
+}
 table { width: 100%; border-collapse: collapse; }
 th { text-align: left; font-family: var(--font-num); font-size: 13px; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); font-weight: 700;
   padding: 12px 14px; border-bottom: 1px solid var(--line); background: var(--surface); white-space: nowrap; }
@@ -639,6 +652,7 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
           
           <th class="c-acthead"><span class="sr" hidden>Actions</span></th>
         </tr>
+        <tr id="catalogScrollRow" hidden><td colspan="14"><div id="catalogScroll" role="region" aria-label="Scroll product columns horizontally" tabindex="0"><div aria-hidden="true"></div></div></td></tr>
       </thead>
       <tbody id="rows"></tbody>
     </table>
@@ -1305,6 +1319,30 @@ body[data-view="spec-search"] .tablebox.catalog-only{display:block!important}
   function compareCell(it){return state.compareMode?`<td class="compare-cell"><input type="checkbox" data-compare="${esc(it.id)}" aria-label="Compare ${esc(it.sku)}" ${state.compareSelected.has(it.id)?'checked':''}></td>`:'';}
   function updateFrozenWidths(){let left=0;for(const head of document.querySelectorAll('#catalogHead th[data-col]')){if(!['sku','picture','price'].includes(head.dataset.col))continue;const value=left+'px';head.style.setProperty('--pin-left',value);document.querySelectorAll('#rows [data-col="'+head.dataset.col+'"]').forEach(cell=>cell.style.setProperty('--pin-left',value));left+=head.getBoundingClientRect().width;}}
   new ResizeObserver(updateFrozenWidths).observe($('.tablebox'));
+  const catalogTableBox=$('.tablebox'),catalogTable=catalogTableBox.querySelector('table');
+  const catalogScroll=$('#catalogScroll'),catalogScrollRow=$('#catalogScrollRow');
+  const catalogHeader=catalogTable.tHead.rows[0];
+  const catalogScrollDesktop=matchMedia('(min-width:721px)');
+  function updateCatalogScroll(){
+    const width=catalogTableBox.clientWidth;
+    const tableWidth=catalogTable.getBoundingClientRect().width;
+    catalogScrollRow.hidden=!catalogScrollDesktop.matches||!width||tableWidth<=width;
+    if(catalogScrollRow.hidden)return;
+    catalogScrollRow.cells[0].colSpan=[...catalogHeader.cells].filter(cell=>getComputedStyle(cell).display!=='none').length;
+    catalogScroll.style.width=width+'px';
+    catalogScroll.firstElementChild.style.width=tableWidth+'px';
+    catalogTableBox.style.setProperty('--catalog-header-height',catalogHeader.getBoundingClientRect().height+'px');
+    catalogScroll.scrollLeft=catalogTableBox.scrollLeft;
+  }
+  const catalogScrollObserver=new ResizeObserver(updateCatalogScroll);
+  for(const element of [catalogTableBox,catalogTable,catalogHeader])catalogScrollObserver.observe(element);
+  catalogScrollDesktop.addEventListener('change',updateCatalogScroll);
+  catalogTableBox.addEventListener('scroll',()=>{
+    if(!catalogScrollRow.hidden&&catalogScroll.scrollLeft!==catalogTableBox.scrollLeft)catalogScroll.scrollLeft=catalogTableBox.scrollLeft;
+  },{passive:true});
+  catalogScroll.addEventListener('scroll',()=>{
+    if(!catalogScrollRow.hidden&&catalogTableBox.scrollLeft!==catalogScroll.scrollLeft)catalogTableBox.scrollLeft=catalogScroll.scrollLeft;
+  },{passive:true});
   // ---------- bulk edit ----------
   const FIELDS = ["name", "sku", "price", "category", "url"];
   const orig = (it, f) => f === "price" ? (typeof it.price === "number" ? it.price.toFixed(2) : "") : String(it[f] ?? "");

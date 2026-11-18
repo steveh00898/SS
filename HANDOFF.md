@@ -2,6 +2,12 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-17: Codex — Add a scrollbar below the catalog headers
+
+- Catalog and Spec Search share a desktop horizontal scrollbar just below the sticky column headers. It tracks the original table scrollbar in both directions, stays in view during vertical scrolling, and appears when the chart has horizontal overflow.
+- Browser coverage checks both scroll directions, sticky placement, far-right access, and the phone layout.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-17: Codex — Publish the 11-category Product Spec update
 
 - Site: version 81 from GitHub commit `0f179d1343e837aad9042b155fbb00cda3d18a98`, deployment `appgdep_6afced972cdc8191a158d2d46a6907b4`. Existing access settings retained.
