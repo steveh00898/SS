@@ -2,6 +2,12 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-19: Codex — Publish feedback screenshot uploads
+
+- Site version 85 uses commit `c2417de9d0ccbcb6a5fae331ad290d8da0782148` and deployment `appgdep_6aff502116108191af935c1f33392036`.
+- All 46 suites passed. The feedback integration test submitted a screenshot and verified both admin retrieval and guest denial. A live mobile check verified file selection, retry retention, and guest denial.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-19: Codex — Add optional screenshots to feedback
 
 - Public feedback accepts one optional PNG, JPEG, or WebP screenshot up to 1 MB with a comment. A failed submission preserves both fields for retry.
