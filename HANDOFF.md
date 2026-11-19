@@ -2,6 +2,12 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-19: Codex — Paste or drop a screenshot into feedback
+
+- The comment box accepts clipboard images and dropped files. The feedback form shows the selected filename and lets visitors remove it. The file picker accepts the same formats.
+- The screenshot goes with the comment on Submit. Failed submissions retain both. Existing size limits, retention, and admin-only access apply.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-19: Codex — Publish feedback screenshot uploads
 
 - Site version 85 uses commit `c2417de9d0ccbcb6a5fae331ad290d8da0782148` and deployment `appgdep_6aff502116108191af935c1f33392036`.
