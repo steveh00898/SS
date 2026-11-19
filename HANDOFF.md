@@ -2,6 +2,12 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-19: Codex — Publish feedback screenshot previews
+
+- Site version 89 uses commit `723874495c5e17a29bb87a26bcaaf6b397695bed` and deployment `appgdep_6aff7705959c8191ae5f7265d385b72e`.
+- All 46 suites passed. Live Chrome verified desktop hover and phone tap show the original 1600 px image, with scrolling and dismissal.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-19: Codex — Preview screenshots before submitting feedback
 
 - Attached screenshots show a thumbnail at the lower left of the feedback form. Hover to preview at original dimensions, or activate the thumbnail by touch or keyboard. Large images scroll in the preview.
