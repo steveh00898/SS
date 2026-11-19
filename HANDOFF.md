@@ -4,6 +4,7 @@ Newest entry first. Each agent adds one entry per completed task (format in AGEN
 
 ## 2026-11-19: Codex — Paste or drop a screenshot into feedback
 
+- Site version 86 failed to deploy because its archive captured an empty Worker during the regression builds. Build and validate deployment packages after the suites finish.
 - The comment box accepts clipboard images and dropped files. The feedback form shows the selected filename and lets visitors remove it. The file picker accepts the same formats.
 - The screenshot goes with the comment on Submit. Failed submissions retain both. Existing size limits, retention, and admin-only access apply.
 - Practice data: not exported (owner decision).
