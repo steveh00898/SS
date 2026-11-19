@@ -2,6 +2,12 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-19: Codex — Publish feedback paste and drag-and-drop
+
+- Site version 87 uses commit `db39663ae7971d1678b7c1f03802292a90da8389` and deployment `appgdep_6aff55633b548191aa7341f0c4424618`.
+- All 46 suites passed. Live Chrome verified Ctrl+V and dropped images attach to the comment and enter the request only on Submit.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-19: Codex — Paste or drop a screenshot into feedback
 
 - Site version 86 failed to deploy because its archive captured an empty Worker during the regression builds. Build and validate deployment packages after the suites finish.
