@@ -2,6 +2,11 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-19: Codex — Enlarge the feedback panel
+
+- The desktop feedback panel uses 25% of viewport width and 50% of viewport height. The comment box grows to fill the available space. Narrow screens get a wider panel within the viewport, with internal scrolling if needed.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-19: Codex — Publish feedback paste and drag-and-drop
 
 - Site version 87 uses commit `db39663ae7971d1678b7c1f03802292a90da8389` and deployment `appgdep_6aff55633b548191aa7341f0c4424618`.
