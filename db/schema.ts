@@ -11,4 +11,4 @@ export const publicLinkClicks=sqliteTable('public_link_clicks',{day:text('day').
 
 // Event IDs deduplicate deliveries; they are not shared visitor identifiers. No search text, URLs or error messages.
 export const publicTelemetryEvents=sqliteTable('public_telemetry_events',{eventId:text('event_id').primaryKey(),day:text('day').notNull(),type:text('type').notNull(),itemId:text('item_id'),kind:text('kind'),value:integer('value'),recordedAt:text('recorded_at')},t=>[index('public_telemetry_events_day').on(t.day)]);
-export const publicFeedback=sqliteTable('public_feedback',{id:text('id').primaryKey(),createdAt:text('created_at').notNull(),comment:text('comment').notNull(),version:text('version')},t=>[index('public_feedback_created_at').on(t.createdAt)]);
+export const publicFeedback=sqliteTable('public_feedback',{id:text('id').primaryKey(),createdAt:text('created_at').notNull(),comment:text('comment').notNull(),version:text('version'),screenshot:text('screenshot')},t=>[index('public_feedback_created_at').on(t.createdAt)]);

@@ -222,18 +222,39 @@ if(url.pathname==='/api/public-usage/events'&&request.method==='POST'){
  if(role.admin)return json({accepted:events.map(e=>e.eventId),counted:false});
  statements.push(db.prepare('DELETE FROM public_telemetry_events WHERE day < ?').bind(cutoff),db.prepare('DELETE FROM public_link_clicks WHERE day < ?').bind(cutoff));await db.batch(statements);return json({accepted:events.map(e=>e.eventId),discarded},202);
 }
+const screenshotRoute=url.pathname.match(/^\/api\/public-usage\/feedback\/([a-zA-Z0-9_-]+)\/screenshot$/);
+if(screenshotRoute&&request.method==='GET'){
+ if(!role.admin)throw fail('Only the admin can view feedback',403);
+ const row=await dbFor(env).prepare('SELECT screenshot FROM public_feedback WHERE id=? AND created_at>=?').bind(screenshotRoute[1],new Date(Date.now()-90*86400000).toISOString()).first();
+ if(!row?.screenshot)throw fail('Screenshot not found',404);
+ const [metadata,encoded]=row.screenshot.split(',');
+ return new Response(Uint8Array.from(atob(encoded),character=>character.charCodeAt(0)),{
+  headers:{'Content-Type':metadata.slice(5,-7),'X-Content-Type-Options':'nosniff','Cache-Control':'private, no-store'}
+ });
+}
 if(url.pathname==='/api/feedback'&&request.method==='POST'){
  if(request.headers.get('origin')!==url.origin)throw fail('Invalid request origin',403);
- const body=await boundedJson(request,8000);if(!body||!validPublicId(body.id)||typeof body.comment!=='string'||Object.keys(body).some(k=>!['id','comment','version'].includes(k))||(body.version!=null&&(typeof body.version!=='string'||body.version.length>80)))throw fail('Invalid feedback');
+ const body=await boundedJson(request,1410000);if(!body||!validPublicId(body.id)||typeof body.comment!=='string'||Object.keys(body).some(k=>!['id','comment','version','screenshot'].includes(k))||(body.version!=null&&(typeof body.version!=='string'||body.version.length>80)))throw fail('Invalid feedback');
  const comment=body.comment.trim();if(!comment||comment.length>1500||/[\x00-\x08\x0b\x0c\x0e-\x1f]/.test(comment))throw fail('Enter a comment of 1 to 1500 characters');
- const db=dbFor(env),now=new Date().toISOString(),recent=new Date(Date.now()-60000).toISOString();const duplicate=await db.prepare('SELECT id FROM public_feedback WHERE id = ? OR (comment = ? AND created_at >= ?) LIMIT 1').bind(body.id,comment,recent).first();if(duplicate)return json({received:true});
- await db.batch([db.prepare('INSERT OR IGNORE INTO public_feedback (id,created_at,comment,version) VALUES (?,?,?,?)').bind(body.id,now,comment,typeof body.version==='string'&&body.version.trim()?body.version.trim():null),db.prepare('DELETE FROM public_feedback WHERE created_at < ?').bind(new Date(Date.now()-90*86400000).toISOString())]);return json({received:true},201);
+ const screenshot=body.screenshot??null;
+ if(screenshot!==null){
+  const match=typeof screenshot==='string'&&screenshot.match(/^data:image\/(png|jpeg|webp);base64,([A-Za-z0-9+/]+={0,2})$/);
+  if(!match)throw fail('Choose a PNG, JPEG, or WebP screenshot');
+  let bytes;
+  try{bytes=atob(match[2]);}catch{throw fail('Invalid screenshot');}
+  if(bytes.length>1048576)throw fail('Screenshot must be 1 MB or smaller',413);
+  const valid=match[1]==='png'?bytes.startsWith('\x89PNG\r\n\x1a\n'):
+   match[1]==='jpeg'?bytes.startsWith('\xff\xd8\xff'):bytes.startsWith('RIFF')&&bytes.slice(8,12)==='WEBP';
+  if(!valid)throw fail('Invalid screenshot');
+ }
+ const db=dbFor(env),now=new Date().toISOString(),recent=new Date(Date.now()-60000).toISOString();const duplicate=await db.prepare('SELECT id FROM public_feedback WHERE id = ? OR (comment = ? AND created_at >= ? AND screenshot IS ?) LIMIT 1').bind(body.id,comment,recent,screenshot).first();if(duplicate)return json({received:true});
+ await db.batch([db.prepare('INSERT OR IGNORE INTO public_feedback (id,created_at,comment,version,screenshot) VALUES (?,?,?,?,?)').bind(body.id,now,comment,typeof body.version==='string'&&body.version.trim()?body.version.trim():null,screenshot),db.prepare('DELETE FROM public_feedback WHERE created_at < ?').bind(new Date(Date.now()-90*86400000).toISOString())]);return json({received:true},201);
 }
 if(url.pathname==='/api/public-usage/feedback'&&request.method==='GET'){
  if(!role.admin)throw fail('Only the admin can view feedback',403);
  const days=Number(url.searchParams.get('days')||30);if(![7,30,90].includes(days))throw fail('Invalid feedback period');
  const from=new Date(Date.now()-(days-1)*86400000).toISOString().slice(0,10)+'T00:00:00.000Z',to=new Date().toISOString().slice(0,10)+'T23:59:59.999Z';
- const {results:feedback}=await dbFor(env).prepare('SELECT created_at AS at,comment,version FROM public_feedback WHERE created_at >= ? AND created_at <= ? ORDER BY created_at DESC,id DESC').bind(from,to).all();
+ const {results:feedback}=await dbFor(env).prepare("SELECT created_at AS at,comment,version,CASE WHEN screenshot IS NOT NULL THEN '/api/public-usage/feedback/' || id || '/screenshot' END AS screenshotUrl FROM public_feedback WHERE created_at >= ? AND created_at <= ? ORDER BY created_at DESC,id DESC").bind(from,to).all();
  return json({feedback});
 }
 if(url.pathname==='/api/public-usage'&&request.method==='GET'){
@@ -252,7 +273,7 @@ if(url.pathname==='/api/public-usage'&&request.method==='GET'){
  const timing=await db.prepare("WITH ranked AS (SELECT t.value AS ms, ROW_NUMBER() OVER (ORDER BY t.value) AS rn,COUNT(*) OVER () AS n FROM public_telemetry_events t LEFT JOIN items i ON i.id=t.item_id WHERE t.day >= ? AND t.day <= ? AND t.type='link_click' AND t.value IS NOT NULL AND (? = '' OR json_extract(i.data,'$.category') = ?) AND (? = 'all' OR t.kind = ?)) SELECT COALESCE(MAX(n),0) AS samples,AVG(CASE WHEN rn=CAST((n+1)/2 AS INTEGER) OR rn=CAST((n+2)/2 AS INTEGER) THEN ms END) AS medianMs,MAX(CASE WHEN rn=CAST((n*9+9)/10 AS INTEGER) THEN ms END) AS p90Ms FROM ranked").bind(from,to,category,category,kind,kind).first();
  const {results:dailyTiming}=await db.prepare("WITH ranked AS (SELECT t.day,t.value AS ms,ROW_NUMBER() OVER (PARTITION BY t.day ORDER BY t.value) AS rn,COUNT(*) OVER (PARTITION BY t.day) AS n FROM public_telemetry_events t LEFT JOIN items i ON i.id=t.item_id WHERE t.day >= ? AND t.day <= ? AND t.type='link_click' AND t.value IS NOT NULL AND (? = '' OR json_extract(i.data,'$.category') = ?) AND (? = 'all' OR t.kind = ?)) SELECT day,MAX(n) AS samples,AVG(CASE WHEN rn=CAST((n+1)/2 AS INTEGER) OR rn=CAST((n+2)/2 AS INTEGER) THEN ms END) AS medianMs,MAX(CASE WHEN rn=CAST((n*9+9)/10 AS INTEGER) THEN ms END) AS p90Ms FROM ranked GROUP BY day ORDER BY day").bind(from,to,category,category,kind,kind).all();
  const {results:health}=await db.prepare("SELECT type,COUNT(*) AS events,SUM(value) AS value FROM public_telemetry_events WHERE day >= ? AND day <= ? AND type != 'link_click' GROUP BY type").bind(from,to).all();
- const {results:feedback}=await db.prepare('SELECT created_at AS at,comment,version FROM public_feedback WHERE created_at >= ? AND created_at <= ? ORDER BY created_at DESC,id DESC LIMIT 10').bind(from+'T00:00:00.000Z',to+'T23:59:59.999Z').all();
+ const {results:feedback}=await db.prepare("SELECT created_at AS at,comment,version,CASE WHEN screenshot IS NOT NULL THEN '/api/public-usage/feedback/' || id || '/screenshot' END AS screenshotUrl FROM public_feedback WHERE created_at >= ? AND created_at <= ? ORDER BY created_at DESC,id DESC LIMIT 10").bind(from+'T00:00:00.000Z',to+'T23:59:59.999Z').all();
  const {results:comparisonDaily}=await db.prepare("SELECT day,COUNT(*) AS uses FROM public_telemetry_events WHERE day >= ? AND day <= ? AND type = 'compare' GROUP BY day ORDER BY day").bind(from,to).all();
  return json({days,from,to,rows,daily,timing,dailyTiming,health,feedback,comparisons:{uses:comparisonDaily.reduce((sum,r)=>sum+Number(r.uses),0),daily:comparisonDaily}});
 }

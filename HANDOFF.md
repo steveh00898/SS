@@ -2,6 +2,12 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-19: Codex — Add optional screenshots to feedback
+
+- Public feedback accepts one optional PNG, JPEG, or WebP screenshot up to 1 MB with a comment. A failed submission preserves both fields for retry.
+- Admins can open the attachment from recent feedback or View all comments. The screenshot shares the comment's 90-day retention. Migration 0007 adds a nullable screenshot column for existing feedback.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-17: Codex — Publish the Product Spec and ISV dialog update
 
 - Site: version 84 from commit `4f973ef2dd8ce703ea4a15521082e8b4a59d4e3a`, deployment `appgdep_6afcff3234748191835739747a26ece7`.
