@@ -2,6 +2,12 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-23: Codex — Publish the Sunny gray elliptical SKU correction
+
+- Site version 91 uses commit `b711ab3cf554142c45c6df40e5188daee4f18115` and deployment `appgdep_6b04c7b57be88191bd4f0132d9b7ad24`.
+- All 46 suites passed. Live Chrome verified that the gray model displays and copies `SF-E326015GY`, both spellings still find it in the app, and the white variant is separate.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-23: Codex — Align the gray elliptical SKU with Sunny search
 
 - Reviewed 212 app SKUs with final suffix hyphens. The gray elliptical was the one confirmed Sunny search miss resolved by removing that hyphen. Sunny returned zero results for `SF-E326015-GY` and the correct gray product for `SF-E326015GY`.
