@@ -2,6 +2,12 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-23: Codex — Keep all keyword matches when pressing Enter
+
+- Enter closes the catalog search suggestions and keeps the typed query and matching rows. Enter with an arrow-key selection and clicking a suggestion still open a single product.
+- The browser regression test checks that entering `rack` preserves multiple rows, the query, and the closed suggestion state.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-19: Codex — Publish feedback screenshot previews
 
 - Site version 89 uses commit `723874495c5e17a29bb87a26bcaaf6b397695bed` and deployment `appgdep_6aff7705959c8191ae5f7265d385b72e`.
