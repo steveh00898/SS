@@ -2,6 +2,17 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-23: Codex — Align the gray elliptical SKU with Sunny search
+
+- Reviewed 212 app SKUs with final suffix hyphens. The gray elliptical was the one confirmed Sunny search miss resolved by removing that hyphen. Sunny returned zero results for `SF-E326015-GY` and the correct gray product for `SF-E326015GY`.
+- Sunny's product variant data identifies `SF-E326015GY` as Gray and `SF-E326015WT` as White. The migration updates only the gray model's SKU on the existing record. The previous spelling remains in historical workbook and import evidence.
+- Practice data: not exported (owner decision).
+
+## 2026-11-23: Codex — Publish the catalog search Enter-key fix
+
+- Site version 90 uses commit `edbb5b6d7606b8aac129aa18d8dee1992bbfb73f` and deployment `appgdep_6b04c479762881919004cc08c07e43a8`.
+- All 46 suites passed. Live Chrome verified that typing `rack` and pressing Enter preserves all 39 matches, and an arrow-key selection still opens one product.
+
 ## 2026-11-23: Codex — Keep all keyword matches when pressing Enter
 
 - Enter closes the catalog search suggestions and keeps the typed query and matching rows. Enter with an arrow-key selection and clicking a suggestion still open a single product.
