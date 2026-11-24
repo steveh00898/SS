@@ -64,6 +64,13 @@
       "when": 1795474560000,
       "tag": "0008_gray_elliptical_sku",
       "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "6",
+      "when": 1795564800000,
+      "tag": "0009_verified_product_links",
+      "breakpoints": true
     }
   ]
 }

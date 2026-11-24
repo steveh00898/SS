@@ -1,0 +1,146 @@
+{
+  "checkedOn": "2026-11-24",
+  "catalogRows": 886,
+  "blankLinksBefore": 437,
+  "method": "Unique exact Sunny storefront variant SKU from official product JSON",
+  "links": [
+    {
+      "id": "off-sunny-7150",
+      "sku": "7150",
+      "variant": "16470568927322",
+      "url": "https://sunnyhealthfitness.com/products/asuna-7150-minotaur-cycle-exercise-bike-magnetic-belt-drive-high-weight-capacity-commercial-indoor-cycling-bike?variant=16470568927322"
+    },
+    {
+      "id": "off-sunny-8730",
+      "sku": "8730",
+      "variant": "16470569123930",
+      "url": "https://sunnyhealthfitness.com/products/asuna-8730-space-saving-treadmill-motorized-low-profile-slim-folding?variant=16470569123930"
+    },
+    {
+      "id": "off-sunny-8730g",
+      "sku": "8730G",
+      "variant": "16470571352154",
+      "url": "https://sunnyhealthfitness.com/products/asuna-8730g-space-saving-treadmill-motorized-with-speakers-for-aux-audio-connection?variant=16470571352154"
+    },
+    {
+      "id": "off-sunny-cb110",
+      "sku": "CB110",
+      "variant": "53173624832364",
+      "url": "https://sunnyhealthfitness.com/products/advanced-cadence-rpm-speed-sensor-for-indoor-and-outdoor-bikes-cb110?variant=53173624832364"
+    },
+    {
+      "id": "off-sunny-no-025",
+      "sku": "NO. 025",
+      "variant": "16470572826714",
+      "url": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-no-025-doorway-chin-up-bar?variant=16470572826714"
+    },
+    {
+      "id": "off-sunny-no-074-l",
+      "sku": "NO. 074-L",
+      "variant": "30892907266138",
+      "url": "https://sunnyhealthfitness.com/products/treadmill-floor-mat-1?variant=30892907266138"
+    },
+    {
+      "id": "off-sunny-no-077gr",
+      "sku": "NO. 077GR",
+      "variant": "52790690578796",
+      "url": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-no-077-upright-row-n-ride-rowing-machine?variant=52790690578796"
+    },
+    {
+      "id": "off-sunny-no-083",
+      "sku": "NO. 083",
+      "variant": "30892907200602",
+      "url": "https://sunnyhealthfitness.com/products/treadmill-floor-mat-1?variant=30892907200602"
+    },
+    {
+      "id": "off-sunny-no-084",
+      "sku": "NO. 084",
+      "variant": "16470583115866",
+      "url": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-no-084-wood-plyo-box-with-removable-foam-cover-500lb-weight-capacity-and-3-in-1-height-adjustment-302420-for-crossfit-training-and-plyometric-conditioning?variant=16470583115866"
+    },
+    {
+      "id": "off-sunny-no-120-bu",
+      "sku": "NO. 120-BU",
+      "variant": "68197581488492",
+      "url": "https://sunnyhealthfitness.com/products/balance-board-wobble-board-no-120?variant=68197581488492"
+    },
+    {
+      "id": "off-sunny-p2610",
+      "sku": "P2610",
+      "variant": "68077674692972",
+      "url": "https://sunnyhealthfitness.com/products/smart-compact-full-motion-hydraulic-rowing-machine-sf-rw5639smartgy?variant=68077674692972"
+    },
+    {
+      "id": "off-sunny-sf-a023047",
+      "sku": "SF-A023047",
+      "variant": "51981540295020",
+      "url": "https://sunnyhealthfitness.com/products/portable-ab-crunch-assisted-trainer-sf-a023047?variant=51981540295020"
+    },
+    {
+      "id": "off-sunny-sf-b122061",
+      "sku": "SF-B122061",
+      "variant": "40377290981466",
+      "url": "https://sunnyhealthfitness.com/products/prime-magnetic-belt-drive-indoor-cycling-bike-sf-b122061?variant=40377290981466"
+    },
+    {
+      "id": "off-sunny-sf-b1709",
+      "sku": "SF-B1709",
+      "variant": "16470593896538",
+      "url": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-sf-b1709-magnetic-belt-rear-drive-indoor-cycling-bike-high-weight-capacity-with-cadence-sensor-and-pulse-rate-monitor?variant=16470593896538"
+    },
+    {
+      "id": "off-sunny-sf-b1714",
+      "sku": "SF-B1714",
+      "variant": "16470593994842",
+      "url": "https://sunnyhealthfitness.com/products/sunny-health-and-fitness-sf-b1714-evolution-pro-magnetic-belt-drive-indoor-cycling-bike-high-weight-capacity-heavy-duty-flywheel?variant=16470593994842"
+    },
+    {
+      "id": "off-sunny-sf-b224027",
+      "sku": "SF-B224027",
+      "variant": "68128110018924",
+      "url": "https://sunnyhealthfitness.com/products/tornado-smart-advanced-air-resistance-bike-sf-b224027?variant=68128110018924"
+    },
+    {
+      "id": "off-sunny-sf-e326015-gy",
+      "sku": "SF-E326015GY",
+      "variant": "68215934484844",
+      "url": "https://sunnyhealthfitness.com/products/smart-under-desk-motorized-elliptical-with-e-stim-pulse-stimulation-sf-e326015?variant=68215934484844"
+    },
+    {
+      "id": "off-sunny-sf-e326015wt",
+      "sku": "SF-E326015WT",
+      "variant": "68214202138988",
+      "url": "https://sunnyhealthfitness.com/products/smart-under-desk-motorized-elliptical-with-e-stim-pulse-stimulation-sf-e326015?variant=68214202138988"
+    },
+    {
+      "id": "off-sunny-sf-e3872",
+      "sku": "SF-E3872",
+      "variant": "17003155619930",
+      "url": "https://sunnyhealthfitness.com/products/magnetic-under-desk-elliptical-peddler-exerciser-sf-e3872?variant=17003155619930"
+    },
+    {
+      "id": "off-sunny-sf-rw5639smartgy",
+      "sku": "SF-RW5639SMARTGY",
+      "variant": "68077659226476",
+      "url": "https://sunnyhealthfitness.com/products/smart-compact-full-motion-hydraulic-rowing-machine-sf-rw5639smartgy?variant=68077659226476"
+    },
+    {
+      "id": "off-sunny-sf-t7515smart",
+      "sku": "SF-T7515SMART",
+      "variant": "40300682641498",
+      "url": "https://sunnyhealthfitness.com/products/premium-smart-treadmill-with-auto-incline-sf-t7515smart?variant=40300682641498"
+    },
+    {
+      "id": "off-sunny-sf-xf924016",
+      "sku": "SF-XF924016",
+      "variant": "41419852349530",
+      "url": "https://sunnyhealthfitness.com/products/multi-function-power-tower-with-dip-station-pull-up-bar-and-core-workout-sf-xf924016?variant=41419852349530"
+    },
+    {
+      "id": "off-sunny-sf-xfa008",
+      "sku": "SF-XFA008",
+      "variant": "40337995792474",
+      "url": "https://sunnyhealthfitness.com/products/adjustable-multi-function-dip-station-core-workout-attachment-sf-xfa008?variant=40337995792474"
+    }
+  ]
+}

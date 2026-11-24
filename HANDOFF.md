@@ -2,6 +2,12 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-24: Codex — Backfill verified Sunny product links
+
+- Added 23 exact official variant links to blank SKU links, including gray SF-E326015GY and white SF-E326015WT. The guarded D1 migration preserves existing links, SKU spellings, and other product data.
+- Recorded the exact variant IDs and URLs in data/off-sunny-web/verified-product-links-20261124.json. Sunny rate-limited the audit, so the other 414 blank entries still need verification.
+- Practice data: not exported (owner decision).
+
 ## 2026-11-23: Codex — Publish the Sunny gray elliptical SKU correction
 
 - Site version 91 uses commit `b711ab3cf554142c45c6df40e5188daee4f18115` and deployment `appgdep_6b04c7b57be88191bd4f0132d9b7ad24`.

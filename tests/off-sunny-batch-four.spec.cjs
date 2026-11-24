@@ -1,5 +1,6 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),{execFileSync}=require('node:child_process'),{pathToFileURL}=require('node:url');
 const read=f=>JSON.parse(fs.readFileSync(__dirname+'/../'+f,'utf8'));
+const backfilledLinks=new Map(read('data/off-sunny-web/verified-product-links-20261124.json').links.map(link=>[link.id,link.url]));
 const MODEL=s=>String(s).toUpperCase().replace(/[^A-Z0-9]/g,'');
 (async()=>{
  const archive=read('data/off-sunny-web/items.json'),batch=archive.filter(r=>r.importBatch==='v3-batch-4'),older=archive.filter(r=>!['v3-batch-4','v3-batch-5','us-mastersheet-v1-missing','isv-shf-gap-20261111'].includes(r.importBatch));
@@ -19,7 +20,7 @@ const MODEL=s=>String(s).toUpperCase().replace(/[^A-Z0-9]/g,'');
   assert(!/^(item name|pending|tba|date\s*:)/i.test(r.name),'descriptive name: '+r.sku);
   for(const [k,v]of Object.entries(r.specDetails.values)){assert(!/[一-鿿]/.test(v),'English value: '+r.sku+' '+k);assert(!/^if no\b|^(MIN|MAX|PENDING)\s*[:?.]*$/i.test(v.trim()),'no form prompt: '+r.sku+' '+k);assert(!/^(supplier|factory|vendor|cost|fob|moq)/i.test(k),'no internal field: '+k);}
   // Resources are recorded as found, and only from an exact-model page.
-  assert.equal(r.url,e.productUrl||'');if(r.url)assert.match(r.url,/^https:\/\/sunnyhealthfitness\.com\/products\/.+\?variant=\d+$/);
+  assert.equal(r.url,e.productUrl||backfilledLinks.get(r.id)||'');if(r.url)assert.match(r.url,/^https:\/\/sunnyhealthfitness\.com\/products\/.+\?variant=\d+$/);
   const links=r.resourceLinks;assert.equal(links.verificationStatus,'verified');
   if(links.manualUrl){assert.match(links.manualUrl,/\.pdf/i);assert.equal(links.manualPage,e.guidePage);assert(e.evidence.some(x=>x.guideHeading&&MODEL(x.guideHeading).startsWith(MODEL(r.sku))),'manual from exact guide: '+r.sku)}
   if(links.assemblyUrl)assert.match(links.assemblyUrl,/^https:\/\/www\.youtube\.com\/watch\?v=/);
