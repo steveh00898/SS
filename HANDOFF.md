@@ -2,6 +2,12 @@
 
 Newest entry first. Each agent adds one entry per completed task (format in AGENTS.md); older entries are never rewritten.
 
+## 2026-11-24: Codex — Publish the verified Sunny product links
+
+- Site version 92 uses commit `a485b0ad8fd0ecf562911140c75852662e533e38` and deployment `appgdep_6b05c3272d8881919e8d1ace8db5ea3f`.
+- All 47 suites passed and desktop and phone screenshots rendered. The live catalog returned all 23 URLs, and live Chrome verified the gray SKU anchor goes to the requested variant. All 23 exact Sunny URLs returned HTTP 200.
+- Claude Artifact: awaiting Claude Code sync. Practice data: not exported (owner decision).
+
 ## 2026-11-24: Codex — Backfill verified Sunny product links
 
 - Added 23 exact official variant links to blank SKU links, including gray SF-E326015GY and white SF-E326015WT. The guarded D1 migration preserves existing links, SKU spellings, and other product data.
